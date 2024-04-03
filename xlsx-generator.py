@@ -24,8 +24,9 @@ def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, manual_lo
     user = os.getenv("STAG_USER")
     password = os.getenv("STAG_PASSWORD")
 
-    if user == "" or password == "":
-        auth = login_correction(manual_login)
+    #if user == "" or password == "":
+        #auth = login_correction(manual_login)
+    auth = None
 
     data = requests.get(url, params=params, cookies=cookies, auth=auth)
 
@@ -48,39 +49,39 @@ def login_correction(manual_login:tuple): #Testování, zda tuple má dva prvky 
     
     return auth
 
-import polars as pl
+def main():
+    import polars as pl
 
-# Testovací data
-params_rozvrh = {
-    "stagUser":"F23112",
-    "semestr":"%",
-    "vsechnyCasyKonani":"true",
-    "jenRozvrhoveAkce":"false",
-    "vsechnyAkce":"false",
-    "jenBudouciAkce":"true",
-    "lang":"cs",
-    "katedra":"KI",
-    "rok":"2023"
-}
-params_predmety = {
-    "lang":"cs",
-    "katedra":"KI",
-    "jenNabizeneECTSPrijezdy":"false",
-    "rok":"2023"
-}
+    # Testovací data
+    # DATA REDIGOVÁNA (nebudu se doxovat)
+    params_rozvrh = {
+        "stagUser":None,
+        "semestr":"%",
+        "vsechnyCasyKonani":"true",
+        "jenRozvrhoveAkce":"false",
+        "vsechnyAkce":"false",
+        "jenBudouciAkce":"true",
+        "lang":"cs",
+        "katedra":"KI",
+        "rok":"2023"
+    }
+    params_predmety = {
+        "lang":"cs",
+        "katedra":"KI",
+        "jenNabizeneECTSPrijezdy":"false",
+        "rok":"2023"
+    }
 
-import polars as pl
+    ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
+    auth = None
 
-ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
-auth = None
+    # Excel rozvrhy funguje jen s validním přihlášením
+    excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
+    excel_rozvrhy.write_excel("getRozvrhByKatedra-2023-03-15-17-47.xlsx")
 
-# Excel rozvrhy funguje jen s validním přihlášením
-excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-excel_rozvrhy.write_excel("getRozvrhByKatedra-2023-03-15-17-47.xlsx")
-
-# Excel předměty funguje i bez přihlášení
-excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
-excel_predmety.write_excel("getPredmetyByKatedraFullInfo-2023-03-15-17-40.xlsx")
+    # Excel předměty funguje i bez přihlášení
+    excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
+    excel_predmety.write_excel("getPredmetyByKatedraFullInfo-2023-03-15-17-40.xlsx")
 
 
 
