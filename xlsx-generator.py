@@ -24,9 +24,10 @@ def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, manual_lo
     user = os.getenv("STAG_USER")
     password = os.getenv("STAG_PASSWORD")
 
-    #if user == "" or password == "":
-        #auth = login_correction(manual_login)
-    auth = None
+    if user == None or password == None:
+        auth = login_correction(manual_login)
+    else:
+        auth = (user, password)
 
     data = requests.get(url, params=params, cookies=cookies, auth=auth)
 
@@ -55,7 +56,7 @@ def main():
     # Testovací data
     # DATA REDIGOVÁNA (nebudu se doxovat)
     params_rozvrh = {
-        "stagUser":None,
+        "stagUser": "F23112",
         "semestr":"%",
         "vsechnyCasyKonani":"true",
         "jenRozvrhoveAkce":"false",
@@ -73,15 +74,17 @@ def main():
     }
 
     ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
-    auth = None
+    auth = ("st101885", "x0301093100")
 
+    # Side note: Obecně čtení v pythonu se silně nelíbí když neexistujicí složky kam maj chodit...
     # Excel rozvrhy funguje jen s validním přihlášením
     excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-    excel_rozvrhy.write_excel("getRozvrhByKatedra-2023-03-15-17-47.xlsx")
+    excel_rozvrhy.write_excel("source_tables/getRozvrhByKatedra-2023-03-15-17-47.xlsx")
 
     # Excel předměty funguje i bez přihlášení
     excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
-    excel_predmety.write_excel("getPredmetyByKatedraFullInfo-2023-03-15-17-40.xlsx")
+    excel_predmety.write_excel("source_tables/getPredmetyByKatedraFullInfo-2023-03-15-17-40.xlsx")
 
-
+if __name__ == '__main__':
+    main()
 
