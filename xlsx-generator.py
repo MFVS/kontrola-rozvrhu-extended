@@ -79,11 +79,11 @@ def main():
     # Side note: Obecně čtení v pythonu se silně nelíbí když neexistujicí složky kam maj chodit...
     # Excel rozvrhy funguje jen s validním přihlášením
     excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-    excel_rozvrhy.write_excel("source_tables/getRozvrhByKatedra-2023-03-15-17-47.xlsx")
+    excel_rozvrhy.write_csv("source_tables/getRozvrhByKatedra-2023-03-15-17-47.csv")
 
     # Excel předměty funguje i bez přihlášení
     excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
-    excel_predmety.write_excel("source_tables/getPredmetyByKatedraFullInfo-2023-03-15-17-40.xlsx")
+    excel_predmety.write_csv("source_tables/getPredmetyByKatedraFullInfo-2023-03-15-17-40.csv")
 
 if __name__ == '__main__':
     main()
