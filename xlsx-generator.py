@@ -56,7 +56,7 @@ def main():
     # Testovací data
     # DATA REDIGOVÁNA (nebudu se doxovat)
     params_rozvrh = {
-        "stagUser": "F23112",
+        "stagUser": None,
         "semestr":"%",
         "vsechnyCasyKonani":"true",
         "jenRozvrhoveAkce":"false",
@@ -74,7 +74,7 @@ def main():
     }
 
     ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
-    auth = ("st101885", "x0301093100")
+    auth = None
 
     # Side note: Obecně čtení v pythonu se silně nelíbí když neexistujicí složky kam maj chodit...
     # Excel rozvrhy funguje jen s validním přihlášením
