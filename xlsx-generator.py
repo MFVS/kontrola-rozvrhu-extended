@@ -58,10 +58,10 @@ def main():
     params_rozvrh = {
         "stagUser": None,
         "semestr":"%",
-        "vsechnyCasyKonani":"true",
-        "jenRozvrhoveAkce":"false",
+        "vsechnyCasyKonani":"false",
+        "jenRozvrhoveAkce":"true",
         "vsechnyAkce":"false",
-        "jenBudouciAkce":"true",
+        "jenBudouciAkce":"false",
         "lang":"cs",
         "katedra":"KI",
         "rok":"2023"
@@ -79,11 +79,14 @@ def main():
     # Side note: Obecně čtení v pythonu se silně nelíbí když neexistujicí složky kam maj chodit...
     # Excel rozvrhy funguje jen s validním přihlášením
     excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-    excel_rozvrhy.write_csv("source_tables/getRozvrhByKatedra-2023-03-15-17-47.csv")
+    excel_rozvrhy.write_csv("source_tables/rozvrh_katedry.csv")
 
     # Excel předměty funguje i bez přihlášení
     excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
-    excel_predmety.write_csv("source_tables/getPredmetyByKatedraFullInfo-2023-03-15-17-40.csv")
+    excel_predmety.write_csv("source_tables/predmety_katedry.csv")
+
+    excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}, ticket=ticket, manual_login=auth), separator=";")
+    excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
 
 if __name__ == '__main__':
     main()
