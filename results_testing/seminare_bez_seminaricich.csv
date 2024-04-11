@@ -1,12 +1,118 @@
-zkratka,idno,typAkceZkr,rok,nazev,zkratka_right,seminariciUcitIdno,jmena
-SP3,,Se,2023,,,,
-PAP,9292,Se,2023,,,,
-0204,,Se,2023,,,,
-KPYR,,Se,2023,,,,
-KPS2,5958,Se,2023,,,,
-KPRI,9642,Se,2023,,,,
-LTP,,Se,2023,,,,
-KLTP,,Se,2023,,,,
-KSYS,,Se,2023,,,,
-SP1,,Se,2023,,,,
-PS2,5958,Se,2023,,,,
+zkratka,idno,typAkceZkr,rok,datum,hodinaSkutOd,hodinaSkutDo,katedra,nazev,seminarici,seminariciUcitIdno,jmena
+0201,2317,Se,2023,24.4.2024,12:00,13:50,,,,,"Kuba Pavel, Ing. Ph.D."
+0201,2317,Se,2023,15.5.2024,12:00,13:50,,,,,"Kuba Pavel, Ing. Ph.D."
+0201,2317,Se,2023,17.4.2024,12:00,13:50,,,,,"Kuba Pavel, Ing. Ph.D."
+0204,,Se,2023,23.4.2024,15:00,16:50,,,,,
+0204,,Se,2023,30.4.2024,15:00,15:50,,,,,
+0204,,Se,2023,7.5.2024,15:00,16:50,,,,,
+0204,,Se,2023,16.4.2024,15:00,15:50,,,,,
+0204,,Se,2023,14.5.2024,15:00,15:50,,,,,
+DIPL2,251,Se,2023,16.4.2024,15:00,15:50,,,,,"Fišer Jiří, Mgr. Ph.D."
+DPS2,2220,Se,2023,24.4.2024,19:00,19:50,KI,Diplomový seminář II,"'Mgr. Jiří Fišer, Ph.D.'",251,"Škvor Jiří, RNDr. Ph.D."
+DPS2,2220,Se,2023,17.4.2024,19:00,19:50,KI,Diplomový seminář II,"'Mgr. Jiří Fišer, Ph.D.'",251,"Škvor Jiří, RNDr. Ph.D."
+KAFJ,449,Se,2023,"",00:00,00:00,KI,Teorie automatů a formálních jazyků,"",,"Barilla Jiří, doc. Ing. Mgr. CSc."
+KAPR1,6259,Se,2023,"",00:00,00:00,KI,Algoritmizace a programování I,"",,"Škvára Jiří, RNDr. Ph.D."
+KAPR2,6259,Se,2023,"",00:00,00:00,KI,Algoritmizace a programování II,"",,"Škvára Jiří, RNDr. Ph.D."
+KCSY,1780,Se,2023,"",00:00,00:00,KI,Číslicové systémy,"",,"Haberzettl Petr, Ing."
+KDI2,2776,Se,2023,10.5.2024,13:00,13:50,KI,Didaktika informatiky II,"",,"Krejčí Jan, RNDr. Ph.D."
+KDI2,2776,Se,2023,10.5.2024,16:00,16:50,KI,Didaktika informatiky II,"",,"Krejčí Jan, RNDr. Ph.D."
+KDIB,2776,Se,2023,11.5.2024,09:00,10:50,KI,Datová a informační bezpečnost,"",,"Krejčí Jan, RNDr. Ph.D."
+KDINB,2776,Se,2023,11.5.2024,09:00,10:50,KI,Datová a informační bezpečnost,"",,"Krejčí Jan, RNDr. Ph.D."
+KDIP1,2220,Se,2023,"",00:00,00:00,,,,,"Škvor Jiří, RNDr. Ph.D."
+KDIP1,251,Se,2023,"",00:00,00:00,,,,,"Fišer Jiří, Mgr. Ph.D."
+KDIS,6973,Se,2023,"",00:00,00:00,,,,,"Beránek Pavel, Ing. Mgr."
+KDPS1,2220,Se,2023,"",00:00,00:00,KI,Diplomový seminář I,"'Mgr. Jiří Fišer, Ph.D.'",251,"Škvor Jiří, RNDr. Ph.D."
+KITP,2776,Se,2023,18.5.2024,16:00,17:50,KI,Internetové technologie a protokoly,"",,"Krejčí Jan, RNDr. Ph.D."
+KLTP,,Se,2023,"",00:00,00:00,KI,Linuxové technologie v praxi,"",,
+KMSW,6973,Se,2023,"",00:00,00:00,,,,,"Beránek Pavel, Ing. Mgr."
+KOAN,9114,Se,2023,"",00:00,00:00,,,,,"Moosaei Hossein, Dr. Ph.D."
+KODT,2220,Se,2023,"",00:00,00:00,,,,,"Škvor Jiří, RNDr. Ph.D."
+KODT,251,Se,2023,"",00:00,00:00,,,,,"Fišer Jiří, Mgr. Ph.D."
+KODT,6973,Se,2023,"",00:00,00:00,,,,,"Beránek Pavel, Ing. Mgr."
+KOONV,6973,Se,2023,"",00:00,00:00,KI,Objektově orientované návrhové vzory,"",,"Beránek Pavel, Ing. Mgr."
+KOPR,650,Se,2023,"",00:00,00:00,,,,,"Kubera Petr, RNDr. Ph.D."
+KOPS,1165,Se,2023,"",00:00,00:00,KI,Operační systémy,"",,"Balín Kamil, Mgr."
+KOTT,650,Se,2023,13.4.2024,12:00,12:50,KI,Optimalizace,"",,"Kubera Petr, RNDr. Ph.D."
+KOTT,9114,Se,2023,11.5.2024,15:00,15:50,KI,Optimalizace,"",,"Moosaei Hossein, Dr. Ph.D."
+KPAR,3521,Se,2023,"",00:00,00:00,KI,Parallel Programming,"",,"Posel Zbyšek, doc. RNDr. Ph.D."
+KPNUM,650,Se,2023,"",00:00,00:00,KI,Pokročilé numerické metody,"",,"Kubera Petr, RNDr. Ph.D."
+KPRI,9642,Se,2023,"",00:00,00:00,KI,Programování pro internet,"",,"Burle Jan, Ing. Ph.D."
+KPS2,5958,Se,2023,"",00:00,00:00,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Svoboda Martin, Mgr. Ph.D."
+KPYR,,Se,2023,"",00:00,00:00,KI,Python and R for Data Science,"",,
+KRDBS,835,Se,2023,"",00:00,00:00,KI,Relační databázové systémy,"",,"Sýkorová Květuše, Mgr."
+KROB,2776,Se,2023,12.5.2024,09:00,10:50,,,,,"Krejčí Jan, RNDr. Ph.D."
+KROB,2776,Se,2023,21.4.2024,14:00,16:50,,,,,"Krejčí Jan, RNDr. Ph.D."
+KSBP1,2220,Se,2023,"",00:00,00:00,KI,Seminář k bakalářské práci I,"'Mgr. Jiří Fišer, Ph.D.'",251,"Škvor Jiří, RNDr. Ph.D."
+KSBP2,2220,Se,2023,"",00:00,00:00,KI,Seminář k bakalářské práci II,"'Mgr. Jiří Fišer, Ph.D.'",251,"Škvor Jiří, RNDr. Ph.D."
+KSOC,6973,Se,2023,"",00:00,00:00,KI,Soft Computing,"",,"Beránek Pavel, Ing. Mgr."
+KSP2,6259,Se,2023,24.4.2024,13:00,14:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+KSP2,6259,Se,2023,17.4.2024,17:00,18:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+KSP2,6259,Se,2023,17.4.2024,13:00,14:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+KSP2,6259,Se,2023,24.4.2024,17:00,18:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+KSP2,6259,Se,2023,15.5.2024,13:00,14:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+KSP2,6259,Se,2023,15.5.2024,17:00,18:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+KSYS,,Se,2023,"",00:00,00:00,KI,System Simulation,"",,
+KTZI2,267,Se,2023,12.5.2024,11:00,12:50,KI,Teoretické základy informatiky II,"",,"Přibyl Jiří, PhDr. Ph.D."
+KURDB,835,Se,2023,"",00:00,00:00,KI,Úvod do relačních databází,"",,"Sýkorová Květuše, Mgr."
+KURDB,251,Se,2023,"",00:00,00:00,KI,Úvod do relačních databází,"",,"Fišer Jiří, Mgr. Ph.D."
+KZEK,2220,Se,2023,"",00:00,00:00,,,,,"Škvor Jiří, RNDr. Ph.D."
+KZEL,1780,Se,2023,"",00:00,00:00,KI,Základy elektroniky,"",,"Haberzettl Petr, Ing."
+KZKB,835,Se,2023,"",00:00,00:00,KI,Základy kyberbezpečnosti,"",,"Sýkorová Květuše, Mgr."
+LTP,,Se,2023,"",00:00,00:00,KI,Linuxové technologie v praxi,"",,
+MSW,2317,Se,2023,12.4.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,2317,Se,2023,17.5.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,2317,Se,2023,10.5.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,2317,Se,2023,19.4.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,2317,Se,2023,16.4.2024,08:00,09:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,2317,Se,2023,23.4.2024,08:00,09:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,3521,Se,2023,15.4.2024,09:00,10:50,,,,,"Posel Zbyšek, doc. RNDr. Ph.D."
+MSW,2317,Se,2023,7.5.2024,08:00,09:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,3521,Se,2023,6.5.2024,09:00,10:50,,,,,"Posel Zbyšek, doc. RNDr. Ph.D."
+MSW,2317,Se,2023,14.5.2024,08:00,09:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,3521,Se,2023,13.5.2024,09:00,10:50,,,,,"Posel Zbyšek, doc. RNDr. Ph.D."
+MSW,2317,Se,2023,26.4.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,2317,Se,2023,30.4.2024,08:00,09:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,2317,Se,2023,3.5.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
+MSW,3521,Se,2023,22.4.2024,09:00,10:50,,,,,"Posel Zbyšek, doc. RNDr. Ph.D."
+MSW,3521,Se,2023,29.4.2024,09:00,10:50,,,,,"Posel Zbyšek, doc. RNDr. Ph.D."
+NOP,2220,Se,2023,"",00:00,00:00,KI,Odborná praxe,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Škvor Jiří, RNDr. Ph.D."
+ODT,2220,Se,2023,"",00:00,00:00,KI,Open Data,"'Mgr. Martin Dolejš, Ph.D.', 'Mgr. Jiří Fišer, Ph.D.'","4303, 251","Škvor Jiří, RNDr. Ph.D."
+ODT,6973,Se,2023,"",00:00,00:00,KI,Open Data,"'Mgr. Martin Dolejš, Ph.D.', 'Mgr. Jiří Fišer, Ph.D.'","4303, 251","Beránek Pavel, Ing. Mgr."
+OSIT,6973,Se,2023,26.4.2024,16:00,17:50,KI,Odborný seminář IT,"'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiří Škvor, Ph.D.'","251, 2776, 2239, 2220","Beránek Pavel, Ing. Mgr."
+OSIT,6973,Se,2023,12.4.2024,16:00,17:50,KI,Odborný seminář IT,"'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiří Škvor, Ph.D.'","251, 2776, 2239, 2220","Beránek Pavel, Ing. Mgr."
+OSIT,6973,Se,2023,10.5.2024,16:00,17:50,KI,Odborný seminář IT,"'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiří Škvor, Ph.D.'","251, 2776, 2239, 2220","Beránek Pavel, Ing. Mgr."
+PAP,9292,Se,2023,7.5.2024,15:00,16:50,KI,Průmyslová automatizace v praxi,"",,
+PAP,9292,Se,2023,23.4.2024,15:00,16:50,KI,Průmyslová automatizace v praxi,"",,
+PAP,9292,Se,2023,30.4.2024,15:00,16:50,KI,Průmyslová automatizace v praxi,"",,
+PAP,9292,Se,2023,16.4.2024,15:00,16:50,KI,Průmyslová automatizace v praxi,"",,
+PAP,9292,Se,2023,14.5.2024,15:00,16:50,KI,Průmyslová automatizace v praxi,"",,
+PAR,3521,Se,2023,"",00:00,00:00,KI,Parallel Programming,"",,"Posel Zbyšek, doc. RNDr. Ph.D."
+PRAX,2220,Se,2023,"",00:00,00:00,,,,,"Škvor Jiří, RNDr. Ph.D."
+PREP,6973,Se,2023,"",00:00,00:00,KI,Prezentace projektu,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Beránek Pavel, Ing. Mgr."
+PS2,6259,Se,2023,19.4.2024,12:00,13:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Škvára Jiří, RNDr. Ph.D."
+PS2,5958,Se,2023,"",00:00,00:00,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Svoboda Martin, Mgr. Ph.D."
+PS2,251,Se,2023,17.5.2024,12:00,13:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Fišer Jiří, Mgr. Ph.D."
+PS2,251,Se,2023,3.5.2024,12:00,13:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Fišer Jiří, Mgr. Ph.D."
+PS2,6259,Se,2023,17.5.2024,12:00,13:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Škvára Jiří, RNDr. Ph.D."
+PS2,6259,Se,2023,12.4.2024,12:00,12:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Škvára Jiří, RNDr. Ph.D."
+PS2,6259,Se,2023,26.4.2024,12:00,12:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Škvára Jiří, RNDr. Ph.D."
+PS2,6973,Se,2023,"",00:00,00:00,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Beránek Pavel, Ing. Mgr."
+PS2,251,Se,2023,12.4.2024,12:00,12:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Fišer Jiří, Mgr. Ph.D."
+PS2,6259,Se,2023,3.5.2024,12:00,13:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Škvára Jiří, RNDr. Ph.D."
+PS2,251,Se,2023,"",00:00,00:00,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Fišer Jiří, Mgr. Ph.D."
+PS2,251,Se,2023,26.4.2024,12:00,12:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Fišer Jiří, Mgr. Ph.D."
+PS2,251,Se,2023,19.4.2024,12:00,13:50,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Fišer Jiří, Mgr. Ph.D."
+PS2,2776,Se,2023,"",00:00,00:00,KI,Projektový seminář II,"'RNDr. Jiří Škvor, Ph.D.'",2220,"Krejčí Jan, RNDr. Ph.D."
+ROB,2776,Se,2023,15.5.2024,17:00,18:50,,,,,"Krejčí Jan, RNDr. Ph.D."
+ROB,2776,Se,2023,24.4.2024,17:00,18:50,,,,,"Krejčí Jan, RNDr. Ph.D."
+SP1,,Se,2023,"",00:00,00:00,KI,Semestrální projekt I,"'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","251, 2776, 650, 3521, 2220",
+SP2,6259,Se,2023,3.5.2024,16:00,18:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+SP2,6259,Se,2023,16.5.2024,09:00,11:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+SP2,6259,Se,2023,18.4.2024,09:00,11:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+SP2,6259,Se,2023,11.4.2024,09:00,11:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+SP2,6259,Se,2023,17.5.2024,16:00,18:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+SP2,6259,Se,2023,9.5.2024,09:00,11:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+SP2,6259,Se,2023,2.5.2024,09:00,11:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+SP2,6259,Se,2023,19.4.2024,16:00,18:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+SP2,6259,Se,2023,25.4.2024,09:00,11:50,KI,Semestrální projekt II,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449, 251, 2776, 650, 3521, 2220","Škvára Jiří, RNDr. Ph.D."
+SP3,,Se,2023,"",00:00,00:00,KI,Semestrální projekt III,"'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","650, 3521, 2220",
