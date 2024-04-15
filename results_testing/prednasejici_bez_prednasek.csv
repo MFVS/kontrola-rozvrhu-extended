@@ -1,21 +1,114 @@
 nazev,zkratka,prednasejiciUcitIdno,jmena
-Teoretická informatika a matematika,YTIM,261,'doc. PaedDr. Petr Eisenmann CSc.
-Paralelní programování,KPPG,609,'prof. Ing. Martin Lísal DSc.
-Paralelní programování,PPG,609,'prof. Ing. Martin Lísal DSc.
+Fyzika pevných látek I,K839,69,'prof. RNDr. Rudolf Hrach DrSc.'
+Demografie,FDEMO,130,'RNDr. Miloslav Šašek CSc.'
+Demografie,5DEMO,130,'RNDr. Miloslav Šašek CSc.'
+Anorganická chemie Nmgr.,N114,198,'doc. Ing. Tomáš Loučka CSc.
+Anorganická chemie Nmgr.,KN11,198,'doc. Ing. Tomáš Loučka CSc.
+Fyziologie a mol. bio. eukar. buňky I,N016,281,'doc. MUDr. Vladislav Mareš DrSc.'
+Patobiologie živočišných buněk a tkání,N059,281,'doc. MUDr. Vladislav Mareš DrSc.'
+Fyziologie živočichů a člověka,KB502,281,'doc. MUDr. Vladislav Mareš DrSc.
+Fyziologie živočichů a člověka,PB502,281,'doc. MUDr. Vladislav Mareš DrSc.
+Úvod do počítačového modelování,KUDPM,306,'prof. RNDr. Stanislav Novák CSc.
+Vakuová fyzika a technika,K218,306,'prof. RNDr. Stanislav Novák CSc.'
+Počítačové simulace v nanotechnologiích,PSVN,306,'prof. RNDr. Stanislav Novák CSc.
+Úvod do počítačového modelování,UDPM,306,'prof. RNDr. Stanislav Novák CSc.
+Charakterizace materiálů I,CHM1,306,'prof. RNDr. Stanislav Novák CSc.
+Vybrané partie z kvantové fyziky,PM100,307,'doc. RNDr. Dušan Novotný CSc.'
+Vybr. partie z teorie el. pole,PM101,307,'doc. RNDr. Dušan Novotný CSc.
+Kvantová mechanika,KM,307,'doc. RNDr. Dušan Novotný CSc.'
+Teorie relativity,K606,307,'doc. RNDr. Dušan Novotný CSc.'
+Fyzika I,P213,307,'doc. RNDr. Dušan Novotný CSc.'
+Speciální teorie relativity,STR,307,'doc. RNDr. Dušan Novotný CSc.'
+Teorie elektromagnetického pole,TEP,307,'doc. RNDr. Dušan Novotný CSc.'
+Kvantová fyzika II,P607,307,'doc. RNDr. Dušan Novotný CSc.'
+Teorie relativity,P606,307,'doc. RNDr. Dušan Novotný CSc.'
+PVK - Vyb.partie z teoretické fyziky II,K522,307,'doc. RNDr. Dušan Novotný CSc.'
+Fyzika I,K222,307,'doc. RNDr. Dušan Novotný CSc.'
+Kvantová fyzika,K724,307,'doc. RNDr. Dušan Novotný CSc.'
+Kvantová mechanika,KKM,307,'doc. RNDr. Dušan Novotný CSc.'
+Speciální teorie relativity,KSTR,307,'doc. RNDr. Dušan Novotný CSc.'
+PVK - Vyb.partie z teoretické fyziky I,K422,307,'doc. RNDr. Dušan Novotný CSc.'
+Sel. parts of the theory of el. fields,CM101,307,'doc. RNDr. Dušan Novotný CSc.
+Kvantová fyzika,P737,307,'doc. RNDr. Dušan Novotný CSc.'
+Vybrané partie z teorie elektromag. pole,PD203,307,'doc. RNDr. Dušan Novotný CSc.'
+Vybrané partie z teoretické fyziky I,P938,307,'doc. RNDr. Dušan Novotný CSc.'
+Potenciál kulturní krajiny a GIS,M214,313,'doc. RNDr. Martin Balej Ph.D.
+Metody geografického výzkumu krajiny,M409,313,'doc. RNDr. Martin Balej Ph.D.'
+Problémové oblasti Česka,0154,314,'Mgr. Milan Bursa CSc.'
+Didaktika chemie I,KN10,336,"'prof. PhDr. Jiří Škoda Ph.D., MBA"
+Didaktika chemie I,N115,336,"'prof. PhDr. Jiří Škoda Ph.D., MBA"
+Didaktika chemie II - SŠ,KN22,336,"'prof. PhDr. Jiří Škoda Ph.D., MBA"
+VK-Regionální geografie Portugalska,0124,451,'Mgr. Tomáš Oršulák
+Systém kvality a vyhodnocování dat,N111,719,'Ing. Václav Synek Ph.D.'
+Počítač. modelování - spojité modelování,P366,816,'doc. RNDr. Jiří Felcman CSc.
 Matematika pro informatiky,MAI,816,'doc. RNDr. Jiří Felcman CSc.
+VK - Úvod do geografie náboženství,0133,920,'doc. RNDr. Ladislav Skokan CSc.'
+Hodnocení nebezpečných vlastností odpadů,N308,1115,'Ing. Václav Dušek
+Somatologie,BK423,1546,'Mgr. Karina Vašinová Ph.D.'
+Parasitology,E129,1546,'Mgr. Karina Vašinová Ph.D.'
+Obecná zoologie,K110,1546,'Mgr. Karina Vašinová Ph.D.'
+Somatologie,BP423,1546,'Mgr. Karina Vašinová Ph.D.'
+Approaches to regional histories,PD106,1553,'doc. Mgr. Martin Veselý Ph.D.'
+Logistika,LOG,1569,'Ing. Daniela Vysloužilová Ph.D.'
+"Met. analýz mat. 
+využ. el. mikroskopie",AP03,1590,'RNDr. Jan Lorinčík CSc.'
+Metody analýz materiálů,AP05,1590,'RNDr. Jan Lorinčík CSc.'
+Specializační přednášky z praxe,B605,1633,'doc. RNDr. Ivan Bičík CSc.'
+VK-Proměny kulturní krajiny,0120,2028,'PhDr. Aleš Navrátil Ph.D.'
+Didaktika geografie I,N001,2232,'Mgr. Zuzana Pavlasová'
+Value orient. in transforming societies,PD109,2233,"'prof. Petr Dostál Ph.D., M.A.'"
 Algoritmy a datové struktury,KDSA,2240,'doc. RNDr. Karel Oliva Dr.
-Teorie formálních jazyků,TFL,2240,'doc. RNDr. Karel Oliva Dr.'
 Algoritmy a datové struktury,DSA,2240,'doc. RNDr. Karel Oliva Dr.
-System Simulation,KSYS,2855,'doc. RNDr. Jan Jirsák Ph.D.
-System Simulation,SYS,2855,'doc. RNDr. Jan Jirsák Ph.D.
+Teorie formálních jazyků,TFL,2240,'doc. RNDr. Karel Oliva Dr.'
+Labor. Techniq. in Mol. and Cell Biology,E121,2441,'Mgr. Alena Semerádtová Ph.D.
+VK-Česká republika a EU,0116,2758,"'doc. Dr. phil. Mgr. Lukáš Novotný Ph.D., M.A.'"
+Základy financí,ZFIN,2821,'Ing. Kateřina Felixová Ph.D.'
+Finanční analýza,FINA,2821,'Ing. Kateřina Felixová Ph.D.'
+Návykové látky a právní předpisy,N107,3066,'prof. PharmDr. Jana Žďárová-Karasová Ph.D.'
+Medicína katastrof,BK307,3066,'prof. PharmDr. Jana Žďárová-Karasová Ph.D.'
+Lékové intoxikace,N321,3066,'prof. PharmDr. Jana Žďárová-Karasová Ph.D.'
+Medicína katastrof,P518,3066,'prof. PharmDr. Jana Žďárová-Karasová Ph.D.'
+Technologie ochrany životního prostředí,P414,3175,'Ing. Stanislav Hejda Ph.D.
+Úvod do toxikologie,P117,3176,'PharmDr. Markéta Švarcová Ph.D.'
+Ekotoxikologie,N109,3176,'PharmDr. Markéta Švarcová Ph.D.
+Toxikologie rostl. a živočišných toxinů,P534,3176,'PharmDr. Markéta Švarcová Ph.D.'
+Toxikologie NMgr.,N216,3176,'PharmDr. Markéta Švarcová Ph.D.'
+Úvod do fotofyziky a fotochemie nanomat.,NA18,3420,'Ing. Kamil Lang CSc.'
+Fotofyzika a fotochemie nanomateriálů,PD53,3420,'Ing. Kamil Lang CSc.'
 Počítačové sítě a protokoly,PSP,3458,'Ing. Toni Koluch Ph.D.'
-Datová úložiště a nástroje pro Big Data,KBIG,4195,'Ing. Václav Valenta'
+Funkce a struktura buněčných membrán,0088,4175,'RNDr. Hana Sychrová DrSc.'
+Základy bioinženýrství,0090,4177,'MUDr. Lucie Bačáková CSc.'
 Datová úložiště a nástroje pro Big Data,BIG,4195,'Ing. Václav Valenta'
+Datová úložiště a nástroje pro Big Data,KBIG,4195,'Ing. Václav Valenta'
+Fyziologie a mol. bio. eukar. buňky I,N016,4208,'prof. RNDr. Zdeněk Fišar CSc.
+Neziskový sektor a regionální rozvoj,0150,4227,'Mgr. Petr Bláha Ph.D.'
+Domestikace a domestikanti,N050,4394,'prof. RNDr. Stanislav Komárek Ph.D.'
 Information Security,0177,4685,'Hoon Ko Ph.D.'
+Logistika,LOG,4691,'Ing. Vladimír Balach
 Automatické řízení,AUC,5039,'doc. Ing. Mgr. Petr Klán CSc.'
-Teoretická informatika a matematika,YTIM,5205,"'RNDr. Veronika Pitrová PhD., Ph.D."
-Analogová elektronika,ANE,5232,'doc. RNDr. František Lustig CSc.'
-Analogová elektronika,KANE,5232,'doc. RNDr. František Lustig CSc.'
-Analogová elektronika,KAEL,5232,'doc. RNDr. František Lustig CSc.'
+Návykové látky a právní předpisy,N107,5061,'PhDr. Jaroslav Žďára
+Lékové intoxikace,N321,5061,'PhDr. Jaroslav Žďára
+Forenzní vědy,N223,5062,'Ing. Jaroslav Procházka'
+Klinická biochemie a patobiochemie,N224,5062,'Ing. Jaroslav Procházka'
+Bioaktivní přírodní látky,N211,5063,'prof. doc. RNDr. Irena Valterová CSc.'
+Fyzika plazmatu a plazmové technologie,P750,5199,'doc. Mgr. Pavel Kudrna'
+Fyzika pevných látek I,P861,5201,'doc. RNDr. Jiří Pavluch CSc.'
+"Met. analýz mat. 
+využ. prin. el. spektr",AP04,5201,'doc. RNDr. Jiří Pavluch CSc.'
+Fyzika pevných látek I,P839,5201,'doc. RNDr. Jiří Pavluch CSc.'
+Principy a obvod. řešení el. spektometrů,0231,5201,'doc. RNDr. Jiří Pavluch CSc.'
+Veřejná správa,VSP,5309,'Ing. Eva Krumpová
+Srovnávací anatom. a morfol. obratlovců,N060,5472,'RNDr. Michal Němec Ph.D.'
+Veřejné finance,VFIN,6120,'Ing. Lucie Kopáčková
+Toxikologie a legislavita ČR a EU 2,P629,6383,'Ing. Ivan Hrabal'
 Analýza síťové komunikace,ASK,7152,'Ing. Vojtěch Šindler'
+Přípr. a využití nanovlákenných struktur,PD55,7805,'Ing. Marcela Munzarová Ph.D.'
+Didaktika biologie II,P208,8021,'PaedDr. Milan Kubiatko PhD.'
+Didaktika biologie I,P108,8021,'PaedDr. Milan Kubiatko PhD.'
+Kompozity nanočástic kovů a jejich oxidů,PD12,8074,'Ing. Darina Smržová Ph.D.'
+Apl. biologie prokaryot. a eukaryot. m.,ME301,8154,'RNDr. Pavel Branny CSc.
+Regulace a poruchy signálních drah ž.b.,ME302,8422,'Ing. Tomáš Vomastek Ph.D.'
 Python and R for Data Science,EPYR,8514,'Ricardo Rodriguez Jorge Ph.D.
+Geometrie,P335,8748,'RNDr. Lenka Juklová Ph.D.
+Návykové látky a právní předpisy,N107,9098,'RNDr. Alžběta Dlabková Ph.D.
+Lékové intoxikace,N321,9098,'RNDr. Alžběta Dlabková Ph.D.

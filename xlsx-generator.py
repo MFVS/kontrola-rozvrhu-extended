@@ -65,7 +65,7 @@ def type_check(dataframe1:"pl.DataFrame", dataframe2:"pl.DataFrame") -> dict:
 
     return problems
 
-def katedra(katedra:str, ticket:str, auth:tuple=None):
+def katedra(katedra:str, ticket:str, auth:tuple=None) -> None:
     import polars as pl
 
     # Testovací data
@@ -103,7 +103,7 @@ def katedra(katedra:str, ticket:str, auth:tuple=None):
     excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}, ticket=ticket, manual_login=auth), separator=";")
     excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
 
-def fakulta(fakulta:str, ticket:str, auth:tuple = None):
+def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
     import polars as pl
 
     params_kateder = {
@@ -146,32 +146,42 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None):
     excel_predmety.write_csv("source_testing/predmety-1.csv")
 
     for num,katedra in enumerate(katedry_list):
-        print(katedra)
+        print("Moving to: " + katedra)
         params_rozvrh["katedra"] = katedra
         params_predmety["katedra"] = katedra
 
         temp_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
         temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
 
+        print("Fetched CSVs successfully.")
+
+        if temp_rozvrhy.__len__() == 0 or temp_predmety.__len__() == 0:
+            print("One or more CSV's are empty. Continuing to next item.")
+            continue
+
+        print("Ensuring type consistency.")
+
         fix_list_rozvrhy = type_check(excel_rozvrhy, temp_rozvrhy)
         fix_list_predmety = type_check(excel_predmety, temp_predmety)
 
         # POZOR: Cast má vyplý strict mód; možná ztráta dat, vyřešit
-        # Crash u PRF/PRFD
+        # - Strict mód je vyplý, poněvadž při castění String -> Int64 dělají null values problémy, možný workaround: funkce která využívá when-then-otherwise nebo nějakou replace funkci na nahrazení prázdných hodnot None (potenciálně pomalé ale mohlo by to 1) obejít strict mode 2) hodit null values i do stringů)
         for col_type in fix_list_predmety.keys():
             temp_predmety = temp_predmety.with_columns(pl.col(fix_list_predmety[col_type]).cast(col_type, strict=False))
 
         for col_type in fix_list_rozvrhy.keys():
             temp_rozvrhy = temp_rozvrhy.with_columns(pl.col(fix_list_rozvrhy[col_type]).cast(col_type, strict=False))
 
+        print("Type consistency ensured. Saving testing file and appending the main dataframes.")
+
         temp_predmety.write_csv("source_testing/predmety"+str(num)+".csv")
         
         excel_predmety = excel_predmety.vstack(temp_predmety)
         excel_rozvrhy = excel_rozvrhy.vstack(temp_rozvrhy)
+        print("Dataframes appended. Continuing to next item.")
 
     excel_rozvrhy.write_csv("source_tables/rozvrhy_fakulta.csv")
     excel_predmety.write_csv("source_tables/predmety_fakulta.csv")
-
     
 
 def ucitel():
