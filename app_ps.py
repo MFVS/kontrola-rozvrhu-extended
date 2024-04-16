@@ -1,10 +1,14 @@
 import streamlit as st
 st.set_page_config(page_title="Hledání chyb",page_icon=":left_speech_bubble:",layout="wide", initial_sidebar_state="expanded")
-st.markdown("""<style>
-                {visibility: hidden;}
-                {footer {visibility: hidden;}
-                </style>
-                """, unsafe_allow_html=True)
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
 st.title("Služba na hledání chyb v IS STAG")
 st.subheader("Vyplňte následující dotazník:")
 
@@ -27,7 +31,7 @@ st.selectbox("Zvolte akademický rok:",["2023/2024","2022/2023","2021/2022","202
 cols = st.columns(3) 
 for i in range(3): 
     with cols[i]: 
-        num = st.checkbox(f'chyba {i}', value = True) 
+        num = st.checkbox(f'chyba {i+1}', value = True) 
 
 st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
 
