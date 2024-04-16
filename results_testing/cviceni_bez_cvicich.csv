@@ -1,7 +1,7 @@
 zkratka,idno,typAkceZkr,rok,datum,hodinaSkutOd,hodinaSkutDo,katedra,nazev,cvicici,cviciciUcitIdno,jmena
-0033,449,Cv,2023,24.4.2024,14:00,15:50,,,,,"Barilla Jiří, doc. Ing. Mgr. CSc."
-0033,449,Cv,2023,17.4.2024,14:00,15:50,,,,,"Barilla Jiří, doc. Ing. Mgr. CSc."
 0033,449,Cv,2023,15.5.2024,14:00,15:50,,,,,"Barilla Jiří, doc. Ing. Mgr. CSc."
+0033,449,Cv,2023,17.4.2024,14:00,15:50,,,,,"Barilla Jiří, doc. Ing. Mgr. CSc."
+0033,449,Cv,2023,24.4.2024,14:00,15:50,,,,,"Barilla Jiří, doc. Ing. Mgr. CSc."
 0121,2776,Cv,2023,"",00:00,00:00,,,,,"Krejčí Jan, RNDr. Ph.D."
 0126,2776,Cv,2023,"",00:00,00:00,,,,,"Krejčí Jan, RNDr. Ph.D."
 0127,2776,Cv,2023,"",00:00,00:00,,,,,"Krejčí Jan, RNDr. Ph.D."
@@ -14,47 +14,47 @@ BP2O,,Cv,2023,"",00:00,00:00,,,,,
 BPP,,Cv,2023,"",00:00,00:00,,,,,
 DPP,,Cv,2023,"",00:00,00:00,KI,Diplomová práce,"",,
 EAPR2,,Cv,2023,"",00:00,00:00,,,,,
-EDAV,2220,Cv,2023,17.4.2024,16:00,16:50,,,,,"Škvor Jiří, RNDr. Ph.D."
-EDAV,3416,Cv,2023,15.5.2024,16:00,16:50,,,,,"Babichev Sergii, prof. CSc., DSc."
-EDAV,6259,Cv,2023,15.5.2024,16:00,16:50,,,,,"Škvára Jiří, RNDr. Ph.D."
-EDAV,6973,Cv,2023,15.5.2024,16:00,16:50,,,,,"Beránek Pavel, Ing. Mgr."
+EDAV,3416,Cv,2023,17.4.2024,16:00,16:50,,,,,"Babichev Sergii, prof. CSc., DSc."
 EDAV,3416,Cv,2023,24.4.2024,16:00,16:50,,,,,"Babichev Sergii, prof. CSc., DSc."
 EDAV,6973,Cv,2023,24.4.2024,16:00,16:50,,,,,"Beránek Pavel, Ing. Mgr."
 EDAV,6973,Cv,2023,17.4.2024,16:00,16:50,,,,,"Beránek Pavel, Ing. Mgr."
-EDAV,6259,Cv,2023,24.4.2024,16:00,16:50,,,,,"Škvára Jiří, RNDr. Ph.D."
+EDAV,2220,Cv,2023,15.5.2024,16:00,16:50,,,,,"Škvor Jiří, RNDr. Ph.D."
 EDAV,6259,Cv,2023,17.4.2024,16:00,16:50,,,,,"Škvára Jiří, RNDr. Ph.D."
 EDAV,2220,Cv,2023,24.4.2024,16:00,16:50,,,,,"Škvor Jiří, RNDr. Ph.D."
-EDAV,3416,Cv,2023,17.4.2024,16:00,16:50,,,,,"Babichev Sergii, prof. CSc., DSc."
-EDAV,2220,Cv,2023,15.5.2024,16:00,16:50,,,,,"Škvor Jiří, RNDr. Ph.D."
-EDMR,3416,Cv,2023,25.4.2024,14:00,14:50,,,,,"Babichev Sergii, prof. CSc., DSc."
-EDMR,3416,Cv,2023,11.4.2024,14:00,14:50,,,,,"Babichev Sergii, prof. CSc., DSc."
+EDAV,6259,Cv,2023,15.5.2024,16:00,16:50,,,,,"Škvára Jiří, RNDr. Ph.D."
+EDAV,6973,Cv,2023,15.5.2024,16:00,16:50,,,,,"Beránek Pavel, Ing. Mgr."
+EDAV,6259,Cv,2023,24.4.2024,16:00,16:50,,,,,"Škvára Jiří, RNDr. Ph.D."
+EDAV,2220,Cv,2023,17.4.2024,16:00,16:50,,,,,"Škvor Jiří, RNDr. Ph.D."
+EDAV,3416,Cv,2023,15.5.2024,16:00,16:50,,,,,"Babichev Sergii, prof. CSc., DSc."
 EDMR,3416,Cv,2023,9.5.2024,14:00,14:50,,,,,"Babichev Sergii, prof. CSc., DSc."
+EDMR,3416,Cv,2023,11.4.2024,14:00,14:50,,,,,"Babichev Sergii, prof. CSc., DSc."
+EDMR,3416,Cv,2023,25.4.2024,14:00,14:50,,,,,"Babichev Sergii, prof. CSc., DSc."
 EDSW,,Cv,2023,"",00:00,00:00,KI,Dependability of Software Systems,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,
-EGUI,6973,Cv,2023,11.4.2024,10:00,11:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
 EGUI,6973,Cv,2023,16.5.2024,10:00,11:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
+EGUI,6973,Cv,2023,2.5.2024,10:00,11:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
+EGUI,6973,Cv,2023,11.4.2024,10:00,11:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
+EGUI,6973,Cv,2023,9.5.2024,10:00,11:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
 EGUI,6973,Cv,2023,18.4.2024,10:00,11:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
 EGUI,6973,Cv,2023,25.4.2024,10:00,11:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
-EGUI,6973,Cv,2023,2.5.2024,10:00,11:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
-EGUI,6973,Cv,2023,9.5.2024,10:00,11:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
 ELAI,4472,Cv,2023,"",00:00,00:00,,,,,"Liegertová Michaela, Mgr. Ph.D."
-EMLR,3416,Cv,2023,23.4.2024,11:00,11:50,,,,,"Babichev Sergii, prof. CSc., DSc."
 EMLR,3416,Cv,2023,7.5.2024,11:00,11:50,,,,,"Babichev Sergii, prof. CSc., DSc."
+EMLR,3416,Cv,2023,23.4.2024,11:00,11:50,,,,,"Babichev Sergii, prof. CSc., DSc."
+EPCA,2317,Cv,2023,30.4.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
 EPCA,2317,Cv,2023,16.4.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
 EPCA,2317,Cv,2023,14.5.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
-EPCA,2317,Cv,2023,30.4.2024,10:00,11:50,,,,,"Kuba Pavel, Ing. Ph.D."
-EROB,2776,Cv,2023,24.4.2024,17:00,18:50,,,,,"Krejčí Jan, RNDr. Ph.D."
 EROB,2776,Cv,2023,15.5.2024,17:00,18:50,,,,,"Krejčí Jan, RNDr. Ph.D."
+EROB,2776,Cv,2023,24.4.2024,17:00,18:50,,,,,"Krejčí Jan, RNDr. Ph.D."
 ETFI,449,Cv,2023,24.4.2024,12:00,12:50,,,,,"Barilla Jiří, doc. Ing. Mgr. CSc."
 KDI2,2776,Cv,2023,4.5.2024,14:00,17:50,KI,Didaktika informatiky II,"'Mgr. Kamil Balín', 'Mgr. Květuše Sýkorová'","1165, 835","Krejčí Jan, RNDr. Ph.D."
 KDI2,2776,Cv,2023,13.4.2024,11:00,12:50,KI,Didaktika informatiky II,"'Mgr. Kamil Balín', 'Mgr. Květuše Sýkorová'","1165, 835","Krejčí Jan, RNDr. Ph.D."
 KOPS,1165,Cv,2023,5.5.2024,14:00,17:50,KI,Operační systémy,"'RNDr. Petr Kubera, Ph.D.'",650,"Balín Kamil, Mgr."
 KPYR,,Cv,2023,"",00:00,00:00,KI,Python and R for Data Science,"'prof. Sergii Babichev, CSc., DSc.', 'RNDr. Jiří Škvára, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","3416, 6259, 2220",
 MTCNA,2776,Cv,2023,"",00:00,00:00,,,,,"Krejčí Jan, RNDr. Ph.D."
-PRI,9642,Cv,2023,7.5.2024,17:00,18:50,KI,Programování pro internet,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Burle Jan, Ing. Ph.D."
-PRI,9642,Cv,2023,30.4.2024,17:00,18:50,KI,Programování pro internet,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Burle Jan, Ing. Ph.D."
-PRI,9642,Cv,2023,16.4.2024,17:00,18:50,KI,Programování pro internet,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Burle Jan, Ing. Ph.D."
-PRI,9642,Cv,2023,23.4.2024,17:00,18:50,KI,Programování pro internet,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Burle Jan, Ing. Ph.D."
 PRI,9642,Cv,2023,14.5.2024,17:00,18:50,KI,Programování pro internet,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Burle Jan, Ing. Ph.D."
+PRI,9642,Cv,2023,30.4.2024,17:00,18:50,KI,Programování pro internet,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Burle Jan, Ing. Ph.D."
+PRI,9642,Cv,2023,23.4.2024,17:00,18:50,KI,Programování pro internet,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Burle Jan, Ing. Ph.D."
+PRI,9642,Cv,2023,16.4.2024,17:00,18:50,KI,Programování pro internet,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Burle Jan, Ing. Ph.D."
+PRI,9642,Cv,2023,7.5.2024,17:00,18:50,KI,Programování pro internet,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"Burle Jan, Ing. Ph.D."
 SZZ60,,Cv,2023,"",00:00,00:00,,,,,
 SZZA,,Cv,2023,"",00:00,00:00,KI,Teoretická informatika a matematika,"",,
 SZZAD,,Cv,2023,"",00:00,00:00,,,,,
@@ -66,7 +66,7 @@ SZZPP,,Cv,2023,"",00:00,00:00,,,,,
 SZZTD,,Cv,2023,"",00:00,00:00,,,,,
 SZZTP,,Cv,2023,"",00:00,00:00,,,,,
 SZZVP,,Cv,2023,"",00:00,00:00,,,,,
-VPOV,9114,Cv,2023,17.4.2024,16:00,16:50,KI,Vybrané partie z operačního výzkumu,"'RNDr. Petr Kubera, Ph.D.'",650,"Moosaei Hossein, Dr. Ph.D."
 VPOV,9114,Cv,2023,24.4.2024,16:00,16:50,KI,Vybrané partie z operačního výzkumu,"'RNDr. Petr Kubera, Ph.D.'",650,"Moosaei Hossein, Dr. Ph.D."
+VPOV,9114,Cv,2023,17.4.2024,16:00,16:50,KI,Vybrané partie z operačního výzkumu,"'RNDr. Petr Kubera, Ph.D.'",650,"Moosaei Hossein, Dr. Ph.D."
 XBP,,Cv,2023,"",00:00,00:00,,,,,
 ZPS,,Cv,2023,"",00:00,00:00,KI,Základy počítačových sítí a protokolů,"'Mgr. Kamil Balín', 'RNDr. Jan Krejčí, Ph.D.'","1165, 2776",
