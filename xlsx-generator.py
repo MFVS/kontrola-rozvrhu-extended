@@ -118,6 +118,9 @@ def null_out(dataframe:"pl.DataFrame", columns:list) -> "pl.DataFrame":
 def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
     import polars as pl
 
+    excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}, ticket=ticket, manual_login=auth), separator=";")
+    excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
+
     params_kateder = {
         "typPracoviste":"K",
         "zkratka":"%",
