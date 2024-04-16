@@ -49,14 +49,14 @@ def login_correction(manual_login:tuple): #Testování, zda tuple má dva prvky 
         auth = None
     else:
         auth = (manual_login[0], manual_login[1])
-    
-    return auth
+    finally:
+        return auth
 
 def type_check(dataframe1:"pl.DataFrame", dataframe2:"pl.DataFrame") -> dict:
     types1 = dataframe1.dtypes
     types2 = dataframe2.dtypes
     problems = {}
-    for index in range(len(types1) - 1):
+    for index in range(len(types1)):
         if types1[index] != types2[index]:
             if types1[index] in problems.keys():
                 problems[types1[index]].append(dataframe1.columns[index])
@@ -128,7 +128,7 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
     }
     print(params_kateder["nadrazenePracoviste"])
     katedry_csv = pl.read_csv(fetch_csv(service="/ciselniky/getSeznamPracovist", params_plus=params_kateder, ticket=ticket, manual_login=auth), separator=";")
-    print(katedry_csv.head())
+    #print(katedry_csv.head())
     katedry_list = katedry_csv.to_series(2)
     katedry_list = katedry_list.to_list()
     print(katedry_list)
@@ -152,9 +152,6 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
         "jenNabizeneECTSPrijezdy":"false",
         "rok":"2023"
     }
-
-    # hodZaSemKombForma je u první tabulky str (a u tabulky CPPV je to i64);  měly by se kontrolovat typy a případně en-masse přetypovávat
-    # Nápady: brzký select/drop a vyřazení useless sloupečků (dangerous, vynechávání dat), přetypovat problémové sloupečky na string a vypořádat se s tím později (jak víš co je problémový? type mismatch)
 
     excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
     excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
@@ -213,6 +210,6 @@ if __name__ == '__main__':
     ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
     auth = ("st101885", "x0301093100")
 
-    katedra(katedra="KI", ticket=ticket, auth=auth)
-    #fakulta(fakulta="PRF", ticket=ticket, auth=auth)
+    #katedra(katedra="KI", ticket=ticket, auth=auth)
+    fakulta(fakulta="PRF", ticket=ticket, auth=auth)
 

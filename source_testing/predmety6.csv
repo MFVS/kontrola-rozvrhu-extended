@@ -3114,7 +3114,7 @@ KMA,E103,2023,Game Theory,Game Theory,N,A,5,NE,"","'RNDr. Veronika Pitrová, PhD
 3. Two-player zero-sum games (matrix games, mixed strategies, fundamental theorem on matrix games, graphical solution of 2×n matrix games, general solution of matrix games - linear programming).
 4. Two-player cooperative games (joint strategy, cooperative payoff region, bargaining problem).
 5. n-player cooperative games (coalitions, characteristic function games, imputation, core).
-6. Power indices (Shapley value, Banzhaf index).","","","","",Angličtina,"",A,N,A,2/2 per week,"","",N,N,"",0,"","",A,0,LS,1,"","","",0,0,1
+6. Power indices (Shapley value, Banzhaf index).","","","","",Angličtina,"",A,N,A,2/2 per week,"","",N,N,"",0,"","",A,0,LS,0,"","","",0,0,0
 KMA,E105,2023,Mathematical Analysis II,Mathematical Analysis II,N,A,6,NE,"","'doc. Yaroslav Bazaykin, CSc., DSc.'","'doc. Yaroslav Bazaykin, CSc., DSc.'",8987,"'doc. Yaroslav Bazaykin, CSc., DSc.'","'doc. Yaroslav Bazaykin, CSc., DSc.' (100)",8987,"'doc. Yaroslav Bazaykin, CSc., DSc.'","'doc. Yaroslav Bazaykin, CSc., DSc.' (100)",8987,"","","","","","","","","","","","","","",N,2,HOD/TYD,2,HOD/TYD,0,HOD/TYD,Students will learn calculus of integration of real-valued functions of one variable and its applications in geometry and physics. They will also learn basic facts about ordinary differential equations.,Zkouška,NE,Kombinovaná,Good knowledge of differential calculus of functions of one variable is required.,"1. Primitive functions (antiderivatives) and their basic properties.
 2. Integration by parts and substitutions.
 3. Integration of rational functions and of functions transformed to them.
@@ -3288,7 +3288,7 @@ Zkouška je ústní s písemnou přípravou.","1. Afinní prostor a jeho základ
 10. Odchylka podprostorů euklidovského prostoru.
 11. Objem simplexu.
 12. Kvadratické formy na vektorových prostorech.
-13. Definice a základní pojmy teorie kuželoseček.","","","","",Čeština,"",A,N,N,"","","",N,A,https://1url.cz/SuBrz,0,"",Bc.,A,0,LS,28,"","","",28,0,0
+13. Definice a základní pojmy teorie kuželoseček.","","","","",Čeština,"",A,N,N,"","","",N,A,https://1url.cz/SuBrz,0,"",Bc.,A,0,LS,29,"","","",29,0,0
 KMA,KALG,2023,Algebra,Algebra,N,A,5,NE,"","'RNDr. Martin Kuřil, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.'",264,"'RNDr. Martin Kuřil, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.' (100)",264,"'RNDr. Martin Kuřil, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.' (100)",264,"","","","","","","","","","","","","","",N,8,HOD/SEM,8,HOD/SEM,0,HOD/SEM,"Předmět poskytne studentům přehled základů obecné algebry, přesněji základů teorie grup a okruhů.",Zkouška,ANO,Kombinovaná,"Požadavky k zápočtu:
 Ve výukovém období se bude psát jedna zápočtová písemná práce, ze které je třeba získat více než jednu třetinu bodů. Ve zkouškovém období je možno psát dvě opravné zápočtové písemné práce. Z opravné zápočtové písemné práce je třeba získat více než jednu třetinu bodů.
 
@@ -3406,7 +3406,7 @@ budou studenti aktivně používat program Mathematica.",Zkouška,ANO,Kombinovan
 9. Diferenciální rovnice druhého řádu
 10. Lineární diferenciální rovnice s konstantními koeficienty homogenní
 11. Lineární diferenciální rovnice s konstantními koeficienty nehomogenní
-12.-13. Použití diferenciálních rovnic v přírodních vědách a společenských vědách","","","","",Čeština,"",A,N,N,"","","",N,A,Studijní text: https://1url.cz/muBrc,0,"",Bc.,A,0,LS,24,"","","",24,0,0
+12.-13. Použití diferenciálních rovnic v přírodních vědách a společenských vědách","","","","",Čeština,"",A,N,N,"","","",N,A,Studijní text: https://1url.cz/muBrc,0,"",Bc.,A,0,LS,25,"","","",25,0,0
 KMA,KDM2,2023,Didaktika matematiky II,Didaktika matematiky II,N,A,2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","'PhDr. Magdalena Krátká, Ph.D.'","'PhDr. Magdalena Krátká, Ph.D.' (100)",425,"","","","",KMA/KDM1,"",KMA/N309,"'KOPKA, J. Hrozny problémů ve školské matematice. 1999, UJEP Ústí nad Labem. ',
 'HEJNÝ, M. a kol. Teória vyučovania matematiky, 1990 Bratislava SPN. ',
 'HEJNÝ, M. a kol. 25 kapitol z teorie vyučování matematiky. 2005, Praha Ped. F. UK. ',
@@ -3507,7 +3507,7 @@ Na počátku zkouškového období se bude psát jedna zápočtová písemná pr
 
 
 Pozn.: Na cvičeních se bude každý týden procvičovat látka z příslušné přednášky.
-","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,0,LS,32,"","","",32,0,0
+","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,0,LS,33,"","","",33,0,0
 KMA,KLTX,2023,Úvod do Latexu,Úvod do Latexu,N,A,2,NE,"","'PhDr. Jiří Přibyl, Ph.D.'","'PhDr. Jiří Přibyl, Ph.D.' (100)",267,"","","","","","","'PhDr. Jiří Přibyl, Ph.D.'","'PhDr. Jiří Přibyl, Ph.D.' (100)",267,"","","","","","","","'Lamport, L. LaTeX: A document preparation system, 2epsilon. Addison Wesley, 1994. ISBN 0201529831.',
 'Grätzer, G. More math into LaTeX. Springer, 2007. ',
 'http://ftp.cstug.cz/pub/tex/CTAN/info/symbols/comprehensive/symbols-a4.pdf',
@@ -3593,7 +3593,7 @@ se separovanými proměnnými, lineární diferenciální rovnice 1. řádu
 10. Pojem limita a spojitost funkce
 11. Parciální derivace, diferenciál, derivace vyšších řádů
 12. Taylorova formule, funkce definované implicitně
-13. Lokální, vázané a globální extrémy funkcí","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,0,LS,61,"","","",61,0,0
+13. Lokální, vázané a globální extrémy funkcí","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,0,LS,62,"","","",62,0,0
 KMA,KMU2,2023,Matematika pro učitele II,Matematika pro učitele II,N,A,5,NE,"","'doc. Yaroslav Bazaykin, CSc., DSc.'","'doc. Yaroslav Bazaykin, CSc., DSc.'",8987,"'doc. Yaroslav Bazaykin, CSc., DSc.', 'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.'","'doc. Yaroslav Bazaykin, CSc., DSc.' (100), 'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.' (100)","8987, 8035","'doc. Yaroslav Bazaykin, CSc., DSc.', 'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.', 'Mgr. Lucie Loukotová'","'doc. Yaroslav Bazaykin, CSc., DSc.' (100), 'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.' (100), 'Mgr. Lucie Loukotová' (100)","8987, 8035, 3188","","","","","","","","","","","'Kleinbaum, D.G., Kupper, L.L., Nizam, A., Rosenberg, E.S. Applied regression analysis and other multivariable methods. 5 vyd. Cengage Learning, Boston, 2013. ',
 'Meloun, M., Militký, J. Kompendium statistického zpracovaní dat. 2. vyd. Academia, Praha, 2006. ',
 'Quarteroni, A., Sacco, R., Saleri, F. Numerical mathematics. Springer, New York, 2000. ',
