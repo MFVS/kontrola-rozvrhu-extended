@@ -103,6 +103,18 @@ def katedra(katedra:str, ticket:str, auth:tuple=None) -> None:
     excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}, ticket=ticket, manual_login=auth), separator=";")
     excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
 
+def null_out(dataframe:"pl.DataFrame", columns:list) -> "pl.DataFrame":
+    for column in columns:
+        dataframe = dataframe.with_columns(
+            pl.when(pl.col(column).str.len_chars() == 0)
+            .then(None)
+            .otherwise(pl.col(column))
+            .name.keep()
+            )
+        
+    return dataframe
+
+
 def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
     import polars as pl
 
@@ -150,6 +162,8 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
         params_rozvrh["katedra"] = katedra
         params_predmety["katedra"] = katedra
 
+        print("Fetching CSVs.")
+
         temp_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
         temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
 
@@ -164,13 +178,15 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
         fix_list_rozvrhy = type_check(excel_rozvrhy, temp_rozvrhy)
         fix_list_predmety = type_check(excel_predmety, temp_predmety)
 
-        # POZOR: Cast má vyplý strict mód; možná ztráta dat, vyřešit
-        # - Strict mód je vyplý, poněvadž při castění String -> Int64 dělají null values problémy, možný workaround: funkce která využívá when-then-otherwise nebo nějakou replace funkci na nahrazení prázdných hodnot None (potenciálně pomalé ale mohlo by to 1) obejít strict mode 2) hodit null values i do stringů)
         for col_type in fix_list_predmety.keys():
-            temp_predmety = temp_predmety.with_columns(pl.col(fix_list_predmety[col_type]).cast(col_type, strict=False))
+            if col_type == pl.Int64:
+                temp_predmety = null_out(temp_predmety, fix_list_predmety[col_type])
+            temp_predmety = temp_predmety.with_columns(pl.col(fix_list_predmety[col_type]).cast(col_type))
 
         for col_type in fix_list_rozvrhy.keys():
-            temp_rozvrhy = temp_rozvrhy.with_columns(pl.col(fix_list_rozvrhy[col_type]).cast(col_type, strict=False))
+            if col_type == pl.Int64:
+                temp_rozvrhy = null_out(temp_rozvrhy, fix_list_rozvrhy[col_type])
+            temp_rozvrhy = temp_rozvrhy.with_columns(pl.col(fix_list_rozvrhy[col_type]).cast(col_type))
 
         print("Type consistency ensured. Saving testing file and appending the main dataframes.")
 
