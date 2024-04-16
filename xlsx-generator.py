@@ -210,5 +210,6 @@ if __name__ == '__main__':
     ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
     auth = ("st101885", "x0301093100")
 
-    fakulta(fakulta="PRF", ticket=ticket, auth=auth)
+    katedra(katedra="KI", ticket=ticket, auth=auth)
+    #fakulta(fakulta="PRF", ticket=ticket, auth=auth)
 
