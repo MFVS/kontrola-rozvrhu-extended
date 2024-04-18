@@ -34,10 +34,15 @@ with col3:
     st.selectbox("Zvolte akademický rok:",["2023/2024","2022/2023","2021/2022","2020/2021","a tak dále"])
 
 st.subheader("Filtrování typů chyb")
-cols = st.columns(7) 
+cols1 = st.columns(7) 
 for i in range(7): 
-    with cols[i]: 
-        num = st.checkbox(f'chyba {i+1}', value = True) 
+    with cols1[i]: 
+        num = st.checkbox(f'chyba {i+1}', value = True)
+
+cols2 = st.columns(7) 
+for i in range(7): 
+    with cols2[i]: 
+        num = st.checkbox(f'chyba {i+8}', value = True) 
 
 st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
 
