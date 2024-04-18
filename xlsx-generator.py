@@ -66,7 +66,7 @@ def type_check(dataframe1:"pl.DataFrame", dataframe2:"pl.DataFrame") -> dict:
     return problems
 
 def katedra(katedra:str, ticket:str, auth:tuple=None) -> None:
-    import polars as pl
+    #import polars as pl
 
     # Testovací data
     # DATA REDIGOVÁNA (nebudu se doxovat)
@@ -114,12 +114,18 @@ def null_out(dataframe:"pl.DataFrame", columns:list) -> "pl.DataFrame":
         
     return dataframe
 
+def get_teachers():
+    excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}), separator=";")
+    excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
+
 
 def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
-    import polars as pl
+    #import polars as pl
 
-    excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}, ticket=ticket, manual_login=auth), separator=";")
-    excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
+    get_teachers()
+
+    # excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}, ticket=ticket, manual_login=auth), separator=";")
+    # excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
 
     params_kateder = {
         "typPracoviste":"K",
@@ -148,40 +154,40 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
     }
     params_predmety = {
         "lang":"cs",
-        "katedra":loner,
+        "fakulta":fakulta,
         "jenNabizeneECTSPrijezdy":"false",
         "rok":"2023"
     }
 
     excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-    excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
-    excel_predmety.write_csv("source_testing/predmety-1.csv")
+    excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByFakultaFullInfo", params_plus=params_predmety, ticket=ticket, manual_login=auth), separator=";")
+    # excel_predmety.write_csv("source_testing/predmety-1.csv")
 
-    for num,katedra in enumerate(katedry_list):
+    for katedra in katedry_list:
         print("Moving to: " + katedra)
         params_rozvrh["katedra"] = katedra
-        params_predmety["katedra"] = katedra
+        # params_predmety["katedra"] = katedra
 
         print("Fetching CSVs.")
 
         temp_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-        temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
+        # temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
 
         print("Fetched CSVs successfully.")
 
-        if temp_rozvrhy.__len__() == 0 or temp_predmety.__len__() == 0:
+        if temp_rozvrhy.__len__() == 0: # or temp_predmety.__len__() == 0
             print("One or more CSV's are empty. Continuing to next item.")
             continue
 
         print("Ensuring type consistency.")
 
         fix_list_rozvrhy = type_check(excel_rozvrhy, temp_rozvrhy)
-        fix_list_predmety = type_check(excel_predmety, temp_predmety)
+        #fix_list_predmety = type_check(excel_predmety, temp_predmety)
 
-        for col_type in fix_list_predmety.keys():
-            if col_type == pl.Int64:
-                temp_predmety = null_out(temp_predmety, fix_list_predmety[col_type])
-            temp_predmety = temp_predmety.with_columns(pl.col(fix_list_predmety[col_type]).cast(col_type))
+        # for col_type in fix_list_predmety.keys():
+        #     if col_type == pl.Int64:
+        #         temp_predmety = null_out(temp_predmety, fix_list_predmety[col_type])
+        #     temp_predmety = temp_predmety.with_columns(pl.col(fix_list_predmety[col_type]).cast(col_type))
 
         for col_type in fix_list_rozvrhy.keys():
             if col_type == pl.Int64:
@@ -190,9 +196,9 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
 
         print("Type consistency ensured. Saving testing file and appending the main dataframes.")
 
-        temp_predmety.write_csv("source_testing/predmety"+str(num)+".csv")
+        # temp_predmety.write_csv("source_testing/predmety"+str(num)+".csv")
         
-        excel_predmety = excel_predmety.vstack(temp_predmety)
+        # excel_predmety = excel_predmety.vstack(temp_predmety)
         excel_rozvrhy = excel_rozvrhy.vstack(temp_rozvrhy)
         print("Dataframes appended. Continuing to next item.")
 
@@ -201,7 +207,24 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
     
 
 def ucitel():
-    pass
+    # Params
+    params_rozvrh = {
+        "stagUser": "F23112",
+        "semestr":"%",
+        "vsechnyCasyKonani":"false",
+        "jenRozvrhoveAkce":"true",
+        "vsechnyAkce":"false",
+        "jenBudouciAkce":"false",
+        "lang":"cs",
+        "katedra":"-",
+        "rok":"2023"
+    }
+    params_predmety = {
+        "lang":"cs",
+        "fakulta":fakulta,
+        "jenNabizeneECTSPrijezdy":"false",
+        "rok":"2023"
+    }
 
 def studijni_program():
     pass
