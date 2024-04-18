@@ -1,0 +1,2245 @@
+katedra,zkratka,nazev
+CNB,BK502,Fyziologie živočichů a člověka
+CNB,ME101,Bioanalytické metody
+CNB,NA20,Bio-mikroelektromechanické systémy
+CNB,BIOB,Biofyzika a bioenergetika buňky
+CPPV,DOUC,Doučování
+KBI,BK514,Antropologie a genetika člověka
+KBI,BP204,Biometrika
+KBI,E102,Ethology - biology of behaviour
+KBI,E111,Molecular Biology
+KBI,E123,Animal and Plant Models in Biology
+KBI,KB102,Úvod do studia biologie
+KBI,KN304,Seminář k diplomové práci
+KBI,K303,Etologie živočichů
+KBI,K504,Forenzní biologie
+KBI,MA305,Biologie parazitů
+KBI,N045,Výzkum obratlovců v praxi
+KBI,N057,Praktická cvičení z cytogenetiky
+KBI,N101,Anatomie a fyziologie člověka NMgr.
+KBI,N301,Bioanalytické metody
+KBI,N303,Didaktika biologie III
+KBI,N305,Etologie živočichů
+KBI,PB111,Didaktický seminář z biologie
+KBI,PD04,Nanočástice v buňkách a tkáních
+KBI,P122,Obecná zoologie
+KBI,P426,Kryptogamologické terénní cvičení
+KBI,P527,Ekotoxikologie
+KBI,0009,VK - Bryologie
+KBI,BK106,Preparace a konzervace přírodnin
+KBI,E130,Wildlife management
+KBI,M105,Základy fytopatologie
+KBI,M401,Příprava k SZZ a obhajobě DP
+KBI,N025,Geobotanika
+KBI,N026,Ornitologie
+KBI,N051,Ekofyziologie
+KBI,P407,Filozofické problémy biologie
+KBI,P425,Biologické laboratorní metody II
+KFY,AP06,Plazmové metody materiálů a povrchů
+KFY,CM101,Sel. parts of the theory of el. fields
+KFY,CM104,English
+KFY,DP3,Diplomová práce III
+KFY,E130,Programming - Matlab
+KFY,E293,Ion Analytic Methods
+KFY,FORT2,Programování - Fortran 2
+KFY,FPL,Fyzika pevných látek
+KFY,KA27,Souvislá pedagogická praxe II - SŠ
+KFY,KA35,Souvislá pedagogická praxe II - ZŠ
+KFY,KFORT,Programování - Fortran
+KFY,KMF2,Aplikace matematiky ve fyzice II
+KFY,KNM1,Numerická matematika I
+KFY,K107,Počítačové modelování I
+KFY,K118,Mechanika
+KFY,K301,Kmity a vlny. Optika.
+KFY,K508,Teorie elektromagnetického pole
+KFY,K517,Molekul. sim. na coarse-grained úrovni
+KFY,K724,Kvantová fyzika
+KFY,K725,Didaktika fyziky I - SŠ
+KFY,K736,Proseminář řešení fyz. úloh A - ZŠ
+KFY,M205,Teorie elektromagnetického pole
+KFY,M400,Paralelní programování II
+KFY,NA02,Fyzika plazmatu a plazmové technologie
+KFY,NA06,Struk. látek a difr. analýza v mat. výz.
+KFY,NA16,Polymerní nanomateriály
+KFY,PA36,Souvislá pedagogická praxe II - SŠ
+KFY,PD04,Fyzikální chemie
+KFY,PD08,Moderní metody počítačové fyziky
+KFY,PD304,Pokročilé metody difrakční analýzy
+KFY,PD55,Přípr. a využití nanovlákenných struktur
+KFY,PD62,Vybrané partie z fyziky- teor. mechanika
+KFY,PD67,Granulární materiály
+KFY,PD73,Pokr. NMR techniky v bioorganic. chemii
+KFY,PM207,Mikrofyzika aerosolů
+KFY,P103,Programování A
+KFY,P241,Mesoskopické mod. samoorg. polym. nano
+KFY,P364,Počítačová grafika a zpracování obrazu
+KFY,P507,Statistická fyzika
+KFY,P524,Počítač. modelování - mechanika tekutin
+KFY,P530,Úvod do kvantové fyziky
+KFY,P732,Průběžná pedagogická praxe ZŠ
+KFY,P735,Dějiny fyziky
+KFY,P935,Souvislá pedagogická praxe I - ZŠ
+KFY,P937,Didaktika fyziky III - SŠ
+KFY,SBP,Seminář k bakalářské práci
+KFY,SZZ26,Příprava a charakterizace nanomateriálů
+KFY,SZZ34,SZZ - Fyzika
+KFY,SZZ54,SZZ - Poč.modelování ve fyz. plazmatu
+KFY,TRDM,Termodynamika
+KFY,0157,Biomechanika -Bc.
+KFY,0188,Biomechanika KS
+KFY,0208,Úvod do mesoskopických simulací
+KFY,0233,Experimentální využití elmg. vln D
+KFY,CC,Programování - C/C++
+KFY,DP3,Diplomová práce III
+KFY,E223,Physical methods of thin film deposition
+KFY,FORT2,Programování - Fortran 2
+KFY,KM,Kvantová mechanika
+KFY,K220,Poč. mod. - zpracování obrazu a signálu
+KFY,K417,Odborná angličtina
+KFY,K421,Fyzikální praktikum B
+KFY,K612,Proseminář řešení fyzikálních úloh
+KFY,K615,Úvod do kvantové fyziky
+KFY,K618,Odborný seminář katedry B
+KFY,K622,Proseminář řešení fyzikálních úloh
+KFY,K823,Praktikum školních pokusů B - SŠ
+KFY,K835,Využití ICT ve výuce fyziky
+KFY,K836,Proseminář řešení fyz. úloh B - ZŠ
+KFY,MPNM,Met. přípr. nanomat. a nanost. materialů
+KFY,M401,Speciální teorie relativity
+KFY,PA52,Seminář katedry II
+KFY,PM308,Astronomie a astrofyzika II
+KFY,P231,Fyzika
+KFY,P238,Fyzikální praktikum A
+KFY,P371,Počítačové modelování - Simulink
+KFY,P403,Počítačové modelování IV
+KFY,P404,Laboratorní cvičení
+KFY,P411,Kmity a vlny. Optika.
+KFY,P835,Využití ICT ve výuce fyziky
+KFY,P839,Fyzika pevných látek I
+KFY,P841,Exkurze
+KFY,P852,Paralelní programování
+KFY,TERM,Termika a molekulová fyzika
+KGEO,B312,Ekonomická geografie I
+KGEO,B501,Geografie modelového regionu
+KGEO,B513,Vybrané problémy ekonomické geografie
+KGEO,B516,Základy didaktiky geografie
+KGEO,E030,Urban Environmentalistics
+KGEO,M302,Sociogeografická regionalizace
+KGEO,M309,GIS a státní správa
+KGEO,M403,Diplomový seminář II
+KGEO,PD102,Research mobility
+KGEO,PD108,Macroeconomy of transformations
+KGEO,PD400,Dissertation thesis
+KGEO,V103,Kartografie a geoinformatika
+KGEO,0127,VK-Právo ve věcech mládeže
+KGEO,0142,Interdiscip. přístupy ke kartogr. tvorbě
+KGEO,0147,Monitor. vybr. prvků atmosf a hydrosf. I
+KGEO,0148,Monitor. vybr. prvků atmosf a hydrosf II
+KGEO,0157,Peer-support v geografii
+KGEO,0163,Vybrané kapitoly z politické geografie
+KGEO,B407,Evropské fondy a mezinárodní spolupráce
+KGEO,B419,Monitor. vyb. prvků atmosf.a hydrosf. II
+KGEO,B500,"Regionální exkurze - Česko, příhraničí"
+KGEO,E301,Cultural Geography
+KGEO,M206,Didaktika geografie II
+KGEO,M207,Didaktika terénních cvičení
+KGEO,M212,Přírodní hazardy a rizika
+KGEO,M219,Terénní cvičení ze SG
+KGEO,M408,Příprava k SZZ a obhajobě DP
+KGEO,PD107,Geospatial data: sources and analysis
+KGEO,PD300,Publication in non-indexed journal I
+KGEO,PD302,Other rewiewed publication I
+KCH,BK218,Struktura atomů a molekul
+KCH,BK302,Laboratorní cvičení z fyzikální chemie
+KCH,BK322,Laboratorní cvičení z analytické chemie
+KCH,B215,Seminář z organické chemie
+KCH,B225,ICT ve výuce chemie
+KCH,B303,Průmyslová chemie
+KCH,KN30,Biochemická cvičení
+KCH,KN35,Souvislá pedagogická praxe II - SŠ
+KCH,KN37,Organická chemie Nmgr.
+KCH,K210,Cvičení z chemie
+KCH,K302,Chemická informatika
+KCH,N021,Eliminace polutantů z fluidních systémů
+KCH,N023,Biochemie cizorodých látek
+KCH,N024,Klinická analýza
+KCH,N110,Průběžná pedagogická praxe - ZŠ
+KCH,N417,Souvislá pedagogická praxe II - ZŠ
+KCH,PD01,Toxikologie nanomateriálů
+KCH,PD09,Organické syntézy
+KCH,PD11,Chování kapalin v nanorozměrech
+KCH,P301,Organická chemie
+KCH,P309,Chemie II
+KCH,P317,Chemická analýza
+KCH,P425,VK - Instrumentální metody II
+KCH,P426,Organ. chemie význ. skupin tox. látek
+KCH,P516,Heterocyklické a organokovové sloučeniny
+KCH,P627,Bakalářské práce
+KCH,0900,Svobodný software v přírodních vědách
+KCH,BK219,Toxikologické databáze
+KCH,B108,Zásady odborné prezentace
+KCH,B207,Instrumentální analýza
+KCH,B212,Analytická chemie životního prostředí
+KCH,B312,Toxikologie a legislativa ČR a EU 2
+KCH,B314,Strukturní analýza organických sloučenin
+KCH,B321,Odborná praxe
+KCH,EXK,Exkurze B
+KCH,KN23,Didaktika chemie II - ZŠ
+KCH,KN41,Souborný seminář
+KCH,K601,Instrumentální metody
+KCH,M206,Thesis Progress Seminar II
+KCH,N232,Instrumentální metody
+KCH,N414,Souborný seminář
+KCH,PD06,Struktura a vlastnosti polymerů
+KCH,P214,Úvod do teorie měření
+KCH,P404,Preparativní organická chemie
+KCH,P414,Technologie ochrany životního prostředí
+KCH,P427,Toxikologie
+KCH,P429,Laboratorní cvičení z organické chemie
+KI,AHW,Praktické aplikace hardwaru
+KI,DI3,Didaktika informatiky III
+KI,DSY,Databázové systémy
+KI,EPCA,Computer Architecture
+KI,EROB,Use of Robot Kits
+KI,ESEC,Security Technologies
+KI,KAIIT,Architektura a infrastruktura IT
+KI,KAIT,Architektura a infrastruktura IT
+KI,KDIS,Dependabilita informačních systémů
+KI,KMIS,Podnikový management a IS
+KI,KPIN,Programování pro Internet
+KI,KPVS,Projektové výzvy a strategie v IT
+KI,NOP,Odborná praxe
+KI,NSQL,NoSQL databázové systémy
+KI,PTZI,Praktikum z teor. zákl. informatiky
+KI,SPL,Speciální programovací jazyky
+KI,SZZBP,Aplikovaná informatika B
+KI,YRDB,Relační databáze
+KI,ZICT,Základy ICT
+KI,0054,Programování ve VBA
+KI,0131,Manažerský excel
+KI,0144,Petriho sítě
+KI,0148,VK - Programování v Pythonu
+KI,0166,Praxe ve firmě B
+KI,0173,Základy neuronových sítí
+KI,0193,Základy tvorby webových stránek
+KI,0195,Základy tvorby webových stránek A
+KI,0201,DMS a nástroje pro týmovou spolupráci
+KI,0205,Softwarové inženýrství
+KI,APOPT,Optimization in Practice
+KI,CSY,Číslicové systémy
+KI,DSHS,Dependabilita SW a HW systémů
+KI,EAPR2,Algorithms and Programming II
+KI,EDHW,Dependability of Hardware Systems
+KI,EPCA,Computer Architecture
+KI,KABS,Aplikace Bayesovských sítí
+KI,KCRS,Mod. met. zpracování čas. řad a sekvencí
+KI,KDSW,Dependabilita softwarových systémů
+KI,KPGUI,Programování - graf. uživatel. rozhraní
+KI,KPHW2,Programování hardwaru II
+KI,KPPS,Praktika počítačových sítí
+KI,KRY,Základy kryptologie
+KI,KUTR,Úvod do teorie řízení
+KI,POS,Principy operačních systémů
+KI,PREP,Prezentace projektu
+KI,TFL,Teorie formálních jazyků
+KI,TSW,Testování softwaru
+KI,VICT,Využití ICT ve výuce
+KI,0111,Mikroprocesorová technika
+KI,0191,CCNP 1 - Route
+KI,0198,CCNP 2 - Switch
+KI,0208,Hybridní modely Data Science
+KMA,CAL3,Matematická analýza III
+KMA,E117,Introduction to analytic geometry
+KMA,E119,Computational Topology
+KMA,KGE1,Geometrie I
+KMA,KUDM,Úvod do didaktiky matematiky
+KMA,KZAM,Základy matematiky
+KMA,P103,Základy matematiky
+KMA,P133,Kombinatorika a grafy
+KMA,P137,Statistika v biologii
+KMA,P640,Bakalářská práce
+KMA,USW,Úvod do matematického softwaru
+KMA,ZAM,Základy matematiky
+KMA,ALG,Algebra
+KMA,KAAP,Algebra s aplikacemi
+KMA,KPSPP,Přípravný seminář k pedagogické praxi
+KMA,K406,Lineární algebra a geometrie II
+KMA,MK200,Algebra II
+KMA,MK203,Didaktika matematiky II
+KMA,MK206,Souvislá pedagogická praxe I - SŠ
+KMA,MK400,Matematický seminář
+KMA,M206,Souvislá pedagogická praxe I - SŠ
+KMA,PRM,Praktikum z matematiky pro chemiky
+KMA,P229,Matematická analýza II
+KMA,P632,Matematický seminář II
+KMA,TMN,Teorie množin
+KPRF,SBS,Studium bez stresu
+KPRF,BAI,Building AI
+KPRF,CLD,Cloudové služby
+KPRF,N101,Anglická konverzace
+KPRF,P232,Anglický jazyk - zkouška B
+CNB,AMAT,Nekovové anorganické materiály
+CNB,ZMBI,Základy moderních biotechnologií
+KBI,BK301,Forenzní biologie
+KBI,E104,General of Parasitology
+KBI,E110,General Pathology of Cell
+KBI,E120,Microscopy Techniques in Biology
+KBI,E121,Labor. Techniq. in Mol. and Cell Biology
+KBI,E125,Plant Biotechnology
+KBI,E129,Parasitology
+KBI,KB111,Didaktický seminář z biologie
+KBI,KN303,Didaktika biologie III
+KBI,KRSP,Komplexní reflektivní seminář praxe
+KBI,KSBP,Seminář k bakalářské práci
+KBI,K507,Environmentální legislativa
+KBI,K591,PVK - Úvod do biologie
+KBI,M105,Základy fytopatologie
+KBI,M301,Diplomový seminář
+KBI,M306,Základy genového inženýrství
+KBI,N016,Fyziologie a mol. bio. eukar. buňky I
+KBI,N020,Pokročilé statistické metody pro biology
+KBI,N030,Vybrané kapitoly z etologie bezobratlých
+KBI,N055,Biologie chování člověka
+KBI,N304,Seminář k diplomové práci
+KBI,P103,Obecná botanika
+KBI,P221,Fylogeneze a systém nižších rostlin
+KBI,P312,Etologie živočichů
+KBI,P325,Biologie členovců
+KBI,P333,Biologie prokaryot a virů
+KBI,P508,PVK - Filosofie přírodních věd
+KBI,SBP,Seminář k bakalářské práci
+KBI,0088,Funkce a struktura buněčných membrán
+KBI,K001,Technika kresby a ilustrace v biologii
+KBI,K202,Fylogeneze a systém bezobratlých
+KBI,K504,Forenzní biologie
+KBI,ME401,Plant tissue cultures
+KBI,M204,Biologie chování člověka
+KBI,N048,Terén. metody studia populací a společ.
+KBI,N050,Domestikace a domestikanti
+KBI,N061,Odborná angličtina pro biology
+KBI,N203,Didaktika biologie II
+KBI,N302,Bioanalytické laboratoře
+KBI,P330,Metody inventarizačního průzkumu
+KBI,P424,Ekologie
+KBI,P612,Mikrofluidní systémy a biolog. analýza
+KBI,P617,Molekulární a buněčná biologie
+KFY,AP03,"Met. analýz mat. 
+využ. el. mikroskopie"
+KFY,AP12,Seminář katedry
+KFY,A130,Programming - Matlab
+KFY,CM105,Selected parts of mathematics
+KFY,CM202,Molecular physics of fluids
+KFY,DF1,Didaktika fyziky I
+KFY,KA25,Souvislá pedagogická praxe SŠ
+KFY,KMATL,Programování - Matlab
+KFY,KUMER,Úvod do teorie měření
+KFY,K103,Programování A
+KFY,K113,Programování - Matlab
+KFY,K318,Cvičení z fyziky I
+KFY,K418,Výp. a odh. met. pro fyz-chem. vl. látek
+KFY,K510,PVK - Silnoproudá elektrotechnika
+KFY,K617,Odborný seminář katedry A
+KFY,K735,Dějiny fyziky
+KFY,K822,Průběžná pedagogická praxe SŠ
+KFY,K928,Souviská pedagogická praxe II - ZŠ
+KFY,K933,Praktikum školních pokusů C - ZŠ
+KFY,M207,Molekulární modelování
+KFY,PD02,Molek. simulace chem. reagujících směsí
+KFY,PD07,Seminář počítačové fyziky II
+KFY,PD09,Aplikovaná statistická mechanika
+KFY,PD306,Elektronová mikroskopie v biologii
+KFY,PD56,Počítačové modelování nanostruktur
+KFY,PMNS,Příprava mikro a nanostruktur
+KFY,PM200,Vyb. par. z astrofyz. a fyziky kosm. pl.
+KFY,P130,Programování - Matlab
+KFY,P191,Biomechanika
+KFY,P218,Praktika z difr. metod v mater. výzkumu
+KFY,P239,Matematický aparát fyziky II
+KFY,P325,Fyzikální vlastnosti tenkých vrstev
+KFY,P368,Cvičení z fyziky I
+KFY,P411,Kmity a vlny. Optika.
+KFY,P420,Laboratorní praktikum II
+KFY,P515,Laboratorní praktikum III
+KFY,P702,Uhlíkaté nanomateriály
+KFY,P750,Fyzika plazmatu a plazmové technologie
+KFY,P753,Numerické metody hydrodynamiky
+KFY,P922,Diplomový seminář
+KFY,P924,Astronomie a astrofyzika I
+KFY,P933,Praktikum školních pokusů C - ZŠ
+KFY,P961,Fyzika pevných látek II
+KFY,SZZN3,Teor. základy fyziky a chemie materiálů
+KFY,UKVM,Úvod do kvantové mechaniky
+KFY,VPFI,Vybrané partie fyziky pro informatiky
+KFY,0179,Exkurze - Interaktivní fyz. v IQ parku B
+KFY,0211,VK- Praktikum mikrovlnné techniky D
+KFY,0220,Vstupně výstupní komunikace počítače
+KFY,0223,Experimentální využití elmg. vln C
+KFY,0240,Počítačové praktikum statistické fyziky
+KFY,AMAT,Nekovové anorganické materiály
+KFY,AP14,Pokr. studium povrchů pomocí jader. met.
+KFY,KA33,Praktikum školních pokusů D
+KFY,KSPM,Souhrnný seminář - počítačové modelování
+KFY,K214,Programování - C/C++
+KFY,K222,Fyzika I
+KFY,K619,Charakterizace materiálů I
+KFY,K834,Úvod do edukometrie
+KFY,MF1,Aplikace matematiky ve fyzice I
+KFY,M102,Paralelní programování I
+KFY,NADS2,Diplomový seminář II
+KFY,PD201,Vybrané partie z elektr. spektroskopie
+KFY,PZP,Praktikum základů programování
+KFY,P228,Základy kvant. chemie a spektra molekul
+KFY,P408,Termodynamika
+KFY,P530,Úvod do kvantové fyziky
+KFY,P614,Laboratorní praktikum IV
+KFY,P836,Proseminář řešení fyzikálních úloh B ZŠ
+KFY,P863,PVK - Fyzika plazmatu I
+KGEO,B507,Odborná praxe
+KGEO,CEX,Course on other university
+KGEO,KRSP,Komplexní reflektivní seminář praxe
+KGEO,PD201,Thesis supervision I
+KGEO,PD307,Research Project I
+KGEO,PD308,Research outreach I
+KGEO,0134,VK - Přístrojová měření ve FG
+KGEO,0135,Praktická měření ve FG
+KGEO,0143,Teorie a koncepty rurální geografie
+KGEO,B207,Evropská integrace
+KGEO,B213,Základy práva
+KGEO,B403,Odborná angličtina
+KGEO,B405,Ekonomická geografie II
+KGEO,B411,Monitor. vyb. prvků atmosf.a hydrosf. II
+KGEO,B601,Specializační přednášky z FG
+KGEO,B607,Práce s odbornou literaturou
+KGEO,M400,Sociální komunikace
+KGEO,PD303,National conference presentation I
+KGEO,PD308,Research outreach I
+KGEO,0064,VK - Malá geografická exkurze C
+KGEO,0097,VK-Vybrané kapitoly z geografie Evropy B
+KGEO,0113,VK - Flash prezentace
+KGEO,0126,VK-Němčina pro geografy
+KGEO,0131,VK-Enviromentálně historický výzkum
+KGEO,0164,Udržitelná doprava ve městech
+KCH,BK204,Laboratorní cvičení z analytické chemie
+KCH,BK225,ICT ve výuce chemie
+KCH,B200,Organická chemie
+KCH,B317,Membránové separace
+KCH,E105,Experimen. Methods: Laboratory Tutorials
+KCH,E108,Introduction to programming with MATLAB
+KCH,KN11,Anorganická chemie Nmgr.
+KCH,KN16,Dějiny chemie
+KCH,KN29,"Chemické výrobky v praxi,chem. kolem nás"
+KCH,KN34,Souvislá pedagogická praxe II - ZŠ
+KCH,N012,ICT ve výuce chemie
+KCH,N026,Elektromigrační metody
+KCH,N102,Školní pokusy
+KCH,N107,Návykové látky a právní předpisy
+KCH,N305,Struktura hmoty a kvantová chemie
+KCH,N410,Souvislá pedagogická praxe II - ZŠ
+KCH,N413,Organická chemie Nmgr. - ZŠ
+KCH,PD02,Supramol. chemie a design fun. nanostr.
+KCH,PD07,Nanomateriály pro ochranu ŽP
+KCH,P113,VK - Odborná angličtina II
+KCH,P220,Fyzika pro chemiky
+KCH,P411,Úvod do spektr. metod v organické chemii
+KCH,P518,Medicína katastrof
+KCH,P530,Biochemie
+KCH,0160,Chemie boranů
+KCH,BK207,Instrumentální analýza
+KCH,BK312,Toxikologie a legislativa ČR a EU 2
+KCH,KN20,Biochemie NMgr. - ZŠ
+KCH,KN45,Didaktický seminář II
+KCH,KN46,Právní aspekty vzdělávání a předpisy
+KCH,K411,Seminář z fyzikální chemie
+KCH,K610,Instrumentální analýza
+KCH,LBO,Laboratorní cvičení z organické chemie
+KCH,M211,Úvod do modelování průmyslových procesů
+KCH,N226,Souvislá pedagogická praxe I - SŠ
+KCH,N403,Souborný seminář
+KCH,N404,Polymery NMgr.
+KCH,N415,Polymery NMgr.
+KCH,N419,Souborný seminář
+KCH,P203,Seminář z anorganické chemie
+KCH,P212,Laboratorní technika
+KCH,P224,Anorganická chemie
+KCH,P412,Analytická chemie životního prostředí
+KCH,P531,Laboratorní cvičení z biochemie
+KCH,P608,Vzorkování a Analýza škodlivin
+KCH,P628,PVK - Souborný seminář II
+KI,AFJ,Teorie automatů a formálních jazyků
+KI,APNME,Numerical Methods in Practice
+KI,APR1,Algoritmizace a programování I
+KI,ASO2,Analýza signálu a obrazu v praxi II
+KI,A192,Computational Geometry
+KI,EAPR1,Algorithms and Programming I
+KI,ECGR,Fundament. of Com. Graphics and Multimed
+KI,EDEP,Dependability of Information Systems
+KI,EDUL,Data Storage and Processing
+KI,EICT,Information and Communicat. Technologies
+KI,KDUL,Datová úložiště a zpracování dat
+KI,KPAU,Programovatelné automaty
+KI,KPGL1,Programování I
+KI,KRSP,Komplexní reflektivní seminář praxe
+KI,KUCS,Úvod do číslicových systémů
+KI,KUKS,Úvod do kombinovaného studia
+KI,PVS,Projektové výzvy a strategie v IT
+KI,RDBS,Relační databázové systémy
+KI,ROB,Práce s robotickými stavebnicemi
+KI,UBT,Úvod do bezdrátových technologií
+KI,XNME,Numerické metody
+KI,YAPR,Algoritmizace a programování
+KI,YHPS,Hardware a počítačové sítě
+KI,YMPG,Multimédia a počítačová grafika
+KI,YTIM,Teoretická informatika a matematika
+KI,0126,CCNA 2: Routing and Switching Essentials
+KI,0160,Modelování podnikových procesů
+KI,0163,Zpracování obrazu
+KI,0172,Hradlová pole a jazyk VHDL
+KI,0177,Information Security
+KI,0192,Výpočetní geometrie
+KI,0199,CCNP 3 - Tshoot
+KI,AEL,Analogová elektronika
+KI,AKA,Aplikovaná kryptoanalýza
+KI,APR2,Algoritmizace a programování II
+KI,AVG,Aplikace výpočetní geometrie
+KI,BIT,Bezpečnost IS/IT
+KI,EITP,Internet Technologies and Protocols
+KI,EPMP,Programming for Mobile Platforms
+KI,ETFI,Automata and Formal Language Theory
+KI,KAIE,Aplikace internetu a e-learning
+KI,KAVD,Analýza a vizualizace dat
+KI,KDPS2,Diplomový seminář II
+KI,KKRY,Základy kryptologie
+KI,KVPOV,Vybrané partie z operačního výzkumu
+KI,MTCNA,MikroTik Certified Network Associate
+KI,PDSY,Praktikum z databázových systémů
+KI,SON,Sociální sítě
+KI,UDU,Úvod do Unixu
+KI,0126,CCNA 2: Routing and Switching Essentials
+KI,0188,Programování PIC32
+KI,0209,IoT s využitím Raspberry Pi a Arduino
+KMA,KGE,Konstrukční geometrie
+KMA,KPSPN,Přípravný seminář k pedagogické praxi
+KMA,KTAR,Teoretická aritmetika
+KMA,K113,Repetitorium matematiky
+KMA,K117,Matematická analýza I
+KMA,K118,Úvod do matematiky
+KMA,K505,Komplexní analýza
+KMA,K513,Teoretická aritmetika
+KMA,MK100,Didaktika matematiky I
+KMA,MK304,Geometrie na počítači
+KMA,MT1,Matematika I
+KMA,M103,Didaktika matematiky I
+KMA,M301,Diferenciální geometrie
+KMA,PS3,Projektový seminář III
+KMA,P134,Lineární algebra a geometrie I
+KMA,P136,Úvod do matematiky
+KMA,P321,Diferenciální geometrie
+KMA,P339,Teorie míry
+KMA,P552,Diplomový seminář
+KMA,CAL2,Matematická analýza II
+KMA,KPRM,Praktikum z matematiky pro chemiky
+KMA,K231,Lineární algebra a geometrie
+KMA,MK402,Aplikační úlohy ve vyučování matematice
+KMA,M203,Didaktika matematiky II
+KMA,M204,Modelování ve vyučování matematice
+KMA,PS1,Projektový seminář I
+KMA,P227,Teorie grafů
+KMA,P423,Matematická analýza IV
+KMA,P449,Diskrétní matematika
+CNB,BP502,Fyziologie živočichů a člověka
+CNB,NA21,Nanobiotechnologie
+CNB,PRAX,Praxe
+KBI,BAK,Bakalářská práce
+KBI,BP,Bakalářská práce
+KBI,BP301,Forenzní biologie
+KBI,E116,Methods in Molecular Biology
+KBI,E124,Genetics
+KBI,ITBV1,IT v biologických vědách I
+KBI,K409,Základy fytopatologie
+KBI,N035,Diplomový seminář
+KBI,N041,Ekologie a vývoj kulturní krajiny
+KBI,N054,Paleontologie
+KBI,PD10,Biosensory a mikrofluidní systémy
+KBI,P101,Výchova ke zdraví a základy první pomoci
+KBI,P108,Didaktika biologie I
+KBI,P120,Biologické laboratorní metody I
+KBI,P308,Environmentální výchova
+KBI,P328,Limnobiologie
+KBI,P332,Fylogeneze a systém strunatců
+KBI,P521,Fyziologie rostlin
+KBI,P592,Ekotoxikologie
+KBI,0086,VK - Terénní cvičení z mammalogie
+KBI,BK105,Management divokých zvířat
+KBI,BK205,Biologie kvasinek
+KBI,BK220,Úvod do přípr. odb. studií a věd. komun.
+KBI,BK304,Role moderních ZOO v ochraně přírody
+KBI,E125,Plant Biotechnology
+KBI,E128,Appl. of Meth. of Molecular Genetics
+KBI,K402,Biologie a ekologie člověka
+KBI,K409,Základy fytopatologie
+KBI,K411,Ekologie
+KBI,MA205,Ornitologie
+KBI,N022,Mykologie
+KBI,N024,Fyziol. a mol. biolog. eukar. buňky II
+KBI,N036,Algologie
+KBI,PB220,Úvod do přípr. odb. studií a věd. komun.
+KBI,P616,Role moderních ZOO v ochraně přírody
+KBI,P707A,Souvislá pedagogická praxe I - SŠ
+KBI,REM,Rastrovací elektronová mikroskopie
+KFY,APM,Project Management
+KFY,B201,Fyzika pro chemiky II
+KFY,CM102,Statistical thermodynamics
+KFY,CM103,Selected parts of theoretical mechanics
+KFY,CM206,Colloid systems
+KFY,CM300,Computer modelling of space plasma
+KFY,CM302,Computer modelling of granular materials
+KFY,CM304,Mesoscopic simulation methods
+KFY,E511,Atomic and Nuclear Physics
+KFY,E701,Introduction to Supramolecular chemistry
+KFY,E963,Modelling of Processes in Technology II
+KFY,FVTV,Fyzikální vlastnosti tenkých vrstev
+KFY,KPPM3,Praktikum počítačového modelování III
+KFY,KPPP,Průběžná pedagogická praxe
+KFY,KTRDM,Termodynamika
+KFY,K219,Fyzikální metody depozice
+KFY,K310,Vývoj a stavba vesmíru
+KFY,K317,Fyzikální praktikum B
+KFY,K505,Diplomový seminář
+KFY,K506,PVK - Elektronika I
+KFY,K518,Počítačové simulace v nanotechnologiích
+KFY,K520,Praxe
+KFY,K726,Úvod do fyziky plazmatu
+KFY,K922,Diplomový seminář
+KFY,K923,Praktikum školních pokusů C - SŠ
+KFY,K924,Astronomie a astrofyzika I
+KFY,K961,Fyzika pevných látek II
+KFY,METD,Výp. a odhad. met. pro fy-che vl. látek
+KFY,N100,Difr. metody studia strukt. pevných lát.
+KFY,PA25,Souvislá pedagogická praxe - SŠ
+KFY,PD101,Fyzika energetických svazků iontů
+KFY,PD26,Experim. metody analýzy v mater. výzkumu
+KFY,PD300,Aplikace iontových technologií Bio(MEMS)
+KFY,PD54,Plazmové technologie přípravy nanovrstev
+KFY,PD59,Difrakce záření a struktura materiálů
+KFY,PM103,Vybrané partie teoretické mechaniky
+KFY,PM204,Hydrodynamika
+KFY,PM301,Poč. mod. proudění tekutin
+KFY,PM304,Mesoskopické simulační metody
+KFY,PM308,Astronomie a astrofyzika II
+KFY,P105,Úvod do operačních systémů
+KFY,P107,Počítačové modelování I
+KFY,P127,Matematický aparát fyziky I
+KFY,P316,Vývoj a stavba vesmíru
+KFY,P322,Programování
+KFY,P367,Projektový seminář I
+KFY,P503,Základy počítačové fyziky
+KFY,P509,Kvantová fyzika I
+KFY,P511,Atomová a jaderná fyzika
+KFY,P521,Fyzikální praktikum C
+KFY,P525,Odborná praxe
+KFY,P526,Projektový seminář III
+KFY,P751,Úvod do fyziky plazmatu
+KFY,P754,Počítačová fyzika I
+KFY,P938,Vybrané partie z teoretické fyziky I
+KFY,SZZB3,Programování
+KFY,SZZ10,SZZ - Fyzika s didaktikou pro ZŠ
+KFY,SZZ74,SZZ - Poč.mod. ve fyzice tenkých vrstev
+KFY,UNM,Úvod do nanotechnologií a nanomateriálů
+KFY,VPZM,Vybrané partie z matematiky
+KFY,0148,VK-Speciální teorie relativity
+KFY,0174,Aplikace ATMEL A
+KFY,0236,Molekulární simulace roztoků elektrolytů
+KFY,0239,Střípky z dějin fyziky
+KFY,AP08,Mechanické vlastnosti pevných látek
+KFY,E530,An Introduction to Quantum Physics
+KFY,E737,Quantum Physics
+KFY,FPA,Fyzikální praktikum A
+KFY,KA28,Vybrané partie z teoretické fyziky II
+KFY,KDF2,Didaktika fyziky II
+KFY,KKM,Kvantová mechanika
+KFY,K119,Termika a molekulová fyzika
+KFY,K205,Matematika II
+KFY,K406,PVK - Hromadné zpracování dat
+KFY,K409,Matematika IV
+KFY,K414,Vybrané partie z fyziky
+KFY,K419,Počítačový design nanomateriálů
+KFY,K420,Fyzikální praktikum C
+KFY,K611,Elektronika
+KFY,K621,Fyzikální praktikum D
+KFY,K831,Didaktika fyziky II - ZŠ
+KFY,K861,Fyzika pevných látek I
+KFY,MK401,Speciální teorie relativity
+KFY,M200,Počítač. modelování spojitých soustav II
+KFY,M400,Paralelní programování II
+KFY,M402,Fyzika tekutin
+KFY,NA06,Struk. látek a difr. analýza v mat. výz.
+KFY,NA11,Základy kvantové chemie a spektra mol.
+KFY,PA26,Proseminář řešení fyzikálních úloh B
+KFY,PPM2,Praktikum počítačového modelování II
+KFY,PZOS,Počítačové zpracování obrazu a signálu
+KFY,P212,Termika a molekulová fyzika
+KFY,P230,Fyzika povrchů
+KFY,P406,PVK - Hromadné zpracování dat
+KFY,P603,Bakalářská práce
+KFY,P604,Bakalářská práce
+KFY,P606,Teorie relativity
+KFY,P834,Úvod do edukometrie
+KFY,VT,Výrobní technologie
+KGEO,B102,Planetární geografie
+KGEO,B103,Planetární geografie
+KGEO,B307,Základy 3D modelování
+KGEO,B500,"Regionální exkurze - Česko, příhraničí"
+KGEO,B512,Teorie a koncepty rurální geografie
+KGEO,B604,Bakalářský seminář II
+KGEO,E064,One-day Geographic Excursion C
+KGEO,E300,Geographical Information Systems II
+KGEO,E310,Meth. and Applic. of Historic. Geography
+KGEO,E512,Theories and concepts of rural geography
+KGEO,MTPOK,Transf. postindustriál. krajiny a spol.
+KGEO,M303,Aktuální problémy Evropy
+KGEO,M306,Světové velmoci II
+KGEO,M310,Metody a aplikace historické geografie
+KGEO,M311,Kulturní krajiny Česka
+KGEO,N001,Didaktika geografie I
+KGEO,N305,Základy geologie
+KGEO,PD106,Approaches to regional histories
+KGEO,PD306,Field Research I
+KGEO,V101,Geografie obyvatelstva a sídel
+KGEO,0024,VK - Malá geografická exkurze B (1 den)
+KGEO,0051,VK - Zahraniční exkurze (8 dnů)
+KGEO,0133,VK - Úvod do geografie náboženství
+KGEO,0150,Neziskový sektor a regionální rozvoj
+KGEO,0151,Regionální výzkum v pohraničí
+KGEO,0153,Identif. a hodn. ekosystémových služeb
+KGEO,0158,Letní geografická škola
+KGEO,B211,Cvičení ze sociální geografie
+KGEO,B404,Urbánní a rurální geografie
+KGEO,B504,Bakalářský seminář I
+KGEO,E403,English for Science
+KGEO,M203,Metody geografického výzkumu krajiny
+KGEO,M209,Geografický potenciál cestovního ruchu
+KGEO,PD314,International conference presentation II
+KGEO,0124,VK-Regionální geografie Portugalska
+KCH,KN01,Výpočty v programu MAPLE
+KCH,KN05,Pokročilé instrumentální metody
+KCH,KN32,Organická chemie Nmgr.
+KCH,KN36,ICT ve výuce chemie
+KCH,K305,Laboratorní cvičení z anorganické chemie
+KCH,N028,Seminář z instrumentálních anal. metod
+KCH,N111,Systém kvality a vyhodnocování dat
+KCH,N301,"Chemické výrobky v praxi,chem. kolem nás"
+KCH,N315,Biochemická cvičení
+KCH,N316,Fyzikální chemie NMgr. SŠ
+KCH,N317,Souvislá pedagogická praxe II - SŠ
+KCH,N323,Organická chemie Nmgr.
+KCH,N402,Organická chemie Nmgr. - SŠ
+KCH,PD06,Struktura a vlastnosti polymerů
+KCH,PD12,Kompozity nanočástic kovů a jejich oxidů
+KCH,P314,Preparativní anorganická chemie
+KCH,P523,"Polymery pro konstrukční, nátěrové hmoty"
+KCH,P527,Fyzikálně chemická cvičení
+KCH,SZZN3,Modelování chem. procesů a zařízení
+KCH,0103,Chemicko-inženýrský projekt
+KCH,0499,VK-Odborný seminář V
+KCH,BK311,Separační metody
+KCH,B209,Laboratorní cvičení z organické chemie
+KCH,B219,Toxikologické databáze
+KCH,B311,Separační metody
+KCH,B319,Chemicko-inženýrský projekt
+KCH,E108,Introduction to programming with MATLAB
+KCH,KN22,Didaktika chemie II - SŠ
+KCH,KN26,Souvislá pedagogická praxe I - SŠ
+KCH,KN42,Aplikovaná fyzikální chemie
+KCH,KN44,Polymery NMgr.
+KCH,M119,Transportní jevy II
+KCH,N006,Výpočty a odhady v chemii - SŠ
+KCH,N022,Laboratorní cvičení z ekotoxikologie
+KCH,N218,Didaktika chemie II - ZŠ
+KCH,N222,Hmotnostní spektrometrie
+KCH,N229,Instrumentální analýza
+KCH,P221,Matematika pro chemiky
+KCH,P223,Anorganická chemie
+KCH,P401,Fyzikální chemie I
+KCH,P403,Preparativní organická chemie
+KCH,P428,Laboratorní cvičení z organické chemie
+KCH,P600,Bakalářská práce z chemie
+KCH,P629,Toxikologie a legislavita ČR a EU 2
+KCH,P630,Seminář z instrumentálních metod
+KI,A201,DMS and Team Collaboration Tools
+KI,DEP,Dependabilita informačních systémů
+KI,DIS,Dependabilita informačních systémů
+KI,DUL,Datová úložiště a zpracování dat
+KI,EPGH,Hardware Programming
+KI,KAEL,Analogová elektronika
+KI,KBET,Bezpečnostní technologie
+KI,KKRSP,Komplexní reflektivní seminář praxe
+KI,KNSQL,NoSQL databázové systémy
+KI,KPS1,Projektový seminář I
+KI,KSIM,Simulace systémů
+KI,KTZI1,Teoretické základy informatiky I
+KI,MNS,Moderní neuronové sítě
+KI,OAN,Odborná angličtina
+KI,PEK,Podniková ekonomika
+KI,PIN,Programování pro Internet
+KI,SOK,Samoopravné kódy
+KI,TKO,Teorie kódování
+KI,TZI,Teoretické základy informatiky
+KI,0111,Mikroprocesorová technika
+KI,0127,CCNA 3: Scaling Networks
+KI,0141,Počítačová kriminalita
+KI,0158,Stochastické Petriho sítě
+KI,0165,Praxe ve firmě A
+KI,0182,Základy autonomní robotiky
+KI,AOS,Administrace operačních systémů
+KI,DHW,Dependabilita hardwarových systémů
+KI,DIS,Dependabilita informačních systémů
+KI,DSL,Doménově specifické jazyky
+KI,EPPG,Parallel Programming
+KI,ITP,Internetové technologie a protokoly
+KI,KPEM,Právní a ekonomické minimum pro IT
+KI,KPS2,Projektový seminář II
+KI,PHW2,Programování hardwaru II
+KI,PPGR,Praktikum z počítačové grafiky
+KI,PSPP,Přípravný seminář k pedagogické praxi
+KI,PZS,Počítačové zpracování signálu
+KI,SBP2,Seminář k bakalářské práci II
+KI,URDB,Úvod do relačních databází
+KI,0033,Optimalizace v Excelu
+KI,0121,CCNA 1: Introduction to Networks
+KMA,KPPP,Průběžná pedagogická praxe
+KMA,MEX,Matematická exkurze
+KMA,MK305,Moderní trendy ve vyučování matematice
+KMA,PEK,Podniková ekonomika
+KMA,P338,Numerická matematika
+KMA,P507,PVK - Statistika na PC
+KMA,P532,Matematický seminář I
+KMA,P554,Algebraické algoritmy
+KMA,UDM,Úvod do didaktiky matematiky
+KMA,AGE,Analytická geometrie
+KMA,E109,Probability and Statistics
+KMA,E110,Problem Solving Methods for Mathematics
+KMA,KDSM,Didaktický seminář
+KMA,K405,Matematická analýza IV
+KMA,MK401,Využití ICT ve vyučování matematice
+KMA,M200,Algebra II
+KMA,PSPP,Přípravný seminář k pedagogické praxi
+KMA,P225,Metody řešení matematických úloh
+KMA,P405,PVK - Matematika IV
+KMA,TGR,Kombinatorika a grafy
+KMA,THE,Teorie her
+CNB,NA22,Úvod do supramol chemie a krystal. ing.
+KBI,BK526,Fyziologie rostlin
+KBI,BP108,Limnobiologie
+KBI,E107,Ecology
+KBI,E115,Plant Biotechnology
+KBI,E118,Mammalogy
+KBI,ITBV2,IT v biologických vědách II
+KBI,K100,Biologie dětí a dorostu
+KBI,K310,Ekotoxikologie
+KBI,K312,Biometrika
+KBI,K503,Metody inventarizačního průzkumu
+KBI,MA301,Biodiverzita antropog. ovlivněné krajiny
+KBI,M103,Úvod do genomiky a proteomiky
+KBI,N059,Patobiologie živočišných buněk a tkání
+KBI,PB102,Úvod do studia biologie
+KBI,PB526,Fyziologie rostlin
+KBI,PD01,Biokonjugační metody
+KBI,PD02,Chem. met. přípravy nanočástic a nanostr
+KBI,PD08,Buněčné a tkáňové kultury
+KBI,P001,PVK -Technika kresby a ilustrace v biol.
+KBI,P110,Etologie živočichů
+KBI,P321,Bio-mikroelektromechanické systémy
+KBI,P327,Ekotoxikologie
+KBI,SZZ10,SZZ - Biologie s didaktikou pro ZŠ
+KBI,0093,Nanočástice v buňkách a tkáních II
+KBI,0100,Statistika v biomedicínském výzkumu
+KBI,BK421,Biogeografie
+KBI,BP107,Environmentální výchova
+KBI,BP304,Role moderních ZOO v ochraně přírody
+KBI,E121,Labor. Techniq. in Mol. and Cell Biology
+KBI,E122,Microsystems in Biology and Medicine
+KBI,E131,Science education
+KBI,KB220,Úvod do přípr. odb. studií a věd. komun.
+KBI,MA202,Sociobiologie a behaviorální ekologie
+KBI,ME201,Fyziologie a mol. biologie rostl. buňky
+KBI,N023,Metody molekulární biologie
+KBI,PD02,Chem. met. přípravy nanočástic a nanostr
+KBI,P219,Fylogeneze a systém vyšších rostlin
+KBI,P412,Základy fytopatologie
+KBI,P427,Zoologické terénní cvičení
+KFY,AA,Astronomie a astrofyzika
+KFY,ANJA,Anglický jazyk
+KFY,AP01,Vakuová fyzika pro plaz. a diag. metody
+KFY,AP10,Seminář problematiky měření reál. vzorků
+KFY,IVF1,Informatika ve fyzice I
+KFY,K104,Termika a molekulová fyzika
+KFY,K108,Úvod do fyziky
+KFY,K114,Úvod do počítačového modelování
+KFY,K312,Matematický proseminář
+KFY,K315,Projektový seminář I
+KFY,K512,Kvantová fyzika I
+KFY,K723,Praktikum školních pokusů A - SŠ
+KFY,K921,Didaktika fyziky III - SŠ
+KFY,M208,Fyzika pevných látek
+KFY,NA05,Mes. mod. samoorganiz. polym. nanostr.
+KFY,PD03,Chemická termodynamika
+KFY,PD05,Vybrané partie z matematiky I
+KFY,PD27,Fyzika pevných látek
+KFY,PD28,"Metody, modely a algoritmy v biovědách"
+KFY,PD37,Popis procesů při inter. iontů
+KFY,PD58,Principy plazmových reaktorů
+KFY,PD60,Pokr. metody difr. studia tenkých vrstev
+KFY,PD61,Elektrospinning a nanovlákenné materiály
+KFY,PD66,Vybrané partie matematiky
+KFY,PM102,Statistická termodynamika
+KFY,PM203,Studium povrchů pomocí jaderných metod
+KFY,PM300,Poč. mod. kosmického plazmatu
+KFY,PM303,Poč. metody molekul. simul.- Monte Carlo
+KFY,P112,Úvod do fyziky
+KFY,P211,Mechanika
+KFY,P242,Umělé neuron. sítě a evoluční algoritmy
+KFY,P303,Numerická matematika I
+KFY,P311,Elektřina a magnetismus
+KFY,P317,Metody přípravy nanomateriálů
+KFY,P523,Počítačové model. - částicové modelování
+KFY,P607,Kvantová fyzika II
+KFY,P705,Elektromigrační metody
+KFY,P731,Didaktika fyziky I - ZŠ
+KFY,P866,Matem. model. trans. hybnosti-hydrodyn.
+KFY,P936,Proseminář řešení fyzikálních úloh C ZŠ
+KFY,P951,Diplomový seminář
+KFY,SZZMV,Fyzika pro vzdělávání
+KFY,UMER,Úvod do teorie měření
+KFY,0114,VK-Úvod do LaTeXu
+KFY,0172,Úvod do fyziky a techniky vakua
+KFY,0209,Úvod do (nano)materiálů
+KFY,0210,Úvod do nanotechnologií a nanomateriálů
+KFY,0221,Kurz praktické elektroniky
+KFY,0235,Mol. simul. polarizovaných mod. tekutin
+KFY,0237,Experimentální využití elmg. vln F
+KFY,AP11,Sondové metody diagnostiky plazmatu
+KFY,DF2,Didaktika fyziky II
+KFY,FORT,Programování - Fortran
+KFY,FPC,Fyzikální praktikum C
+KFY,KA30,Didaktická a laboratorní technika
+KFY,KA31,Didaktická a laboratorní technika
+KFY,K218,Vakuová fyzika a technika
+KFY,K402,Numerická matematika II
+KFY,K404,Laboratorní cvičení
+KFY,K408,PVK - Termodynamika
+KFY,K422,PVK - Vyb.partie z teoretické fyziky I
+KFY,K605,Praktikum počítačového modelování II
+KFY,K837,Didaktika fyziky II - SŠ
+KFY,PA38,Praktikum školních pokusů D - ZŠ
+KFY,PA51,Měření a zpracování experimentálních dat
+KFY,PTVN,"Principy, tech. a využ. nanovláken. str."
+KFY,P135,Počítačové metody - Monte Carlo
+KFY,P223,Fyzikální metody depozice
+KFY,P224,Charakterizace materiálů I
+KFY,P237,Termika a molekulová fyzika
+KFY,P424,Nanomateriály na bázi přír. minerálů
+KFY,P427,Vybrané partie z fyziky
+KFY,P623,Fyzika v pokusech
+KFY,P640,Bakalářská práce III
+KFY,P831,Didaktika fyziky II - ZŠ
+KFY,P833,Praktikum školních pokusů B - ZŠ
+KFY,P838,Didaktika fyziky II - SŠ
+KFY,P864,PVK - Modelování procesů v technice I
+KFY,SPM,Souhrnný seminář - počítačové modelování
+KGEO,B100,Úvod do geografie
+KGEO,B502,Geoinformatika
+KGEO,B503,Teorie geografie
+KGEO,B504,Bakalářský seminář I
+KGEO,E024,One-day Geographical Excursion B
+KGEO,E301,Cultural Geography
+KGEO,M102,Vybrané kapitoly FG Evropy
+KGEO,M307,Přednášky učitelů z praxe
+KGEO,M308,Pedagogická praxe souvislá II
+KGEO,PD107,Geospatial data: sources and analysis
+KGEO,PD303,National conference presentation I
+KGEO,PD305,Internal research project I
+KGEO,V102,Ekonomická geografie a regionální rozvoj
+KGEO,V104,Regionální geografie
+KGEO,0119,VK-Regionální geografie Číny
+KGEO,0156,Geografie a dědictví krajiny
+KGEO,0160,Vybrané kapitoly z cestovního ruchu
+KGEO,0166,Geografie jídla
+KGEO,BK401,Životní prostředí a udržitelný rozvoj
+KGEO,B408,Územní plánování a regionální politika
+KGEO,B418,Virtuální a rozšířená realita
+KGEO,M211,GIS projekt
+KGEO,0006,VK-Exkurze a praxe Východ.Čechy (5 dní)
+KGEO,0142,Interdiscip. přístupy ke kartogr. tvorbě
+KCH,BK215,Seminář z organické chemie
+KCH,BK317,Membránové separace
+KCH,B203,Analytická chemie
+KCH,B204,Laboratorní cvičení z analytické chemie
+KCH,E103,Applied Thermodynamics: Phave behaviour
+KCH,KN33,Didaktický seminář I
+KCH,K311,Seminář z organické chemie
+KCH,M107,Exkurze A
+KCH,N005,Právní aspekty vzdělávání a předpisy
+KCH,N025,Stopová organická analýza
+KCH,N106,Odborný seminář I
+KCH,N108,Pokročilé instrumentální metody
+KCH,P114,Cvičení z chemie
+KCH,P329,Laboratorní cvičení z anorganické chemie
+KCH,P501,Bakalářská práce I
+KCH,P503,Úvod do biochemie
+KCH,P505,Chemická analýza
+KCH,P515,Chemická analýza
+KCH,P600,Bakalářská práce z chemie
+KCH,0101,Toxikologie potravin
+KCH,0105,Úvod do biochemie a biofyziky
+KCH,0109,Exkurze
+KCH,BK104,Anorganická chemie
+KCH,BK209,Laboratorní cvičení z organické chemie
+KCH,BK314,Strukturní analýza organických sloučenin
+KCH,K402,Makromolekulární chemie
+KCH,N008,Úvod do chemické fyziky
+KCH,N204,Analytická chemie Nmgr.
+KCH,N223,Forenzní vědy
+KCH,N227,Biochemie NMgr. - ZŠ
+KCH,P409,VK - Odborná angličtina
+KCH,P419,Odborná angličtina
+KCH,P610,Instrumentální metody
+KCH,P611,Strukturní analýza organických sloučenin
+KI,APSIM,System Simulation in Practice
+KI,A187,Programming and Algorithms in Practice
+KI,DVP,Data v praxi
+KI,ECIS,Digital Systems
+KI,EOON,Object Oriented Design
+KI,EOSY,Operating Syst. Principl. and Administr.
+KI,ICT,Informační a komunikační technologie
+KI,ICTE,Základy ICT
+KI,KDPG,Didaktika programování
+KI,KDSY,Databázové systémy
+KI,KPHW1,Programování hardwaru I
+KI,KPROJ,Projektový seminář
+KI,KPZS,Počítačové zpracování signálu
+KI,OMLM,Optimization for ML with MATLAB
+KI,PAU,Programovatelné automaty
+KI,PGL1,Programování I
+KI,PSE,Počítačové sítě
+KI,PSI,Počítačové sítě
+KI,XBP,Bakalářská práce z informatiky
+KI,ZPS,Základy počítačových sítí a protokolů
+KI,0152,MIS/Business Intelligence
+KI,0161,Moderní trendy v Enterprise IT
+KI,0167,Úvod do zpracování a analýzy dat
+KI,0170,Aplikace systému Matlab
+KI,0174,Praktikum z algoritmů a dat. struktur
+KI,0187,Praktikum programování a algoritmizace
+KI,0198,CCNP 2 - Switch
+KI,0206,Počítačové zpracování biologických dat
+KI,0208,Hybridní modely Data Science
+KI,ADS,Algoritmy a datové struktury
+KI,AKR,Aplikovaná kryptologie
+KI,AVD,Analýza a vizualizace dat
+KI,DI2,Didaktika informatiky II
+KI,ELAI,Elements of AI
+KI,EPGL2,Programming II
+KI,EROB,Use of Robot Kits
+KI,FIS,Projektové řízení a firemní IS
+KI,IVP,Infrastrukturní virtualizační platformy
+KI,KAVG,Aplikace výpočetní geometrie
+KI,KIVP,Infrastrukturní virtualizační platformy
+KI,KPMP,Programování pro mobilní platformy
+KI,KPRIZ,Projektové řízení
+KI,KPSPP,Přípravný seminář k pedagogické praxi
+KI,KPYT,Programování - Python
+KI,KUSU,Úvod do strojového učení
+KI,KZKR,Základy kryptologie
+KI,PSP,Počítačové sítě a protokoly
+KI,VPU,Vizuální programování v Unixu
+KI,XADS,Algoritmy a datové struktury
+KI,0128,CCNA 4: Connecting Networks
+KI,0185,Souborný seminář
+KI,0199,CCNP 3 - Tshoot
+KI,0201,DMS a nástroje pro týmovou spolupráci
+KMA,AVD3,Analýza a vizualizace podnik. dat III
+KMA,CA1,Matematická analýza I
+KMA,E120,Abstract Algebra
+KMA,FINA,Finanční analýza
+KMA,GE1,Geometrie I
+KMA,KKGE,Konstrukční geometrie
+KMA,MK308,Didaktika matematiky III
+KMA,M100,Didaktika matematiky I
+KMA,PS2,Projektový seminář II
+KMA,PS4,Projektový seminář IV
+KMA,P113,Repetitorium matematiky
+KMA,P132,Úvod do infinitezimálního počtu
+KMA,P551,Teoretická aritmetika
+KMA,DSM,Didaktický seminář
+KMA,E101,Advanced statistical methods
+KMA,E105,Mathematical Analysis II
+KMA,KGR,Kombinatorika a grafy
+KMA,KKGR,Kombinatorika a grafy
+KMA,KMT2,Matematika II
+KMA,K412,Diskrétní matematika
+KMA,MK204,Modelování ve vyučování matematiky
+KMA,MK403,Matematický seminář
+KMA,MSN,Matematický seminář
+KMA,M202,Matematická analýza IV
+KMA,PDR,Parciální diferenciální rovnice
+KMA,PRIZ,Projektové řízení
+KMA,P226,Odborné prezentace v matematice
+KMA,P231,Lineární algebra a geometrie
+KMA,P451,Topologie
+KMA,ZFIN,Základy financí
+KPRF,ELAI,Elements of AI
+KPRF,CHP,Chytré poznámky
+KPRF,K104,Anglický jazyk A
+KPRF,K104,Anglický jazyk A
+CNB,ME102,Mammalian cell tissue culture techniques
+CNB,NA18,Úvod do fotofyziky a fotochemie nanomat.
+CNB,MPNM,Met. přípr. nanomat. a nanost. materialů
+CNB,MSBA,Mikrofluidní systémy a biolog. analýza
+KBI,BK102,Úvod do studia biologie
+KBI,BK303,Základy bioinformatiky
+KBI,BK334,Paleontologie a paleoekologie
+KBI,BP526,Fyziologie rostlin
+KBI,E127,Behavior
+KBI,KICT1,Inf. technologie v biologických vědách I
+KBI,KN305,Etologie živočichů
+KBI,K102,Obecná botanika
+KBI,K111,Výchova ke zdraví a základy první pomoci
+KBI,MA103,Bryologie
+KBI,MA304,Paleontologie
+KBI,ME303,Cvičení z experiment. biologie rostlin
+KBI,N031,Bioanalytické metody
+KBI,N033,Cytogenetika
+KBI,N103,Didaktika biologie I
+KBI,N302,Bioanalytické laboratoře
+KBI,PD11,Rastrovací elektronová mikroskopie
+KBI,P008,PVK - Forenzní biologie
+KBI,P206,Preparace a konzervace přírodnin I
+KBI,P302,Fylogeneze a systém bezobratlých
+KBI,P320,Bioanalytické metody
+KBI,P324,Cytogenetika
+KBI,P329,Biometrika
+KBI,P525,Environmentální legislativa
+KBI,0087,Aktuální biologický seminář II
+KBI,0090,Základy bioinženýrství
+KBI,BP,Bakalářská práce
+KBI,BP105,Management divokých zvířat
+KBI,BP300,Kryptobióza
+KBI,ICT1,Inf. technologie v biologických vědách I
+KBI,K312,Biometrika
+KBI,M201,Odborná praxe
+KBI,M206,Elektronová mikroskopie v biologii
+KBI,N038,Diplomová práce III
+KBI,P208,Didaktika biologie II
+KBI,P218,Biologické laboratorní metody II
+KBI,P417,Nanobiotechnologie
+KBI,P419,Preparace a konzervování přírodnin II
+KBI,P422,Ekologie
+KBI,P619,Metody inventarizačního průzkumu
+KFY,AK501,Practicum in computer modelling I
+KFY,AP501,Practicum in computer modelling I
+KFY,CM200,Sel. parts of astrophysics and space PP
+KFY,CM201,Polymer physics
+KFY,CM305,Advanced molecular simul. methods - MD
+KFY,KA26,Proseminář řešení fyzikálních úloh B-SŠ
+KFY,KSDP,Seminář k diplomové práci
+KFY,KSF,Statistická fyzika
+KFY,KVSV,Vývoj a stavba vesmíru
+KFY,K106,Matematika I
+KFY,K117,Programování - Fortran
+KFY,K201,Úvod do teorie měření
+KFY,K202,Elektřina a magnetismus
+KFY,K223,Umělé neuron. sítě a evoluční algoritmy
+KFY,K314,Fyzika II
+KFY,K321,Fyzikální praktikum A
+KFY,K501,Praktikum počítačového modelování I
+KFY,K615,Úvod do kvantové fyziky
+KFY,K731,Didaktika fyziky I - ZŠ
+KFY,K931,Didaktika fyziky III - ZŠ
+KFY,K936,Proseminář řešení fyz. úloh C - ZŠ
+KFY,M104,Termodynamika
+KFY,M304,Odborná angličtina
+KFY,NADP2,Diplomová práce II
+KFY,OPT,Kmity a vlny. Optika.
+KFY,PA37,Souvislá pedagogická praxe II - ZŠ
+KFY,PD100,Fyzika plazmových technologií
+KFY,PD200,Iontové analytické metody
+KFY,PD307,Materials and Technolog. for Sust. Soc.
+KFY,PD308,Kurz marketingu a managementu
+KFY,PD38,Vybrané partie z fyziky
+KFY,PD63,Plazmové funkcionalizace povrchů
+KFY,PD64,Zákl. vak. fyz. a princip plaz. reaktorů
+KFY,PM100,Vybrané partie z kvantové fyziky
+KFY,PM305,Poč. met. molekul. simulací - MD
+KFY,P106,Matematika I
+KFY,P219,Nanomateriály a jejich charakterizace
+KFY,P227,Počítačový design nanomateriálů
+KFY,P302,Programování C
+KFY,P326,Seminář z elektron. diagnostických metod
+KFY,P401,Počítačové modelování III
+KFY,P516,Nanomateriálové inženýrství
+KFY,P721,Didaktika fyziky I - SŠ
+KFY,P737,Kvantová fyzika
+KFY,P738,Didaktika fyziky I - SŠ
+KFY,P923,Praktikum školních pokusů C - SŠ
+KFY,P939,Didaktika fyziky III - ZŠ
+KFY,P962,PVK - Fyzika plazmatu II
+KFY,SDP,Seminář k diplomové práci
+KFY,SZZN5,Nanotechnologie dle specializace DP
+KFY,SZZP1,Fyzika
+KFY,SZZ14,"SZZ - Num.matematika,pravd.,statistika"
+KFY,SZZ25,Fyzika a chemie nanomateriálů
+KFY,SZZ53,Vybrané kapitoly z teoretické fyziky
+KFY,0164,VK-Teorie relativity
+KFY,0195,VK-Praktikum mikrovlnné techniky B
+KFY,0203,VK-Praktikum mikrovlnné techniky A
+KFY,0204,VK-Fyzikální seminář
+KFY,AP09,Úvod do fyziky energet. svazků iontů
+KFY,EA51,Measurements and Proces. of Exper. Data
+KFY,KATOM,Atomová a jaderná fyzika
+KFY,KA29,Využití ICT ve výuce fyziky
+KFY,KA32,Didaktický seminář - ZŠ
+KFY,KFPA,Fyzikální praktikum A
+KFY,KFPC,Fyzikální praktikum C
+KFY,KNM,Kompozitní a nanokompozitní materiály
+KFY,KSDP,Seminář k diplomové práci
+KFY,KSEFU,Seminář řešení fyzikálních úloh
+KFY,KSTR,Speciální teorie relativity
+KFY,K217,Fyzikální praktikum A
+KFY,K221,Matematika pro fyziky II
+KFY,K403,Počítačové modelování IV
+KFY,K407,Teoretická mechanika II
+KFY,K613,Cvičení z fyziky II
+KFY,K833,Praktikum školních pokusů B - ZŠ
+KFY,K839,Fyzika pevných látek I
+KFY,K840,Souvislá pedagogická praxe I - SŠ
+KFY,MK204,Kvantová mechanika
+KFY,NM2,Numerická matematika II
+KFY,PA22,Didaktický seminář
+KFY,PA31,Didaktická a laboratorní technika
+KFY,PA32,Didaktický seminář ZŠ
+KFY,PA53,Diplomová práce
+KFY,PDN,Počítačový design nanomateriálů
+KFY,PD202,Komplexní analýza materiálů
+KFY,P206,Počítačové modelování II
+KFY,P221,Matematika pro fyziky II
+KFY,P233,Úvod do fyziky
+KFY,P234,Poč. mod. - zpracování obrazu a signálu
+KFY,P405,PVK - Programování D
+KFY,P407,Teoretická mechanika II
+KFY,P425,Praxe v podniku
+KFY,P426,Poč. mod. - transport tepla a hmoty
+KFY,P821,Didaktika fyziky II - SŠ
+KFY,P861,Fyzika pevných látek I
+KFY,SEFU,Seminář řešení fyzikálních úloh
+KGEO,BP100,Základy geologie
+KGEO,B306,Ekonomická geografie I
+KGEO,B510,3D model. v územ. plán. a regio. rozvoji
+KGEO,B518,3D modelování v praxi
+KGEO,E023,One-day Geographical Excursion A
+KGEO,E306,Economic geography I
+KGEO,KN305,Základy geologie
+KGEO,M106,Vizuální reprezentace v geografii
+KGEO,M315,Makroregiony II
+KGEO,PD200,Teaching assignment I
+KGEO,PD314,International conference presentation II
+KGEO,SZZ53,SZZ - humánní geografie
+KGEO,0120,VK-Proměny kulturní krajiny
+KGEO,0152,Vybrané kapitoly z geografie krajiny
+KGEO,0161,Speciální formy cestovního ruchu v praxi
+KGEO,0164,Udržitelná doprava ve městech
+KGEO,B204,Cvičení z FG
+KGEO,B205,Cvičení z SG
+KGEO,B208,EU a střední Evropa I
+KGEO,B605,Specializační přednášky z praxe
+KGEO,B606,Vzdělávání v geografii
+KGEO,B608,Geografická prezentace
+KGEO,E212,Natural Hazards and Risks
+KGEO,E405,Economic geography II
+KGEO,E516,EU and Central Europa
+KGEO,MMRER,Management regionálních rizik
+KGEO,M208,Pedagogická praxe souvislá I
+KGEO,M210,Potenciál kulturní krajiny a GIS
+KGEO,M217,Makroregiony I
+KGEO,M218,Fyzická geografie Česka
+KGEO,M412,Diplomový seminář II
+KGEO,M413,Příprava k SZZ a obhajobě DP
+KGEO,PD304,International conference presentation I
+KGEO,0100,VK - Environmentálně geografický výzkum
+KGEO,0154,Problémové oblasti Česka
+KGEO,0163,Vybrané kapitoly z politické geografie
+KCH,BK300,Toxikologie a legislativa ČR a EU 1
+KCH,BK303,Průmyslová chemie
+KCH,BK324,Laboratorní cvičení z fyzikální chemie
+KCH,B218,Struktura atomů a molekul
+KCH,B301,Biochemie
+KCH,B324,Laboratorní cvičení z fyzikální chemie
+KCH,E100,General Chemistry
+KCH,E106,Exper. a neexper. metody ve fyz. chemii
+KCH,KN10,Didaktika chemie I
+KCH,KN14,Průběžná pedagogická praxe
+KCH,KN17,Programování v chemii
+KCH,K102,Úvod do chemie
+KCH,M103,Programování
+KCH,M203,Thesis Progress Seminar I
+KCH,NA04,Anorganická chemie
+KCH,N103,Didaktika chemie I
+KCH,N114,Anorganická chemie Nmgr.
+KCH,N220,Souvislá pedagogická praxe - SŠ
+KCH,N326,Seminář k diplomové práci B
+KCH,P325,Organická chemie
+KCH,P510,PVK - Seminář z průmyslové chemie A
+KCH,P517,Fyzikálně chemická cvičení
+KCH,P525,Exkurze
+KCH,P539,Seminář z analytické chemie
+KCH,P625,Souvislá pedagogická praxe I
+KCH,SZZ10,Chemie a didaktika chemie pro ZŠ
+KCH,0078,Struktura hmoty
+KCH,0200,Toxikologie nanomateriálů
+KCH,BK206,Instrumentální metody
+KCH,B206,Instrumentální metody
+KCH,B224,Laboratorní cvičení z organické chemie
+KCH,KN419,Souborný seminář
+KCH,K204,Matematika pro chemiky
+KCH,K403,Preparativní organická chemie
+KCH,K406,Úvod do teorie měření
+KCH,M113,Kvantová chemie
+KCH,N221,Analýza vod
+KCH,N225,Biochemie NMgr. - SŠ
+KCH,N233,Makromolekulární chemie
+KCH,P226,Anatomie a fyziologie člověka
+KCH,P604,PVK - Seminář z instrumentálních metod A
+KI,AUC,Automatické řízení
+KI,EDSY,Database Systems
+KI,ETFI,Automata and Formal Language Theory
+KI,KASO2,Analýza signálu a obrazu v praxi II
+KI,KIKT2,Informační a komunikační technologie II
+KI,KMPG,Multimédia a základy počítačové grafiky
+KI,KPSI,Počítačové sítě
+KI,MPG,Multimédia a základy počítačové grafiky
+KI,MRL,Značkovací jazyky
+KI,MTCNA,MikroTik Certified Network Associate
+KI,PSI2,Počítačové sítě II
+KI,UCS,Úvod do číslicových systémů
+KI,ZEM,Základy ekonomie a managementu
+KI,0033,Optimalizace v Excelu
+KI,0146,Linuxové technologie v praxi
+KI,0183,Data mining - základy
+KI,0200,Trendy v IT
+KI,0202,Herní studia a gamifikace
+KI,API,Aplikace Internetu
+KI,CGR,Počítačová grafika
+KI,CRS,Mod. met. zpracování čas. řad a sekvencí
+KI,EDSW,Dependability of Software Systems
+KI,EMSW,Mathematical software
+KI,KAKA,Aplikovaná kryptoanalýza
+KI,KASK,Analýza síťové komunikace
+KI,KCIS,Číslicové systémy
+KI,KDSHS,Dependabilita SW a HW systémů
+KI,KODM,OLAP a Data mining
+KI,KPGL2,Programování II
+KI,KSCAD,SCADA systémy
+KI,OSY,Operační systémy
+KI,PGUI,Programování - graf. uživatel. rozhraní
+KI,PMP,Programování pro mobilní platformy
+KI,PPSI,Praktikum počítačových sítí
+KI,PSI1,Počítačové sítě I
+KI,UMM,Úvod do matematického modelování
+KI,URD,Úvod do relačních databází
+KMA,DIM,Diskrétní matematika
+KMA,E113,Linear algebra
+KMA,E118,Differential Geometry
+KMA,GE2,Geometrie II
+KMA,K111,Úvod do matematiky
+KMA,K114,Úvod do infinitezimálního počtu
+KMA,K304,Matematická analýza III
+KMA,K311,Algebra I
+KMA,K514,Diplomový seminář
+KMA,K516,Statistika na PC
+KMA,MARK,Marketing
+KMA,MK104,Průběžná pedagogická praxe - ZŠ
+KMA,MK105,Průběžná pedagogická praxe - SŠ
+KMA,MK302,Logika a axiomatika
+KMA,M307,Souvislá pedagogická praxe II - ZŠ
+KMA,M308,Souvislá pedagogická praxe II - SŠ
+KMA,PAS,Pravděpodobnost a statistika
+KMA,P331,Algebra
+KMA,P334,Algebra I
+KMA,P506,Pravděpodobnost a statistika
+KMA,P555,Obyčejné diferenciální rovnice
+KMA,SZZMV,Matematika pro vzdělávání
+KMA,TAR,Teoretická aritmetika
+KMA,0A00,Diplomová práce z matematiky
+KMA,CAL3,Matematická analýza III
+KMA,E103,Game Theory
+KMA,E111,Time Series
+KMA,E116,Combinatorics and Graphs
+KMA,HIM,Historie matematiky
+KMA,KALG,Algebra
+KMA,K212,Lineární algebra a geometrie II
+KMA,MEX,Matematická exkurze
+KMA,P230,Teorie množin
+KMA,P527,Funkcionální analýza II
+KPRF,BAI,Building AI
+KPRF,P225,Anglický jazyk - zkouška A
+CNB,EXKU,Exkurze
+CNB,VKBN,Vybr. kap. z biologie pro nanotechnology
+CNB,KDNA,Příprava a funkční analýza rekom. DNA
+CNB,KZMBI,Základy moderních biotechnologií
+CNB,NADS2,Diplomový seminář II
+KBI,BK202,Základy parazitologie
+KBI,BP104,Základy labor. techniky a elektroniky
+KBI,BP303,Základy bioinformatiky
+KBI,BP334,Paleontologie a paleoekologie
+KBI,BP514,Antropologie a genetika člověka
+KBI,E109,Neurobiology
+KBI,E114,Electron Microscopy
+KBI,E133,Welfare Assessment of zoo animals
+KBI,KB201,Chemie a fyzika živých soustav
+KBI,KB526,Fyziologie rostlin
+KBI,KN103,Didaktika biologie I
+KBI,K106,Chemie a fyzika živých soustav
+KBI,K304,Obecná parazitologie
+KBI,K309,Paleontologie
+KBI,K512,Aktuální biologický seminář II
+KBI,N017,Mammalogie
+KBI,PD09,Pokročilá fluorescenční mikroskopie
+KBI,P207,Antropologie a genetika člověka
+KBI,BK422,Ekologie
+KBI,BP106,Preparace a konzervace přírodnin
+KBI,BP421,Biogeografie
+KBI,E103,Plant Physiology
+KBI,E132,School Natural Garden
+KBI,K203,Fylogeneze a systém vyšších rostlin
+KBI,K413,Metody inventarizačního průzkumu
+KBI,K507,Environmentální legislativa
+KBI,K609,Role moderních ZOO v ochraně přírody
+KBI,MA204,Flóra ČR
+KBI,MA400,Domestikace a domestikanti
+KBI,N028,Diplomová práce I
+KBI,N037,Sociobiologie a behaviorální ekologie
+KBI,N062,Minimum experimentátora v biol. vědách
+KBI,N063,Explantátové kultury rostlin II
+KBI,N064,Flóra ČR
+KBI,N400,Biologie hub
+KBI,P211,Kryptogamologické terénní cvičení
+KBI,P216,Preparace a konzervování přírodnin I
+KBI,P326,Biogeografie
+KBI,P408,Biologie a ekologie člověka
+KBI,P416,Preparace a konzervování přírodnin II
+KBI,P423,Biologie a ekologie člověka
+KBI,P521,Fyziologie rostlin
+KBI,0092,Nanočástice v buňkách a tkáních I
+KFY,AP04,"Met. analýz mat. 
+využ. prin. el. spektr"
+KFY,AP05,Metody analýz materiálů
+KFY,CM205,Granular material
+KFY,DPSS,Diplomová práce
+KFY,EFORT,Programming - Fortran
+KFY,E235,Programming C/C++
+KFY,E311,Electricity and Magnetism
+KFY,FMD,Fyzikální metody depozice
+KFY,FORT,Programování - Fortran
+KFY,JAM,Jaderné analytické metody
+KFY,KDF1,Didaktika fyziky I
+KFY,KPE,Kurz praktické elektroniky
+KFY,KPM,Počítačové modelování
+KFY,K102,Mechanika
+KFY,K121,Matematika pro fyziky I
+KFY,K216,Matematický aparát fyziky II
+KFY,K308,Vývoj a stavba vesmíru
+KFY,K313,Poč. mod. - spojité modelování
+KFY,K320,Fyzikální vlastnosti tenkých vrstev
+KFY,K322,Programování
+KFY,K503,Základy počítačové fyziky
+KFY,K522,PVK - Vyb.partie z teoretické fyziky II
+KFY,K721,Didaktika fyziky I - SŠ
+KFY,K732,Průběžná pedagogická praxe ZŠ
+KFY,K733,Praktikum školních pokusů A - ZŠ
+KFY,K926,Didaktiky fyziky III - SŠ
+KFY,K935,Souvislá pedagogická praxe I - ZŠ
+KFY,MATL,Programování - Matlab
+KFY,MF2,Aplikace matematiky ve fyzice II
+KFY,MK105,Statistická fyzika
+KFY,M105,Statistická fyzika
+KFY,NA15,Měření a zpracování experimentálních dat
+KFY,NA17,Vybrané kap. z fyz. a koloidní chemie
+KFY,PD01,Pokročilé metody numerické matematiky
+KFY,PD06,Seminář počítačové fyziky I
+KFY,PD20,Seminář počítačové fyziky A
+KFY,PM101,Vybr. partie z teorie el. pole
+KFY,PM201,Fyzika polymerů
+KFY,PM202,Molekulární fyzika tekutin
+KFY,PM306,Simulace průchodu nabitých částic
+KFY,P100,PVK - Informatika pro fyziky
+KFY,P128,Úvod do fyziky
+KFY,P132,Úvod do počítačového modelování
+KFY,P318,Lab. praktika z metod přípr. nanomater.
+KFY,P366,Počítač. modelování - spojité modelování
+KFY,P370,Numerická matematika I
+KFY,P418,Základy fyziky nanomateriálů
+KFY,P501,Praktikum počítačového modelování I
+KFY,P505,Diplomový seminář
+KFY,P513,Praktikum počítačového modelování
+KFY,P522,Vybrané partie z teoretické fyziky II
+KFY,P540,Bakalářská práce II
+KFY,P621,Fyzikální praktikum D
+KFY,P703,Víceškálové model. v chemii a biologii
+KFY,P931,Didaktika fyziky III - ZŠ
+KFY,P953,Počítačová fyzika III
+KFY,SZZ24,SZZ - Počítačová fyzika
+KFY,SZZ31,Počítačové modelování
+KFY,SZZ32,Experimentální metody
+KFY,SZZ44,SZZ - Molek. sim. a fyzika kond. stavu
+KFY,0175,VK-Programování ATMEL I
+KFY,0207,Praktikum mikrovlnné techniky - aplikace
+KFY,0213,Molekulární dynamika
+KFY,0218,Experimentální využití elmg. vln B
+KFY,0234,Experimentální využití elmg. vln E
+KFY,0238,Cloudové služby
+KFY,0242,Praktické činnosti při vyučování fyzice
+KFY,DP2,Diplomová práce II
+KFY,EA26,Physical Problems and Their Solutions B
+KFY,E864,Modelling of Processes in Technology I
+KFY,FYZ,Fyzika pro chemiky I
+KFY,KCC,Programování - C/C++
+KFY,KELNK,Elektronika
+KFY,KTMCH,Teoretická mechanika
+KFY,K203,Programování B
+KFY,K413,Poč. mod. - transport tepla a hmoty
+KFY,K415,Základy mechaniky tekutin
+KFY,K606,Teorie relativity
+KFY,K841,Exkurze
+KFY,M206,Fyzika plazmatu
+KFY,P134,Cvičení z fyziky II
+KFY,P203,Programování B
+KFY,P240,Poč. mod. - zpracování obrazu a signálu
+KFY,P428,Základy mechaniky tekutin
+KFY,P432,Nanostroje a manipul. na molekul. úrovni
+KFY,P624,Praktikum z elektroniky
+KFY,P628,Odborný seminář katedry B
+KFY,P840,Souvislá pedagogická praxe I - SŠ
+KFY,P851,Odborná angličtina
+KFY,TEP,Teorie elektromagnetického pole
+KFY,0216,Experimentální využití elmg. vln A
+KGEO,B300,GIS II
+KGEO,B505,Základy práva
+KGEO,B514,Metody v sociální geografii a demografii
+KGEO,PD109,Value orient. in transforming societies
+KGEO,PD301,Publication in indexed journal I
+KGEO,PD302,Other rewiewed publication I
+KGEO,PEX,Předmět na jiné VŠ / výzkumné instituci
+KGEO,0089,VK-Vybrané kapitoly z geografie Evropy A
+KGEO,0102,Základy demografie
+KGEO,0149,Vybrané problémy ekonomické geografie
+KGEO,B201,Sociální geografie II
+KGEO,B409,Kulturní památky UNESCO
+KGEO,B604,Bakalářský seminář II
+KGEO,B610,Příprava k SZZ a obhajobě BP
+KGEO,M221,Didaktika terénních cvičení
+KGEO,M404,Metody vědecké práce
+KGEO,M405,Učební materiály v geografii
+KGEO,PD400,Dissertation thesis
+KGEO,0109,VK - Exkurze z regionální geologie
+KGEO,0111,VK - Geocaching
+KGEO,0135,Praktická měření ve FG
+KGEO,0161,Speciální formy cestovního ruchu v praxi
+KCH,BK101,Úvod do toxikologie
+KCH,BK103,Bezpečnost a hygiena práce
+KCH,BK203,Analytická chemie
+KCH,BK205,Chemická informatika
+KCH,BK301,Biochemie
+KCH,B205,Chemická informatika
+KCH,B302,Laboratorní cvičení z fyzikální chemie
+KCH,B322,Laboratorní cvičení z analytické chemie
+KCH,E102,Termodynamika
+KCH,E104,Úvod do chemického inženýrství
+KCH,E107,Přípr. a charakt. nových a mod. mater.
+KCH,KN323,Organická chemie Nmgr.
+KCH,K304,Chemická informatika
+KCH,K391,Úvod do chemie
+KCH,K504,Laboratorní cvičení z fyzikální chemie
+KCH,K505,Biochemie
+KCH,M208,Praktikum validace analytických metod
+KCH,M210,Spojité modelování
+KCH,N112,"Odběr, příprava a analýza vzorků"
+KCH,N309,Průmyslové výroby a jejich vliv na ŽP
+KCH,N312,Toxikologický seminář k DP
+KCH,N318,Fyzikální chemie NMgr. ZŠ
+KCH,N321,Lékové intoxikace
+KCH,PD04,Povrchové vlastn. materiálů a nanomater.
+KCH,PD08,Nanokompozitní materiály na bázi uhlíku
+KCH,P119,Úvod do toxikologie
+KCH,P316,Laboratorní cvičení z chemie I
+KCH,P318,Energetika a trvale udržitelný rozvoj
+KCH,P324,Preparativní anorganická chemie
+KCH,P391,Úvod do chemie
+KCH,P511,PVK - Cvičení z průmyslové chemie
+KCH,P529,Toxikologie a legislavita ČR a EU 1
+KCH,P537,Biochemie
+KCH,P624,Základy programování
+KCH,0107,Úvod do anorganických materiálů
+KCH,BK208,Toxikologie
+KCH,BK317,Membránové separace
+KCH,B317,Membránové separace
+KCH,KN24,Popularizace chemie
+KCH,K405,Laboratorní cvičení z organické chemie
+KCH,K603,Instrumentální metody
+KCH,NA05,Makromolekulární chemie
+KCH,N211,Bioaktivní přírodní látky
+KCH,N319,Kvantová chemie
+KCH,N401,Pokročilá organická chemie
+KCH,N405,Právo a životní prostředí
+KCH,P222,Chemická laboratorní technika
+KCH,P422,Instrumentální analýza
+KCH,P591,PVK - Chemie životního prostředí
+KCH,P618,Průmyslová toxikologie
+KCH,P631,Seminář z chemie ŽP
+KCH,0104,Výpočty v programu MAPLE
+KCH,0201,Organické látky v živé přírodě
+KI,AEL,Analogová elektronika
+KI,A197,Data Mining with R and KNIME
+KI,EPSI,Computer Networks
+KI,IKT2,Informační a komunikační technologie II
+KI,KAPC,Architektura počítačů
+KI,KBTE,Bezpečnostní technologie
+KI,KDEP,Dependabilita informačních systémů
+KI,KNME,Numerické metody
+KI,KROB,Práce s robotickými stavebnicemi
+KI,KUBT,Úvod do bezdrátových technologií
+KI,KZI,Základy informatiky
+KI,K204,Microsoft SQL Server
+KI,MIS,Podnikový management a IS
+KI,PGL3,Programování III
+KI,PPEK,Praktikum podnikové ekonomiky
+KI,PPT,Praktikum počítačových technologií
+KI,PROJ,Projektový seminář
+KI,PSPPN,Přípravný seminář k pedagogické praxi
+KI,SIM,Simulace systémů
+KI,TZI1,Teoretické základy informatiky I
+KI,UKR,Úvod do kryptografie
+KI,UPGL,Úvod do programování
+KI,0128,CCNA 4: Connecting Networks
+KI,0155,Úvod do LaTeXu
+KI,0169,Pokročilé techniky ve VBA
+KI,0171,Mikroprocesory a senzory v praxi II
+KI,0190,CCNA Security
+KI,0191,CCNP 1 - Route
+KI,0197,Data mining v R a KNIME
+KI,ABS,Aplikace Bayesovských sítí
+KI,AIE,Aplikace internetu a e-learning
+KI,EMO,Úvod do evolučního modelování
+KI,KASO1,Analýza signálu a obrazu v praxi I
+KI,KDIS,Dependabilita informačních systémů
+KI,KDSA,Algoritmy a datové struktury
+KI,KEMO,Úvod do evolučního modelování
+KI,KMES,Mezioborové souvislosti
+KI,KPGR,Počítačová grafika
+KI,KPVPS,Praktické využití Petriho sítí
+KI,KRSPP,Reflektivní seminář pedagogické praxe
+KI,KVM,Kvantitativní management
+KI,ODM,OLAP a Data mining
+KI,PEM,Právní a ekonomické minimum pro IT
+KI,PGL2,Programování II
+KI,PPS,Praktika počítačových sítí
+KI,PVPS,Praktické využití Petriho sítí
+KI,USU,Úvod do strojového učení
+KI,0054,Programování ve VBA
+KMA,E115,Introd. to the Didactics of Mathematics
+KMA,KOPM,Odborné prezentace v matematice
+KMA,MK300,Didaktika matematiky III
+KMA,MK306,Souvislá pedagogická praxe II - ZŠ
+KMA,M302,Logika a axiomatika
+KMA,M303,Diplomový seminář
+KMA,M304,Geometrie na počítači
+KMA,M305,Moderní trendy ve vyučování matematice
+KMA,P337,Matematická analýza III
+KMA,P523,Komplexní analýza
+KMA,AAP,Algebra s aplikacemi
+KMA,AVD4,Analýza a vizualizace podnik. dat IV
+KMA,DM2,Didaktika matematiky II
+KMA,E112,Topology
+KMA,KAGE,Analytická geometrie
+KMA,KAMU,Aplikovaná matematika pro učitele
+KMA,KTHE,Teorie her
+KMA,K216,Vybrané partie z matematiky
+KMA,LTX,Úvod do Latexu
+KMA,MK202,Matematická analýza IV
+KMA,MT2,Matematika II
+KMA,PS4,Projektový seminář IV
+KMA,P425,Funkcionální analýza I
+KMA,P427,Teorie množin
+KMA,P450,Pravděpodobnost a statistika
+KMA,SZZ61,Matematika v přírodních vědách
+KPRF,CLD,Cloudové služby
+KPRF,P232,Anglický jazyk - zkouška B
+KPRF,ETAI,Ethics of AI
+KPRF,CHP,Chytré poznámky
+CNB,KEXKU,Exkurze
+CNB,METD,Výp. a odhad. met. pro fy-che vl. látek
+CNB,NA17,Vybrané kap. z fyz. a koloidní chemie
+CNB,UNM,Úvod do nanotechnologií a nanomateriálů
+CNB,KPCSM,Prakt. cvičení ze separ. met. v biologii
+CNB,ME202,Praktický kurz pokr. mikroskop. metod
+KBI,BK204,Biometrika
+KBI,BP102,Úvod do studia biologie
+KBI,BP202,Základy parazitologie
+KBI,DP,Diplomová práce
+KBI,E113,Appl. of Meth. of Molec Gen. in Studies
+KBI,KKRSP,Komplexní reflektivní seminář praxe
+KBI,K313,Environmentální výchova
+KBI,K501,Fyziologie rostlin
+KBI,ME302,Regulace a poruchy signálních drah ž.b.
+KBI,M104,Vědecká komunikace v angličtině
+KBI,N018,Biologie členovců
+KBI,N019,Úvod do genomiky a proteomiky
+KBI,N029,Biotechnologie rostlin
+KBI,N056,Tkáňové kultury živočišných buněk
+KBI,N058,Biotechnologie hub
+KBI,PD06,Nanočástice mikrobiálního původu
+KBI,PD07,Molekulární biologie pro nanotechnology
+KBI,P303,Biologie a ekologie člověka I
+KBI,P319,Obecná parazitologie
+KBI,P323,Obecná parazitologie
+KBI,P418,Evoluční biologie
+KBI,P591,Úvod do biologie
+KBI,0057,Flóra severozápadních Čech
+KBI,0089,Základy receptorové neurofyziologie
+KBI,0094,Nanočástice v buňkách a tkáních III
+KBI,0095,Fluorescenční sonda
+KBI,BP220,Úvod do přípr. odb. studií a věd. komun.
+KBI,BP422,Ekologie
+KBI,E104,General of Parasitology
+KBI,E111,Molecular Biology
+KBI,E112,Mycology
+KBI,E123,Animal and Plant Models in Biology
+KBI,E126,Biophysics
+KBI,ITBV1,IT v biologických vědách I
+KBI,ITBV2,IT v biologických vědách II
+KBI,KN203,Didaktika biologie II
+KBI,K207,Úvod do přípr. odb. studií a věd. komun.
+KBI,K412,Aktuální biologický seminář I
+KBI,M205,Využ. mol. gen. met. při studiu mikr. sp
+KBI,N027,Elektronová mikroskopie v biologii
+KBI,N047,Využ. mol. gen. met. při studiu mikr. sp
+KBI,P008,PVK - Forenzní biologie
+KBI,P220,Úvod do přípr. odb. studií a věd. komun.
+KBI,P329,Biometrika
+KBI,P420,Algologie
+KBI,P621,Vybrané kapitoly z mikrobiologie
+KBI,P622,Základy genového inženýrství
+KBI,0085,Úvod do přípr. odb. studií a věd. komun.
+KFY,AP07,Metody charakterizace plazmatu
+KFY,CM204,Hydrodynamics
+KFY,CM207,Aerosol microphysics
+KFY,CM303,Advanced mol. simul. meth. - Monte Carlo
+KFY,CM306,Simulation of the charged particle
+KFY,DP2,Diplomová práce II
+KFY,E103,Programming A
+KFY,E369,Thermodynamics and Statistical Physics
+KFY,E523,Computer Modelling - Particle Modelling
+KFY,E753,Numerical Methods of Hydrodynamics
+KFY,E861,Solid State Physics
+KFY,IVF2,Informatika ve fyzice II
+KFY,KFPL,Fyzika pevných látek
+KFY,KTEP,Teorie elektromagnetického pole
+KFY,KUKVM,Úvod do kvantové mechaniky
+KFY,K303,Numerická matematika I
+KFY,K309,Počítačové modelování III
+KFY,K316,Úvod do nanotech. a nanomateriálů
+KFY,K514,Poč. mod. - mechanika tekutin
+KFY,K515,Odborná praxe
+KFY,K521,Fyzikální praktikum C
+KFY,K927,Vybrané partie z teoretické fyziky I
+KFY,K963,PVK - Modelování procesů v technice II
+KFY,M101,Poč. modelování částicových soustav I
+KFY,NA10,Odborná angličtina
+KFY,NEUR,Umělé neuron. sítě a evoluční algoritmy
+KFY,NM1,Numerická matematika I
+KFY,PA35,Souvislá pedagogická praxe II - ZŠ
+KFY,PDN,Počítačový design nanomateriálů
+KFY,PD305,Struktura a vlastnosti polymerů
+KFY,PD57,Víceškálové mod. supramolekul. systémů
+KFY,PM205,Granulární materiály
+KFY,PM302,Poč. mod. granulárních materiálů
+KFY,PM307,Paralelní programování OpenMP
+KFY,PPM3,Praktikum počítačového modelování III
+KFY,P220,Praktika z charakterizace nanomateriálů
+KFY,P236,Výp. a odhad. met. pro fy-che vl. látek
+KFY,P293,Seminář studia povrchů pomocí jader. met
+KFY,P305,Teoretická mechanika I
+KFY,P319,Polymerní nanomateriály
+KFY,P323,Charakterizace materiálů II
+KFY,P327,Semninář z nízkotlak. plazm. technologií
+KFY,P365,Matematický proseminář
+KFY,P369,Termodynamika a statistická fyzika
+KFY,P419,Exkurze - průmysl
+KFY,P508,Teorie elektromagnetického pole
+KFY,P510,Matem. mod. transportu tepla a hmoty
+KFY,P529,Praxe
+KFY,P701,Úvod do supramol chemie a krystal. ing.
+KFY,P704,Hodn. nebez. vl. odpadů a rizik nanočást
+KFY,P733,Praktikum školních pokusů A - ZŠ
+KFY,P822,Průběžná pedagogická praxe SŠ
+KFY,P862,Molekul. simulace fyz.chem. procesů
+KFY,P921,Didaktika fyziky III - SŠ
+KFY,SF,Statistická fyzika
+KFY,SZZ84,SZZ-Fyzika kos.plazm. a magnetohydrodyn.
+KFY,SZZ93,Molekulární simulace
+KFY,0222,Měření na počítačích
+KFY,0224,CFD simulace 2
+KFY,0231,Principy a obvod. řešení el. spektometrů
+KFY,ANM,Aplikované numerické metody
+KFY,KA24,Astronomie a astrofyzika II
+KFY,KFORT,Programování - Fortran
+KFY,KNM2,Numerická matematika II
+KFY,KPPM2,Praktikum počítačového modelování II
+KFY,KPSPB,Praktikum školních pokusů B
+KFY,K320,Fyzikální vlastnosti tenkých vrstev
+KFY,K401,Atomová a jaderná fyzika
+KFY,K416,Projektový seminář II
+KFY,K821,Didaktika fyziky II - SŠ
+KFY,K838,Praktikum z elektroniky
+KFY,K929,Praktikum školních pokusů D - ZŠ
+KFY,M204,Kvantová mechanika
+KFY,M205,Teorie elektromagnetického pole
+KFY,M404,Seminář k diplomové práci a DP
+KFY,PA33,Praktikum školních pokusů D - ZŠ
+KFY,PD203,Vybrané partie z teorie elektromag. pole
+KFY,PRAX,Praxe
+KFY,P205,Matematika II
+KFY,P213,Fyzika I
+KFY,P222,Vakuová fyzika a technika
+KFY,P235,Programování - C/C++
+KFY,P440,Bakalářská práce I
+KFY,P622,Proseminář řešení fyzikálních úloh A
+KFY,P626,Proseminář řešení fyzikálních úloh
+KFY,P837,Exkurze
+KFY,P865,"PVK- Fyzika kosm.plazmatu,magnetohydrod."
+KFY,SZZ10,SZZ - Fyzika s didaktikou pro ZŠ
+KFY,TMCH,Teoretická mechanika
+KGEO,B108,Sociální geografie I
+KGEO,B506,Sociologie
+KGEO,E304,Problems of Development of Czech Regions
+KGEO,E312,Field Practice in Human Geography
+KGEO,E513,Selected issues of economic geography
+KGEO,M301,Kulturní geografie
+KGEO,M312,Terénní cvičení ze SG
+KGEO,PD202,Teaching assignment II
+KGEO,PD300,Publication in non-indexed journal I
+KGEO,SZZ93,SZZ - Geografie
+KGEO,V100,Planeta Země a její životní prostředí
+KGEO,0097,VK-Vybrané kapitoly z geografie Evropy B
+KGEO,0098,VK - Environmentální otázky
+KGEO,0101,VK - Geografická exkurze v ČR (5 dní)
+KGEO,0115,VK - Geografie Slovenska
+KGEO,0116,VK-Česká republika a EU
+KGEO,B514,Metody v sociální geografii a demografii
+KGEO,E211,GIS Project
+KGEO,E218,Physische Geographie von Tschechien
+KGEO,FDEMO,Demografie
+KGEO,M201,Politická geografie
+KGEO,M403,Diplomový seminář II
+KGEO,M406,Didaktický projekt
+KGEO,M411,Didaktický projekt
+KGEO,PD202,Teaching assignment II
+KGEO,0110,VK - Vybrané kapitoly z geologických věd
+KCH,BK318,Exkurze
+KCH,BK321,Odborná praxe
+KCH,B101,Úvod do toxikologie
+KCH,B321,Odborná praxe
+KCH,KN02,Svobodný software v přírodních vědách
+KCH,KN03,Mikrobiologie
+KCH,KN04,Analytická chemie ŽP NMgr.
+KCH,KN15,Průběžná pedagogická praxe
+KCH,KN326,Seminář k diplomové práci B
+KCH,KN38,Fyzikální chemie NMgr.
+KCH,K508,Průmyslová chemie
+KCH,M108,Transportní jevy I
+KCH,N009,Dějiny chemie
+KCH,N020,Chemické a biologické ohrožení
+KCH,N027,Lab. cvičení z aplik. anal. chemie
+KCH,N029,Moderní elektroanal. met. - prakt. kurz
+KCH,N105,Průběžná pedagogická praxe - SŠ
+KCH,N115,Didaktika chemie I
+KCH,N303,Didaktika chemie III
+KCH,N322,Separační metody Nmgr.
+KCH,PD03,Koloidní chemie
+KCH,PD10,Nanoporézní materiály
+KCH,P117,Úvod do toxikologie
+KCH,P118,Úvod do chemie
+KCH,P304,Preparativní anorganická chemie
+KCH,P305,PVK - Seminář z organické chemie A
+KCH,P321,Organická chemie
+KCH,P326,Laboratorní cvičení z anorganické chemie
+KCH,P328,Laboratorní cvičení z analytické chemie
+KCH,P417,Odborný seminář A
+KCH,P502,Průmyslová chemie
+KCH,P532,Laboratorní cvičení z fyzikální chemie
+KCH,P534,Toxikologie rostl. a živočišných toxinů
+KCH,P538,Seminář z průmyslové chemie
+KCH,0999,VK - Aplikovaná fyzikální chemie
+KCH,BK108,Zásady odborné prezentace
+KCH,BK210,Makromolekulární chemie
+KCH,BK212,Analytická chemie životního prostředí
+KCH,BK224,Laboratorní cvičení z organické chemie
+KCH,B210,Makromolekulární chemie
+KCH,E100,General Chemistry
+KCH,KN21,Biochemie NMgr. - SŠ
+KCH,KN232,Instrumentální metody
+KCH,KN233,Makromolekulární chemie
+KCH,KN25,Souvislá pedagogická praxe I - ZŠ
+KCH,KN28,Popularizace chemie
+KCH,KN43,Úvod do chemické fyziky
+KCH,K203,Anorganická chemie I
+KCH,N030,Pokročilé praktik. z přístrojové analýzy
+KCH,N217,Odborný seminář II
+KCH,N416,Aplikovaná fyzikální chemie
+KCH,P218,Prezentace chemie
+KCH,P430,Seminář z fyzikální chemie
+KCH,P504,Zásady odborné prezentace
+KCH,P621,PVK - Fyzikální chemie
+KCH,0106,Supramolekulární chemie
+KI,AIIT,Architektura a infrastruktura IT
+KI,AIT,Architektura a infrastruktura IT
+KI,ANE,Analogová elektronika
+KI,BP,Bakalářská práce z informatiky
+KI,DIPL2,Diplomový seminář II
+KI,DPG,Didaktika programování
+KI,KICT,Informační a komunikační technologie
+KI,KOON,Objektově orientovaný návrh
+KI,KPGH,Programování hardwaru
+KI,KPOS,Principy operačních systémů
+KI,KZPP,Základy počítačových sítí a protokolů
+KI,PCA,Architektura počítačů
+KI,PHW1,Programování hardwaru I
+KI,PZS,Počítačové zpracování signálu
+KI,SZZAP,Aplikovaná informatika A
+KI,0117,Radiobiologické modely
+KI,0121,CCNA 1: Introduction to Networks
+KI,0176,IT infrastruktura budoucnosti
+KI,0189,Shluková analýza a třídění dat
+KI,0196,Základy tvorby webových stránek B
+KI,0203,Program. PLC a vizualizace pomocí SCADA
+KI,0207,Úvod do Vue.js
+KI,CIS,Číslicové systémy
+KI,DIPL2,Diplomový seminář II
+KI,DSA,Algoritmy a datové struktury
+KI,DSW,Dependabilita softwarových systémů
+KI,KDSL,Doménově specifické jazyky
+KI,KPMBS,Počítačové model. biologických systémů
+KI,KZEK,Základy ekonomie
+KI,MES,Mezioborové souvislosti
+KI,OMLM,Optimization for ML with MATLAB
+KI,OPS,Operační systémy
+KI,PGR,Počítačová grafika
+KI,PMBS,Počítačové model. biologických systémů
+KI,PPG,Paralelní programování
+KI,RSPP,Reflektivní seminář pedagogické praxe
+KI,SCAD,SCADA systémy
+KI,XPIN2,Programování pro internet II
+KI,ZKR,Základy kryptologie
+KI,0186,Praktická správa počítačových sítí
+KI,0190,CCNA Security
+KMA,ALG,Algebra
+KMA,E104,Mathematical Analysis I
+KMA,E106,Mathematical Analysis III
+KMA,E108,Ordinary differential equations
+KMA,KPRM,Praktikum z matematiky pro chemiky
+KMA,K506,Pravděpodobnost a statistika
+KMA,K600,Bakalářská práce z matematiky
+KMA,MA1,Matematická analýza I
+KMA,MK101,Historie matematiky
+KMA,MK303,Diplomový seminář
+KMA,M300,Didaktika matematiky III
+KMA,M306,Didaktika matematiky III
+KMA,PS1,Projektový seminář I
+KMA,P123,Matematická analýza I
+KMA,P336,Matematická analýza I
+KMA,P553,Úvod do teorie čísel
+KMA,0156,Úvod do Latexu
+KMA,AMU,Aplikovaná matematika pro učitele
+KMA,E107,Mathematical Analysis IV
+KMA,KHIM,Historie matematiky
+KMA,K608,Teorie množin
+KMA,M401,Využití IT ve výuce matematiky
+KMA,P224,Lineární algebra a geometrie II
+KMA,P411,Odborné prezentace v matematice
+KMA,P637,Finanční matematika
+KPRF,ELAI,Elements of AI
+KPRF,0102,Úvod do klimatologie a klimatických změn
+CNB,KPCIM,Prakt. cvičení z imunoanalytických metod
+CNB,NADP2,Diplomová práce II
+CNB,NADS1,Diplomový seminář I
+CNB,NA19,Výp. a odhad. met. pro fy/chem vl. látek
+CNB,NA22,Úvod do supramol chemie a krystal. ing.
+CNB,NA24,Bioanalytické metody
+CNB,PCIM,Prakt. cvičení z imunoanalytických metod
+CNB,DNA,Příprava a funkční analýza rekom. DNA
+CNB,NADP3,Diplomová práce III
+CNB,PCSM,Prakt. cvičení ze separ. met. v biologii
+KBI,BK104,Základy labor. techniky a elektroniky
+KBI,E106,Animal and Human Physiology
+KBI,E117,"Intr. to ethol., beh. ecolog., sociob."
+KBI,E119,Design and Rapid Prototyp. of Microsyst.
+KBI,E122,Microsystems in Biology and Medicine
+KBI,E131,Science education
+KBI,ICT1,Inf. technologie v biologických vědách I
+KBI,K513,Cvičení z experiment. biologie rostlin
+KBI,MA101,Výzkum obratlovců v praxi
+KBI,N015,Biologie půdních mikroorganismů
+KBI,N021,Vědecká komunikace v biologii
+KBI,N032,Biologie parazitů
+KBI,N034,Diplomová práce II
+KBI,PB201,Chemie a fyzika živých soustav
+KBI,P010,Experimentální biologie rostlin
+KBI,P112,Obecná botanika
+KBI,P322,Paleontologie
+KBI,P529,Biometrika
+KBI,P705,Průběžná pedagogická praxe
+KBI,P707B,Souvislá pedagogická praxe II - SŠ
+KBI,0001,Aktuální biologický seminář I
+KBI,BK300,Kryptobióza
+KBI,BK334,Paleontologie a paleoekologie
+KBI,BP205,Biologie kvasinek
+KBI,BP334,Paleontologie a paleoekologie
+KBI,DP,Diplomová práce
+KBI,E124,Genetics
+KBI,KICT1,Inf. technologie v biologických vědách I
+KBI,KN400,Biologie hub
+KBI,KSPP,Reflektivní seminář pedagogické praxe
+KBI,MA206,Algologie
+KBI,M203,Mammalogie
+KBI,N052,Fauna ČR
+KBI,N060,Srovnávací anatom. a morfol. obratlovců
+KBI,N200,Ekologie
+KBI,P209,Botanický determinační kurs
+KBI,P704,Průběžná pedagogická praxe
+KFY,AP11,Sondové metody diagnostiky plazmatu
+KFY,CM203,Characterization of surface layers using
+KFY,CM301,Computer modelling of fluid flow
+KFY,DF3,Didaktika fyziky III
+KFY,DP1,Diplomová práce I
+KFY,E501,Seminar of Computer Modelling I
+KFY,E961,Solid State Physics II
+KFY,KAA,Astronomie a astrofyzika
+KFY,KNEUR,Umělé neuron. sítě a evoluční algoritmy
+KFY,KOPT,Kmity a vlny. Optika.
+KFY,K116,Matematický aparát fyziky I
+KFY,K307,PVK - Automatizační systémy I
+KFY,K507,Statistická fyzika
+KFY,K511,PVK - CAD a řízení obráběcích strojů
+KFY,K516,Projektový seminář III
+KFY,MK104,Termodynamika
+KFY,PA24,Astronomie a astrofyzika II
+KFY,PD10,Vybrané partie z matematiky II
+KFY,PD301,Principy plazmových a iontových reaktorů
+KFY,PD302,Povrchové vl. materiálů a nanomateriálů
+KFY,PD303,Struktura látek a difrakční analýza
+KFY,PD53,Fotofyzika a fotochemie nanomateriálů
+KFY,PM206,Koloidní systémy
+KFY,P121,Matematika pro fyziky I
+KFY,P131,Programování - Fortran
+KFY,P133,Mechanika
+KFY,P201,Úvod do teorie měření
+KFY,P216,Úvod do kvantové fyziky a spektroskopie
+KFY,P313,Fyzika II
+KFY,P320,Diplomová práce II
+KFY,P324,Laboratorní praktikum I
+KFY,P328,"Biomedicínské mat.- přípr., char., a vl."
+KFY,P421,Fyzikální praktikum B
+KFY,P431,Vybrané kap. z fyz. a koloidní chemie
+KFY,P517,Počítačové simulace v nanotechnologiích
+KFY,P527,Molekulár. sim. na coarse-grained úrovni
+KFY,P531,Odborný seminář katedry A
+KFY,P611,Elektronika
+KFY,P723,Praktikum školních pokusů A - SŠ
+KFY,P736,Proseminář řešení fyzikálních úloh A ZŠ
+KFY,P952,Seminář katedry I
+KFY,P963,PVK - Modelování procesů v technice II
+KFY,SZZN4,Pokr. met. přípravy a charakt. nanomater
+KFY,SZZP2,Aplikovaná fyzika
+KFY,VSV,Vývoj a stavba vesmíru
+KFY,0173,Praktikum mikrovlnné techniky
+KFY,0187,Biomechanika -Bc.
+KFY,0212,Vybrané matematické metody ve fyzice
+KFY,0214,Řešení obvodu RLC
+KFY,AP,Astro praktikum
+KFY,ATOM,Atomová a jaderná fyzika
+KFY,E736,Physical Problems and Their Solutions
+KFY,KA22,Didaktický seminář - SŠ
+KFY,KMF1,Aplikace matematiky ve fyzice I
+KFY,KPZOS,Počítačové zpracování obrazu a signálu
+KFY,K122,Počítačové metody - Monte Carlo
+KFY,K614,Fyzika v pokusech
+KFY,K623,PVK - Fyzika v pokusech
+KFY,K842,Měření a zpracování experimen. dat
+KFY,M107,Molekulární simulace metodou Monte Carlo
+KFY,M201,Poč. modelování částicových soustav II
+KFY,NADP3,Diplomová práce III
+KFY,NA10,Odborná angličtina
+KFY,NA15,Měření a zpracování experimentálních dat
+KFY,PD103,Anglický jazyk
+KFY,PD39,Seminář počítačové fyziky III
+KFY,P215,Počítačové modelování
+KFY,P229,Diplomová práce I
+KFY,P232,Úvod do výrobních technologií
+KFY,P402,Numerická matematika II
+KFY,P422,Vybrané partie z teoretické fyziky I
+KFY,P429,Projektový seminář II
+KFY,P430,Diplomová práce III
+KFY,P602,Seminář katedry
+KFY,P605,Praktikum počítačového modelování II
+KFY,P823,Praktikum školních pokusů B - SŠ
+KFY,P842,Využití ICT ve výuce fyziky
+KFY,P853,Počítačová fyzika II
+KFY,STR,Speciální teorie relativity
+KFY,0197,VK-Asistentská praxe z fyziky
+KFY,0227,Pokroč. met. difrakčního studia povrchů
+KGEO,B310,Grafický design pro geografy
+KGEO,B515,Metody sociologie a demografie
+KGEO,B517,Geoinformatika
+KGEO,E065,One-day Geographical Excursion D
+KGEO,M100,Aplikovaná geografie
+KGEO,PD304,International conference presentation I
+KGEO,SZZ83,SZZ - Geografie
+KGEO,0117,VK-Instituce v EU
+KGEO,0118,VK-Německo ve střední Evropě a EU
+KGEO,0130,VK - Konverzace němčiny pro geografy
+KGEO,0132,VK- Seminář FG k SZZ
+KGEO,B410,Virt. real. v územ. pl. a reg. rozvoji
+KGEO,E202,Geographical Information Systems I
+KGEO,M200,Socioekonomická a politická geografie EU
+KGEO,M205,Světové velmoci I
+KGEO,M216,Regionální exkurze - Česko
+KGEO,0101,VK - Geografická exkurze v ČR (5 dní)
+KGEO,0112,VK - Využití gis při botanickém mapování
+KGEO,0160,Vybrané kapitoly z cestovního ruchu
+KGEO,5DEMO,Demografie
+KCH,BK319,Chemicko-inženýrský projekt
+KCH,B300,Toxikologie a legislativa ČR a EU 1
+KCH,B318,Exkurze
+KCH,DP1,Diplomová práce I
+KCH,KN06,Struktura hmoty a kvantová chemie
+KCH,KN13,Školní pokusy
+KCH,KN31,Fyzikální chemie NMgr.
+KCH,K303,Preparativní anorganická chemie
+KCH,K503,Úvod do biochemie
+KCH,M209,"Str. chem., stereochemie, krystalografie"
+KCH,NA03,Příprava nanočástic kovů a jejich oxidů
+KCH,N004,Didaktický seminář II
+KCH,N116,Průběžná pedagogická praxe - ZŠ
+KCH,N314,Diplomový seminář I
+KCH,ORCHE,Organická chemie
+KCH,P107,Bezpečnost a hygiena práce
+KCH,P302,Analytická chemie
+KCH,P303,Chemická informatika
+KCH,P313,Odpadové hospodářství I
+KCH,P320,Analytická chemie I
+KCH,P327,Analytická chemie
+KCH,P509,PVK - Cvičení z analytické chemie B
+KCH,P512,Bakalářská práce
+KCH,P513,Odborná praxe
+KCH,P533,Chemické inženýrství
+KCH,P535,Laboratorní cvičení z fyzikální chemie
+KCH,P536,Laboratorní cvičení z analytické chemie
+KCH,0104,Výpočty v programu MAPLE
+KCH,0108,Membránové separace
+KCH,0110,Struktura atomů a molekul
+KCH,0299,VK-Odborný seminář III
+KCH,BK321,Odborná praxe
+KCH,B208,Toxikologie
+KCH,E105,Experimen. Methods: Laboratory Tutorials
+KCH,KN229,Instrumentální analýza
+KCH,KN40,Analytická chemie Nmgr.
+KCH,K509,Laboratorní cvičení z biochemie
+KCH,M115,Programování v chemii
+KCH,M117,Makromolekulární chemie Nmgr.
+KCH,M120,Zpracování vědeckých dat skript. jazyky
+KCH,N206,Popularizace chemie
+KCH,N212,Biochemie NMgr.
+KCH,N214,Pokročilá instrumentální analýza I
+KCH,N215,Mikrobiologie
+KCH,N216,Toxikologie NMgr.
+KCH,N224,Klinická biochemie a patobiochemie
+KCH,N310,Souvislá pedagogická praxe I - ZŠ
+KCH,P225,Matematika pro chemiky
+KCH,P431,Fyzikální chemie
+KCH,P540,Laboratorní cvičení z biochemie
+KCH,P613,Biochemická cvičení
+KCH,P622,Instrumentální analýza
+KI,APC,Architektura počítačů
+KI,BPS,Bezpečnostní aspekty podnik. systémů
+KI,DI1,Didaktika informatiky I
+KI,EAPR2,Algorithms and Programming II
+KI,ELAI,Elements of AI
+KI,ENME,Numerical Methods
+KI,EPGL1,Programming I
+KI,EPIN,Internet Programming
+KI,EPYR,Python and R for Data Science
+KI,IKT1,Informační a komunikační technologie I
+KI,KIKT1,Informační a komunikační technologie I
+KI,KPPT,Praktikum počítačových technologií
+KI,KTZI,Teoretické základy informatiky
+KI,KZEK,Základy ekonomie
+KI,PCSY,Praktikum z číslicových systémů
+KI,SZZ04,Teoretické základy informatiky
+KI,ZPP,Základy počítačových sítí a protokolů
+KI,0153,Praktikum z numerických metod
+KI,0168,Hybridní Petriho sítě
+KI,0175,Úvod do Event-B
+KI,0194,Průmyslová automatizace v praxi
+KI,ASO1,Analýza signálu a obrazu v praxi I
+KI,DINB,Datová a informační bezpečnost
+KI,EDSA,Algorithms and Data Structures
+KI,EOPT,Optimization
+KI,KAOS,Administrace operačních systémů
+KI,KDHW,Dependabilita hardwarových systémů
+KI,KFIS,Projektové řízení a firemní IS
+KI,KPAP,Průmyslová automatizace v praxi
+KI,KROB,Práce s robotickými stavebnicemi
+KI,KSPL,Speciální programovací jazyky
+KI,MAI,Matematika pro informatiky
+KI,PRIZ,Projektové řízení
+KI,PYT,Programování - Python
+KI,ROB,Práce s robotickými stavebnicemi
+KI,UDD,Úvod do didaktiky informatiky
+KI,VGD,Videoherní design
+KI,XBP,Bakalářská práce z informatiky
+KI,ZEK,Základy ekonomie
+KI,0127,CCNA 3: Scaling Networks
+KI,0131,Manažerský excel
+KI,0184,Data mining - pokročilé metody
+KMA,CAL1,Matematická analýza I
+KMA,E114,Geometry
+KMA,KCAL1,Matematická analýza I
+KMA,KCA1,Matematická analýza I
+KMA,KUSW,Úvod do matematického softwaru
+KMA,K116,Lineární algebra a geometrie I
+KMA,K515,Úvod do teorie čísel
+KMA,MAT1,Matematika I
+KMA,MK103,Didaktika matematiky I
+KMA,MK301,Diferenciální geometrie
+KMA,MK307,Souvislá pedagogická praxe II - SŠ
+KMA,PRM,Praktikum z matematiky pro chemiky
+KMA,P101,Lineární algebra a geometrie I
+KMA,P135,Úvod do matematiky
+KMA,P517,PVK - Statistika na PC
+KMA,P600,Bakalářská práce z matematiky
+KMA,SZZ62,Obecná matematika
+KMA,E102,Discrete Mathematics
+KMA,E115,Introd. to the Didactics of Mathematics
+KMA,KLTX,Úvod do Latexu
+KMA,KRSPP,Reflektivní seminář pedagogické praxe
+KMA,MK201,Didaktika matematiky II
+KMA,M201,Didaktika matematiky II
+KMA,M205,Souvislá pedagogická praxe I - ZŠ
+KMA,M402,Aplikační úlohy ve vyučování matematice
+KMA,PS3,Projektový seminář III
+KMA,P228,Lineární algebra a geometrie II
+KMA,P321,Diferenciální geometrie
+KMA,P401,Matematická analýza II
+KMA,P529,Parciální diferenciální rovnice
+KMA,P600,Bakalářská práce z matematiky
+KMA,RSPP,Reflektivní seminář pedagogické praxe
+KPRF,ETAI,Ethics of AI
+KPRF,SBS,Studium bez stresu
