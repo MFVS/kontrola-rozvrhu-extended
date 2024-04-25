@@ -1,0 +1,909 @@
+zkratka,katedra,rok,nazev,nazevDlouhy,maVyuku,vyukaZS,vyukaLS,jakCastoJeNabizen,jakCastoJeNabizenUpresneni,kreditu,viceZapis,minObsazeni,garanti,garantiSPodily,garantiUcitIdno,prednasejici,prednasejiciSPodily,prednasejiciUcitIdno,cvicici,cviciciSPodily,cviciciUcitIdno,seminarici,seminariciSPodily,seminariciUcitIdno,schvalujiciUznani,schvalujiciUznaniUcitIdno,examinatori,examinatoriUcitIdno,podminujiciPredmety,vylucujiciPredmety,podminujePredmety,literatura,nahrazPredmety,metodyVyucovaci,metodyHodnotici,akreditovan,jednotekPrednasek,jednotkaPrednasky,jednotekCviceni,jednotkaCviceni,jednotekSeminare,jednotkaSeminare,anotace,typZkousky,maZapocetPredZk,formaZkousky,pozadavky,prehledLatky,predpoklady,ziskaneZpusobilosti,casovaNarocnost,predmetUrl,vyucovaciJazyky,poznamka,ectsZobrazit,ectsAkreditace,ectsNabizetUPrijezdu,poznamkaVerejna,skupinaAkreditace,skupinaAkreditaceKey,zarazenDoPrezencnihoStudia,zarazenDoKombinovanehoStudia,studijniOpory,praxePocetDnu,urovenNastavena,urovenVypoctena,automatickyUznavatZppZk,hodZaSemKombForma,semestr,pocetStudentu,aMax,bMax,cMax,aSkut,bSkut,cSkut
+5MATA,KGI,2023,Matematická analýza,Matematická analýza,A,A,N,K,"",5,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'RNDr. Veronika Pitrová, PhD., Ph.D.'","'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)",5205,"","","","","","","","","","","'Studjní opory, elearningový kurz. [on-line]. Dostupný z: http://homen.vsb.cz/~kre40/esfmat2. ',
+'Studjní opory, elearningový kurz. [on-line]. Dostupný z: http://www.studopory.vsb.cz/studijnimaterialy/MatematikaI/MI.html. ',
+'Studjní opory, elearningový kurz. [on-line]. Dostupný z: http://www.studopory.vsb.cz/studijnimaterialy/Zaklady_matematiky/. ',
+'JIRÁSEK, F., KRIEGELSTEIN, E., TICHÝ, Z. Sbírka řešených příkladů z matematiky. SNTL, Praha, 1979. ',
+'VLASOV A. K. Učebnice vyšší matematiky I, 2.část. SNTL, Praha, 1958. ',
+'BUDINSKÝ, B., CHARVÁT, J. Matematika I (část 2). Vydavatelství ČVUT. Praha 6. ',
+'REKTORYS, K. Přehled užité matematiky. SNTL, Praha, 1981. ',
+'CHARVÁT J., HÁLA M., ŠIBRAVA Z. Příklady k matematice I.). Vydavatelství ČVUT. Praha 6. ',
+'HLAVÁČEK, A. Sbírka řešených příkladů z matematiky. SPN, 1965. '","","U tohoto předmětu se již používá nový QRAM. Použijte jiný výstup, například v portálu IS/STAG, záložka IS/STAG / Reporty / QRAM / QRAM předmětu","U tohoto předmětu se již používá nový QRAM. Použijte jiný výstup, například v portálu IS/STAG, záložka IS/STAG / Reporty / QRAM / QRAM předmětu",N,2,HOD/TYD,2,HOD/TYD,0,HOD/TYD,Cílem předmětu je rozšíření znalostí z matematické analýzy pro praktické inženýrské výpočty.,Zkouška,ANO,Kombinovaná,"Pro úspěšné absolvování předmětu je nutná znalost středoškolské matematiky.
+Zápočet: Aktivní a povinná účast na cvičeních
+Zkouška: Písemný test s ústním dozkoušením.
+Zápočet bude udělen za splnění dvou podmínek: 80 % 
+docházky na cvičení, získání alespoň polovičního množství bodů ze tří testů psaných v průběhu výuky v semestru (v součtu). 
+Zkouška bude udělena za získání alespoň 50% množství bodů ze zkouškového testu.
+
+","1.	Připomenutí a sjednocení potřebných znalostí z předešlého studia.
+2.	Reálné funkce jedné proměnné. Základní poznatky o funkcích. Elementární funkce.
+3.	Posloupnosti. Aritmetické a geometrické posloupnosti. Limita posloupnosti.
+4.	Limita funkce. Definice a základní výpočty.
+5.	Spojitost funkce. Definice a základní vlastnosti. Derivace funkce a její souvislost se spojitostí.
+6.	Derivace funkce, definice a základní vlastnosti. Derivace elementárních funkcí.
+7.	Aplikace derivace funkce. Vyšetřování průběhu funkce. Tečna a normála ke grafu funkce.
+8.	Neurčitý integrál, definice a základní vlastnosti. Základní integrační metody.
+9.	Rozklad na parciální zlomky. Integrování racionálních funkcí I.
+10.	Integrování racionálních funkcí II.
+11.	Integrály, které lze převést na integrály z racionálních funkcí.
+12.	Určitý integrál. Definice, základní vlastnosti, postup při výpočtu.
+13.	Aplikace určitého integrálu.","","U tohoto předmětu se již používá nový QRAM. Použijte jiný výstup, například v portálu IS/STAG, záložka IS/STAG / Reporty / QRAM / QRAM předmětu","","",Čeština,TZP,A,A,N,"","","",A,N,"",0,Mgr.,Mgr.,A,"",ZS,11,"","","",11,0,0
+CAL1,KMA,2023,Matematická analýza I,Matematická analýza I,A,A,N,K,"",5,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","","","KI/MSW, KMA/CAL2","'ČERNÝ, Ilja. Inteligentní kalkulus. ',
+'ČERNÝ, Ilja. Matematická analýza I. Liberec: Technická univerzita, 1995. ISBN 80-7083-188-X.',
+'ČERNÝ, Ilja. Matematická analýza II. Liberec: Technická univerzita, 1996. ISBN 80-7083-188-X.',
+'VESELÝ, Jiří. Matematická analýza pro učitele. Praha: Matfyzpress, 1997. ISBN 80-85863-23-5.',
+'JARNÍK, Vojtěch. Integrální počet I. Praha: Academia, 1984. ',
+'KOPÁČEK, Jiří. Matematická analýza pro fyziky I. Praha: Matfyzpress, 1997. ISBN 80-85863-74-X.'","","","",N,3,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"Cílem kurzu je seznámit posluchače s teoretickými základy matematické analýzy, hlavně přesnými matematickými definicemi spojitosti, limity a derivace. Dále se studenti seznámí s využitím těchto pojmů v oborech jako je fyzika, ekonomie i samotná matematika (průběh funkce a aproximace polynomy). Při procvičování vybraných partií budou studenti aktivně používat program Mathematica.",Zkouška,ANO,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoň polovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru. Zkouška bude písemná a ústní.","1.	Reálná čísla a jejich vlastnosti, supremum a infimum množiny
+2.	Limita posloupnosti, základní věty o posloupnostech
+3.	Reálná funkce reálné proměnné, pojmy související s funkcemi
+4.	Limita funkce v bodě 
+5.	Spojitost funkce
+6.	Základní věty o spojitých funkcích
+7.	Derivace funkce, souvislost derivace a spojitosti
+8.	Věta o střední hodnotě a její důsledky, L'Hospitalovo pravidlo
+9.	Derivace a monotonie, konvexita
+10.	Průběh funkce, extremální úlohy
+11.	Aproximace funkcí polynomy, Taylorův polynom
+12.	Řada reálných čísel, konvergence řady, kritéria řad s kladnými členy
+13.	Absolutní a neabsolutní konvergence
+
+Pozn.: Na cvičeních se bude každý týden procvičovat látka z příslušné přednášky.
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,ZS,7,"","","",7,0,0
+CA1,KMA,2023,Matematická analýza I,Matematická analýza I,A,A,N,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","","",KMA/CA2,"'ČERNÝ, Ilja. Inteligentní kalkulus. ',
+'ČERNÝ, Ilja. Matematická analýza I. Liberec: Technická univerzita, 1995. ISBN 80-7083-188-X.',
+'ČERNÝ, Ilja. Matematická analýza II. Liberec: Technická univerzita, 1996. ISBN 80-7083-188-X.',
+'VESELÝ, Jiří. Matematická analýza pro učitele. Praha: Matfyzpress, 1997. ISBN 80-85863-23-5.',
+'JARNÍK, Vojtěch. Integrální počet I. Praha: Academia, 1984. ',
+'KOPÁČEK, Jiří. Matematická analýza pro fyziky I. Praha: Matfyzpress, 1997. ISBN 80-85863-74-X.'","","","",N,3,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"Cílem kurzu je seznámit posluchače s teoretickými základy matematické analýzy, hlavně přesnými matematickými
+definicemi spojitosti, limity a derivace. Dále se studenti seznámí s využitím těchto pojmů v oborech jako je fyzika,
+ekonomie i samotná matematika (průběh funkce a aproximace polynomy). Při procvičování vybraných partií budou studenti
+aktivně používat program Mathematica.",Zápočet,NE,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoňpolovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru.","- Reálná čísla a jejich vlastnosti, supremum a infimum množiny
+- Limita posloupnosti, základní věty o posloupnostech
+- Reálná funkce reálné proměnné, pojmy související s funkcemi
+- Limita funkce v bodě
+- Spojitost funkce, základní věty o spojitých funkcích
+- Derivace funkce, souvislost derivace a spojitosti
+- Věta o střední hodnotě a její důsledky, L'Hospitalovo pravidlo
+- Derivace a monotonie, konvexita
+- Průběh funkce, extremální úlohy
+- Aproximace funkcí polynomy, Taylorův polynom
+- Řada reálných čísel, konvergence řady
+- Kritéria konvergence řad s kladnými členy
+- Absolutní a neabsolutní konvergence
+
+Pozn.: Na cvičeních se bude každý týden procvičovat látka z příslušné přednášky.","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,ZS,23,"","","",23,0,0
+DM1,KMA,2023,Didaktika matematiky I,Didaktika matematiky I,A,A,N,K,"",3,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Gabriel Kádek', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Gabriel Kádek' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 9489, 425","","","","","","","KMA/DM2, KMA/DM3, KMA/N209","'KOPKA, J.:. Hrozny problémů ve školské matematice. 1999, UJEP Ústí nad Labem. ',
+'HEJNÝ, M. a kol. Teória vyučovania matematiky, 1990 Bratislava SPN. ',
+'KOPKA, J.:. Výzkumný přístup při výuce matematiky. 2004, UJEP Ústí nad Labem. ',
+'Časopisy pro učitele matematiky; Sborníky z konferencí pro učitele matematiky; učebnice matematiky pro základní školy a pro gymnázia. ',
+'HEJNÝ, M., STEHLÍKOVÁ, N. Číselné představy dětí, UK Praha, 1999. ',
+'Polák, Josef. Didaktika matematiky. Jak učit matematiku. 2014. ISBN 978-80-7238-449-5.',
+'HEJNÝ, M., KUŘINA, F. Dítě, škola a matematika, Portál, Praha, 2001. ',
+'Fuchs, E., Hrubý, D. Postavení matematiky ve školním vzdělávacím programu. Čtyřletá gymnázia. Praha: Prometheus, 2006. '","","","",N,1,HOD/TYD,0,HOD/TYD,1,HOD/TYD,"Student se seznámí se základními teoretickými východisky didaktiky matematiky, které bude umět srovnat, ilustrovat a modelovat na vybraných obsazích VO Matematika a její aplikace. Po absolvování kurzu dokáže student popsat pojmotvorný proces a jeho deformace z různých úhlů
+pohledu a na konkrétních pojmech. Student vysvětlí podstatu matematického problému, možné strategie řešení, dokáže sám řešení provést a metodicky vést, problém formulovat a zná postupy rozvoje řešitelských dovedností. Popíše, analyzuje a ilustruje aktivizační metody ve výuce
+matematiky a podoby zpětné vazby.",Zkouška,ANO,Kombinovaná,"Zápočet bude udělen 
+- aktivní účast na semináři;
+- za dvě prezentace seminárních prací v rámci semináře; témata prací budou volena s ohledem na získání praktických dovedností v oblasti budování matematických pojmů, řešitelských strategií a aktivizačních forem výuky s přirozeným důrazem na využití moderních prostředků výuky matematiky;
+- splnění zápočtového testu.
+
+Při zkoušce pak student prokáže teoretické znalosti i praktické dovednosti probírané látky.","1. Jazyk matematiky, deduktivní a induktivní myšlení
+2. Konstruktivismus v didaktice matematiky
+3. Matematický poznatek, struktura matematických poznatků
+4. Poznávací proces, pojmotvorný proces
+5. Chyba, její význam v poznávacím procesu, diagnostika a reedukace
+6. Fylogeneze a ontogeneze v poznávacím procesu
+7. Projekty ve vyučování matematice
+8. Výzkumný přístup ve vyučování matematice
+9. Heuristické strategie řešení úloh
+10. Fylogeneze a ontogeneze pojmu číslo, modely zlomku, záporného čísla, číselné obory
+11. Fylogeneze a ontogeneze pojmů planimetrie a stereometrie
+12. Matematizace reálných situací
+13. Zpětná vazba ve výuce matematiky",Výuka v angličtině je určena pro erasmové a zahraniční studenty. Výuka v případě malého počtu studentů probíhá formou individuálních konzultací.,"","","","Čeština, Angličtina","",A,N,N,"","","",A,N,"",0,"",Mgr.,A,"",ZS,8,"","","",5,0,3
+DM3,KMA,2023,Didaktika matematiky III,Didaktika matematiky III,A,A,N,K,"",3,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","",KMA/DM1,"","","'HEJNÝ, M. a kol. Teoria vyučovania matematiky II, SPN, Bratislava 1989. ',
+'HEJNÝ, M. a kol. 25 kapitol z teorie vyučování matematiky. 2005, Praha Ped. F. UK. ',
+'Didaktické časopisy. ',
+'HEJNÝ, M., KUŘINA, F. Dítě, škola a matematika, Portál, Praha, 2001. ',
+'KVĚTOŇ, P. Kapitoly z didaktiky matematiky I, II a III, PF Ostrava, 1989. ',
+'Kompendia učebnic pro ZŠ. ',
+'Molnár J. Rozvíjení prostorové představivosti nejen ve stereometrii, UP Olomouc. 2004. ',
+'Sbírky úloh MO. ',
+'Fuchs, E. Standardy a testové úlohy z matematiky pro 4letá gymnázia. Praha: Prometheus, 1998. '","","","",N,1,HOD/TYD,0,HOD/TYD,1,HOD/TYD,"Student aplikuje teoretické znalosti získané v předmětu Didaktika matematiky I a využívá je při didaktické analýze obsahu učiva dle RVP ZV a G pro VO Matematika a její aplikace. Po absolvování předmětu bude student schopen analyzovat cíle výuky matematiky na ZŠ a SŠ
+s využitím dosavadních zkušeností. Popíše možnosti rozvoje a hodnocení klíčových kompetencí ve výuce obsahů VO Matematika a její aplikace a charakterizuje matematickou gramotnost a čtenářskou, příp. přírodovědnou, gramotnost v kontextu VO Matematika a její aplikace. Vytvoří
+vhodné úlohy pro jednotlivá témata a analyzuje je z hlediska kognitivní náročnosti, vytvoří metodická řešení, formuluje kritická místa výuky z pohledu obsahu, žáka a učitele. Student si osvojí využití různých pomůcek a informačních technologií ve výuce, seznámí se s dostupnými
+učebnicemi, elektronickými materiály a dalšími možnostmi podpory výuky matematiky",Zkouška,ANO,Kombinovaná,"Zápočet bude udělen 
+- aktivní účast na semináři;
+- za dvě prezentace seminárních prací v rámci semináře; témata prací budou volena s ohledem na získání praktických dovedností v oblasti budování matematických pojmů, řešitelských strategií a aktivizačních forem výuky s přirozeným důrazem na využití moderních prostředků výuky matematiky;
+- splnění zápočtového testu.
+
+Při zkoušce pak student prokáže teoretické znalosti i praktické dovednosti probírané látky.","1. Školní vzdělávací program, kompetence ve vyučování matematice
+2. Elementy logiky a teorie množin; důkaz ve školské matematice
+3. Goniometrie a trigonometrie
+4. Kombinatorika a pravděpodobnost
+5. Statistika, zpracování dat
+6. Finanční matematika, aplikační úlohy
+7. Analytická geometrie, propedeutika, modely
+8. Stereometrie, rozvoj prostorové představivosti
+9. Infinitesimální počet ve výuce na SŠ, komplexní čísla
+10. Hry ve výuce matematiky",Výuka v angličtině je určena pro erasmové a zahraniční studenty. Výuka v případě malého počtu studentů probíhá formou individuálních konzultací.,"","","","Čeština, Angličtina","",A,N,N,"","","",A,N,"",0,"",Mgr.,A,"",ZS,0,"","","",0,0,0
+DSEM,KMA,2023,Diplomový seminář,Diplomový seminář,A,A,N,K,"",1,NE,"","'RNDr. Martin Kuřil, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.' (100)",264,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Martin Kuřil, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (50), 'RNDr. Martin Kuřil, Ph.D.' (50)","261, 264","","","","","","","","","","","",N,0,HOD/TYD,0,HOD/TYD,9,HOD/SEM,"Výuka tohoto předmětu proběhne ve třech blocích. V prvním, hodinovém, budou studenti seznámeni s požadavky na jejich vystoupení. Ve druhém a třetím bloku (čtyřhodinovém) budou postupně všichni studenti referovat v přibližně 15minutových referátech o svých bakalářských pracích před pracovníky katedry matematiky. Při přípravě referátu budou studenti spolupracovat s vedoucími svých bakalářských prací.",Zápočet,NE,Kombinovaná,"Aktivní účast na semináři a úspěšný referát na setkání, které proběhne ve zkouškovém období zimního semestru.","","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,ZS,4,"","","",4,0,0
+KCAL1,KMA,2023,Matematická analýza I,Matematická analýza I,A,A,N,K,"",5,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","","","KI/MSW, KMA/KCAL2","'ČERNÝ, Ilja. Inteligentní kalkulus. ',
+'ČERNÝ, Ilja. Matematická analýza I. Liberec: Technická univerzita, 1995. ISBN 80-7083-188-X.',
+'ČERNÝ, Ilja. Matematická analýza II. Liberec: Technická univerzita, 1996. ISBN 80-7083-188-X.',
+'VESELÝ, Jiří. Matematická analýza pro učitele. Praha: Matfyzpress, 1997. ISBN 80-85863-23-5.',
+'JARNÍK, Vojtěch. Integrální počet I. Praha: Academia, 1984. ',
+'KOPÁČEK, Jiří. Matematická analýza pro fyziky I. Praha: Matfyzpress, 1997. ISBN 80-85863-74-X.'","","","",N,12,HOD/SEM,8,HOD/SEM,0,HOD/SEM,"Cílem kurzu je seznámit posluchače s teoretickými základy matematické analýzy, hlavně přesnými matematickými definicemi spojitosti, limity a derivace. Dále se studenti seznámí s využitím těchto pojmů v oborech jako je fyzika, ekonomie i samotná matematika (průběh funkce a aproximace polynomy). Při procvičování vybraných partií budou studenti aktivně používat program Mathematica.",Zkouška,ANO,Kombinovaná,Pro udělení zápočtu je získat alespoň 60 % bodů ze zápočtové písemky. ,"1.	Reálná čísla a jejich vlastnosti, supremum a infimum množiny
+2.	Limita posloupnosti, základní věty o posloupnostech
+3.	Reálná funkce reálné proměnné, pojmy související s funkcemi
+4.	Limita funkce v bodě 
+5.	Spojitost funkce
+6.	Základní věty o spojitých funkcích
+7.	Derivace funkce, souvislost derivace a spojitosti
+8.	Věta o střední hodnotě a její důsledky, L'Hospitalovo pravidlo
+9.	Derivace a monotonie, konvexita
+10.	Průběh funkce, extremální úlohy
+11.	Aproximace funkcí polynomy, Taylorův polynom
+12.	Řada reálných čísel, konvergence řady, kritéria řad s kladnými členy
+13.	Absolutní a neabsolutní konvergence
+
+Pozn.: Na cvičeních se bude každý týden procvičovat látka z příslušné přednášky.
+","","","","",Čeština,"",A,N,N,"","","",N,A,Studijní text: https://1url.cz/GuBrN,0,"",Bc.,A,0,ZS,7,"","","",7,0,0
+KCA1,KMA,2023,Matematická analýza I,Matematická analýza I,A,A,N,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","","",KMA/KCA2,"'ČERNÝ, Ilja. Inteligentní kalkulus. ',
+'ČERNÝ, Ilja. Matematická analýza I. Liberec: Technická univerzita, 1995. ISBN 80-7083-188-X.',
+'ČERNÝ, Ilja. Matematická analýza II. Liberec: Technická univerzita, 1996. ISBN 80-7083-188-X.',
+'VESELÝ, Jiří. Matematická analýza pro učitele. Praha: Matfyzpress, 1997. ISBN 80-85863-23-5.',
+'JARNÍK, Vojtěch. Integrální počet I. Praha: Academia, 1984. ',
+'KOPÁČEK, Jiří. Matematická analýza pro fyziky I. Praha: Matfyzpress, 1997. ISBN 80-85863-74-X.'","","","",N,12,HOD/SEM,8,HOD/SEM,0,HOD/SEM,"Cílem kurzu je seznámit posluchače s teoretickými základy matematické analýzy, hlavně přesnými matematickými
+definicemi spojitosti, limity a derivace. Dále se studenti seznámí s využitím těchto pojmů v oborech jako je fyzika,
+ekonomie i samotná matematika (průběh funkce a aproximace polynomy). Při procvičování vybraných partií budou studenti
+aktivně používat program Mathematica.",Zápočet,NE,Kombinovaná,Pro udělení zápočtu je získat alespoň 60 % bodů ze zápočtové písemky.,"- Reálná čísla a jejich vlastnosti, supremum a infimum množiny
+- Limita posloupnosti, základní věty o posloupnostech
+- Reálná funkce reálné proměnné, pojmy související s funkcemi
+- Limita funkce v bodě
+- Spojitost funkce, základní věty o spojitých funkcích
+- Derivace funkce, souvislost derivace a spojitosti
+- Věta o střední hodnotě a její důsledky, L'Hospitalovo pravidlo
+- Derivace a monotonie, konvexita
+- Průběh funkce, extremální úlohy
+- Aproximace funkcí polynomy, Taylorův polynom
+- Řada reálných čísel, konvergence řady
+- Kritéria konvergence řad s kladnými členy
+- Absolutní a neabsolutní konvergence
+
+Pozn.: Na cvičeních se bude každý týden procvičovat látka z příslušné přednášky.","","","","",Čeština,"",A,N,N,"","","",N,A,Studijní text: https://1url.cz/GuBrN,0,"",Bc.,A,0,ZS,41,"","","",41,0,0
+KDM1,KMA,2023,Didaktika matematiky I,Didaktika matematiky I,A,A,N,K,"",3,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'PhDr. Magdalena Krátká, Ph.D.'","'PhDr. Magdalena Krátká, Ph.D.' (100)",425,"","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","","","","KMA/KDM2, KMA/KDM3, KMA/N209","'KOPKA, J.:. Hrozny problémů ve školské matematice. 1999, UJEP Ústí nad Labem. ',
+'HEJNÝ, M. a kol. Teória vyučovania matematiky, 1990 Bratislava SPN. ',
+'KOPKA, J.:. Výzkumný přístup při výuce matematiky. 2004, UJEP Ústí nad Labem. ',
+'Časopisy pro učitele matematiky; Sborníky z konferencí pro učitele matematiky; učebnice matematiky pro základní školy a pro gymnázia. ',
+'HEJNÝ, M., STEHLÍKOVÁ, N. Číselné představy dětí, UK Praha, 1999. ',
+'Polák, Josef. Didaktika matematiky. Jak učit matematiku. 2014. ISBN 978-80-7238-449-5.',
+'HEJNÝ, M., KUŘINA, F. Dítě, škola a matematika, Portál, Praha, 2001. ',
+'Fuchs, E., Hrubý, D. Postavení matematiky ve školním vzdělávacím programu. Čtyřletá gymnázia. Praha: Prometheus, 2006. '","","","",N,4,HOD/SEM,0,HOD/SEM,8,HOD/SEM,"Student se seznámí se základními teoretickými východisky didaktiky matematiky, které bude umět srovnat, ilustrovat a modelovat na vybraných obsazích VO Matematika a její aplikace. Po absolvování kurzu dokáže student popsat pojmotvorný proces a jeho deformace z různých úhlů
+pohledu a na konkrétních pojmech. Student vysvětlí podstatu matematického problému, možné strategie řešení, dokáže sám řešení provést a metodicky vést, problém formulovat a zná postupy rozvoje řešitelských dovedností. Popíše, analyzuje a ilustruje aktivizační metody ve výuce
+matematiky a podoby zpětné vazby.",Zkouška,ANO,Kombinovaná,"Zápočet bude udělen 
+- aktivní účast na semináři;
+- za dvě prezentace seminárních prací v rámci semináře; témata prací budou volena s ohledem na získání praktických dovedností v oblasti budování matematických pojmů, řešitelských strategií a aktivizačních forem výuky s přirozeným důrazem na využití moderních prostředků výuky matematiky;
+- splnění zápočtového testu.
+
+Při zkoušce pak student prokáže teoretické znalosti i praktické dovednosti probírané látky.","1. Jazyk matematiky, deduktivní a induktivní myšlení
+2. Konstruktivismus v didaktice matematiky
+3. Matematický poznatek, struktura matematických poznatků
+4. Poznávací proces, pojmotvorný proces
+5. Chyba, její význam v poznávacím procesu, diagnostika a reedukace
+6. Fylogeneze a ontogeneze v poznávacím procesu
+7. Projekty ve vyučování matematice
+8. Výzkumný přístup ve vyučování matematice
+9. Heuristické strategie řešení úloh
+10. Fylogeneze a ontogeneze pojmu číslo, modely zlomku, záporného čísla, číselné obory
+11. Fylogeneze a ontogeneze pojmů planimetrie a stereometrie
+12. Matematizace reálných situací
+13. Zpětná vazba ve výuce matematiky",Výuka v angličtině je určena pro erasmové a zahraniční studenty. Výuka v případě malého počtu studentů probíhá formou individuálních konzultací.,"","","","Čeština, Angličtina","",A,N,N,"","","",N,A,Moodle kurz: https://kacer.ujep.cz/course/view.php?id=16,0,"",Mgr.,A,"",ZS,3,"","","",3,0,0
+KDM3,KMA,2023,Didaktika matematiky III,Didaktika matematiky III,A,A,N,K,"",3,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","'PhDr. Magdalena Krátká, Ph.D.'","'PhDr. Magdalena Krátká, Ph.D.' (100)",425,"","","","",KMA/KDM1,"","","'HEJNÝ, M. a kol. Teoria vyučovania matematiky II, SPN, Bratislava 1989. ',
+'HEJNÝ, M. a kol. 25 kapitol z teorie vyučování matematiky. 2005, Praha Ped. F. UK. ',
+'Didaktické časopisy. ',
+'HEJNÝ, M., KUŘINA, F. Dítě, škola a matematika, Portál, Praha, 2001. ',
+'KVĚTOŇ, P. Kapitoly z didaktiky matematiky I, II a III, PF Ostrava, 1989. ',
+'Kompendia učebnic pro ZŠ. ',
+'Molnár J. Rozvíjení prostorové představivosti nejen ve stereometrii, UP Olomouc. 2004. ',
+'Sbírky úloh MO. ',
+'Fuchs, E. Standardy a testové úlohy z matematiky pro 4letá gymnázia. Praha: Prometheus, 1998. '","","","",N,4,HOD/SEM,0,HOD/SEM,8,HOD/SEM,"Student aplikuje teoretické znalosti získané v předmětu Didaktika matematiky I a využívá je při didaktické analýze obsahu učiva dle RVP ZV a G pro VO Matematika a její aplikace. Po absolvování předmětu bude student schopen analyzovat cíle výuky matematiky na ZŠ a SŠ
+s využitím dosavadních zkušeností. Popíše možnosti rozvoje a hodnocení klíčových kompetencí ve výuce obsahů VO Matematika a její aplikace a charakterizuje matematickou gramotnost a čtenářskou, příp. přírodovědnou, gramotnost v kontextu VO Matematika a její aplikace. Vytvoří
+vhodné úlohy pro jednotlivá témata a analyzuje je z hlediska kognitivní náročnosti, vytvoří metodická řešení, formuluje kritická místa výuky z pohledu obsahu, žáka a učitele. Student si osvojí využití různých pomůcek a informačních technologií ve výuce, seznámí se s dostupnými
+učebnicemi, elektronickými materiály a dalšími možnostmi podpory výuky matematiky",Zkouška,ANO,Kombinovaná,"Zápočet bude udělen 
+- aktivní účast na semináři;
+- za dvě prezentace seminárních prací v rámci semináře; témata prací budou volena s ohledem na získání praktických dovedností v oblasti budování matematických pojmů, řešitelských strategií a aktivizačních forem výuky s přirozeným důrazem na využití moderních prostředků výuky matematiky;
+- splnění zápočtového testu.
+
+Při zkoušce pak student prokáže teoretické znalosti i praktické dovednosti probírané látky.","1. Školní vzdělávací program, kompetence ve vyučování matematice
+2. Elementy logiky a teorie množin; důkaz ve školské matematice
+3. Goniometrie a trigonometrie
+4. Kombinatorika a pravděpodobnost
+5. Statistika, zpracování dat
+6. Finanční matematika, aplikační úlohy
+7. Analytická geometrie, propedeutika, modely
+8. Stereometrie, rozvoj prostorové představivosti
+9. Infinitesimální počet ve výuce na SŠ, komplexní čísla
+10. Hry ve výuce matematiky",Výuka v angličtině je určena pro erasmové a zahraniční studenty. Výuka v případě malého počtu studentů probíhá formou individuálních konzultací.,"","","","Čeština, Angličtina","",A,N,N,"","","",N,A,Moodle kurz: https://kacer.ujep.cz/course/view.php?id=16,0,"",Mgr.,A,"",ZS,4,"","","",4,0,0
+KMT1,KMA,2023,Matematika I,Matematika I,A,A,N,K,"",4,NE,"","'RNDr. Veronika Pitrová, PhD., Ph.D.'","'RNDr. Veronika Pitrová, PhD., Ph.D.'",5205,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","3188, 5205","","","","","","","","","","KCH/BK211, KCH/BK218, KI/KMSW, KI/KNUM, KMA/KMT2","'Diferenciální a integrální počet funkcí jedné proměnné 3, Math MUNI, dostupné na. ',
+'MOC, Ondřej, ŠIMSOVÁ, Jana, Žambochová Marta. Matematika pro ekonomy. Ústí nad Labem, 2013. ISBN 978-80-7414-599-5.',
+'Hrubý D., Kubát J. Diferenciální a integrální počet, Matematika pro gymnázia, Prometheus Praha 1997. ',
+'http://homel.vsb.cz/~s1a64/cd/index.htm. ',
+'https://kam.mff.cuni.cz/~sbirka/show_category.php?c=80. ',
+'Klůfa, J., Coufa J. Matematika I, Ekopress, 2003. ',
+'Kaňka, M. Henzle, J. Matematika II, Ekopress, 2003. '","","","",N,8,HOD/SEM,8,HOD/SEM,0,HOD/SEM,Cílem kurzu je seznámit posluchače se základními pojmy a metodami výpočtů ve dvou oblastech - diferenciálním a integrálním počtu funkcí jedné reálné proměnné. Oběma partiím předchází stručné úvodní shrnutí základních pojmů a poznatků o reálných funkcích. Důraz bude v celém kurzu kladen i na použití probíraných poznatků v ostatních přírodních vědách.,Zápočet,NE,Kombinovaná,Pro udělení zápočtu je nutno získat alespoň 60 % bodů ze zápočtové písemky.,"- reálné funkce jedné reálné proměnné (pojem funkce, definiční obor funkce, graf funkce, složené funkce,
+prosté funkce, vlastnosti funkcí)
+- základní elementární funkce (exponenciální, logaritmické, konstantní, mocninné, goniometrické,
+cyklometrické)
+- limita posloupnosti a součet řady
+- limita a spojitost funkce
+- derivace funkce (definice a pravidla pro výpočet derivace, derivace vyšších řádů, L?Hospitalovo pravidlo)
+- průběh funkce (monotónnost funkce, lokální a globální extrémy, konvexnost a konkávnost, inflexní body,
+asymptoty grafu funkce)
+- Taylorova formule, diferenciál a jeho aplikace
+- integrál a jeho vlastnosti (Riemannův a Newtonův integrál, zavedení a základní vzorce)
+- metody výpočtu neurčitých integrálů (metoda substituční, metoda per partes, integrace racionálně lomených
+funkcí)
+- nevlastní integrály
+- geometrické a fyzikální aplikace integrálního počtu","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,0,ZS,126,"","","",126,0,0
+KOPM,KMA,2023,Odborné prezentace v matematice,Odborné prezentace v matematice,A,A,N,K,"",1,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","'Juláková, E. Jak řešit problémy při psaní odborných textů. Praha: VŠChT, 2007. Přístupno z: http://www.vscht.cz/anl/paci/PAC/prezentace/Navod.pdf. ',
+'Slovník spisovné češtiny pro školu a veřejnost: s dodatkem Ministerstva školství, mládeže a tělovýchovy České republiky. Academia, Praha, 1998. ',
+'Chadim, O. Jak bysme (bychom) měli psát, kdybysme (kdybychom) chtěli: složit maturitu, stát se žurnalisty, pracovat v reklamní agentuře, vydělat 90 000 Kč měsíčně a v nejhorším případě připravovat zákony v Parlamentu. Praha: Adonai, 2002. ISBN 80-86500-86-1. ',
+'Šesták, Z. Jak psát a přednášet o vědě. Praha: Academia, 2000. '","","","",N,0,HOD/SEM,0,HOD/SEM,4,HOD/SEM,"Předmět má dva cíle. Prvním je naučit studenty psát správně po formální stránce seminární a kvalifikační práce, druhým je správně připravit a kvalitně prezentovat referát na téma z matematiky.",Zápočet,NE,Kombinovaná,"Prezentace referátu a odevzdání seminární práce dle požadavků.
+","1. Základní způsoby prezentování a úvod do problematiky 
+2. Základní typy písemných prací 
+3. Náležitosti kvalifikačních prací, normy a citační etika 
+4. Základní typografické systémy (jejich klasifikace, výhody a nevýhody) 
+5. - 6. Typografie matematických textů
+7. MS Word, OO Writer (Libre Office), LaTeX 
+8. Zásady prezentací mluveným slovem
+9. - 13. Prezentace referátů studentů","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,0,ZS,33,"","","",0,33,0
+KSDP,KMA,2023,Seminář k diplomové práci,Seminář k diplomové práci,A,A,N,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Martin Kuřil, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Martin Kuřil, Ph.D.' (100)","261, 264","","","","","","","","","","","",N,0,HOD/SEM,0,HOD/SEM,4,HOD/SEM,"Studenti se seznámí s požadavky na diplomovou práci. Zpracují rešerši k zvolenému tématu, formulují východiska a cíle práce. Postupně budou všichni studenti referovat o svých diplomových pracích před sebou navzájem a také před pracovníky katedry matematiky. Při přípravě referátů budou studenti spolupracovat s vedoucími svých diplomových prací.",Zápočet,NE,Kombinovaná,"Aktivní účast na semináři a úspěšný referát na setkání, které proběhne ve zkouškovém období zimního semestru.","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Mgr.,A,0,ZS,2,"","","",2,0,0
+K111,KMA,2023,Úvod do matematiky,Úvod do matematiky,A,A,N,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 3188, 5205","'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 3188, 5205","","","","","","","","","","KI/KNME, KI/KOPT, KMA/K216, KMA/K306","'Kopáček, J. Matematická analýza pro fyziky I, II, Matfyzpress, Praha, 1997, 1998. ',
+'MOC, Ondřej. Sbírka úloh z matematiky. Diferenciální počet funkcí jedné proměnné. FSE UJEP. Ústí nad Labem, 2009. ISBN 978-80-7414-182-9.',
+'MOC, O. Sbírka úloh z matematiky, integrální počet funkcí jedné proměnné, FSE, 2009. ',
+'Hrubý D., Kubát J. Diferenciální a integrální počet, Matematika pro gymnázia, Prometheus Praha 1997. ',
+'Budinský, B., Charvát, J. Matematika I, (část 1). Praha 6. ',
+'Klůfa, J., Coufa J. Matematika I, Ekopress, 2003. ',
+'Kaňka, M. Henzle, J. Matematika II, Ekopress, 2003. '",KMA/K118,"","",N,8,HOD/SEM,8,HOD/SEM,0,HOD/TYD,Cílem kurzu je seznámit posluchače se základními pojmy a metodami výpočtů ve dvou oblastech - diferenciálním a integrálním počtu funkcí jedné reálné proměnné. Oběma partiím předchází stručné úvodní shrnutí základních pojmů a poznatků o reálných funkcích. Důraz bude v celém kurzu kladen i na použití probíraných poznatků v ostatních přírodních vědách.,Zkouška,ANO,Kombinovaná,Pro udělení zápočtu je nutno získat alespoň 40 % bodů ze zkouškové písemky. Pro úspěšné složení zkoušky je potřeba získat více než 60 % bodů ze zkouškové písemky.,"1.	číselné množiny (přirozená, celá, racionální, reálná a komplexní čísla)
+2.	reálné funkce (pojem funkce, graf funkce, operace s funkcemi, složené funkce, prosté funkce, vlastnosti funkcí)
+3.	základní elementární funkce (exponenciální, logaritmické, konstantní, mocninné, goniometrické, cyklometrické)
+4.	limita posloupnosti
+5.	limita a spojitost funkce
+6.	derivace funkce (definice a pravidla pro výpočet derivace, derivace vyšších řádů, L'Hospitalovo pravidlo, numerická derivace prvního a druhého řádu, význam derivace ve fyzice a chemii)
+7.	průběh funkce (monotónnost funkce, lokální a globální extrémy, konvexnost a konkávnost, inflexní body, asymptoty grafu funkce)
+8.	Taylorova formule, diferenciál a jeho aplikace
+9.	integrál a jeho vlastnosti (Riemannův a Newtonův integrál, zavedení a základní vzorce)
+10.	metody výpočtu neurčitých integrálů (metoda substituční, metoda per partes, integrace racionálně lomených funkcí)
+11.	nevlastní integrály, numerická integrace
+12.	geometrické a fyzikální aplikace integrálního počtu","","","","","Čeština, Angličtina","",A,N,N,"","","",N,A,"",0,Bc.,Bc.,A,"",ZS,0,"","","",0,0,0
+K113,KMA,2023,Repetitorium matematiky,Úvod do matematiky,A,A,N,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","'doc. Ing. Mgr. Jiří Barilla, CSc.', 'doc. Ing. Jaromír Havlica, Ph.D.', 'Mgr. Jana Kasperová', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuřil, Ph.D.', 'Mgr. Lucie Loukotová', 'Mgr. Jindřich Matoušek, Ph.D.', 'RNDr. Veronika Pitrová, PhD., Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","'doc. Ing. Mgr. Jiří Barilla, CSc.' (100), 'doc. Ing. Jaromír Havlica, Ph.D.' (100), 'Mgr. Jana Kasperová' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Martin Kuřil, Ph.D.' (100), 'Mgr. Lucie Loukotová' (100), 'Mgr. Jindřich Matoušek, Ph.D.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100), 'PhDr. Jiří Přibyl, Ph.D.' (100)","449, 1803, 8741, 425, 264, 3188, 4680, 5205, 267","","","","","","","","","","","","","","",N,0,HOD/TYD,8,HOD/TYD,0,HOD/TYD,"Kurz je určen k vyrovnání znalostí matematiky ze střední školy mezi jednotlivými studenty.
+
+Tento kurz byl inovován v rámci projektu CZ.1.07/2.2.00/28.0296 ""Mezioborové vazby a podpora praxe v přírodovědných a technických studijních programech UJEP""",Zápočet,NE,Kombinovaná,"Podmínky udělení zápočtu:
+1. Plnění dílčích testů v moodle kurzu. 
+2. Splnění zápočtového testu na alespoň 70 % bodů.","1.	Úpravy výrazů
+2.	Lineární a kvadratická rovnice
+3.	Soustava dvou lineárních rovnic o dvou neznámých
+4.	Elementární funkce - základní pojmy
+5.	Vlastnosti elementárních funkcí
+6.	Lineární a kvadratická funkce
+7.	Mocninná a exponenciální funkce
+8.	Logaritmická funkce
+9.	Exponenciální a logaritmická rovnice
+10.	Goniometrické funkce
+11.	Goniometrické rovnice
+","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,Bc.,Bc.,A,"",ZS,0,"","","",0,0,0
+K114,KMA,2023,Úvod do infinitezimálního počtu,Úvod do infinitezimálního počtu,A,A,N,K,"",4,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100)","261, 3188","","","","","","","","","","","'REKTORYS, K. Co je a k čemu je vyšší matematika, Academia, Praha, 2001. ',
+'Hrubý D., Kubát J. Diferenciální a integrální počet, Matematika pro gymnázia, Prometheus Praha 1997. ',
+'SCHWABIK, Š., ŠARMANOVÁ, P. Malý průvodce historií integrálu, Prométheus, Praha, 1996. ',
+'Budinský, B., Charvát, J. Matematika I, SNTL, Alfa Praha. 1987. '","","","",N,6,HOD/SEM,4,HOD/SEM,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,"Požadavky k udělení zápočtu jsou dva: 
+1. Docházka alespoň 60%. 
+2. Získání alespoň 60% bodů v součtu z písemné práce, která se bude psát na posledním setkání.
+ 
+Student má nárok na dva opravné termíny ve zkouškovém období. Opravné písemky budou z látky celého semestru.
+","1. 	Konečná a nekonečná, spočetná a nespočetná množina
+2. - 3.	Součet řady, limita posloupnosti, výpočty limit posloupností
+4. - 6.	Limita funkce, výpočty limit funkcí
+7. - 8.	Derivace funkce, geometrická interpretace, výpočty a použití derivací
+9. - 10.	Průběh funkce
+11. - 12.	Určitý a neurčitý integrál, geometrická interpretace
+	
+","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+K117,KMA,2023,Matematická analýza I,Matematická analýza I,A,A,N,K,"",8,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","","","","","","","","","",KMA/K206,"'ČERNÝ, Ilja. Inteligentní kalkulus. ',
+'ČERNÝ, Ilja. Matematická analýza I. Liberec: Technická univerzita, 1995. ISBN 80-7083-188-X.',
+'ČERNÝ, Ilja. Matematická analýza II. Liberec: Technická univerzita, 1996. ISBN 80-7083-188-X.',
+'VESELÝ, Jiří. Matematická analýza pro učitele. Praha: Matfyzpress, 1997. ISBN 80-85863-23-5.',
+'JARNÍK, Vojtěch. Integrální počet I. Praha: Academia, 1984. ',
+'KOPÁČEK, Jiří. Matematická analýza pro fyziky I. Praha: Matfyzpress, 1997. ISBN 80-85863-74-X.'","","","",N,10,HOD/SEM,8,HOD/SEM,0,HOD/TYD,"Cílem kurzu je seznámit posluchače s teoretickými základy matematické analýzy, hlavně přesnými matematickými definicemi spojitosti, limity a derivace. Navazuje úzce na kurz Úvod do infinitezimálního počtu. Dále se studenti seznámí s využitím těchto pojmů v oborech jako je fyzika, ekonomie i samotná matematika (průběh funkce a aproximace polynomy, číselné posloupnosti a řady).",Zkouška,ANO,Kombinovaná,Pro udělení zápočtu je získat alespoň 60 % bodů ze zápočtové písemky.,"1. Reálná čísla a jejich vlastnosti
+2. Suprema a infima, posloupnosti a jejich limity
+3. Základní vlastnosti limit posloupností a jejich výpočet
+4. Reálné funkce reálné proměnné, pojmy související s funkcemi
+5. Spojitost funkcí a jejich vlastnosti
+6. Vlastní limity funkcí v reálných bodech
+7. Nevlastní limity a limity v nevlastních bodech
+8. Derivace funkce a její vlastnosti
+9. Použití derivace na řešení rovnic
+10. Věta o střední hodnotě a její důsledky
+11. Derivace a monotonie, konvexita
+12. Průběh funkce
+13. Aproximace funkcí polynomy, Taylorovy polynomy
+14. Goniometrické funkce pomocí Taylorových řad.
+15. Opakování",Výuka v angličtině je určena pro erasmové a zahraniční studenty. Výuka v případě malého počtu studentů probíhá formou individuálních konzultací.,"","","","Čeština, Angličtina","",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+K118,KMA,2023,Úvod do matematiky,Úvod do matematiky,A,A,N,K,"",4,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 3188, 5205","'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 3188, 5205","","","","","","","","","",KCH/K404,"'Kopáček, J. Matematická analýza pro fyziky I, II, Matfyzpress, Praha, 1997, 1998. ',
+'MOC, Ondřej. Sbírka úloh z matematiky. Diferenciální počet funkcí jedné proměnné. FSE UJEP. Ústí nad Labem, 2009. ISBN 978-80-7414-182-9.',
+'MOC, O. Sbírka úloh z matematiky, integrální počet funkcí jedné proměnné, FSE, 2009. ',
+'Hrubý D., Kubát J. Diferenciální a integrální počet, Matematika pro gymnázia, Prometheus Praha 1997. ',
+'Budinský, B., Charvát, J. Matematika I, (část 1). Praha 6. ',
+'Klůfa, J., Coufa J. Matematika I, Ekopress, 2003. ',
+'Kaňka, M. Henzle, J. Matematika II, Ekopress, 2003. '","","","",N,4,HOD/SEM,6,HOD/SEM,0,HOD/TYD,Cílem kurzu je seznámit posluchače se základními pojmy a metodami výpočtů ve dvou oblastech - diferenciálním a integrálním počtu funkcí jedné reálné proměnné. Oběma partiím předchází stručné úvodní shrnutí základních pojmů a poznatků o reálných funkcích. Důraz bude v celém kurzu kladen i na použití probíraných poznatků v ostatních přírodních vědách.,Zápočet,NE,Kombinovaná,Pro udělení zápočtu je nutno získat alespoň 40 % bodů ze zápočtové písemky.,"1.	číselné množiny (přirozená, celá, racionální, reálná a komplexní čísla)
+2.	reálné funkce (pojem funkce, graf funkce, operace s funkcemi, složené funkce, prosté funkce, vlastnosti funkcí)
+3.	základní elementární funkce (exponenciální, logaritmické, konstantní, mocninné, goniometrické, cyklometrické)
+4.	limita posloupnosti
+5.	limita a spojitost funkce
+6.	derivace funkce (definice a pravidla pro výpočet derivace, derivace vyšších řádů, L'Hospitalovo pravidlo, numerická derivace prvního a druhého řádu, význam derivace ve fyzice a chemii)
+7.	průběh funkce (monotónnost funkce, lokální a globální extrémy, konvexnost a konkávnost, inflexní body, asymptoty grafu funkce)
+8.	Taylorova formule, diferenciál a jeho aplikace
+9.	integrál a jeho vlastnosti (Riemannův a Newtonův integrál, zavedení a základní vzorce)
+10.	metody výpočtu neurčitých integrálů (metoda substituční, metoda per partes, integrace racionálně lomených funkcí)
+11.	nevlastní integrály, numerická integrace
+12.	geometrické a fyzikální aplikace integrálního počtu","","","","","Čeština, Angličtina","",A,N,N,"","","",N,A,"",0,Bc.,Bc.,A,"",ZS,0,"","","",0,0,0
+K301,KMA,2023,Matematická analýza I,Matematická analýza I,A,A,N,K,"",3,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","","","","","","","","","",KMA/K401,"'ČERNÝ, Ilja. Inteligentní kalkulus. ',
+'ČERNÝ, Ilja. Matematická analýza I. Liberec: Technická univerzita, 1995. ISBN 80-7083-188-X.',
+'ČERNÝ, Ilja. Matematická analýza II. Liberec: Technická univerzita, 1996. ISBN 80-7083-188-X.',
+'VESELÝ, Jiří. Matematická analýza pro učitele. Praha: Matfyzpress, 1997. ISBN 80-85863-23-5.',
+'JARNÍK, Vojtěch. Integrální počet I. Praha: Academia, 1984. ',
+'KOPÁČEK, Jiří. Matematická analýza pro fyziky I. Praha: Matfyzpress, 1997. ISBN 80-85863-74-X.'","","","",N,12,HOD/SEM,8,HOD/SEM,0,HOD/TYD,"Cílem kurzu je seznámit posluchače s teoretickými základy matematické analýzy, hlavně přesnými matematickými definicemi spojitosti, limity a derivace. Navazuje úzce na kurz Úvod do infinitezimálního počtu. Dále se studenti seznámí s využitím těchto pojmů v oborech jako je fyzika, ekonomie i samotná matematika (průběh funkce a aproximace polynomy, číselné posloupnosti a řady).",Zápočet,NE,Kombinovaná,Pro udělení zápočtu je získat alespoň 60 % bodů ze zápočtové písemky.,"1. Reálná čísla a jejich vlastnosti
+2. Suprema a infima, posloupnosti a jejich limity
+3. Základní vlastnosti limit posloupností a jejich výpočet
+4. Reálné funkce reálné proměnné, pojmy související s funkcemi
+5. Spojitost funkcí a jejich vlastnosti
+6. Vlastní limity funkcí v reálných bodech
+7. Nevlastní limity a limity v nevlastních bodech
+8. Derivace funkce a její vlastnosti
+9. Použití derivace na řešení rovnic
+10. Věta o střední hodnotě a její důsledky
+11. Derivace a monotonie, konvexita
+12. Průběh funkce
+13. Aproximace funkcí polynomy, Taylorovy polynomy
+14. Goniometrické funkce pomocí Taylorových řad.
+15. Opakování",Výuka v angličtině je určena pro erasmové a zahraniční studenty. Výuka v případě malého počtu studentů probíhá formou individuálních konzultací.,"","","","Čeština, Angličtina","",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+K600,KMA,2023,Bakalářská práce z matematiky,Bakalářská práce z matematiky,A,A,A,K,"",8,NE,"","'RNDr. Martin Kuřil, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.'",264,"","","","","","","","","","","","","","","","","","","","",N,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,Úkoly nutné ke splnění tohoto předmětu určuje vedoucí bakalářské práce. Vyžaduje se účast na konzultacích a spolupráce s vedoucím bakalářské práce a průběžné plnění jím zadaných úkolů. Zápočet uděluje vedoucí bakalářské práce po splnění zadaných úkolů (po zhodnocení vykonané práce a získaných výsledků).,"","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,Bc.,Bc.,A,"",ZS,0,"","","",0,0,0
+MA1,KMA,2023,Matematická analýza I,Matematická analýza I,A,A,N,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","","","","","","","","","","KI/MSW, KI/NUM, KMA/MA2","'ČERNÝ, Ilja. Inteligentní kalkulus. ',
+'ČERNÝ, Ilja. Matematická analýza I. Liberec: Technická univerzita, 1995. ISBN 80-7083-188-X.',
+'ČERNÝ, Ilja. Matematická analýza II. Liberec: Technická univerzita, 1996. ISBN 80-7083-188-X.',
+'VESELÝ, Jiří. Matematická analýza pro učitele. Praha: Matfyzpress, 1997. ISBN 80-85863-23-5.',
+'JARNÍK, Vojtěch. Integrální počet I. Praha: Academia, 1984. ',
+'KOPÁČEK, Jiří. Matematická analýza pro fyziky I. Praha: Matfyzpress, 1997. ISBN 80-85863-74-X.'","","","",N,3,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"Cílem kurzu je seznámit posluchače s teoretickými základy matematické analýzy, hlavně přesnými matematickými definicemi spojitosti, limity a derivace. Dále se studenti seznámí s využitím těchto pojmů v oborech jako je fyzika, ekonomie i samotná matematika (průběh funkce a aproximace polynomy). Při procvičování vybraných partií budou studenti aktivně používat program Mathematica.",Zkouška,ANO,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoň polovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru. Zkouška bude písemná a ústní.","1.	Reálná čísla a jejich vlastnosti, supremum a infimum množiny
+2.	Limita posloupnosti, základní věty o posloupnostech
+3.	Reálná funkce reálné proměnné, pojmy související s funkcemi
+4.	Limita funkce v bodě 
+5.	Spojitost funkce
+6.	Základní věty o spojitých funkcích
+7.	Derivace funkce, souvislost derivace a spojitosti
+8.	Věta o střední hodnotě a její důsledky, L'Hospitalovo pravidlo
+9.	Derivace a monotonie, konvexita
+10.	Průběh funkce, extremální úlohy
+11.	Aproximace funkcí polynomy, Taylorův polynom
+12.	Řada reálných čísel, konvergence řady, kritéria řad s kladnými členy
+13.	Absolutní a neabsolutní konvergence
+
+Pozn.: Na cvičeních se bude každý týden procvičovat látka z příslušné přednášky.
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,ZS,17,"","","",17,0,0
+MEX,KMA,2023,Matematická exkurze,Matematická exkurze,A,A,A,K,"",1,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","","","","",A,0,HOD/TYD,0,HOD/TYD,1,DNU/SEM,"Cílem matematické exkurze je interaktivní formou představit jejím účastníkům využití matematiky ve světě kolem nás, posílit vnímání mezioborových souvislostí a v případě učitelů inspirovat k využití příkladů a jejich řešení ve výukové praxi.",Zápočet,NE,Kombinovaná,absolvování exkurze a odevzdání vyhovující seminární práce,"Matematická exkurze je realizována jako jednodenní exkurze do Erlebnisland Mathematik Dresden, který je trvalou expozicí v Technische Sammlungen v Drážďanech. Studenti absolvují zhruba tříhodinovou prohlídku expozice s úvodním výkladem. V rámci prohlídky se rozdělí do malých skupin a vyberou si jeden exponát, který podrobí důkladnému zkoumání. Tato příprava jim umožní po návratu domů sestavit krátkou seminární práci, která exponát popíše a navrhne způsob jeho využití při demonstraci nějakého pojmu, poznatku či ideje pro situaci, kdy si budou tento exponát prohlížet čeští žáci ze základní či střední školy.","","","","",Čeština,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,ZS,0,"","","",0,0,0
+MK101,KMA,2023,Historie matematiky,Historie matematiky,A,A,N,K,"",3,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","","","","","","","","'AL CHVÁRIZMÍ. Aritmetický a Algebraický traktát, OPS, 2009. ',
+'STRUIK, D.J. Dějiny matematiky, Orbis, Pha, 1963. ',
+'JUŠKEVIČ, A.P. Dějiny matematiky ve středověku, Academia, Praha, 1978. ',
+'Historie matematiky I - Praha: Matematický ústav UK, Prometheus, 1994. ',
+'Historie matematiky II: seminář pro vyučující na středních školách, editoři Jindřich Bečvář, Eduard Fuchs. 1. vyd. Praha: Prometheus, 1997. ',
+'BEČVÁŘ, J., FUCHS, E. Matematika v proměnách věků I, Prometheus, Praha, 1998. ',
+'BEČVÁŘ, J., FUCHS, E. Matematika v proměnách věků II, Prometheus, Praha, 2001. ',
+'BEČVÁŘ, J., FUCHS, E. Matematika v proměnách věků III, Výzkumné centrum pro dějiny vědy, Praha, 2004. ',
+'VOPĚNKA, P. Úhelný kámen evropské vzdělanosti a moci, Práh, Praha, 2001. ',
+'VOPĚNKA, P. Vyprávění o kráse novobarokní matematiky, Práh, Praha, 2004. '","","","",N,5,HOD/SEM,5,HOD/SEM,0,HOD/TYD,"Kurz má umožnit studentům zařadit jejich matematické znalosti do historického kontextu. Stručně popisuje prehistorii matematiky, ustavení matematiky jako vědy, antickou matematiku, arabskou matematiku a její vliv na evropskou matematiku ve středověku, vznik infinitesimálního počtu, podrobněji se věnuje zrodu teorie množin.",Zkouška,ANO,Kombinovaná,"Zápočet:
+1. Vypracování seminární práce na zadané téma. 
+2. Připomínkování seminární práce.
+
+Zkouška:
+Obhajoba seminární práce na zadané téma.","1.	Význam historie matematiky, etapy vývoje matematiky, prehistorie matematiky
+2.	Egyptská matematika
+3.	Matematika v Mezopotámii
+4.	Matematika v antickém Řecku
+5.	Čínská matematika a indická matematika
+6.	Matematika v islámských zemích, matematika ve středověké Evropě
+7.	Počátky novověku v matematice
+8.	Matematika v 16. století
+9.	Matematika v 17. století
+10.	Matematika v 18. století
+11.	Matematika v 19. století
+12.	Směry vývoje v současné matematice
+13.	Významní čeští matematici
+","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Mgr.,A,"",ZS,0,"","","",0,0,0
+MK305,KMA,2023,Moderní trendy ve vyučování matematice,Moderní trendy ve vyučování matematice,A,A,N,K,"",4,NE,"","'PhDr. Magdalena Krátká, Ph.D.'","'PhDr. Magdalena Krátká, Ph.D.' (100)",425,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","","","","","","","","'HEJNÝ, M., KUŘINA, F. Dítě, škola a matematika, Portál, Praha, 2001. ',
+'Kopka, J. Umění řešit matematické problémy. Praha, HAV, 2012. ',
+'Kritické myšlení. ',
+'MŠMT (vyhlášky, zákony pro učitele). ',
+'Kubínová, M. Projekty ve vyučování matematice, cesta k tvořivosti a samostatnosti. Praha: PedF UK v Praze, 2002. ISBN 80-7290-088-9. ',
+'Tvořivá škola. '","","","",N,8,HOD/SEM,6,HOD/SEM,0,HOD/TYD,"V tomto semestru bude v kurzu věnována pozornost těmto třem oblastem: konstruktivistické pojetí výuky, princip genetické paralely (soulad fylogenetického a ontogenetického vývoje), kompetence učitele a žáka. Po úvodu do teorie bude ve cvičeních kladen důraz na praktickou aplikaci předložených idejí ve výuce matematiky na střední škole.",Zápočet,NE,Kombinovaná,"Podmínky pro udělení zápočtu: 
+- Vypracování a obhajoba dvou zadaných seminárních prací.
+- Absolvování Moodle kurzu.
+- Altivní účast na seminářích.","1. 	Konstruktivismus ve výuce matematiky - základní ideje, východiska a cíle konstruktivistické výuky.
+2. 	Experimentování ve výuce matematiky. Metoda dobrých otázek.
+3.	Skupinová výuka ve výuce matematiky - výhody a úskalí.
+4. 	Projektová výuka - příprava, realizace a vyhodnocení krátkodobého/dlouhodobého projektu, mezipředmětový projekt).
+5.	Hry ve vyučování matematice.
+","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Mgr.,A,"",ZS,0,"","","",0,0,0
+M101,KMA,2023,Historie matematiky,Historie matematiky,A,A,N,K,"",3,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","","","","","","","","'AL CHVÁRIZMÍ. Aritmetický a Algebraický traktát, OPS, 2009. ',
+'STRUIK, D.J. Dějiny matematiky, Orbis, Pha, 1963. ',
+'JUŠKEVIČ, A.P. Dějiny matematiky ve středověku, Academia, Praha, 1978. ',
+'Historie matematiky I - Praha: Matematický ústav UK, Prometheus, 1994. ',
+'Historie matematiky II: seminář pro vyučující na středních školách, editoři Jindřich Bečvář, Eduard Fuchs. 1. vyd. Praha: Prometheus, 1997. ',
+'BEČVÁŘ, J., FUCHS, E. Matematika v proměnách věků I, Prometheus, Praha, 1998. ',
+'BEČVÁŘ, J., FUCHS, E. Matematika v proměnách věků II, Prometheus, Praha, 2001. ',
+'BEČVÁŘ, J., FUCHS, E. Matematika v proměnách věků III, Výzkumné centrum pro dějiny vědy, Praha, 2004. ',
+'VOPĚNKA, P. Úhelný kámen evropské vzdělanosti a moci, Práh, Praha, 2001. ',
+'VOPĚNKA, P. Vyprávění o kráse novobarokní matematiky, Práh, Praha, 2004. '","","","",N,1,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"Kurz má umožnit studentům zařadit jejich matematické znalosti do historického kontextu. Stručně popisuje prehistorii matematiky, ustavení matematiky jako vědy, antickou matematiku, arabskou matematiku a její vliv na evropskou matematiku ve středověku, vznik infinitesimálního počtu, podrobněji se věnuje zrodu teorie množin.",Zkouška,ANO,Kombinovaná,"Zápočet:
+1. Vypracování seminární práce na zadané téma. 
+2. Připomínkování seminární práce.
+
+Zkouška:
+Obhajoba seminární práce na zadané téma.
+
+","1.	Význam historie matematiky, etapy vývoje matematiky, prehistorie matematiky
+2.	Egyptská matematika
+3.	Matematika v Mezopotámii
+4.	Matematika v antickém Řecku
+5.	Čínská matematika a indická matematika
+6.	Matematika v islámských zemích, matematika ve středověké Evropě
+7.	Počátky novověku v matematice
+8.	Matematika v 16. století
+9.	Matematika v 17. století
+10.	Matematika v 18. století
+11.	Matematika v 19. století
+12.	Směry vývoje v současné matematice
+13.	Významní čeští matematici
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Mgr.,A,"",ZS,0,"","","",0,0,0
+OPM,KMA,2023,Odborné prezentace v matematice,Odborné prezentace v matematice,A,A,A,K,"",1,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Jiří Přibyl, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Jiří Přibyl, Ph.D.' (100)","261, 267","","","","","","","","'Juláková, E. Jak řešit problémy při psaní odborných textů. Praha: VŠChT, 2007. Přístupno z: http://www.vscht.cz/anl/paci/PAC/prezentace/Navod.pdf. ',
+'Slovník spisovné češtiny pro školu a veřejnost: s dodatkem Ministerstva školství, mládeže a tělovýchovy České republiky. Academia, Praha, 1998. ',
+'Chadim, O. Jak bysme (bychom) měli psát, kdybysme (kdybychom) chtěli: složit maturitu, stát se žurnalisty, pracovat v reklamní agentuře, vydělat 90 000 Kč měsíčně a v nejhorším případě připravovat zákony v Parlamentu. Praha: Adonai, 2002. ISBN 80-86500-86-1. ',
+'Šesták, Z. Jak psát a přednášet o vědě. Praha: Academia, 2000. '","","","",N,0,HOD/TYD,0,HOD/TYD,1,HOD/TYD,"Předmět má dva cíle. Prvním je naučit studenty psát správně po formální stránce seminární a kvalifikační práce, druhým je správně připravit a kvalitně prezentovat referát na téma z matematiky.",Zápočet,NE,Kombinovaná,"Kromě účasti na seminářích (alespoň 80 %) musí každý student úspěšně přednést jeden referát na dané téma a odevzdat seminární práci, která bude splňovat předepsané nároky.","1. Základní způsoby prezentování a úvod do problematiky 
+2. Základní typy písemných prací 
+3. Náležitosti kvalifikačních prací, normy a citační etika 
+4. Základní typografické systémy (jejich klasifikace, výhody a nevýhody) 
+5. - 6. Typografie matematických textů
+7. MS Word, OO Writer (Libre Office), LaTeX 
+8. Zásady prezentací mluveným slovem
+9. - 13. Prezentace referátů studentů
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,ZS,25,"","","",17,8,0
+P113,KMA,2023,Repetitorium matematiky,Repetitorium matematiky,A,A,N,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","'doc. Ing. Mgr. Jiří Barilla, CSc.', 'doc. PaedDr. Petr Eisenmann, CSc.', 'doc. Ing. Jaromír Havlica, Ph.D.', 'Mgr. Jana Kasperová', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'RNDr. Martin Kuřil, Ph.D.', 'Mgr. Lucie Loukotová', 'Mgr. Jindřich Matoušek, Ph.D.', 'RNDr. Veronika Pitrová, PhD., Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","'doc. Ing. Mgr. Jiří Barilla, CSc.' (100), 'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'doc. Ing. Jaromír Havlica, Ph.D.' (100), 'Mgr. Jana Kasperová' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Petr Kubera, Ph.D.' (100), 'RNDr. Martin Kuřil, Ph.D.' (100), 'Mgr. Lucie Loukotová' (100), 'Mgr. Jindřich Matoušek, Ph.D.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100), 'PhDr. Jiří Přibyl, Ph.D.' (100)","449, 261, 1803, 8741, 425, 650, 264, 3188, 4680, 5205, 267","","","","","","","","","",KI/MAT2,"'ODVÁRKO O. Matematika pro gymnázia - Funkce, 2008, Prometheus, ISBN 978-80-7196-357-8. ',
+'ODVÁRKO O. Matematika pro gymnázia - Goniometrie, 2008, Prometheus, ISBN 978-80-7196-359-3. ',
+'BOČEK L. a kol. Matematika pro gymnázia - Rovnice a nerovnice, 2008, Prometheus, ISBN 978-80-7196-362-2. ',
+'BUŠEK I. a kol. Matematika pro gymnázia - Základní poznatky z matematiky, 2008, Prometheus, ISBN 978-80-7196-366-0. ',
+'ODVÁRKO O. Sbírka úloh pro gymnázia - Funkce, 1997, Prometheus, ISBN 978-80-7196-305-9. ',
+'JENAČEK F. Sbírka úloh z matematiky pro střední školy - Výrazy, rovnice, nerovnice a jejich soustavy, 1995, Prometheus, ISBN 978-80-7196-360-8. ',
+'ODVÁRKO O. Sbírky úloh pro gymnázia - Goniometrie, 1997, Prometheus, ISBN 80-7196-053-5. '","","","",N,0,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"Kurz je určen k vyrovnání znalostí matematiky ze střední školy mezi jednotlivými studenty.
+
+Tento kurz byl inovován v rámci projektu CZ.1.07/2.2.00/28.0296 ""Mezioborové vazby a podpora praxe v přírodovědných a technických studijních programech UJEP""",Zápočet,NE,Kombinovaná,"Podmínky udělení zápočtu:
+1. Aktivní účast na cvičení.
+2. Plnění dílčích testů v moodle kurzu. 
+3. Splnění zápočtového testu na alespoň 70 % bodů.
+
+","1.	Úpravy výrazů
+2.	Lineární a kvadratická rovnice
+3.	Soustava dvou lineárních rovnic o dvou neznámých
+4.	Elementární funkce - základní pojmy
+5.	Vlastnosti elementárních funkcí
+6.	Lineární a kvadratická funkce
+7.	Mocninná a exponenciální funkce
+8.	Logaritmická funkce
+9.	Exponenciální a logaritmická rovnice
+10.	Goniometrické funkce
+11.	Goniometrické rovnice
+","","","","",Čeština,Tento kurz byl inovován v rámci projektu CZ.1.07/2.2.00/28.0296 ?Mezioborové vazby a podpora praxe v přírodovědných a technických studijních programech UJEP?,A,N,N,"","","",A,N,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+P123,KMA,2023,Matematická analýza I,Matematická analýza I,A,A,N,K,"",8,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 3188, 5205","","","","","","","","","","KI/OPT, KMA/P223, KMA/P229","'ČERNÝ, Ilja. Inteligentní kalkulus. ',
+'ČERNÝ, Ilja. Matematická analýza I. Liberec: Technická univerzita, 1995. ISBN 80-7083-188-X.',
+'ČERNÝ, Ilja. Matematická analýza II. Liberec: Technická univerzita, 1996. ISBN 80-7083-188-X.',
+'VESELÝ, Jiří. Matematická analýza pro učitele. Praha: Matfyzpress, 1997. ISBN 80-85863-23-5.',
+'JARNÍK, Vojtěch. Integrální počet I. Praha: Academia, 1984. ',
+'KOPÁČEK, Jiří. Matematická analýza pro fyziky I. Praha: Matfyzpress, 1997. ISBN 80-85863-74-X.'","","","",A,3,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"Cílem kurzu je seznámit posluchače s teoretickými základy matematické analýzy, hlavně přesnými matematickými definicemi spojitosti, limity a derivace. Dále se studenti seznámí s využitím těchto pojmů v oborech jako je fyzika, ekonomie i samotná matematika (průběh funkce a aproximace polynomy).",Zkouška,ANO,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoň polovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru. Zkouška bude písemná a ústní. 
+","Reálná čísla a jejich vlastnosti, suprema a infima, posloupnosti
+Limity posloupností, jejich základní vlastnosti
+Výpočet limit posloupností
+Řady reálných čísel, jejich konvergence, kritéria řad s kladnými členy
+Řady s členy měnící znaménka, absolutní a neabsolutní konvergence
+Reálné funkce reálné proměnné, pojmy související s funkcemi
+Spojitost funkcí a její vlastnosti
+Základní věty o spojitých funkcích
+Limity funkcí
+Derivace funkce a její vlastnosti
+Věta o střední hodnotě a její důsledky
+Derivace a monotonie, konvexita
+Použití derivací, průběh funkce
+Aproximace funkcí polynomy, Taylorovy polynomy
+",Výuka v angličtině je určena pro erasmové a zahraniční studenty. Výuka v případě malého počtu studentů probíhá formou individuálních konzultací.,"","","","Čeština, Angličtina","",A,N,N,"","","",A,N,"",0,Bc.,Bc.,A,"",ZS,0,"","","",0,0,0
+P132,KMA,2023,Úvod do infinitezimálního počtu,Úvod do infinitezimálního počtu,A,A,N,K,"",4,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","","","","'REKTORYS, K. Co je a k čemu je vyšší matematika, Academia, Praha, 2001. ',
+'Hrubý D., Kubát J. Diferenciální a integrální počet, Matematika pro gymnázia, Prometheus Praha 1997. ',
+'SCHWABIK, Š., ŠARMANOVÁ, P. Malý průvodce historií integrálu, Prométheus, Praha, 1996. ',
+'Budinský, B., Charvát, J. Matematika I, SNTL, Alfa Praha. 1987. '","","","",N,1,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,"Požadavky k udělení zápočtu jsou dva:
+1. Docházka alespoň 80 %.
+2. Získání alespoň 60 % bodů v součtu ze tří zápočtových písemek psaných v průběhu výuky.
+
+Student má nárok na dva opravné termíny ve zkouškovém období. Opravné písemky budou z látky celého semestru.","1. 	Konečná a nekonečná, spočetná a nespočetná množina
+2. - 3.	Součet řady, limita posloupnosti, výpočty limit posloupností
+4. - 6.	Limita funkce, výpočty limit funkcí
+7. - 8.	Derivace funkce, geometrická interpretace, výpočty a použití derivací
+9. - 10.	Průběh funkce
+11. - 12.	Určitý a neurčitý integrál, geometrická interpretace
+	
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+P135,KMA,2023,Úvod do matematiky,Úvod do matematiky,A,A,N,K,"",4,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 3188, 5205","","","","","","","","","","KCH/P225, KCH/P431, KCH/0078, KMA/P232","'Kopáček, J. Matematická analýza pro fyziky I, II, Matfyzpress, Praha, 1997, 1998. ',
+'MOC, Ondřej. Sbírka úloh z matematiky. Diferenciální počet funkcí jedné proměnné. FSE UJEP. Ústí nad Labem, 2009. ISBN 978-80-7414-182-9.',
+'MOC, O. Sbírka úloh z matematiky, integrální počet funkcí jedné proměnné, FSE, 2009. ',
+'Hrubý D., Kubát J. Diferenciální a integrální počet, Matematika pro gymnázia, Prometheus Praha 1997. ',
+'Budinský, B., Charvát, J. Matematika I, (část 1). Praha 6. ',
+'Klůfa, J., Coufa J. Matematika I, Ekopress, 2003. ',
+'Kaňka, M. Henzle, J. Matematika II, Ekopress, 2003. '","","","",N,2,HOD/TYD,3,HOD/TYD,0,HOD/TYD,"Diferenciální a integrální počet funkcí jedné proměnné, limity posloupností reálných čísel.",Zápočet,NE,Kombinovaná,"Požadavky k udělení zápočtu jsou dva:
+1. Docházka alespoň 80 %.
+2. Získání alespoň 50 % bodů v součtu ze tří zápočtových písemek psaných v průběhu výuky.
+
+Student má nárok na dva opravné termíny ve zkouškovém období. Opravné písemky budou z látky celého semestru. ","1.	číselné množiny (přirozená, celá, racionální, reálná a komplexní čísla)
+2.	reálné funkce (pojem funkce, graf funkce, operace s funkcemi, složené funkce, prosté funkce, vlastnosti funkcí)
+3.	základní elementární funkce (exponenciální, logaritmické, konstantní, mocninné, goniometrické, cyklometrické)
+4.	limita posloupnosti
+5.	limita a spojitost funkce
+6.	derivace funkce (definice a pravidla pro výpočet derivace, derivace vyšších řádů, L'Hospitalovo pravidlo, numerická derivace prvního a druhého řádu, význam derivace ve fyzice a chemii)
+7.	průběh funkce (monotónnost funkce, lokální a globální extrémy, konvexnost a konkávnost, inflexní body, asymptoty grafu funkce)
+8.	Taylorova formule, diferenciál a jeho aplikace
+9.	integrál a jeho vlastnosti (Riemannův a Newtonův integrál, zavedení a základní vzorce)
+10.	metody výpočtu neurčitých integrálů (metoda substituční, metoda per partes, integrace racionálně lomených funkcí)
+11.	nevlastní integrály, numerická integrace
+12.	geometrické a fyzikální aplikace integrálního počtu","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+P136,KMA,2023,Úvod do matematiky,Úvod od matematiky,A,A,N,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 3188, 5205","","","","","","","","","","KI/APNME, KI/MSW, KI/NME, KI/OPT, KI/XNME, KMA/P232, KMA/P506","'Kopáček, J. Matematická analýza pro fyziky I, II, Matfyzpress, Praha, 1997, 1998. ',
+'MOC, Ondřej. Sbírka úloh z matematiky. Diferenciální počet funkcí jedné proměnné. FSE UJEP. Ústí nad Labem, 2009. ISBN 978-80-7414-182-9.',
+'MOC, O. Sbírka úloh z matematiky, integrální počet funkcí jedné proměnné, FSE, 2009. ',
+'Hrubý D., Kubát J. Diferenciální a integrální počet, Matematika pro gymnázia, Prometheus Praha 1997. ',
+'Budinský, B., Charvát, J. Matematika I, (část 1). Praha 6. ',
+'Klůfa, J., Coufa J. Matematika I, Ekopress, 2003. ',
+'Kaňka, M. Henzle, J. Matematika II, Ekopress, 2003. '",KMA/P110,"","",N,2,HOD/TYD,3,HOD/TYD,0,HOD/TYD,"Diferenciální a integrální počet funkcí jedné proměnné, limity posloupností reálných čísel.",Zkouška,ANO,Kombinovaná,"Zápočet bude udělen za splnění tří podmínek: 80% docházky na cvičení, získání alespoň polovičního množství bodů ze tří testů psaných v průběhu výuky v semestru (v součtu). Zkouška bude udělena za získání alespoň 60% množství bodů ze zkouškového testu.","1.	číselné množiny (přirozená, celá, racionální, reálná a komplexní čísla)
+2.	reálné funkce (pojem funkce, graf funkce, operace s funkcemi, složené funkce, prosté funkce, vlastnosti funkcí)
+3.	základní elementární funkce (exponenciální, logaritmické, konstantní, mocninné, goniometrické, cyklometrické)
+4.	limita posloupnosti
+5.	limita a spojitost funkce
+6.	derivace funkce (definice a pravidla pro výpočet derivace, derivace vyšších řádů, L'Hospitalovo pravidlo, numerická derivace prvního a druhého řádu, význam derivace ve fyzice a chemii)
+7.	průběh funkce (monotónnost funkce, lokální a globální extrémy, konvexnost a konkávnost, inflexní body, asymptoty grafu funkce)
+8.	Taylorova formule, diferenciál a jeho aplikace
+9.	integrál a jeho vlastnosti (Riemannův a Newtonův integrál, zavedení a základní vzorce)
+10.	metody výpočtu neurčitých integrálů (metoda substituční, metoda per partes, integrace racionálně lomených funkcí)
+11.	nevlastní integrály, numerická integrace
+12.	geometrické a fyzikální aplikace integrálního počtu","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+P336,KMA,2023,Matematická analýza I,Matematická analýza I,A,A,N,K,"",3,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","","","","","","","","","",KMA/P401,"'ČERNÝ, Ilja. Inteligentní kalkulus. ',
+'ČERNÝ, Ilja. Matematická analýza I. Liberec: Technická univerzita, 1995. ISBN 80-7083-188-X.',
+'ČERNÝ, Ilja. Matematická analýza II. Liberec: Technická univerzita, 1996. ISBN 80-7083-188-X.',
+'VESELÝ, Jiří. Matematická analýza pro učitele. Praha: Matfyzpress, 1997. ISBN 80-85863-23-5.',
+'JARNÍK, Vojtěch. Integrální počet I. Praha: Academia, 1984. ',
+'KOPÁČEK, Jiří. Matematická analýza pro fyziky I. Praha: Matfyzpress, 1997. ISBN 80-85863-74-X.'","","","",N,3,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"Cílem kurzu je seznámit posluchače s teoretickými základy matematické analýzy, hlavně přesnými matematickými definicemi spojitosti, limity a derivace. Dále se studenti seznámí s využitím těchto pojmů v oborech jako je fyzika, ekonomie i samotná matematika (průběh funkce a aproximace polynomy).",Zápočet,NE,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoň polovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru.","Reálná čísla a jejich vlastnosti, suprema a infima, posloupnosti
+Limity posloupností, jejich základní vlastnosti
+Výpočet limit posloupností
+Řady reálných čísel, jejich konvergence, kritéria řad s kladnými členy
+Řady s členy měnící znaménka, absolutní a neabsolutní konvergence
+Reálné funkce reálné proměnné, pojmy související s funkcemi
+Spojitost funkcí a její vlastnosti
+Základní věty o spojitých funkcích
+Limity funkcí
+Derivace funkce a její vlastnosti
+Věta o střední hodnotě a její důsledky
+Derivace a monotonie, konvexita
+Použití derivací, průběh funkce
+Aproximace funkcí polynomy, Taylorovy polynomy
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+P600,KMA,2023,Bakalářská práce z matematiky,Bakalářská práce,A,A,A,K,"",8,NE,"","'RNDr. Martin Kuřil, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.' (100)",264,"","","","","","","","","","","","","","","","","","","","",N,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,Úkoly nutné ke splnění tohoto předmětu určuje vedoucí bakalářské práce. Vyžaduje se účast na konzultacích a spolupráce s vedoucím bakalářské práce a průběžné plnění jím zadaných úkolů. Zápočet uděluje vedoucí bakalářské práce po splnění zadaných úkolů (po zhodnocení vykonané práce a získaných výsledků).,Zápočet,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+SBP,KMA,2023,Seminář k bakalářské práci,Seminář k bakalářské práci,A,A,N,K,"",2,NE,"","'RNDr. Martin Kuřil, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.'",264,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Martin Kuřil, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (50), 'RNDr. Martin Kuřil, Ph.D.' (50)","261, 264","","","","","","","","","","","",N,0,HOD/TYD,0,HOD/TYD,1,HOD/TYD,"",Zápočet,NE,Kombinovaná,"Aktivní účast na semináři a úspěšný referát na setkání, které proběhne ve zkouškovém období zimního semestru.","Studenti se seznámí se základními požadavky na bakalářskou práci, s rešeršní činností, se zásadami citace, se zásadami prezentace apod.  Postupně budou všichni studenti referovat o svých bakalářských pracích před sebou navzájem a také před pracovníky katedry matematiky. Při přípravě referátů budou studenti spolupracovat s vedoucími svých bakalářských prací.","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,Bc.,Bc.,A,0,ZS,6,"","","",6,0,0
+SDP,KMA,2023,Seminář k diplomové práci,Seminář k diplomové práci,A,A,N,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Martin Kuřil, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (50), 'RNDr. Martin Kuřil, Ph.D.' (50)","261, 264","","","","","","","","","","","",N,0,HOD/TYD,0,HOD/TYD,1,HOD/TYD,"Studenti se seznámí s požadavky na diplomovou práci. Zpracují rešerši k zvolenému tématu, formulují východiska a cíle práce. Postupně budou všichni studenti referovat o svých diplomových pracích před sebou navzájem a také před pracovníky katedry matematiky. Při přípravě referátů budou studenti spolupracovat s vedoucími svých diplomových prací.",Zápočet,NE,Kombinovaná,"Aktivní účast na semináři a úspěšný referát na setkání, které proběhne ve zkouškovém období zimního semestru.","","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Mgr.,A,0,ZS,0,"","","",0,0,0
+AMU,KMA,2023,Aplikovaná matematika pro učitele,Aplikovaná matematika pro učitele,A,N,A,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","'ŠOBA, O., ŠIRŮČEK, M. Finanční matematika v praxi. Praha: Grada. 2017.',
+'DVOŘÁKOVÁ, Z., SMRČKA, L. Finanční vzdělávání pro střední školy se sbírkou řešených příkladů na CD. Praha: Beck. 2011.',
+'ROBOVÁ, J. a kol. Sbírka aplikačních úloh ze středoškolské matematiky. Praha: Prometheus. 2014.',
+'ODVÁRKO, O. Úlohy z finanční matematiky pro střední školy. Praha: Prometheus. 2005.'","","","",N,0,HOD/TYD,0,HOD/TYD,3,HOD/TYD,"Předmět obsahuje dva bloky, finanční matematiku pro budoucí učitele a aplikační úlohy ve výuce matematiky. Smyslem prvního bloku, finanční matematiky, je poskytnout budoucím učitelům přehled o základních produktech finančního trhu, se kterými se mohou žáci a studenti středních škol setkat. Smyslem druhého bloku, aplikační úlohy ve výuce matematiky, je seznámit studenty s významem, výběrem a tvorbou matematických úloh, které odrážejí realitu života kolem nás a ukazují užitečnost matematiky v praxi.
+
+",Zápočet,NE,Kombinovaná,"
+Kromě účasti na cvičeních je podmínkou udělení zápočtu napsání písemné práce z úloh z finanční matematiky a úspěšný referát z oblasti aplikačních úloh.
+
+
+
+","Finanční matematika (1-5):
+
+Přehled základních finančních produktů
+Jednoduché úročení, skonto, diskont, kontokorent
+Složené úročení, úrokové míry a úroková období
+Úvěry, prodej na splátky, hypoteční úvěry, leasingové produkty
+Stavební spoření, životní pojištění
+
+Aplikační úlohy ve výuce matematiky (6-10):
+
+Cílem bloku je naučit studenty vyhledávat a vytvářet kvalitní aplikační úlohy vhodné pro zařazení do výuky. Ty ukazují význam a užitečnost matematiky a tím přispívají k vytváření pozitivního vztahu k matematice a motivaci k jejímu studiu, k rozvíjení schopnosti matematizace reálných situací a vytváření matematických modelů. Po první úvodní přednášce studenti postupně prezentují své původní aplikační úlohy před ostatními kolegy a vyučujícím.
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,LS,9,"","","",9,0,0
+CAL2,KMA,2023,Matematická analýza II,Matematická analýza II,A,N,A,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","",KMA/CAL1,"",KMA/CAL3,"'KOPÁČEK, J. Matematická analýza nejen pro fyziky I. Praha: Matfyzpress, 2016. ',
+'BÁRTA, T., PRAŽÁK, D. Obyčejné diferenciální rovnice - sbírka úloh a řešených příkladů. Praha: MFF UK. ',
+'ZEMÁNEK, P., HASIL, P. Sbírka řešených příkladů z Matematické analýzy I. Brno: Masarykova univerzita. '","","","",N,2,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"Studenti se seznámí s integrálním počtem reálných funkcí jedné proměnné, výpočtem integrálů a jejich použití, hlavně v
+geometrii a ve fyzice. Dále se seznámí se základy obyčejných diferenciálních rovnic. Při procvičování vybraných partií
+budou studenti aktivně používat program Mathematica.",Zkouška,ANO,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoň polovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru. Zkouška bude písemná a ústní.
+
+
+
+","
+1. Primitivní funkce a její základní vlastnosti.
+2. Metody integrace po částech a substitucí
+3. Integrace racionálních funkcí a na ně převoditelných funkcí
+4. Newtonův integrál, jeho základní vlastnosti
+5. Riemannův integrál a jeho vztah k Newtonovu integrálu
+6.-7. Geometrické aplikace určitého integrálu
+8. Obyčejné diferenciální rovnice 1. řádu, základní pojmy, existence řešení
+9. Diferenciální rovnice druhého řádu
+10. Lineární diferenciální rovnice s konstantními koeficienty homogenní
+11. Lineární diferenciální rovnice s konstantními koeficienty nehomogenní
+12.-13. Použití diferenciálních rovnic v přírodních vědách a společenských vědách
+
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,LS,4,"","","",4,0,0
+CA2,KMA,2023,Matematická analýza II,Matematická analýza II,A,N,A,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","","","","","","","",KMA/CA1,"",KMA/MA3,"'KOPÁČEK, J. Matematická analýza nejen pro fyziky I. Praha: Matfyzpress, 2016. ',
+'BÁRTA, T., PRAŽÁK, D. Obyčejné diferenciální rovnice - sbírka úloh a řešených příkladů. Praha: MFF UK. ',
+'ZEMÁNEK, P., HASIL, P. Sbírka řešených příkladů z Matematické analýzy I. Brno: Masarykova univerzita. '","","","",N,2,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"Studenti se seznámí s integrálním počtem reálných funkcí jedné proměnné, výpočtem integrálů a jejich použití, hlavně v
+geometrii a ve fyzice. Dále se seznámí se základy obyčejných diferenciálních rovnic. Při procvičování vybraných partií
+budou studenti aktivně používat program Mathematica.",Zkouška,ANO,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoň polovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru. Zkouška bude písemná a ústní.
+
+
+
+","
+1. Primitivní funkce a její základní vlastnosti.
+2. Metody integrace po částech a substitucí
+3. Integrace racionálních funkcí a na ně převoditelných funkcí
+4. Newtonův integrál, jeho základní vlastnosti
+5. Riemannův integrál a jeho vztah k Newtonovu integrálu
+6.-7. Geometrické aplikace určitého integrálu
+8. Obyčejné diferenciální rovnice 1. řádu, základní pojmy, existence řešení
+9. Diferenciální rovnice druhého řádu
+10. Lineární diferenciální rovnice s konstantními koeficienty homogenní
+11. Lineární diferenciální rovnice s konstantními koeficienty nehomogenní
+12.-13. Použití diferenciálních rovnic v přírodních vědách a společenských vědách
+
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,LS,16,"","","",16,0,0
+KAMU,KMA,2023,Aplikovaná matematika pro učitele,Aplikovaná matematika pro učitele,A,N,A,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","'ŠOBA, O., ŠIRŮČEK, M. Finanční matematika v praxi. Praha: Grada. 2017.',
+'DVOŘÁKOVÁ, Z., SMRČKA, L. Finanční vzdělávání pro střední školy se sbírkou řešených příkladů na CD. Praha: Beck. 2011.',
+'ROBOVÁ, J. a kol. Sbírka aplikačních úloh ze středoškolské matematiky. Praha: Prometheus. 2014.',
+'ODVÁRKO, O. Úlohy z finanční matematiky pro střední školy. Praha: Prometheus. 2005.'","","","",N,0,HOD/SEM,0,HOD/SEM,12,HOD/SEM,"Předmět obsahuje dva bloky, finanční matematiku pro budoucí učitele a aplikační úlohy ve výuce matematiky. Smyslem prvního bloku, finanční matematiky, je poskytnout budoucím učitelům přehled o základních produktech finančního trhu, se kterými se mohou žáci a studenti středních škol setkat. Smyslem druhého bloku, aplikační úlohy ve výuce matematiky, je seznámit studenty s významem, výběrem a tvorbou matematických úloh, které odrážejí realitu života kolem nás a ukazují užitečnost matematiky v praxi.
+
+",Zápočet,NE,Kombinovaná,Kromě účasti na semináři je podmínkou udělení zápočtu napsání písemné práce z úloh z finanční matematiky a úspěšný referát z oblasti aplikačních úloh.,"Finanční matematika (1-5):
+
+Přehled základních finančních produktů
+Jednoduché úročení, skonto, diskont, kontokorent
+Složené úročení, úrokové míry a úroková období
+Úvěry, prodej na splátky, hypoteční úvěry, leasingové produkty
+Stavební spoření, životní pojištění
+
+Aplikační úlohy ve výuce matematiky (6-10):
+
+Cílem bloku je naučit studenty vyhledávat a vytvářet kvalitní aplikační úlohy vhodné pro zařazení do výuky. Ty ukazují význam a užitečnost matematiky a tím přispívají k vytváření pozitivního vztahu k matematice a motivaci k jejímu studiu, k rozvíjení schopnosti matematizace reálných situací a vytváření matematických modelů. Po první úvodní přednášce studenti postupně prezentují své původní aplikační úlohy před ostatními kolegy a vyučujícím.","","","","",Čeština,"",A,N,N,"","","",N,A,Studijní opora: https://1url.cz/suBr4,0,"",Bc.,A,0,LS,1,"","","",1,0,0
+KDM2,KMA,2023,Didaktika matematiky II,Didaktika matematiky II,A,N,A,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","'PhDr. Magdalena Krátká, Ph.D.'","'PhDr. Magdalena Krátká, Ph.D.' (100)",425,"","","","",KMA/KDM1,"",KMA/N309,"'KOPKA, J. Hrozny problémů ve školské matematice. 1999, UJEP Ústí nad Labem. ',
+'HEJNÝ, M. a kol. Teória vyučovania matematiky, 1990 Bratislava SPN. ',
+'HEJNÝ, M. a kol. 25 kapitol z teorie vyučování matematiky. 2005, Praha Ped. F. UK. ',
+'HEJNÝ, M., KUŘINA, F. Dítě, škola a matematika, Portál, Praha, 2001. ',
+'Fuchs, E., Hrubý, D. Postavení matematiky ve školním vzdělávacím programu. Čtyřletá gymnázia. Praha: Prometheus, 2006. ',
+'Fuchs, E. Standardy a testové úlohy z matematiky pro 4letá gymnázia. Praha: Prometheus, 1998. ',
+'Učebnice matematiky pro gymnázia a další střední školy v Čechách. ',
+'Učebnice matematiky pro gymnázia a další střední školy v Čechách v minulosti a zahraniční učebnice. '","","","",N,4,HOD/SEM,0,HOD/SEM,8,HOD/SEM,"Student aplikuje teoretické znalosti získané v předmětu Didaktika matematiky I a využívá je při didaktické analýze obsahu učiva dle RVP ZV a G pro VO Matematika a její aplikace. Po absolvování předmětu dokáže student vytvořit vhodné úlohy pro jednotlivá témata a analyzuje je
+z hlediska kognitivní náročnosti, vytvoří metodická řešení, formuluje kritická místa výuky z pohledu obsahu, žáka a učitele. Student získá přehled o problematice talentovaného žáka a možnosti podpory jeho vzdělávání. Student získá přehled o možnostech dalšího profesního růstu. Student si osvojí využití různých pomůcek a informačních technologií ve výuce, seznámí se s dostupnými učebnicemi, elektronickými materiály a dalšími možnostmi podpory výuky matematiky.",Zápočet,NE,Kombinovaná,Zápočet bude udělen za dvě vystoupení v rámci semináře. Témata prací budou volena s ohledem na získání praktických dovedností v oblasti metodiky výuky zvolených témat (dle RVP VO Matematika a její aplikace) s důrazem na aktivizační formy a metody výuky a na využití moderních výukových prostředků. Součástí podmínek je splnění testu SŠ úloh z oblasti sledovaných témat alespoň na 75 %.,"1. Organizace práce učitele, struktura vyučovací hodiny, cíl vyučovací hodiny, formulace cílů výuky.
+2. Zpětná vazba, hodnocení a sebehodnocení ve výuce matematiky na ZŠ a SŠ
+3. Přechod mezi aritmetikou a algebrou, rovnice a nerovnice.
+4. Funkce, propedeutika funkčního myšlení
+5. Planimetrie na ZŠ a SŠ, problematika nekonečna
+6. Konstrukční úlohy, význam jednotlivých částí řešení, manipulace s modely, využití dynamických softwarů
+7. Tvorba úloh, aplikační úlohy ve výuce
+8. Úlohy s parametry, význam parametru
+9. Práce s talentovanými žáky, diagnostika talentovaného žáka, možnosti práce a rozvoje talentovaného žáka
+10. Další vzdělávání učitelů, celoživotní osobní rozvoj učitele, doplňková a časopisecká literatura, on-line zdroje, konference, semináře",Výuka v angličtině je určena pro erasmové a zahraniční studenty. Výuka v případě malého počtu studentů probíhá formou individuálních konzultací.,"","",http://kma.ujep.cz/administrace/uploads/8b8a901.pdf,"Čeština, Angličtina","",A,N,N,"","","",N,A,"",0,"",Mgr.,A,"",LS,4,"","","",4,0,0
+K214,KMA,2023,Odborné prezentace v matematice,Odborné prezentace v matematice,A,N,A,K,"",1,NE,"","'PhDr. Jiří Přibyl, Ph.D.'","'PhDr. Jiří Přibyl, Ph.D.' (100)",267,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100)","261, 3188","'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100)","261, 3188","","","","","","","","","","","'kol. autorů. Slovník spisovné češtiny pro školu a veřejnost. Praha. ',
+'Chadim, O. Jak bysme (bychom) měli psát, kdybysme (kdybychom) chtěli: složit maturitu, stát se žurnalisty, pracovat v reklamní agentuře, vydělat 90 000 Kč měsíčně a v nejhorším případě připravovat zákony v Parlamentu. Praha: Adonai, 2002. ISBN 80-86500-86-1. ',
+'Eco, U. Jak napsat diplomovou práci. Olomouc: Votobia, 1997. ISBN 80-7198-173-7.',
+'Šesták Z. Jak psát a přednášet o vědě. ACADEMIA, Praha, 2000. ',
+'Juláková, E. Jak řešit problémy při psaní odborných textů. Praha: VŠChT, 2007. Přístupno z: http://www.vscht.cz/anl/paci/PAC/prezentace/Navod.pdf. '","","","",N,2,HOD/SEM,6,HOD/SEM,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,"Požadavky k zápočtu:
+
+	1. přednesení referátu na zadané téma během cvičení
+	2. odevzdání seminární práce","1. Základní způsoby prezentování a úvod do problematiky
+
+2. Základní typy písemných a mluvených projevů
+
+3. Náležitosti kvalifikačních prací, normy a citační etika
+
+4. Základní typografické systémy (jejich klasifikace, výhody a nevýhody)
+
+5. - 6. Typografie matematických textů.
+
+7. MS Word, OO Writer (Libre Office), LaTeX
+
+8. - 14. Prezentace prací studentů
+
+","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",LS,1,"","","",1,0,0
+K216,KMA,2023,Vybrané partie z matematiky,Vybrané partie z matematiky,A,N,A,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100)","261, 3188","","","","","","","",KMA/K111,"","","'Kopáček, J. Matematická analýza pro fyziky I, II, Matfyzpress, Praha, 1997, 1998. ',
+'ZDRÁHAL, T., PELIKÁN, Š. Matematická analýza - cvičení II, III, IV PF Ústí n. L., 1986. ',
+'BRABEC, B., HRŮZA, B. Matematická analýza II, SNTL, Praha, 1986. '","","","",N,4,HOD/SEM,4,HOD/SEM,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,"Podmínkou udělení zápočtu je získání alespoň 50 % bodů ze zápočtové písemky.
+","Úvod do teorie obyčejných diferenciálních rovnic
+- Základní pojmy (řešení dif. rovnic a jejich klasifikace)
+- Diferenciální rovnice 1. řádu se separovatelnými proměnnými
+- Lineární diferenciální rovnice 1. řádu
+- Lineární diferenciální rovnice vyššího řádu s konstantními koeficienty
+- Aplikace obyčejných diferenciálních rovnic v praxi
+
+
+Úvod do diferenciálního počtu funkcí více proměnných
+- Definiční obor funkce více proměnných a graf funkce dvou proměnných
+- Pojem limita a spojitost funkce více proměnných
+- Směrová a parciální derivace, diferenciál, gradient, derivace složené funkce, derivace vyšších řádů
+- Taylorova formule pro funkci dvou proměnných
+- Lokální extrémy funkcí více proměnných, nutná a postačující podmínka
+- Vázané extrémy funkcí více proměnných
+","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",LS,0,"","","",0,0,0
+K600,KMA,2023,Bakalářská práce z matematiky,Bakalářská práce z matematiky,A,A,A,K,"",8,NE,"","'RNDr. Martin Kuřil, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.'",264,"","","","","","","","","","","","","","","","","","","","",N,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,Úkoly nutné ke splnění tohoto předmětu určuje vedoucí bakalářské práce. Vyžaduje se účast na konzultacích a spolupráce s vedoucím bakalářské práce a průběžné plnění jím zadaných úkolů. Zápočet uděluje vedoucí bakalářské práce po splnění zadaných úkolů (po zhodnocení vykonané práce a získaných výsledků).,"","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,Bc.,Bc.,A,"",LS,0,"","","",0,0,0
+K609,KMA,2023,Finanční matematika,Finanční matematika,A,N,A,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100)","261, 3188","'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100)","261, 3188","","","","","","","","","","","","","","",N,6,HOD/SEM,6,HOD/SEM,0,HOD/TYD,"",Zkouška,ANO,Kombinovaná,"Požadavky k zápočtu:
+
+	1. prezentace zadaných témat během cvičení
+
+Požadavky ke zkoušce:
+
+	1. zkouška bude udělena na základě kvality odevzdané seminární práce
+
+
+
+","
+	1. Přehled základních finančních produktů
+	2. Jednoduché úročení, skonto, diskont
+	3. Eskont směnky, kontokorent
+	4. Složené úročení, úrokové míry a úroková období
+	5. Úvěry, prodej na splátky, hypoteční úvěry
+	6. Leasingové produkty
+	7. Důchodové spořicí produkty
+	8. Stavební spoření
+	9. Životní pojištění
+
+","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",LS,1,"","","",0,1,0
+MA2,KMA,2023,Matematická analýza II,Matematická analýza II,A,N,A,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205",'Mgr. Lucie Loukotová','Mgr. Lucie Loukotová' (100),3188,"","","","",KMA/MA1,"",KMA/MA3,"'KOPÁČEK, J. Matematická analýza nejen pro fyziky I. Praha: Matfyzpress, 2016. ',
+'BÁRTA, T., PRAŽÁK, D. Obyčejné diferenciální rovnice - sbírka úloh a řešených příkladů. Praha: MFF UK. ',
+'ZEMÁNEK, P., HASIL, P. Sbírka řešených příkladů z Matematické analýzy I. Brno: Masarykova univerzita. '","","","",N,2,HOD/TYD,2,HOD/TYD,2,HOD/TYD,"Studenti se seznámí s integrálním počtem reálných funkcí jedné proměnné, výpočtem integrálů a jejich použití, hlavně v geometrii a ve fyzice. Dále se seznámí se základy obyčejných diferenciálních rovnic. Při procvičování vybraných partií budou studenti aktivně používat program Mathematica.",Zkouška,ANO,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoň polovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru a odevzdání všech seminárních prací.","1. Primitivní funkce a její základní vlastnosti
+2. Metody integrace po částech a substitucí
+3. Integrace racionálních funkcí a na ně převoditelných funkcí
+4. Newtonův integrál, jeho základní vlastnosti
+5. Riemannův integrál a jeho vztah k Newtonovu integrálu
+6. Numerický výpočet integrálu
+7. Použití integrálu v geometrii (obsahy a objemy, délky a povrchy)
+8. Obyčejné diferenciální rovnice 1. řádu, základní pojmy, existence řešení
+9. Diferenciální rovnice druhého řádu
+10. Lineární diferenciální rovnice s konstantními koeficienty
+11. Použití diferenciálních rovnic	
+12. Metrické prostory, základní pojmy
+13. Úplnost a kompaktnost metrických prostorů
+
+Pozn.: Na cvičeních se bude každý týden procvičovat látka z příslušné přednášky.
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,LS,10,"","","",10,0,0
+MEX,KMA,2023,Matematická exkurze,Matematická exkurze,A,A,A,K,"",1,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","","","","",A,0,HOD/TYD,0,HOD/TYD,1,DNU/SEM,"Cílem matematické exkurze je interaktivní formou představit jejím účastníkům využití matematiky ve světě kolem nás, posílit vnímání mezioborových souvislostí a v případě učitelů inspirovat k využití příkladů a jejich řešení ve výukové praxi.",Zápočet,NE,Kombinovaná,absolvování exkurze a odevzdání vyhovující seminární práce,"Matematická exkurze je realizována jako jednodenní exkurze do Erlebnisland Mathematik Dresden, který je trvalou expozicí v Technische Sammlungen v Drážďanech. Studenti absolvují zhruba tříhodinovou prohlídku expozice s úvodním výkladem. V rámci prohlídky se rozdělí do malých skupin a vyberou si jeden exponát, který podrobí důkladnému zkoumání. Tato příprava jim umožní po návratu domů sestavit krátkou seminární práci, která exponát popíše a navrhne způsob jeho využití při demonstraci nějakého pojmu, poznatku či ideje pro situaci, kdy si budou tento exponát prohlížet čeští žáci ze základní či střední školy.","","","","",Čeština,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,LS,8,"","","",0,8,0
+MK402,KMA,2023,Aplikační úlohy ve vyučování matematice,Aplikační úlohy ve vyučování matematice,A,N,A,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100)","261, 425","","","","","","","","","","","","","","",N,2,HOD/SEM,12,HOD/SEM,0,HOD/TYD,Na první úvodní přednášce bude probrán význam zařazení aplikačních úloh ve výuce matematiky a znaky kvalitní aplikační úlohy. Na dalších setkáních budou studenti postupně prezentovat své původní aplikační úlohy před ostatními kolegy a vyučujícím.,Zkouška,ANO,Kombinovaná,"Požadavky na zápočet:
+1. Účast na výuce v rozsahu alespoň 75 %. 
+2. Úspěšně prezentovat své vlastní úlohy. 
+3. Odevzdat seminární práci s vlastními úlohami.",Na první úvodní přednášce bude probrán význam zařazení aplikačních úloh ve výuce matematiky a znaky kvalitní aplikační úlohy. Zároveň budou studenti vybrané úlohy řešit. Na dalším setkání budou studenti postupně prezentovat své původní aplikační úlohy před ostatními kolegy a vyučujícím.,"","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Mgr.,A,"",LS,0,"","","",0,0,0
+MME,KMA,2023,Matematika v mikroekonomii,Matematika v mikroekonomii,A,N,A,K,"",4,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Jiří Škvor, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Jiří Škvor, Ph.D.' (100)","261, 2220","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Jiří Škvor, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Jiří Škvor, Ph.D.' (100)","261, 2220","","","","","","","",KI/ZEK,"","","'http://projects.math.slu.cz/AM/activ/soubory/opory/MatVEkon.pdf ',
+'Carter, M. Foundations of Mathematical Economics. The MIT Press, Londýn, 2001. ISBN 9780262032896.'","","","",N,2,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"Cílem předmětu je vysvětlit, jak používat matematiku v ekonomii, a to především v mikroekonomii. Nejprve budou důkladně vyloženy základní matematické prostředky pro zkoumání ekonomických veličin a pak bude ukázáno, kde a jak se matematika v mikroekonomii využívá.
+
+",Zkouška,ANO,Kombinovaná,"Zápočet: řešení příkladů
+Zkouška: ústní","1. - 3. Základní matematické prostředky pro zkoumání ekonomických veličin (ekonomická funkce a její sklon, veličiny celkové, průměrné a mezní, elasticita funkce)
+4. - 7. Matematické modelování dynamické rovnováhy na dílčím trhu zboží
+8. - 10. Mikroekonomické funkce a jejich základní úloha (užitková funkce a maximalizace užitku, nákladová funkce, příjmová funkce, zisková funkce, produkční funkce a nákladové optimum)
+
+Pozn.: Na cvičeních se bude každý týden procvičovat látka z příslušné přednášky.
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,LS,4,"","","",4,0,0
+M402,KMA,2023,Aplikační úlohy ve vyučování matematice,Aplikační úlohy ve vyučování matematice,A,N,A,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"","","","","","","","","","","'HEJNÝ, M., KUŘINA, F. Dítě, škola a matematika, Portál, Praha, 2001. ',
+'HEJNÝ, M. a kol. Teória vyučovania matematiky 2, Slovenské pedagogické nakladatelstvo, Bratislava, 1989. ',
+'KOWAL, S. Matematika pro volné chvíle, SNTL, Praha, 1986. ',
+'SCHUPP, H. Thema mit Variationen oder Aufgabenvariation im Mathematikunterricht, Verlag Franzbecker, Berlin, 2002. ',
+'PERELMAN, J.I. Zajímavá algebra, SNTL, Praha, 1985. '","","","",N,1,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"Cílem kurzu je naučit studenty vyhledávat a vytvářet kvalitní aplikační úlohy vhodné pro zařazení do výuky. Ty mohou ukazovat význam a užitečnost matematiky a tím přispívat k vytváření pozitivního vztahu k matematice a motivaci k jejímu studiu, k rozvíjení schopnosti matematizace reálných situací a vytváření matematických modelů.",Zkouška,ANO,Kombinovaná,"Požadavky na zápočet:
+1. Účast na výuce v rozsahu alespoň 75 %. 
+2. Úspěšně prezentovat své vlastní úlohy. 
+3. Odevzdat seminární práci s vlastními úlohami.",Na první úvodní přednášce bude probrán význam zařazení aplikačních úloh ve výuce matematiky a znaky kvalitní aplikační úlohy. Zároveň budou studenti vybrané úlohy řešit. Na dalším setkání budou studenti postupně prezentovat své původní aplikační úlohy před ostatními kolegy a vyučujícím.,"","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Mgr.,A,"",LS,0,"","","",0,0,0
+OPM,KMA,2023,Odborné prezentace v matematice,Odborné prezentace v matematice,A,A,A,K,"",1,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.'",261,"","","","","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Jiří Přibyl, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Jiří Přibyl, Ph.D.' (100)","261, 267","","","","","","","","'Juláková, E. Jak řešit problémy při psaní odborných textů. Praha: VŠChT, 2007. Přístupno z: http://www.vscht.cz/anl/paci/PAC/prezentace/Navod.pdf. ',
+'Slovník spisovné češtiny pro školu a veřejnost: s dodatkem Ministerstva školství, mládeže a tělovýchovy České republiky. Academia, Praha, 1998. ',
+'Chadim, O. Jak bysme (bychom) měli psát, kdybysme (kdybychom) chtěli: složit maturitu, stát se žurnalisty, pracovat v reklamní agentuře, vydělat 90 000 Kč měsíčně a v nejhorším případě připravovat zákony v Parlamentu. Praha: Adonai, 2002. ISBN 80-86500-86-1. ',
+'Šesták, Z. Jak psát a přednášet o vědě. Praha: Academia, 2000. '","","","",N,0,HOD/TYD,0,HOD/TYD,1,HOD/TYD,"Předmět má dva cíle. Prvním je naučit studenty psát správně po formální stránce seminární a kvalifikační práce, druhým je správně připravit a kvalitně prezentovat referát na téma z matematiky.",Zápočet,NE,Kombinovaná,"Kromě účasti na seminářích (alespoň 80 %) musí každý student úspěšně přednést jeden referát na dané téma a odevzdat seminární práci, která bude splňovat předepsané nároky.","1. Základní způsoby prezentování a úvod do problematiky 
+2. Základní typy písemných prací 
+3. Náležitosti kvalifikačních prací, normy a citační etika 
+4. Základní typografické systémy (jejich klasifikace, výhody a nevýhody) 
+5. - 6. Typografie matematických textů
+7. MS Word, OO Writer (Libre Office), LaTeX 
+8. Zásady prezentací mluveným slovem
+9. - 13. Prezentace referátů studentů
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,LS,5,"","","",0,5,0
+P226,KMA,2023,Odborné prezentace v matematice,Odborné prezentace v matematice,A,N,A,K,"",1,NE,"","'PhDr. Jiří Přibyl, Ph.D.'","'PhDr. Jiří Přibyl, Ph.D.' (100)",267,"","","","'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Jiří Přibyl, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'PhDr. Jiří Přibyl, Ph.D.' (100)","261, 267","","","","","","","","","","","'Chadim, O. Jak bysme (bychom) měli psát, kdybysme (kdybychom) chtěli: složit maturitu, stát se žurnalisty, pracovat v reklamní agentuře, vydělat 90 000 Kč měsíčně a v nejhorším případě připravovat zákony v Parlamentu. Praha: Adonai, 2002. ISBN 80-86500-86-1. ',
+'Eco, U. Jak napsat diplomovou práci. Olomouc: Votobia, 1997. ',
+'Šesták, Z. Jak psát a přednášet o vědě. Academia 2000, 204 s. ',
+'Juláková, E. Jak řešit problémy při psaní odborných textů. Praha: VŠChT, 2007. Přístupno z: http://www.vscht.cz/anl/paci/PAC/prezentace/Navod.pdf. ',
+'Slovník spisovné češtiny pro školu a veřejnost: s dodatkem Ministerstva školství, mládeže a tělovýchovy České republiky. Vyd. 2., opr. a dopl., Dotisk 2001. Praha: Academia, 1998, 647 s. ISBN 80-200-0493-9. '","","","",N,0,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,Docházka na cvičení (max. 2 neúčasti) a úspěšný referát na vybrané téma.,"1. 	Základní způsoby prezentování a úvod do problematiky
+2.	Základní typy písemných a mluvených projevů
+3.	Náležitosti kvalifikačních prací, normy a citační etika
+4.	Základní typografické systémy (jejich klasifikace, výhody a nevýhody)
+5. - 6.	Typografie matematických textů.
+7.	MS Word, OO Writer (Libre Office), LaTeX
+8. - 14.	Prezentace prací studentů
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",LS,0,"","","",0,0,0
+P229,KMA,2023,Matematická analýza II,Matematická analýza II,A,N,A,K,"",9,NE,"","'RNDr. Veronika Pitrová, PhD., Ph.D.'","'RNDr. Veronika Pitrová, PhD., Ph.D.'",5205,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 3188, 5205","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","","","","","","","",KMA/P123,"",KMA/P337,"'I. Černý. Matematická analýza III, Liberec. 1996. ',
+'VESELÝ, J. Matematická analýza pro učitele I, II, Matfyz press, 1994. ',
+'Jarník, V. Integrální počet I, Praha, ACADEMIA. 1984. ',
+'BRABEC, B., HRŮZA, B. Matematická analýza II, SNTL, Praha, 1986. ',
+'Kopáček, J. Matematická analýza pro fyziky I, II, Matfyzpress, Praha, 1997, 1998. '","","","",N,4,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"",Zkouška,ANO,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoň polovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru a odevzdání všech seminárních prací.
+","1.	Primitivní funkce a její základní vlastnosti
+2.	Metody integrace per partes a substitucí
+3.	Integrace racionálních funkcí a na ně převoditelných funkcí
+4.	Newtonův integrál, jeho základní vlastnosti
+5.	Riemannův integrál a jeho vztah k Newtonovu integrálu
+6.	Numerický výpočet integrálu
+7.	Použití integrálu v geometrii (obsahy a objemy, délky a povrchy)
+8.	Obyčejné diferenciální rovnice 1. řádu, základní pojmy
+9.	Existence a jednoznačnost řešení
+10.	Diferenciální rovnice druhého řádu
+11.	Lineární diferenciální rovnice s konstantními koeficienty
+12.	Použití diferenciálních rovnic
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",LS,0,"","","",0,0,0
+P232,KMA,2023,Vybrané partie z matematiky,Vybrané partie z matematiky,A,N,A,K,"",2,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová', 'Mgr. Jiří Rozkovec'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100), 'Mgr. Jiří Rozkovec' (100)","261, 3188, 8677","","","","","","","","KMA/P135, KMA/P136","","","'Kopáček, J. Matematická analýza pro fyziky I, II, Matfyzpress, Praha, 1997, 1998. ',
+'ZDRÁHAL, T., PELIKÁN, Š. Matematická analýza - cvičení II, III, IV PF Ústí n. L., 1986. ',
+'BRABEC, J.:. Matematická analýza II, Pha, SNTL, 1986. ',
+'Budinský B., Charvát J. Matematika I (část 2), Vydavatelství ČVUT, Zikova 4, Praha 6. ',
+'Kaňka, M. Henzle, J. Matematika II, Ekopress, 2003. '","","","",N,1,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,"Požadavky k udělení zápočtu jsou dva:
+1. Maximálně dvě absence na cvičeních.
+2. Získání alespoň 60 % bodů v součtu ze tří zápočtových písemek psaných v průběhu výuky.
+
+Pozn.: Student má nárok na dva opravné termíny ve zkouškovém období. V opravných termínech se bude psát písemka z látky celého semestru.","Řady
+-  Číselné řady a jejich vlastnosti, absolutní konvergence. kritéria konvergence řad s nezápornými členy
+-   Mocninné řady a jejich vlastnosti, poloměr konvergence
+
+Úvod do teorie obyčejných diferenciálních rovnic
+-   Základní pojmy (řešení dif. rovnic a jejich klasifikace)
+-   Diferenciální rovnice 1. řádu se separovatelnými proměnnými
+-   Lineární diferenciální rovnice 1. řádu
+-   Lineární diferenciální rovnice 2. řádu s konstantními koeficienty
+
+Úvod do diferenciálního počtu funkcí více proměnných
+-   Pojem limita a spojitost funkce více proměnných
+-   Směrová a parciální derivace, diferenciál, gradient, derivace složené funkce, derivace vyšších řádů
+-   Taylorova formule
+-   Funkce definované implicitně
+-   Lokální extrémy funkcí, vázané extrémy funkcí","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",LS,1,"","","",1,0,0
+P401,KMA,2023,Matematická analýza II,Matematická analýza II,A,N,A,K,"",6,NE,"","'RNDr. Veronika Pitrová, PhD., Ph.D.'","'RNDr. Veronika Pitrová, PhD., Ph.D.'",5205,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100)","261, 5205","","","","","","","","KMA/P301, KMA/P336","",KMA/MA3,"'JARNÍK, V. Integrální počet I, Praha, ACADEMIA, 1984. ',
+'VESELÝ, J. Matematická analýza pro učitele I, II, Matfyz press, 1994. ',
+'ČERNÝ, I. Matematická analýza 2. část, Liberec, 1995. ',
+'ČERNÝ, I. Matematická analýza 3. část, Liberec, 1996. '","","","",A,2,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"Studenti se seznámí s integrálním počtem reálných funkcí jedné proměnné, výpočtem integrálů a jejich použití, hlavně v geometrii a ve fyzice. Dále se seznámí se  základy obyčejných diferenciálních rovnic.",Zkouška,ANO,Kombinovaná,"Kromě účasti na cvičeních je podmínkou udělení zápočtu získání alespoň polovičního množství bodů ze tří zápočtových písemných prací, které studenti píšou v průběhu semestru. Zkouška bude písemná a ústní.","Primitivní funkce  a její základní vlastnosti
+Metody integrace po částech a substitucí
+Integrace racionálních funkcí a na ně převoditelných funkcí
+Newtonův integrál, jeho základní vlastnosti
+Riemannův integrál a jeho vztah k Newtonovu integrálu
+Numerický výpočet integrálu
+Použití integrálu v geometrii (obsahy a objemy, délky a povrchy)
+Použití integrálu ve fyzice (těžiště, práce, tlak)
+Obyčejné diferenciální rovnice 1.řádu, existence řešení
+Obyčejné diferenciální rovnice druhého řádu, hlavně lineární
+Použití diferenciálních rovnic
+",Výuka v angličtině je určena pro erasmové a zahraniční studenty. Výuka v případě malého počtu studentů probíhá formou individuálních konzultací.,"","","","Čeština, Angličtina","",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",LS,0,"","","",0,0,0
+P600,KMA,2023,Bakalářská práce z matematiky,Bakalářská práce,A,A,A,K,"",8,NE,"","'RNDr. Martin Kuřil, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.' (100)",264,"","","","","","","","","","","","","","","","","","","","",N,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,Úkoly nutné ke splnění tohoto předmětu určuje vedoucí bakalářské práce. Vyžaduje se účast na konzultacích a spolupráce s vedoucím bakalářské práce a průběžné plnění jím zadaných úkolů. Zápočet uděluje vedoucí bakalářské práce po splnění zadaných úkolů (po zhodnocení vykonané práce a získaných výsledků).,Zápočet,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",LS,1,"","","",0,1,0
+P637,KMA,2023,Finanční matematika,Finanční matematika,A,N,A,K,"",6,NE,"","'doc. PaedDr. Petr Eisenmann, CSc.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100)",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100)","261, 3188","'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'Mgr. Lucie Loukotová' (100)","261, 3188","","","","","","","","","","","'RADOVÁ, Jarmila, DVOŘÁK, Petr. Finanční matematika pro každého. Praha: Grada publishing, 2013. ISBN 978-80-247-4831-3. ',
+'ODVÁRKO, Oldřich. Úlohy z finanční matematiky pro střední školy. Praha: Prometheus, 2005. '","","","",N,2,HOD/TYD,3,HOD/TYD,0,HOD/TYD,"",Zkouška,ANO,Kombinovaná,"Požadavky k zápočtu:
+
+	1. prezentace zadaných témat během cvičení
+
+Požadavky ke zkoušce:
+
+	1. zkouška bude udělena na základě kvality odevzdané seminární práce
+
+
+
+","
+	1. Přehled základních finančních produktů
+	2. Jednoduché úročení, skonto, diskont
+	3. Eskont směnky, kontokorent
+	4. Složené úročení, úrokové míry a úroková období
+	5. Úvěry, prodej na splátky, hypoteční úvěry
+	6. Leasingové produkty
+	7. Důchodové spořicí produkty
+	8. Stavební spoření
+	9. Životní pojištění
+
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,"",LS,0,"","","",0,0,0
+YTIM,KI,2023,Teoretická informatika a matematika,Teoretická informatika a matematika,A,A,A,K,"",13,NE,"","'doc. Ing. Mgr. Jiří Barilla, CSc.'","'doc. Ing. Mgr. Jiří Barilla, CSc.'",449,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Martin Kuřil, Ph.D.', 'RNDr. Veronika Pitrová, PhD., Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Martin Kuřil, Ph.D.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100), 'PhDr. Jiří Přibyl, Ph.D.' (100)","261, 264, 5205, 267","'RNDr. Martin Kuřil, Ph.D.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100), 'PhDr. Jiří Přibyl, Ph.D.' (100)","264, 3188, 5205, 267","","","","","","","","","","","","","","",A,24,HOD/SEM,16,HOD/SEM,0,HOD/SEM,"",Zkouška,ANO,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,N,"",0,"","",A,0,ZS,0,"","","",0,0,0
+YTIM,KI,2023,Teoretická informatika a matematika,Teoretická informatika a matematika,A,A,A,K,"",13,NE,"","'doc. Ing. Mgr. Jiří Barilla, CSc.'","'doc. Ing. Mgr. Jiří Barilla, CSc.'",449,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Martin Kuřil, Ph.D.', 'RNDr. Veronika Pitrová, PhD., Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","'doc. PaedDr. Petr Eisenmann, CSc.' (100), 'RNDr. Martin Kuřil, Ph.D.' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100), 'PhDr. Jiří Přibyl, Ph.D.' (100)","261, 264, 5205, 267","'RNDr. Martin Kuřil, Ph.D.', 'Mgr. Lucie Loukotová', 'RNDr. Veronika Pitrová, PhD., Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","'RNDr. Martin Kuřil, Ph.D.' (100), 'Mgr. Lucie Loukotová' (100), 'RNDr. Veronika Pitrová, PhD., Ph.D.' (100), 'PhDr. Jiří Přibyl, Ph.D.' (100)","264, 3188, 5205, 267","","","","","","","","","","","","","","",A,24,HOD/SEM,16,HOD/SEM,0,HOD/SEM,"",Zkouška,ANO,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,N,"",0,"","",A,0,LS,0,"","","",0,0,0

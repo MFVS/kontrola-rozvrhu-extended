@@ -206,7 +206,7 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
     excel_predmety.write_csv("source_tables/predmety_fakulta.csv")
     
 
-def ucitel():
+def ucitel(id_ucitele:int, ticket:str, auth:tuple=None):
     # Params
     params_rozvrh = {
         "stagUser": "F23112",
@@ -216,15 +216,58 @@ def ucitel():
         "vsechnyAkce":"false",
         "jenBudouciAkce":"false",
         "lang":"cs",
-        "katedra":"-",
+        "ucitIdno":id_ucitele,
         "rok":"2023"
     }
     params_predmety = {
         "lang":"cs",
-        "fakulta":fakulta,
+        "ucitIdno":id_ucitele,
+        "jenCoMajiVyuku":True,
+        "rok":"2023"
+    }
+
+    # Číselník
+    get_teachers()
+
+    # Rozvrh
+    rozvrh_ucitel = pl.read_csv(fetch_csv("/rozvrhy/getRozvrhByUcitel", ticket, params_rozvrh, auth), separator=";")
+    rozvrh_ucitel.write_csv("source_tables/rozvrh_ucitel.csv")
+
+    # Předměty
+    # Problém: Je třeba full info.
+    # Workaround: Left join seznamu předmětů dle katedry.
+    predmety_ucitel_list = pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";")
+    predmety_ucitel_list.write_csv("source_testing/ucitel_predmety_lite")
+    katedry_list = predmety_ucitel_list.to_series(2).unique().to_list()
+    print(katedry_list)
+
+    loner = katedry_list.pop(0)
+    print(loner)
+    params_kat_predmety = {
+        "lang":"cs",
+        "katedra":loner,
         "jenNabizeneECTSPrijezdy":"false",
         "rok":"2023"
     }
+    
+    katedra_predmety = pl.read_csv(fetch_csv("/predmety/getPredmetyByKatedraFullInfo", ticket, params_kat_predmety, auth), separator=";")
+    print(katedra_predmety.head())
+
+    predmety_complete = predmety_ucitel_list.filter(pl.col("katedra") == loner).select("zkratka").join(katedra_predmety, "zkratka", "inner")
+    print(predmety_complete.head())
+
+    for katedra in katedry_list:
+        params_kat_predmety["katedra"] = katedra
+        print(params_kat_predmety["katedra"])
+        katedra_predmety = pl.read_csv(fetch_csv("/predmety/getPredmetyByKatedraFullInfo", ticket, params_kat_predmety, auth), separator=";")
+        print(katedra_predmety.head())
+        temp_predmety = predmety_ucitel_list.filter(pl.col("katedra") == katedra).select("zkratka").join(katedra_predmety, "zkratka", "inner")
+        predmety_complete = predmety_complete.vstack(temp_predmety)
+        #print(predmety_complete.head())
+
+    predmety_complete.write_csv("source_tables/predmety_ucitel.csv")
+
+
 
 def studijni_program():
     pass
@@ -234,5 +277,6 @@ if __name__ == '__main__':
     auth = ("st101885", "x0301093100")
 
     #katedra(katedra="KI", ticket=ticket, auth=auth)
-    fakulta(fakulta="PRF", ticket=ticket, auth=auth)
+    #fakulta(fakulta="PRF", ticket=ticket, auth=auth)
+    ucitel(261, ticket, auth)
 

@@ -1,0 +1,54 @@
+zkratka,nazev,katedra,rok,garant,garantPodil,prednasejici,prednasejiciPodil,cvicici,cviciciPodil,seminarici,seminariciPodil,examinator
+5MATA,Matematická analýza,KGI,2023,ANO,100,ANO,100,NE,100,NE,100,NE
+YTIM,Teoretická informatika a matematika,KI,2023,NE,"",ANO,100,NE,100,NE,100,NE
+AMU,Aplikovaná matematika pro učitele,KMA,2023,ANO,"",NE,100,NE,100,ANO,100,NE
+CAL1,Matematická analýza I,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+CAL2,Matematická analýza II,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+CA1,Matematická analýza I,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+CA2,Matematická analýza II,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+DM1,Didaktika matematiky I,KMA,2023,ANO,"",ANO,100,NE,100,ANO,100,NE
+DM3,Didaktika matematiky III,KMA,2023,ANO,"",ANO,100,NE,100,ANO,100,NE
+DSEM,Diplomový seminář,KMA,2023,NE,"",NE,0,NE,0,ANO,50,NE
+KAMU,Aplikovaná matematika pro učitele,KMA,2023,ANO,"",NE,100,NE,100,ANO,100,NE
+KCAL1,Matematická analýza I,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+KCA1,Matematická analýza I,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+KDM1,Didaktika matematiky I,KMA,2023,ANO,"",NE,100,NE,100,ANO,100,NE
+KDM2,Didaktika matematiky II,KMA,2023,ANO,"",ANO,100,NE,100,NE,100,NE
+KDM3,Didaktika matematiky III,KMA,2023,ANO,"",ANO,100,NE,100,NE,100,NE
+KMT1,Matematika I,KMA,2023,NE,"",ANO,100,NE,100,NE,100,NE
+KOPM,Odborné prezentace v matematice,KMA,2023,ANO,"",NE,100,NE,100,ANO,100,NE
+KSDP,Seminář k diplomové práci,KMA,2023,ANO,"",NE,100,NE,100,ANO,100,NE
+K111,Úvod do matematiky,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+K113,Repetitorium matematiky,KMA,2023,ANO,100,NE,100,NE,100,NE,100,NE
+K114,Úvod do infinitezimálního počtu,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+K117,Matematická analýza I,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+K118,Úvod do matematiky,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+K214,Odborné prezentace v matematice,KMA,2023,NE,"",ANO,100,ANO,100,NE,100,NE
+K216,Vybrané partie z matematiky,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+K301,Matematická analýza I,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+K600,Bakalářská práce z matematiky,KMA,2023,NE,"",NE,100,NE,100,NE,100,NE
+K609,Finanční matematika,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+MA1,Matematická analýza I,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+MA2,Matematická analýza II,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+MEX,Matematická exkurze,KMA,2023,ANO,"",NE,100,NE,100,ANO,100,NE
+MK101,Historie matematiky,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+MK305,Moderní trendy ve vyučování matematice,KMA,2023,NE,"",ANO,100,ANO,100,NE,0,NE
+MK402,Aplikační úlohy ve vyučování matematice,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+MME,Matematika v mikroekonomii,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+M101,Historie matematiky,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+M402,Aplikační úlohy ve vyučování matematice,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+OPM,Odborné prezentace v matematice,KMA,2023,ANO,"",NE,100,NE,100,ANO,100,NE
+P113,Repetitorium matematiky,KMA,2023,ANO,100,NE,100,ANO,100,NE,100,NE
+P123,Matematická analýza I,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+P132,Úvod do infinitezimálního počtu,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+P135,Úvod do matematiky,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+P136,Úvod do matematiky,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+P226,Odborné prezentace v matematice,KMA,2023,NE,"",NE,100,ANO,100,NE,100,NE
+P229,Matematická analýza II,KMA,2023,NE,"",ANO,100,ANO,100,NE,100,NE
+P232,Vybrané partie z matematiky,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+P336,Matematická analýza I,KMA,2023,ANO,"",ANO,100,ANO,100,NE,100,NE
+P401,Matematická analýza II,KMA,2023,NE,"",ANO,100,ANO,100,NE,100,NE
+P600,Bakalářská práce z matematiky,KMA,2023,NE,"",NE,100,NE,100,NE,100,NE
+P637,Finanční matematika,KMA,2023,ANO,100,ANO,100,ANO,100,NE,100,NE
+SBP,Seminář k bakalářské práci,KMA,2023,NE,"",NE,0,NE,0,ANO,50,NE
+SDP,Seminář k diplomové práci,KMA,2023,ANO,"",NE,100,NE,100,ANO,50,NE
