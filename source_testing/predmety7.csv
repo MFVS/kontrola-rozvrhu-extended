@@ -1,0 +1,580 @@
+katedra,zkratka,rok,nazev,nazevDlouhy,vyukaZS,vyukaLS,kreditu,viceZapis,minObsazeni,garanti,garantiSPodily,garantiUcitIdno,prednasejici,prednasejiciSPodily,prednasejiciUcitIdno,cvicici,cviciciSPodily,cviciciUcitIdno,seminarici,seminariciSPodily,seminariciUcitIdno,schvalujiciUznani,schvalujiciUznaniUcitIdno,examinatori,examinatoriUcitIdno,podminujiciPredmety,vylucujiciPredmety,podminujePredmety,literatura,nahrazPredmety,metodyVyucovaci,metodyHodnotici,akreditovan,jednotekPrednasek,jednotkaPrednasky,jednotekCviceni,jednotkaCviceni,jednotekSeminare,jednotkaSeminare,anotace,typZkousky,maZapocetPredZk,formaZkousky,pozadavky,prehledLatky,predpoklady,ziskaneZpusobilosti,casovaNarocnost,predmetUrl,vyucovaciJazyky,poznamka,ectsZobrazit,ectsAkreditace,ectsNabizetUPrijezdu,poznamkaVerejna,skupinaAkreditace,skupinaAkreditaceKey,zarazenDoPrezencnihoStudia,zarazenDoKombinovanehoStudia,studijniOpory,praxePocetDnu,urovenNastavena,urovenVypoctena,automatickyUznavatZppZk,hodZaSemKombForma,semestr,pocetStudentu,aMax,bMax,cMax,aSkut,bSkut,cSkut
+KPRF,BAI,2023,Building AI,Building AI,A,A,2,NE,"","'Mgr. Michaela Liegertová, Ph.D.'","'Mgr. Michaela Liegertová, Ph.D.'",4472,"","","","","","","","","","","","","","","","","","","","",A,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"Building AI is a flexible online course for anyone who wants to learn about the practical methods that make artificial intelligence a reality. You will get a solid introduction to for example machine learning and neural networks, and you will learn where and how AI methods are applied in real life. It is easy to move freely between the three difficulty levels, from multiple choice exercises to programming with Python ? depending on whether you know programming or not. As a result of this course, you will be able to craft your own AI idea and present it to the community. 
+This course is divided into following chapters:
+Getting started with AI
+Dealing with uncertainty
+Machine learning
+Neural networks
+Conclusion
+
+
+Kurz volně navazuje na kurz ELAI. 
+",Zápočet,NE,Kombinovaná,"Pro úspěšné ukončení předmětu, za který student obdrží 2 kredity, je zapotřebí:
+
+Úspěšně absolvovat online kurz Building  AI v angličtině na https://buildingai.elementsofai.com/
+Pro úspěšné absolvování je nezbytné splnit alespoň 19 cvičení (z celkového počtu 21) a 50 % z nich zodpovědět správně. Každé cvičení má tři možnosti obtížnosti (pro začátečníky, mírně pokročilé a pokročilé). Za splnění cvičení se počítá splnění kterékoliv z těchto úrovní. Úkoly pro středně pokročilé a pokročilé vyžadují programování. 
+
+
+POZOR: Při registraci do kurzu je potřeba použít váš školní e-mail (@ujep.cz), jen podle jeho domény může být pravidelně generován seznam absolventů.
+
+Vyplnit formulář ke kurzu:  https://forms.gle/16KkoJKPyMCbwFtw6
+
+
+Kurz je hodnocen známkou prospěl/neprospěl (bez číselného hodnocení)
+
+Zápočty budou garantem zapisovány průběžně na základě vyplnění formuláře a zpětné vazby od poskytovatele kurzu. 
+
+
+poznámka:
+Certifikát je tvůrcem a správcem kurzu (společnost MinnaLearn) zpoplatněn částkou 50 EUR a není nezbytným výstupem pro udělení zápočtu! 
+
+","","","","","",Angličtina,"",A,N,N,ON-LINE kurz,"","",N,N,"",0,"","",A,0,ZS,0,"","","",0,0,0
+KPRF,CLD,2023,Cloudové služby,Cloudové služby,A,A,1,NE,"","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.'",613,"","","","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.' (100)",613,"","","","","","","","","","","",KFY/0238,"","",A,0,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"Volitelný předmět seznámí studenty s principy cloudových služeb a jejich používání. Studenti se naučí používat především cloudové služby od společnosti Google, dozvědí se ale také o dalších službách na trhu. Část výuky bude také zaměřena na bezpečnost. Celý předmět je prakticky orientován, studenti si budou jednotlivé kroky zkoušet rovnou na počítači.
+
+",Zápočet,NE,Kombinovaná,"","Úvod do cloudových služeb, bezpečnost 
+Email a kontakty 
+Úložiště dokumentů 
+Kalendář 
+Poznámky a data 
+Poznámky a data - rozšířené funkce 
+Kancelářské aplikace - dokumenty 
+Kancelářské aplikace - tabulky 
+Kancelářské aplikace - prezentace 
+Kancelářské aplikace - další nástroje 
+Webové stránky 
+Formuláře 
+Fotky 
+","","","","",Čeština,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,ZS,0,"","","",0,0,0
+KPRF,ELAI,2023,Elements of AI,Elements of AI,A,A,3,NE,"","'Mgr. Michaela Liegertová, Ph.D.'","'Mgr. Michaela Liegertová, Ph.D.'",4472,"","","","","","","'Mgr. Michaela Liegertová, Ph.D.'","'Mgr. Michaela Liegertová, Ph.D.' (100)",4472,"","","","","","","","","","","",A,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"Elements of AI je otevřený online kurz v českém jazyce, který poskytuje základní informace pro pochopení umělé inteligence (AI) a jejího rostoucího významu ve společnosti. Kurz se skládá ze 6 tematicky zaměřených kapitol a je navržen tak, aby byl přístupný i pro studenty bez předchozích zkušeností s programováním. 
+
+Kombinuje teorii s praktickými úkoly, jde jím projít vlastním tempem a studenti se dozví základy strojového učení a neuronových sítí. Odpovídá na to, jak může umělá inteligence ovlivnit jejich práci, a nastíní, jak se bude v následujících letech vyvíjet. 
+
+
+Po úspěšném absolvování online kurzu student:
+
+Porozumí konceptům autonomie a adaptability v kontextu umělé inteligence.
+
+Pochopí principy Turingova testu a jeho význam pro AI.
+
+Naučí se formulovat reálné problémy tak, aby byly vhodné pro řešení pomocí vyhledávacích technik.
+
+Získá základní pochopení neuronových sítí a jejich struktury.
+
+Seznámí se s technickými metodami, které tvoří základ pro neuronové sítě.
+
+Uvědomí si náročnost předvídání budoucnosti a očekávaného vývoje v oblasti AI.
+
+Pochopí hlavní společenské dopady umělé inteligence, včetně problematiky algoritmické předpojatosti a obsahu generovaného umělou inteligencí.
+
+",Zápočet,NE,Kombinovaná,"Pro úspěšné ukončení předmětu, za který student obdrží 3 kredity, je zapotřebí:
+
+- Úspěšně absolvovat online kurz Elements of AI v češtině https://www.elementsofai.cz nebo v angličtině na: https://course.elementsofai.com
+
+Vyplnit formulář ke kurzu Elements of AI+: https://forms.gle/2mbewbcBHLJgNssPA
+
+
+
+Hodnocení v rámci kurzu je založeno na praktických cvičeních, která zahrnují kvízy s výběrem z několika možností, numerická cvičení a otázky vyžadující písemné odpovědi. Numerická cvičení s možností výběru z více variant jsou kontrolována automaticky, zatímco písemné odpovědi jsou hodnoceny ostatními studenty (peer-review) a v některých případech i instruktory. Pro úspěšné absolvování kurzu je nutné úspěšně zpracovat minimálně 90 % cvičení a dosáhnout minimálně 50 % správnosti.
+
+Kurz je hodnocen známkou prospěl/neprospěl (bez číselného hodnocení)
+
+Zápočty budou garantem zapisovány průběžně na základě zaslání certifikátu potvrzujícího úspěšné absolvování kurzu. 
+
+","Element of AI ve formě otevřeného online kurzu obsahuje 6 tematicky orientovaných kapitol:
+
+1. Co je umělá inteligence?
+
+2. Řešení problémů pomocí umělé inteligence
+
+3. Umělá inteligence v reálném světě
+
+4. Strojové učení
+
+5. Neuronové sítě
+
+6. Důsledky
+
+
+
+
+Každá z kapitol kurzu obsahuje textové i interaktivní prvky, které jsou navrženy tak, aby podporovaly učení. Online forma kurzu nabízí studentům možnost rozvrhnout si práci dle vlastního tempa a časových možností. Časová dotace pro splnění online kurzu se pohybuje v rozmezí 20-50 hodin, což závisí na předchozích znalostech tématu a individuálním studijním přístupu.
+
+","","","","",Čeština,"",A,N,N,ON-LINE kurz,"","",A,A,"",0,"",Bc.,A,0,ZS,44,"","","",0,34,10
+KPRF,ETAI,2023,Ethics of AI,Ethics of AI,A,A,2,NE,"","'Mgr. Michaela Liegertová, Ph.D.'","'Mgr. Michaela Liegertová, Ph.D.'",4472,"","","","","","","","","","","","","","","","","","","","",A,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"The Ethics of AI is an online course for anyone who is interested in the ethical aspects of AI. The aim is to encourage people to learn what AI ethics means, what can and can?t be done to develop AI in an ethically sustainable way, and how to start thinking about AI from an ethical point of view.
+Artificial intelligence is already a part of our daily lives. When we post pictures to social media, search online or ask questions from chatbots, we?re interacting with AI. Authorities, such as cities, rely on AI for providing public services. And governments are seeking solutions to global problems by using algorithmically produced knowledge. The goal of this course is to help you to develop your own skills for ethical thinking. You can complete the course at your own pace.
+
+This course is divided into following chapters:
+Introduction
+Non-maleficence
+Accountability
+Transparency
+Human Rights
+Fairness
+AI ethics in practice
+",Zápočet,NE,Kombinovaná,"Pro úspěšné ukončení předmětu, za který student obdrží 2 kredity, je zapotřebí:
+
+Úspěšně absolvovat online kurz Ethics of AI v angličtině na https://ethics-of-ai.mooc.fi/ 
+
+Vyplnit formulář ke kurzu:  https://forms.gle/KY4Y3voiyvAjacxR8 
+
+
+Kurz je hodnocen známkou prospěl/neprospěl (bez číselného hodnocení)
+
+Zápočty budou garantem zapisovány průběžně na základě vyplnění formuláře. 
+
+","","","","","",Angličtina,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,ZS,0,"","","",0,0,0
+KPRF,CHP,2023,Chytré poznámky,Chytré poznámky,A,A,1,NE,"","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.'",613,"","","","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.' (100)",613,"","","","","","","","","","","'Ahrens Sönke. Jak si dělat chytré poznámky. Jan Melvil Publishing, 2021. ',
+'Forte Tiago. Pořiďte si druhý mozek. Jan Melvil Publishing, 2023. '","","","",A,0,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"Cílem je seznámit studenty s efektivními metodami zapisování poznámek do jednoduchého poznámkového systému, který budou mít vždy po ruce a který jim bude spolehlivě sloužit jako druhý mozek. Kurz si klade za cíl studentům významně ulehčit práci s informaci a zefektivnit studium, pracovní i osobní život.
+",Zápočet,NE,Kombinovaná,Esej na vybrané téma související s obsahem předmětu.,"Úvodní poznámky
+Metoda CODE - zaznamenávání
+Metoda CODE - uspořádávání
+Metoda CODE - zhušťování
+Metoda CODE - vyjadřování
+Udržitelná produktivita - projektové kontrolní seznamy
+Týdenní a měsíční revize
+Metoda Zettelkasten - základní principy
+Propojování poznámek
+Příklady využití
+Softwarové nástroje pro chytré poznámky
+","","","","",Čeština,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,ZS,0,"","","",0,0,0
+KPRF,K103,2023,Anglický jazyk,Anglický jazyk,A,A,1,NE,"",'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc' (100),5754,"","","","","","","","","","","","","","","",KI/KOAN,"","","","",A,0,HOD/SEM,2,HOD/SEM,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",ZS,1,"","","",0,1,0
+KPRF,K104,2023,Anglický jazyk A,Anglický jazyk A,A,A,2,NE,"",'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc',5754,'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc' (100),5754,"","","","","","","","","","","","","","'DR. LUDMILA KOLLMANOVÁ. Angličtina pro samouky, LEDA, 1996. ',
+'RAYMOND MURPHY. English grammar in use, Cambridge University Press, 2004. ',
+'STUART REDMAN. English vocabulary in use ? pre-intermediate, Cambridge University Press, 2003. '","","","",N,2,HOD/SEM,0,HOD/SEM,0,HOD/TYD,"Tato zkouška odpovídá úrovni A2 podle Společného evropského referenčního rámce. Úspěšný absolvent je schopen
+
+omezeně, ale poměrně efektivně komunikovat v běžných situacích v anglicky mluvícím prostředí.
+
+Zkouška prověřuje dovednosti: čtení-student rozumí textům, které se týkají jeho oboru, dokáže číst, najít důležité
+
+informace, rozpoznat hlavní myšlenky v textech, ústní projev-student je schopen komunikovat v běžných situacích o
+
+záležitostech vztahujících se k jeho profesi. Dokáže přivítat se, rozloučit se, vyjádřit své názory, klást otázky a odpovídat
+
+na otázky, psaný projev- student umí psát krátká sdělení, vyplnit formulář, přeložit jednoduché věty z ČJ do AJ.",Zkouška,ANO,Kombinovaná,"Požadavky ke zkoušce:
+
+- konverzace v anglickém jazyce-prezentace studovaného oboru (charakteristika oboru, možnost uplatnění), rodina, zájmy,?
+
+- odborný text v rozsahu 10 stran v aj + 10 stran v českém jazyce-umět hovořit o textu, čtení s porozuměním, 10 orientace, možnost použití slovníčku z textu
+
+- seznam slovní zásoby z odborného textu - seznam 100 slov a jejich znalost
+
+- strukturovaný životopis v anglickém jazyce","GRAMATIKA
+- sloveso TO BE, TO HAVE
+
+- množné číslo podstatných jmen, nepravidelné množné číslo
+
+- časy-přítomný čas prostý a průběhový, minulý čas prostý a průběhový, budoucí čas
+
+- nepravidelná slovesa
+
+- rozkazovací způsob
+
+- způsobová slovesa CAN, MAY, MUST, HAVE TO
+
+- otázky a krátké odpovědi
+
+- pořádek slov v anglické větě
+
+- předložky
+
+- zájmena
+
+SLOVNÍ ZÁSOBA
+
+- odborná slovní zásoba
+
+- počasí (weather)
+
+- země, národnosti, jazyky (countries, nationalities and languages)
+
+-  počítače, internet (computers, internet, phone)
+
+- vzdělávání (education-school, university)
+
+- cestování (travelling)
+
+- kolem domu, typy bydlení (around the home, types of accommodation)
+
+- zdraví-nemoci, zranění (health-illness, injuries)
+
+- jídlo, restaurace (food, cooking and restaurants)
+
+- práce, životopis (work, jobs, CV)
+
+- město x vesnice (city x country)
+- členy podstatných jmen
+
+? přídavná jména, stupňování
+
+přídavných jmen","Studenti kombinovaného studia se na zkoušku či zápočet připravují individuálně, mají možnost konzultace a individuálního přístupu během konzultačních hodin (3 hodiny/týden). Individuální práce zahrnují cvičení z gramatiky a slovní zásoby, životopis v anglickém jazyce a vypracování žádosti o zaměstnání.","","","","","",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",ZS,1,"","","",0,0,1
+KPRF,PD11,2023,Anglický jazyk pro doktorandy,Anglický jazyk pro doktorandy,A,A,0,NE,"","","","","","","","","","","","","","","","","","","","","",KFY/PD11,"","",A,0,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"",Zkouška,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"",44,44,N,N,"",0,Ph.D.,Ph.D.,A,"",ZS,0,"","","",0,0,0
+KPRF,P225,2023,Anglický jazyk - zkouška A,Anglický jazyk - zkouška A,A,A,1,NE,"",'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc' (100),5754,"","","","","","","","","","","","","","","","","",KPRF/0225,"","",N,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"Cílem předmětu je osvojit si základní slovní zásobu, gramatiku, rozvíjet komunikační schopnosti v obecné angličtině. V rámci předmětu se budou studenti věnovat procvičení gramatiky, komunikace v běžných situacích, čtení a porozumění textu, seznámí se se základy překladu odborných textu.  Předpokládá se, že studenti dosáhnou během studia úrovně znalosti obecné angličtiny odpovídající úrovní  A2 podle společného evropského referenčního rámce.",Zkouška,NE,Kombinovaná," Písemní překlad odborného textu v rozsahu 10 stran, ctění textu s porozuměním, znalost slovní zásoby.
+ Konverzace na zadaná témata, překlad vět z ČJ do AJ.
+","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",ZS,0,"","","",0,0,0
+KPRF,P232,2023,Anglický jazyk - zkouška B,Anglický jazyk - zkouška B,A,A,1,NE,"",'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc',5754,"","","","","","","","","","","","","","","","","",CJP/0232,"","",A,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"",Zkouška,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",ZS,1,"","","",0,1,0
+KPRF,SBS,2023,Studium bez stresu,Studium bez stresu,A,A,1,NE,"","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.'",613,"","","","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.' (100)",613,"","","","","","","","","","","'Burkeman Oliver. Čtyři tisíce týdnů. Jan Melvil Publishing, 2022. ',
+'Ahrens Sönke. Jak si dělat chytré poznámky. Jan Melvil Publishing, 2021. ',
+'Holiday Ryan. Klíčem je klid. Audiolibrix, 2022. ',
+'Allen David. Mít vše hotovo - 2. vydání. Jan Melvil Publishing, 2016. ',
+'Forte Tiago. Pořiďte si druhý mozek. Jan Melvil Publishing, 2023. ',
+'Covey Stephen R. 7 návyků skutečně efektivních lidí. Management Press, 2007. '","","","",A,0,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"Cílem je seznámit studenty s efektivními metodami správy svých úkolů, závazků a projektů (mít vše hotovo, sedm principů, chytré poznámky) tak, aby mohly být aspoň částečně nebo celé implementovány nejen do studijního, ale i pracovního nebo osobního života.",Zápočet,NE,Kombinovaná,"Esej na vybrané téma související s obsahem předmětu.
+","Úvodní poznámky
+Mít vše hotovo a sedm návyků
+Zachycování vstupů
+Ujasňování
+Uspořádání
+Systém PARA
+Promýšlení a revize
+Aktivní práce
+Řešení projektů
+Druhý mozek
+Chytré poznámky
+Alternativy
+Digitální nástroje
+","","","","",Čeština,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,ZS,0,"","","",0,0,0
+KPRF,0101,2023,Úvod do meteorologie,Úvod do meteorologie,A,N,3,NE,"","'doc. Mgr. Pavel Raška, Ph.D.'","'doc. Mgr. Pavel Raška, Ph.D.'",1434,"","","","","","","","","","","","","","","",KPRF/0102,"","","","",N,2,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"Meteorologie je vědou o atmosféře. Studuje stav atmosféry, vazby systému s dalšími jednotkami (pedosférou, hydrosférou, kryosférou, biosférou i vnějším prostředím), které atmosféru ovlivňují, ale jsou jí zároveň ovlivňovány.
+V předmětu Úvod do meteorologie budou studenti seznámeni s meteorologií jako vědní disciplínou, s atmosférou a jejími součástmi, zářením v atmosféře. Poskytnut bude přehled základních meteorologických prvků a jevů, včetně modelů všeobecné cirkulace atmosféry, tlakových útvarů, atmosférických front, oblaků, atmosférických srážek. 
+Pozornost bude věnována i periodickým a aperiodickým změnám jednotlivých prvků a polí v atmosféře. Využity budou převážně metody synoptické meteorologie, které umožňují výklad jednotlivých principů s omezeným nasazením matematického aparátu. 
+Vynechány nebudou ani způsoby antropogenní ovlivnění atmosféry, a to zejména v krátkodobém režimu (dlouhodobější vlivy spadají spíš do klimatologie). V této souvislosti se zaměříme také na meteorologické podmínky ovlivňující prostorový rozptyl látek znečišťujících ovzduší. 
+
+",Zápočet,NE,Kombinovaná,"","1.	Historie, současnost a budoucnost meteorologie a klimatologie, atmosféra.
+2.	Tlak, hustota a proudění vzduchu (základní vlastnosti fyzikálních polí, vertikální profily).
+3.	Energie a záření v atmosféře (dopad na horní hranici atmosféry, průchod atmosférou, albedo, insolace, energetická bilance).
+4.	Teplota vzduchu, vertikální zvrstvení teploty, stabilita, resp. instabilita teplotního zvrstvení. 
+5.	Voda v atmosféře, vlhkost vzduchu, mlhy.
+6.	Oblaky (vznik, rozdělení, složení oblaků, vlastnosti základních druhů)
+7.	Atmosférické srážky (vznik srážek, rozdělení).
+8.	Tlakové útvary a jejich základní vlastnosti, vývoj a regenerace tlakových útvarů, jejich rozdělení, typické počasí v nich.
+9.	Globální cirkulační systém, místní cirkulační systémy.
+10.	Atmosférické fronty (druhy, vlastnosti, oblačné systémy a srážkové oblasti, deformace).
+11.	Předpovídání počasí v praxi (exkurze na ČHMÚ).
+12.	Meteorologické podmínky pro rozptyl škodlivin (teplotní inverze, jejich vznik, definice RP, možné imisní dopady). 
+13.	Meteorologická měření a pozorování (základy, klasická měření, organizace speciálních měření, dostupnost dat, možnosti a limity jejich použití).
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,ZS,14,"","","",0,12,2
+KPRF,BAI,2023,Building AI,Building AI,A,A,2,NE,"","'Mgr. Michaela Liegertová, Ph.D.'","'Mgr. Michaela Liegertová, Ph.D.'",4472,"","","","","","","","","","","","","","","","","","","","",A,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"Building AI is a flexible online course for anyone who wants to learn about the practical methods that make artificial intelligence a reality. You will get a solid introduction to for example machine learning and neural networks, and you will learn where and how AI methods are applied in real life. It is easy to move freely between the three difficulty levels, from multiple choice exercises to programming with Python ? depending on whether you know programming or not. As a result of this course, you will be able to craft your own AI idea and present it to the community. 
+This course is divided into following chapters:
+Getting started with AI
+Dealing with uncertainty
+Machine learning
+Neural networks
+Conclusion
+
+
+Kurz volně navazuje na kurz ELAI. 
+",Zápočet,NE,Kombinovaná,"Pro úspěšné ukončení předmětu, za který student obdrží 2 kredity, je zapotřebí:
+
+Úspěšně absolvovat online kurz Building  AI v angličtině na https://buildingai.elementsofai.com/
+Pro úspěšné absolvování je nezbytné splnit alespoň 19 cvičení (z celkového počtu 21) a 50 % z nich zodpovědět správně. Každé cvičení má tři možnosti obtížnosti (pro začátečníky, mírně pokročilé a pokročilé). Za splnění cvičení se počítá splnění kterékoliv z těchto úrovní. Úkoly pro středně pokročilé a pokročilé vyžadují programování. 
+
+
+POZOR: Při registraci do kurzu je potřeba použít váš školní e-mail (@ujep.cz), jen podle jeho domény může být pravidelně generován seznam absolventů.
+
+Vyplnit formulář ke kurzu:  https://forms.gle/16KkoJKPyMCbwFtw6
+
+
+Kurz je hodnocen známkou prospěl/neprospěl (bez číselného hodnocení)
+
+Zápočty budou garantem zapisovány průběžně na základě vyplnění formuláře a zpětné vazby od poskytovatele kurzu. 
+
+
+poznámka:
+Certifikát je tvůrcem a správcem kurzu (společnost MinnaLearn) zpoplatněn částkou 50 EUR a není nezbytným výstupem pro udělení zápočtu! 
+
+","","","","","",Angličtina,"",A,N,N,ON-LINE kurz,"","",N,N,"",0,"","",A,0,LS,2,"","","",0,0,2
+KPRF,CLD,2023,Cloudové služby,Cloudové služby,A,A,1,NE,"","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.'",613,"","","","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.' (100)",613,"","","","","","","","","","","",KFY/0238,"","",A,0,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"Volitelný předmět seznámí studenty s principy cloudových služeb a jejich používání. Studenti se naučí používat především cloudové služby od společnosti Google, dozvědí se ale také o dalších službách na trhu. Část výuky bude také zaměřena na bezpečnost. Celý předmět je prakticky orientován, studenti si budou jednotlivé kroky zkoušet rovnou na počítači.
+
+",Zápočet,NE,Kombinovaná,"","Úvod do cloudových služeb, bezpečnost 
+Email a kontakty 
+Úložiště dokumentů 
+Kalendář 
+Poznámky a data 
+Poznámky a data - rozšířené funkce 
+Kancelářské aplikace - dokumenty 
+Kancelářské aplikace - tabulky 
+Kancelářské aplikace - prezentace 
+Kancelářské aplikace - další nástroje 
+Webové stránky 
+Formuláře 
+Fotky 
+","","","","",Čeština,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,LS,55,"","","",0,17,38
+KPRF,ELAI,2023,Elements of AI,Elements of AI,A,A,3,NE,"","'Mgr. Michaela Liegertová, Ph.D.'","'Mgr. Michaela Liegertová, Ph.D.'",4472,"","","","","","","'Mgr. Michaela Liegertová, Ph.D.'","'Mgr. Michaela Liegertová, Ph.D.' (100)",4472,"","","","","","","","","","","",A,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"Elements of AI je otevřený online kurz v českém jazyce, který poskytuje základní informace pro pochopení umělé inteligence (AI) a jejího rostoucího významu ve společnosti. Kurz se skládá ze 6 tematicky zaměřených kapitol a je navržen tak, aby byl přístupný i pro studenty bez předchozích zkušeností s programováním. 
+
+Kombinuje teorii s praktickými úkoly, jde jím projít vlastním tempem a studenti se dozví základy strojového učení a neuronových sítí. Odpovídá na to, jak může umělá inteligence ovlivnit jejich práci, a nastíní, jak se bude v následujících letech vyvíjet. 
+
+
+Po úspěšném absolvování online kurzu student:
+
+Porozumí konceptům autonomie a adaptability v kontextu umělé inteligence.
+
+Pochopí principy Turingova testu a jeho význam pro AI.
+
+Naučí se formulovat reálné problémy tak, aby byly vhodné pro řešení pomocí vyhledávacích technik.
+
+Získá základní pochopení neuronových sítí a jejich struktury.
+
+Seznámí se s technickými metodami, které tvoří základ pro neuronové sítě.
+
+Uvědomí si náročnost předvídání budoucnosti a očekávaného vývoje v oblasti AI.
+
+Pochopí hlavní společenské dopady umělé inteligence, včetně problematiky algoritmické předpojatosti a obsahu generovaného umělou inteligencí.
+
+",Zápočet,NE,Kombinovaná,"Pro úspěšné ukončení předmětu, za který student obdrží 3 kredity, je zapotřebí:
+
+- Úspěšně absolvovat online kurz Elements of AI v češtině https://www.elementsofai.cz nebo v angličtině na: https://course.elementsofai.com
+
+Vyplnit formulář ke kurzu Elements of AI+: https://forms.gle/2mbewbcBHLJgNssPA
+
+
+
+Hodnocení v rámci kurzu je založeno na praktických cvičeních, která zahrnují kvízy s výběrem z několika možností, numerická cvičení a otázky vyžadující písemné odpovědi. Numerická cvičení s možností výběru z více variant jsou kontrolována automaticky, zatímco písemné odpovědi jsou hodnoceny ostatními studenty (peer-review) a v některých případech i instruktory. Pro úspěšné absolvování kurzu je nutné úspěšně zpracovat minimálně 90 % cvičení a dosáhnout minimálně 50 % správnosti.
+
+Kurz je hodnocen známkou prospěl/neprospěl (bez číselného hodnocení)
+
+Zápočty budou garantem zapisovány průběžně na základě zaslání certifikátu potvrzujícího úspěšné absolvování kurzu. 
+
+","Element of AI ve formě otevřeného online kurzu obsahuje 6 tematicky orientovaných kapitol:
+
+1. Co je umělá inteligence?
+
+2. Řešení problémů pomocí umělé inteligence
+
+3. Umělá inteligence v reálném světě
+
+4. Strojové učení
+
+5. Neuronové sítě
+
+6. Důsledky
+
+
+
+
+Každá z kapitol kurzu obsahuje textové i interaktivní prvky, které jsou navrženy tak, aby podporovaly učení. Online forma kurzu nabízí studentům možnost rozvrhnout si práci dle vlastního tempa a časových možností. Časová dotace pro splnění online kurzu se pohybuje v rozmezí 20-50 hodin, což závisí na předchozích znalostech tématu a individuálním studijním přístupu.
+
+","","","","",Čeština,"",A,N,N,ON-LINE kurz,"","",A,A,"",0,"",Bc.,A,0,LS,1,"","","",0,0,1
+KPRF,ETAI,2023,Ethics of AI,Ethics of AI,A,A,2,NE,"","'Mgr. Michaela Liegertová, Ph.D.'","'Mgr. Michaela Liegertová, Ph.D.'",4472,"","","","","","","","","","","","","","","","","","","","",A,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"The Ethics of AI is an online course for anyone who is interested in the ethical aspects of AI. The aim is to encourage people to learn what AI ethics means, what can and can?t be done to develop AI in an ethically sustainable way, and how to start thinking about AI from an ethical point of view.
+Artificial intelligence is already a part of our daily lives. When we post pictures to social media, search online or ask questions from chatbots, we?re interacting with AI. Authorities, such as cities, rely on AI for providing public services. And governments are seeking solutions to global problems by using algorithmically produced knowledge. The goal of this course is to help you to develop your own skills for ethical thinking. You can complete the course at your own pace.
+
+This course is divided into following chapters:
+Introduction
+Non-maleficence
+Accountability
+Transparency
+Human Rights
+Fairness
+AI ethics in practice
+",Zápočet,NE,Kombinovaná,"Pro úspěšné ukončení předmětu, za který student obdrží 2 kredity, je zapotřebí:
+
+Úspěšně absolvovat online kurz Ethics of AI v angličtině na https://ethics-of-ai.mooc.fi/ 
+
+Vyplnit formulář ke kurzu:  https://forms.gle/KY4Y3voiyvAjacxR8 
+
+
+Kurz je hodnocen známkou prospěl/neprospěl (bez číselného hodnocení)
+
+Zápočty budou garantem zapisovány průběžně na základě vyplnění formuláře. 
+
+","","","","","",Angličtina,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,LS,1,"","","",0,0,1
+KPRF,CHP,2023,Chytré poznámky,Chytré poznámky,A,A,1,NE,"","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.'",613,"","","","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.' (100)",613,"","","","","","","","","","","'Ahrens Sönke. Jak si dělat chytré poznámky. Jan Melvil Publishing, 2021. ',
+'Forte Tiago. Pořiďte si druhý mozek. Jan Melvil Publishing, 2023. '","","","",A,0,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"Cílem je seznámit studenty s efektivními metodami zapisování poznámek do jednoduchého poznámkového systému, který budou mít vždy po ruce a který jim bude spolehlivě sloužit jako druhý mozek. Kurz si klade za cíl studentům významně ulehčit práci s informaci a zefektivnit studium, pracovní i osobní život.
+",Zápočet,NE,Kombinovaná,Esej na vybrané téma související s obsahem předmětu.,"Úvodní poznámky
+Metoda CODE - zaznamenávání
+Metoda CODE - uspořádávání
+Metoda CODE - zhušťování
+Metoda CODE - vyjadřování
+Udržitelná produktivita - projektové kontrolní seznamy
+Týdenní a měsíční revize
+Metoda Zettelkasten - základní principy
+Propojování poznámek
+Příklady využití
+Softwarové nástroje pro chytré poznámky
+","","","","",Čeština,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,LS,54,"","","",0,19,35
+KPRF,K100,2023,Anglický jazyk A,Anglický jazyk A,N,A,5,NE,"","'Mgr. Jaroslava Jelínková, Ph.D.', 'Mgr. Vladimír Lorenc'","'Mgr. Jaroslava Jelínková, Ph.D.', 'Mgr. Vladimír Lorenc'","4380, 5754","","","","'Mgr. Jaroslava Jelínková, Ph.D.', 'Mgr. Vladimír Lorenc'","'Mgr. Jaroslava Jelínková, Ph.D.' (100), 'Mgr. Vladimír Lorenc' (100)","4380, 5754","","","","","","","","","","","'DR. LUDMILA KOLLMANOVÁ. Angličtina pro samouky, LEDA, 1996. ',
+'Longman Murphy, R. English Grammar in Use. Cambridge University Press. 1994. ',
+'STUART REDMAN. English vocabulary in use ? pre-intermediate, Cambridge University Press, 2003. '","","","",N,0,HOD/SEM,2,HOD/SEM,0,HOD/TYD,"Tato zkouška odpovídá úrovni A2 podle Společného evropského referenčního rámce. Úspěšný absolvent je schopen omezeně,
+ale poměrně efektivně komunikovat v běžných situacích v anglicky mluvícím prostředí.
+
+Zkouška prověřuje dovednosti: čtení-student rozumí textům, které se týkají jeho oboru, dokáže číst, najít důležité informace, rozpoznat hlavní myšlenky v textech, mluvení-student je schopen komunikovat v běžných situacích o záležitostech vztahujících se k jeho profesi. Dokáže přivítat se, rozloučit se, vyjádřit své názory, klást otázky a odpovídat na otázky, psaní- student umí psát krátká sdělení, vyplnit formulář,přeložit jednoduché věty z ČJ do AJ.",Zkouška,NE,Kombinovaná,"Požadavky ke zkoušce:
+
+- konverzace v anglickém jazyce-prezentace studovaného oboru (charakteristika oboru, možnost uplatnění), rodina, zájmy
+
+- odborný text v rozsahu 20 stran (10stran anglického textu + 10stran českého překladu) umět hovořit o textu, číst s porozuměním, překládat, orientovat se v textu, možnost použití slovníčku z textu
+
+Odborný text by měl být:
+
+- přehledný, srozumitelný, upravený
+
+- psaný maximální velikostí písma 12
+
+- nevpisovat překlady slov do textu
+
+- nepoužívat jako odborný text manuál k přístrojům
+
+- seznam slovní zásoby z odborného textu - seznam 100 slov
+
+- strukturovaný životopis v anglickém jazyce
+
+Studenti kombinovaného studia se na zkoušku či zápočet připravují individuálně, mají možnost konzultace a individuálního
+přístupu během konzultačních hodin.
+
+Individuální práce zahrnují cvičení z gramatiky, slovní zásoby a životopis v anglickém jazyce.","GRAMATIKA
+
+- sloveso TO BE, TO HAVE
+
+- množné číslo podstatných jmen, nepravidelné množné číslo
+
+- časy-přítomný čas prostý a průběhový, minulý čas prostý a průběhový, budoucí čas
+
+- nepravidelná slovesa
+
+- rozkazovací způsob
+
+- způsobová slovesa CAN, MAY, MUST, HAVE TO
+
+- otázky a krátké odpovědi
+
+- pořádek slov v anglické větě
+
+- předložky
+
+- zájmena
+
+- členy podstatných jmen
+
+- přídavná jména, stupňování přídavných jmen
+
+
+
+SLOVNÍ ZÁSOBA
+
+- počasí (weather)
+
+- země, národnosti, jazyky (countries, nationalities and languages)
+
+- počítače, internet (computers, internet, phone)
+
+- vzdělávání (education-school, university)
+
+- cestování (travelling)
+
+- kolem domu, typy bydlení (around the home, types of accommodation)
+
+- zdraví-nemoci, zranění (health-illness, injuries)
+
+- jídlo, restaurace (food, cooking and restaurants)
+
+- práce, životopis (work, jobs, CV)
+
+- město x vesnice (city x country)
+
+","","","","",Angličtina,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",LS,1,"","","",0,1,0
+KPRF,K103,2023,Anglický jazyk,Anglický jazyk,A,A,1,NE,"",'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc' (100),5754,"","","","","","","","","","","","","","","",KI/KOAN,"","","","",A,0,HOD/SEM,2,HOD/SEM,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",LS,0,"","","",0,0,0
+KPRF,K104,2023,Anglický jazyk A,Anglický jazyk A,A,A,2,NE,"",'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc',5754,'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc' (100),5754,"","","","","","","","","","","","","","'DR. LUDMILA KOLLMANOVÁ. Angličtina pro samouky, LEDA, 1996. ',
+'RAYMOND MURPHY. English grammar in use, Cambridge University Press, 2004. ',
+'STUART REDMAN. English vocabulary in use ? pre-intermediate, Cambridge University Press, 2003. '","","","",N,2,HOD/SEM,0,HOD/SEM,0,HOD/TYD,"Tato zkouška odpovídá úrovni A2 podle Společného evropského referenčního rámce. Úspěšný absolvent je schopen
+
+omezeně, ale poměrně efektivně komunikovat v běžných situacích v anglicky mluvícím prostředí.
+
+Zkouška prověřuje dovednosti: čtení-student rozumí textům, které se týkají jeho oboru, dokáže číst, najít důležité
+
+informace, rozpoznat hlavní myšlenky v textech, ústní projev-student je schopen komunikovat v běžných situacích o
+
+záležitostech vztahujících se k jeho profesi. Dokáže přivítat se, rozloučit se, vyjádřit své názory, klást otázky a odpovídat
+
+na otázky, psaný projev- student umí psát krátká sdělení, vyplnit formulář, přeložit jednoduché věty z ČJ do AJ.",Zkouška,ANO,Kombinovaná,"Požadavky ke zkoušce:
+
+- konverzace v anglickém jazyce-prezentace studovaného oboru (charakteristika oboru, možnost uplatnění), rodina, zájmy,?
+
+- odborný text v rozsahu 10 stran v aj + 10 stran v českém jazyce-umět hovořit o textu, čtení s porozuměním, 10 orientace, možnost použití slovníčku z textu
+
+- seznam slovní zásoby z odborného textu - seznam 100 slov a jejich znalost
+
+- strukturovaný životopis v anglickém jazyce","GRAMATIKA
+- sloveso TO BE, TO HAVE
+
+- množné číslo podstatných jmen, nepravidelné množné číslo
+
+- časy-přítomný čas prostý a průběhový, minulý čas prostý a průběhový, budoucí čas
+
+- nepravidelná slovesa
+
+- rozkazovací způsob
+
+- způsobová slovesa CAN, MAY, MUST, HAVE TO
+
+- otázky a krátké odpovědi
+
+- pořádek slov v anglické větě
+
+- předložky
+
+- zájmena
+
+SLOVNÍ ZÁSOBA
+
+- odborná slovní zásoba
+
+- počasí (weather)
+
+- země, národnosti, jazyky (countries, nationalities and languages)
+
+-  počítače, internet (computers, internet, phone)
+
+- vzdělávání (education-school, university)
+
+- cestování (travelling)
+
+- kolem domu, typy bydlení (around the home, types of accommodation)
+
+- zdraví-nemoci, zranění (health-illness, injuries)
+
+- jídlo, restaurace (food, cooking and restaurants)
+
+- práce, životopis (work, jobs, CV)
+
+- město x vesnice (city x country)
+- členy podstatných jmen
+
+? přídavná jména, stupňování
+
+přídavných jmen","Studenti kombinovaného studia se na zkoušku či zápočet připravují individuálně, mají možnost konzultace a individuálního přístupu během konzultačních hodin (3 hodiny/týden). Individuální práce zahrnují cvičení z gramatiky a slovní zásoby, životopis v anglickém jazyce a vypracování žádosti o zaměstnání.","","","","","",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",LS,0,"","","",0,0,0
+KPRF,N101,2023,Anglická konverzace,Anglická konverzace,N,A,2,NE,"",'Mgr. Jaroslav Izavčuk','Mgr. Jaroslav Izavčuk',474,"","","",'Mgr. Jaroslav Izavčuk','Mgr. Jaroslav Izavčuk' (100),474,"","","","","","","","","","","","","","",N,0,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"",Zápočet,NE,Kombinovaná,"","","","","","",Angličtina,"",A,N,N,"","","",A,N,"",0,"",Mgr.,A,"",LS,3,"","","",3,0,0
+KPRF,PD11,2023,Anglický jazyk pro doktorandy,Anglický jazyk pro doktorandy,A,A,0,NE,"","","","","","","","","","","","","","","","","","","","","",KFY/PD11,"","",A,0,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"",Zkouška,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"",44,44,N,N,"",0,Ph.D.,Ph.D.,A,"",LS,0,"","","",0,0,0
+KPRF,P225,2023,Anglický jazyk - zkouška A,Anglický jazyk - zkouška A,A,A,1,NE,"",'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc' (100),5754,"","","","","","","","","","","","","","","","","",KPRF/0225,"","",N,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"Cílem předmětu je osvojit si základní slovní zásobu, gramatiku, rozvíjet komunikační schopnosti v obecné angličtině. V rámci předmětu se budou studenti věnovat procvičení gramatiky, komunikace v běžných situacích, čtení a porozumění textu, seznámí se se základy překladu odborných textu.  Předpokládá se, že studenti dosáhnou během studia úrovně znalosti obecné angličtiny odpovídající úrovní  A2 podle společného evropského referenčního rámce.",Zkouška,NE,Kombinovaná," Písemní překlad odborného textu v rozsahu 10 stran, ctění textu s porozuměním, znalost slovní zásoby.
+ Konverzace na zadaná témata, překlad vět z ČJ do AJ.
+","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",LS,0,"","","",0,0,0
+KPRF,P232,2023,Anglický jazyk - zkouška B,Anglický jazyk - zkouška B,A,A,1,NE,"",'Mgr. Vladimír Lorenc','Mgr. Vladimír Lorenc',5754,"","","","","","","","","","","","","","","","","",CJP/0232,"","",A,0,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"",Zkouška,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,A,"",LS,0,"","","",0,0,0
+KPRF,SBS,2023,Studium bez stresu,Studium bez stresu,A,A,1,NE,"","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.'",613,"","","","'RNDr. Martin Švec, Ph.D.'","'RNDr. Martin Švec, Ph.D.' (100)",613,"","","","","","","","","","","'Burkeman Oliver. Čtyři tisíce týdnů. Jan Melvil Publishing, 2022. ',
+'Ahrens Sönke. Jak si dělat chytré poznámky. Jan Melvil Publishing, 2021. ',
+'Holiday Ryan. Klíčem je klid. Audiolibrix, 2022. ',
+'Allen David. Mít vše hotovo - 2. vydání. Jan Melvil Publishing, 2016. ',
+'Forte Tiago. Pořiďte si druhý mozek. Jan Melvil Publishing, 2023. ',
+'Covey Stephen R. 7 návyků skutečně efektivních lidí. Management Press, 2007. '","","","",A,0,HOD/TYD,1,HOD/TYD,0,HOD/TYD,"Cílem je seznámit studenty s efektivními metodami správy svých úkolů, závazků a projektů (mít vše hotovo, sedm principů, chytré poznámky) tak, aby mohly být aspoň částečně nebo celé implementovány nejen do studijního, ale i pracovního nebo osobního života.",Zápočet,NE,Kombinovaná,"Esej na vybrané téma související s obsahem předmětu.
+","Úvodní poznámky
+Mít vše hotovo a sedm návyků
+Zachycování vstupů
+Ujasňování
+Uspořádání
+Systém PARA
+Promýšlení a revize
+Aktivní práce
+Řešení projektů
+Druhý mozek
+Chytré poznámky
+Alternativy
+Digitální nástroje
+","","","","",Čeština,"",A,N,N,"","","",A,A,"",0,"",Bc.,A,0,LS,72,"","","",0,23,49
+KPRF,0102,2023,Úvod do klimatologie a klimatických změn,Úvod do klimatologie a klimatických změn,N,A,3,NE,"","","","","","","","","","","","","","","","","",KPRF/0101,"","","","","","",N,2,HOD/TYD,0,HOD/TYD,0,HOD/TYD,"Klimatologie je součástí meteorologie v jejím širším pojetí. Věnuje se studiu atmosféry a dějů v ní z dlouhodobého hlediska, z hlediska režimového. V posledních desetiletích se stává pochopení dění v klimatickém systému stále důležitějším. Žijeme totiž v době, kdy se klima nemění jen přirozeně (vždy se podnebí měnilo, kolísalo, střídaly se doby ledové a meziledové?), ale také vlivem člověka a jeho činností. Předmět Úvod do klimatologie a klimatických změn je zaměřen na přehled klimatologie a příčiny a průběh změn klimatu v globálním měřítku i v měřítku střední Evropy.",Zápočet,NE,Kombinovaná,"","1.	Historie, současnost a budoucnost klimatologie. Rozdíly v metodách meteorologie vs. klimatologie.
+2.	Úplný klimatický systém, jeho jednotlivé složky, jejich vzájemné ovlivňování.
+3.	Globální energetická bilance, skleníkový efekt.
+4.	Globální vodní bilance, geografické rozdíly.
+5.	Přirozené vlivy působící na klima Země (včetně vnějších vlivů), vývoj klimatu planety.
+6.	Antropogenní vlivy na klima Země. Klimatická citlivost.
+7.	Zpětné vazby v klimatickém systému.
+8.	Modelování klimatu. Emisní scénáře. Projekce změn klimatu. 
+9.	Dopady změn klimatu. Zranitelnost vůči klimatickým změnám. 
+10.	Mitigační opatření. Adaptační opatření. Role IPCC.
+11.	Synoptická klimatologie. Typizace synoptických situací, Brádkova typizace.
+12.	Klasifikace klimatu, jejich význam, členění, konstrukce. Nejpoužívanější klasifikace.
+13.	Klimatografie světa, klimatografie kontinentů. Podnebí ČR.
+","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,LS,0,"","","",0,0,0

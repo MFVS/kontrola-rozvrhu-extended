@@ -1,0 +1,278 @@
+katedra,zkratka,rok,nazev,nazevDlouhy,vyukaZS,vyukaLS,kreditu,viceZapis,minObsazeni,garanti,garantiSPodily,garantiUcitIdno,prednasejici,prednasejiciSPodily,prednasejiciUcitIdno,cvicici,cviciciSPodily,cviciciUcitIdno,seminarici,seminariciSPodily,seminariciUcitIdno,schvalujiciUznani,schvalujiciUznaniUcitIdno,examinatori,examinatoriUcitIdno,podminujiciPredmety,vylucujiciPredmety,podminujePredmety,literatura,nahrazPredmety,metodyVyucovaci,metodyHodnotici,akreditovan,jednotekPrednasek,jednotkaPrednasky,jednotekCviceni,jednotkaCviceni,jednotekSeminare,jednotkaSeminare,anotace,typZkousky,maZapocetPredZk,formaZkousky,pozadavky,prehledLatky,predpoklady,ziskaneZpusobilosti,casovaNarocnost,predmetUrl,vyucovaciJazyky,poznamka,ectsZobrazit,ectsAkreditace,ectsNabizetUPrijezdu,poznamkaVerejna,skupinaAkreditace,skupinaAkreditaceKey,zarazenDoPrezencnihoStudia,zarazenDoKombinovanehoStudia,studijniOpory,praxePocetDnu,urovenNastavena,urovenVypoctena,automatickyUznavatZppZk,hodZaSemKombForma,semestr,pocetStudentu,aMax,bMax,cMax,aSkut,bSkut,cSkut
+CPPV,APP,2023,Asistentská pedagogická praxe,Asistentská pedagogická praxe,A,N,2,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","'ČAPEK, R. Pedagogická praxe pro studenty. (Alternativní vyučovací hodiny teoreticky i prakticky.) 1. vyd. Hradec. ',
+'ČAPEK, R. Pedagogická praxe pro studenty: (od hospitace k souvislé praxi). Hradec Králové: Gaudeamus, 2001. ISBN 80-7041-412-X. ',
+'ŠVEC, V. Klíčové dovednosti ve vyučování a výcviku. Brno: MU, 1998. ISBN 80-210-1937-9.',
+'ŠVEC, V. (ed.). Monitorování a rozvoj pedagogických dovedností. Brno: Paido, 2000. ISBN 80-85931-87-7. ',
+'PODLAHOVÁ, L. Pedagogická praxe. Olomouc: Univerzita Palackého, 1998. ',
+'ŠVEC, C., FIALOVÁ, H., ŠIMONÍK, O. Praktikum didaktických dovedností. 1. vyd. Brno: Masarykova univerzita. ',
+'TVRZOVÁ, I. A KOL. Praxe realizovaná při studiu oboru pedagogika. Praha, 2002. ',
+'MAŇÁK, J. AJ. Profesionální praktika z pedagogiky. 1. vyd. Brno: Masarykova univerzita, 1992. ISBN 80-210-0471-1.',
+'ŠTURMA, J. Školní pedagogika ? část I. Hradec Králové: GAUDEAMUS, 1996. ISBN 80-7041-121-X. '","","","",N,0,HOD/TYD,0,HOD/TYD,1,TYD/SEM,"Obsahové zaměření asistentské pedagogické praxe je na pedagogickou práci s žáky na 2. stupni ZŠ a SŠ. Cílem praxe je
+spolupracovat s učitelem na přímé výchovné a vzdělávací činnosti nejen u žáků se speciálními vzdělávacími potřebami,
+ale rovněž pomáhat při komunikaci mezi žáky a mezi žáky a učitelem. Mezi další činnosti lze uvést pomoc učiteli s
+přípravami na vyučovací hodinu, práci s pomůckami, přípravu školních experimentů apod. Student se bude podílet na
+individuální i skupinové podpoře žáků během edukačního procesu a při přípravě na výuku.
+Student vykoná 20 hodin praxe na plně organizované základní nebo na střední škole. Na počátku praxe student absolvuje
+4 náslechové a hospitační hodiny a následovat budou aktivní hodiny asistentské v předmětu odpovídajícím studijnímu
+programu (varianta studijního plánu MAIOR i MINOR). Hodiny jsou rozborované. Student si povede pedagogický
+deník, který předloží po skončení asistentské praxe oborovému didaktikovi (varianta studijního plánu MAIOR i
+MINOR).",Zápočet,NE,Kombinovaná,"řádné absolvování praxe na školském zařízení
+odevzdání elektronické verze portfolia z praxe (IS STAG)
+odevzdání hodnocení mentorem praxe (IS STAG)","Obsahové zaměření asistentské pedagogické praxe je na pedagogickou práci s žáky na 2. stupni ZŠ a SŠ. Cílem praxe je
+spolupracovat s učitelem na přímé výchovné a vzdělávací činnosti nejen u žáků se speciálními vzdělávacími potřebami, ale
+rovněž pomáhat při komunikaci mezi žáky a mezi žáky a učitelem. Mezi další činnosti lze uvést pomoc učiteli s přípravami
+na vyučovací hodinu, práci s pomůckami, přípravu školních experimentů apod. Student se bude podílet na individuální i
+skupinové podpoře žáků během edukačního procesu a při přípravě na výuku.
+Student vykoná 20 hodin praxe na plně organizované základní nebo na střední škole. Na počátku praxe student absolvuje 4
+náslechové a hospitační hodiny a následovat budou aktivní hodiny asistentské v předmětu matematika. Hodiny jsou
+rozborované. Student si povede pedagogický deník, který předloží po skončení asistentské praxe oborovému didaktikovi.
+Rámec praxe, tedy počty hodin a výstupy (portfolio z praxe + hodnocení mentorem praxe) jsou nastaveny z CPP, obsahovou
+náplň portfolia a hodnocení mentorem posuzuje oborový didaktik, kterému výstupy student odevzdává. Zápočet uděluje
+metodik CPP na podkladě souhlasného stanoviska oborového didaktika. Školské zařízení si po dohodě s oborovým
+didaktikem vybírá student samostatně.","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,ZS,26,"","","",18,2,6
+CPPV,DOUC,2023,Doučování,Doučování,A,A,2,NE,"","","","","","","","'RNDr. Jiří Králík, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'PaedDr. Milan Kubiatko, PhD.', 'RNDr. Milan Šmídl, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Jiří Králík, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'PaedDr. Milan Kubiatko, PhD.' (100), 'RNDr. Milan Šmídl, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","303, 425, 2776, 8021, 3704, 6384","","","","","","","","","","","","","","",A,0,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"V rámci výběrového kurzu studenti doučují žáky a studenty základních nebo středních škol dle požadavků spolupracujících škol.   
+
+
+",Zápočet,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,N,"",0,"","","",0,ZS,0,"","","",0,0,0
+CPPV,KAPP,2023,Asistentská pedagogická praxe,Asistentská pedagogická praxe,A,N,2,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","","","","",N,0,HOD/TYD,0,HOD/TYD,1,TYD/SEM,"",Zápočet,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,"",0,ZS,5,"","","",2,0,3
+CPPV,KKPP,2023,Klinická pedagogická praxe,Klinická pedagogická praxe,A,A,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","","","","",N,0,HOD/SEM,0,HOD/SEM,5,HOD/SEM,"",Zápočet,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,"",0,ZS,2,"","","",0,0,2
+CPPV,KPP,2023,Klinická pedagogická praxe,Klinická pedagogická praxe,A,A,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","'FALTÝN, J., NĚMČÍKOVÁ, K., ZELENDOVÁ, E. Gramotnosti ve vzdělávání. Příručka pro učitele. 1. vyd. Praha:. ',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Alternativní vyučovací hodiny teoreticky i prakticky.) 1. vyd. Hradec. ',
+'ČAPEK, R. Pedagogická praxe pro studenty: (od hospitace k souvislé praxi). Hradec Králové: Gaudeamus, 2001. ISBN 80-7041-412-X. ',
+'ŠVEC, V. Klíčové dovednosti ve vyučování a výcviku. Brno: MU, 1998. ISBN 80-210-1937-9.',
+'ŠVEC, V. (ed.). Monitorování a rozvoj pedagogických dovedností. Brno: Paido, 2000. ISBN 80-85931-87-7. ',
+'PODLAHOVÁ, L. Pedagogická praxe. Olomouc: Univerzita Palackého, 1998. ',
+'ŠVEC, C., FIALOVÁ, H., ŠIMONÍK, O. Praktikum didaktických dovedností. 1. vyd. Brno: Masarykova univerzita. ',
+'TVRZOVÁ, I. A KOL. Praxe realizovaná při studiu oboru pedagogika. Praha, 2002. ',
+'MAŇÁK, J. AJ. Profesionální praktika z pedagogiky. 1. vyd. Brno: Masarykova univerzita, 1992. ISBN 80-210-0471-1.',
+'ŠTURMA, J. Školní pedagogika ? část I. Hradec Králové: GAUDEAMUS, 1996. ISBN 80-7041-121-X. '","","","",N,0,HOD/TYD,0,HOD/TYD,1,HOD/TYD,"",Zápočet,NE,Kombinovaná,"řádné absolvování praxe na školském zařízení
+odevzdání elektronické verze portfolia z praxe (IS STAG)
+odevzdání hodnocení mentorem praxe (IS STAG","Obsahové zaměření klinické pedagogické praxe je na pedagogickou práci s žáky na 2. stupni ZŠ a SŠ. Cílem praxe je
+postupné získávání praktických dovedností pod vedením mentora praxe, seznámení s úkoly, cíli a hlavními činnostmi
+pedagoga a školy. Seznámení se Školním vzdělávacím programem, se školskými dokumenty. Praxe je vykonávána formou
+náslechů cvičného učitele (mentora), reflexe denních činností, osvojováním si praktických dovedností z oblasti pedagogiky
+a didaktiky. Student bude hospitovat a vykonávat náslechové činnosti v předmětu matematika. Student vykoná praxi v délce
+14 hodin s převahou hospitační a náslechové činnosti a postupným začleňováním činností asistentských podle pokynů
+mentora praxe. Hodiny jsou rozborované.
+Rámec praxe tedy počty hodin a výstupy (portfolio z praxe + hodnocení mentorem praxe) jsou nastaveny z CPP, obsahovou
+náplň portfolio a hodnocení mentorem posuzuje oborový didaktik, kterému výstupy student odevzdává. Zápočet uděluje
+metodik CPP na podkladě souhlasného stanoviska oborového didaktika.
+Školské zařízení si po dohodě s oborovým didaktikem vybírá student samostatně.","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,ZS,1,"","","",0,1,0
+CPPV,KPPOB,2023,Observační pedagogická praxe,Observační pedagogická praxe,A,A,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","","","","'Jančaříková, K. a kol. Didaktické zásady v přírodovědném vzdělávání. Pedagogická fakulta UK Praha, 158 s, 2022. ISBN 9788076032897.',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Alternativní vyučovací hodiny teoreticky i prakticky.). Hradec Králové: Gaudeamus, 2002. ISBN 80-7041-8082-7.',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Od hospitace k souvislé praxi.). Pedagogická praxe pro studenty. (Od hospitace k souvislé praxi.), 2001. ISBN 80-7041-412-X.',
+'SLAVÍK, J., HAJEROVÁ MÜLLEROVÁ, L., SOUKUPOVÁ, P. Reflexe a hodnocení kvality výuky I. Plzeň: Západočeská univerzita v Plzni, 2020. ISBN 978-80-261-0920-4.',
+'KALHOUS, Z.; OBST, O. Školní didaktika. Praha: Portál, 2002. ISBN 80-7178-253-X.',
+'SLAVÍK, J., JANÍK, T., NAJVAR, P., KNECHT, P. Transdisciplinární didaktika: o učitelském sdílení znalostí a zvyšování kvality výuky napříč obory. BRNO: MU, 2017. ',
+'DYTRTOVÁ, R., KRHUTOVÁ, M. Učitel: příprava na profesi 1, 2009, Praha: Grada. ISBN 9788024728636. ',
+'ŠVEC, V. Klíčové dovednosti ve vyučování a výcviku. Brno: MU, 1998. ISBN 80-210-1937-9.',
+'ŠVEC, V. (ed.). Monitorování a rozvoj pedagogických dovedností. Brno: Paido,, 2000. ISBN 80-85931-87- 7.',
+'PODLAHOVÁ, L. Pedagogická praxe. (Průvodce pro současné studenty a budoucí učitele). Olomouc: Vydavatelství Univerzity Palackého,, 1998. ISBN 80-7067-793-7.',
+'Filová,H.,Šimoník,O.,Švec,V. Praktikum didaktických dovedností. Brno, 1996. ISBN 80-210-1365-6.',
+'Tvrzová, I. a kol. Praxe realizovaná při studiu obobru pedagogika. Praha, 2002. ',
+'Maňák, J. Profesionální praktika z pedagogiky. Brno, 1998. ',
+'ŠTURMA, J. Školní pedagogika - část I. Hradec Králové: GAUDEAMUS,, 1996. ISBN 80-7041-121-X.'","","","",N,0,HOD/TYD,1,TYD/SEM,0,HOD/TYD,"Cílem předmětu Observační pedagogická praxe je bližší seznámení se se školským prostředím a životem školy, tj. se školskými zařízeními a se specifickými potřebami a zvláštnostmi jednotlivých skupin žáků školských zařízení, včetně seznámení se s vyučovacími metodami a organizačními formami práce ve školských zařízeních.",Zápočet,NE,Kombinovaná,"- řádné absolvování praxe na školském zařízení - 1 týden (13 hod) (možnost absolvovat po celou dobu semestru na různých školách)
+
+- odevzdání elektronické verze Deníku observační praxe (IS STAG)
+
+- odevzdání hodnocení studenta mentorem praxe (IS STAG)
+","Student vykoná praxi v délce 13 hodin tvořenou rozborovaným stínováním mentora praxe a dalších přidělených pedagogických pracovníků (např. výchovný poradce, školní metodik prevence, školní speciální pedagog, školní psycholog atd.) a přednášek odborníků z praxe.
+Student si po dohodě s oborovým didaktikem (MAIOR studijní program, příp. kombinace MAIOR i MINOR) vybírá školu pro realizaci observační praxe sám, přičemž se upřednostňuje výběr z nabídky fakultních a spolupracujících škol.
+","Cíle předmětu předpokládají úzkou spolupráci studenta učitelství se zkušenými učiteli a dalšími pedagogickými pracovníky. 
+Předpokladem je konání praxí primárně na fakultních a spolupracujících zařízeních PřF UJEP. Organizačně, metodicky i kontrolně zajišťuje tuto praxi CPPV PřF UJEP.
+","","","","","",A,N,N,"","","",N,A,"",0,"",Bc.,A,0,ZS,15,"","","",12,0,3
+CPPV,KPPP,2023,Průběžná pedagogická praxe,Průběžná pedagogická praxe,A,N,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","","","","'PhDr. Ing. Silvie Svobodová, Ph.D.'","'PhDr. Ing. Silvie Svobodová, Ph.D.' (100)",8952,"","","","","","","","'STROUHAL, Martin, ed. Učit se být učitelem: k vybraným problémům učitelského vzdělávání. Praha: Univerzita Karlova, nakladatelství Karolinum,, 2016. ISBN 978-80-246-3465-4.',
+'LOJDOVÁ, Kateřina et al. Determinanty účinnosti učitelských praxí. Brno: Masarykova univerzita,, 2016. ISBN 978-80-210-8132-1.',
+'Jančaříková, K. a kol. Didaktické zásady v přírodovědném vzdělávání. Pedagogická fakulta UK Praha, 158 s, 2022. ISBN 9788076032897.',
+'SPILKOVÁ, Vladimíra a kol. Klinická škola a její role ve vzdělávání učitelů. [Praha]: Retida spol. s r.o., 2015. ISBN 978-80-260-9405-0.',
+'BRANDENBURG, Robyn, ed. et al. l. Teacher education: innovation, intervention and impact. Singapore: Springer, 2016. ISBN 978-981-10-0784-2.',
+'GULOVÁ, Lenka, ed. Studentské profesní praxe - multikulturní lekce ve školách a v dalších institucích: výukové materiály. Brno: Masarykova univerzita,, 2015. ISBN 978-80-210-8119-2.',
+'KALHOUS, Z.; OBST, O. Školní didaktika. Praha: Portál, 2002. ISBN 80-7178-253-X.',
+'DYTRTOVÁ, R., KRHUTOVÁ, M. Učitel. Příprava na profesi. Praha: Grada, 2009. '","","","",N,0,HOD/SEM,0,HOD/SEM,13,HOD/SEM,"Cílem průběžné pedagogické praxe je postupné získávání praktických dovedností v oblasti plánování a reflektování výukového procesu pod vedením mentora praxe a oborového didaktika, seznámení s úkoly, cíli a hlavními činnostmi pedagoga a školy na případu konkrétních škol.
+Studenti se seznámí s pedagogickou dokumentací, organizací a přípravou výchovně vzdělávacích činností a získají zkušenosti s jejich realizací. Pozorují a analyzují práci učitele, výsledky vyučování a vlastní pedagogické činnosti.",Zápočet,NE,Kombinovaná,"- řádné absolvování praxe na školském zařízení - 3 hod/týd (KS 13hod/sem)
+- odevzdání elektronické verze Deníku průběžné praxe (IS STAG)
+- odevzdání hodnocení studenta mentorem praxe (IS STAG)
+","Obsahové zaměření průběžné pedagogické praxe je na pedagogickou práci s žáky na 2. stupni ZŠ a SŠ včetně seznámení se školním vzdělávacím programem a školskými dokumenty.
+Praxe je nejprve vykonávána formou náslechů cvičného učitele (mentora), reflexe denních činností, osvojováním si praktických dovedností z oblasti pedagogiky a didaktiky, následně pak vlastními výstupy. Student bude hospitovat a vykonávat vlastní pedagogickou činnost v předmětu odpovídajícímu studijnímu programu (MAIOR I MINOR).
+Student vykoná praxi na škole v rámci studentské skupiny. Vždy jeden student realizuje vlastní pedagogické činnosti pod vedením a podle pokynů mentora praxe, ostatní studenti hospitují a provádí hospitačně-reflektivní záznam. Hodiny jsou rozborované.
+Rámec praxe, tedy počty hodin a výstupy (pedagogický deník/ portfolio z praxe + hodnocení mentorem praxe), je nastaven z CPPV, obsahovou náplň a konkrétní zápočtové požadavky stanovuje oborový didaktik, jemuž výstupy student odevzdává.
+Student si vybírá školu pro realizaci průběžné praxe sám, příp. po poradě s oborovým didaktikem, pokud možno z nabídky fakultních a spolupracujících škol.
+Student v průběhu průběžné praxe plní následující úkoly:
+-	v průběhu praxe se seznámí s organizací výchovně vzdělávací práce v ZŠ či SŠ, pedagogickou dokumentací a metodickým materiálem 
+-	zúčastní se dle pokynů mentora akcí školy a bude plnit další povinnosti
+-	během prvních týdnů průběžné praxe studenti pouze hospitují a tyto náslechy si zaznamenávají
+-	v následujících týdnech studenti vykonávají asistentské činnosti dle pokynů mentora, hospitují a realizují vlastní výstupy
+-	každý student realizuje na základě vlastní přípravy několik výstupů (s ohledem na velikost studentské skupiny). Každou přípravu je nutné několik dní předem konzultovat s mentorem a upravit ji podle připomínek. Je vhodné střídat různé typy aktivit. Ostatní studenti v tuto dobu svého kolegu hospitují a pozorování si zaznamenávají
+-	po náslechu a každé samostatné činnosti studenta proběhne rozbor mentora se studentem/ty
+","Předpokladem je konání praxí primárně na fakultních a spolupracujících zařízeních PřF UJEP. Organizačně, metodicky i kontrolně zajišťuje tuto praxi CPPV PřF UJEP.
+
+Cíle předmětu předpokládají úzkou spolupráci zkušeného učitele a studenta učitelství.
+-	Student se orientuje v základní terminologii z oblasti výchovy a vzdělávání, charakterizuje kvality a specifika dítěte školního věku a studenta SŠ, pracuje s kurikulárními dokumenty pro vzdělávání, teoreticky a zčásti prakticky zvládá plánování činností v ZŠ a SŠ po stránce obsahové (věcné) i metodické, má přehled o vedení třídní dokumentace. Orientuje se v základních koncepcích výchovy a alternativních edukačních programech. Charakterizuje základní požadavky na výkon učitelské profese, popíše pracovní činnosti a povinnosti učitele ZŠ a SŠ, význam sebereflexe pro profesní a osobní růst.
+","","","","","",A,N,N,"","","",N,N,"",0,"","",A,0,ZS,0,"","","",0,0,0
+CPPV,PPOB,2023,Observační pedagogická praxe,Observační pedagogická praxe,A,A,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","","","","'Jančaříková, K. a kol. Didaktické zásady v přírodovědném vzdělávání. Pedagogická fakulta UK Praha, 158 s, 2022. ISBN 9788076032897.',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Alternativní vyučovací hodiny teoreticky i prakticky.). Hradec Králové: Gaudeamus, 2002. ISBN 80-7041-8082-7.',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Alternativní vyučovací hodiny teoreticky i prakticky.) 1. vyd. Hradec. ',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Od hospitace k souvislé praxi.). Pedagogická praxe pro studenty. (Od hospitace k souvislé praxi.), 2001. ISBN 80-7041-412-X.',
+'ČAPEK, R. Pedagogická praxe pro studenty: (od hospitace k souvislé praxi). Hradec Králové: Gaudeamus, 2001. ISBN 80-7041-412-X. ',
+'SLAVÍK, J., HAJEROVÁ MÜLLEROVÁ, L., SOUKUPOVÁ, P. Reflexe a hodnocení kvality výuky I. Plzeň: Západočeská univerzita v Plzni, 2020. ISBN 978-80-261-0920-4.',
+'KALHOUS, Z.; OBST, O. Školní didaktika. Praha: Portál, 2002. ISBN 80-7178-253-X.',
+'SLAVÍK, J., JANÍK, T., NAJVAR, P., KNECHT, P. Transdisciplinární didaktika: o učitelském sdílení znalostí a zvyšování kvality výuky napříč obory. BRNO: MU, 2017. ',
+'DYTRTOVÁ, R., KRHUTOVÁ, M. Učitel: příprava na profesi 1, 2009, Praha: Grada. ISBN 9788024728636. ',
+'ŠVEC, V. Klíčové dovednosti ve vyučování a výcviku. Brno: MU, 1998. ISBN 80-210-1937-9.',
+'ŠVEC, V. (ed.). Monitorování a rozvoj pedagogických dovedností. Brno: Paido,, 2000. ISBN 80-85931-87- 7.',
+'ŠVEC, V. (ed.). Monitorování a rozvoj pedagogických dovedností. Brno: Paido, 2000. ISBN 80-85931-87-7. ',
+'PODLAHOVÁ, L. Pedagogická praxe. Olomouc: Univerzita Palackého, 1998. ',
+'PODLAHOVÁ, L. Pedagogická praxe. (Průvodce pro současné studenty a budoucí učitele). Olomouc: Vydavatelství Univerzity Palackého,, 1998. ISBN 80-7067-793-7.',
+'Filová,H.,Šimoník,O.,Švec,V. Praktikum didaktických dovedností. Brno, 1996. ISBN 80-210-1365-6.',
+'ŠVEC, C., FIALOVÁ, H., ŠIMONÍK, O. Praktikum didaktických dovedností. 1. vyd. Brno: Masarykova univerzita. ',
+'Tvrzová, I. a kol. Praxe realizovaná při studiu obobru pedagogika. Praha, 2002. ',
+'TVRZOVÁ, I. A KOL. Praxe realizovaná při studiu oboru pedagogika. Praha, 2002. ',
+'Maňák, J. Profesionální praktika z pedagogiky. Brno, 1998. ',
+'MAŇÁK, J. AJ. Profesionální praktika z pedagogiky. 1. vyd. Brno: Masarykova univerzita, 1992. ISBN 80-210-0471-1.',
+'ŠTURMA, J. Školní pedagogika - část I. Hradec Králové: GAUDEAMUS,, 1996. ISBN 80-7041-121-X.',
+'ŠTURMA, J. Školní pedagogika ? část I. Hradec Králové: GAUDEAMUS, 1996. ISBN 80-7041-121-X. '","","","",N,0,HOD/TYD,1,TYD/SEM,0,HOD/TYD,"Cílem předmětu Observační pedagogická praxe je bližší seznámení se se školským prostředím a životem školy, tj. se školskými zařízeními a se specifickými potřebami a zvláštnostmi jednotlivých skupin žáků školských zařízení, včetně seznámení se s vyučovacími metodami a organizačními formami práce ve školských zařízeních.",Zápočet,NE,Kombinovaná,"- řádné absolvování praxe na školském zařízení - 1 týden (13 hod) (možnost absolvovat po celou dobu semestru na různých školách)
+
+- odevzdání elektronické verze Deníku observační praxe (IS STAG)
+
+- odevzdání hodnocení studenta mentorem praxe (IS STAG)
+","Student vykoná praxi v délce 13 hodin tvořenou rozborovaným stínováním mentora praxe a dalších přidělených pedagogických pracovníků (např. výchovný poradce, školní metodik prevence, školní speciální pedagog, školní psycholog atd.) a přednášek odborníků z praxe.
+Student si po dohodě s oborovým didaktikem (MAIOR studijní program, příp. kombinace MAIOR i MINOR) vybírá školu pro realizaci observační praxe sám, přičemž se upřednostňuje výběr z nabídky fakultních a spolupracujících škol.
+","Cíle předmětu předpokládají úzkou spolupráci studenta učitelství se zkušenými učiteli a dalšími pedagogickými pracovníky. 
+Předpokladem je konání praxí primárně na fakultních a spolupracujících zařízeních PřF UJEP. Organizačně, metodicky i kontrolně zajišťuje tuto praxi CPPV PřF UJEP.
+","","","","","",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,ZS,42,"","","",37,1,4
+CPPV,PPP,2023,Průběžná pedagogická praxe,Průběžná pedagogická praxe,A,N,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","","","","'PhDr. Ing. Silvie Svobodová, Ph.D.'","'PhDr. Ing. Silvie Svobodová, Ph.D.' (100)",8952,"","","","","","","","'STROUHAL, Martin, ed. Učit se být učitelem: k vybraným problémům učitelského vzdělávání. Praha: Univerzita Karlova, nakladatelství Karolinum,, 2016. ISBN 978-80-246-3465-4.',
+'LOJDOVÁ, Kateřina et al. Determinanty účinnosti učitelských praxí. Brno: Masarykova univerzita,, 2016. ISBN 978-80-210-8132-1.',
+'Jančaříková, K. a kol. Didaktické zásady v přírodovědném vzdělávání. Pedagogická fakulta UK Praha, 158 s, 2022. ISBN 9788076032897.',
+'SPILKOVÁ, Vladimíra a kol. Klinická škola a její role ve vzdělávání učitelů. [Praha]: Retida spol. s r.o., 2015. ISBN 978-80-260-9405-0.',
+'BRANDENBURG, Robyn, ed. et al. l. Teacher education: innovation, intervention and impact. Singapore: Springer, 2016. ISBN 978-981-10-0784-2.',
+'GULOVÁ, Lenka, ed. Studentské profesní praxe - multikulturní lekce ve školách a v dalších institucích: výukové materiály. Brno: Masarykova univerzita,, 2015. ISBN 978-80-210-8119-2.',
+'KALHOUS, Z.; OBST, O. Školní didaktika. Praha: Portál, 2002. ISBN 80-7178-253-X.',
+'DYTRTOVÁ, R., KRHUTOVÁ, M. Učitel. Příprava na profesi. Praha: Grada, 2009. '","","","",N,0,HOD/TYD,0,HOD/TYD,3,HOD/TYD,"Cílem průběžné pedagogické praxe je postupné získávání praktických dovedností v oblasti plánování a reflektování výukového procesu pod vedením mentora praxe a oborového didaktika, seznámení s úkoly, cíli a hlavními činnostmi pedagoga a školy na případu konkrétních škol.
+Studenti se seznámí s pedagogickou dokumentací, organizací a přípravou výchovně vzdělávacích činností a získají zkušenosti s jejich realizací. Pozorují a analyzují práci učitele, výsledky vyučování a vlastní pedagogické činnosti.",Zápočet,NE,Kombinovaná,"- řádné absolvování praxe na školském zařízení - 3 hod/týd (KS 13hod/sem)
+- odevzdání elektronické verze Deníku průběžné praxe (IS STAG)
+- odevzdání hodnocení studenta mentorem praxe (IS STAG)
+","Obsahové zaměření průběžné pedagogické praxe je na pedagogickou práci s žáky na 2. stupni ZŠ a SŠ včetně seznámení se školním vzdělávacím programem a školskými dokumenty.
+Praxe je nejprve vykonávána formou náslechů cvičného učitele (mentora), reflexe denních činností, osvojováním si praktických dovedností z oblasti pedagogiky a didaktiky, následně pak vlastními výstupy. Student bude hospitovat a vykonávat vlastní pedagogickou činnost v předmětu odpovídajícímu studijnímu programu (MAIOR I MINOR).
+Student vykoná praxi na škole v rámci studentské skupiny. Vždy jeden student realizuje vlastní pedagogické činnosti pod vedením a podle pokynů mentora praxe, ostatní studenti hospitují a provádí hospitačně-reflektivní záznam. Hodiny jsou rozborované.
+Rámec praxe, tedy počty hodin a výstupy (pedagogický deník/ portfolio z praxe + hodnocení mentorem praxe), je nastaven z CPPV, obsahovou náplň a konkrétní zápočtové požadavky stanovuje oborový didaktik, jemuž výstupy student odevzdává.
+Student si vybírá školu pro realizaci průběžné praxe sám, příp. po poradě s oborovým didaktikem, pokud možno z nabídky fakultních a spolupracujících škol.
+Student v průběhu průběžné praxe plní následující úkoly:
+-	v průběhu praxe se seznámí s organizací výchovně vzdělávací práce v ZŠ či SŠ, pedagogickou dokumentací a metodickým materiálem 
+-	zúčastní se dle pokynů mentora akcí školy a bude plnit další povinnosti
+-	během prvních týdnů průběžné praxe studenti pouze hospitují a tyto náslechy si zaznamenávají
+-	v následujících týdnech studenti vykonávají asistentské činnosti dle pokynů mentora, hospitují a realizují vlastní výstupy
+-	každý student realizuje na základě vlastní přípravy několik výstupů (s ohledem na velikost studentské skupiny). Každou přípravu je nutné několik dní předem konzultovat s mentorem a upravit ji podle připomínek. Je vhodné střídat různé typy aktivit. Ostatní studenti v tuto dobu svého kolegu hospitují a pozorování si zaznamenávají
+-	po náslechu a každé samostatné činnosti studenta proběhne rozbor mentora se studentem/ty
+","Předpokladem je konání praxí primárně na fakultních a spolupracujících zařízeních PřF UJEP. Organizačně, metodicky i kontrolně zajišťuje tuto praxi CPPV PřF UJEP.
+
+Cíle předmětu předpokládají úzkou spolupráci zkušeného učitele a studenta učitelství.
+-	Student se orientuje v základní terminologii z oblasti výchovy a vzdělávání, charakterizuje kvality a specifika dítěte školního věku a studenta SŠ, pracuje s kurikulárními dokumenty pro vzdělávání, teoreticky a zčásti prakticky zvládá plánování činností v ZŠ a SŠ po stránce obsahové (věcné) i metodické, má přehled o vedení třídní dokumentace. Orientuje se v základních koncepcích výchovy a alternativních edukačních programech. Charakterizuje základní požadavky na výkon učitelské profese, popíše pracovní činnosti a povinnosti učitele ZŠ a SŠ, význam sebereflexe pro profesní a osobní růst.
+","","","","","",A,N,N,"","","",N,N,"",0,"","",A,0,ZS,0,"","","",0,0,0
+CPPV,PPSS,2023,Souvislá pedagogická praxe na SŠ,Souvislá pedagogická praxe na SŠ,A,N,3,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","'RNDr. Milan Šmídl, Ph.D.'","'RNDr. Milan Šmídl, Ph.D.' (100)",3704,"","","","","","","","","","","","","","",N,0,HOD/TYD,3,TYD/SEM,0,HOD/TYD,"Obsahové zaměření průběžné pedagogické praxe je na pedagogickou práci s žáky na SŠ. Cílem souvislé praxe je
+navazovat a rozvíjet zkušenost získané v předešlých praxích, zvláště pak praxe souvislé na ZŠ a to směrem k
+samostatnému zvládání celého edukačního procesu, od přípravy, přes motivaci, realizaci, fixaci, až po evaluaci výsledků
+výuky. Praxe je nejprve vykonávána formou náslechů cvičného učitele (mentora), následně pak vlastními výstupy.
+Student bude hospitovat a vykonávat vlastní pedagogickou činnost v předmětu odpovídajícímu studijnímu programu
+MAIOR. Student vykoná praxi v délce 50 hodin vlastní pedagogické činnosti pod vedením a podle pokynů mentora
+praxe. Pedagogická praxe má doporučené rozložení činností: Minimálně 12 hodin hospitací a 24 hodin vlastní
+pedagogické činnosti dle příprav s rozborem výuky a následně asistentské činnosti do celkového počtu 50 hod
+pedagogické praxe.
+Výstupy, obsahovou náplň a konkrétní zápočtové požadavky stanovuje oborový didaktik, kterému výstupy student
+odevzdává a oborový didaktik uděluje zápočet.",Zápočet,NE,Kombinovaná,"- řádné absolvování praxe na školském zařízení
+- odevzdání elektronické verze portfolia z praxe do systému stag
+- odevzdání hodnocení mentorem praxe do systému stag","","","","","",Čeština,"",A,N,N,"","","",N,N,"",0,"","",A,0,ZS,0,"","","",0,0,0
+CPPV,DOUC,2023,Doučování,Doučování,A,A,2,NE,"","","","","","","","'RNDr. Jiří Králík, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'PaedDr. Milan Kubiatko, PhD.', 'RNDr. Milan Šmídl, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Jiří Králík, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'PaedDr. Milan Kubiatko, PhD.' (100), 'RNDr. Milan Šmídl, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","303, 425, 2776, 8021, 3704, 6384","","","","","","","","","","","","","","",A,0,HOD/TYD,2,HOD/TYD,0,HOD/TYD,"V rámci výběrového kurzu studenti doučují žáky a studenty základních nebo středních škol dle požadavků spolupracujících škol.   
+
+
+",Zápočet,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,N,"",0,"","","",0,LS,0,"","","",0,0,0
+CPPV,KKPP,2023,Klinická pedagogická praxe,Klinická pedagogická praxe,A,A,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","","","","",N,0,HOD/SEM,0,HOD/SEM,5,HOD/SEM,"",Zápočet,NE,Kombinovaná,"","","","","","",Čeština,"",A,N,N,"","","",N,A,"",0,"",Bc.,"",0,LS,12,"","","",12,0,0
+CPPV,KPP,2023,Klinická pedagogická praxe,Klinická pedagogická praxe,A,A,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","'FALTÝN, J., NĚMČÍKOVÁ, K., ZELENDOVÁ, E. Gramotnosti ve vzdělávání. Příručka pro učitele. 1. vyd. Praha:. ',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Alternativní vyučovací hodiny teoreticky i prakticky.) 1. vyd. Hradec. ',
+'ČAPEK, R. Pedagogická praxe pro studenty: (od hospitace k souvislé praxi). Hradec Králové: Gaudeamus, 2001. ISBN 80-7041-412-X. ',
+'ŠVEC, V. Klíčové dovednosti ve vyučování a výcviku. Brno: MU, 1998. ISBN 80-210-1937-9.',
+'ŠVEC, V. (ed.). Monitorování a rozvoj pedagogických dovedností. Brno: Paido, 2000. ISBN 80-85931-87-7. ',
+'PODLAHOVÁ, L. Pedagogická praxe. Olomouc: Univerzita Palackého, 1998. ',
+'ŠVEC, C., FIALOVÁ, H., ŠIMONÍK, O. Praktikum didaktických dovedností. 1. vyd. Brno: Masarykova univerzita. ',
+'TVRZOVÁ, I. A KOL. Praxe realizovaná při studiu oboru pedagogika. Praha, 2002. ',
+'MAŇÁK, J. AJ. Profesionální praktika z pedagogiky. 1. vyd. Brno: Masarykova univerzita, 1992. ISBN 80-210-0471-1.',
+'ŠTURMA, J. Školní pedagogika ? část I. Hradec Králové: GAUDEAMUS, 1996. ISBN 80-7041-121-X. '","","","",N,0,HOD/TYD,0,HOD/TYD,1,HOD/TYD,"",Zápočet,NE,Kombinovaná,"řádné absolvování praxe na školském zařízení
+odevzdání elektronické verze portfolia z praxe (IS STAG)
+odevzdání hodnocení mentorem praxe (IS STAG","Obsahové zaměření klinické pedagogické praxe je na pedagogickou práci s žáky na 2. stupni ZŠ a SŠ. Cílem praxe je
+postupné získávání praktických dovedností pod vedením mentora praxe, seznámení s úkoly, cíli a hlavními činnostmi
+pedagoga a školy. Seznámení se Školním vzdělávacím programem, se školskými dokumenty. Praxe je vykonávána formou
+náslechů cvičného učitele (mentora), reflexe denních činností, osvojováním si praktických dovedností z oblasti pedagogiky
+a didaktiky. Student bude hospitovat a vykonávat náslechové činnosti v předmětu matematika. Student vykoná praxi v délce
+14 hodin s převahou hospitační a náslechové činnosti a postupným začleňováním činností asistentských podle pokynů
+mentora praxe. Hodiny jsou rozborované.
+Rámec praxe tedy počty hodin a výstupy (portfolio z praxe + hodnocení mentorem praxe) jsou nastaveny z CPP, obsahovou
+náplň portfolio a hodnocení mentorem posuzuje oborový didaktik, kterému výstupy student odevzdává. Zápočet uděluje
+metodik CPP na podkladě souhlasného stanoviska oborového didaktika.
+Školské zařízení si po dohodě s oborovým didaktikem vybírá student samostatně.","","","","",Čeština,"",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,LS,42,"","","",36,1,5
+CPPV,KPPOB,2023,Observační pedagogická praxe,Observační pedagogická praxe,A,A,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","","","","'Jančaříková, K. a kol. Didaktické zásady v přírodovědném vzdělávání. Pedagogická fakulta UK Praha, 158 s, 2022. ISBN 9788076032897.',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Alternativní vyučovací hodiny teoreticky i prakticky.). Hradec Králové: Gaudeamus, 2002. ISBN 80-7041-8082-7.',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Od hospitace k souvislé praxi.). Pedagogická praxe pro studenty. (Od hospitace k souvislé praxi.), 2001. ISBN 80-7041-412-X.',
+'SLAVÍK, J., HAJEROVÁ MÜLLEROVÁ, L., SOUKUPOVÁ, P. Reflexe a hodnocení kvality výuky I. Plzeň: Západočeská univerzita v Plzni, 2020. ISBN 978-80-261-0920-4.',
+'KALHOUS, Z.; OBST, O. Školní didaktika. Praha: Portál, 2002. ISBN 80-7178-253-X.',
+'SLAVÍK, J., JANÍK, T., NAJVAR, P., KNECHT, P. Transdisciplinární didaktika: o učitelském sdílení znalostí a zvyšování kvality výuky napříč obory. BRNO: MU, 2017. ',
+'DYTRTOVÁ, R., KRHUTOVÁ, M. Učitel: příprava na profesi 1, 2009, Praha: Grada. ISBN 9788024728636. ',
+'ŠVEC, V. Klíčové dovednosti ve vyučování a výcviku. Brno: MU, 1998. ISBN 80-210-1937-9.',
+'ŠVEC, V. (ed.). Monitorování a rozvoj pedagogických dovedností. Brno: Paido,, 2000. ISBN 80-85931-87- 7.',
+'PODLAHOVÁ, L. Pedagogická praxe. (Průvodce pro současné studenty a budoucí učitele). Olomouc: Vydavatelství Univerzity Palackého,, 1998. ISBN 80-7067-793-7.',
+'Filová,H.,Šimoník,O.,Švec,V. Praktikum didaktických dovedností. Brno, 1996. ISBN 80-210-1365-6.',
+'Tvrzová, I. a kol. Praxe realizovaná při studiu obobru pedagogika. Praha, 2002. ',
+'Maňák, J. Profesionální praktika z pedagogiky. Brno, 1998. ',
+'ŠTURMA, J. Školní pedagogika - část I. Hradec Králové: GAUDEAMUS,, 1996. ISBN 80-7041-121-X.'","","","",N,0,HOD/TYD,1,TYD/SEM,0,HOD/TYD,"Cílem předmětu Observační pedagogická praxe je bližší seznámení se se školským prostředím a životem školy, tj. se školskými zařízeními a se specifickými potřebami a zvláštnostmi jednotlivých skupin žáků školských zařízení, včetně seznámení se s vyučovacími metodami a organizačními formami práce ve školských zařízeních.",Zápočet,NE,Kombinovaná,"- řádné absolvování praxe na školském zařízení - 1 týden (13 hod) (možnost absolvovat po celou dobu semestru na různých školách)
+
+- odevzdání elektronické verze Deníku observační praxe (IS STAG)
+
+- odevzdání hodnocení studenta mentorem praxe (IS STAG)
+","Student vykoná praxi v délce 13 hodin tvořenou rozborovaným stínováním mentora praxe a dalších přidělených pedagogických pracovníků (např. výchovný poradce, školní metodik prevence, školní speciální pedagog, školní psycholog atd.) a přednášek odborníků z praxe.
+Student si po dohodě s oborovým didaktikem (MAIOR studijní program, příp. kombinace MAIOR i MINOR) vybírá školu pro realizaci observační praxe sám, přičemž se upřednostňuje výběr z nabídky fakultních a spolupracujících škol.
+","Cíle předmětu předpokládají úzkou spolupráci studenta učitelství se zkušenými učiteli a dalšími pedagogickými pracovníky. 
+Předpokladem je konání praxí primárně na fakultních a spolupracujících zařízeních PřF UJEP. Organizačně, metodicky i kontrolně zajišťuje tuto praxi CPPV PřF UJEP.
+","","","","","",A,N,N,"","","",N,A,"",0,"",Bc.,A,0,LS,1,"","","",1,0,0
+CPPV,PPOB,2023,Observační pedagogická praxe,Observační pedagogická praxe,A,A,1,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Jan Krejčí, Ph.D.', 'Mgr. Monika Pelikánová', 'PhDr. Ing. Silvie Svobodová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","'RNDr. Eva Hejnová, Ph.D.' (100), 'PhDr. Magdalena Krátká, Ph.D.' (100), 'RNDr. Jan Krejčí, Ph.D.' (100), 'Mgr. Monika Pelikánová' (100), 'PhDr. Ing. Silvie Svobodová, Ph.D.' (100), 'Mgr. Petr Trahorsch, Ph.D.' (100)","301, 425, 2776, 8744, 8952, 6384","","","","","","","","","","","'Jančaříková, K. a kol. Didaktické zásady v přírodovědném vzdělávání. Pedagogická fakulta UK Praha, 158 s, 2022. ISBN 9788076032897.',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Alternativní vyučovací hodiny teoreticky i prakticky.). Hradec Králové: Gaudeamus, 2002. ISBN 80-7041-8082-7.',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Alternativní vyučovací hodiny teoreticky i prakticky.) 1. vyd. Hradec. ',
+'ČAPEK, R. Pedagogická praxe pro studenty. (Od hospitace k souvislé praxi.). Pedagogická praxe pro studenty. (Od hospitace k souvislé praxi.), 2001. ISBN 80-7041-412-X.',
+'ČAPEK, R. Pedagogická praxe pro studenty: (od hospitace k souvislé praxi). Hradec Králové: Gaudeamus, 2001. ISBN 80-7041-412-X. ',
+'SLAVÍK, J., HAJEROVÁ MÜLLEROVÁ, L., SOUKUPOVÁ, P. Reflexe a hodnocení kvality výuky I. Plzeň: Západočeská univerzita v Plzni, 2020. ISBN 978-80-261-0920-4.',
+'KALHOUS, Z.; OBST, O. Školní didaktika. Praha: Portál, 2002. ISBN 80-7178-253-X.',
+'SLAVÍK, J., JANÍK, T., NAJVAR, P., KNECHT, P. Transdisciplinární didaktika: o učitelském sdílení znalostí a zvyšování kvality výuky napříč obory. BRNO: MU, 2017. ',
+'DYTRTOVÁ, R., KRHUTOVÁ, M. Učitel: příprava na profesi 1, 2009, Praha: Grada. ISBN 9788024728636. ',
+'ŠVEC, V. Klíčové dovednosti ve vyučování a výcviku. Brno: MU, 1998. ISBN 80-210-1937-9.',
+'ŠVEC, V. (ed.). Monitorování a rozvoj pedagogických dovedností. Brno: Paido,, 2000. ISBN 80-85931-87- 7.',
+'ŠVEC, V. (ed.). Monitorování a rozvoj pedagogických dovedností. Brno: Paido, 2000. ISBN 80-85931-87-7. ',
+'PODLAHOVÁ, L. Pedagogická praxe. Olomouc: Univerzita Palackého, 1998. ',
+'PODLAHOVÁ, L. Pedagogická praxe. (Průvodce pro současné studenty a budoucí učitele). Olomouc: Vydavatelství Univerzity Palackého,, 1998. ISBN 80-7067-793-7.',
+'Filová,H.,Šimoník,O.,Švec,V. Praktikum didaktických dovedností. Brno, 1996. ISBN 80-210-1365-6.',
+'ŠVEC, C., FIALOVÁ, H., ŠIMONÍK, O. Praktikum didaktických dovedností. 1. vyd. Brno: Masarykova univerzita. ',
+'Tvrzová, I. a kol. Praxe realizovaná při studiu obobru pedagogika. Praha, 2002. ',
+'TVRZOVÁ, I. A KOL. Praxe realizovaná při studiu oboru pedagogika. Praha, 2002. ',
+'Maňák, J. Profesionální praktika z pedagogiky. Brno, 1998. ',
+'MAŇÁK, J. AJ. Profesionální praktika z pedagogiky. 1. vyd. Brno: Masarykova univerzita, 1992. ISBN 80-210-0471-1.',
+'ŠTURMA, J. Školní pedagogika - část I. Hradec Králové: GAUDEAMUS,, 1996. ISBN 80-7041-121-X.',
+'ŠTURMA, J. Školní pedagogika ? část I. Hradec Králové: GAUDEAMUS, 1996. ISBN 80-7041-121-X. '","","","",N,0,HOD/TYD,1,TYD/SEM,0,HOD/TYD,"Cílem předmětu Observační pedagogická praxe je bližší seznámení se se školským prostředím a životem školy, tj. se školskými zařízeními a se specifickými potřebami a zvláštnostmi jednotlivých skupin žáků školských zařízení, včetně seznámení se s vyučovacími metodami a organizačními formami práce ve školských zařízeních.",Zápočet,NE,Kombinovaná,"- řádné absolvování praxe na školském zařízení - 1 týden (13 hod) (možnost absolvovat po celou dobu semestru na různých školách)
+
+- odevzdání elektronické verze Deníku observační praxe (IS STAG)
+
+- odevzdání hodnocení studenta mentorem praxe (IS STAG)
+","Student vykoná praxi v délce 13 hodin tvořenou rozborovaným stínováním mentora praxe a dalších přidělených pedagogických pracovníků (např. výchovný poradce, školní metodik prevence, školní speciální pedagog, školní psycholog atd.) a přednášek odborníků z praxe.
+Student si po dohodě s oborovým didaktikem (MAIOR studijní program, příp. kombinace MAIOR i MINOR) vybírá školu pro realizaci observační praxe sám, přičemž se upřednostňuje výběr z nabídky fakultních a spolupracujících škol.
+","Cíle předmětu předpokládají úzkou spolupráci studenta učitelství se zkušenými učiteli a dalšími pedagogickými pracovníky. 
+Předpokladem je konání praxí primárně na fakultních a spolupracujících zařízeních PřF UJEP. Organizačně, metodicky i kontrolně zajišťuje tuto praxi CPPV PřF UJEP.
+","","","","","",A,N,N,"","","",A,N,"",0,"",Bc.,A,0,LS,1,"","","",1,0,0
+CPPV,PPZS,2023,Souvislá ped. praxe na 2. stupni ZŠ,Souvislá pedagogická praxe na 2. stupni ZŠ,N,A,3,NE,"","'doc. PhDr. Kateřina Jančaříková, Ph.D.'","'doc. PhDr. Kateřina Jančaříková, Ph.D.'",8441,"","","","'RNDr. Milan Šmídl, Ph.D.'","'RNDr. Milan Šmídl, Ph.D.' (100)",3704,"","","","","","","","","","","","","","",N,0,HOD/TYD,3,TYD/SEM,0,HOD/TYD,"Obsahové zaměření průběžné pedagogické praxe je na pedagogickou práci s žáky na 2. stupni ZŠ. Cílem souvislé praxe
+je navazovat a rozvíjet zkušenost získané v předešlých praxích směrem k samostatnému zvládnutí celého edukačního
+procesu, od přípravy, přes motivaci, realizaci, fixaci, až po evaluaci výsledků výuky.
+Praxe je nejprve vykonávána formou náslechů cvičného učitele (mentora), reflexí denních činností, následně pak
+vlastními výstupy. Student bude hospitovat a vykonávat vlastní pedagogickou činnost v předmětu odpovídajícímu
+studijnímu programu MAIOR
+Student vykoná praxi v délce 50 hodin vlastní pedagogické činnosti pod vedením a podle pokynů mentora praxe.
+Pedagogická praxe má doporučené rozložení činností: Minimálně 6 hodin hospitací a 16 hodin vlastní pedagogické
+činnosti dle příprav s rozborem výuky a následně asistentské činnosti do celkového počtu 50 hod pedagogické praxe.
+Rámec praxe tedy počty hodin a výstupy (pedagogický deník/ portfolio z praxe + hodnocení mentorem praxe) jsou
+nastaveny z CPPV, obsahovou náplň a konkrétní zápočtové požadavky stanovuje oborový didaktik, kterému výstupy
+student odevzdává a oborový didaktik uděluje zápočet.",Zápočet,NE,Kombinovaná,"- řádné absolvování praxe na školském zařízení
+- odevzdání elektronické verze portfolia z praxe do systému stag
+- odevzdání hodnocení mentorem praxe do systému stag","","","","","",Čeština,"",A,N,N,"","","",N,N,"",0,"","",A,0,LS,0,"","","",0,0,0
