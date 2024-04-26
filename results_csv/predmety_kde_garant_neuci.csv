@@ -1,57 +1,131 @@
-katedra,zkratka,garanti,garantiUcitIdno,prednasejici,prednasejiciUcitIdno,cvicici,cviciciUcitIdno,seminarici,seminariciUcitIdno
-KBI,0033,'Mgr. Ivan Táborský',3797,"",,"",,"",
-KMA,AVD1,'Mgr. Michael Tintěra',8751,"",,"",,"'Mgr. Lucie Loukotová', 'Mgr. Michael Tintěra'","3188,8751"
-KCH,B106,"'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'",3066,"'Mgr. Petr Jošt, Ph.D.', 'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'","8815,3066","",,"",
-KCH,B307,"'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'",3066,"'RNDr. Marian Rucki, Ph.D.', 'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'","8922,3066","",,"",
-KCH,BK106,"'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'",3066,"'Mgr. Petr Jošt, Ph.D.', 'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'","8815,3066","",,"",
-KBI,BK219,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",
-KCH,BK307,"'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'",3066,"'RNDr. Marian Rucki, Ph.D.', 'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'","8922,3066","",,"",
-KBI,BP219,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",
-KFY,INSAN,"'prof. Ing. Pavel Janoš, CSc.'",550,"'prof. Ing. Zdeňka Kolská, Ph.D.'",332,"",,"",
-KFY,K206,"'doc. RNDr. Marek Malý, Ph.D.', 'Mgr. Dalibor Sedlák'","304,612","",,'Mgr. Dalibor Sedlák',612,"",
-KBI,K301,"'prof. doc. RNDr. Milan Gryndler, CSc.', 'RNDr. Lenka Němcová, CSc.'","3661,283","'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"'RNDr. Lenka Němcová, CSc.'",283,"'RNDr. Lenka Němcová, CSc.'",283
-KFY,K304,"'Mgr. Pavla Hofmanová', 'prof. RNDr. Jan Malý, DrSc.'","263,1537","'prof. RNDr. Jan Malý, DrSc.'",1537,'Mgr. Pavla Hofmanová',263,'Mgr. Pavla Hofmanová',263
-KBI,K403,'Mgr. Ivan Táborský',3797,"",,"'Bc. Jaroslav Bažant', 'Mgr. Ivan Táborský'","3798,3797","",
-KBI,K405,"'doc. RNDr. Karel Kubát, CSc.'",279,"",,"",,"",
-KBI,K410,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Markéta Gloneková, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","8526,279","",,"",
-KCH,K501,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'RNDr. Ľuboš Vrtoch, PhD., Ph.D.'","2227,4117","'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'RNDr. Milan Šmídl, Ph.D.', 'RNDr. Ľuboš Vrtoch, PhD., Ph.D.'","2227,3704,4117","'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'RNDr. Milan Šmídl, Ph.D.'","2227,3704","",
-KMA,KAVD1,'Mgr. Michael Tintěra',8751,"",,"",,"'Mgr. Lucie Loukotová', 'Mgr. Michael Tintěra'","3188,8751"
-KBI,KB219,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",
-KBI,KB405,"'doc. RNDr. Karel Kubát, CSc.'",279,"",,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",
-KCH,KPPP,"'PhDr. Lukáš Círus, Ph.D.'",1610,"",,"",,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KI,KPPP,"'PhDr. Lukáš Círus, Ph.D.'",1610,"",,"",,"'RNDr. Jan Krejčí, Ph.D.'",2776
-KI,KPSPN,"'PhDr. Lukáš Círus, Ph.D.'",1610,"",,"",,"'RNDr. Jan Krejčí, Ph.D.'",2776
-KCH,KPSPN,"'PhDr. Lukáš Círus, Ph.D.'",1610,"",,"",,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KFY,KPSPP,"'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.'","301,425","",,"",,"'RNDr. Eva Hejnová, Ph.D.', 'RNDr. Jiří Králík, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.'","301,303,425"
-KFY,KSBP,"'RNDr. Martin Kuřil, Ph.D.', 'doc. RNDr. Michal Varady, Ph.D.'","264,615","",,"",,"'doc. RNDr. Michal Varady, Ph.D.'",615
-KMA,LOG,'Ing. Vladimír Balach',4691,"'Ing. Vladimír Balach', 'Ing. Daniela Vysloužilová, Ph.D.'","4691,1569","",,"",
-KCH,M112,"'doc. Ing. Jaromír Cais, Ph.D.'",4951,"'doc. Ing. Jaromír Cais, Ph.D.', 'Mgr. Klára Caisová, Ph.D.'","4951,6633","'doc. Ing. Jaromír Cais, Ph.D.', 'Mgr. Klára Caisová, Ph.D.'","4951,6633","",
-KCH,M118,"'doc. Ing. Jiří Orava, Ph.D.'",8521,"",,"'doc. Ing. Jaromír Lederer, CSc.', 'doc. Ing. Jiří Orava, Ph.D.', 'Ing. Lucie Oravová, Ph.D.'","1543,8521,8200","",
-KCH,M201,"'doc. RNDr. Pavel Vojtíšek, CSc.'",8421,"'RNDr. Václav Šícha, Ph.D.', 'doc. RNDr. Pavel Vojtíšek, CSc.'","4310,8421","'RNDr. Václav Šícha, Ph.D.', 'doc. RNDr. Pavel Vojtíšek, CSc.'","4310,8421","",
-KBI,MA200,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",
-KBI,MA203,"'Ing. Handrij Härtel, Ph.D.'",4265,"",,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",
-KBI,MA300,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",,"",
-KBI,MA303,"'Ing. Handrij Härtel, Ph.D.'",4265,"",,"'Ing. Handrij Härtel, Ph.D.', 'Mgr. Diana Holcová, Ph.D.'","4265,3212","",
-KBI,MA401,"'doc. RNDr. Karel Kubát, CSc.'",279,"",,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",
-KBI,ME100,"'doc. MUDr. Vladislav Mareš, DrSc.'",281,"'doc. MUDr. Vladislav Mareš, DrSc.', 'Mgr. Marian Rupert'","281,5275",'Mgr. Marian Rupert',5275,"",
-KBI,N049,"'RNDr. Tomáš Vaněk, CSc.'",4390,"",,"'Mgr. Hana Auer Malinská, Ph.D.', 'RNDr. Tomáš Vaněk, CSc.'","5471,4390","",
-KCH,N300,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'prof. Ing. Pavel Janoš, CSc.'","2227,550","",,"",,"",
-KCH,N307,"'prof. Ing. Josef Šedlbauer, Ph.D.'",1775,"'prof. Ing. Zdeňka Kolská, Ph.D.', 'prof. Ing. Josef Šedlbauer, Ph.D.'","332,1775","'prof. Ing. Zdeňka Kolská, Ph.D.', 'prof. Ing. Josef Šedlbauer, Ph.D.'","332,1775","",
-KCH,N308,"'prof. Ing. Pavel Janoš, CSc.'",550,"'Ing. Václav Dušek', 'prof. Ing. Pavel Janoš, CSc.'","1115,550","",,"",
-KCH,N311,"'prof. Ing. Pavel Janoš, CSc.'",550,"",,"'Mgr. Jakub Ederer, Ph.D.', 'prof. Ing. Pavel Janoš, CSc.', 'Ing. Sylvie Kříženecká, Ph.D.', 'RNDr. Ľuboš Vrtoch, PhD., Ph.D.'","5449,550,921,4117","",
-KCH,N320,"'prof. Ing. Pavel Janoš, CSc.'",550,"",,"'prof. Ing. Pavel Janoš, CSc.', 'doc. Dr. Ing. Pavel Kuráň'","550,7015","",
-KCH,N406,"'prof. Ing. Pavel Janoš, CSc.'",550,"'prof. Ing. Pavel Janoš, CSc.', 'Ing. Sylvie Kříženecká, Ph.D.'","550,921","'Ing. Sylvie Kříženecká, Ph.D.', 'RNDr. Ľuboš Vrtoch, PhD., Ph.D.'","921,4117","",
-KCH,N409,"'prof. Ing. Pavel Janoš, CSc.'",550,"",,"'prof. Ing. Pavel Janoš, CSc.', 'doc. Ing. Pavel Krystyník, Ph.D.', 'Ing. Sylvie Kříženecká, Ph.D.', 'doc. Ing. Josef Trögl, Ph.D.', 'RNDr. Ľuboš Vrtoch, PhD., Ph.D.'","550,4273,921,2065,4117","",
-KBI,P202,"'doc. RNDr. Karel Kubát, CSc.'",279,"",,"",,"",
-KBI,P301,"'prof. doc. RNDr. Milan Gryndler, CSc.', 'RNDr. Lenka Němcová, CSc.'","3661,283","'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"'RNDr. Lenka Němcová, CSc.'",283,"'RNDr. Lenka Němcová, CSc.'",283
-KCH,P312,"'doc. Ing. Josef Seják, CSc.'",179,"'Ing. Johana Jackovičová, Ph.D.', 'Ing. Jiří Moravec, Ph.D., MBA'","5131,2527","'Ing. Johana Jackovičová, Ph.D.'",5131,"",
-KBI,P421,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Markéta Gloneková, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","8526,279","",,"",
-KBI,PB219,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",
-KBI,PB405,"'doc. RNDr. Karel Kubát, CSc.'",279,"",,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279","",
-KGEO,PD103,'Ing. Martin Raška',1894,"'doc. RNDr. Martin Balej, Ph.D.', 'Ing. Martin Raška'","313,1894","",,"",
-KGEO,PD105,"'doc. PhDr. RNDr. Jan Daniel Bláha, Ph.D.', 'doc. Mgr. Pavel Raška, Ph.D.'","3452,1434","'doc. RNDr. Jiří Anděl, CSc.', 'doc. PhDr. RNDr. Jan Daniel Bláha, Ph.D.'","312,3452","",,"",
-KFY,PM,"'prof. RNDr. Rudolf Hrach, DrSc.', 'doc. RNDr. Filip Moučka, Ph.D.'","69,3222","'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","1803,304,3222,3521","'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","1803,304,3222,3521","",
-KFY,PSPP,"'RNDr. Eva Hejnová, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.'","301,425","",,"",,"'RNDr. Eva Hejnová, Ph.D.', 'RNDr. Jiří Králík, Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.'","301,303,425"
-KGEO,PSPPN,"'PhDr. Lukáš Círus, Ph.D.'",1610,"",,"",,"'RNDr. Silvie Rita Kučerová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","3528,6384"
-KGEO,RSPP,"'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Silvie Rita Kučerová, Ph.D.'","425,3528","",,"",,"'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Silvie Rita Kučerová, Ph.D.', 'Mgr. Petr Trahorsch, Ph.D.'","425,3528,6384"
-KMA,VFIN,'Ing. Lucie Kopáčková',6120,"'Ing. Lucie Kopáčková', 'doc. Ing. Alena Maaytová, Ph.D.'","6120,6773","",,"",
+garantiUcitIdno,katedra,zkratka,prednasejiciUcitIdno,cviciciUcitIdno,seminariciUcitIdno,jednotekPrednasek,jednotekCviceni,jednotekSeminare
+1503,KBI,KIT2,,,,0,12,0
+2939,KBI,0023,,,,2,3,0
+264,KFY,KSBP,,,615,0,0,4
+264,KFY,KSBP,,,615,0,0,4
+278,KBI,N007,,,,0,2,0
+8441,KI,PPSS,,2776,,0,3,0
+69,KFY,PM,"1803,304,3222,3521","1803,304,3222,3521",,2,3,0
+69,KFY,PM,"1803,304,3222,3521","1803,304,3222,3521",,2,3,0
+1610,KI,KPPP,,,2776,0,0,13
+8512,KBI,BK333,930,930,,8,8,0
+1064,KCH,M104,,,,2,0,0
+930,KBI,P210,,,,3,3,0
+1983,KBI,BP201,,,,3,0,0
+5471,KBI,P526,280,4472,,2,1,0
+8441,KBI,PPZS,,8952,,0,3,0
+8441,CPPV,PPOB,,"301,425,2776,8744,8952,6384",,0,1,0
+304,KFY,K206,,612,,0,8,0
+304,KFY,K206,,612,,0,8,0
+1064,KCH,N411,,"4226,429",,0,1,0
+650,KI,OOD,,,,1,1,0
+650,KI,LTP,,,,0,0,12
+5856,KGEO,B101,,3188,,0,1,0
+8441,KMA,PPZS,,425,,0,3,0
+1610,KCH,KPSPN,,,"8744,3704",0,0,4
+8441,CPPV,KKPP,,,"301,425,2776,8744,8952,6384",0,0,5
+308,KFY,M302,4680,,,3,0,0
+930,KBI,K201,,,,8,12,0
+3553,CNB,PTVN,4587,4587,,1,1,0
+"2227,550",KCH,N300,,,,0,3,0
+"2227,550",KCH,N300,,,,0,3,0
+8441,CPPV,PPSS,,3704,,0,3,0
+1610,KGEO,PSPPN,,,"3528,6384",0,0,1
+279,KBI,P202,,,,2,2,0
+2227,KCH,K507,,,3704,0,6,0
+8441,KMA,PPSS,,425,,0,3,0
+615,KFY,M303,79,79,,2,1,0
+283,KBI,N002,,,,0,2,0
+3704,KCH,N002,,,,0,1,0
+1434,KGEO,PD105,"312,3452",,,18,0,0
+1434,KGEO,PD105,"312,3452",,,18,0,0
+8441,CPPV,KPP,,,"301,425,2776,8744,8952,6384",0,0,1
+8441,KBI,N104,,283,,0,2,0
+8441,KGEO,PPZS,,"3528,6384",,0,3,0
+8441,KMA,PPP,,,425,0,0,3
+8441,KBI,PSPPN,,,8952,0,0,1
+8441,KBI,KPSPP,,,8952,0,0,3
+8438,KMA,M400,,,,0,2,0
+8441,KBI,KN104,,283,,0,10,0
+179,KCH,P312,"5131,2527",5131,,2,1,0
+279,KBI,K405,,,,0,2,0
+8987,KMA,KMA3,8438,8438,,8,8,0
+8018,KBI,P300,,,,0,1,0
+1644,KGEO,M107,5457,8036,,2,2,0
+1503,KBI,ICT2,,,,0,2,0
+8441,CPPV,APP,,,"301,425,2776,8744,8952,6384",0,0,1
+1064,KCH,N113,,8946,,0,2,0
+425,KMA,M105,,,,0,2,0
+2227,KCH,K101,3176,,,4,4,0
+8441,KBI,PSPP,,,8952,0,0,1
+8441,KBI,PPSS,,8952,,0,3,0
+1543,KCH,P402,,,,2,0,0
+8441,CPPV,PPP,,,8952,0,0,3
+8441,KBI,KB108,,283,,0,10,0
+283,KBI,K205,,,,0,2,0
+8441,KBI,PB108,,283,,0,2,0
+8441,KCH,PPP,,,"8744,3704",0,0,3
+8441,KCH,PPZS,,"8744,3704",,0,3,0
+8441,KFY,PPSS,,301,,0,3,0
+283,KBI,K204,,,,0,8,0
+930,KBI,K607,,,,4,5,0
+1064,KCH,P522,,"4226,429",,0,1,0
+251,KI,KODT,,,,0,0,8
+267,KMA,K103,,1108,,0,16,0
+8441,KI,PPZS,,2776,,0,3,0
+8441,KGEO,PPSS,,"3528,6384",,0,3,0
+312,KGEO,B406,7684,7684,,1,1,0
+930,KBI,P609,,,,2,0,0
+8441,CPPV,PPZS,,3704,,0,3,0
+5754,KPRF,K103,,,,0,2,0
+1610,KCH,KPPP,,,"8744,3704",0,0,13
+1610,KI,KPSPN,,,2776,0,0,4
+304,KFY,K215,5958,5958,,2,8,0
+1503,KBI,IT2,,,,0,2,0
+930,KBI,P618,,,,3,3,0
+8441,KBI,N202,,283,,0,2,0
+8441,KCH,PPSS,,"8744,3704",,0,3,0
+650,KI,KOOD,,,,2,4,2
+1064,KCH,N306,,"4226,429",,0,1,0
+1983,KBI,BK201,,,,6,0,0
+4680,KFY,MECH,613,7640,,3,2,0
+8441,KFY,PPZS,,303,,0,3,0
+1064,KCH,M109,,8946,,0,2,0
+3797,KBI,0033,,,,0,3,0
+8512,KBI,BP333,930,930,,2,2,0
+1434,KPRF,0101,,,,2,0,0
+8441,KBI,KPSPN,,,8952,0,0,4
+8441,KBI,KB112,,283,,0,4,0
+1064,KCH,NA02,429,,,2,0,0
+8441,CPPV,KAPP,,,"301,425,2776,8744,8952,6384",0,0,1
+1064,KCH,N407,429,,,2,0,0
+308,KFY,VFT,8739,,,2,0,0
+305,KFY,K319,"3222,615","3222,615",,12,4,0
+425,KMA,MK205,,,,0,3,0
+8441,CPPV,KPPOB,,"301,425,2776,8744,8952,6384",,0,1,0
+267,KMA,K214,"261,3188","261,3188",,2,6,0
+3661,KBI,K604,,,,0,6,0
+425,KMA,M104,,,,0,2,0
+280,KBI,P615,8512,8512,,3,2,0
+301,KFY,KPSPA,,1552,,0,12,0
+1983,KBI,P201,,,,3,0,0
+8441,KBI,PPP,,,8952,0,0,3
+8441,KGEO,PPP,,,"3528,6384",0,0,3
+264,KMA,K213,"9489,5205","9489,5205",,4,8,0
+8441,KBI,KN202,,283,,0,10,0
+4680,KFY,KMECH,613,7640,,12,8,0
+8441,KFY,PPP,,,303,0,0,3
+4117,KCH,K605,,,,0,20,0
+429,KCH,P202,,4226,,0,3,0
+2384,KFY,K620,308,,,12,0,0
+423,KFY,K519,,4681,,0,12,0
+1434,KGEO,PD104,1644,,,18,0,0
+1434,KGEO,PD104,1644,,,18,0,0
+8441,KBI,KPPP,,,8952,0,0,13
+2776,KI,BTE,,,,1,2,0
+283,KBI,K414,,,,0,5,0
+650,KI,KLTP,,,,0,0,4
+8441,KI,PPP,,,2776,0,0,3
+8441,CPPV,KPPP,,,8952,0,0,13
+550,KFY,INSAN,332,,,2,0,0
+8441,KBI,PB112,,283,,0,1,0
