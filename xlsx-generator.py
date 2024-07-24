@@ -1,8 +1,9 @@
 import polars as pl
+from typing import Tuple, Dict, List
+from io import StringIO
 
-def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, manual_login:tuple = None): # manual_login formát: (jméno, heslo)
+def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, manual_login:Tuple[str, str] = None) -> 'StringIO': # manual_login formát: (jméno, heslo)
     import requests
-    from io import StringIO
     import os
     from dotenv import load_dotenv
 
@@ -37,22 +38,22 @@ def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, manual_lo
     return wrap
 
 # Manuální login override (technicky underride ale meh) pro testování
-def login_correction(manual_login:tuple): #Testování, zda tuple má dva prvky a ty prvky zda jsou stringy
-
-    if manual_login == None:
-        return manual_login
-
-    try:
-        assert isinstance(manual_login[0], str)
-        assert isinstance(manual_login[1], str)
-    except:
-        auth = None
+def login_correction(manual_login:Tuple[str, str]) -> Tuple[str, str] | None:
+    if not isinstance(manual_login[0], str) or not isinstance(manual_login[1], str) or manual_login == None:
+        return None
     else:
-        auth = (manual_login[0], manual_login[1])
-    finally:
-        return auth
+        return (manual_login[0], manual_login[1])
 
-def type_check(dataframe1:"pl.DataFrame", dataframe2:"pl.DataFrame") -> dict:
+def type_check(dataframe1:"pl.DataFrame", dataframe2:"pl.DataFrame") -> Dict[pl.DataType, List[str]]:
+    """Checks if there are type differences between two dataframes. Created to fix type mismatches between two dataframes with same columns.
+
+    Args:
+        dataframe1 (pl.DataFrame): The "example" dataframe. The columns in the other df are converted to types of this dataframe.
+        dataframe2 (pl.DataFrame): The corrected dataframe.
+
+    Returns:
+        Dict[pl.DataType, List[str]]: Dictionary in format: {type to convert to : names of columns to convert}
+    """
     types1 = dataframe1.dtypes
     types2 = dataframe2.dtypes
     problems = {}
@@ -65,31 +66,42 @@ def type_check(dataframe1:"pl.DataFrame", dataframe2:"pl.DataFrame") -> dict:
 
     return problems
 
-def katedra(katedra:str, ticket:str, auth:tuple=None) -> None:
+def get_academic_year() -> int: #UNTESTED
+    from datetime import datetime
+
+    cur_date = datetime.today()
+    cur_year = cur_date.year
+
+    if cur_date.month < 8:
+        cur_year -= 1
+    
+    return cur_year
+
+def katedra(katedra:str, ticket:str, auth:tuple=None, year:str | None = None) -> None:
     #import polars as pl
+
+    if year == None:
+        year = str(get_academic_year())
 
     # Testovací data
     # DATA REDIGOVÁNA (nebudu se doxovat)
     params_rozvrh = {
-        "stagUser": "F23112",
+        "stagUser": "F23112", # Fix this
         "semestr":"%",
         "vsechnyCasyKonani":"false",
         "jenRozvrhoveAkce":"true",
         "vsechnyAkce":"false",
         "jenBudouciAkce":"false",
         "lang":"cs",
-        "katedra":"KI",
-        "rok":"2023"
+        "katedra":katedra,
+        "rok":year
     }
     params_predmety = {
         "lang":"cs",
-        "katedra":"KI",
+        "katedra":katedra,
         "jenNabizeneECTSPrijezdy":"false",
-        "rok":"2023"
+        "rok":year
     }
-
-    ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
-    auth = ("st101885", "x0301093100")
 
     # Side note: Obecně čtení v pythonu se silně nelíbí když neexistujicí složky kam maj chodit...
     # Excel rozvrhy funguje jen s validním přihlášením
@@ -100,10 +112,18 @@ def katedra(katedra:str, ticket:str, auth:tuple=None) -> None:
     excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
     excel_predmety.write_csv("source_tables/predmety_complete.csv")
 
-    excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}, ticket=ticket, manual_login=auth), separator=";")
-    excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
+    get_teachers()
 
-def null_out(dataframe:"pl.DataFrame", columns:list) -> "pl.DataFrame":
+def null_out(dataframe:"pl.DataFrame", columns:List[str]) -> "pl.DataFrame":
+    """Changes empty values to none, for int conversion purposes.
+
+    Args:
+        dataframe (pl.DataFrame): Source for the data.
+        columns (List[str]): Columns which should be nulled out.
+
+    Returns:
+        pl.DataFrame: Fixed dataframe.
+    """
     for column in columns:
         dataframe = dataframe.with_columns(
             pl.when(pl.col(column).str.len_chars() == 0)
@@ -114,30 +134,29 @@ def null_out(dataframe:"pl.DataFrame", columns:list) -> "pl.DataFrame":
         
     return dataframe
 
-def get_teachers():
+def get_teachers() -> None:
+    """A function to generate all teacher names and ID's. Saved directly to file, neccessary only for bombator purposes.
+    """
     excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}), separator=";")
     excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
 
-
-def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
-    #import polars as pl
+def fakulta(fakulta:str, ticket:str, auth:tuple = None, year:str | None = None) -> None:
 
     get_teachers()
 
-    # excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}, ticket=ticket, manual_login=auth), separator=";")
-    # excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
+    if year == None:
+        year = str(get_academic_year())
 
     params_kateder = {
         "typPracoviste":"K",
         "zkratka":"%",
         "nadrazenePracoviste":fakulta
     }
-    print(params_kateder["nadrazenePracoviste"])
+    #print(params_kateder["nadrazenePracoviste"])
     katedry_csv = pl.read_csv(fetch_csv(service="/ciselniky/getSeznamPracovist", params_plus=params_kateder, ticket=ticket, manual_login=auth), separator=";")
-    #print(katedry_csv.head())
     katedry_list = katedry_csv.to_series(2)
     katedry_list = katedry_list.to_list()
-    print(katedry_list)
+    #print(katedry_list)
 
 
     loner = katedry_list.pop(0)
@@ -150,13 +169,13 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
         "jenBudouciAkce":"false",
         "lang":"cs",
         "katedra":loner,
-        "rok":"2023"
+        "rok":year
     }
     params_predmety = {
         "lang":"cs",
         "fakulta":fakulta,
         "jenNabizeneECTSPrijezdy":"false",
-        "rok":"2023"
+        "rok":year
     }
 
     excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
@@ -206,7 +225,10 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None) -> None:
     excel_predmety.write_csv("source_tables/predmety_fakulta.csv")
     
 
-def ucitel(id_ucitele:int, ticket:str, auth:tuple=None):
+def ucitel(id_ucitele:int, ticket:str, auth:tuple=None, year:str | None = None):
+    if year == None:
+        year = str(get_academic_year())
+
     # Params
     params_rozvrh = {
         "stagUser": "F23112",
@@ -217,13 +239,13 @@ def ucitel(id_ucitele:int, ticket:str, auth:tuple=None):
         "jenBudouciAkce":"false",
         "lang":"cs",
         "ucitIdno":id_ucitele,
-        "rok":"2023"
+        "rok":year
     }
     params_predmety = {
         "lang":"cs",
         "ucitIdno":id_ucitele,
         "jenCoMajiVyuku":True,
-        "rok":"2023"
+        "rok":year
     }
 
     # Číselník
@@ -247,7 +269,7 @@ def ucitel(id_ucitele:int, ticket:str, auth:tuple=None):
         "lang":"cs",
         "katedra":loner,
         "jenNabizeneECTSPrijezdy":"false",
-        "rok":"2023"
+        "rok":year
     }
     
     katedra_predmety = pl.read_csv(fetch_csv("/predmety/getPredmetyByKatedraFullInfo", ticket, params_kat_predmety, auth), separator=";")
