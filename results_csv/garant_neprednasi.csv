@@ -1,307 +1,57 @@
-katedra,zkratka,garanti,garantiUcitIdno,prednasejici,prednasejiciUcitIdno
-KBI,0023,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"",
-KPRF,0101,"'doc. Mgr. Pavel Raška, Ph.D.'",1434,"",
-KGEO,0159,"'Mgr. Vladan Hruška, Ph.D.'",4222,"",
-KFY,AP15,"'Ing. Jiří Henych, Ph.D.'",5431,"'Ing. Jiří Henych, Ph.D.', 'doc. RNDr. Jaroslav Pavlík, CSc.'","5431,308"
-KI,ASK,"'RNDr. Jan Krejčí, Ph.D.'",2776,"'RNDr. Jan Krejčí, Ph.D.', 'Ing. Vojtěch Šindler'","2776,7152"
-KGEO,B105,"'RNDr. Ivan Farský, CSc.'",315,"'RNDr. Ivan Farský, CSc.', 'Mgr. Jiří Riezner, Ph.D.'","315,3164"
-KGEO,B106,"'Mgr. Kristýna Rybová, Ph.D.'",5856,"'doc. RNDr. Jiří Anděl, CSc.', 'Mgr. Kristýna Rybová, Ph.D.'","312,5856"
-KCH,B106,"'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'",3066,"'Mgr. Petr Jošt, Ph.D.', 'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'","8815,3066"
-KGEO,B107,"'Mgr. Jiří Riezner, Ph.D.'",3164,"'RNDr. Ivan Farský, CSc.', 'Mgr. Jiří Riezner, Ph.D.'","315,3164"
-KGEO,B200,"'RNDr. Ivan Farský, CSc.'",315,"'RNDr. Ivan Farský, CSc.', 'Mgr. Jiří Riezner, Ph.D.'","315,3164"
-KCH,B211,"'Ing. Magda Škvorová, Ph.D.'",2856,"'doc. RNDr. Jan Jirsák, Ph.D.', 'Ing. Magda Škvorová, Ph.D.'","2855,2856"
-KGEO,B214,"'Mgr. Martin Dolejš, Ph.D.'",4303,"'Mgr. Martin Dolejš, Ph.D.', 'Mgr. Jiří Riezner, Ph.D.'","4303,3164"
-KCH,B216,"'doc. RNDr. Vlastimil Dohnal, Ph.D.'",2227,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'doc. Ing. Pavel Krystyník, Ph.D.'","2227,4273"
-KCH,B217,"'doc. RNDr. Vlastimil Dohnal, Ph.D.'",2227,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'doc. Ing. Pavel Krystyník, Ph.D.'","2227,4273"
-KCH,B223,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KGEO,B303,"'doc. RNDr. Martin Balej, Ph.D.'",313,"'doc. RNDr. Martin Balej, Ph.D.', 'Mgr. Michal Forejt'","313,6387"
-KGEO,B305,"'doc. Mgr. Pavel Raška, Ph.D.'",1434,"'doc. Mgr. Pavel Raška, Ph.D.', 'Mgr. Jiří Riezner, Ph.D.'","1434,3164"
-KCH,B305,"'doc. RNDr. Vlastimil Dohnal, Ph.D.'",2227,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'doc. Ing. Pavel Krystyník, Ph.D.'","2227,4273"
-KCH,B306,"'doc. Ing. Jan Čermák, CSc.'",1064,"'doc. Ing. Jan Čermák, CSc.', 'RNDr. Thu Huong Nguyen Thi, Ph.D.'","1064,429"
-KCH,B307,"'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'",3066,"'RNDr. Marian Rucki, Ph.D.', 'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'","8922,3066"
-KGEO,B313,"'Mgr. Jiří Riezner, Ph.D.'",3164,"'doc. Mgr. Pavel Raška, Ph.D.', 'Mgr. Jiří Riezner, Ph.D.'","1434,3164"
-KCH,B315,"'doc. Ing. Pavel Krystyník, Ph.D.'",4273,"'doc. Ing. Pavel Krystyník, Ph.D.', 'Ing. Miroslav Richter, Ph.D.'","4273,199"
-KGEO,B406,"'doc. RNDr. Jiří Anděl, CSc.'",312,'Mgr. Zdeňka Smutná',7684
-KGEO,B413,"'Mgr. Vladan Hruška, Ph.D.'",4222,"'Mgr. Vladan Hruška, Ph.D.', 'Mgr. Kristýna Rybová, Ph.D.'","4222,5856"
-KGEO,B414,"'Mgr. Vladan Hruška, Ph.D.'",4222,"",
-KGEO,B609,"'doc. Mgr. Pavel Raška, Ph.D.'",1434,"'Mgr. Petr Meyer, Ph.D.', 'doc. Mgr. Pavel Raška, Ph.D.'","5855,1434"
-KI,BET,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"'RNDr. Jan Krejčí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.'","2776,2239"
-KI,BIG,"'Mgr. Jiří Fišer, Ph.D.'",251,"'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta'","251,650,4195"
-CNB,BIOM,"'Mgr. Jan Malý, Ph.D.'",280,"'prof. Ing. Zdeňka Kolská, Ph.D.', 'Mgr. Jan Malý, Ph.D.', 'Dominika Zofia Wróbel, Ph.D.'","332,280,4711"
-KBI,BK103,"'Mgr. Lukáš Bystrianský, Ph.D.'",5969,"'Mgr. Hana Auer Malinská, Ph.D.', 'Mgr. Lukáš Bystrianský, Ph.D.'","5471,5969"
-KCH,BK106,"'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'",3066,"'Mgr. Petr Jošt, Ph.D.', 'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'","8815,3066"
-KBI,BK122,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"'Mgr. Michaela Liegertová, Ph.D.', 'Mgr. Marian Rupert'","4472,5275"
-KCH,BK200,"'doc. Ing. Jan Čermák, CSc.'",1064,"'doc. Ing. Jan Čermák, CSc.', 'RNDr. Thu Huong Nguyen Thi, Ph.D.'","1064,429"
-KBI,BK201,"'RNDr. Oldřich Benada, CSc.'",1983,"",
-KFY,BK201,"'prof. RNDr. Ivo Nezbeda, DrSc.'",305,"'prof. RNDr. Ivo Nezbeda, DrSc.', 'RNDr. Martin Švec, Ph.D.'","305,613"
-KCH,BK201,"'prof. RNDr. Ivo Nezbeda, DrSc.'",305,"'prof. RNDr. Ivo Nezbeda, DrSc.', 'RNDr. Martin Švec, Ph.D.'","305,613"
-KBI,BK203,"'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"'Mgr. Lukáš Bystrianský, Ph.D.', 'prof. doc. RNDr. Milan Gryndler, CSc.'","5969,3661"
-KCH,BK211,"'Ing. Magda Škvorová, Ph.D.'",2856,"'doc. RNDr. Jan Jirsák, Ph.D.', 'Ing. Magda Škvorová, Ph.D.'","2855,2856"
-KCH,BK216,"'doc. RNDr. Vlastimil Dohnal, Ph.D.'",2227,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'doc. Ing. Pavel Krystyník, Ph.D.'","2227,4273"
-KCH,BK217,"'doc. RNDr. Vlastimil Dohnal, Ph.D.'",2227,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'doc. Ing. Pavel Krystyník, Ph.D.'","2227,4273"
-KBI,BK219,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279"
-KBI,BK221,"'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"'Mgr. Lukáš Bystrianský, Ph.D.', 'prof. doc. RNDr. Milan Gryndler, CSc.', 'RNDr. Lenka Němcová, CSc.'","5969,3661,283"
-KCH,BK223,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KBI,BK302,"'doc. RNDr. Jaromír Hajer, CSc.'",278,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.'","8018,278"
-KCH,BK305,"'doc. RNDr. Vlastimil Dohnal, Ph.D.'",2227,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'doc. Ing. Pavel Krystyník, Ph.D.'","2227,4273"
-KCH,BK306,"'doc. Ing. Jan Čermák, CSc.'",1064,"'doc. Ing. Jan Čermák, CSc.', 'RNDr. Thu Huong Nguyen Thi, Ph.D.'","1064,429"
-KCH,BK307,"'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'",3066,"'RNDr. Marian Rucki, Ph.D.', 'prof. PharmDr. Jana Žďárová-Karasová, Ph.D.'","8922,3066"
-KCH,BK315,"'doc. Ing. Pavel Krystyník, Ph.D.'",4273,"'doc. Ing. Pavel Krystyník, Ph.D.', 'Ing. Miroslav Richter, Ph.D.'","4273,199"
-KCH,BK323,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KBI,BK332,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'Ing. Markéta Gloneková, Ph.D.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","8526,2939"
-KBI,BK333,"'Mgr. Olga Šebestová Janoušková, Ph.D.'",8512,"'RNDr. Jan Ipser, CSc.'",930
-KBI,BK423,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.', 'Mgr. Karina Vašinová, Ph.D.'","2939,1546"
-KBI,BK609,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"'RNDr. Jan Ipser, CSc.', 'Mgr. Michaela Liegertová, Ph.D.'","930,4472"
-KBI,BK618,"'Mgr. Hana Auer Malinská, Ph.D.'",5471,"'Mgr. Hana Auer Malinská, Ph.D.', 'RNDr. Jan Ipser, CSc.'","5471,930"
-KBI,BP103,"'Mgr. Lukáš Bystrianský, Ph.D.'",5969,"'Mgr. Hana Auer Malinská, Ph.D.', 'Mgr. Lukáš Bystrianský, Ph.D.'","5471,5969"
-KBI,BP122,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"'Mgr. Michaela Liegertová, Ph.D.', 'Mgr. Marian Rupert'","4472,5275"
-KBI,BP201,"'RNDr. Oldřich Benada, CSc.'",1983,"",
-KBI,BP203,"'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"'Mgr. Lukáš Bystrianský, Ph.D.', 'prof. doc. RNDr. Milan Gryndler, CSc.'","5969,3661"
-KBI,BP219,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279"
-KBI,BP221,"'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"'Mgr. Lukáš Bystrianský, Ph.D.', 'prof. doc. RNDr. Milan Gryndler, CSc.', 'RNDr. Lenka Němcová, CSc.'","5969,3661,283"
-KBI,BP302,"'doc. RNDr. Jaromír Hajer, CSc.'",278,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.'","8018,278"
-KBI,BP332,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'Ing. Markéta Gloneková, Ph.D.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","8526,2939"
-KBI,BP333,"'Mgr. Olga Šebestová Janoušková, Ph.D.'",8512,"'RNDr. Jan Ipser, CSc.'",930
-KBI,BP423,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.', 'Mgr. Karina Vašinová, Ph.D.'","2939,1546"
-KBI,BP609,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"'RNDr. Jan Ipser, CSc.', 'Mgr. Michaela Liegertová, Ph.D.'","930,4472"
-KBI,BP618,"'Mgr. Hana Auer Malinská, Ph.D.'",5471,"'Mgr. Hana Auer Malinská, Ph.D.', 'RNDr. Jan Ipser, CSc.'","5471,930"
-KI,BTE,"'RNDr. Jan Krejčí, Ph.D.'",2776,"",
-KMA,CA2,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","261,5205"
-KMA,CAS,"'Mgr. Alena Černíková, MSc., Ph.D.'",9488,"'Mgr. Alena Černíková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.', 'Ing. Ondřej Vozár'","9488,4533,2220,9304"
-KFY,CHM1,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"'prof. RNDr. Pavla Čapková, DrSc.', 'doc. Ing. Martin Kormunda, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'doc. RNDr. Jaroslav Pavlík, CSc.'","3553,2384,306,308"
-KFY,CHM2,"'doc. Ing. Martin Kormunda, Ph.D.'",2384,"'doc. Ing. Martin Kormunda, Ph.D.', 'doc. RNDr. Jaroslav Pavlík, CSc.'","2384,308"
-KI,DIB,"'RNDr. Jan Krejčí, Ph.D.'",2776,"'RNDr. Jan Krejčí, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","2776,3521"
-KMA,DM1,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","261,425"
-KMA,DM3,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","261,425"
-KCH,E101,"'doc. Ing. Jan Čermák, CSc.'",1064,"'doc. Ing. Jan Čermák, CSc.', 'RNDr. Thu Huong Nguyen Thi, Ph.D.', 'RNDr. Václav Šícha, Ph.D.'","1064,429,4310"
-KI,EDAV,"",,"'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","3521,8514,2220"
-CNB,FCHM,"'prof. RNDr. Pavla Čapková, DrSc.'",3553,"'prof. RNDr. Pavla Čapková, DrSc.', 'prof. Ing. Zdeňka Kolská, Ph.D.'","3553,332"
-KFY,FCHM,"'prof. RNDr. Pavla Čapková, DrSc.'",3553,"'prof. RNDr. Pavla Čapková, DrSc.', 'prof. Ing. Zdeňka Kolská, Ph.D.'","3553,332"
-KI,GUI,"'RNDr. Petr Kubera, Ph.D.'",650,"'Ing. Mgr. Pavel Beránek', 'RNDr. Petr Kubera, Ph.D.'","6973,650"
-KCH,INSAN,"'Ing. Jiří Henych, Ph.D.'",5431,"'Ing. Jiří Henych, Ph.D.', 'prof. Ing. Zdeňka Kolská, Ph.D.'","5431,332"
-KFY,INSAN,"'prof. Ing. Pavel Janoš, CSc.'",550,"'prof. Ing. Zdeňka Kolská, Ph.D.'",332
-KCH,K101,"'doc. RNDr. Vlastimil Dohnal, Ph.D.'",2227,"'PharmDr. Markéta Švarcová, Ph.D.'",3176
-KMA,K101,"'PhDr. Magdalena Krátká, Ph.D.'",425,"'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuřil, Ph.D.'","425,264"
-KCH,K103,"'doc. RNDr. Vlastimil Dohnal, Ph.D.'",2227,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'doc. Ing. Pavel Krystyník, Ph.D.'","2227,4273"
-KMA,K115,'Mgr. Lucie Loukotová',3188,"'Mgr. Alena Černíková, MSc., Ph.D.', 'Mgr. Lucie Loukotová'","9488,3188"
-KBI,K201,"'RNDr. Jan Ipser, CSc.'",930,"",
-KMA,K206,"'RNDr. Veronika Pitrová, PhD., Ph.D.'",5205,"'doc. RNDr. Bohumír Opic, DrSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","8438,5205"
-KMA,K213,"'RNDr. Martin Kuřil, Ph.D.'",264,"'Mgr. Gabriel Kádek', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","9489,5205"
-KFY,K213,"'RNDr. Jiří Králík, Ph.D.'",303,"'RNDr. Jiří Králík, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","303,613"
-KMA,K214,"'PhDr. Jiří Přibyl, Ph.D.'",267,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","261,3188"
-KFY,K215,"'doc. RNDr. Marek Malý, Ph.D.'",304,"'Mgr. Martin Svoboda, Ph.D.'",5958
-KMA,K215,"'RNDr. Martin Kuřil, Ph.D.'",264,"'RNDr. Martin Kuřil, Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","264,267"
-KCH,K301,"'doc. Ing. Jan Čermák, CSc.'",1064,"'doc. Ing. Jan Čermák, CSc.', 'RNDr. Thu Huong Nguyen Thi, Ph.D.'","1064,429"
-KMA,K301,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","261,5205"
-KBI,K301,"'prof. doc. RNDr. Milan Gryndler, CSc.', 'RNDr. Lenka Němcová, CSc.'","3661,283","'prof. doc. RNDr. Milan Gryndler, CSc.'",3661
-KFY,K304,"'Mgr. Pavla Hofmanová', 'prof. RNDr. Jan Malý, DrSc.'","263,1537","'prof. RNDr. Jan Malý, DrSc.'",1537
-KFY,K305,"'RNDr. Zdeněk Moravec, Ph.D.'",79,"'doc. RNDr. Ing. Kurt Fišer, CSc.', 'RNDr. Zdeněk Moravec, Ph.D.'","606,79"
-KMA,K306,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.'",8035,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.', 'Mgr. Alena Černíková, MSc., Ph.D.'","8035,9488"
-KMA,K312,"'PhDr. Jiří Přibyl, Ph.D.'",267,"'RNDr. Lenka Juklová, Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","8748,267"
-KFY,K319,"'prof. RNDr. Ivo Nezbeda, DrSc.'",305,"'doc. RNDr. Filip Moučka, Ph.D.', 'doc. RNDr. Michal Varady, Ph.D.'","3222,615"
-KMA,K401,"'RNDr. Veronika Pitrová, PhD., Ph.D.'",5205,"'doc. RNDr. Bohumír Opic, DrSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","8438,5205"
-KCH,K401,"'prof. RNDr. Ivo Nezbeda, DrSc.'",305,"'prof. RNDr. Ivo Nezbeda, DrSc.', 'Ing. Magda Škvorová, Ph.D.'","305,2856"
-KCH,K404,"'prof. RNDr. Ivo Nezbeda, DrSc.'",305,"'doc. RNDr. Jan Jirsák, Ph.D.', 'prof. RNDr. Ivo Nezbeda, DrSc.', 'Ing. Magda Škvorová, Ph.D.'","2855,305,2856"
-KBI,K410,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Markéta Gloneková, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","8526,279"
-KMA,K413,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.'",8035,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.', 'Mgr. Jiří Rozkovec'","8035,8677"
-KCH,K501,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'RNDr. Ľuboš Vrtoch, PhD., Ph.D.'","2227,4117","'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'RNDr. Milan Šmídl, Ph.D.', 'RNDr. Ľuboš Vrtoch, PhD., Ph.D.'","2227,3704,4117"
-KBI,K502,"'Ing. Stanislav Vinopal, Ph.D.'",8024,"'Mgr. Marian Rupert', 'Ing. Stanislav Vinopal, Ph.D.'","5275,8024"
-KFY,K502,"",,"'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Ivo Nezbeda, DrSc.'","3222,305"
-KBI,K506,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'RNDr. Jan Ipser, CSc.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","930,2939"
-KMA,K512,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.'",8035,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.', 'Mgr. Lucie Loukotová', 'Mgr. Bc. Lukáš Tichý'","8035,3188,8750"
-KFY,K513,"'prof. Ing. Martin Lísal, DSc.'",609,"'prof. Ing. Martin Lísal, DSc.', 'Mgr. Martin Svoboda, Ph.D.'","609,5958"
-KBI,K607,"'RNDr. Jan Ipser, CSc.'",930,"",
-KBI,K608,"'Mgr. Jan Malý, Ph.D.'",280,"'Mgr. Jan Malý, Ph.D.', 'Mgr. Olga Šebestová Janoušková, Ph.D.'","280,8512"
-KMA,K609,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'Mgr. Lucie Loukotová'","261,3188"
-KFY,K620,"'doc. Ing. Martin Kormunda, Ph.D.'",2384,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308
-KCH,K624,"'doc. Ing. Jaromír Havlica, Ph.D.'",1803,"'doc. Ing. Jaromír Havlica, Ph.D.', 'Mgr. David Kramoliš, Ph.D.'","1803,7723"
-KBI,KB103,"",,"'Mgr. Lukáš Bystrianský, Ph.D.'",5969
-KBI,KB122,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"'Mgr. Michaela Liegertová, Ph.D.', 'Mgr. Marian Rupert'","4472,5275"
-KBI,KB219,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279"
-KBI,KB221,"'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"'Mgr. Lukáš Bystrianský, Ph.D.', 'prof. doc. RNDr. Milan Gryndler, CSc.', 'RNDr. Lenka Němcová, CSc.'","5969,3661,283"
-KBI,KB302,"'doc. RNDr. Jaromír Hajer, CSc.'",278,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.'","8018,278"
-KBI,KB333,"'RNDr. Jan Bobek, Ph.D.'",5094,"'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.'","5094,930"
-KBI,KB423,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'RNDr. Jan Ipser, CSc.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","930,2939"
-CNB,KB502,"'Ing. Stanislav Vinopal, Ph.D.'",8024,"'doc. MUDr. Vladislav Mareš, DrSc.', 'Mgr. Marian Rupert', 'Ing. Stanislav Vinopal, Ph.D.'","281,5275,8024"
-KBI,KB618,"",,"'RNDr. Jan Ipser, CSc.'",930
-KI,KBIG,"'Mgr. Jiří Fišer, Ph.D.'",251,"'Mgr. Jiří Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta'","251,650,4195"
-KMA,KCA2,"'RNDr. Veronika Pitrová, PhD., Ph.D.'",5205,"'doc. RNDr. Bohumír Opic, DrSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","8438,5205"
-KMA,KCAL2,"'RNDr. Veronika Pitrová, PhD., Ph.D.'",5205,"'doc. RNDr. Bohumír Opic, DrSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","8438,5205"
-KMA,KCAL3,"'doc. Yaroslav Bazaykin, CSc., DSc.'",8987,"'doc. Yaroslav Bazaykin, CSc., DSc.', 'doc. RNDr. Bohumír Opic, DrSc.'","8987,8438"
-KMA,KCAS,"'Mgr. Alena Černíková, MSc., Ph.D.'",9488,"'Mgr. Alena Černíková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.', 'Ing. Ondřej Vozár'","9488,4533,2220,9304"
-KI,KDIB,"'RNDr. Jan Krejčí, Ph.D.'",2776,"'RNDr. Jan Krejčí, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","2776,3521"
-KI,KDINB,"'RNDr. Jan Krejčí, Ph.D.'",2776,"'RNDr. Jan Krejčí, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","2776,3521"
-KMA,KDM1,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'PhDr. Magdalena Krátká, Ph.D.'",425
-KMA,KDM2,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","261,425"
-KMA,KDM3,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","261,425"
-KFY,KFYZ,"'prof. RNDr. Ivo Nezbeda, DrSc.'",305,"'prof. RNDr. Ivo Nezbeda, DrSc.', 'RNDr. Martin Švec, Ph.D.'","305,613"
-KI,KGUI,"'RNDr. Petr Kubera, Ph.D.'",650,"'Ing. Mgr. Pavel Beránek', 'RNDr. Petr Kubera, Ph.D.'","6973,650"
-KMA,KLAG,"'RNDr. Martin Kuřil, Ph.D.'",264,"'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuřil, Ph.D.'","425,264"
-KMA,KLAL,"'RNDr. Martin Kuřil, Ph.D.'",264,"'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuřil, Ph.D.'","425,264"
-KMA,KMA3,"'doc. Yaroslav Bazaykin, CSc., DSc.'",8987,"'doc. RNDr. Bohumír Opic, DrSc.'",8438
-KMA,KMADI,"'doc. Yaroslav Bazaykin, CSc., DSc.'",8987,"'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","8987,5205"
-KFY,KMECH,"'Mgr. Jindřich Matoušek, Ph.D.'",4680,"'RNDr. Martin Švec, Ph.D.'",613
-KMA,KMT1,"'RNDr. Veronika Pitrová, PhD., Ph.D.'",5205,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","261,5205"
-KMA,KMU1,"'doc. RNDr. Bohumír Opic, DrSc.'",8438,"'doc. RNDr. Bohumír Opic, DrSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","8438,5205,267"
-KMA,KMU2,"'doc. Yaroslav Bazaykin, CSc., DSc.'",8987,"'doc. Yaroslav Bazaykin, CSc., DSc.', 'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.'","8987,8035"
-KMA,KMU3,"'doc. RNDr. Bohumír Opic, DrSc.'",8438,"'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuřil, Ph.D.', 'doc. RNDr. Bohumír Opic, DrSc.'","8987,264,8438"
-KBI,KN100,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'RNDr. Jan Ipser, CSc.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","930,2939"
-KBI,KN102,"'doc. RNDr. Jaromír Hajer, CSc.'",278,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.', 'Mgr. Michal Holec, Ph.D.'","8018,278,555"
-KCH,KN117,"",,"'RNDr. Václav Šícha, Ph.D.'",4310
-KCH,KN118,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KBI,KN201,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"'RNDr. Jan Ipser, CSc.', 'Mgr. Michaela Liegertová, Ph.D.'","930,4472"
-KCH,KN228,"'doc. Ing. Josef Trögl, Ph.D.'",2065,"'RNDr. Thu Huong Nguyen Thi, Ph.D.', 'doc. Ing. Josef Trögl, Ph.D.'","429,2065"
-KCH,KN230,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KBI,KN300,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'RNDr. Jan Ipser, CSc.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","930,2939"
-KCH,KN324,"'doc. RNDr. Jan Jirsák, Ph.D.'",2855,"'doc. RNDr. Jan Jirsák, Ph.D.', 'Ing. Magda Škvorová, Ph.D.'","2855,2856"
-KCH,KN325,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KI,KOOD,"'RNDr. Petr Kubera, Ph.D.'",650,"",
-KI,KOPR,"'RNDr. Petr Kubera, Ph.D.'",650,"'RNDr. Petr Kubera, Ph.D.', 'Dr. Hossein Moosaei, Ph.D.'","650,9114"
-KI,KOPT,"'doc. Ing. Mgr. Jiří Barilla, CSc.'",449,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.'","449,650"
-KI,KOTT,"'doc. Ing. Mgr. Jiří Barilla, CSc.'",449,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.'","449,650"
-KI,KPAR,"'doc. RNDr. Zbyšek Posel, Ph.D.'",3521,"'Mgr. Jiří Fišer, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","251,3521"
-KMA,KPAS,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.'",8035,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.', 'Mgr. Alena Černíková, MSc., Ph.D.'","8035,9488"
-KI,KPDSA,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"'Mgr. Jiří Fišer, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiří Škvor, Ph.D.'","251,2239,2220"
-KFY,KPMC,"'doc. RNDr. Marek Malý, Ph.D.'",304,"'doc. RNDr. Marek Malý, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.'","304,5958"
-KI,KPNUM,"'doc. Ing. Mgr. Jiří Barilla, CSc.'",449,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.'","449,650"
-KI,KPPG,"'prof. Ing. Martin Lísal, DSc.'",609,"'Mgr. Jiří Fišer, Ph.D.', 'prof. Ing. Martin Lísal, DSc.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","251,609,3521"
-KMA,KPSM,"'Mgr. Alena Černíková, MSc., Ph.D.'",9488,"'prof. Sergii Babichev, CSc., DSc.', 'Mgr. Alena Černíková, MSc., Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.'","3416,9488,2239"
-KI,KPYR,"'RNDr. Jiří Škvor, Ph.D.'",2220,"'prof. Sergii Babichev, CSc., DSc.', 'RNDr. Jiří Škvára, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","3416,6259,2220"
-KI,KSOC,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.'","650,2239"
-KI,KSYS,"'doc. RNDr. Zbyšek Posel, Ph.D.'",3521,"'Mgr. Jiří Fišer, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","251,2855,3521"
-KMA,KTMN,"'RNDr. Martin Kuřil, Ph.D.'",264,"'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuřil, Ph.D.'","425,264"
-KI,KTZI2,"'RNDr. Martin Kuřil, Ph.D.'",264,"'RNDr. Martin Kuřil, Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","264,267"
-KFY,KUDPM,"'doc. RNDr. Marek Malý, Ph.D.'",304,"'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'Mgr. Martin Svoboda, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","1803,2855,304,3222,306,5958,613"
-KI,KVICT,"'RNDr. Jan Krejčí, Ph.D.'",2776,"",
-KI,KZEL,"'prof. Sergii Babichev, CSc., DSc.'",3416,"'prof. Sergii Babichev, CSc., DSc.', 'Ing. Petr Haberzettl'","3416,1780"
-KI,KZKB,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"'RNDr. Jan Krejčí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'Mgr. Květuše Sýkorová'","2776,2239,835"
-KMA,LAG,"'RNDr. Martin Kuřil, Ph.D.'",264,"'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuřil, Ph.D.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","425,264,5205"
-KMA,LAL,"'RNDr. Martin Kuřil, Ph.D.'",264,"'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuřil, Ph.D.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","425,264,5205"
-KMA,LOG,'Ing. Vladimír Balach',4691,"'Ing. Vladimír Balach', 'Ing. Daniela Vysloužilová, Ph.D.'","4691,1569"
-CNB,M100,"'Mgr. Jan Malý, Ph.D.'",280,"'doc. RNDr. Jaromír Hajer, CSc.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.', 'Mgr. Jan Malý, Ph.D.'","278,2939,280"
-KMA,M101,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.'","261,425"
-KGEO,M101,"'RNDr. Silvie Rita Kučerová, Ph.D.'",3528,"'doc. RNDr. Jaroslav Koutský, Ph.D.', 'RNDr. Silvie Rita Kučerová, Ph.D.'","1644,3528"
-CNB,M101,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"'prof. Ing. Zdeňka Kolská, Ph.D.', 'Mgr. Jan Malý, Ph.D.', 'doc. RNDr. Jaroslav Pavlík, CSc.'","332,280,308"
-KBI,M102,"'doc. RNDr. Jaromír Hajer, CSc.'",278,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.', 'Mgr. Michal Holec, Ph.D.'","8018,278,555"
-KMA,M102,"'doc. RNDr. Bohumír Opic, DrSc.'",8438,"'doc. RNDr. Bohumír Opic, DrSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","8438,5205"
-KGEO,M103,"'RNDr. Silvie Rita Kučerová, Ph.D.'",3528,"'RNDr. Silvie Rita Kučerová, Ph.D.', 'Mgr. Jiří Riezner, Ph.D.'","3528,3164"
-KGEO,M104,"'RNDr. Silvie Rita Kučerová, Ph.D.'",3528,"'RNDr. Silvie Rita Kučerová, Ph.D.', 'doc. Mgr. Pavel Raška, Ph.D.'","3528,1434"
-KCH,M104,"'doc. Ing. Jan Čermák, CSc.'",1064,"",
-KCH,M106,'doc. Dr. Ing. Pavel Kuráň',7015,"'Ing. Sylvie Kříženecká, Ph.D.', 'doc. Dr. Ing. Pavel Kuráň'","921,7015"
-KFY,M106,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"'RNDr. Adéla Jagerová, Ph.D.', 'doc. RNDr. Jaroslav Pavlík, CSc.'","8739,308"
-KGEO,M107,"'doc. RNDr. Jaroslav Koutský, Ph.D.'",1644,"'Ing. Miroslav Kopáček, Ph.D.'",5457
-KCH,M112,"'doc. Ing. Jaromír Cais, Ph.D.'",4951,"'doc. Ing. Jaromír Cais, Ph.D.', 'Mgr. Klára Caisová, Ph.D.'","4951,6633"
-KCH,M200,"'doc. RNDr. Vlastimil Dohnal, Ph.D.'",2227,"'doc. RNDr. Vlastimil Dohnal, Ph.D.', 'doc. Ing. Pavel Krystyník, Ph.D.'","2227,4273"
-KCH,M201,"'doc. RNDr. Pavel Vojtíšek, CSc.'",8421,"'RNDr. Václav Šícha, Ph.D.', 'doc. RNDr. Pavel Vojtíšek, CSc.'","4310,8421"
-KCH,M202,"'doc. Ing. Jan Čermák, CSc.'",1064,"'Ing. Ondřej Baszczyňski, Ph.D.', 'doc. Ing. Jan Čermák, CSc.'","8419,1064"
-KCH,M207,"'doc. Ing. Jan Čermák, CSc.'",1064,"'doc. Ing. Jan Čermák, CSc.', 'RNDr. Václav Šícha, Ph.D.', 'doc. RNDr. Pavel Vojtíšek, CSc.'","1064,4310,8421"
-KBI,M207,"'Mgr. Hana Auer Malinská, Ph.D.'",5471,"'Mgr. Hana Auer Malinská, Ph.D.', 'Mgr. Martin Forman'","5471,4619"
-KGEO,M214,"'doc. RNDr. Martin Balej, Ph.D.'",313,"'doc. RNDr. Martin Balej, Ph.D.', 'Mgr. Martin Dolejš, Ph.D.'","313,4303"
-KFY,M301,"'doc. RNDr. Filip Moučka, Ph.D.'",3222,"'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","304,3222,3521"
-KFY,M302,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"'Mgr. Jindřich Matoušek, Ph.D.'",4680
-KFY,M303,"'doc. RNDr. Michal Varady, Ph.D.'",615,"'RNDr. Zdeněk Moravec, Ph.D.'",79
-KGEO,M305,"'Mgr. Vladan Hruška, Ph.D.'",4222,"'Mgr. Vladan Hruška, Ph.D.', 'doc. Mgr. Pavel Raška, Ph.D.'","4222,1434"
-KGEO,M407,"'RNDr. Ivan Farský, CSc.'",315,"'RNDr. Ivan Farský, CSc.', 'RNDr. Dana Fialová, Ph.D.', 'RNDr. Jiří Vágner, Ph.D.'","315,4397,4398"
-KBI,MA100,"'doc. RNDr. Jaromír Hajer, CSc.'",278,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.'","8018,278"
-KBI,MA102,"'doc. RNDr. Jaromír Hajer, CSc.'",278,"'Ing. Markéta Gloneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.'","8526,278"
-KMA,MA2,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","261,5205"
-KBI,MA200,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279"
-KBI,MA201,"'Mgr. Michal Holec, Ph.D.'",555,"'Mgr. Diana Holcová, Ph.D.', 'Mgr. Michal Holec, Ph.D.'","3212,555"
-KMA,MA3,"'doc. Yaroslav Bazaykin, CSc., DSc.'",8987,"'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","8987,5205"
-KBI,MA300,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279"
-KMA,MADI,"'doc. Yaroslav Bazaykin, CSc., DSc.'",8987,"'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","8987,5205"
-KFY,MD,"",,"'prof. Ing. Martin Lísal, DSc.'",609
-KBI,ME100,"'doc. MUDr. Vladislav Mareš, DrSc.'",281,"'doc. MUDr. Vladislav Mareš, DrSc.', 'Mgr. Marian Rupert'","281,5275"
-KCH,ME200,"'doc. Ing. Josef Trögl, Ph.D.'",2065,"'RNDr. Thu Huong Nguyen Thi, Ph.D.', 'doc. Ing. Josef Trögl, Ph.D.'","429,2065"
-CNB,ME200,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"'Mgr. Jana Čejnová', 'Mgr. Michaela Liegertová, Ph.D.'","1986,4472"
-CNB,ME204,"'Mgr. Marcel Štofik, Ph.D.'",1503,"",
-KBI,ME301,"'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"'RNDr. Pavel Branny, CSc.', 'prof. doc. RNDr. Milan Gryndler, CSc.'","8154,3661"
-CNB,ME400,"'Mgr. Jan Malý, Ph.D.'",280,"'prof. Ing. Zdeňka Kolská, Ph.D.', 'Mgr. Jan Malý, Ph.D.', 'Dominika Zofia Wróbel, Ph.D.'","332,280,4711"
-KFY,MECH,"'Mgr. Jindřich Matoušek, Ph.D.'",4680,"'RNDr. Martin Švec, Ph.D.'",613
-KMA,MK102,"",,"'RNDr. Veronika Pitrová, PhD., Ph.D.'",5205
-KMA,MME,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Jiří Škvor, Ph.D.'","261,2220"
-KMA,MU1,"'doc. RNDr. Bohumír Opic, DrSc.'",8438,"'doc. RNDr. Bohumír Opic, DrSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","8438,5205,267"
-KMA,MU2,"'doc. Yaroslav Bazaykin, CSc., DSc.'",8987,"'doc. Yaroslav Bazaykin, CSc., DSc.', 'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.'","8987,8035"
-KMA,MU3,"'doc. RNDr. Bohumír Opic, DrSc.'",8438,"'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuřil, Ph.D.', 'doc. RNDr. Bohumír Opic, DrSc.'","8987,264,8438"
-KBI,N100,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'RNDr. Jan Ipser, CSc.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","930,2939"
-KBI,N102,"'doc. RNDr. Jaromír Hajer, CSc.'",278,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.', 'Mgr. Michal Holec, Ph.D.'","8018,278,555"
-KCH,N109,"'doc. Ing. Josef Trögl, Ph.D.'",2065,"'PharmDr. Markéta Švarcová, Ph.D.', 'doc. Ing. Josef Trögl, Ph.D.', 'RNDr. Ľuboš Vrtoch, PhD., Ph.D.'","3176,2065,4117"
-KCH,N117,"",,"'RNDr. Václav Šícha, Ph.D.'",4310
-KCH,N118,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KBI,N201,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"'RNDr. Jan Ipser, CSc.', 'Mgr. Michaela Liegertová, Ph.D.'","930,4472"
-KCH,N213,"'prof. RNDr. Ivo Nezbeda, DrSc.'",305,"'prof. RNDr. Ivo Nezbeda, DrSc.', 'Ing. Magda Škvorová, Ph.D.'","305,2856"
-KCH,N228,"'doc. Ing. Josef Trögl, Ph.D.'",2065,"'RNDr. Thu Huong Nguyen Thi, Ph.D.', 'doc. Ing. Josef Trögl, Ph.D.'","429,2065"
-KCH,N230,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KBI,N300,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'RNDr. Jan Ipser, CSc.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","930,2939"
-KCH,N304,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'prof. PhDr. Jiří Škoda, Ph.D., MBA', 'RNDr. Milan Šmídl, Ph.D.'","336,3704"
-KCH,N307,"'prof. Ing. Josef Šedlbauer, Ph.D.'",1775,"'prof. Ing. Zdeňka Kolská, Ph.D.', 'prof. Ing. Josef Šedlbauer, Ph.D.'","332,1775"
-KCH,N308,"'prof. Ing. Pavel Janoš, CSc.'",550,"'Ing. Václav Dušek', 'prof. Ing. Pavel Janoš, CSc.'","1115,550"
-KCH,N324,"'doc. RNDr. Jan Jirsák, Ph.D.'",2855,"'doc. RNDr. Jan Jirsák, Ph.D.', 'Ing. Magda Škvorová, Ph.D.'","2855,2856"
-KCH,N325,"'RNDr. Milan Šmídl, Ph.D.'",3704,"'Mgr. Monika Pelikánová', 'RNDr. Milan Šmídl, Ph.D.'","8744,3704"
-KCH,N406,"'prof. Ing. Pavel Janoš, CSc.'",550,"'prof. Ing. Pavel Janoš, CSc.', 'Ing. Sylvie Kříženecká, Ph.D.'","550,921"
-KCH,N407,"'doc. Ing. Jan Čermák, CSc.'",1064,"'RNDr. Thu Huong Nguyen Thi, Ph.D.'",429
-KCH,NA01,"'doc. Ing. Josef Trögl, Ph.D.'",2065,"'RNDr. Thu Huong Nguyen Thi, Ph.D.', 'doc. Ing. Josef Trögl, Ph.D.'","429,2065"
-KCH,NA02,"'doc. Ing. Jan Čermák, CSc.'",1064,"'RNDr. Thu Huong Nguyen Thi, Ph.D.'",429
-KFY,NA04,"'doc. Ing. Martin Kormunda, Ph.D.'",2384,"'prof. Ing. Zdeňka Kolská, Ph.D.', 'doc. Ing. Martin Kormunda, Ph.D.', 'Mgr. Jan Malý, Ph.D.'","332,2384,280"
-CNB,NA08,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"'prof. Ing. Zdeňka Kolská, Ph.D.', 'Mgr. Jan Malý, Ph.D.', 'doc. RNDr. Jaroslav Pavlík, CSc.'","332,280,308"
-KFY,NA08,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"'prof. Ing. Zdeňka Kolská, Ph.D.', 'Mgr. Jan Malý, Ph.D.', 'doc. RNDr. Jaroslav Pavlík, CSc.'","332,280,308"
-KFY,NA12,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"'RNDr. Petr Malinský, Ph.D.', 'doc. RNDr. Jaroslav Pavlík, CSc.'","4681,308"
-KI,NME,"'doc. Ing. Mgr. Jiří Barilla, CSc.'",449,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","449,650,2220"
-KMA,ODR,"'doc. RNDr. Bohumír Opic, DrSc.'",8438,"'doc. RNDr. Bohumír Opic, DrSc.', 'RNDr. Veronika Pitrová, PhD., Ph.D.'","8438,5205"
-KI,OOD,"'RNDr. Petr Kubera, Ph.D.'",650,"",
-KI,OPR,"'RNDr. Petr Kubera, Ph.D.'",650,"'RNDr. Petr Kubera, Ph.D.', 'Dr. Hossein Moosaei, Ph.D.'","650,9114"
-KI,OPT,"'prof. Sergii Babichev, CSc., DSc.'",3416,"'prof. Sergii Babichev, CSc., DSc.', 'RNDr. Petr Kubera, Ph.D.'","3416,650"
-KI,OTT,"'doc. Ing. Mgr. Jiří Barilla, CSc.'",449,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.'","449,650"
-KCH,P102,"'doc. RNDr. Jan Jirsák, Ph.D.'",2855,"'doc. RNDr. Jan Jirsák, Ph.D.', 'prof. Ing. Zdeňka Kolská, Ph.D.'","2855,332"
-KBI,P201,"'RNDr. Oldřich Benada, CSc.'",1983,"",
-KBI,P202,"'doc. RNDr. Karel Kubát, CSc.'",279,"",
-KBI,P210,"'RNDr. Jan Ipser, CSc.'",930,"",
-KFY,P217,"'prof. RNDr. Pavla Čapková, DrSc.'",3553,"'prof. RNDr. Pavla Čapková, DrSc.', 'doc. RNDr. Stanislav Daniš, Ph.D.'","3553,9281"
-KBI,P301,"'prof. doc. RNDr. Milan Gryndler, CSc.', 'RNDr. Lenka Němcová, CSc.'","3661,283","'prof. doc. RNDr. Milan Gryndler, CSc.'",3661
-KCH,P312,"'doc. Ing. Josef Seják, CSc.'",179,"'Ing. Johana Jackovičová, Ph.D.', 'Ing. Jiří Moravec, Ph.D., MBA'","5131,2527"
-KMA,P335,"'PhDr. Jiří Přibyl, Ph.D.'",267,"'RNDr. Lenka Juklová, Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","8748,267"
-KCH,P402,"'doc. Ing. Jaromír Lederer, CSc.'",1543,"",
-KBI,P421,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Markéta Gloneková, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","8526,279"
-KFY,P502,"'prof. RNDr. Ivo Nezbeda, DrSc.'",305,"'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Ivo Nezbeda, DrSc.'","3222,305"
-KBI,P502,"'Ing. Stanislav Vinopal, Ph.D.'",8024,"'Mgr. Marian Rupert', 'Ing. Stanislav Vinopal, Ph.D.'","5275,8024"
-KBI,P514,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'RNDr. Jan Ipser, CSc.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","930,2939"
-KMA,P521,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.'",8035,"'doc. PhDr. Mgr. Ing. Martin Boďa, PhD.', 'Mgr. Lucie Loukotová'","8035,3188"
-KBI,P522,"'Ing. Stanislav Vinopal, Ph.D.'",8024,"'Mgr. Marian Rupert', 'Ing. Stanislav Vinopal, Ph.D.'","5275,8024"
-KBI,P526,"'Mgr. Hana Auer Malinská, Ph.D.'",5471,"'Mgr. Jan Malý, Ph.D.'",280
-KCH,P528,"",,"'doc. Ing. Jaromír Havlica, Ph.D.'",1803
-KBI,P609,"'RNDr. Jan Ipser, CSc.'",930,"",
-KBI,P615,"'Mgr. Jan Malý, Ph.D.'",280,"'Mgr. Olga Šebestová Janoušková, Ph.D.'",8512
-KBI,P618,"'RNDr. Jan Ipser, CSc.'",930,"",
-KI,PAR,"'doc. RNDr. Zbyšek Posel, Ph.D.'",3521,"'Mgr. Jiří Fišer, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","251,3521"
-KBI,PB103,"",,"'Mgr. Lukáš Bystrianský, Ph.D.'",5969
-KBI,PB122,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"'Mgr. Michaela Liegertová, Ph.D.', 'Mgr. Marian Rupert'","4472,5275"
-KBI,PB219,"'doc. RNDr. Karel Kubát, CSc.'",279,"'Ing. Handrij Härtel, Ph.D.', 'doc. RNDr. Karel Kubát, CSc.'","4265,279"
-KBI,PB221,"'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"'Mgr. Lukáš Bystrianský, Ph.D.', 'prof. doc. RNDr. Milan Gryndler, CSc.', 'RNDr. Lenka Němcová, CSc.'","5969,3661,283"
-KBI,PB302,"'doc. RNDr. Jaromír Hajer, CSc.'",278,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.'","8018,278"
-KBI,PB333,"'RNDr. Jan Bobek, Ph.D.'",5094,"'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.'","5094,930"
-KBI,PB423,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'",2939,"'RNDr. Jan Ipser, CSc.', 'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.'","930,2939"
-CNB,PB502,"'Ing. Stanislav Vinopal, Ph.D.'",8024,"'doc. MUDr. Vladislav Mareš, DrSc.', 'Mgr. Marian Rupert', 'Ing. Stanislav Vinopal, Ph.D.'","281,5275,8024"
-KBI,PB618,"'Mgr. Hana Auer Malinská, Ph.D.'",5471,"'Mgr. Hana Auer Malinská, Ph.D.', 'RNDr. Jan Ipser, CSc.'","5471,930"
-KGEO,PD103,'Ing. Martin Raška',1894,"'doc. RNDr. Martin Balej, Ph.D.', 'Ing. Martin Raška'","313,1894"
-KGEO,PD104,"'doc. RNDr. Jaroslav Koutský, Ph.D.', 'doc. Mgr. Pavel Raška, Ph.D.'","1644,1434","'doc. RNDr. Jaroslav Koutský, Ph.D.'",1644
-KGEO,PD105,"'doc. PhDr. RNDr. Jan Daniel Bláha, Ph.D.', 'doc. Mgr. Pavel Raška, Ph.D.'","3452,1434","'doc. RNDr. Jiří Anděl, CSc.', 'doc. PhDr. RNDr. Jan Daniel Bláha, Ph.D.'","312,3452"
-KI,PDSA,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"'Mgr. Jiří Fišer, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiří Škvor, Ph.D.'","251,2239,2220"
-KI,PGH,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"'Ing. Petr Haberzettl', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.'","1780,2239"
-KFY,PM,"'prof. RNDr. Rudolf Hrach, DrSc.', 'doc. RNDr. Filip Moučka, Ph.D.'","69,3222","'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","1803,304,3222,3521"
-KFY,PMC,"'doc. RNDr. Marek Malý, Ph.D.'",304,"'doc. RNDr. Marek Malý, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.'","304,5958"
-KI,PNUM,"'doc. Ing. Mgr. Jiří Barilla, CSc.'",449,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.'","449,650"
-KMA,PSB,"'PhDr. Magdalena Krátká, Ph.D.'",425,"'Mgr. Alena Černíková, MSc., Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'Mgr. Lucie Loukotová'","9488,425,3188"
-KMA,PSM,"'Mgr. Alena Černíková, MSc., Ph.D.'",9488,"'prof. Sergii Babichev, CSc., DSc.', 'Mgr. Alena Černíková, MSc., Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.'","3416,9488,2239"
-KFY,PSVN,"'doc. RNDr. Marek Malý, Ph.D.'",304,"'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'Mgr. Martin Svoboda, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","1803,2855,304,3222,306,5958,613"
-CNB,PTVN,"'prof. RNDr. Pavla Čapková, DrSc.'",3553,"'RNDr. Petr Ryšánek, Ph.D.'",4587
-KI,PYR,"'RNDr. Jiří Škvor, Ph.D.'",2220,"'prof. Sergii Babichev, CSc., DSc.', 'RNDr. Jiří Škvára, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","3416,6259,2220"
-KI,SOC,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.'","650,2239"
-KI,SYS,"'doc. RNDr. Zbyšek Posel, Ph.D.'",3521,"'Mgr. Jiří Fišer, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.'","251,2855,3521"
-KI,TZI2,"'RNDr. Martin Kuřil, Ph.D.'",264,"'RNDr. Martin Kuřil, Ph.D.', 'PhDr. Jiří Přibyl, Ph.D.'","264,267"
-KFY,UDPM,"'doc. RNDr. Marek Malý, Ph.D.'",304,"'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'Mgr. Martin Svoboda, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","1803,2855,304,3222,306,5958,613"
-KMA,VFIN,'Ing. Lucie Kopáčková',6120,"'Ing. Lucie Kopáčková', 'doc. Ing. Alena Maaytová, Ph.D.'","6120,6773"
-KFY,VFT,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"'RNDr. Adéla Jagerová, Ph.D.'",8739
-KMA,VSP,"'Ing. Petra Olšová, Ph.D.'",2142,"'Ing. Eva Krumpová', 'Ing. Petra Olšová, Ph.D.'","5309,2142"
-CNB,VT,"'doc. Ing. Martin Kormunda, Ph.D.'",2384,"'prof. Ing. Zdeňka Kolská, Ph.D.', 'doc. Ing. Martin Kormunda, Ph.D.'","332,2384"
-KI,ZEL,"'prof. Sergii Babichev, CSc., DSc.'",3416,"'prof. Sergii Babichev, CSc., DSc.', 'Ing. Petr Haberzettl'","3416,1780"
-KI,ZKB,"'doc. RNDr. Mgr. Viktor Maškov, DrSc.'",2239,"'RNDr. Jan Krejčí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'Mgr. Květuše Sýkorová'","2776,2239,835"
+garantiUcitIdno,katedra,zkratka,prednasejiciUcitIdno,jednotekPrednasek
+304,KFY,K215,5958,2
+283,KBI,K301,3661,10
+283,KBI,K301,3661,10
+5471,KBI,P526,280,2
+1434,KPRF,0101,,2
+264,KMA,K213,"9489,5205",4
+263,KFY,K304,1537,8
+263,KFY,K304,1537,8
+1644,KGEO,M107,5457,2
+308,KFY,VFT,8739,2
+1434,KGEO,PD104,1644,18
+1434,KGEO,PD104,1644,18
+3553,CNB,PTVN,4587,1
+4222,KGEO,0159,,1
+1543,KCH,P402,,2
+8512,KBI,BK333,930,8
+1434,KGEO,PD105,"312,3452",18
+1434,KGEO,PD105,"312,3452",18
+2227,KCH,K101,3176,4
+8512,KBI,BP333,930,2
+650,KI,OOD,,1
+2939,KBI,0023,,2
+930,KBI,K607,,4
+1983,KBI,P201,,3
+312,KGEO,B406,7684,1
+615,KFY,M303,79,2
+283,KBI,P301,3661,2
+283,KBI,P301,3661,2
+2776,KI,KVICT,,4
+4222,KGEO,B414,,2
+930,KBI,K201,,8
+1064,KCH,NA02,429,2
+1983,KBI,BK201,,6
+1064,KCH,N407,429,2
+930,KBI,P609,,2
+69,KFY,PM,"1803,304,3222,3521",2
+69,KFY,PM,"1803,304,3222,3521",2
+4680,KFY,MECH,613,3
+308,KFY,M302,4680,3
+930,KBI,P618,,3
+1983,KBI,BP201,,3
+1503,CNB,ME204,,6
+2384,KFY,K620,308,12
+305,KFY,K319,"3222,615",12
+930,KBI,P210,,3
+279,KBI,P202,,2
+2776,KI,BTE,,1
+550,KFY,INSAN,332,2
+1064,KCH,M104,,2
+280,KBI,P615,8512,3
+650,KI,KOOD,,2
+267,KMA,K214,"261,3188",2
+8987,KMA,KMA3,8438,8
+4680,KFY,KMECH,613,12
+179,KCH,P312,"5131,2527",2
+261,KMA,KDM1,425,4

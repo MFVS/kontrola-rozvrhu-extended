@@ -12,16 +12,16 @@ KGEO,B414,4222,Př,2023,20.2.2024,14.5.2024,17:00,18:50,KGEO,Ekonomická geograf
 KGEO,B508,8027,Př,2023,3.10.2023,2.1.2024,17:00,18:50,KGEO,Ochrana přírody a krajiny,"'RNDr. Tomáš Matějček, Ph.D.'",1472,
 KGEO,B602,3528,Př,2023,19.2.2024,13.5.2024,14:00,15:50,KGEO,Specializační přednášky ze SG,"'Mgr. Petr Meyer, Ph.D.'",5855,"Kučerová Silvie Rita, RNDr. Ph.D."
 KGEO,B602,9521,Př,2023,19.2.2024,13.5.2024,14:00,15:50,KGEO,Specializační přednášky ze SG,"'Mgr. Petr Meyer, Ph.D.'",5855,"Vaverka Lukáš, Mgr."
-KGEO,B609,3528,Př,2023,19.2.2024,13.5.2024,14:00,15:50,KGEO,Specializační přednášky z geografie,"'Mgr. Petr Meyer, Ph.D.', 'doc. Mgr. Pavel Raška, Ph.D.'","5855, 1434","Kučerová Silvie Rita, RNDr. Ph.D."
 KGEO,B609,9521,Př,2023,19.2.2024,13.5.2024,14:00,15:50,KGEO,Specializační přednášky z geografie,"'Mgr. Petr Meyer, Ph.D.', 'doc. Mgr. Pavel Raška, Ph.D.'","5855, 1434","Vaverka Lukáš, Mgr."
+KGEO,B609,3528,Př,2023,19.2.2024,13.5.2024,14:00,15:50,KGEO,Specializační přednášky z geografie,"'Mgr. Petr Meyer, Ph.D.', 'doc. Mgr. Pavel Raška, Ph.D.'","5855, 1434","Kučerová Silvie Rita, RNDr. Ph.D."
 KCH,BK100,2856,Př,2023,5.1.2024,5.1.2024,12:00,15:50,KCH,Úvod do chemie,"'doc. RNDr. Jan Jirsák, Ph.D.'",2855,"Škvorová Magda, Ing. Ph.D."
 KCH,BK100,2856,Př,2023,10.12.2023,10.12.2023,09:00,12:50,KCH,Úvod do chemie,"'doc. RNDr. Jan Jirsák, Ph.D.'",2855,"Škvorová Magda, Ing. Ph.D."
-KBI,BK201,1983,Př,2023,21.10.2023,21.10.2023,17:00,19:50,KBI,Chemie a fyzika živých soustav,"",,"Benada Oldřich, RNDr. CSc."
 KBI,BK201,1983,Př,2023,2.12.2023,2.12.2023,17:00,19:50,KBI,Chemie a fyzika živých soustav,"",,"Benada Oldřich, RNDr. CSc."
+KBI,BK201,1983,Př,2023,21.10.2023,21.10.2023,17:00,19:50,KBI,Chemie a fyzika živých soustav,"",,"Benada Oldřich, RNDr. CSc."
 KBI,BK302,9624,Př,2023,9.3.2024,9.3.2024,09:00,16:50,KBI,Fylogeneze a systém bezobratlých,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.'","8018, 278","Klečka Jan, RNDr. Ph.D."
 KBI,BK333,8512,Př,2023,16.12.2023,16.12.2023,09:00,16:50,KBI,Biologie prokaryot a virů,"'RNDr. Jan Ipser, CSc.'",930,"Šebestová Janoušková Olga, Mgr. Ph.D."
-KBI,BK423,930,Př,2023,16.3.2024,16.3.2024,14:00,19:50,KBI,Somatologie,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.', 'Mgr. Karina Vašinová, Ph.D.'","2939, 1546","Ipser Jan, RNDr. CSc."
 KBI,BK423,930,Př,2023,6.4.2024,6.4.2024,15:00,20:50,KBI,Somatologie,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.', 'Mgr. Karina Vašinová, Ph.D.'","2939, 1546","Ipser Jan, RNDr. CSc."
+KBI,BK423,930,Př,2023,16.3.2024,16.3.2024,14:00,19:50,KBI,Somatologie,"'doc. RNDr. Eva Jozífková, Ph.D. et Ph.D.', 'Mgr. Karina Vašinová, Ph.D.'","2939, 1546","Ipser Jan, RNDr. CSc."
 CNB,BK617,8512,Př,2023,2.3.2024,2.3.2024,09:00,16:50,CNB,Molekulární biologie,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"Šebestová Janoušková Olga, Mgr. Ph.D."
 KBI,BP201,1983,Př,2023,2.10.2023,18.12.2023,13:00,15:50,KBI,Chemie a fyzika živých soustav,"",,"Benada Oldřich, RNDr. CSc."
 KBI,BP302,9624,Př,2023,19.2.2024,13.5.2024,09:00,10:50,KBI,Fylogeneze a systém bezobratlých,"'Mgr. Michaela Czerneková, Ph.D.', 'doc. RNDr. Jaromír Hajer, CSc.'","8018, 278","Klečka Jan, RNDr. Ph.D."
@@ -30,8 +30,8 @@ KBI,BP423,930,Př,2023,19.2.2024,13.5.2024,17:00,18:50,KBI,Somatologie,"'doc. RN
 CNB,BP617,8512,Př,2023,23.2.2024,17.5.2024,10:00,12:50,CNB,Molekulární biologie,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"Šebestová Janoušková Olga, Mgr. Ph.D."
 KI,BTE,2776,Př,2023,5.10.2023,4.1.2024,14:00,14:50,KI,Bezpečnostní technologie,"",,"Krejčí Jan, RNDr. Ph.D."
 KI,EDAV,6259,Př,2023,6.3.2024,15.5.2024,15:00,15:50,KI,Data Analysis and Visualisation,"'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","3521, 8514, 2220","Škvára Jiří, RNDr. Ph.D."
-KI,EDAV,6973,Př,2023,6.3.2024,15.5.2024,15:00,15:50,KI,Data Analysis and Visualisation,"'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","3521, 8514, 2220","Beránek Pavel, Ing. Mgr."
 KI,EDAV,3416,Př,2023,6.3.2024,15.5.2024,15:00,15:50,KI,Data Analysis and Visualisation,"'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","3521, 8514, 2220","Babichev Sergii, prof. CSc., DSc."
+KI,EDAV,6973,Př,2023,6.3.2024,15.5.2024,15:00,15:50,KI,Data Analysis and Visualisation,"'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiří Škvor, Ph.D.'","3521, 8514, 2220","Beránek Pavel, Ing. Mgr."
 KI,EDMR,3416,Př,2023,7.3.2024,16.5.2024,14:00,14:50,KI,Data Mining Techniq. based on R Software,"'Ricardo Rodriguez Jorge, Ph.D.'",8514,"Babichev Sergii, prof. CSc., DSc."
 KI,EGUI,6973,Př,2023,22.2.2024,16.5.2024,08:00,09:50,KI,GUI Programming,"'RNDr. Petr Kubera, Ph.D.'",650,"Beránek Pavel, Ing. Mgr."
 KFY,ELNK,166,Př,2023,23.2.2024,17.5.2024,09:00,11:50,KFY,Elektronika,"'doc. RNDr. František Lustig, CSc.'",5232,"Zukerstein Jaroslav, PhDr. Ph.D."
@@ -52,27 +52,27 @@ CNB,KNM,4587,Př,2023,19.2.2024,13.5.2024,09:00,09:50,CNB,Kompozitní a nanokomp
 KI,KOOD,6973,Př,2023,25.11.2023,25.11.2023,11:00,12:50,KI,Objektově orientovaný návrh,"",,"Beránek Pavel, Ing. Mgr."
 KI,KOTT,9114,Př,2023,11.5.2024,11.5.2024,14:00,14:50,KI,Optimalizace,"'doc. Ing. Mgr. Jiří Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.'","449, 650","Moosaei Hossein, Dr. Ph.D."
 KI,KSOC,3416,Př,2023,27.4.2024,27.4.2024,16:00,17:50,KI,Soft Computing,"'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.'","650, 2239","Babichev Sergii, prof. CSc., DSc."
-KI,KVICT,2776,Př,2023,6.4.2024,6.4.2024,09:00,10:50,KI,Využití ICT ve výuce,"",,"Krejčí Jan, RNDr. Ph.D."
 KI,KVICT,2776,Př,2023,6.4.2024,6.4.2024,11:00,12:50,KI,Využití ICT ve výuce,"",,"Krejčí Jan, RNDr. Ph.D."
+KI,KVICT,2776,Př,2023,6.4.2024,6.4.2024,09:00,10:50,KI,Využití ICT ve výuce,"",,"Krejčí Jan, RNDr. Ph.D."
 KCH,M100,2855,Př,2023,2.10.2023,18.12.2023,10:00,11:50,KCH,Fyzikální chemie NMgr.,"'prof. Ing. Zdeňka Kolská, Ph.D.'",332,"Jirsák Jan, doc. RNDr. Ph.D."
 KCH,M100,2856,Př,2023,2.10.2023,18.12.2023,10:00,11:50,KCH,Fyzikální chemie NMgr.,"'prof. Ing. Zdeňka Kolská, Ph.D.'",332,"Škvorová Magda, Ing. Ph.D."
 KCH,M102,8198,Př,2023,4.10.2023,3.1.2024,13:00,14:50,KCH,Environmental Biotechnology,"'doc. Ing. Josef Trögl, Ph.D.'",2065,"Al Souki Karim, Ph.D."
-KCH,M104,1064,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
-","",,"Čermák Jan, doc. Ing. CSc."
-KCH,M104,4310,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
-","",,"Šícha Václav, RNDr. Ph.D."
-KCH,M104,4587,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
-","",,"Ryšánek Petr, RNDr. Ph.D."
 KCH,M104,2856,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
 ","",,"Škvorová Magda, Ing. Ph.D."
-KCH,M104,4117,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
-","",,"Vrtoch Ľuboš, RNDr. PhD., Ph.D."
 KCH,M104,332,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
 ","",,"Kolská Zdeňka, prof. Ing. Ph.D."
-KCH,M104,1503,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
-","",,"Štofik Marcel, Mgr. Ph.D."
+KCH,M104,4310,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
+","",,"Šícha Václav, RNDr. Ph.D."
 KCH,M104,5431,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
 ","",,"Henych Jiří, Ing. Ph.D."
+KCH,M104,1064,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
+","",,"Čermák Jan, doc. Ing. CSc."
+KCH,M104,4117,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
+","",,"Vrtoch Ľuboš, RNDr. PhD., Ph.D."
+KCH,M104,4587,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
+","",,"Ryšánek Petr, RNDr. Ph.D."
+KCH,M104,1503,Př,2023,4.10.2023,3.1.2024,10:00,11:50,KCH,"Metody charakterizace látek a materiálů
+","",,"Štofik Marcel, Mgr. Ph.D."
 KGEO,M105,6384,Př,2023,4.10.2023,3.1.2024,15:00,16:50,KGEO,Didaktika geografie I,"'RNDr. Silvie Rita Kučerová, Ph.D.'",3528,"Trahorsch Petr, Mgr. Ph.D."
 KGEO,M215,4303,Př,2023,21.2.2024,15.5.2024,10:00,11:50,KGEO,Metody vědecké práce,"'doc. Mgr. Pavel Raška, Ph.D.'",1434,"Dolejš Martin, Mgr. Ph.D."
 KGEO,M220,3528,Př,2023,22.2.2024,16.5.2024,09:00,09:50,KGEO,Didaktika geografie II,"'Mgr. Petr Trahorsch, Ph.D.'",6384,"Kučerová Silvie Rita, RNDr. Ph.D."
@@ -86,9 +86,9 @@ KBI,MA207,8526,Př,2023,5.10.2023,4.1.2024,08:00,08:50,KBI,Metody sledování zv
 KBI,ME100,9523,Př,2023,22.2.2024,16.5.2024,11:00,12:50,KBI,Fyziologie a molekul. biologie živ. buňk,"'doc. MUDr. Vladislav Mareš, DrSc.', 'Mgr. Marian Rupert'","281, 5275","Budková Kateřina, Mgr."
 CNB,ME204,1503,Př,2023,20.2.2024,14.5.2024,08:00,08:50,CNB,Mikrofluid. systémy a biologická analýza,"",,"Štofik Marcel, Mgr. Ph.D."
 KBI,ME300,5094,Př,2023,26.2.2024,6.5.2024,14:00,17:50,KBI,Pokroky v mol. biologii bakterií a virů,"'RNDr. Pavel Branny, CSc.'",8154,"Bobek Jan, RNDr. Ph.D."
+KFY,MK302,4680,Př,2023,9.12.2023,9.12.2023,09:00,12:50,KFY,Fyzika pevných látek,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"Matoušek Jindřich, Mgr. Ph.D."
 KFY,MK302,4680,Př,2023,21.10.2023,21.10.2023,15:00,18:50,KFY,Fyzika pevných látek,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"Matoušek Jindřich, Mgr. Ph.D."
 KFY,MK302,4680,Př,2023,7.10.2023,7.10.2023,15:00,18:50,KFY,Fyzika pevných látek,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"Matoušek Jindřich, Mgr. Ph.D."
-KFY,MK302,4680,Př,2023,9.12.2023,9.12.2023,09:00,12:50,KFY,Fyzika pevných látek,"'doc. RNDr. Jaroslav Pavlík, CSc.'",308,"Matoušek Jindřich, Mgr. Ph.D."
 KFY,MK303,79,Př,2023,9.12.2023,9.12.2023,14:00,17:50,KFY,Astronomie a astrofyzika,"'doc. RNDr. Michal Varady, Ph.D.'",615,"Moravec Zdeněk, RNDr. Ph.D."
 KFY,MK303,79,Př,2023,11.11.2023,11.11.2023,14:00,17:50,KFY,Astronomie a astrofyzika,"'doc. RNDr. Michal Varady, Ph.D.'",615,"Moravec Zdeněk, RNDr. Ph.D."
 KCH,N213,2855,Př,2023,19.2.2024,13.5.2024,14:00,15:50,KCH,Fyzikální chemie NMgr.,"'prof. RNDr. Ivo Nezbeda, DrSc.', 'Ing. Magda Škvorová, Ph.D.'","305, 2856","Jirsák Jan, doc. RNDr. Ph.D."
@@ -110,15 +110,15 @@ KBI,P210,930,Př,2023,23.2.2024,17.5.2024,11:00,13:50,KBI,Genetika,"",,"Ipser Ja
 KMA,P232,5205,Př,2023,19.2.2024,13.5.2024,16:00,17:50,KMA,Vybrané partie z matematiky,"'doc. PaedDr. Petr Eisenmann, CSc.'",261,"Pitrová Veronika, RNDr. PhD., Ph.D."
 KBI,P301,283,Př,2023,2.10.2023,18.12.2023,16:00,17:50,KBI,Fylogeneze a systém nižších rostlin,"'prof. doc. RNDr. Milan Gryndler, CSc.'",3661,"Němcová Lenka, RNDr. CSc."
 KBI,P526,5471,Př,2023,2.10.2023,18.12.2023,11:00,12:50,KBI,Fyziologie rostlin,"'Mgr. Jan Malý, Ph.D.'",280,"Auer Malinská Hana, Mgr. Ph.D."
-KBI,P609,930,Př,2023,22.2.2024,16.5.2024,14:00,16:50,KBI,Evoluční biologie,"",,"Ipser Jan, RNDr. CSc."
 KBI,P609,4472,Př,2023,22.2.2024,16.5.2024,14:00,16:50,KBI,Evoluční biologie,"",,"Liegertová Michaela, Mgr. Ph.D."
+KBI,P609,930,Př,2023,22.2.2024,16.5.2024,14:00,16:50,KBI,Evoluční biologie,"",,"Ipser Jan, RNDr. CSc."
 KBI,P618,930,Př,2023,23.2.2024,17.5.2024,11:00,13:50,KBI,Genetika,"",,"Ipser Jan, RNDr. CSc."
 KBI,PB333,8512,Př,2023,4.10.2023,3.1.2024,14:00,15:50,KBI,Biologie prokaryot a virů,"'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.'","5094, 930","Šebestová Janoušková Olga, Mgr. Ph.D."
 CNB,PB617,8512,Př,2023,23.2.2024,17.5.2024,10:00,12:50,CNB,Molekulární biologie,"'Mgr. Michaela Liegertová, Ph.D.'",4472,"Šebestová Janoušková Olga, Mgr. Ph.D."
 KI,PDSA,3416,Př,2023,6.10.2023,5.1.2024,12:00,13:50,KI,Pokročilé datové struktury a algoritmy,"'Mgr. Jiří Fišer, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiří Škvor, Ph.D.'","251, 2239, 2220","Babichev Sergii, prof. CSc., DSc."
-KFY,PSVN,7640,Př,2023,5.10.2023,4.1.2024,13:00,14:50,KFY,Počítačové simulace v nanotechnologiích,"'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'Mgr. Martin Svoboda, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","1803, 2855, 304, 3222, 306, 5958, 613","Dočkal Jan, RNDr. Ph.D."
 KFY,PSVN,609,Př,2023,5.10.2023,4.1.2024,13:00,14:50,KFY,Počítačové simulace v nanotechnologiích,"'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'Mgr. Martin Svoboda, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","1803, 2855, 304, 3222, 306, 5958, 613","Lísal Martin, prof. Ing. DSc."
+KFY,PSVN,7640,Př,2023,5.10.2023,4.1.2024,13:00,14:50,KFY,Počítačové simulace v nanotechnologiích,"'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'Mgr. Martin Svoboda, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","1803, 2855, 304, 3222, 306, 5958, 613","Dočkal Jan, RNDr. Ph.D."
 KI,SOC,3416,Př,2023,23.2.2024,17.5.2024,12:00,13:50,KI,Soft Computing,"'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.'","650, 2239","Babichev Sergii, prof. CSc., DSc."
-KFY,UDPM,7640,Př,2023,5.10.2023,4.1.2024,13:00,14:50,KFY,Úvod do počítačového modelování,"'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'Mgr. Martin Svoboda, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","1803, 2855, 304, 3222, 306, 5958, 613","Dočkal Jan, RNDr. Ph.D."
 KFY,UDPM,609,Př,2023,5.10.2023,4.1.2024,13:00,14:50,KFY,Úvod do počítačového modelování,"'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'Mgr. Martin Svoboda, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","1803, 2855, 304, 3222, 306, 5958, 613","Lísal Martin, prof. Ing. DSc."
+KFY,UDPM,7640,Př,2023,5.10.2023,4.1.2024,13:00,14:50,KFY,Úvod do počítačového modelování,"'doc. Ing. Jaromír Havlica, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Marek Malý, Ph.D.', 'doc. RNDr. Filip Moučka, Ph.D.', 'prof. RNDr. Stanislav Novák, CSc.', 'Mgr. Martin Svoboda, Ph.D.', 'RNDr. Martin Švec, Ph.D.'","1803, 2855, 304, 3222, 306, 5958, 613","Dočkal Jan, RNDr. Ph.D."
 KI,VPOV,9114,Př,2023,21.2.2024,24.4.2024,15:00,15:50,KI,Vybrané partie z operačního výzkumu,"'RNDr. Petr Kubera, Ph.D.'",650,"Moosaei Hossein, Dr. Ph.D."
