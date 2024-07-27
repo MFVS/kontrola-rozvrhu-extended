@@ -2,6 +2,8 @@ import polars as pl
 from typing import Tuple, Dict, List
 from io import StringIO
 
+# ----- POMOCNÉ FUNKCE -----
+
 def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, manual_login:Tuple[str, str] = None) -> 'StringIO': # manual_login formát: (jméno, heslo)
     import requests
     import os
@@ -23,7 +25,6 @@ def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, manual_lo
         cookies.update({"WSCOOKIE":ticket})
 
     load_dotenv()
-
     user = os.getenv("STAG_USER")
     password = os.getenv("STAG_PASSWORD")
 
@@ -77,43 +78,6 @@ def get_academic_year() -> int: #UNTESTED
     
     return cur_year
 
-def katedra(katedra:str, ticket:str, auth:tuple=None, year:str | None = None) -> None:
-    #import polars as pl
-
-    if year == None:
-        year = str(get_academic_year())
-
-    # Testovací data
-    # DATA REDIGOVÁNA (nebudu se doxovat)
-    params_rozvrh = {
-        "stagUser": "F23112", # Fix this
-        "semestr":"%",
-        "vsechnyCasyKonani":"false",
-        "jenRozvrhoveAkce":"true",
-        "vsechnyAkce":"false",
-        "jenBudouciAkce":"false",
-        "lang":"cs",
-        "katedra":katedra,
-        "rok":year
-    }
-    params_predmety = {
-        "lang":"cs",
-        "katedra":katedra,
-        "jenNabizeneECTSPrijezdy":"false",
-        "rok":year
-    }
-
-    # Side note: Obecně čtení v pythonu se silně nelíbí když neexistujicí složky kam maj chodit...
-    # Excel rozvrhy funguje jen s validním přihlášením
-    excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-    excel_rozvrhy.write_csv("source_tables/rozvrh_complete.csv")
-
-    # Excel předměty funguje i bez přihlášení
-    excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
-    excel_predmety.write_csv("source_tables/predmety_complete.csv")
-
-    get_teachers()
-
 def null_out(dataframe:"pl.DataFrame", columns:List[str]) -> "pl.DataFrame":
     """Changes empty values to none, for int conversion purposes.
 
@@ -140,26 +104,53 @@ def get_teachers() -> None:
     excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}), separator=";")
     excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
 
-def fakulta(fakulta:str, ticket:str, auth:tuple = None, year:str | None = None) -> None:
+# ----- FUNKCE GENERUJÍCÍ CSV -----
 
-    get_teachers()
+def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None) -> None:
 
-    if year == None:
-        year = str(get_academic_year())
+    params_rozvrh = {
+        "stagUser": "F23112", # Fix this
+        "semestr":"%",
+        "vsechnyCasyKonani":"false",
+        "jenRozvrhoveAkce":"true",
+        "vsechnyAkce":"false",
+        "jenBudouciAkce":"false",
+        "lang":"cs",
+        "katedra":katedra,
+        "rok":year
+    }
+    params_predmety = {
+        "lang":"cs",
+        "katedra":katedra,
+        "jenNabizeneECTSPrijezdy":"false",
+        "rok":year
+    }
+
+    # Excel rozvrhy funguje jen s validním přihlášením
+    excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
+    excel_rozvrhy.write_csv("source_tables/by_type/rozvrh_katedra.csv")
+
+    # Excel předměty funguje i bez přihlášení
+    excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
+    excel_predmety.write_csv("source_tables/by_type/predmety_katedra.csv")
+
+def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None) -> None:
+    # Malá poznámka: Neexistuje (minimálně jsem jej nenašel) způsob jak získat rozvrh fakulty, takže procházím rozvrh všech kateder a lepím je na sebe Herkulesem
 
     params_kateder = {
         "typPracoviste":"K",
         "zkratka":"%",
         "nadrazenePracoviste":fakulta
     }
-    #print(params_kateder["nadrazenePracoviste"])
+
+    # Načítá seznam kateder pod fakultou
     katedry_csv = pl.read_csv(fetch_csv(service="/ciselniky/getSeznamPracovist", params_plus=params_kateder, ticket=ticket, manual_login=auth), separator=";")
+
     katedry_list = katedry_csv.to_series(2)
     katedry_list = katedry_list.to_list()
-    #print(katedry_list)
-
 
     loner = katedry_list.pop(0)
+
     params_rozvrh = {
         "stagUser": "F23112",
         "semestr":"%",
@@ -180,44 +171,30 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None, year:str | None = None) 
 
     excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
     excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByFakultaFullInfo", params_plus=params_predmety, ticket=ticket, manual_login=auth), separator=";")
-    # excel_predmety.write_csv("source_testing/predmety-1.csv")
 
     for katedra in katedry_list:
         print("Moving to: " + katedra)
         params_rozvrh["katedra"] = katedra
-        # params_predmety["katedra"] = katedra
 
         print("Fetching CSVs.")
-
         temp_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-        # temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
 
         print("Fetched CSVs successfully.")
-
-        if temp_rozvrhy.__len__() == 0: # or temp_predmety.__len__() == 0
+        if temp_rozvrhy.__len__() == 0:
             print("One or more CSV's are empty. Continuing to next item.")
             continue
 
         print("Ensuring type consistency.")
-
-        fix_list_rozvrhy = type_check(excel_rozvrhy, temp_rozvrhy)
-        #fix_list_predmety = type_check(excel_predmety, temp_predmety)
-
-        # for col_type in fix_list_predmety.keys():
-        #     if col_type == pl.Int64:
-        #         temp_predmety = null_out(temp_predmety, fix_list_predmety[col_type])
-        #     temp_predmety = temp_predmety.with_columns(pl.col(fix_list_predmety[col_type]).cast(col_type))
+        fix_list_rozvrhy = type_check(excel_rozvrhy, temp_rozvrhy) # Potenciálně se dá hodit rovnou do funkce, možná ušetřit trochu prostoru v paměti
 
         for col_type in fix_list_rozvrhy.keys():
             if col_type == pl.Int64:
-                temp_rozvrhy = null_out(temp_rozvrhy, fix_list_rozvrhy[col_type])
+                temp_rozvrhy = null_out(temp_rozvrhy, fix_list_rozvrhy[col_type]) # Mění "" na None, přechází erroru při konverzi na int
             temp_rozvrhy = temp_rozvrhy.with_columns(pl.col(fix_list_rozvrhy[col_type]).cast(col_type))
 
         print("Type consistency ensured. Saving testing file and appending the main dataframes.")
-
         # temp_predmety.write_csv("source_testing/predmety"+str(num)+".csv")
         
-        # excel_predmety = excel_predmety.vstack(temp_predmety)
         excel_rozvrhy = excel_rozvrhy.vstack(temp_rozvrhy)
         print("Dataframes appended. Continuing to next item.")
 
@@ -225,11 +202,7 @@ def fakulta(fakulta:str, ticket:str, auth:tuple = None, year:str | None = None) 
     excel_predmety.write_csv("source_tables/predmety_fakulta.csv")
     
 
-def ucitel(id_ucitele:int, ticket:str, auth:tuple=None, year:str | None = None):
-    if year == None:
-        year = str(get_academic_year())
-
-    # Params
+def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | None = None): # Tady se dějou nějaký weird věci... Znovu se na to koukni a porovnej to s tím jak handleuješ fakultu.
     params_rozvrh = {
         "stagUser": "F23112",
         "semestr":"%",
@@ -248,23 +221,18 @@ def ucitel(id_ucitele:int, ticket:str, auth:tuple=None, year:str | None = None):
         "rok":year
     }
 
-    # Číselník
-    get_teachers()
-
     # Rozvrh
     rozvrh_ucitel = pl.read_csv(fetch_csv("/rozvrhy/getRozvrhByUcitel", ticket, params_rozvrh, auth), separator=";")
     rozvrh_ucitel.write_csv("source_tables/rozvrh_ucitel.csv")
 
     # Předměty
-    # Problém: Je třeba full info.
-    # Workaround: Left join seznamu předmětů dle katedry.
     predmety_ucitel_list = pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";")
     predmety_ucitel_list.write_csv("source_testing/ucitel_predmety_lite")
     katedry_list = predmety_ucitel_list.to_series(2).unique().to_list()
     print(katedry_list)
 
     loner = katedry_list.pop(0)
-    print(loner)
+
     params_kat_predmety = {
         "lang":"cs",
         "katedra":loner,
@@ -273,10 +241,8 @@ def ucitel(id_ucitele:int, ticket:str, auth:tuple=None, year:str | None = None):
     }
     
     katedra_predmety = pl.read_csv(fetch_csv("/predmety/getPredmetyByKatedraFullInfo", ticket, params_kat_predmety, auth), separator=";")
-    print(katedra_predmety.head())
 
     predmety_complete = predmety_ucitel_list.filter(pl.col("katedra") == loner).select("zkratka").join(katedra_predmety, "zkratka", "inner")
-    print(predmety_complete.head())
 
     for katedra in katedry_list:
         params_kat_predmety["katedra"] = katedra
@@ -285,14 +251,38 @@ def ucitel(id_ucitele:int, ticket:str, auth:tuple=None, year:str | None = None):
         print(katedra_predmety.head())
         temp_predmety = predmety_ucitel_list.filter(pl.col("katedra") == katedra).select("zkratka").join(katedra_predmety, "zkratka", "inner")
         predmety_complete = predmety_complete.vstack(temp_predmety)
-        #print(predmety_complete.head())
 
     predmety_complete.write_csv("source_tables/predmety_ucitel.csv")
 
-
-
 def studijni_program():
-    pass
+    raise NotImplemented("Maybe To-do? No clue how we would go about doing this.")
+
+# ----- HANDLER ----- 
+
+def pull_data(search_type:str, search_target:str, ticket:str | None = None, auth:tuple = None, year:str | None = None):
+    # TODO: Přidej dynamické pojmenování vygenerovaných tabulek
+
+    assert search_type != None, "Missing type of search."
+    assert search_target != None, "Missing search keyword."
+
+    get_teachers()
+
+    if ticket == None:
+        ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
+
+    if year == None:
+        year = str(get_academic_year())
+
+    search_areas = {
+        "Fakulta":fakulta,
+        "Katedra":katedra,
+        "Studijní program":studijni_program,
+        "Učitel":ucitel
+    }
+
+    search_areas[search_type](search_target, ticket, auth, year)
+
+# ----------
 
 if __name__ == '__main__':
     ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
