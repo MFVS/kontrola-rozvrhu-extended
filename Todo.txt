@@ -1,19 +1,29 @@
+GENERAL
+- Core: Skripty spolu neinteragují, nutno je propojit nebo sekvenčně spustit
+- Core: Není skript na vracení hodnot
+
+APP_PS
+- Core: Udělat to tak aby to vracelo věci co dělat
+- Core: Zkompletovat multiselecty
+
 BOMBATOR
--IM: Přidat identifier do předmety s akcí/rozvrhů
--IM: Běžně použité sloupce do proměnných
+-Improvements: Přidat identifier do předmety s akcí/rozvrhů
+-Improvements: Běžně použité sloupce do proměnných [MOSTLY DONE]
     - garantiUcitIdno
--CR: Otestovat buňku Předmety podezřelé z více garantů
--IM: Mergenout více bloků se stejnýma principama do funkcí pro zlepšení čitelnosti a škálovatelnosti?
-    - Má {přednášku/cvičení/seminář} a nemá {přednášejícího/cvičícího/seminařícího}
+-Core: Otestovat buňku Předmety podezřelé z více garantů
+-Improvements: Mergenout více bloků se stejnýma principama do funkcí pro zlepšení čitelnosti a škálovatelnosti?
+    - Má {přednášku/cvičení/seminář} a nemá {přednášejícího/cvičícího/seminařícího} [DONE]
     - {Přednášející/Cvičící/Seminařící} nemá {přednášku/cvičení/seminář} a vice versa
--IM: Posuň načítání číselníku učitelů výše
+-Improvements: Posuň načítání číselníku učitelů výše
 
 
 XLSX-GEN
--CR: Načítání předmětů učitelů dělá nějaký hovadiny, vyšetři to
--IM: Při načítání CSV se "login correction" zapne pokud chybí jméno NEBO heslo. Nemělo by to být a?
--CR: Při žádání o katedrální rozvrh se využívá moje stag username, udělej z toho proměnnou
--CR: Přidat načítání podle studijního programu
--CR: Rok je locklý na současný rok. Jak to ideálně změnit? [PRETTY MUCH DONE]
+- Core: Načítání předmětů učitelů dělá nějaký hovadiny, vyšetři to
+    ~ Absolutně si nevzpomínám co to znamená, takže pro zatím POSTPONED
+- Improvements: Při načítání CSV se "login correction" zapne pokud chybí jméno NEBO heslo. Nemělo by to být a? [DONE]
+    - Ne
+- Core: Při žádání o katedrální rozvrh se využívá moje stag username, udělej z toho proměnnou
+- Core: Přidat načítání podle studijního programu
+- Core: Rok je locklý na současný rok. Jak to ideálně změnit? [PRETTY MUCH DONE]
     - Rok bude locklý na současný akademický rok
     - Všechny rok (rok jako volitelný parametr)
