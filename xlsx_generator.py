@@ -2,12 +2,30 @@ import polars as pl
 from typing import Tuple, Dict, List
 from io import StringIO
 
-# ----- POMOCNÉ FUNKCE -----
-
-def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, manual_login:Tuple[str, str] = None) -> 'StringIO': # manual_login formát: (jméno, heslo)
-    import requests
+# --- LOGIN ---
+def login(over_name:str | None = None, over_pass:str | None = None) -> Tuple[str, str] | None: # Over_name a over_pass jsou override parametry pro účely lazení
     import os
     from dotenv import load_dotenv
+
+    load_dotenv()
+    user = os.getenv("STAG_USER")
+    password = os.getenv("STAG_PASSWORD")
+
+    if user == None or password == None:
+        return login_correction(over_name, over_pass)
+    else:
+        return (user, password)
+
+def login_correction(manual_login:Tuple[str, str]) -> Tuple[str, str] | None:
+    if not isinstance(manual_login[0], str) or not isinstance(manual_login[1], str) or manual_login == None:
+        return None
+    else:
+        return (manual_login[0], manual_login[1])
+    
+
+# --- CSV FETCHING ---
+def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, auth:Tuple[str, str] = None) -> 'StringIO': # manual_login formát: (jméno, heslo)
+    import requests
 
     assert service != "", "Service is necessary"
     
@@ -24,27 +42,12 @@ def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, manual_lo
     if ticket != "":
         cookies.update({"WSCOOKIE":ticket})
 
-    load_dotenv()
-    user = os.getenv("STAG_USER")
-    password = os.getenv("STAG_PASSWORD")
-
-    if user == None or password == None:
-        auth = login_correction(manual_login)
-    else:
-        auth = (user, password)
-
     data = requests.get(url, params=params, cookies=cookies, auth=auth)
 
     wrap = StringIO(data.text)
     return wrap
 
-# Manuální login override (technicky underride ale meh) pro testování
-def login_correction(manual_login:Tuple[str, str]) -> Tuple[str, str] | None:
-    if not isinstance(manual_login[0], str) or not isinstance(manual_login[1], str) or manual_login == None:
-        return None
-    else:
-        return (manual_login[0], manual_login[1])
-
+# --- MISC METODY ---
 def type_check(dataframe1:"pl.DataFrame", dataframe2:"pl.DataFrame") -> Dict[pl.DataType, List[str]]:
     """Checks if there are type differences between two dataframes. Created to fix type mismatches between two dataframes with same columns.
 
@@ -103,6 +106,7 @@ def get_teachers() -> None:
     """
     excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}), separator=";")
     excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
+
 
 # ----- FUNKCE GENERUJÍCÍ CSV -----
 
@@ -259,11 +263,13 @@ def studijni_program():
 
 # ----- HANDLER ----- 
 
-def pull_data(search_type:str, search_target:str, ticket:str | None = None, auth:tuple = None, year:str | None = None):
+def pull_data(search_type:str, search_target:str, ticket:str | None = None, auth_over:Tuple[str, str] | None = None, year:str | None = None):
     # TODO: Přidej dynamické pojmenování vygenerovaných tabulek
 
     assert search_type != None, "Missing type of search."
     assert search_target != None, "Missing search keyword."
+
+    auth = login(auth_over[0], auth_over[1])
 
     get_teachers()
 
@@ -285,10 +291,4 @@ def pull_data(search_type:str, search_target:str, ticket:str | None = None, auth
 # ----------
 
 if __name__ == '__main__':
-    ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
-    auth = ("st101885", "x0301093100")
-
-    #katedra(katedra="KI", ticket=ticket, auth=auth)
-    #fakulta(fakulta="PRF", ticket=ticket, auth=auth)
-    ucitel(261, ticket, auth)
-
+    pull_data()
