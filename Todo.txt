@@ -10,7 +10,6 @@ BOMBATOR
 -Improvements: Přidat identifier do předmety s akcí/rozvrhů
 -Improvements: Běžně použité sloupce do proměnných [MOSTLY DONE]
     - garantiUcitIdno
--Core: Otestovat buňku Předmety podezřelé z více garantů
 -Improvements: Mergenout více bloků se stejnýma principama do funkcí pro zlepšení čitelnosti a škálovatelnosti?
     - Má {přednášku/cvičení/seminář} a nemá {přednášejícího/cvičícího/seminařícího} [DONE]
     - {Přednášející/Cvičící/Seminařící} nemá {přednášku/cvičení/seminář} a vice versa
@@ -20,10 +19,5 @@ BOMBATOR
 XLSX-GEN
 - Core: Načítání předmětů učitelů dělá nějaký hovadiny, vyšetři to
     ~ Absolutně si nevzpomínám co to znamená, takže pro zatím POSTPONED
-- Improvements: Při načítání CSV se "login correction" zapne pokud chybí jméno NEBO heslo. Nemělo by to být a? [DONE]
-    - Ne
 - Core: Při žádání o katedrální rozvrh se využívá moje stag username, udělej z toho proměnnou
 - Core: Přidat načítání podle studijního programu
-- Core: Rok je locklý na současný rok. Jak to ideálně změnit? [PRETTY MUCH DONE]
-    - Rok bude locklý na současný akademický rok
-    - Všechny rok (rok jako volitelný parametr)

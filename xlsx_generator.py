@@ -110,10 +110,11 @@ def get_teachers() -> None:
 
 # ----- FUNKCE GENERUJÍCÍ CSV -----
 
-def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None) -> None:
+def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, file_id:str = "katedra") -> Dict[str, str]: # Vrací jméno souboru
+    assert stag_user != None, "This requires the user to login."
 
     params_rozvrh = {
-        "stagUser": "F23112", # Fix this
+        "stagUser": stag_user, # Fix this
         "semestr":"%",
         "vsechnyCasyKonani":"false",
         "jenRozvrhoveAkce":"true",
@@ -131,15 +132,22 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
     }
 
     # Excel rozvrhy funguje jen s validním přihlášením
+    file_names = {
+        "rozvrhy":f"source_tables/by_type/rozvrh_{file_id}.csv",
+        "predmety":f"source_tables/by_type/predmety_{file_id}.csv"
+    }
     excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-    excel_rozvrhy.write_csv("source_tables/by_type/rozvrh_katedra.csv")
+    excel_rozvrhy.write_csv(file_names["rozvrhy"])
 
     # Excel předměty funguje i bez přihlášení
     excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
-    excel_predmety.write_csv("source_tables/by_type/predmety_katedra.csv")
+    excel_predmety.write_csv(file_names["predmety"])
 
-def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None) -> None:
+    return file_names
+
+def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, file_id:str = "fakulta") -> Dict[str, str]:
     # Malá poznámka: Neexistuje (minimálně jsem jej nenašel) způsob jak získat rozvrh fakulty, takže procházím rozvrh všech kateder a lepím je na sebe Herkulesem
+    assert stag_user != None, "This requires the user to login."
 
     params_kateder = {
         "typPracoviste":"K",
@@ -156,7 +164,7 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
     loner = katedry_list.pop(0)
 
     params_rozvrh = {
-        "stagUser": "F23112",
+        "stagUser": stag_user,
         "semestr":"%",
         "vsechnyCasyKonani":"false",
         "jenRozvrhoveAkce":"true",
@@ -202,13 +210,27 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
         excel_rozvrhy = excel_rozvrhy.vstack(temp_rozvrhy)
         print("Dataframes appended. Continuing to next item.")
 
-    excel_rozvrhy.write_csv("source_tables/rozvrhy_fakulta.csv")
-    excel_predmety.write_csv("source_tables/predmety_fakulta.csv")
+    file_names = {
+        "rozvrhy":f"source_tables/by_type/rozvrh_{file_id}.csv",
+        "predmety":f"source_tables/by_type/predmety_{file_id}.csv"
+    }
+
+    excel_rozvrhy.write_csv(file_names["rozvrhy"])
+    excel_predmety.write_csv(file_names["predmety"])
+
+    return file_names
     
 
-def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | None = None): # Tady se dějou nějaký weird věci... Znovu se na to koukni a porovnej to s tím jak handleuješ fakultu.
+def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, file_id: str = "ucitel") -> Dict[str, str]: # Tady se dějou nějaký weird věci... Znovu se na to koukni a porovnej to s tím jak handleuješ fakultu.
+    assert stag_user != None, "This requires the user to login."
+
+    file_names = {
+        "rozvrhy":f"source_tables/by_type/rozvrh_{file_id}.csv",
+        "predmety":f"source_tables/by_type/predmety_{file_id}.csv"
+    }
+
     params_rozvrh = {
-        "stagUser": "F23112",
+        "stagUser": stag_user,
         "semestr":"%",
         "vsechnyCasyKonani":"false",
         "jenRozvrhoveAkce":"true",
@@ -227,7 +249,7 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
 
     # Rozvrh
     rozvrh_ucitel = pl.read_csv(fetch_csv("/rozvrhy/getRozvrhByUcitel", ticket, params_rozvrh, auth), separator=";")
-    rozvrh_ucitel.write_csv("source_tables/rozvrh_ucitel.csv")
+    rozvrh_ucitel.write_csv(file_names["rozvrhy"])
 
     # Předměty
     predmety_ucitel_list = pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";")
@@ -256,28 +278,33 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
         temp_predmety = predmety_ucitel_list.filter(pl.col("katedra") == katedra).select("zkratka").join(katedra_predmety, "zkratka", "inner")
         predmety_complete = predmety_complete.vstack(temp_predmety)
 
-    predmety_complete.write_csv("source_tables/predmety_ucitel.csv")
+    predmety_complete.write_csv(file_names["predmety"])
+
+    return file_names
 
 def studijni_program():
     raise NotImplemented("Maybe To-do? No clue how we would go about doing this.")
 
 # ----- HANDLER ----- 
 
-def pull_data(search_type:str, search_target:str, ticket:str | None = None, auth_over:Tuple[str, str] | None = None, year:str | None = None):
+def pull_data(search_type:str, search_target:str, ticket_over:str | None = None, auth_over:Tuple[str, str] | None = None, year:str | None = None):
     # TODO: Přidej dynamické pojmenování vygenerovaných tabulek
 
     assert search_type != None, "Missing type of search."
     assert search_target != None, "Missing search keyword."
 
-    auth = login(auth_over[0], auth_over[1])
+    credentials = login(auth_over[0], auth_over[1])
+    auth = (credentials[0], credentials[1])
+    #ticket = credentials[2]
+    ticket = None # For debugging
 
     get_teachers()
 
     if ticket == None:
-        ticket = "30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a"
+        ticket = ticket_over
 
     if year == None:
-        year = str(get_academic_year())
+        year = str(get_academic_year()) # For debug
 
     search_areas = {
         "Fakulta":fakulta,
@@ -291,4 +318,7 @@ def pull_data(search_type:str, search_target:str, ticket:str | None = None, auth
 # ----------
 
 if __name__ == '__main__':
-    pull_data()
+    pull_data(
+        ticket_over="30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a",
+        
+    )

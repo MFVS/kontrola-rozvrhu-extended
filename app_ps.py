@@ -17,21 +17,21 @@ col1, col2, col3 = st.columns(3)
 with col1:
     main_options = st.selectbox("Hledat chyby podle:",["Fakulta","Katedra","Studijní program","Učitel"])
 
-with col2: # Tohle celkově nic nedělá. Přidat proměnnou, kterou potom šoupneme do xlsx-generátoru.
+with col2:
     if main_options == "Fakulta":
-        st.multiselect("Zvolte fakultu:",["PřF","PF","FSE","FSI","FF","FZS","FŽP","FUD"])
+        target = st.multiselect("Zvolte fakultu:",["PřF","PF","FSE","FSI","FF","FZS","FŽP","FUD"])
     if main_options == "Katedra":
-        st.multiselect("Zvolte katedru:",["KMA","KI","zbytek doplníme"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
+        target = st.multiselect("Zvolte katedru:",["KMA","KI","zbytek doplníme"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
     if main_options == "Studijní program":
-        st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Ditto
+        target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Ditto
     if main_options == "Učitel":
-        st.multiselect("Zvolte učitele:",["učitel1","učitel2","učitel3","a tak dále"]) #TODO: Ditto
+        target = st.multiselect("Zvolte učitele:",["učitel1","učitel2","učitel3","a tak dále"]) #TODO: Ditto
 
 # Fakulta = st.selectbox("Zvolte fakultu:",["By default","","","","",""])
 # if Fakulta == "By default":
     
 with col3:
-    st.selectbox("Zvolte akademický rok:",["2023/2024","2022/2023","2021/2022","2020/2021","a tak dále"]) # TODO: Přidat automatickou generaci školního roku (also, roky potřebujeme ve formátu {počáteční rok ŠR})
+    year = st.selectbox("Zvolte akademický rok:",["2023/2024","2022/2023","2021/2022","2020/2021","a tak dále"]) # TODO: Přidat automatickou generaci školního roku (also, roky potřebujeme ve formátu {počáteční rok ŠR})
 
 st.subheader("Filtrování typů chyb")
 
@@ -63,13 +63,13 @@ for i in range(7):
     with cols1[i]: 
         num = st.checkbox(chyby[i], value = True)
 
-cols2 = st.columns(7) 
-for i in range(7): 
+cols2 = st.columns(4) 
+for i in range(4): 
     with cols2[i]: 
         num = st.checkbox(chyby[i], value = True) 
 
-st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
+lang = st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
 
-st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
+output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
 
 st.button("Spustit")
