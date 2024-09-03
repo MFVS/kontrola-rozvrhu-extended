@@ -1,3 +1,25 @@
+# Ok, takže:
+# 1) Tenhle blok kódu si osvěží, jaký všechny pracoviště jsou na UJEPu (na vytvoření jejich seznamu) vždycky, když si někdo otevře tuhle stránku. Velmi neefektivní.
+#   - V ideálním světě by se seznam pracovišť osvěžil jednou za den (nebo za týden, whatever) a uložil do JSONu, který potom importujem. Nicméně, nevím jak spustit nějakej skript jenom jednou každý den, takže tohle zatím postačí.
+# 2) Vynechávám učitele. Ať tam zadaj ten čtyřčíselný kód, whatever. Zatím mi to přijde jako moc úsilí pro něco kde hledat učitele bude legit nemožný.
+#   - Už hledat katedry bude fakt slast...
+# 3) NEOTESTOVANÝ. MOŽNÁ TO CRASHNE, NETUŠÍM CO DĚLÁM LMAO
+
+# --- BLOCK OF STUPID ---
+def workplace_list_gen(wplace_type:str | None = None):
+    assert wplace_type != None, "Workplace type not specified."
+    from xlsx_generator import fetch_csv
+    import polars as pl
+
+    return pl.read_csv(fetch_csv("/ciselniky/getSeznamPracovist", params_plus={"typPracoviste":wplace_type, "zkratka":"%","nadrazenePracoviste":"%"}), separator=";").to_series(2).to_list()
+
+search_fields = {
+    "Fakulta":workplace_list_gen("F"),
+    "Katedra":workplace_list_gen("K")
+}
+# --- ---
+
+# --- Actual stránka ---
 import streamlit as st
 st.set_page_config(page_title="Hledání chyb",page_icon=":left_speech_bubble:",layout="wide", initial_sidebar_state="expanded")
 
@@ -18,12 +40,12 @@ with col1:
     main_options = st.selectbox("Hledat chyby podle:",["Fakulta","Katedra","Studijní program","Učitel"])
 
 with col2:
-    if main_options == "Fakulta":
-        target = st.multiselect("Zvolte fakultu:",["PřF","PF","FSE","FSI","FF","FZS","FŽP","FUD"])
+    if main_options == "Fakulta": #TODO: Přidat zprávu, že tohle bude trvat...
+        target = st.multiselect("Zvolte fakultu:",search_fields["Fakulta"])
     if main_options == "Katedra":
-        target = st.multiselect("Zvolte katedru:",["KMA","KI","zbytek doplníme"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
-    if main_options == "Studijní program":
-        target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Ditto
+        target = st.multiselect("Zvolte katedru:",search_fields["Katedra"]) #NOTE: Tohle ZAHLTÍ uživatele volbami
+    if main_options == "Studijní program": #NOTE: Studijní programy nejsou zatím podporovány.
+        target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
     if main_options == "Učitel":
         target = st.multiselect("Zvolte učitele:",["učitel1","učitel2","učitel3","a tak dále"]) #TODO: Ditto
 

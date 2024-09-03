@@ -12,7 +12,7 @@ def login(over_name:str | None = None, over_pass:str | None = None) -> Tuple[str
     password = os.getenv("STAG_PASSWORD")
 
     if user == None or password == None:
-        return login_correction(over_name, over_pass)
+        return login_correction((over_name, over_pass))
     else:
         return (user, password)
 
@@ -133,10 +133,11 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
 
     # Excel rozvrhy funguje jen s validním přihlášením
     file_names = {
+        "identifier":file_id,
         "rozvrhy":f"source_tables/by_type/rozvrh_{file_id}.csv",
         "predmety":f"source_tables/by_type/predmety_{file_id}.csv"
     }
-    excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
+    excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";")
     excel_rozvrhy.write_csv(file_names["rozvrhy"])
 
     # Excel předměty funguje i bez přihlášení
@@ -156,7 +157,7 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
     }
 
     # Načítá seznam kateder pod fakultou
-    katedry_csv = pl.read_csv(fetch_csv(service="/ciselniky/getSeznamPracovist", params_plus=params_kateder, ticket=ticket, manual_login=auth), separator=";")
+    katedry_csv = pl.read_csv(fetch_csv(service="/ciselniky/getSeznamPracovist", params_plus=params_kateder, ticket=ticket, auth=auth), separator=";")
 
     katedry_list = katedry_csv.to_series(2)
     katedry_list = katedry_list.to_list()
@@ -181,15 +182,15 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
         "rok":year
     }
 
-    excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
-    excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByFakultaFullInfo", params_plus=params_predmety, ticket=ticket, manual_login=auth), separator=";")
+    excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";")
+    excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByFakultaFullInfo", params_plus=params_predmety, ticket=ticket, auth=auth), separator=";")
 
     for katedra in katedry_list:
         print("Moving to: " + katedra)
         params_rozvrh["katedra"] = katedra
 
         print("Fetching CSVs.")
-        temp_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, manual_login=auth), separator=";")
+        temp_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";")
 
         print("Fetched CSVs successfully.")
         if temp_rozvrhy.__len__() == 0:
@@ -211,6 +212,7 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
         print("Dataframes appended. Continuing to next item.")
 
     file_names = {
+        "identifier":file_id,
         "rozvrhy":f"source_tables/by_type/rozvrh_{file_id}.csv",
         "predmety":f"source_tables/by_type/predmety_{file_id}.csv"
     }
@@ -225,6 +227,7 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
     assert stag_user != None, "This requires the user to login."
 
     file_names = {
+        "identifier":file_id,
         "rozvrhy":f"source_tables/by_type/rozvrh_{file_id}.csv",
         "predmety":f"source_tables/by_type/predmety_{file_id}.csv"
     }
@@ -313,12 +316,16 @@ def pull_data(search_type:str, search_target:str, ticket_over:str | None = None,
         "Učitel":ucitel
     }
 
-    search_areas[search_type](search_target, ticket, auth, year)
+    stag_user = "F23112" # Debug, yay
+
+    return search_areas[search_type](search_target, ticket, auth, year, stag_user=stag_user, file_id=stag_user)
 
 # ----------
 
 if __name__ == '__main__':
     pull_data(
         ticket_over="30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a",
-        
+        search_type="Fakulta",
+        search_target="PRF",
+        auth_over=["st101885","x0301093100"]
     )

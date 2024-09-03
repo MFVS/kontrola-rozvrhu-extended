@@ -1,28 +1,26 @@
 domena,zkratka,nazev,key,poradi
 UCITELE,"","Abrahamová Petra, Mgr.",8409,999
-UCITELE,"","Ač Alexander, Mgr. Ph.D.",9316,999
 UCITELE,"","Adamec Slavomír, Ing.",5432,999
 UCITELE,"","Adámek Pavel, Mgr. Bc.",7443,999
+UCITELE,"","Adamík Petr, Mgr. Ph.D.",9822,999
 UCITELE,"","Adam Julie, M.A.",9249,999
 UCITELE,"",Adámková Romana,9528,999
 UCITELE,"","Adámková Ségard Milena, Mgr. Ph.D.",2979,999
 UCITELE,"","Adamovský Radomír, prof. Ing. DrSc.",7429,999
-UCITELE,"","Aková Nikol, Mgr.",1795,999
 UCITELE,"","Albrecht Jakub, MUDr. Ph.D.",9555,999
 UCITELE,"",Albrechtová Zuzana,2387,999
 UCITELE,"","Alfonso Tomáš, Ing.",8519,999
 UCITELE,"","Al Souki Karim, Ph.D.",8198,999
 UCITELE,"","Anděl Jiří, doc. RNDr. CSc.",312,999
-UCITELE,"","Apltauerová Pavla, MUDr.",9603,999
-UCITELE,"","Arndt Tereza, Ph.D.",9545,999
+UCITELE,"","Arndt Tereza, Mgr. Ph.D.",9545,999
 UCITELE,"","Ašenbrenerová Ivana, doc. PhDr. Ph.D.",433,999
 UCITELE,"","Auer Malinská Hana, Mgr. Ph.D.",5471,999
-UCITELE,"","Auerveková Petra, Mgr.",8354,999
 UCITELE,"","Avdějeva Anastasie, Mgr.",9492,999
 UCITELE,"","Bába Marek, MUDr.",9666,999
 UCITELE,"","Babicová Lenka, Ing.",5211,999
-UCITELE,"","Babichev Sergii, prof. CSc., DSc.",3416,999
+UCITELE,"","Babichev Sergii, prof. DSc.",3416,999
 UCITELE,"","Babor Martin, Ing. Ph.D.",9645,999
+UCITELE,"","Baborová Aneta, Mgr.",9549,999
 UCITELE,"","Bajcura Matúš, Ing. PhD.",5579,999
 UCITELE,"","Bakardjieva Snejanka Stefanova, RNDr. Ph.D.",4097,999
 UCITELE,"","Balach Vladimír, Ing.",4691,999
@@ -36,11 +34,10 @@ UCITELE,"","Balkó Štefan, doc. PhDr. Ph.D.",2882,999
 UCITELE,"","Baráková Jana, Mgr.",9543,999
 UCITELE,"","Baran René, Bc.",6361,999
 UCITELE,"","Barek Daniel, MgA.",9537,999
-UCITELE,"","Barchánek Michal, MUDr.",9610,999
 UCITELE,"","Barchánková Ivana, Ing. Ph.D.",9441,999
 UCITELE,"","Barilla Jiří, doc. Ing. Mgr. CSc.",449,999
 UCITELE,"","Barták Miroslav, PhDr. Ph.D.",1632,999
-UCITELE,"","Bartoš Jiří, MgA.",4250,999
+UCITELE,"","Bartoš Jiří, MgA. Ph.D.",4250,999
 UCITELE,"","Bartošová Kateřina, MgA.",7899,999
 UCITELE,"","Bártová Pavla, MgA.",8143,999
 UCITELE,"","Bartůněk Martin, Mgr.",8819,999
@@ -59,8 +56,8 @@ UCITELE,"","Benada Oldřich, RNDr. CSc.",1983,999
 UCITELE,"","Bendová Pavla, Bc. DiS.",9585,999
 UCITELE,"","Beneš Libor, prof. Dr. Ing. IWE",4686,999
 UCITELE,"","Bennett Ivana, Mgr.",8918,999
-UCITELE,"","Beňová Eva, PhDr. Ph.D.",1556,999
 UCITELE,"","Beránek Pavel, Ing. Mgr.",6973,999
+UCITELE,"",Beránková Valerie,9785,999
 UCITELE,"",Beranová Martina,1637,999
 UCITELE,"","Beranová Radka, Mgr. DiS.",5303,999
 UCITELE,"","Berčík Čestmír, RNDr.",548,999
@@ -72,8 +69,8 @@ UCITELE,"","Bertlová Dagmar, Mgr.",1077,999
 UCITELE,"","Bezděková Patricie, Mgr.",7542,999
 UCITELE,"","Bezoušková Alena, Ing.",8199,999
 UCITELE,"","Biedermann Denis, MUDr.",8980,999
-UCITELE,"","Bílek Ilja, doc. ak. mal.",138,999
 UCITELE,"","Bílková Gabriela, Ing.",9045,999
+UCITELE,"","Bílská Marcela, MUDr.",9314,999
 UCITELE,"","Binder Tomáš, doc. MUDr. CSc.",4593,999
 UCITELE,"","Bitalová Kamila, Mgr.",8964,999
 UCITELE,"","Bláha Jan Daniel, doc. PhDr. RNDr. Ph.D.",3452,999
@@ -87,7 +84,7 @@ UCITELE,"","Blažek Petr, Mgr.",1674,999
 UCITELE,"","Bobek Jan, RNDr. Ph.D.",5094,999
 UCITELE,"","Bobková Michaela, Ing.",5120,999
 UCITELE,"","Bobková Vítězslava, Mgr.",6244,999
-UCITELE,"","Boďa Martin, doc. PhDr. Mgr. Ing. PhD.",8035,999
+UCITELE,"","Boďa Martin, doc. PhDr. Ing. PhD.",8035,999
 UCITELE,"","Boonen Katrien Margriet, MSc.",9332,999
 UCITELE,"","Borkovcová Lenka, Ing.",7780,999
 UCITELE,"","Brabec Jan, Ing. Ph.D.",8349,999
@@ -100,6 +97,7 @@ UCITELE,"","Brůna Vladimír, Ing.",169,999
 UCITELE,"","Brychta Jiří, Ing. Ph.D.",9602,999
 UCITELE,"","Bubeníček Lukáš, Mgr. Bc. DiS.",9621,999
 UCITELE,"","Budková Kateřina, Mgr.",9523,999
+UCITELE,"","Bumba Jakub, Ing. Ph.D.",8986,999
 UCITELE,"","Burdová Hana, Ing.",7416,999
 UCITELE,"",Burešová Silvie,7578,999
 UCITELE,"",Burešová Věra,865,999
@@ -111,7 +109,6 @@ UCITELE,"","Bůžek Daniel, Ing. Ph.D.",6110,999
 UCITELE,"","Bystrianský Lukáš, Mgr. Ph.D.",5969,999
 UCITELE,"","Cais Jaromír, doc. Ing. Ph.D.",4951,999
 UCITELE,"","Caisová Klára, Mgr. Ph.D.",6633,999
-UCITELE,"","Cajthaml Tomáš, prof. RNDr. Ph.D.",9657,999
 UCITELE,"","Celer Čeněk, doc. Ing. CSc.",19,999
 UCITELE,"","Cézová Eliška, Ing. Ph.D.",9630,999
 UCITELE,"","Cibochová Lenka, Mgr.",2228,999
@@ -132,6 +129,7 @@ UCITELE,"","Čapek Jan, Mgr. Bc. Ph.D.",9150,999
 UCITELE,"","Čapková Pavla, prof. RNDr. DrSc.",3553,999
 UCITELE,"","Čechalová Pavla, Mgr.",6459,999
 UCITELE,"","Čech Prokop, Mgr.",8184,999
+UCITELE,"","Čechurová Lenka, MUDr.",9702,999
 UCITELE,"","Čejnová Vlasta, Mgr.",5283,999
 UCITELE,"","Čermák Jan, doc. Ing. CSc.",1064,999
 UCITELE,"","Čermáková Natálie, Ing.",9253,999
@@ -139,6 +137,7 @@ UCITELE,"","Čermáková Veronika, Mgr.",5907,999
 UCITELE,"",Černá Blanka,9305,999
 UCITELE,"","Černá Lenka, Mgr. Ph.D.",368,999
 UCITELE,"","Černá Milena, Bc.",6936,999
+UCITELE,"","Černík David, MUDr. Ing. Ph.D., MBA",9701,999
 UCITELE,"","Černíková Alena, Mgr. MSc., Ph.D.",9488,999
 UCITELE,"","Černohlávek Vít, Ing. Ph.D.",6937,999
 UCITELE,"","Černý Jan, Mgr. Bc. MBA",722,999
@@ -147,30 +146,31 @@ UCITELE,"","Černý Petr, JUDr. Ph.D.",5110,999
 UCITELE,"","Černý Vladimír, prof. MUDr. Ph.D.",8015,999
 UCITELE,"","Červinka Pavel, prof. MUDr. Ph.D.",2459,999
 UCITELE,"","Češpíro Zdeněk, Ing. Ph.D.",8737,999
-UCITELE,"","Čmelík Jiří, Mgr. Ph.D.",5435,999
 UCITELE,"","Čtvrtník Mikuláš, PhDr. Mgr. Ph.D.",6128,999
 UCITELE,"","Daniš Stanislav, doc. RNDr. Ph.D.",9281,999
 UCITELE,"","Davídková Martina, Mgr.",7945,999
-UCITELE,"","Davídková Veronika, Ing.",4209,999
+UCITELE,"","Davídková Veronika, Ing. Ph.D.",4209,999
 UCITELE,"","Dědičová Šárka, Mgr.",9049,999
+UCITELE,"","Demel Jan, RNDr. PhD.",9885,999
 UCITELE,"","Devereaux Michelle D., Ph.D.",7602,999
 UCITELE,"","Dian Milan, Ing. Ph.D.",3477,999
 UCITELE,"",Diarra Markéta,7375,999
 UCITELE,"","Dlabková Alžběta, RNDr. Ph.D.",9098,999
+UCITELE,"","Dočekalová Hana, prof. RNDr. CSc.",3305,999
 UCITELE,"","Dočkal Jan, RNDr. Ph.D.",7640,999
-UCITELE,"","Dohnal Vlastimil, doc. RNDr. Ph.D.",2227,999
 UCITELE,"","Dolejš Martin, Mgr. Ph.D.",4303,999
-UCITELE,"","Domín Martin, Ing.",8036,999
+UCITELE,"","Domín Martin, Ing. Ph.D.",8036,999
 UCITELE,"","Došek Marek, Ing.",4258,999
+UCITELE,"","Doubek Rostislav, Ing.",9819,999
 UCITELE,"","Doulík Pavel, prof. PaedDr. Ph.D.",407,999
 UCITELE,"","Dovhunová Dana, Mgr. Ph.D.",647,999
 UCITELE,"","Drbalová Kateřina Radana, Mgr.",2757,999
 UCITELE,"","Drška Václav, doc. PhDr. Ph.D.",337,999
-UCITELE,"","Dubová Lenka, Ing.",6242,999
+UCITELE,"","Dubová Lenka, Ing. Ph.D.",6242,999
 UCITELE,"","Dumchak Iryna, doc. CSc.",9486,999
 UCITELE,"","Dušková Tereza, Mgr.",9302,999
 UCITELE,"","Dužeková Radka, Mgr.",9245,999
-UCITELE,"","Dvornycká Gabriela, Mgr. Bc.",7829,999
+UCITELE,"","Dvornycká Gabriela, Mgr.",7829,999
 UCITELE,"","Dvořáčková Lenka, Ing.",7733,999
 UCITELE,"","Dvořák Jan, MUDr.",7615,999
 UCITELE,"","Dvořák Jiří, MgA.",5893,999
@@ -180,29 +180,30 @@ UCITELE,"","Dytrtová Kateřina, doc. Mgr. Ph.D.",383,999
 UCITELE,"","Edelmann Karel, MUDr. Ph.D.",1534,999
 UCITELE,"","Ederer Jakub, Mgr. Ph.D.",5449,999
 UCITELE,"","Efler Tomáš, doc. Ing. arch. Ph.D.",8796,999
-UCITELE,"","Egermaierová Kamila, Mgr. Bc.",9547,999
+UCITELE,"","Egermaierová Kamila, Mgr.",9547,999
 UCITELE,"","Eichler Honců Jana, Mgr. DiS.",9587,999
 UCITELE,"","Eisenmann Petr, doc. PaedDr. CSc.",261,999
 UCITELE,"","Eisnerová Barbora, Mgr.",2377,999
+UCITELE,"","Elischer David, prof. JUDr. PhDr. Ph.D.",9493,999
 UCITELE,"","Elznicová Jitka, Ing. Ph.D.",171,999
 UCITELE,"","Fales Alexandr, Ing.",8721,999
 UCITELE,"","Fanta Marek, MgA.",8915,999
-UCITELE,"","Fanta Michael, Ing.",7628,999
 UCITELE,"","Farský Ivan, RNDr. CSc.",315,999
 UCITELE,"","Fejtová Olga, doc. PhDr. Ph.D.",670,999
 UCITELE,"","Felixová Kateřina, Ing. Ph.D.",2821,999
 UCITELE,"","Fesjuková Irena, Mgr.",2894,999
 UCITELE,"","Fialová Dana, RNDr. Ph.D.",4397,999
 UCITELE,"","Fibiger Martin, PhDr. Ph.D.",289,999
-UCITELE,"","Fischer Slavomil, PhDr. Ph.D., MBA",1119,999
+UCITELE,"","Fischer Slavomil, PhDr. MBA, Ph.D.",1119,999
 UCITELE,"","Fišer Jan, prof. ak. arch.",1473,999
 UCITELE,"","Fišer Jiří, Mgr. Ph.D.",251,999
 UCITELE,"","Fišerová Michaela, doc. Mgr. Ph.D.",9128,999
 UCITELE,"","Fleischmann Otakar, PhDr. Ph.D.",243,999
 UCITELE,"","Fockeová Šárka, Bc.",5955,999
+UCITELE,"","Forejt Michal, Mgr. Ph.D.",6387,999
+UCITELE,"","Forman Martin, Mgr.",4619,999
 UCITELE,"",Francová Lenka,2411,999
 UCITELE,"","Franz Vladimír, prof. JUDr.",6015,999
-UCITELE,"","Fremlová Vendula, Mgr. Ph.D.",2801,999
 UCITELE,"","Frič Pavel, MgA.",1947,999
 UCITELE,"","Frydrychová Andrea, Mgr.",6103,999
 UCITELE,"","Fuchsová Eva, Ing. Ph.D.",3384,999
@@ -219,8 +220,7 @@ UCITELE,"","Gmehling Karl-Heinz, Mgr. M.A.",6262,999
 UCITELE,"","Greguš Viktor, Ing.",9301,999
 UCITELE,"","Grisa Jan, Mgr.",5473,999
 UCITELE,"","Grisová Eva, Mgr.",5373,999
-UCITELE,"","Grosse Tereza, Mgr. Ing.",6972,999
-UCITELE,"","Grünwald Richard, Mgr. Bc. Ph.D.",9480,999
+UCITELE,"","Grünwald Richard, Mgr. Ph.D.",9480,999
 UCITELE,"","Grus Zdeněk, JUDr.",1112,999
 UCITELE,"","Grygar Tomáš Matys, RNDr. CSc.",4119,999
 UCITELE,"","Gryndler Milan, prof. doc. RNDr. CSc.",3661,999
@@ -228,10 +228,8 @@ UCITELE,"","Haase Christoph, Dr. Ph.D., M.A.",3159,999
 UCITELE,"","Haasová Tereza, Bc.",8903,999
 UCITELE,"","Haberzettl Petr, Ing.",1780,999
 UCITELE,"","Hádková Kateřina, doc. PhDr. Ph.D.",6371,999
-UCITELE,"","Hadraba Vojtěch, PhDr.",9677,999
 UCITELE,"","Hach Radek, Mgr.",4153,999
-UCITELE,"","Hajer Jaromír, doc. RNDr. CSc.",278,999
-UCITELE,"","Hájková Barbora, MgA. Bc. DiS.",8452,999
+UCITELE,"","Hájková Barbora, MgA. DiS.",8452,999
 UCITELE,"","Hájková Hana, Ing.",14,999
 UCITELE,"","Hájková Iva, Bc.",4108,999
 UCITELE,"","Hájková Kristýna, MgA.",8786,999
@@ -248,19 +246,20 @@ UCITELE,"","Hátlová Běla, doc. PhDr. Ph.D.",2404,999
 UCITELE,"","Havlica Jaromír, doc. Ing. Ph.D.",1803,999
 UCITELE,"","Havlíček Jakub, Mgr.",5861,999
 UCITELE,"","Havlínová Ivana, Mgr. Ph.D.",598,999
-UCITELE,"","Havlová Jolana, Mgr.",9145,999
 UCITELE,"",Havlová Romana,871,999
 UCITELE,"","Havlovicová Tereza, MgA. Mgr.",6279,999
 UCITELE,"",Havránková Petra,694,999
 UCITELE,"","Heger Vladimír, PaedDr.",3242,999
 UCITELE,"","Hejcman Michal, prof. doc. RNDr. Ph.D.",8944,999
 UCITELE,"","Hejčl Aleš, doc. MUDr. Ph.D.",6031,999
+UCITELE,"","Hejma Petr, Ing.",5326,999
 UCITELE,"","Hejnová Eva, RNDr. Ph.D.",301,999
 UCITELE,"","Hekrle Marek, Ing.",8350,999
-UCITELE,"","Henych Jiří, Ing. Ph.D.",5431,999
+UCITELE,"","Henych Jiří, doc. Ing. Ph.D.",5431,999
 UCITELE,"","Henzl Jiří, Mgr.",2624,999
 UCITELE,"","Herma Regina, RNDr. Ph.D.",8317,999
 UCITELE,"","Heřmanová Eva, Bc.",811,999
+UCITELE,"","Heřmanová Vladislava, PhDr. Ph.D.",244,999
 UCITELE,"","Hes Milan, Mgr. Bc. Ph.D.",5851,999
 UCITELE,"","Hieke Jana, Mgr.",8839,999
 UCITELE,"",Hladíková Marcela,6243,999
@@ -274,12 +273,11 @@ UCITELE,"","Hofmanová Pavla, Mgr.",263,999
 UCITELE,"","Hochmuth Kristýna, Mgr.",6216,999
 UCITELE,"","Holcová Diana, Mgr. Ph.D.",3212,999
 UCITELE,"","Holec Michal, Mgr. Ph.D.",555,999
-UCITELE,"","Holec Roman, prof. PhDr. DrSc.",9648,999
 UCITELE,"","Holečková Linda, Mgr.",8771,999
 UCITELE,"","Holland Martin, MgA.",3532,999
 UCITELE,"","Holubec Jiří, prof. PaedDr. Ph.D.",355,999
 UCITELE,"","Holub Jan, Ing.",7644,999
-UCITELE,"","Holý Martin, prof. doc. PhDr. Ph.D.",3251,999
+UCITELE,"","Holý Martin, prof. PhDr. Ph.D.",3251,999
 UCITELE,"","Holý Stanislav, MgA.",9307,999
 UCITELE,"","Hölzel Jiří, MgA.",6944,999
 UCITELE,"","Hons Miloš, prof. PaedDr. Ph.D.",356,999
@@ -288,21 +286,21 @@ UCITELE,"","Honzátko Radek, Ing. Ph.D.",3472,999
 UCITELE,"","Horáček Jan, Ing. Ph.D.",8281,999
 UCITELE,"","Horák Jan, Mgr.",4661,999
 UCITELE,"","Horčičková Eva, Mgr. Ph.D.",8761,999
-UCITELE,"","Horký Pavel, PhDr. Mgr. Ph.D.",2753,999
+UCITELE,"","Horký Pavel, PhDr. Ph.D.",2753,999
 UCITELE,"","Horký Roman, Ing.",9626,999
 UCITELE,"","Horský Jakub, MgA.",8454,999
-UCITELE,"","Hořejš Miloš, PhDr.",9672,999
+UCITELE,"","Hořejší Lenka, MUDr.",9272,999
 UCITELE,"","Hošek Michal, Mgr. Bc. Ph.D.",6792,999
 UCITELE,"","Housová Tereza, Mgr.",6025,999
 UCITELE,"","Houžvička Václav, doc. PhDr. Ph.D.",535,999
 UCITELE,"","Hrabcová Tereza, Mgr. Ph.D.",2777,999
 UCITELE,"",Hráčová Vendula,3522,999
+UCITELE,"","Hradecká Alice, Mgr.",9231,999
 UCITELE,"","Hrach Karel, RNDr. Ph.D.",124,999
 UCITELE,"","Hrbek Filip, PhDr.",5474,999
 UCITELE,"","Hrdlička Jan, prof. Ing. Ph.D.",9277,999
 UCITELE,"","Hrdličková Jana, doc. Mgr. Ph.D.",2218,999
-UCITELE,"","Hrdličková Kristýna, Mgr.",9676,999
-UCITELE,"","Hrouda Jan, Mgr.",8041,999
+UCITELE,"","Hromádka Miroslav, Ing. Ph.D.",7857,999
 UCITELE,"","Hrubá Michaela, prof. PhDr. Ph.D.",339,999
 UCITELE,"","Hrubeš Jan, Mgr. Ph.D.",3097,999
 UCITELE,"",Hruboš Milan,6239,999
@@ -312,7 +310,7 @@ UCITELE,"","Hřebejková Lenka, Ing.",4170,999
 UCITELE,"","Hujová Aneta, Mgr.",8728,999
 UCITELE,"","Humhej Ivan, MUDr. Ph.D.",7685,999
 UCITELE,"","Hynčica Martin, Mgr. Ph.D.",7798,999
-UCITELE,"","Chalupná Pavla, Mgr.",9359,999
+UCITELE,"","Chalupa Milan, doc. Ing. CSc.",5596,999
 UCITELE,"","Chalupová Eva, PhDr. Ph.D.",7577,999
 UCITELE,"","Chalupová Markéta, Ing. MSc.",8760,999
 UCITELE,"","Chalupová Veronika, Mgr.",7972,999
@@ -320,8 +318,7 @@ UCITELE,"","Charvát Jakub, Mgr. Ph.D.",7399,999
 UCITELE,"","Charvátová Alena, Mgr. Ph.D.",3725,999
 UCITELE,"","Charvátová Denisa, Mgr. Ph.D.",9129,999
 UCITELE,"",Chladová Markéta,8503,999
-UCITELE,"","Chomová Juliána, MgA. Bc.",9085,999
-UCITELE,"","Chotaš Jiří, PhDr. Ing. Ph.D.",3266,999
+UCITELE,"","Chomová Juliána, MgA.",9085,999
 UCITELE,"","Chrastilová Dana, Mgr.",8582,999
 UCITELE,"","Chvátalová Alena, RNDr. Ph.D.",316,999
 UCITELE,"","Chvojka Filip, MUDr.",9646,999
@@ -335,7 +332,6 @@ UCITELE,"","Jakabčin Jozef, MUDr. Ph.D.",3744,999
 UCITELE,"","Jakl Michal, Mgr.",8276,999
 UCITELE,"","Janáček Julius, Ing. Ph.D.",6375,999
 UCITELE,"","Janáčková Blanka, PaedDr.",275,999
-UCITELE,"","Janáková Jana, Ing.",927,999
 UCITELE,"","Jančaříková Kateřina, doc. PhDr. Ph.D.",8441,999
 UCITELE,"","Janda Jiří Philippe, Ing. arch.",9125,999
 UCITELE,"",Jandáková Jana,4118,999
@@ -344,10 +340,14 @@ UCITELE,"","Jandera Radek, MgA. Ph.D.",1817,999
 UCITELE,"","Janečková Miroslava, PaedDr. PhD.",8729,999
 UCITELE,"",Janečková Věra,863,999
 UCITELE,"","Jang Yea-Eun, MgA.",8451,999
+UCITELE,"",Jänchen Annabelle,8732,999
 UCITELE,"","Janosik-Bielski Marek, Mgr.",9323,999
 UCITELE,"","Janoš Pavel, prof. Ing. CSc.",550,999
+UCITELE,"","Janovcová Radka, Mgr.",6093,999
 UCITELE,"","Janovec Jan, Mgr. Ph.D.",159,999
+UCITELE,"","Janovec Ladislav, PhDr. Ph.D.",9099,999
 UCITELE,"","Jánská Michaela, Ing. PhD.",3143,999
+UCITELE,"","Jánská Neumann Karolina, Mgr.",9103,999
 UCITELE,"","Jarabicová Oľga, PhDr. PhD.",8351,999
 UCITELE,"",Jarošová Monika,698,999
 UCITELE,"","Jarošová Tereza, Ing.",8404,999
@@ -365,7 +365,7 @@ UCITELE,"","Jindráček Václav, PhDr. Ph.D.",3651,999
 UCITELE,"","Jiráková Helena, MgA. Mgr.",8794,999
 UCITELE,"","Jiránková Zuzana, MUDr.",7646,999
 UCITELE,"","Jíra Petr, Mgr. Ph.D.",7547,999
-UCITELE,"","Jirásek Jiří, doc. JUDr. CSc.",9661,999
+UCITELE,"","Jirava Petr, Ing.",5524,999
 UCITELE,"","Jirman Michal, Mgr.",8822,999
 UCITELE,"","Jírová Šárka, MgA.",4182,999
 UCITELE,"","Jirsák Jan, doc. RNDr. Ph.D.",2855,999
@@ -374,7 +374,7 @@ UCITELE,"","Jošt Petr, Mgr. Ph.D.",8815,999
 UCITELE,"","Jozífková Eva, doc. RNDr. Ph.D. et Ph.D.",2939,999
 UCITELE,"","Juchelková Dagmar, prof. Ing. Ph.D.",7300,999
 UCITELE,"","Junášková Gabriela, Mgr.",8763,999
-UCITELE,"","Jurkovič Tomáš, Mgr. Bc.",9137,999
+UCITELE,"","Jurkovič Tomáš, Mgr.",9137,999
 UCITELE,"","Kabešová Hana, PhDr. Mgr. Ph.D.",1049,999
 UCITELE,"","Kacar Jakub, Mgr. DiS., Ph.D.",6390,999
 UCITELE,"","Kádek Gabriel, Mgr.",9489,999
@@ -387,11 +387,12 @@ UCITELE,"","Kajánková Katarína, Ing. PhD.",8007,999
 UCITELE,"","Kalábová Lenka, Mgr. Ph.D.",3868,999
 UCITELE,"","Kališko Ondřej, Mgr.",7600,999
 UCITELE,"","Kamarýtová Barbora, Mgr.",9250,999
-UCITELE,"","Kamenická Jana, PaedDr. Bc. PhD., Ph.D.",9536,999
+UCITELE,"","Kamenická Jana, PaedDr. PhD.",9536,999
+UCITELE,"","Kameník Jan, Ing. Ph.D.",9882,999
+UCITELE,"","Kampo Jan, Ing.",5327,999
 UCITELE,"","Kantor Martin, Ing. Ph.D.",7307,999
 UCITELE,"","Kapuciánová Karolína, Mgr.",9366,999
 UCITELE,"","Kapuciánová Magdaléna, Mgr.",9369,999
-UCITELE,"","Kardoš Rudolf, Mgr. Ph.D.",6217,999
 UCITELE,"","Karel David, Mgr. Ph.D.",1086,999
 UCITELE,"","Karkošková Slávka, doc. ThDr. Mgr. PhD.",9279,999
 UCITELE,"","Karlíček Petr, Mgr. Ph.D.",3417,999
@@ -401,13 +402,13 @@ UCITELE,"","Kašpárek Miloš, Ing. Ph.D.",8006,999
 UCITELE,"","Kašparová Vlasta, Ing. Mgr. Bc.",8410,999
 UCITELE,"","Kaule Pavel, Mgr.",7981,999
 UCITELE,"",Kejkličková Ivana,6234,999
+UCITELE,"","Kelbich Petr, RNDr. Ing. Mgr. Ph.D.",8466,999
 UCITELE,"","Keller Jan, Ing.",9669,999
+UCITELE,"","Keprta Stanislav, RNDr. Ph.D.",9827,999
 UCITELE,"","Kernal Jakub, PharmDr.",8788,999
 UCITELE,"","Khatsenka Polina, MgA.",9538,999
 UCITELE,"","Klečka Jan, RNDr. Ph.D.",9624,999
-UCITELE,"","Kleinová Denisa, Ing.",9668,999
 UCITELE,"","Klenerová Jana, Mgr.",3481,999
-UCITELE,"","Kleskeň Lenka, PhDr. PhD.",7775,999
 UCITELE,"","Klicman Patrik, Mgr.",8958,999
 UCITELE,"","Klimenda František, Ing. Ph.D.",4712,999
 UCITELE,"","Kloibhofer Manuel, M.A.",8653,999
@@ -415,7 +416,6 @@ UCITELE,"","Klouda Jiří, Mgr. Ph.D.",9633,999
 UCITELE,"",Kmínková Markéta,7601,999
 UCITELE,"","Kmoníček Václav, Mgr.",9357,999
 UCITELE,"","Knaislová Anna, Ing. Bc. Ph.D.",8535,999
-UCITELE,"","Knápek Jaroslav, prof. Ing. CSc.",9650,999
 UCITELE,"","Knězů Petr, Mgr.",4959,999
 UCITELE,"","Knobloch Jan, Mgr.",9104,999
 UCITELE,"","Kobrle Pavel, Ing. Ph.D.",7595,999
@@ -424,6 +424,7 @@ UCITELE,"",Kofroňová Vladimíra,700,999
 UCITELE,"","Kohlová Alena, Mgr.",6236,999
 UCITELE,"","Kohout Jiří, MUDr.",9647,999
 UCITELE,"","Kocholatá Michaela, Mgr.",8570,999
+UCITELE,"","Kolaci Martin, MUDr.",9777,999
 UCITELE,"",Kolaříková Karolína,6465,999
 UCITELE,"","Kolaříková Kristýna, RNDr. Mgr.",8420,999
 UCITELE,"","Kolařík Petr, Mgr.",9283,999
@@ -433,9 +434,10 @@ UCITELE,"","Kolečková Zdena, prof. Mgr. Ph.D.",1121,999
 UCITELE,"","Kolenatý Miloslav, Mgr. Ing.",910,999
 UCITELE,"","Kolinská Klára, Mgr. Ph.D.",8520,999
 UCITELE,"","Kolská Zdeňka, prof. Ing. Ph.D.",332,999
+UCITELE,"","Konečný Martin, MUDr.",9264,999
 UCITELE,"","Konrádová Veronika, Mgr. Ph.D.",1904,999
 UCITELE,"","Kopáček Miroslav, Ing. Ph.D.",5457,999
-UCITELE,"","Kopáčková Lucie, Ing.",6120,999
+UCITELE,"","Kopáčková Lucie, Ing. Ph.D.",6120,999
 UCITELE,"","Kopecký Václav, MgA. Ph.D.",8439,999
 UCITELE,"","Kopřiva Pavel, doc. Mgr.A. Ph.D.",2380,999
 UCITELE,"","Korfová Šárka, Mgr.",1078,999
@@ -450,14 +452,13 @@ UCITELE,"","Koudelková Kristina, Mgr.",8995,999
 UCITELE,"","Koumar Jiří, PhDr. Ph.D.",817,999
 UCITELE,"","Koumarová Michaela, Mgr.",4660,999
 UCITELE,"","Kounovský Ondřej, Ing. Bc. DiS.",8457,999
-UCITELE,"","Koutecký Vít, Ing.",8282,999
+UCITELE,"","Koutecký Vít, Ing. Ph.D.",8282,999
 UCITELE,"","Koutský Jaroslav, doc. RNDr. Ph.D.",1644,999
 UCITELE,"","Kovács Jana, Mgr.",8920,999
 UCITELE,"",Kováčová Lydie,689,999
 UCITELE,"","Kovalová Helena, Ing.",3142,999
 UCITELE,"","Kovanda Jiří, doc.",2426,999
 UCITELE,"",Kováříková Lucie,9354,999
-UCITELE,"","Kovaříková Miroslava, PhDr. Ph.D.",9678,999
 UCITELE,"","Kovařík Petr, Mgr.",8507,999
 UCITELE,"","Kovářová Kateřina, doc. Ing. Ph.D.",5459,999
 UCITELE,"","Kozakovič Martin, Mgr.",7722,999
@@ -465,7 +466,7 @@ UCITELE,"","Krahulík Václav, MgA. Ph.D.",358,999
 UCITELE,"","Králík Jiří, RNDr. Ph.D.",303,999
 UCITELE,"",Králová Jitka,1977,999
 UCITELE,"","Král Tomáš, Mgr.",9265,999
-UCITELE,"","Kramoliš David, Mgr. Ph.D.",7723,999
+UCITELE,"","Kramoliš David, RNDr. Ph.D.",7723,999
 UCITELE,"","Krátká Magdalena, PhDr. Ph.D.",425,999
 UCITELE,"","Kratochvil Daniel, M.A.",5218,999
 UCITELE,"","Kratochvílová Ivana, Ing. Ph.D.",1796,999
@@ -476,6 +477,7 @@ UCITELE,"","Krejčí Jan, RNDr. Ph.D.",2776,999
 UCITELE,"","Kresta Jan, Mgr. Ph.D.",1050,999
 UCITELE,"","Krieger Miloslav, PhDr. CSc.",340,999
 UCITELE,"","Krmela Jan, prof. Ing. Ph.D.",1218,999
+UCITELE,"","Krnáč Petr, Mgr.",6256,999
 UCITELE,"","Kroufek Roman, PhDr. Ph.D.",1070,999
 UCITELE,"","Kroupa Daniel, Mgr. Ph.D.",1432,999
 UCITELE,"","Krtička Filip, Mgr. Ph.D.",9643,999
@@ -490,12 +492,12 @@ UCITELE,"","Kubal Martin, prof. Dr. Ing.",9641,999
 UCITELE,"","Kuba Pavel, Ing. Ph.D.",2317,999
 UCITELE,"","Kubát Karel, doc. RNDr. CSc.",279,999
 UCITELE,"","Kubát Martin, Mgr. DiS.",8456,999
-UCITELE,"","Kubátová Dagmar, Mgr. Ph.D.",231,999
 UCITELE,"","Kubatová Veronika, Bc.",8736,999
 UCITELE,"","Kubera Petr, RNDr. Ph.D.",650,999
 UCITELE,"","Kubiatko Milan, PaedDr. PhD.",8021,999
 UCITELE,"","Kubištová Zdenka, Ing.",397,999
 UCITELE,"","Kubová Nela, Mgr. Bc. Ph.D.",6245,999
+UCITELE,"","Kučerová Barbora, Ing.",8311,999
 UCITELE,"","Kučerová Silvie Rita, RNDr. Ph.D.",3528,999
 UCITELE,"","Kuchař Pavel, doc. PhDr. CSc.",2937,999
 UCITELE,"","Kulich Karel, Mgr. Ph.D.",8730,999
@@ -510,9 +512,11 @@ UCITELE,"","Kuśmierczak Sylvia, doc. Ing. PhD.",723,999
 UCITELE,"","Kuželka Vladimír, doc. PaedDr.",359,999
 UCITELE,"","Kvochová Veronika, Mgr.",8727,999
 UCITELE,"","Kyjaková Pavlína, Mgr. Ph.D.",9611,999
-UCITELE,"","Kynštová Hana, PhDr. PhD., Ph.D.",2038,999
+UCITELE,"","Kylarova Salome, Ph.D.",9887,999
+UCITELE,"","Kynštová Hana, PhDr. Ph.D.",2038,999
 UCITELE,"","Labudová Michaela, MgA. Ph.D.",3699,999
-UCITELE,"","Lachout Martin, doc. PhDr. Ph.D.",3148,999
+UCITELE,"","Lacková Veronika, RNDr. Ph.D.",5205,999
+UCITELE,"","Lachout Martin, doc. PhDr. MBA, Ph.D.",3148,999
 UCITELE,"","Lamková Ivana, Mgr. Ph.D.",1013,999
 UCITELE,"","Langmaierová Kateřina, PharmDr.",8529,999
 UCITELE,"","Langová Regina, Mgr.",8726,999
@@ -533,35 +537,38 @@ UCITELE,"","Libešová Lucie, Mgr.",5796,999
 UCITELE,"","Libichová Daniela, Mgr.",3431,999
 UCITELE,"","Liegertová Michaela, Mgr. Ph.D.",4472,999
 UCITELE,"","Liehne Josef, MUDr.",1491,999
+UCITELE,"","Liehneová Ivana, MUDr.",4967,999
 UCITELE,"","Linhartová Jana, MgA.",145,999
 UCITELE,"",Linková Michala,5980,999
 UCITELE,"","Lísal Martin, prof. Ing. DSc.",609,999
 UCITELE,"","Löbl Jan, MgA. Ph.D.",3561,999
 UCITELE,"","Lodin Jan, MUDr.",7610,999
 UCITELE,"","Lojdová Šárka, Mgr. Ph.D.",9664,999
+UCITELE,"","Lopot František, Ing. Ph.D.",9750,999
 UCITELE,"","Lorenc Vladimír, Mgr.",5754,999
 UCITELE,"","Lörincz Miroslav, MgA. DiS.",9308,999
-UCITELE,"","Lorinčík Jan, RNDr. CSc.",1590,999
 UCITELE,"","Louda Jiří, Ing. Ph.D.",5886,999
 UCITELE,"","Louka Oto, PaedDr. CSc.",373,999
 UCITELE,"","Loukotová Lucie, Mgr.",3188,999
-UCITELE,"","Lovětínská Ivana, MgA. Ph.D.",4744,999
 UCITELE,"","Loziak Aleš, MgA.",3373,999
 UCITELE,"",Lukačiková Dagmar,6942,999
+UCITELE,"","Lukáč Patrik, Ing.",9758,999
+UCITELE,"","Lukešová Šárka, Mgr.",9794,999
 UCITELE,"","Lukianenko Daria, MgA.",9539,999
 UCITELE,"",Lukić Aco,9527,999
 UCITELE,"","Lukš Jan, MgA.",9243,999
 UCITELE,"","Lulková Marie, Mgr.",8411,999
 UCITELE,"","Lustig František, doc. RNDr. CSc.",5232,999
 UCITELE,"","Maaytová Alena, doc. Ing. Ph.D.",6773,999
-UCITELE,"","Macková Anna, prof. doc. RNDr. Ph.D.",423,999
-UCITELE,"","Macková Jana, Mgr.",8051,999
+UCITELE,"","Macková Anna, prof. RNDr. Ph.D.",423,999
 UCITELE,"",Máčková Pavlína,3006,999
+UCITELE,"","Macháček Zdeněk, Ing.",9825,999
 UCITELE,"","Macháč Jan, Ing. Ph.D.",5458,999
 UCITELE,"",Machaloušová Kamila,2932,999
 UCITELE,"","Machek Václav, Ing.",8675,999
 UCITELE,"","Machová Adéla, MgA. Ph.D.",5139,999
 UCITELE,"","Mach Tomáš, Mgr. Bc.",9154,999
+UCITELE,"","Majer Viktor, Ing. Ph.D.",7978,999
 UCITELE,"","Majrich Petr, Ing. Ph.D.",1956,999
 UCITELE,"",Makovská Kamila,1262,999
 UCITELE,"","Makovský Miloš, Mgr. Ph.D.",3691,999
@@ -569,7 +576,7 @@ UCITELE,"","Malinský Petr, RNDr. Ph.D.",4681,999
 UCITELE,"","Malucelli Alberto, MUDr. Ph.D.",8477,999
 UCITELE,"","Malý Jan, Mgr. Ph.D.",280,999
 UCITELE,"","Malý Marek, doc. RNDr. Ph.D.",304,999
-UCITELE,"","Mamoń Filip, Ing. Bc.",9560,999
+UCITELE,"","Mamoń Filip, Ing.",9560,999
 UCITELE,"","Märc Josef, Mgr.",526,999
 UCITELE,"","Mareš Jakub, Ing. Bc.",9559,999
 UCITELE,"","Mareš Jan, PhDr. Ph.D.",3832,999
@@ -591,20 +598,19 @@ UCITELE,"","Matoušková Monika, Mgr.",3559,999
 UCITELE,"","Mávr Jan, Mgr.",9609,999
 UCITELE,"","Mazancová Pavlína, Ing.",1454,999
 UCITELE,"","Medunová Barbora, Mgr.",8817,999
+UCITELE,"","Melechovská Lucie, Mgr.",9783,999
 UCITELE,"","Měsíček Libor, Ing. Ph.D.",4190,999
 UCITELE,"","Meyer Petr, Mgr. Ph.D.",5855,999
 UCITELE,"","Mezihoráková Klára, Mgr. Ph.D.",8022,999
 UCITELE,"","Mičíková Lucia, PhDr. Ing.",8412,999
-UCITELE,"","Midula Pavol, Ing. Bc. PhD.",8590,999
+UCITELE,"","Midula Pavol, Ing. PhD.",8590,999
 UCITELE,"",Michalcová Petra,9529,999
 UCITELE,"","Michálek Miloš, prof.",48,999
 UCITELE,"","Michalová Věra, Mgr.",3665,999
-UCITELE,"","Michlik Tomáš, Ing.",9679,999
 UCITELE,"","Michna Štefan, prof. Ing. PhD.",2029,999
 UCITELE,"","Michnová Lenka, Ing. Ph.D.",4673,999
-UCITELE,"","Mikulec Marek, Mgr. Ph.D.",9681,999
 UCITELE,"","Milková Silvie, MgA. Ph.D.",2379,999
-UCITELE,"","Minárik Pavol, Mgr. Ing. Ph.D.",4689,999
+UCITELE,"","Minárik Pavol, doc. Mgr. Ing. Ph.D.",4689,999
 UCITELE,"","Minaříková Lenka, Mgr. Bc.",3168,999
 UCITELE,"","Mitter Patrik, doc. Mgr. Ph.D.",277,999
 UCITELE,"",Mladá Kateřina,9654,999
@@ -613,21 +619,21 @@ UCITELE,"","Mlýnek Pavel, Mgr.",9246,999
 UCITELE,"","Moc Ondřej, Mgr. Ph.D.",125,999
 UCITELE,"","Mochal Marcel, MgA.",6924,999
 UCITELE,"","Molnár Jakub, Mgr.",7622,999
+UCITELE,"","Molnar Vasil, MUDr.",6988,999
 UCITELE,"","Moosaei Hossein, Dr. Ph.D.",9114,999
 UCITELE,"","Moravcová Andrea, Bc.",8502,999
-UCITELE,"","Moravec Jiří, Ing. Ph.D., MBA",2527,999
+UCITELE,"","Moravcová Jana, Ing.",1828,999
 UCITELE,"","Moravec Zdeněk, RNDr. Ph.D.",79,999
+UCITELE,"","Mottl Jan, Mgr.",9816,999
 UCITELE,"","Moučka Filip, doc. RNDr. Ph.D.",3222,999
 UCITELE,"","Moural Josef, doc. RNDr. CSc.",1582,999
-UCITELE,"","Mourková Hana, MUDr.",9604,999
+UCITELE,"","Mrázová Eva, PaedDr.",238,999
 UCITELE,"",Mrkusová Klára,5859,999
 UCITELE,"","Mrkus Pavel, doc. Mgr.A.",2980,999
 UCITELE,"","Muláčková Stanislava, Ing.",8630,999
 UCITELE,"","Müllerová Jana, Mgr. Ph.D.",8501,999
 UCITELE,"","Musil Adam, Mgr.",9655,999
 UCITELE,"","Musil Jan, Mgr.",7828,999
-UCITELE,"","Musilová Stanislava, Mgr. Ph.D.",1934,999
-UCITELE,"","Myroniuk Jiří, Mgr.",9674,999
 UCITELE,"","Myslivec Jáchym, MgA.",9525,999
 UCITELE,"","Mysliveček Jakub, Mgr.",9644,999
 UCITELE,"","Myšáková Dagmar, Mgr. MgA. Ph.D.",4700,999
@@ -642,27 +648,32 @@ UCITELE,"","Nekolný Václav, Mgr.",9586,999
 UCITELE,"","Němcová Lenka, MgA.",9631,999
 UCITELE,"","Němcová Lenka, RNDr. CSc.",283,999
 UCITELE,"","Němec Miroslav, doc. Dr. phil.",1429,999
+UCITELE,"","Nepraš Karel, Mgr.",4379,999
 UCITELE,"","Nesládková Martina, Mgr. M.A.",5827,999
+UCITELE,"","Neubertová Viktorie, Mgr.",9766,999
 UCITELE,"","Neuvirth Petr, Mgr.",5923,999
 UCITELE,"","Nezbeda Ivo, prof. RNDr. DrSc.",305,999
 UCITELE,"","Nguyen Thi Thu Huong, RNDr. Ph.D.",429,999
 UCITELE,"","Nikl Jana, Ing.",7194,999
 UCITELE,"","Nitsche Martin, doc. Mgr. Ph.D.",597,999
+UCITELE,"","Noga Pavel, prof. MgA. ArtD.",6582,999
 UCITELE,"","Noháč Karel, doc. Ing. Ph.D.",7428,999
+UCITELE,"","Noháčová Lucie, doc. Ing. Ph.D.",9034,999
 UCITELE,"","Nosek Martin, Mgr. Ph.D.",586,999
+UCITELE,"","Novák Jiří, Dr. rer. nat. Mgr.",9883,999
 UCITELE,"","Novák Lukáš, Mgr. Ph.D.",9634,999
 UCITELE,"","Novák Martin, doc. Ing. Ph.D.",2267,999
+UCITELE,"","Novák Martin, Mgr.",556,999
 UCITELE,"","Nováková Ludmila, doc. Ing. Ph.D.",7594,999
 UCITELE,"","Nováková Šárka, Ing.",7693,999
 UCITELE,"","Novák Petr, Mgr. Ing.",543,999
 UCITELE,"","Novák Stanislav, prof. RNDr. CSc.",306,999
 UCITELE,"","Novák Václav, RNDr. Ph.D.",3369,999
-UCITELE,"","Novopacká Martina, Mgr.",9680,999
 UCITELE,"","Novotná Dana, PhDr. Ph.D.",437,999
 UCITELE,"","Novotná Eva, PhDr.",8068,999
 UCITELE,"","Novotný Jan, doc. Ing. Ph.D.",7593,999
 UCITELE,"","Novotný Jan, doc. PhDr. Ph.D.",501,999
-UCITELE,"","Novotný Lukáš, doc. Dr. phil. Mgr. Ph.D., M.A.",2758,999
+UCITELE,"","Novotný Lukáš, doc. Dr. phil. M.A.",2758,999
 UCITELE,"","Novotný Tomáš, MUDr. Ph.D.",7290,999
 UCITELE,"","Obrová Lucie, Mgr.",3676,999
 UCITELE,"","Oktábcová Kateřina, Mgr.",9499,999
@@ -678,11 +689,10 @@ UCITELE,"","Oravová Lucie, Ing. Ph.D.",8200,999
 UCITELE,"","Orlova Natalia, doc. CSc.",507,999
 UCITELE,"","Ospalíková Iveta, Mgr.",7341,999
 UCITELE,"","Pacina Jan, doc. Ing. Ph.D.",2787,999
+UCITELE,"","Padalíková Petra, Ing.",3796,999
 UCITELE,"","Palaščáková Diana, Mgr.",9656,999
-UCITELE,"","Paloušová Viktorie, Mgr.",9682,999
 UCITELE,"","Pánek Martin, MUDr. Ing.",7710,999
 UCITELE,"","Pánková Hrabáková Jana, MUDr.",5288,999
-UCITELE,"","Panocha Jan, Mgr.",8588,999
 UCITELE,"","Panuška Petr, Mgr.",8315,999
 UCITELE,"","Pařez Stanislav, Mgr. Ph.D.",8740,999
 UCITELE,"","Paříková Anna, Mgr.",8946,999
@@ -701,7 +711,7 @@ UCITELE,"","Pecko Štefan, Mgr. MgA.",9540,999
 UCITELE,"","Pečiva Martin, Mgr.",6102,999
 UCITELE,"","Peer Jan, Mgr.",1933,999
 UCITELE,"","Pecharová Petra, Mgr.",992,999
-UCITELE,"","Pejšová Pavla, Mgr.",9294,999
+UCITELE,"","Pejša Jiří, Ing.",9787,999
 UCITELE,"","Pelikánová Monika, Mgr.",8744,999
 UCITELE,"","Pergreffi Karolína, PhDr.",6691,999
 UCITELE,"","Pernes Jiří, doc. PhDr. Dr.",3278,999
@@ -711,11 +721,13 @@ UCITELE,"","Pešout Ondřej, Mgr. Ph.D.",7322,999
 UCITELE,"","Peterka Pavel, Ing.",7627,999
 UCITELE,"","Petláková Lenka, Mgr.",1935,999
 UCITELE,"","Petráková Alena, doc. MUDr. CSc.",9637,999
+UCITELE,"","Petráňová Lydia, doc. PhDr. CSc.",674,999
 UCITELE,"","Petrů Alexandra, Mgr.",3647,999
 UCITELE,"","Petrů Dominika, PhDr. Ph.D.",2410,999
 UCITELE,"","Petrusová Zuzana, Ing. Ph.D.",3705,999
 UCITELE,"","Petrus Pavel, Mgr.",2971,999
 UCITELE,"","Petruželka Benjamin, Mgr. Ph.D.",6447,999
+UCITELE,"","Pflégr Václav, RNDr. Ph.D.",9757,999
 UCITELE,"",Picková Alena,8437,999
 UCITELE,"","Pidlisniuk Valentyna, prof. DrSc.",5927,999
 UCITELE,"","Pilousová Alena, PhDr.",4410,999
@@ -723,7 +735,6 @@ UCITELE,"","Pinkasová Tereza, MUDr.",8413,999
 UCITELE,"","Piskáčková Štěpánka, MgA.",6369,999
 UCITELE,"","Píša Jan, Mgr. Ph.D.",6919,999
 UCITELE,"","Pitrmuc Jiří, MgA.",9274,999
-UCITELE,"","Pitrová Veronika, RNDr. PhD., Ph.D.",5205,999
 UCITELE,"","Pivarč Jakub, PhDr. Ph.D.",9153,999
 UCITELE,"","Placák Václav, MDDr.",9671,999
 UCITELE,"","Plachý Jiří, Ing.",405,999
@@ -732,12 +743,11 @@ UCITELE,"","Podroužek Kamil, PhDr. Ph.D.",528,999
 UCITELE,"","Pokorný Vít, Mgr. Ph.D.",682,999
 UCITELE,"","Poláček Pavel, Ing.",1609,999
 UCITELE,"","Polach Pavel, doc. Dr. Ing.",3304,999
-UCITELE,"",Polanecká Ivanka,7730,999
 UCITELE,"","Polanecký Jaroslav, PhDr. Ph.D.",147,999
 UCITELE,"","Polanská Nebeská Diana, Ing. Ph.D.",6717,999
 UCITELE,"","Polesný Jan, Mgr.",5272,999
-UCITELE,"","Polívka Tomáš, Mgr. PhD., Ph.D.",8745,999
-UCITELE,"","Ponikelský Josef, Ing.",7980,999
+UCITELE,"","Polívka Tomáš, Mgr. Ph.D.",8745,999
+UCITELE,"","Ponížilová Iva, Ing.",9824,999
 UCITELE,"","Popelka Jan, Ing. Ph.D.",1479,999
 UCITELE,"","Posel Zbyšek, doc. RNDr. Ph.D.",3521,999
 UCITELE,"","Poslední Vendula, Ing.",9469,999
@@ -751,8 +761,7 @@ UCITELE,"","Povolný Jan, Ing.",862,999
 UCITELE,"","Prášil Jaroslav, prof. ak. mal.",106,999
 UCITELE,"","Pražáková Martina, MUDr.",7617,999
 UCITELE,"","Prchal Jan, PaedDr.",3673,999
-UCITELE,"","Prchal Pavel, Mgr. Bc.",9144,999
-UCITELE,"","Procházka Jaroslav, Ing.",5062,999
+UCITELE,"","Prchal Pavel, Mgr.",9144,999
 UCITELE,"","Procházka Karel Jan, Mgr.",8069,999
 UCITELE,"","Procházková Zuzana, Mgr. Ph.D.",218,999
 UCITELE,"","Prokopec Vadim, Ing. Ph.D.",7776,999
@@ -765,20 +774,21 @@ UCITELE,"","Příhoda Daniel, Mgr. et Bc.",9530,999
 UCITELE,"","Puhlová Eva, Mgr. Ph.D.",6222,999
 UCITELE,"","Pyšná Jana, doc. PhDr. Ph.D.",585,999
 UCITELE,"","Pyšný Ladislav, prof. MUDr. CSc., MPH",376,999
-UCITELE,"","Radošová Alena, Mgr.",8467,999
+UCITELE,"","Raková Lenka, Ing. Ph.D.",6804,999
 UCITELE,"","Rak Petr, PaedDr. Mgr. Ph.D.",820,999
 UCITELE,"","Raška Pavel, doc. Mgr. Ph.D.",1434,999
 UCITELE,"","Raudenský Martin, doc. PhDr. Ph.D.",430,999
 UCITELE,"","Reissová Alice, PhDr. Ph.D.",958,999
-UCITELE,"","Rennerová Ladislava, MUDr.",9612,999
 UCITELE,"","Riedelová Kateřina, Mgr.",8353,999
 UCITELE,"","Riezner Jiří, Mgr. Ph.D.",3164,999
 UCITELE,"","Richter Miroslav, Ing. Ph.D.",199,999
-UCITELE,"","Rippelová Veronika, Ing. Ph.D.",9011,999
-UCITELE,"","Rohanová Eva, Mgr.",5406,999
+UCITELE,"","Ritschelová Šárka, Mgr.",3434,999
 UCITELE,"","Rokoský Jaroslav, doc. PhDr. Ph.D.",342,999
+UCITELE,"","Roll Eduard, Mgr.",9826,999
 UCITELE,"","Rosezínová Alena, Mgr. Ph.D.",4715,999
-UCITELE,"","Rothová Michaela, Mgr. Bc.",5123,999
+UCITELE,"","Rothová Michaela, Mgr. Bc. MBA",5123,999
+UCITELE,"","Roubíček Filip, MUDr.",9776,999
+UCITELE,"",Rouhani Abdulmannan,9782,999
 UCITELE,"","Royt Jan, prof. PhDr. Ing.",1036,999
 UCITELE,"","Rozumek Martin, JUDr.",9496,999
 UCITELE,"","Rucki Marian, RNDr. Ph.D.",8922,999
@@ -789,7 +799,6 @@ UCITELE,"","Růžičková Gabriela, Bc.",5286,999
 UCITELE,"","Růžičková Jana, Ing. Ph.D.",8717,999
 UCITELE,"","Růžičková Jiřina, Mgr. Bc.",7623,999
 UCITELE,"","Růžičková Radka, PhDr. Ph.D.",2434,999
-UCITELE,"","Rybánský Josef, Mgr.",3572,999
 UCITELE,"","Rybová Kristýna, Mgr. Ph.D.",5856,999
 UCITELE,"",Ryglová Radka,704,999
 UCITELE,"","Ryšánek Petr, RNDr. Ph.D.",4587,999
@@ -799,35 +808,35 @@ UCITELE,"","Řehoř Michal, RNDr. Ph.D.",840,999
 UCITELE,"","Říčan Jaroslav, doc. Mgr. Ph.D.",3830,999
 UCITELE,"","Sameš Martin, prof. MUDr. CSc.",997,999
 UCITELE,"","Satrapová Lenka, Ing.",5259,999
+UCITELE,"","Seidlerová Jana, prof. Ing. CSc.",9829,999
 UCITELE,"","Seifert Robert, Mgr.",1552,999
 UCITELE,"","Seják Josef, doc. Ing. CSc.",179,999
 UCITELE,"","Sekyrka Tomáš, Mgr. Ph.D.",664,999
-UCITELE,"","Semecká Lada, MgA.",4293,999
+UCITELE,"","Semecká Lada, doc. MgA.",4293,999
 UCITELE,"","Semerádová Lenka, Ing. Bc.",6331,999
-UCITELE,"","Sheehan John, prof.",9651,999
+UCITELE,"","Semerádtová Alena, Mgr. Ph.D.",2441,999
 UCITELE,"","Schuppener Georg, prof. Dr. phil.",3161,999
-UCITELE,"","Simr Pavel, Ing.",881,999
 UCITELE,"","Sirotková Hana, Mgr.",5192,999
 UCITELE,"","Síťař Vladislav, Ing. Bc. Ph.D.",4228,999
 UCITELE,"","Siviček Tomáš, Ing. PhD.",3144,999
 UCITELE,"","Skalický David, Mgr. DiS.",4658,999
-UCITELE,"","Skalník Vladimír, Ing.",9413,999
 UCITELE,"","Skočilasová Blanka, Ing. Ph.D.",1227,999
 UCITELE,"","Skrčená Lucie, Bc.",2406,999
 UCITELE,"",Sládková Veronika,2264,999
-UCITELE,"","Sláma Karel, MUDr.",1792,999
 UCITELE,"","Sláma Lukáš, Mgr.",8029,999
 UCITELE,"","Slavík Jan, doc. Ing. Ph.D.",4625,999
 UCITELE,"","Slavíková Lenka, doc. Ing. Ph.D.",4747,999
+UCITELE,"","Slavík Petr, Ing.",8301,999
 UCITELE,"","Slejška Michal, doc. ak. mal.",150,999
 UCITELE,"","Slejšková Váradiová Markéta, MgA. ArtD.",154,999
 UCITELE,"","Smejkal Jiří, Mgr. Ph.D.",8314,999
 UCITELE,"","Smejkalová Kateřina, PhDr. Bc. Ph.D.",35,999
 UCITELE,"","Smolík Arnošt, PhDr. Ph.D.",1643,999
-UCITELE,"","Smutná Zdeňka, Mgr.",7684,999
+UCITELE,"","Smutná Zdeňka, Mgr. Ph.D.",7684,999
 UCITELE,"","Soběhart Radek, PhDr. Ph.D.",4695,999
-UCITELE,"","Sobotová Michaela, Mgr. Bc.",9132,999
+UCITELE,"","Sobotová Michaela, Mgr.",9132,999
 UCITELE,"","Söhnel Otakar, prof. Ing. DrSc.",460,999
+UCITELE,"","Solcerová Eva, MUDr.",1800,999
 UCITELE,"",Soldánová Iveta,705,999
 UCITELE,"","Soperová Iveta, Ing.",9239,999
 UCITELE,"",STAG2 Externí,7039,999
@@ -837,57 +846,56 @@ UCITELE,"",Staňková Martina,2903,999
 UCITELE,"","Stará Monika, Mgr.",5219,999
 UCITELE,"",Stehlíková Šárka,1640,999
 UCITELE,"","Steklá Iveta, Bc.",3649,999
-UCITELE,"","Stellner František, prof. PhDr. Mgr. Ph.D.",6273,999
+UCITELE,"","Stellner František, prof. PhDr. Ph.D.",6273,999
 UCITELE,"","Stolárová Lenka, Mgr.",7641,999
 UCITELE,"",Straková Jana,6238,999
+UCITELE,"","Straněk Drahoslav, Mgr.",4857,999
 UCITELE,"","Strejcová Lucie, Mgr.",7652,999
 UCITELE,"","Strejčková Tereza, Mgr.",8345,999
 UCITELE,"","Struk Michal, Ing. Ph.D.",8722,999
 UCITELE,"","Střihavková Elena, Ing. Ph.D.",3758,999
-UCITELE,"","Stumpfová Alena, MUDr.",9605,999
+UCITELE,"","Stupák Rudolf, MUDr.",1319,999
 UCITELE,"","Stupková Daša, Mgr.",5795,999
 UCITELE,"","Suchánek Miloslav, prof. Ing. CSc.",3306,999
 UCITELE,"","Suchánková Hana, PhDr. Ph.D.",36,999
 UCITELE,"","Sucharovová Laura, MUDr.",8720,999
-UCITELE,"","Sumová Alena, prof. DSc.",9102,999
 UCITELE,"","Svatoňová Eva, Ph.D.",9464,999
 UCITELE,"","Svejkovský Zdeněk, MgA. Ph.D.",6442,999
-UCITELE,"","Svejskovská Marcela, Mgr.",9675,999
 UCITELE,"","Sviantek Jan, Ing.",8440,999
-UCITELE,"","Svoboda Jan, Ing.",8093,999
 UCITELE,"","Svoboda Martin, Ing. Ph.D.",3550,999
 UCITELE,"","Svoboda Martin, Mgr. Ph.D.",5958,999
 UCITELE,"","Svoboda Zdeněk, Mgr. Ph.D.",573,999
-UCITELE,"","Svobodová Barbora, Ing.",8311,999
 UCITELE,"","Svobodová Jaroslava, doc. Ing. Ph.D.",4952,999
 UCITELE,"",Svobodová Ludmila,9334,999
 UCITELE,"",Svobodová Michaela,2925,999
 UCITELE,"","Svobodová Michaela, MUDr.",7018,999
 UCITELE,"","Svobodová Silvie, PhDr. Ing. Ph.D.",8952,999
+UCITELE,"","Svorník Tomáš, Ing.",9726,999
 UCITELE,"","Sýkora Tomáš, Ing. Ph.D.",6897,999
 UCITELE,"","Sýkorová Květuše, Mgr.",835,999
 UCITELE,"","Sýkorová Lenka, doc. Mgr. Ph.D.",3934,999
-UCITELE,"","Synek Václav, Ing. Ph.D.",719,999
-UCITELE,"","Szoboszlai János György, PhD., Ph.D., M.A.",6791,999
+UCITELE,"","Szoboszlai János György, PhD., M.A.",6791,999
+UCITELE,"","Šácha Ondřej, MUDr.",7870,999
 UCITELE,"","Šárovec Daniel, PhDr.",7400,999
 UCITELE,"",Šauerová Zita,864,999
 UCITELE,"","Šavel Vladimír, doc. Mgr.",392,999
 UCITELE,"","Šebestová Janoušková Olga, Mgr. Ph.D.",8512,999
+UCITELE,"","Šedivá Kristýna, Mgr.",9817,999
 UCITELE,"","Šedlbauer Josef, prof. Ing. Ph.D.",1775,999
 UCITELE,"","Šemík Karel, Mgr.",2238,999
 UCITELE,"","Šerberová Anna, PhDr. CSc.",343,999
-UCITELE,"","Ševcovic Jakub, Mgr. M.A.",9531,999
-UCITELE,"","Ševčíková Janka, Mgr. PhD.",9361,999
+UCITELE,"","Ševcovic Jakub, Mgr. MA",9531,999
 UCITELE,"","Šícha Václav, RNDr. Ph.D.",4310,999
 UCITELE,"","Šikulová Renata, doc. PhDr. Ph.D.",235,999
+UCITELE,"","Šilhavá Naděžda, Bc. DiS.",9886,999
 UCITELE,"","Šimáčková Dita, Mgr.",3096,999
 UCITELE,"","Šíma Josef, prof. Ph.D.",5129,999
 UCITELE,"","Šimek Josef, Ing. Ph.D.",9475,999
-UCITELE,"","Šimonka Dušan, Mgr.",9636,999
 UCITELE,"","Šimsa Martin, PhDr. Ph.D.",227,999
 UCITELE,"","Šimsová Jana, RNDr. Ph.D.",37,999
 UCITELE,"","Šindelářová Jaromíra, doc. PaedDr. CSc.",629,999
 UCITELE,"","Šípal Jaroslav, doc. Ing. Ph.D.",724,999
+UCITELE,"","Šípošová Jana, Mgr.",8051,999
 UCITELE,"",Šitnerová Tamara,717,999
 UCITELE,"",Šittlerová Jana,707,999
 UCITELE,"","Škoda Jiří, prof. PhDr. Ph.D., MBA",336,999
@@ -903,35 +911,31 @@ UCITELE,"","Šleger Vladimír, doc. Ing. CSc.",7425,999
 UCITELE,"","Šlégl Jiří, PhDr. Ph.D.",3538,999
 UCITELE,"","Šlechtová Dana, Mgr. Ph.D.",993,999
 UCITELE,"",Šmejkalová Dana,7405,999
-UCITELE,"","Šmejkalová-Musilová Denisa, MUDr.",6226,999
 UCITELE,"","Šmíd Jan, PhDr. Mgr. Ph.D.",4213,999
 UCITELE,"","Šmídl Milan, RNDr. Ph.D.",3704,999
 UCITELE,"","Šmíd Ondřej, Mgr.",8647,999
 UCITELE,"","Špaček Martin, Ing. PhD.",8152,999
+UCITELE,"","Špaček Radim, MUDr.",9691,999
 UCITELE,"","Špačková Irena, Mgr.",7624,999
 UCITELE,"","Šperk Tomáš, Ing.",518,999
 UCITELE,"","Šperlová Kateřina, Mgr.",5942,999
 UCITELE,"",Špinarová Jana,5928,999
 UCITELE,"",Šramotová Andrea,6933,999
-UCITELE,"","Šťáhlavský František, RNDr. Ph.D.",3204,999
 UCITELE,"","Šťastná Kamila, Bc.",2455,999
-UCITELE,"","Šťastnová Pavlína, Mgr.",5089,999
 UCITELE,"","Šťastný Alexandr, Mgr.",5040,999
 UCITELE,"","Šťastný Daniel, doc. Ing. Ph.D.",4671,999
 UCITELE,"","Štěbetáková Michaela, Mgr.",8431,999
 UCITELE,"","Štěch Adam, Mgr.",8174,999
 UCITELE,"","Šteklová Kateřina, Mgr. Ph.D.",220,999
-UCITELE,"","Štěpka Jan, Mgr. Bc. DiS.",9116,999
+UCITELE,"","Štěpka Jan, Mgr. DiS.",9116,999
 UCITELE,"","Štěrba Jan, Ing. Ph.D.",4246,999
 UCITELE,"","Štíchová Lucie, MUDr.",5245,999
 UCITELE,"","Štofik Marcel, Mgr. Ph.D.",1503,999
 UCITELE,"","Štojdl Jiří, Ing.",7196,999
 UCITELE,"","Štolová Ivana, Mgr.",8016,999
-UCITELE,"","Štyvarová Dita, Ing.",24,999
+UCITELE,"","Štyvarová Dita, Ing. Ph.D.",24,999
 UCITELE,"","Šulanová Tereza, Ing.",9601,999
 UCITELE,"","Šulcová Eva, Mgr.",8480,999
-UCITELE,"","Šulková Martina, Mgr.",6550,999
-UCITELE,"","Šulová Lenka, prof. doc. PhDr. Mgr. CSc.",1653,999
 UCITELE,"","Švec Martin, RNDr. Ph.D.",613,999
 UCITELE,"",Tampírová Radmila,6338,999
 UCITELE,"","Tarakji Karim, MgA.",8482,999
@@ -940,6 +944,7 @@ UCITELE,"","Thelenová Michaela, doc. Mgr.",153,999
 UCITELE,"","Thýn Jiří, MgA.",8246,999
 UCITELE,"","Tietzová Anna, Ing.",8762,999
 UCITELE,"","Tichá Kateřina, PhDr. Mgr. Ph.D.",991,999
+UCITELE,"","Tichá Marie, Ing.",549,999
 UCITELE,"","Tichá Michaela, RNDr. Ing. Ph.D.",9300,999
 UCITELE,"","Tichý Jan, Mgr.",4443,999
 UCITELE,"","Tichý Jaroslav, Bc.",8945,999
@@ -953,13 +958,15 @@ UCITELE,"","Tolaszová Jitka, Ing. Ph.D.",5135,999
 UCITELE,"","Tomášek Antonín, doc. MgA.",4971,999
 UCITELE,"","Tomíček David, Mgr. Ph.D.",1084,999
 UCITELE,"","Trahorsch Petr, Mgr. Ph.D.",6384,999
+UCITELE,"","Trachtulec Zdeněk, Ing. Ph.D.",9815,999
 UCITELE,"","Trefný Martin, Dr. habil. PhDr. Ph.D.",5340,999
-UCITELE,"","Tregl Vladimír, Mgr.",9649,999
 UCITELE,"","Trnka Daniel, Mgr.",8714,999
 UCITELE,"","Trögl Josef, doc. Ing. Ph.D.",2065,999
 UCITELE,"","Trpišovský Jan, Mgr. et Mgr.",8534,999
 UCITELE,"","Trpka Vladimír, Mgr. Ph.D.",3261,999
+UCITELE,"","Trupová Klára, Mgr.",8070,999
 UCITELE,"","Tůmová Štěpánka, Ing. Bc. Ph.D.",9161,999
+UCITELE,"","Tykvová Magdalena, MUDr.",9331,999
 UCITELE,"",Učitel Josef_Test,7742,999
 UCITELE,"",Učitel Josef Test,7739,999
 UCITELE,"","Uhman Jiří, Ing. MBA",929,999
@@ -971,34 +978,33 @@ UCITELE,"","Vacek Ondřej, Mgr.",8756,999
 UCITELE,"","Vacková Monika, Mgr.",8341,999
 UCITELE,"","Vácová Ingrid, Mgr.",9370,999
 UCITELE,"","Vágner Jiří, RNDr. Ph.D.",4398,999
+UCITELE,"","Vácha Zdeněk, RNDr.",614,999
 UCITELE,"","Vachová Marta, MUDr.",962,999
-UCITELE,"","Vaibar Roman, Ing. Ph.D., MBA",3457,999
 UCITELE,"","Valenta Zdeněk, PhDr. Ph.D.",297,999
+UCITELE,"","Valha Jan, Ing. Ph.D.",9754,999
 UCITELE,"","Valkoun Vilém, Mgr.",7651,999
-UCITELE,"","Valter Ladislav, PaedDr.",379,999
 UCITELE,"","Vaněčková Jitka, Mgr. Ph.D.",2746,999
 UCITELE,"","van Koten Silvester, doc. Ph.D.",8473,999
+UCITELE,"","Vápenková Eva, Mgr. et MgA.",9784,999
 UCITELE,"","Varady Michal, doc. RNDr. Ph.D.",615,999
-UCITELE,"","Varečková Daniela, Ing. Ph.D.",9588,999
 UCITELE,"","Vartecká Anna, doc. Mgr. Ph.D.",640,999
 UCITELE,"","Vaska Ladislav, prof. PhDr. Ph.D.",5932,999
 UCITELE,"","Vašat Jan, Mgr. Ph.D.",3402,999
 UCITELE,"",Vašíčková Hana,708,999
 UCITELE,"","Vaverka Lukáš, Mgr.",9521,999
 UCITELE,"","Váverková Barbora, Mgr.",8723,999
-UCITELE,"","Vávrová Lucie, Ing.",8120,999
+UCITELE,"","Vávra Jan, PhDr. Ph.D.",6687,999
+UCITELE,"","Vávrová Lucie, Ing. Ph.D.",8120,999
 UCITELE,"","Vavřinková Blanka, doc. MUDr. CSc.",4594,999
 UCITELE,"","Velička Tomáš, doc. Mgr. Ph.D.",6896,999
 UCITELE,"","Velíšek Martin, prof. Mgr. ak. mal. Ph.D.",8910,999
 UCITELE,"",Venclová Anita,8651,999
-UCITELE,"","Venclová Lenka, Mgr.",8428,999
 UCITELE,"","Vendra Maria Cristina Clorinda, Mgr. PhD.",9130,999
 UCITELE,"","Veselá Hiekischová Michaela, PhDr. Ph.D.",5310,999
 UCITELE,"",Veselá Michaela,1822,999
 UCITELE,"","Veselý Martin, doc. Mgr. Ph.D.",1553,999
 UCITELE,"","Veselý Radim, Bc.",8525,999
 UCITELE,"","Vigil Avilés Dany Josué, MgA.",8450,999
-UCITELE,"","Viktořík Michael, doc. PhDr. Ph.D.",6918,999
 UCITELE,"","Vinopal Stanislav, Ing. Ph.D.",8024,999
 UCITELE,"",Vitáková Vladislava,399,999
 UCITELE,"","Vlachová Romana, Mgr.",590,999
@@ -1007,24 +1013,20 @@ UCITELE,"","Vlasáková Gabriela, Mgr.",8500,999
 UCITELE,"","Vlasáková Tereza, MgA.",8755,999
 UCITELE,"","Vlasák Robert, doc. MgA.",1116,999
 UCITELE,"",Vlková Jitka,7182,999
-UCITELE,"","Voborníková Zuzana, Ing.",9140,999
 UCITELE,"","Vobořil Petr, Mgr.",1608,999
-UCITELE,"","Vohradská Hana, Mgr.",8909,999
 UCITELE,"","Vojtíková Lenka, Mgr. Ph.D.",9152,999
 UCITELE,"","Vojtíšek Jan, Mgr.",404,999
 UCITELE,"","Vojtíšek Pavel, doc. RNDr. CSc.",8421,999
 UCITELE,"","Vokoun Marek, Ing. Ph.D.",6009,999
-UCITELE,"","Volešová Iva, Mgr. Bc.",9133,999
+UCITELE,"","Volešová Iva, Mgr.",9133,999
 UCITELE,"","Volfová Kristýna, Mgr.",8398,999
 UCITELE,"","Vomáčková Helena, doc. Ing. CSc.",39,999
-UCITELE,"","Vomastek Tomáš, Ing. Ph.D.",8422,999
-UCITELE,"","Vondrouš Jan, Mgr.",9673,999
 UCITELE,"","Vosátka Jakub, Ing. Ph.D.",786,999
-UCITELE,"","Vostrý Michal, PhDr. Ph.D.",5726,999
+UCITELE,"","Vostrý Michal, doc. PhDr. Ph.D.",5726,999
 UCITELE,"","Voštová Tereza, Mgr.",6246,999
 UCITELE,"","Votava Jiří, doc. MUDr. CSc.",1901,999
 UCITELE,"","Vráblík Petr, doc. Ing. Ph.D.",172,999
-UCITELE,"","Vrtoch Ľuboš, RNDr. PhD., Ph.D.",4117,999
+UCITELE,"","Vrtoch Ľuboš, RNDr. Ph.D.",4117,999
 UCITELE,"",Vrzák Jiří,4976,999
 UCITELE,"","Vyhnánková Kateřina, Mgr.",9282,999
 UCITELE,"","Vykouková Bohumila, Mgr.",9653,999
@@ -1032,15 +1034,18 @@ UCITELE,"","Vysloužilová Daniela, Ing. Ph.D.",1569,999
 UCITELE,"","Vysloužil Tomáš, Ing. Ph.D.",1216,999
 UCITELE,"",Vytisková Jana,7648,999
 UCITELE,"","Wágnerová Romana, Mgr.",8988,999
+UCITELE,"","Wágner Tomáš, prof. Ing. DrSc.",9881,999
 UCITELE,"","Wangle Tadeáš Riley, Ing. Ph.D.",8515,999
 UCITELE,"","Wedlichová Iva, PhDr. Ph.D.",249,999
 UCITELE,"","Widžová Petra, MgA.",9541,999
 UCITELE,"",Wiesingerová Zuzana,1538,999
 UCITELE,"","Wildová Eliška, Ing. Ph.D.",5947,999
+UCITELE,"","Wittenbergová Eva, MUDr.",9315,999
 UCITELE,"","Wróbel Dominika Zofia, Ph.D.",4711,999
+UCITELE,"","Yannopoulos Spyros N., prof.",9884,999
 UCITELE,"","Zábranský Vilém, Mgr. Ph.D.",2214,999
+UCITELE,"","Zahálka Petr, Ing.",9739,999
 UCITELE,"",Zachulová Jaroslava,1584,999
-UCITELE,"","Zajíc Jindřich, Mgr. Ph.D.",9652,999
 UCITELE,"","Zajíček Přemysl, MgA. DiS.",8122,999
 UCITELE,"","Zajíčková Jana, Mgr. Bc.",9477,999
 UCITELE,"","Zajíčková Jiřina, Ing.",7195,999
@@ -1049,20 +1054,17 @@ UCITELE,"","Závora Jiří, PhDr. Ph.D.",1875,999
 UCITELE,"",Zdarská Hana,710,999
 UCITELE,"","Zdráhal Tomáš, doc. RNDr. CSc.",1528,999
 UCITELE,"","Zelenková Dagmar, doc. PhDr. Ph.D.",363,999
-UCITELE,"","Zeman Lubomír, Mgr.",9336,999
 UCITELE,"","Zemanová Barbara, Mgr.",8042,999
 UCITELE,"","Zemanová Marcela, Mgr. Ph.D.",3256,999
 UCITELE,"","Zemanová Martina, PhDr. Ph.D.",434,999
-UCITELE,"","Zemanová Miroslava, Mgr. Bc. Ph.D.",8414,999
+UCITELE,"","Zemanová Miroslava, Mgr. Ph.D.",8414,999
 UCITELE,"","Zeman Petr, PhDr. Ph.D.",442,999
 UCITELE,"","Zeman Václav, PhDr. Ph.D.",5833,999
-UCITELE,"","Zgažarová Lucie, MUDr.",9617,999
 UCITELE,"","Zíka Vojtěch, Ing. Mgr. Ph.D.",6505,999
 UCITELE,"","Zikmundová Dana, MgA.",5140,999
 UCITELE,"","Zilcher Ladislav, doc. PhDr. Ph.D.",4216,999
 UCITELE,"","Zimmermannová Bára, Mgr.",8823,999
 UCITELE,"","Zimová Štěpánka, Ing.",7352,999
-UCITELE,"",Zindulková Prošková Stanislava,8026,999
 UCITELE,"","Zischková Lenka, Mgr.",8506,999
 UCITELE,"",Zítek Adam,6439,999
 UCITELE,"","Zítek Hynek, MUDr.",7611,999
@@ -1074,6 +1076,7 @@ UCITELE,"","Zvonková Klára, Mgr. Bc.",9663,999
 UCITELE,"","Žák Marcel, PaedDr.",382,999
 UCITELE,"","Žambochová Marta, doc. RNDr. Ph.D.",923,999
 UCITELE,"","Žďárová-Karasová Jana, prof. PharmDr. Ph.D.",3066,999
+UCITELE,"","Žitek Pavel, Ing. Ph.D.",9727,999
 UCITELE,"","Žižka David, Bc.",7946,999
 UCITELE,"","Žižková Lenka, Ing.",8205,999
 UCITELE,"","Žofčák Jakub, Ing.",8089,999
