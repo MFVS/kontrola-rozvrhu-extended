@@ -1,3 +1,12 @@
+from typing import Dict
+def write_new_json(to_convert:Dict[str, bool]):
+    import json
+    content = json.dumps(to_convert)
+    with open("results_csv/display_wishes.json", "w") as write_file:
+        write_file.write(content)
+
+
+
 # Ok, takže:
 # 1) Tenhle blok kódu si osvěží, jaký všechny pracoviště jsou na UJEPu (na vytvoření jejich seznamu) vždycky, když si někdo otevře tuhle stránku. Velmi neefektivní.
 #   - V ideálním světě by se seznam pracovišť osvěžil jednou za den (nebo za týden, whatever) a uložil do JSONu, který potom importujem. Nicméně, nevím jak spustit nějakej skript jenom jednou každý den, takže tohle zatím postačí.
@@ -17,6 +26,7 @@ search_fields = {
     "Fakulta":workplace_list_gen("F"),
     "Katedra":workplace_list_gen("K")
 }
+
 # --- ---
 
 # --- Actual stránka ---
@@ -32,6 +42,19 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 st.title("Služba na hledání chyb v IS STAG")
+
+#NOTE: Silně pochybný přístup. Prosím, někdo kdo tomuhle reálně rozumí, spravte to.
+dont_use_me, use_me_instead = st.columns(spec=[0.8, 0.2])
+with use_me_instead:
+    st.write(f'''
+            <a target="_self" href="https://ws.ujep.cz/ws/login?originalURL=http://localhost:8501">
+                <button>
+                    Click me to login
+                </button>
+            </a>
+        ''',
+        unsafe_allow_html=True)
+
 st.subheader("Vyplňte následující dotazník:")
 
 col1, col2, col3 = st.columns(3)
@@ -67,10 +90,12 @@ chyby = [
     "Přednášející bez přednášek",
     "Cvičící bez cvičení",
     "Seminařící bez seminářů",
-    "Přednášky bez přednášejících",
-    "Cvičení bez cvičících",
-    "Semináře bez seminařicích"
+    "Přednášející mimo sylabus",
+    "Cvičicí mimo sylabus",
+    "Seminářicí mimo sylabus"
 ]
+
+wishes = {chyba:True for chyba in chyby}
 
 # ALTERNATIVNÍ ŘEŠENÍ
 
@@ -80,18 +105,24 @@ chyby = [
 #     default=chyby # Idk zda tohle funguje
 # )
 
-cols1 = st.columns(7)
-for i in range(7): 
-    with cols1[i]: 
-        num = st.checkbox(chyby[i], value = True)
+num_of_issues = len(chyby)
+half_issues = num_of_issues // 2
 
-cols2 = st.columns(4) 
-for i in range(4): 
-    with cols2[i]: 
-        num = st.checkbox(chyby[i], value = True) 
+cols1 = st.columns(half_issues)
+for a in range(half_issues): 
+    with cols1[a]: 
+        wishes[chyby[a]] = st.checkbox(chyby[a], value = True)
+
+cols2 = st.columns(num_of_issues - half_issues) 
+for b in range(num_of_issues - half_issues): 
+    with cols2[b]: 
+        wishes[chyby[b]] = st.checkbox(chyby[b + half_issues], value = True) 
 
 lang = st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
 
 output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
 
-st.button("Spustit")
+st.button(label="Spustit", on_click=write_new_json, args=[wishes])
+
+query_pa = st.query_params["stagUserTicket"]
+query_pa
