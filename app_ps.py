@@ -1,10 +1,24 @@
-from typing import Dict
+from typing import Dict, List
+from datetime import datetime
+
 def write_new_json(to_convert:Dict[str, bool]):
     import json
     content = json.dumps(to_convert)
     with open("results_csv/display_wishes.json", "w") as write_file:
         write_file.write(content)
 
+def page_escape(to_convert:Dict[str, bool]):
+    #raise NotImplementedError("Fuck off and leave me to my lotions")
+    st.session_state["wishes"] = to_convert
+    st.switch_page("1_Výpis_výsledků.py")
+
+def read_query_params() -> dict | None:
+    if "stagUserTicket" not in st.query_params:
+        return None
+    
+    all_params = st.query_params.to_dict()
+
+    return all_params
 
 
 # Ok, takže:
@@ -29,9 +43,21 @@ search_fields = {
 
 # --- ---
 
+def generate_years() -> List[str]:
+    return [f"{year}/{year + 1}" for year in range(datetime.today().year, 2010, -1)]
+
+def default_year() -> str:
+    return 0 if datetime.today().month > 6 else 1
+
+
 # --- Actual stránka ---
 import streamlit as st
 st.set_page_config(page_title="Hledání chyb",page_icon=":left_speech_bubble:",layout="wide", initial_sidebar_state="expanded")
+
+read_qp = read_query_params()
+if read_qp != None:
+    for key in read_qp.keys():
+        st.session_state[key] = read_qp[key]
 
 hide_streamlit_style = """
             <style>
@@ -41,19 +67,29 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.title("Služba na hledání chyb v IS STAG")
-
 #NOTE: Silně pochybný přístup. Prosím, někdo kdo tomuhle reálně rozumí, spravte to.
-dont_use_me, use_me_instead = st.columns(spec=[0.8, 0.2])
-with use_me_instead:
+title_container, login_container = st.columns(spec=[0.8, 0.2])
+with title_container:
+    st.title("Služba na hledání chyb v IS STAG")
+with login_container:
+    if "stagUserTicket" not in st.session_state:
+        login_message = "Nejste přihlášen/a."
+        login_button_mess = "Přihlášení"
+    else:
+        login_message = "Jste přihlášen/a."
+        login_button_mess = "Změna uživatele"
+    
+    st.caption(login_message)
     st.write(f'''
             <a target="_self" href="https://ws.ujep.cz/ws/login?originalURL=http://localhost:8501">
                 <button>
-                    Click me to login
+                    {login_button_mess}
                 </button>
             </a>
         ''',
         unsafe_allow_html=True)
+    
+st.divider()
 
 st.subheader("Vyplňte následující dotazník:")
 
@@ -76,7 +112,7 @@ with col2:
 # if Fakulta == "By default":
     
 with col3:
-    year = st.selectbox("Zvolte akademický rok:",["2023/2024","2022/2023","2021/2022","2020/2021","a tak dále"]) # TODO: Přidat automatickou generaci školního roku (also, roky potřebujeme ve formátu {počáteční rok ŠR})
+    year = st.selectbox(label="Zvolte akademický rok:",options=generate_years(),index=default_year()) # TODO: Přidat automatickou generaci školního roku (also, roky potřebujeme ve formátu {počáteční rok ŠR})
 
 st.subheader("Filtrování typů chyb")
 
@@ -122,4 +158,4 @@ lang = st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
 
 output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
 
-st.button(label="Spustit", on_click=write_new_json, args=[wishes])
+st.button(label="Spustit", on_click=page_escape, args=[wishes])
