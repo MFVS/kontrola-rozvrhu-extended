@@ -1,18 +1,16 @@
+# Importy
 from typing import Dict, List
 from datetime import datetime
 
-def write_new_json(to_convert:Dict[str, bool]):
-    import json
-    content = json.dumps(to_convert)
-    with open("results_csv/display_wishes.json", "w") as write_file:
-        write_file.write(content)
+# --- POMOCNÉ FUNKCE 1 ---
 
+# Funkce pro uložení výběru zobrazení chyb a přechod na výpis výsledků
 def page_escape(to_convert:Dict[str, bool]):
-    #raise NotImplementedError("Fuck off and leave me to my lotions")
     st.session_state["wishes"] = to_convert
-    st.switch_page("1_Výpis_výsledků.py")
+    st.switch_page("pages/1_Výpis_výsledků.py")
 
-def read_query_params() -> dict | None:
+# Přečte, zda byly dány nějaké query parametry (extra parametry v adrese) a zapíše je do stavu systému. Neohrabané ale funkční.
+def read_query_params() -> dict | None: #TODO: Parseování stagUser dat
     if "stagUserTicket" not in st.query_params:
         return None
     
@@ -20,13 +18,11 @@ def read_query_params() -> dict | None:
 
     return all_params
 
-
 # Ok, takže:
 # 1) Tenhle blok kódu si osvěží, jaký všechny pracoviště jsou na UJEPu (na vytvoření jejich seznamu) vždycky, když si někdo otevře tuhle stránku. Velmi neefektivní.
 #   - V ideálním světě by se seznam pracovišť osvěžil jednou za den (nebo za týden, whatever) a uložil do JSONu, který potom importujem. Nicméně, nevím jak spustit nějakej skript jenom jednou každý den, takže tohle zatím postačí.
-# 2) Vynechávám učitele. Ať tam zadaj ten čtyřčíselný kód, whatever. Zatím mi to přijde jako moc úsilí pro něco kde hledat učitele bude legit nemožný.
+# 2) Vynechávám učitele. Ať tam zadaj ten čtyřčíselný kód, whatever. Zatím mi to přijde jako moc úsilí pro něco kde hledat učitele bude legit nemožný. Minimálně zatím. Máme před sebou důležitější věci.
 #   - Už hledat katedry bude fakt slast...
-# 3) NEOTESTOVANÝ. MOŽNÁ TO CRASHNE, NETUŠÍM CO DĚLÁM LMAO
 
 # --- BLOCK OF STUPID ---
 def workplace_list_gen(wplace_type:str | None = None):
@@ -41,11 +37,13 @@ search_fields = {
     "Katedra":workplace_list_gen("K")
 }
 
-# --- ---
+# --- POMOCNÉ FUNKCE 2 ---
 
+# Vygeneruje školní roky až do roku 2010/2011. Dunno proč, prostě to přišlo pod ruku.
 def generate_years() -> List[str]:
     return [f"{year}/{year + 1}" for year in range(datetime.today().year, 2010, -1)]
 
+# Nastavuje výchozí výběr roku v kolonce výběru roku. Nastaveno na momentální akademický rok, mimo prázdnin, kde už to hází další akademický rok.
 def default_year() -> str:
     return 0 if datetime.today().month > 6 else 1
 
@@ -54,11 +52,13 @@ def default_year() -> str:
 import streamlit as st
 st.set_page_config(page_title="Hledání chyb",page_icon=":left_speech_bubble:",layout="wide", initial_sidebar_state="expanded")
 
+# Pokračování zápisu do stavu sezení.
 read_qp = read_query_params()
 if read_qp != None:
     for key in read_qp.keys():
         st.session_state[key] = read_qp[key]
 
+# Schování streamlit loga.
 hide_streamlit_style = """
             <style>
             #MainMenu {visibility: hidden;}
@@ -67,11 +67,15 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-#NOTE: Silně pochybný přístup. Prosím, někdo kdo tomuhle reálně rozumí, spravte to.
 title_container, login_container = st.columns(spec=[0.8, 0.2])
+
+# Nadpis
 with title_container:
     st.title("Služba na hledání chyb v IS STAG")
+
+# Login tlačítko
 with login_container:
+    # Změna zprávy při přihlášení/nepřihlášení
     if "stagUserTicket" not in st.session_state:
         login_message = "Nejste přihlášen/a."
         login_button_mess = "Přihlášení"
@@ -80,6 +84,7 @@ with login_container:
         login_button_mess = "Změna uživatele"
     
     st.caption(login_message)
+    #Tlačítko
     st.write(f'''
             <a target="_self" href="https://ws.ujep.cz/ws/login?originalURL=http://localhost:8501">
                 <button>
@@ -91,28 +96,32 @@ with login_container:
     
 st.divider()
 
-st.subheader("Vyplňte následující dotazník:")
+st.subheader("Vyplňte následující dotazník:") #TODO: Přidat reálnej formulář pomocí st.form.
 
 col1, col2, col3 = st.columns(3)
 
 with col1:
-    main_options = st.selectbox("Hledat chyby podle:",["Fakulta","Katedra","Studijní program","Učitel"])
+    st.session_state["search_option"] = st.selectbox("Hledat chyby podle:",["Fakulta","Katedra","Studijní program","Učitel"])
 
 with col2:
-    if main_options == "Fakulta": #TODO: Přidat zprávu, že tohle bude trvat...
-        target = st.multiselect("Zvolte fakultu:",search_fields["Fakulta"])
-    if main_options == "Katedra":
-        target = st.multiselect("Zvolte katedru:",search_fields["Katedra"]) #NOTE: Tohle ZAHLTÍ uživatele volbami
-    if main_options == "Studijní program": #NOTE: Studijní programy nejsou zatím podporovány.
-        target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
-    if main_options == "Učitel":
-        target = st.multiselect("Zvolte učitele:",["učitel1","učitel2","učitel3","a tak dále"]) #TODO: Ditto
+    if st.session_state["search_option"] == "Fakulta": #TODO: Přidat zprávu, že tohle bude trvat...
+        st.session_state["search_field"] = st.multiselect("Zvolte fakultu:",search_fields["Fakulta"])
+
+    elif st.session_state["search_option"] == "Katedra":
+        st.session_state["search_field"] = st.multiselect("Zvolte katedru:",search_fields["Katedra"]) #NOTE: Tohle ZAHLTÍ uživatele volbami, also možná lepší jména alá STAG?
+
+    elif st.session_state["search_option"] == "Studijní program": #TODO: Studijní programy nejsou zatím podporovány.
+        raise NotImplementedError("Tohle by mi zabralo další týden. Fuck you.")
+        #target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
+    
+    elif st.session_state["search_option"] == "Učitel":
+        st.session_state["search_field"] = st.multiselect("Zvolte učitele:",["učitel1","učitel2","učitel3","a tak dále"]) #TODO: Ditto
 
 # Fakulta = st.selectbox("Zvolte fakultu:",["By default","","","","",""])
 # if Fakulta == "By default":
     
 with col3:
-    year = st.selectbox(label="Zvolte akademický rok:",options=generate_years(),index=default_year()) # TODO: Přidat automatickou generaci školního roku (also, roky potřebujeme ve formátu {počáteční rok ŠR})
+    year = st.selectbox(label="Zvolte akademický rok:",options=generate_years(),index=default_year()) #NOTE: Vrací stringy s {první rok}/{druhý rok}. Dají se z toho parseovat actually useful data, ale bylo by milé vrátit actually použitelný formát. No biggie tho.
 
 st.subheader("Filtrování typů chyb")
 
@@ -131,16 +140,10 @@ chyby = [
     "Seminářicí mimo sylabus"
 ]
 
+# Dict pro zápis zda to reálně uživatel chce zobrazit nebo ne
 wishes = {chyba:True for chyba in chyby}
 
-# ALTERNATIVNÍ ŘEŠENÍ
-
-# display_list = st.multiselect(
-#     label="Filtrování typů chyb",
-#     options=chyby,
-#     default=chyby # Idk zda tohle funguje
-# )
-
+# Formátování sloupců (jejich počet dle chyb)
 num_of_issues = len(chyby)
 half_issues = num_of_issues // 2
 
@@ -152,10 +155,12 @@ for a in range(half_issues):
 cols2 = st.columns(num_of_issues - half_issues) 
 for b in range(num_of_issues - half_issues): 
     with cols2[b]: 
-        wishes[chyby[b]] = st.checkbox(chyby[b + half_issues], value = True) 
+        wishes[chyby[b + half_issues]] = st.checkbox(chyby[b + half_issues], value = True) 
 
-lang = st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
+st.session_state["lang"] = st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
 
-output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
+#NOTE: Output format přesunut na stránku Výpis výsledků. Tam je to relevantnější, takže to potom bude méně cluttered.
+#output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
 
-st.button(label="Spustit", on_click=page_escape, args=[wishes])
+if st.button(label="Spustit"):
+    page_escape(wishes)
