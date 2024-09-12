@@ -123,6 +123,3 @@ lang = st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
 output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
 
 st.button(label="Spustit", on_click=write_new_json, args=[wishes])
-
-query_pa = st.query_params["stagUserTicket"]
-query_pa
