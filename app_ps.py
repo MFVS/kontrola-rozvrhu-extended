@@ -7,7 +7,7 @@ from datetime import datetime
 # Funkce pro uložení výběru zobrazení chyb a přechod na výpis výsledků
 def page_escape(to_convert:Dict[str, bool]):
     st.session_state["wishes"] = to_convert
-    st.switch_page("pages/1_Výpis_výsledků.py")
+    st.switch_page("pages/3_Loading.py")
 
 def get_best_role(encoded:str):
     import base64

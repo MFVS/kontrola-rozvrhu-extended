@@ -134,7 +134,7 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
 
     # Excel rozvrhy funguje jen s validním přihlášením
     file_names = {
-        "identifier":file_id,
+        "identifier":file_id, #NOTE: Zastaralé. Dá se generovat pomocí stag role.
         "rozvrhy":f"source_tables/by_type/rozvrh_{file_id}.csv",
         "predmety":f"source_tables/by_type/predmety_{file_id}.csv"
     }
@@ -213,7 +213,7 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
         print("Dataframes appended. Continuing to next item.")
 
     file_names = {
-        "identifier":file_id,
+        "identifier":file_id, #NOTE: Zastaralé. Dá se generovat pomocí stag role.
         "rozvrhy":f"source_tables/by_type/rozvrh_{file_id}.csv",
         "predmety":f"source_tables/by_type/predmety_{file_id}.csv"
     }
@@ -228,7 +228,7 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
     assert stag_user != None, "This requires the user to login."
 
     file_names = {
-        "identifier":file_id,
+        "identifier":file_id, #NOTE: Zastaralé. Dá se generovat pomocí stag role.
         "rozvrhy":f"source_tables/by_type/rozvrh_{file_id}.csv",
         "predmety":f"source_tables/by_type/predmety_{file_id}.csv"
     }
@@ -291,7 +291,7 @@ def studijni_program():
 
 # ----- HANDLER ----- 
 
-def pull_data(search_type:str, search_target:str, ticket_over:str | None = None, auth_over:Tuple[str, str] | None = None, year:str | None = None):
+def pull_data(search_type:str, search_target:str, stag_user:str, ticket_over:str | None = None, auth_over:Tuple[str, str] | None = None, year:str | None = None):
     # TODO: Přidej dynamické pojmenování vygenerovaných tabulek
 
     assert search_type != None, "Missing type of search."
@@ -320,8 +320,6 @@ def pull_data(search_type:str, search_target:str, ticket_over:str | None = None,
         "Studijní program":studijni_program,
         "Učitel":ucitel
     }
-
-    stag_user = "F23112" # Debug, yay
 
     return search_areas[search_type](search_target, ticket, auth, year, stag_user=stag_user, file_id=stag_user)
 

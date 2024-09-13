@@ -1,411 +1,144 @@
 nazev;zkratka;cviciciUcitIdno;jmena
-Základy poèítaèové fyziky;K503;69;'prof. RNDr. Rudolf Hrach DrSc.
-Fyzika pevných látek I;K839;69;'prof. RNDr. Rudolf Hrach DrSc.'
-Demografie;5DEMO;130;'RNDr. Miloslav Šašek CSc.'
-Demografie;FDEMO;130;'RNDr. Miloslav Šašek CSc.'
-Technologie ochrany životního prostøedí;B315;199;'Ing. Miroslav Richter Ph.D.'
-Technologie ochrany životního prostøedí;BK315;199;'Ing. Miroslav Richter Ph.D.'
-Technologie ochrany životního prostøedí;P414;199;'Ing. Miroslav Richter Ph.D.'
-Geometrie;P335;269;'Mgr. Petr Rys'
-Geometrie;K312;269;'Mgr. Petr Rys'
-Aktuální biologický semináø I;K412;278;'doc. RNDr. Jaromír Hajer CSc.'
-Fylogeneze a systém bezobratlých;P302;278;'doc. RNDr. Jaromír Hajer CSc.'
-Vìdecká komunikace v biologii;M100;278;'doc. RNDr. Jaromír Hajer CSc.
-Zoologické terénní cvièení;KB427;278;'doc. RNDr. Jaromír Hajer CSc.
-Vìdecká komunikace v biologii;N021;278;'doc. RNDr. Jaromír Hajer CSc.
-Zoologické terénní cvièení;K406;278;'doc. RNDr. Jaromír Hajer CSc.'
-Diplomový semináø;N035;278;'doc. RNDr. Jaromír Hajer CSc.
-Zoologické terénní cvièení;P427;278;'doc. RNDr. Jaromír Hajer CSc.'
-Aktuální biologický semináø I;0001;278;'doc. RNDr. Jaromír Hajer CSc.'
-Zoologické terénní cvièení;PB427;278;'doc. RNDr. Jaromír Hajer CSc.
-Botanické terénní cvièení;PB405;279;'doc. RNDr. Karel Kubát CSc.
-Obecná botanika;P112;279;'doc. RNDr. Karel Kubát CSc.'
-Fylogeneze a systém vyšších rostlin;KB219;279;'doc. RNDr. Karel Kubát CSc.
-Obecná botanika;K102;279;'doc. RNDr. Karel Kubát CSc.'
-Geobotanika;N025;279;'doc. RNDr. Karel Kubát CSc.'
-Botanické terénní cvièení;MA203;279;'doc. RNDr. Karel Kubát CSc.'
-Botanické terénní cvièení;KB405;279;'doc. RNDr. Karel Kubát CSc.'
-Fylogeneze a systém vyšších rostlin;PB219;279;'doc. RNDr. Karel Kubát CSc.
-Bioindikátory;MA401;279;'doc. RNDr. Karel Kubát CSc.'
-Geobotanika;MA200;279;'doc. RNDr. Karel Kubát CSc.'
-Obecná botanika;P103;279;'doc. RNDr. Karel Kubát CSc.'
-Fyziologie živoèichù a èlovìka;KB502;281;'doc. MUDr. Vladislav Mareš DrSc.
-Fyziologie živoèichù a èlovìka;PB502;281;'doc. MUDr. Vladislav Mareš DrSc.
-Fyziologie a mol. bio. eukar. buòky I;N016;281;'doc. MUDr. Vladislav Mareš DrSc.'
-Diplomová práce I;N028;281;'doc. MUDr. Vladislav Mareš DrSc.
-Diplomová práce I;M200;281;'doc. MUDr. Vladislav Mareš DrSc.
-Souvislá pedagogická praxe II - ZŠ;KA35;302;'PaedDr. Václav Heller'
-Prosemináø øešení fyzikálních úloh A;P622;302;'PaedDr. Václav Heller'
-Exkurze;P841;302;'PaedDr. Václav Heller'
-Prosemináø øešení fyzikálních úloh;K622;302;'PaedDr. Václav Heller'
-Prosemináø øešení fyzikálních úloh A ZŠ;P736;302;'PaedDr. Václav Heller'
-Fyzikální praktikum C;K521;302;'PaedDr. Václav Heller'
-Didaktická a laboratorní technika;PA31;302;'PaedDr. Václav Heller'
-Prùbìžná pedagogická praxe ZŠ;P732;302;'PaedDr. Václav Heller'
-Vybrané partie z fyziky;K414;306;'prof. RNDr. Stanislav Novák CSc.'
-Diplomový semináø;K505;306;'prof. RNDr. Stanislav Novák CSc.
-Matematický prosemináø;P365;306;'prof. RNDr. Stanislav Novák CSc.'
-Teorie elektromagnetického pole;TEP;307;'doc. RNDr. Dušan Novotný CSc.'
-Vybrané partie z teorie elektromag. pole;PD203;307;'doc. RNDr. Dušan Novotný CSc.'
-Fyzika I;K222;307;'doc. RNDr. Dušan Novotný CSc.'
-Semináø katedry II;PA52;307;'doc. RNDr. Dušan Novotný CSc.'
-PVK - Vyb.partie z teoretické fyziky I;K422;307;'doc. RNDr. Dušan Novotný CSc.'
-Vybrané partie z teoretické fyziky I;P938;307;'doc. RNDr. Dušan Novotný CSc.'
-Souhrnný semináø - poèítaèové modelování;SPM;307;'doc. RNDr. Dušan Novotný CSc.'
-Kvantová fyzika I;K512;307;'doc. RNDr. Dušan Novotný CSc.'
-Souhrnný semináø - poèítaèové modelování;KSPM;307;'doc. RNDr. Dušan Novotný CSc.'
-Vybrané partie z fyziky;P427;307;'doc. RNDr. Dušan Novotný CSc.'
-Odborný semináø katedry A;P531;307;'doc. RNDr. Dušan Novotný CSc.'
-Kvantová fyzika;P737;307;'doc. RNDr. Dušan Novotný CSc.'
-Kvantová fyzika II;P607;307;'doc. RNDr. Dušan Novotný CSc.'
-Teorie elektromagnetického pole;P508;307;'doc. RNDr. Dušan Novotný CSc.'
-Semináø katedry I;P952;307;'doc. RNDr. Dušan Novotný CSc.'
-Kvantová fyzika;K724;307;'doc. RNDr. Dušan Novotný CSc.'
-Kvantová fyzika I;P509;307;'doc. RNDr. Dušan Novotný CSc.
-Semináø katedry;P602;307;'doc. RNDr. Dušan Novotný CSc.'
-PVK - Vyb.partie z teoretické fyziky II;K522;307;'doc. RNDr. Dušan Novotný CSc.'
-Kvantová mechanika;KKM;307;'doc. RNDr. Dušan Novotný CSc.'
-Kvantová mechanika;KM;307;'doc. RNDr. Dušan Novotný CSc.'
-Metody geografického výzkumu krajiny;M409;313;'doc. RNDr. Martin Balej Ph.D.'
-Potenciál kulturní krajiny a GIS;M214;313;'doc. RNDr. Martin Balej Ph.D.
-VK - Geografická exkurze v ÈR (5 dní);0101;317;'doc. RNDr. Milan Jeøábek Ph.D.'
-Dìjiny chemie;KN16;336;'prof. PhDr. Jiøí Škoda Ph.D., MBA
-Didaktika chemie II - SŠ;KN22;336;'prof. PhDr. Jiøí Škoda Ph.D., MBA
-Didaktika chemie II - SŠ;N304;336;'prof. PhDr. Jiøí Škoda Ph.D., MBA
-Fyzikální praktikum D;FPD;423;'prof. RNDr. Anna Macková Ph.D.
-Pokr. studium povrchù pomocí jader. met.;AP14;423;'prof. RNDr. Anna Macková Ph.D.'
-Atomová a jaderná fyzika;KATOM;423;'prof. RNDr. Anna Macková Ph.D.'
-Ion Analytic Methods;E293;423;'prof. RNDr. Anna Macková Ph.D.'
-Atomová a jaderná fyzika;ATOM;423;'prof. RNDr. Anna Macková Ph.D.'
-Iontové analytické metody;PD200;423;'prof. RNDr. Anna Macková Ph.D.'
-Fyzika energetických svazkù iontù;PD101;423;'prof. RNDr. Anna Macková Ph.D.'
-Atomic and Nuclear Physics;E511;423;'prof. RNDr. Anna Macková Ph.D.'
-Simulation of the charged particle;CM306;423;'prof. RNDr. Anna Macková Ph.D.'
-Pøíprava mikro a nanostruktur;PMNS;423;'prof. RNDr. Anna Macková Ph.D.'
-Fyzikální praktikum D;KFPD;423;'prof. RNDr. Anna Macková Ph.D.
-Studium povrchù pomocí jaderných metod;PM203;423;'prof. RNDr. Anna Macková Ph.D.'
-Atomová a jaderná fyzika;P511;423;'prof. RNDr. Anna Macková Ph.D.'
-Simulace prùchodu nabitých èástic;PM306;423;'prof. RNDr. Anna Macková Ph.D.'
-Úvod do fyziky energet. svazkù iontù;AP09;423;'prof. RNDr. Anna Macková Ph.D.'
-Laboratorní praktikum III;LB3;423;'prof. RNDr. Anna Macková Ph.D.
-Atomová a jaderná fyzika;K401;423;'prof. RNDr. Anna Macková Ph.D.'
-Characterization of surface layers using;CM203;423;'prof. RNDr. Anna Macková Ph.D.'
-Jaderné analytické metody;JAM;423;'prof. RNDr. Anna Macková Ph.D.'
-Automata and Formal Language Theory;ETFI;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Petriho sítì;0144;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Teorie automatù a formálních jazykù;AFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Teoretické základy informatiky II;TZI2;264;'RNDr. Martin Kuøil Ph.D.
+Teoretická informatika a matematika;YTIM;264;'RNDr. Martin Kuøil Ph.D.
+Teoretické základy informatiky II;KTZI2;264;'RNDr. Martin Kuøil Ph.D.
 Optimalizace v Excelu;0033;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Repetitorium matematiky;K113;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
 Praktikum z teor. zákl. informatiky;PTZI;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Advanced Numerical Methods;EPNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Repetitorium matematiky;P113;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Petriho sítì;0144;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
+Automata and Formal Language Theory;ETFI;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
 Optimization;EOTT;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Teorie automatù a formálních jazykù;KAFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
 Theory of Automata and Formal Languages;EAFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
+Teorie automatù a formálních jazykù;KAFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Advanced Numerical Methods;EPNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Teorie automatù a formálních jazykù;AFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
 Stochastické Petriho sítì;0158;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Anglická konverzace;N101;474;'Mgr. Jaroslav Izavèuk'
-Systém kvality a vyhodnocování dat;N111;550;'prof. Ing. Pavel Janoš CSc.
-Diplomový semináø II;N409;550;'prof. Ing. Pavel Janoš CSc.
-Pokroèilá instrumentální analýza I;N214;550;'prof. Ing. Pavel Janoš CSc.
-Metody studia speciace polutantù;N320;550;'prof. Ing. Pavel Janoš CSc.
-Stopová organická analýza;N025;550;'prof. Ing. Pavel Janoš CSc.
-Pokroèilé instrumentální metody;N108;550;'prof. Ing. Pavel Janoš CSc.'
-Analytická chemie ŽP NMgr.;KN04;550;'prof. Ing. Pavel Janoš CSc.
-Pokroèilá instrumentální analýza II;N311;550;'prof. Ing. Pavel Janoš CSc.
-Experimentální využití elmg. vln F;0237;605;'doc. RNDr. František Fiala'
-Øešení obvodu RLC;0214;605;'doc. RNDr. František Fiala'
-VK- Praktikum mikrovlnné techniky D;0211;605;'doc. RNDr. František Fiala'
-Praktikum mikrovlnné techniky - aplikace;0207;605;'doc. RNDr. František Fiala'
-Experimentální využití elmg. vln B;0218;605;'doc. RNDr. František Fiala'
-Vybrané matematické metody ve fyzice;0212;605;'doc. RNDr. František Fiala'
-VK-Programování ATMEL I;0175;605;'doc. RNDr. František Fiala'
-Vybrané partie z teoretické fyziky II;P522;606;'doc. RNDr. Ing. Kurt Fišer CSc.'
-Teoretická mechanika I;K305;606;'doc. RNDr. Ing. Kurt Fišer CSc.
-Vybrané partie z teoretické fyziky I;P422;606;'doc. RNDr. Ing. Kurt Fišer CSc.'
-PVK - Hromadné zpracování dat;K406;612;'Mgr. Dalibor Sedlák'
-VK-Fyzikální semináø;0204;612;'Mgr. Dalibor Sedlák'
-Poèítaèové modelování II;K206;612;'Mgr. Dalibor Sedlák'
-Poèítaèové modelování II;P206;612;'Mgr. Dalibor Sedlák'
-PVK - Hromadné zpracování dat;P406;612;'Mgr. Dalibor Sedlák'
-Poèítaèové modelování I;K107;612;'Mgr. Dalibor Sedlák'
-Programování A;K103;612;'Mgr. Dalibor Sedlák'
-Programování B;P203;612;'Mgr. Dalibor Sedlák'
-Programování A;P103;612;'Mgr. Dalibor Sedlák'
-Poèítaèové modelování III;P401;612;'Mgr. Dalibor Sedlák'
-Systém kvality a vyhodnocování dat;N111;719;'Ing. Václav Synek Ph.D.'
-Poèítaè. modelování - spojité modelování;P366;816;'doc. RNDr. Jiøí Felcman CSc.
-VK - Exkurze z regionální geologie;0109;827;'RNDr. Vladimír Cajz CSc.'
-Úvod do relaèních databází;URD;835;'Mgr. Kvìtuše Sýkorová'
-Datová úložištì a zpracování dat;KDUL;835;'Mgr. Kvìtuše Sýkorová'
-Didaktika informatiky II;KDI2;835;'Mgr. Kvìtuše Sýkorová'
-Introduction to Relational Databases;EURDB;835;'Mgr. Kvìtuše Sýkorová'
-Úvod do relaèních databází;KURDB;835;'Mgr. Kvìtuše Sýkorová'
-Úvod do relaèních databází;URDB;835;'Mgr. Kvìtuše Sýkorová'
-Praktikum z algoritmù a dat. struktur;0174;835;'Mgr. Kvìtuše Sýkorová'
-Úvod do kryptografie;UKR;835;'Mgr. Kvìtuše Sýkorová'
-Databázové systémy;KDSY;835;'Mgr. Kvìtuše Sýkorová'
-Datová úložištì a nástroje pro Big Data;KBIG;835;'Mgr. Kvìtuše Sýkorová'
-Základy kryptologie;KKRY;835;'Mgr. Kvìtuše Sýkorová'
-Relaèní databázové systémy;RDBS;835;'Mgr. Kvìtuše Sýkorová'
-Relaèní databázové systémy;KRDBS;835;'Mgr. Kvìtuše Sýkorová'
-Algoritmizace a programování I;APR1;835;'Mgr. Kvìtuše Sýkorová
-Algoritmy a datové struktury;DSA;835;'Mgr. Kvìtuše Sýkorová
-Numerické metody;XNME;835;'Mgr. Kvìtuše Sýkorová
-Algoritmizace a programování;YAPR;835;'Mgr. Kvìtuše Sýkorová
-Databázové systémy;DSY;835;'Mgr. Kvìtuše Sýkorová'
-Algoritmizace a programování II;APR2;835;'Mgr. Kvìtuše Sýkorová
-Didaktika informatiky II;DI2;835;'Mgr. Kvìtuše Sýkorová'
-Pokroèilé datové struktury a algoritmy;PDSA;835;'Mgr. Kvìtuše Sýkorová
-Relaèní databáze;YRDB;835;'Mgr. Kvìtuše Sýkorová'
-Datová úložištì a zpracování dat;DUL;835;'Mgr. Kvìtuše Sýkorová'
-Základy kryptologie;KZKR;835;'Mgr. Kvìtuše Sýkorová'
-Algoritmy a datové struktury;KDSA;835;'Mgr. Kvìtuše Sýkorová
-Numerické metody;NME;835;'Mgr. Kvìtuše Sýkorová
-Algoritmizace a programování II;KAPR2;835;'Mgr. Kvìtuše Sýkorová
-Algoritmizace a programování I;KAPR1;835;'Mgr. Kvìtuše Sýkorová
-Algorithms and Data Structures;EDSA;835;'Mgr. Kvìtuše Sýkorová
-Základy kryptologie;KRY;835;'Mgr. Kvìtuše Sýkorová'
-Optimalizace;KOTT;835;'Mgr. Kvìtuše Sýkorová'
-Pokroèilé datové struktury a algoritmy;KPDSA;835;'Mgr. Kvìtuše Sýkorová
-Optimalizace;OPT;835;'Mgr. Kvìtuše Sýkorová'
-Optimalizace;OTT;835;'Mgr. Kvìtuše Sýkorová'
-Aplikovaná kryptologie;AKR;835;'Mgr. Kvìtuše Sýkorová'
 Optimalizace;KOPT;835;'Mgr. Kvìtuše Sýkorová'
+Základy kryptologie;KKRY;835;'Mgr. Kvìtuše Sýkorová'
 Datová úložištì a nástroje pro Big Data;BIG;835;'Mgr. Kvìtuše Sýkorová'
-Základy kryptologie;ZKR;835;'Mgr. Kvìtuše Sýkorová'
+Algoritmizace a programování II;KAPR2;835;'Mgr. Kvìtuše Sýkorová
+Optimalizace;KOTT;835;'Mgr. Kvìtuše Sýkorová'
+Numerické metody;NME;835;'Mgr. Kvìtuše Sýkorová
+Datová úložištì a zpracování dat;DUL;835;'Mgr. Kvìtuše Sýkorová'
+Introduction to Relational Databases;EURDB;835;'Mgr. Kvìtuše Sýkorová'
+Algoritmizace a programování I;KAPR1;835;'Mgr. Kvìtuše Sýkorová
+Úvod do kryptografie;UKR;835;'Mgr. Kvìtuše Sýkorová'
+Didaktika informatiky II;DI2;835;'Mgr. Kvìtuše Sýkorová'
+Numerické metody;XNME;835;'Mgr. Kvìtuše Sýkorová
+Základy kryptologie;KRY;835;'Mgr. Kvìtuše Sýkorová'
+Datová úložištì a nástroje pro Big Data;KBIG;835;'Mgr. Kvìtuše Sýkorová'
+Optimalizace;OTT;835;'Mgr. Kvìtuše Sýkorová'
+Algoritmizace a programování II;APR2;835;'Mgr. Kvìtuše Sýkorová
+Algorithms and Data Structures;EDSA;835;'Mgr. Kvìtuše Sýkorová
+Algoritmizace a programování;YAPR;835;'Mgr. Kvìtuše Sýkorová
+Praktikum z algoritmù a dat. struktur;0174;835;'Mgr. Kvìtuše Sýkorová'
+Základy kryptologie;KZKR;835;'Mgr. Kvìtuše Sýkorová'
+Databázové systémy;KDSY;835;'Mgr. Kvìtuše Sýkorová'
 Samoopravné kódy;SOK;835;'Mgr. Kvìtuše Sýkorová'
-Paleontologie a paleoekologie;BK334;839;'Ing. Richard Pokorný DiS., Ph.D.'
-Paleontologie a paleoekologie;BP334;839;'Ing. Richard Pokorný DiS., Ph.D.'
-Finanèní analýza;FINA;929;'Ing. Jiøí Uhman MBA'
-Základy financí;ZFIN;929;'Ing. Jiøí Uhman MBA'
-Základy matematiky;K103;1108;'prof. RNDr. Jiøí Cihláø CSc.'
-Finanèní analýza;FINA;1383;'Ing. František Hrdina
-Statistika na PC;K516;1456;'Mgr. Ing. Jana Gabèanová'
-Matematika IV;K409;1537;'prof. RNDr. Jan Malý DrSc.'
-Biologie a ekologie èlovìka I;P303;1546;'Mgr. Karina Vašinová Ph.D.'
-Biologie parazitù;N032;1546;'Mgr. Karina Vašinová Ph.D.'
-Ekofyziologie;N051;1546;'Mgr. Karina Vašinová Ph.D.'
-Obecná parazitologie;P323;1546;'Mgr. Karina Vašinová Ph.D.'
-Obecná zoologie;K110;1546;'Mgr. Karina Vašinová Ph.D.'
-Komplexní analýza materiálù;PD202;1590;'RNDr. Jan Lorinèík CSc.'
-"Met. analýz mat. 
-využ. el. mikroskopie";AP03;1590;'RNDr. Jan Lorinèík CSc.'
-Metody analýz materiálù;AP05;1590;'RNDr. Jan Lorinèík CSc.'
-Kvantová fyzika I;P509;1590;'RNDr. Jan Lorinèík CSc.
-Migrace, transf. a persistence polutantù;N307;1775;'prof. Ing. Josef Šedlbauer Ph.D.'
-Metody molekulární biologie;N023;1986;'Mgr. Jana Èejnová
-Metody molekulární biologie;ME200;1986;'Mgr. Jana Èejnová
-Limnobiologie;P528;1999;'RNDr. Blanka Desortová CSc.'
-Environmentální legislativa;K507;1999;'RNDr. Blanka Desortová CSc.'
-Environmentální legislativa;P525;1999;'RNDr. Blanka Desortová CSc.'
-Limnobiologie;P328;1999;'RNDr. Blanka Desortová CSc.'
-Algologie;P420;1999;'RNDr. Blanka Desortová CSc.'
-Limnobiologie;K311;1999;'RNDr. Blanka Desortová CSc.'
-Limnobiologie;BK108;1999;'RNDr. Blanka Desortová CSc.
-Algologie;N036;1999;'RNDr. Blanka Desortová CSc.'
-Veøejná správa;VSP;2142;'Ing. Petra Olšová Ph.D.'
-Advanced Data Structures and Algorithms;EPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Aplikovaná kryptologie;AKR;835;'Mgr. Kvìtuše Sýkorová'
+Relaèní databázové systémy;KRDBS;835;'Mgr. Kvìtuše Sýkorová'
+Pokroèilé datové struktury a algoritmy;PDSA;835;'Mgr. Kvìtuše Sýkorová
+Úvod do relaèních databází;KURDB;835;'Mgr. Kvìtuše Sýkorová'
+Pokroèilé datové struktury a algoritmy;KPDSA;835;'Mgr. Kvìtuše Sýkorová
+Úvod do relaèních databází;URD;835;'Mgr. Kvìtuše Sýkorová'
+Didaktika informatiky II;KDI2;835;'Mgr. Kvìtuše Sýkorová'
+Základy kryptologie;ZKR;835;'Mgr. Kvìtuše Sýkorová'
+Relaèní databáze;YRDB;835;'Mgr. Kvìtuše Sýkorová'
+Úvod do relaèních databází;URDB;835;'Mgr. Kvìtuše Sýkorová'
+Databázové systémy;DSY;835;'Mgr. Kvìtuše Sýkorová'
+Optimalizace;OPT;835;'Mgr. Kvìtuše Sýkorová'
+Algoritmizace a programování I;APR1;835;'Mgr. Kvìtuše Sýkorová
+Algoritmy a datové struktury;KDSA;835;'Mgr. Kvìtuše Sýkorová
+Algoritmy a datové struktury;DSA;835;'Mgr. Kvìtuše Sýkorová
+Relaèní databázové systémy;RDBS;835;'Mgr. Kvìtuše Sýkorová'
+Datová úložištì a zpracování dat;KDUL;835;'Mgr. Kvìtuše Sýkorová'
 Projektové øízení a firemní IS;KFIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Soft Computing;KSOC;2220;'RNDr. Jiøí Škvor Ph.D.'
-Informatika ve fyzice I;IVF1;2220;'RNDr. Jiøí Škvor Ph.D.'
-Analýza a vizualizace dat;KAVD;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerical Methods;ENME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;EPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Data Analysis and Visualisation;EDAV;2220;'RNDr. Jiøí Škvor Ph.D.'
-Algoritmy a datové struktury;DSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerické metody;KNME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerické metody;XNME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Pokroèilé numerické metody;PNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Teorie automatù a formálních jazykù;AFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
-Matematika v mikroekonomii;MME;2220;'RNDr. Jiøí Škvor Ph.D.
-Projektové øízení a firemní IS;FIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Informatika ve fyzice II;IVF2;2220;'RNDr. Jiøí Škvor Ph.D.'
-Pokroèilé datové struktury a algoritmy;PDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Praktikum z numerických metod;0153;2220;'RNDr. Jiøí Škvor Ph.D.'
-Algoritmy a datové struktury;KDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerické metody;NME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Algorithms and Data Structures;EDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;PYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Výpoèetní geometrie;0192;2220;'RNDr. Jiøí Škvor Ph.D.'
-Advanced Numerical Methods;EPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Pokroèilé datové struktury a algoritmy;KPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Soft Computing;SOC;2220;'RNDr. Jiøí Škvor Ph.D.'
-Pokroèilé numerické metody;KPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Teorie automatù a formálních jazykù;KAFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;KPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Computational Geometry;A192;2220;'RNDr. Jiøí Škvor Ph.D.'
 Analýza a vizualizace dat;AVD;2220;'RNDr. Jiøí Škvor Ph.D.'
-Analytická chemie Nmgr.;KN40;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
-Toxikologie rostl. a živoèišných toxinù;P534;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
-Didaktika geografie I;M105;2232;'Mgr. Zuzana Pavlasová'
-Didaktika geografie I;N001;2232;'Mgr. Zuzana Pavlasová'
-Advanced Data Structures and Algorithms;EPDSA;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-Dependabilita informaèních systémù;DIS;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Python and R for Data Science;EPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerical Methods;ENME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerické metody;NME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerické metody;XNME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Python and R for Data Science;PYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Teorie automatù a formálních jazykù;KAFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
+Soft Computing;SOC;2220;'RNDr. Jiøí Škvor Ph.D.'
+Soft Computing;KSOC;2220;'RNDr. Jiøí Škvor Ph.D.'
+Algorithms and Data Structures;EDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Pokroèilé numerické metody;PNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Advanced Numerical Methods;EPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Výpoèetní geometrie;0192;2220;'RNDr. Jiøí Škvor Ph.D.'
+Analýza a vizualizace dat;KAVD;2220;'RNDr. Jiøí Škvor Ph.D.'
+Pokroèilé datové struktury a algoritmy;PDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Pokroèilé datové struktury a algoritmy;KPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Data Analysis and Visualisation;EDAV;2220;'RNDr. Jiøí Škvor Ph.D.'
+Teorie automatù a formálních jazykù;AFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
+Praktikum z numerických metod;0153;2220;'RNDr. Jiøí Škvor Ph.D.'
+Computational Geometry;A192;2220;'RNDr. Jiøí Škvor Ph.D.'
+Python and R for Data Science;KPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Pokroèilé numerické metody;KPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerické metody;KNME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Advanced Data Structures and Algorithms;EPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Algoritmy a datové struktury;KDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Algoritmy a datové struktury;DSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Projektové øízení a firemní IS;FIS;2220;'RNDr. Jiøí Škvor Ph.D.
 Dependabilita informaèních systémù;KDIS;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Internet Programming;EPIN;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Software Engineering;ESWI;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Numerické metody;KNME;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-Dependabilita informaèních systémù;DEP;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Dependabilita informaèních systémù;KDEP;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Programování pro Internet;KPIN;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Programování pro internet;KPRI;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Dependability of Information Systems;EDEP;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Database Systems;EDSY;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Programování pro Internet;PIN;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Dependability of Software Systems;EDSW;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Programování pro internet;PRI;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
 Dependability of Hardware Systems;EDHW;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Labor. Techniq. in Mol. and Cell Biology;E121;2441;'Mgr. Alena Semerádtová Ph.D.
-Microscopy Techniques in Biology;E120;2441;'Mgr. Alena Semerádtová Ph.D.
-Eliminace polutantù z fluidních systémù;N021;2450;'Ing. Jaroslav Líbal CSc.'
-Anglický jazyk II;K411;2591;'Mgr. Eva Havlíková'
-Biologie a ekologie èlovìka I;P303;2757;'Mgr. Kateøina Radana Drbalová
-Souvislá pedagogická praxe I SŠ;P706;2757;'Mgr. Kateøina Radana Drbalová'
-VK-Èeská republika a EU;0116;2758;'doc. Dr. phil. Lukáš Novotný M.A.'
-Geospatial data: sources and analysis;PD107;2787;'doc. Ing. Jan Pacina Ph.D.'
-VK - Konverzace nìmèiny pro geografy;0130;2812;'Mgr. Tomáš Køenek Dr. Phil.'
-VK-Nìmèina pro geografy;0126;2812;'Mgr. Tomáš Køenek Dr. Phil.'
-Metody molekulární biologie;N023;2997;'RNDr. Petr Štolba'
-Metody molekulární biologie;ME200;2997;'RNDr. Petr Štolba'
-Anglický jazyk;PD103;3096;'Mgr. Dita Šimáèková'
-Technologie ochrany životního prostøedí;P414;3175;'Ing. Stanislav Hejda Ph.D.
-Ekotoxikologie;N109;3176;'PharmDr. Markéta Švarcová Ph.D.
-Toxikologie rostl. a živoèišných toxinù;P534;3176;'PharmDr. Markéta Švarcová Ph.D.'
+Programování pro Internet;KPIN;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Database Systems;EDSY;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Programování pro internet;PRI;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Programování pro Internet;PIN;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Software Engineering;ESWI;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Dependabilita informaèních systémù;DIS;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Dependability of Information Systems;EDEP;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Numerické metody;KNME;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
+Advanced Data Structures and Algorithms;EPDSA;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
+Dependabilita informaèních systémù;DEP;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Dependability of Software Systems;EDSW;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Dependabilita informaèních systémù;KDEP;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Programování pro internet;KPRI;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Internet Programming;EPIN;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Teoretická informatika a matematika;YTIM;3188;'Mgr. Lucie Loukotová
 Poèítaèová kriminalita;0141;3458;'Ing. Toni Koluch Ph.D.'
-Welfare Assessment of zoo animals;E133;3796;'Ing. Petra Padalíková'
-Preparace a konzervování pøírodnin II;P416;3797;'Mgr. Ivan Táborský'
-Preparace a konzervování pøírodnin II;P419;3797;'Mgr. Ivan Táborský'
-Preparace a konzervování pøírodnin II;K403;3797;'Mgr. Ivan Táborský'
-Preparace a konzervování pøírodnin II;P416;3798;'Bc. Jaroslav Bažant
-Preparace a konzervování pøírodnin II;P419;3798;'Bc. Jaroslav Bažant
-Preparace a konzervování pøírodnin II;K403;3798;'Bc. Jaroslav Bažant
-Funkce a struktura bunìèných membrán;0088;4175;'RNDr. Hana Sychrová DrSc.'
-Základy receptorové neurofyziologie;0089;4176;'RNDr. Viktorie Vlachová DrSc.'
-Základy bioinženýrství;0090;4177;'MUDr. Lucie Baèáková CSc.'
+Datová a informaèní bezpeènost;KDIB;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Simulace systémù;KSIM;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Mathematical software;EMSW;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Analýza a vizualizace dat;AVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Parallel Programming;PAR;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Paralelní programování;KPPG;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Simulace systémù;SIM;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+System Simulation;KSYS;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+System Simulation;ESYS;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Matematika pro informatiky;MAI;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Paralelní programování;PPG;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Analýza a vizualizace dat;KAVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Datová a informaèní bezpeènost;DIB;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Parallel Programming;KPAR;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Data Analysis and Visualisation;EDAV;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+System Simulation;SYS;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Parallel Programming;EPPG;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Datová a informaèní bezpeènost;KDINB;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Datová a informaèní bezpeènost;DINB;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Parallel Programming;EPAR;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
 Modelování podnikových procesù;0160;4190;'Ing. Libor Mìsíèek Ph.D.'
 Poèítaèové sítì a protokoly;PSP;4195;'Ing. Václav Valenta'
-Fyziologie a mol. bio. eukar. buòky I;N016;4208;'prof. RNDr. Zdenìk Fišar CSc.
-Matematika I;K106;4221;'Mgr. Robert Švarc Ph.D.'
-Matematika I;P106;4221;'Mgr. Robert Švarc Ph.D.'
-Úvod do fyziky;P112;4221;'Mgr. Robert Švarc Ph.D.'
-Kvantová fyzika I;P509;4221;'Mgr. Robert Švarc Ph.D.'
-Neziskový sektor a regionální rozvoj;0150;4227;'Mgr. Petr Bláha Ph.D.'
-Fyzikálnì chemická cvièení;K502;4258;'Ing. Marek Došek
-Laboratorní cvièení z fyzikální chemie;P532;4258;'Ing. Marek Došek
-Fyzikálnì chemická cvièení;P527;4258;'Ing. Marek Došek
-PVK - Fyzikálnì chemická cvièení A;P506;4258;'Ing. Marek Došek
-Fyzikálnì chemická cvièení;P517;4258;'Ing. Marek Došek
-Moderní elektroanal. met. - prakt. kurz;N029;4258;'Ing. Marek Došek'
-Cvièení z experiment. biologie rostlin;K513;4264;'RNDr. Jan Martinec CSc.'
-Fyziologie a mol. biologie rostl. buòky;ME201;4264;'RNDr. Jan Martinec CSc.'
-Cvièení z experiment. biologie rostlin;ME303;4264;'RNDr. Jan Martinec CSc.'
-Vybrané kapitoly z geografie krajiny;0152;4302;'RNDr. Eva Berrová'
-Explantátové kultury rostlin I;N049;4390;'RNDr. Tomáš Vanìk CSc.'
-Geografický potenciál cestovního ruchu;M209;4397;'RNDr. Dana Fialová Ph.D.
-Geografický potenciál cestovního ruchu;M407;4397;'RNDr. Dana Fialová Ph.D.
-Èasové øady;KCAS;4533;'doc. Ing. Jaroslav Sixta Ph.D.
-Právní aspekty vzdìlávání a pøedpisy;KN46;4581;'Mgr. Marcela Prokùpková'
-Právní aspekty vzdìlávání a pøedpisy;N005;4581;'Mgr. Marcela Prokùpková'
 Information Security;0177;4685;'Hoon Ko Ph.D.'
 Mikroprocesory a senzory v praxi I;0164;4746;'Ing. Jiøí Šretr'
 Mikroprocesory a senzory v praxi II;0171;4746;'Ing. Jiøí Šretr'
-Scientific inquiry and reasoning;PD101;4747;'doc. Ing. Lenka Slavíková Ph.D.'
-Fyzikálnì chemická cvièení;P517;4757;'Dr. Magdaléna Hromadová Ph.D.
-Materiály a jejich mezní stavy;M112;4951;'doc. Ing. Jaromír Cais Ph.D.
 Automatické øízení;AUC;5039;'doc. Ing. Mgr. Petr Klán CSc.'
-Chemické a biologické ohrožení;N020;5062;'Ing. Jaroslav Procházka'
-Ochrana pøírody;P312;5131;'Ing. Johana Jackovièová Ph.D.'
-Fyzika pevných látek I;P861;5201;'doc. RNDr. Jiøí Pavluch CSc.'
-Fyzika pevných látek I;P839;5201;'doc. RNDr. Jiøí Pavluch CSc.'
-Metody geografického výzkumu krajiny;M203;5240;'Mgr. Ladislav Bobr
-Životní prostøedí a udržitelný rozvoj;BK401;5240;'Mgr. Ladislav Bobr
-Lokální a regionální rozvoj;M101;5240;'Mgr. Ladislav Bobr
-Terénní cvièení ze SG;M312;5240;'Mgr. Ladislav Bobr
-Životní prostøedí a udržitelný rozvoj;B401;5240;'Mgr. Ladislav Bobr
-Environmental Biotechnology;M102;5449;'Mgr. Jakub Ederer Ph.D.
-Pokroèilá instrumentální analýza I;N214;5449;'Mgr. Jakub Ederer Ph.D.
-Pokroèilá instrumentální analýza II;N311;5449;'Mgr. Jakub Ederer Ph.D.
-Zoologické terénní cvièení;KB427;5472;'RNDr. Michal Nìmec Ph.D.'
-Srovnávací anatom. a morfol. obratlovcù;N060;5472;'RNDr. Michal Nìmec Ph.D.'
-Zoologické terénní cvièení;PB427;5472;'RNDr. Michal Nìmec Ph.D.'
-Biomedicínské mat.- pøípr., char., a vl.;P328;5854;'doc. Ing. Andrey Shukurov Ph.D.'
-Identif. a hodnocení ekosystém. služeb;M317;5886;'Ing. Jiøí Louda Ph.D.
-Geografie a dìdictví krajiny;0156;5924;'Jakub Jelen'
-Environmental Biotechnology;M303;5927;'prof. Valentyna Pidlisniuk DrSc.'
-Poè. mod. - zpracování obrazu a signálu;P240;5958;'Mgr. Martin Svoboda Ph.D.'
-Programování - Fortran 2;FORT2;5958;'Mgr. Martin Svoboda Ph.D.'
-Poè. mod. - zpracování obrazu a signálu;K220;5958;'Mgr. Martin Svoboda Ph.D.'
-Termika a molekulová fyzika;KTERM;5958;'Mgr. Martin Svoboda Ph.D.'
-Úvod do fyziky;P233;5958;'Mgr. Martin Svoboda Ph.D.'
-Úvod do fyziky;K115;5958;'Mgr. Martin Svoboda Ph.D.'
-Programování - Fortran;FORT;5958;'Mgr. Martin Svoboda Ph.D.'
-Praktikum poèítaèového modelování I;KPPM1;5958;'Mgr. Martin Svoboda Ph.D.'
-Termika a molekulová fyzika;P237;5958;'Mgr. Martin Svoboda Ph.D.'
-Úvod do fyziky;P128;5958;'Mgr. Martin Svoboda Ph.D.
-Poèítaèové metody Monte Carlo;PMC;5958;'Mgr. Martin Svoboda Ph.D.'
-Poè. mod. - zpracování obrazu a signálu;P234;5958;'Mgr. Martin Svoboda Ph.D.'
-Programování - Fortran;P131;5958;'Mgr. Martin Svoboda Ph.D.'
-Paralelní programování II;M400;5958;'Mgr. Martin Svoboda Ph.D.'
-Programování - Fortran;KFORT;5958;'Mgr. Martin Svoboda Ph.D.'
-Praktikum poèítaèového modelování I;PPM1;5958;'Mgr. Martin Svoboda Ph.D.'
-Poèítaèová grafika a zpracování obrazu;P364;5958;'Mgr. Martin Svoboda Ph.D.'
-Poè. modelování èásticových soustav II;M201;5958;'Mgr. Martin Svoboda Ph.D.'
-Programming - Fortran;EFORT;5958;'Mgr. Martin Svoboda Ph.D.'
-Termika a molekulová fyzika;TERM;5958;'Mgr. Martin Svoboda Ph.D.'
-Molekulární simulace metodou Monte Carlo;M107;5958;'Mgr. Martin Svoboda Ph.D.'
-Poèítaèové model. - èásticové modelování;P523;5958;'Mgr. Martin Svoboda Ph.D.'
-Poè. mod. - èásticové modelování;K513;5958;'Mgr. Martin Svoboda Ph.D.'
-Poèítaèové zpracování obrazu a signálu;KPZOS;5958;'Mgr. Martin Svoboda Ph.D.'
-Poèítaèové zpracování obrazu a signálu;PZOS;5958;'Mgr. Martin Svoboda Ph.D.'
-Poèítaèové metody Monte Carlo;KPMC;5958;'Mgr. Martin Svoboda Ph.D.'
-Poè. mod. - zpracování obrazu a signálu;K215;5958;'Mgr. Martin Svoboda Ph.D.'
-Programování - Fortran;K117;5958;'Mgr. Martin Svoboda Ph.D.'
-Základy financí;ZFIN;6120;'Ing. Lucie Kopáèková Ph.D.
-Biophysics;E126;6543;'doc. RNDr. Dana Gášková CSc.
-Materiály a jejich mezní stavy;M112;6633;'Mgr. Klára Caisová Ph.D.'
-Desktop Publishing in Chemistry;M114;6633;'Mgr. Klára Caisová Ph.D.
-Nekovové anorganické materiály;AMAT;6886;'Ing. Pavlína Hájková Ph.D.'
-Nekovové anorganické materiály;AMAT;6886;'Ing. Pavlína Hájková Ph.D.'
-Úvod do modelování prùmyslových procesù;M211;7307;'Ing. Martin Kantor Ph.D.'
-Strukturní analýza organických slouèenin;BK314;7776;'Ing. Vadim Prokopec Ph.D.'
-Strukturní analýza organických slouèenin;B314;7776;'Ing. Vadim Prokopec Ph.D.'
-Pøípr. a využití nanovlákenných struktur;PD55;7805;'Ing. Marcela Munzarová Ph.D.'
-Kryptobióza;BP300;8018;'Mgr. Michaela Czerneková Ph.D.'
-Kryptobióza;BK300;8018;'Mgr. Michaela Czerneková Ph.D.'
-Ekologie;K411;8018;'Mgr. Michaela Czerneková Ph.D.'
-Animal and Plant Models in Biology;E123;8018;'Mgr. Michaela Czerneková Ph.D.
-Ekologie;P422;8018;'Mgr. Michaela Czerneková Ph.D.'
-Souvislá pedagogická praxe I - SŠ;P707A;8021;'PaedDr. Milan Kubiatko PhD.'
-Didaktika biologie I;P108;8021;'PaedDr. Milan Kubiatko PhD.'
-Prùbìžná pedagogická praxe;P705;8021;'PaedDr. Milan Kubiatko PhD.'
-Douèování;DOUC;8021;'PaedDr. Milan Kubiatko PhD.
-Didaktika biologie II;P208;8021;'PaedDr. Milan Kubiatko PhD.'
-Souvislá pedagogická praxe II - SŠ;P707B;8021;'PaedDr. Milan Kubiatko PhD.'
-Kompozity nanoèástic kovù a jejich oxidù;PD12;8074;'Ing. Darina Smržová Ph.D.'
-Nanokompozitní materiály na bázi uhlíku;PD08;8075;'Ing. Petra Ecorchard Ph.D.'
-Biologie pùdních mikroorganismù;M101;8154;'RNDr. Pavel Branny CSc.'
-Analýza organických látek v ŽP;N418;8200;'Ing. Lucie Oravová Ph.D.'
-Zelená chemie a technologie;M118;8200;'Ing. Lucie Oravová Ph.D.'
-Kvantová mechanika;KKM;8310;'Mgr. David Kofroò Ph.D.
-Kvantová mechanika;KM;8310;'Mgr. David Kofroò Ph.D.
-Microscopy Techniques in Biology;E120;8316;'Mgr. David Poustka
-Machine Learning Based on R Software;EMLR;8514;'Ricardo Rodriguez Jorge Ph.D.'
+Teoretická informatika a matematika;YTIM;5205;'RNDr. Veronika Lacková Ph.D.
+Analogová elektronika;KAEL;5232;'doc. RNDr. František Lustig CSc.'
+Analogová elektronika;KANE;5232;'doc. RNDr. František Lustig CSc.'
+Analogová elektronika;ANE;5232;'doc. RNDr. František Lustig CSc.'
+Analogová elektronika;AEL;5232;'doc. RNDr. František Lustig CSc.'
 Python and R for Data Science;EPYR;8514;'Ricardo Rodriguez Jorge Ph.D.
-Data Analysis and Visualisation;EDAV;8514;'Ricardo Rodriguez Jorge Ph.D.
-Algoritmizace a programování I;APR1;8514;'Ricardo Rodriguez Jorge Ph.D.
+Machine Learning Based on R Software;EMLR;8514;'Ricardo Rodriguez Jorge Ph.D.'
 Algoritmizace a programování II;APR2;8514;'Ricardo Rodriguez Jorge Ph.D.
 Data Mining Techniq. based on R Software;EDMR;8514;'Ricardo Rodriguez Jorge Ph.D.'
-Základy matematiky;P103;8677;'Mgr. Jiøí Rozkovec'
-Pravdìpodobnost a statistika I;K413;8677;'Mgr. Jiøí Rozkovec'
-Vybrané partie z matematiky;P232;8677;'Mgr. Jiøí Rozkovec'
-Pravdìpodobnost a statistika II;K512;8750;'Mgr. Bc. Lukáš Tichý'
+Data Analysis and Visualisation;EDAV;8514;'Ricardo Rodriguez Jorge Ph.D.
+Algoritmizace a programování I;APR1;8514;'Ricardo Rodriguez Jorge Ph.D.
 Objektovì orientované návrhové vzory;OONV;8753;'Mgr. Roman Saòa'
 Objektovì orientované návrhové vzory;KOONV;8753;'Mgr. Roman Saòa'
-Optimální rozhodování;KOPR;9114;'Dr. Hossein Moosaei Ph.D.'
-Optimization for ML with MATLAB;OMLM;9114;'Dr. Hossein Moosaei Ph.D.'
-Optimiz. for Mach. Learning with MATLAB;EOMLM;9114;'Dr. Hossein Moosaei Ph.D.'
 Optimal Decision Making;EOPR;9114;'Dr. Hossein Moosaei Ph.D.'
+Optimization for ML with MATLAB;OMLM;9114;'Dr. Hossein Moosaei Ph.D.'
 Optimization;EOTT;9114;'Dr. Hossein Moosaei Ph.D.'
 Optimální rozhodování;OPR;9114;'Dr. Hossein Moosaei Ph.D.'
-Èasové øady;KCAS;9304;'Ing. Ondøej Vozár'
-Ornitologie;MA205;9608;'Mgr. Václav Beran'
+Optimální rozhodování;KOPR;9114;'Dr. Hossein Moosaei Ph.D.'
+Optimiz. for Mach. Learning with MATLAB;EOMLM;9114;'Dr. Hossein Moosaei Ph.D.'
