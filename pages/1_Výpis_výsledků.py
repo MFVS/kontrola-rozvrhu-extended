@@ -30,7 +30,7 @@ chyby_translator = {
 #     "Seminářicí mimo sylabus":"sample_file",
 # }
 
-import polars as pl
+import pandas as pd
 import streamlit as st
 chyby = [name for name in st.session_state["wishes"].keys() if st.session_state["wishes"][name] == True]
 
@@ -54,7 +54,7 @@ for tab_index,tab in enumerate(tab_folder):
     pre_ansi = ""
     with open("results_csv/"+chyby_translator[chyby[tab_index]]+"_"+st.session_state["stagRoleName"]+".csv", "rb") as file:
         tab.download_button("Stáhnout csv", file, file_name=chyby[tab_index]+".csv") #TODO: Překonvertovat soubory z utf-8 na ANSI. Jinak to v excelu vyplivne gibberish.
-    tab.dataframe(pl.read_csv("results_csv/"+chyby_translator[chyby[tab_index]]+"_"+st.session_state["stagRoleName"]+".csv"))
+    tab.dataframe(pd.read_csv("results_csv/"+chyby_translator[chyby[tab_index]]+"_"+st.session_state["stagRoleName"]+".csv", encoding='ansi', sep=";"))
 
 
 

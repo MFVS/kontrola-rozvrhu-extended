@@ -1,89 +1,89 @@
-katedra,zkratka,idno,typAkceZkr,rok,datumOd,datumDo,hodinaSkutOd,hodinaSkutDo,identifier,katedra_right,nazev,cvicici,cviciciUcitIdno,jmena
-KCH,B100,3705,Cv,2024,2.10.2024,18.12.2024,10:00,11:50,B100KCH,KCH,√övod do chemie,"'doc. RNDr. Jan Jirs√°k, Ph.D.'",2855,"Petrusov√° Zuzana, Ing. Ph.D."
-KCH,B100,3705,Cv,2024,2.10.2024,18.12.2024,08:00,09:50,B100KCH,KCH,√övod do chemie,"'doc. RNDr. Jan Jirs√°k, Ph.D.'",2855,"Petrusov√° Zuzana, Ing. Ph.D."
-KCH,B103,1319,Cv,2024,28.11.2024,28.11.2024,15:00,17:50,B103KCH,KCH,Bezpeƒçnost a hygiena pr√°ce,'MUDr. Eva Solcerov√°',1800,"Stup√°k Rudolf, MUDr."
-KCH,B103,1319,Cv,2024,14.11.2024,14.11.2024,15:00,17:50,B103KCH,KCH,Bezpeƒçnost a hygiena pr√°ce,'MUDr. Eva Solcerov√°',1800,"Stup√°k Rudolf, MUDr."
-KGEO,B104,8819,Cv,2024,2.10.2024,18.12.2024,15:00,16:50,B104KGEO,KGEO,Geografick√° kartografie,"'doc. PhDr. RNDr. Jan Daniel Bl√°ha, Ph.D.', 'Mgr. Petr Meyer, Ph.D.'","3452, 5855","Bart≈Ønƒõk Martin, Mgr."
-KGEO,B104,8819,Cv,2024,3.10.2024,2.1.2025,15:00,16:50,B104KGEO,KGEO,Geografick√° kartografie,"'doc. PhDr. RNDr. Jan Daniel Bl√°ha, Ph.D.', 'Mgr. Petr Meyer, Ph.D.'","3452, 5855","Bart≈Ønƒõk Martin, Mgr."
-KCH,B200,9645,Cv,2024,2.10.2024,18.12.2024,15:00,15:50,B200KCH,KCH,Organick√° chemie,'Mgr. Tereza Du≈°kov√°',9302,"Babor Martin, Ing. Ph.D."
-KCH,B200,9645,Cv,2024,1.10.2024,17.12.2024,12:00,12:50,B200KCH,KCH,Organick√° chemie,'Mgr. Tereza Du≈°kov√°',9302,"Babor Martin, Ing. Ph.D."
-KCH,B202,7981,Cv,2024,7.10.2024,16.12.2024,08:00,11:50,B202KCH,KCH,Laboratorn√≠ cviƒçen√≠ z anorganick√© chemie,"'Ing. Ivana Kadleƒçkov√°', 'RNDr. V√°clav ≈†√≠cha, Ph.D.'","4226, 4310","Kaule Pavel, Mgr."
-KCH,B202,9301,Cv,2024,7.10.2024,16.12.2024,08:00,11:50,B202KCH,KCH,Laboratorn√≠ cviƒçen√≠ z anorganick√© chemie,"'Ing. Ivana Kadleƒçkov√°', 'RNDr. V√°clav ≈†√≠cha, Ph.D.'","4226, 4310","Gregu≈° Viktor, Ing."
-KGEO,B301,9265,Cv,2024,3.10.2024,2.1.2025,13:00,13:50,B301KGEO,KGEO,Geografie ƒåeska II,"'Mgr. Vladan Hru≈°ka, Ph.D.'",4222,"Kr√°l Tom√°≈°, Mgr."
-KGEO,B301,8647,Cv,2024,1.10.2024,17.12.2024,17:00,17:50,B301KGEO,KGEO,Geografie ƒåeska II,"'Mgr. Vladan Hru≈°ka, Ph.D.'",4222,"≈†m√≠d Ond≈ôej, Mgr."
-KGEO,B301,8647,Cv,2024,1.10.2024,17.12.2024,14:00,14:50,B301KGEO,KGEO,Geografie ƒåeska II,"'Mgr. Vladan Hru≈°ka, Ph.D.'",4222,"≈†m√≠d Ond≈ôej, Mgr."
-KGEO,B304,6919,Cv,2024,3.10.2024,2.1.2025,15:00,15:50,B304KGEO,KGEO,Rozvojov√© probl√©my region≈Ø ƒåeska,"",,"P√≠≈°a Jan, Mgr. Ph.D."
-KGEO,B304,9265,Cv,2024,3.10.2024,2.1.2025,12:00,12:50,B304KGEO,KGEO,Rozvojov√© probl√©my region≈Ø ƒåeska,"",,"Kr√°l Tom√°≈°, Mgr."
-KGEO,B304,6919,Cv,2024,7.10.2024,16.12.2024,14:00,14:50,B304KGEO,KGEO,Rozvojov√© probl√©my region≈Ø ƒåeska,"",,"P√≠≈°a Jan, Mgr. Ph.D."
-KCH,B304,9431,Cv,2024,1.10.2024,17.12.2024,07:00,09:50,B304KCH,KCH,Chemick√© in≈æen√Ωrstv√≠,"'doc. Ing. Jarom√≠r Havlica, Ph.D.'",1803,"Harrandt V√°clav, Mgr."
-KGEO,B308,315,Cv,2024,7.10.2024,16.12.2024,10:00,11:50,B308KGEO,KGEO,Monitor. vybr. prvk≈Ø atmosf.a hydrosf. I,"",,"Farsk√Ω Ivan, RNDr. CSc."
-KGEO,B311,828,Cv,2024,4.10.2024,3.1.2025,14:00,14:50,B311KGEO,KGEO,Region√°ln√≠ geografie II,"'doc. RNDr. Ji≈ô√≠ Andƒõl, CSc.'",312,"Mart√≠nek Ji≈ô√≠, RNDr. Ph.D."
-KGEO,B311,828,Cv,2024,4.10.2024,3.1.2025,13:00,13:50,B311KGEO,KGEO,Region√°ln√≠ geografie II,"'doc. RNDr. Ji≈ô√≠ Andƒõl, CSc.'",312,"Mart√≠nek Ji≈ô√≠, RNDr. Ph.D."
-KGEO,B311,828,Cv,2024,4.10.2024,3.1.2025,15:00,15:50,B311KGEO,KGEO,Region√°ln√≠ geografie II,"'doc. RNDr. Ji≈ô√≠ Andƒõl, CSc.'",312,"Mart√≠nek Ji≈ô√≠, RNDr. Ph.D."
-KGEO,B415,3528,Cv,2024,20.2.2025,15.5.2025,11:00,11:50,B415KGEO,KGEO,Prostorov√© pl√°nov√°n√≠ a reg. politika,"'Mgr. Vladan Hru≈°ka, Ph.D.'",4222,"Kuƒçerov√° Silvie Rita, RNDr. Ph.D."
-KGEO,B415,3528,Cv,2024,20.2.2025,15.5.2025,17:00,17:50,B415KGEO,KGEO,Prostorov√© pl√°nov√°n√≠ a reg. politika,"'Mgr. Vladan Hru≈°ka, Ph.D.'",4222,"Kuƒçerov√° Silvie Rita, RNDr. Ph.D."
-KGEO,B501,9794,Cv,2024,2.10.2024,18.12.2024,15:00,16:50,B501KGEO,KGEO,Geografie modelov√©ho regionu,"'Mgr. Zde≈àka Smutn√°, Ph.D.'",7684,"Luke≈°ov√° ≈†√°rka, Mgr."
-KGEO,B509,4398,Cv,2024,7.10.2024,16.12.2024,12:00,13:50,B509KGEO,KGEO,P≈ô√≠rodn√≠ pam√°tky UNESCO,"",,"V√°gner Ji≈ô√≠, RNDr. Ph.D."
-KGEO,B511,9245,Cv,2024,3.10.2024,2.1.2025,16:00,17:50,B511KGEO,KGEO,Metody ve fyzick√© geografii,"'doc. Mgr. Pavel Ra≈°ka, Ph.D.'",1434,"Du≈æekov√° Radka, Mgr."
-KGEO,B511,9521,Cv,2024,3.10.2024,2.1.2025,16:00,17:50,B511KGEO,KGEO,Metody ve fyzick√© geografii,"'doc. Mgr. Pavel Ra≈°ka, Ph.D.'",1434,"Vaverka Luk√°≈°, Mgr."
-KGEO,BK100,3164,Cv,2024,5.10.2024,5.10.2024,10:00,13:50,BK100KGEO,KGEO,Z√°klady geologie,"",,"Riezner Ji≈ô√≠, Mgr. Ph.D."
-KCH,BK100,3705,Cv,2024,21.12.2024,21.12.2024,14:00,17:50,BK100KCH,KCH,√övod do chemie,"'doc. RNDr. Jan Jirs√°k, Ph.D.'",2855,"Petrusov√° Zuzana, Ing. Ph.D."
-KCH,BK100,3705,Cv,2024,9.11.2024,9.11.2024,08:00,11:50,BK100KCH,KCH,√övod do chemie,"'doc. RNDr. Jan Jirs√°k, Ph.D.'",2855,"Petrusov√° Zuzana, Ing. Ph.D."
-KBI,BK120,9116,Cv,2024,19.10.2024,19.10.2024,09:00,16:50,BK120KBI,KBI,Biologick√© laboratorn√≠ metody I,"'Mgr. Luk√°≈° Bystriansk√Ω, Ph.D.', 'RNDr. Lenka Nƒõmcov√°, CSc.'","5969, 283","≈†tƒõpka Jan, Mgr. DiS."
-KFY,BK201,613,Cv,2024,14.12.2024,14.12.2024,09:00,12:50,BK201KFY,KFY,Fyzika pro chemiky II,"",,"≈†vec Martin, RNDr. Ph.D."
-KCH,BK304,9431,Cv,2024,7.12.2024,7.12.2024,13:00,16:50,BK304KCH,KCH,Chemick√© in≈æen√Ωrstv√≠,"'doc. Ing. Jarom√≠r Havlica, Ph.D.'",1803,"Harrandt V√°clav, Mgr."
-KCH,BK304,9431,Cv,2024,4.1.2025,4.1.2025,16:00,19:50,BK304KCH,KCH,Chemick√© in≈æen√Ωrstv√≠,"'doc. Ing. Jarom√≠r Havlica, Ph.D.'",1803,"Harrandt V√°clav, Mgr."
-KCH,BK304,9431,Cv,2024,30.11.2024,30.11.2024,13:00,16:50,BK304KCH,KCH,Chemick√© in≈æen√Ωrstv√≠,"'doc. Ing. Jarom√≠r Havlica, Ph.D.'",1803,"Harrandt V√°clav, Mgr."
-KCH,BK306,9302,Cv,2024,3.1.2025,3.1.2025,12:00,15:50,BK306KCH,KCH,Heterocyklick√© a organokovov√© slouƒçeniny,"'RNDr. Thu Huong Nguyen Thi, Ph.D.'",429,"Du≈°kov√° Tereza, Mgr."
-KBI,BK333,8512,Cv,2024,4.1.2025,4.1.2025,09:00,16:50,BK333KBI,KBI,Biologie prokaryot a vir≈Ø,"'RNDr. Jan Ipser, CSc.'",930,"≈†ebestov√° Janou≈°kov√° Olga, Mgr. Ph.D."
-KBI,BP120,9116,Cv,2024,2.10.2024,11.12.2024,08:00,11:50,BP120KBI,KBI,Biologick√© laboratorn√≠ metody I,"'Mgr. Luk√°≈° Bystriansk√Ω, Ph.D.', 'RNDr. Lenka Nƒõmcov√°, CSc.'","5969, 283","≈†tƒõpka Jan, Mgr. DiS."
-KBI,BP120,9116,Cv,2024,14.10.2024,9.12.2024,08:00,11:50,BP120KBI,KBI,Biologick√© laboratorn√≠ metody I,"'Mgr. Luk√°≈° Bystriansk√Ω, Ph.D.', 'RNDr. Lenka Nƒõmcov√°, CSc.'","5969, 283","≈†tƒõpka Jan, Mgr. DiS."
-KBI,BP333,8512,Cv,2024,2.10.2024,11.12.2024,12:00,15:50,BP333KBI,KBI,Biologie prokaryot a vir≈Ø,"'RNDr. Jan Ipser, CSc.'",930,"≈†ebestov√° Janou≈°kov√° Olga, Mgr. Ph.D."
-KBI,BP333,8512,Cv,2024,9.10.2024,18.12.2024,12:00,15:50,BP333KBI,KBI,Biologie prokaryot a vir≈Ø,"'RNDr. Jan Ipser, CSc.'",930,"≈†ebestov√° Janou≈°kov√° Olga, Mgr. Ph.D."
-KBI,BP333,8512,Cv,2024,7.10.2024,16.12.2024,16:00,19:50,BP333KBI,KBI,Biologie prokaryot a vir≈Ø,"'RNDr. Jan Ipser, CSc.'",930,"≈†ebestov√° Janou≈°kov√° Olga, Mgr. Ph.D."
-KFY,FORT,3222,Cv,2024,1.10.2024,17.12.2024,07:00,09:50,FORTKFY,KFY,Programov√°n√≠ - Fortran,"'Mgr. Martin Svoboda, Ph.D.'",5958,"Mouƒçka Filip, doc. RNDr. Ph.D."
-KBI,IT2,1503,Cv,2024,2.10.2024,18.12.2024,08:00,09:50,IT2KBI,KBI,Informaƒçn√≠ technologie v bio. vƒõd√°ch II,"",,"≈†tofik Marcel, Mgr. Ph.D."
-KBI,K101,8317,Cv,2024,12.10.2024,12.10.2024,13:00,18:50,K101KBI,KBI,√övod do studia biologie,"'RNDr. Jan Ipser, CSc.'",930,"Herma Regina, RNDr. Ph.D."
-KBI,KB120,9116,Cv,2024,19.10.2024,19.10.2024,09:00,16:50,KB120KBI,KBI,Biologick√© laboratorn√≠ metody I,"'Mgr. Luk√°≈° Bystriansk√Ω, Ph.D.', 'RNDr. Lenka Nƒõmcov√°, CSc.'","5969, 283","≈†tƒõpka Jan, Mgr. DiS."
-KBI,KB333,8512,Cv,2024,4.1.2025,4.1.2025,09:00,16:50,KB333KBI,KBI,Biologie prokaryot a vir≈Ø,"'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.'","5094, 930","≈†ebestov√° Janou≈°kov√° Olga, Mgr. Ph.D."
-KFY,KFORT,3222,Cv,2024,30.11.2024,30.11.2024,09:00,12:50,KFORTKFY,KFY,Programov√°n√≠ - Fortran,"'Mgr. Martin Svoboda, Ph.D.'",5958,"Mouƒçka Filip, doc. RNDr. Ph.D."
-KFY,KFORT,3222,Cv,2024,9.11.2024,9.11.2024,14:00,17:50,KFORTKFY,KFY,Programov√°n√≠ - Fortran,"'Mgr. Martin Svoboda, Ph.D.'",5958,"Mouƒçka Filip, doc. RNDr. Ph.D."
-KFY,KFORT,3222,Cv,2024,23.11.2024,23.11.2024,09:00,12:50,KFORTKFY,KFY,Programov√°n√≠ - Fortran,"'Mgr. Martin Svoboda, Ph.D.'",5958,"Mouƒçka Filip, doc. RNDr. Ph.D."
-KBI,KIT2,1503,Cv,2024,16.11.2024,16.11.2024,14:00,19:50,KIT2KBI,KBI,Informaƒçn√≠ technologie v bio. vƒõd√°ch II,"",,"≈†tofik Marcel, Mgr. Ph.D."
-KBI,KIT2,1503,Cv,2024,12.10.2024,12.10.2024,13:00,18:50,KIT2KBI,KBI,Informaƒçn√≠ technologie v bio. vƒõd√°ch II,"",,"≈†tofik Marcel, Mgr. Ph.D."
-KFY,KPPM1,7283,Cv,2024,1.11.2024,1.11.2024,09:00,12:50,KPPM1KFY,KFY,Praktikum poƒç√≠taƒçov√©ho modelov√°n√≠ I,"'doc. RNDr. Marek Mal√Ω, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.'","304, 5958",
-KFY,KPPM1,7283,Cv,2024,13.12.2024,13.12.2024,09:00,12:50,KPPM1KFY,KFY,Praktikum poƒç√≠taƒçov√©ho modelov√°n√≠ I,"'doc. RNDr. Marek Mal√Ω, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.'","304, 5958",
-KFY,KPPM1,7283,Cv,2024,3.1.2025,3.1.2025,09:00,12:50,KPPM1KFY,KFY,Praktikum poƒç√≠taƒçov√©ho modelov√°n√≠ I,"'doc. RNDr. Marek Mal√Ω, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.'","304, 5958",
-KFY,KPPM1,7283,Cv,2024,29.11.2024,29.11.2024,09:00,12:50,KPPM1KFY,KFY,Praktikum poƒç√≠taƒçov√©ho modelov√°n√≠ I,"'doc. RNDr. Marek Mal√Ω, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.'","304, 5958",
-KFY,LB2,8739,Cv,2024,2.10.2024,18.12.2024,10:00,13:50,LB2KFY,KFY,Laboratorn√≠ praktikum II,"'prof. Ing. Zde≈àka Kolsk√°, Ph.D.', 'doc. Ing. Martin Kormunda, Ph.D.', 'Mgr. Jan Mal√Ω, Ph.D.', 'Mgr. Jind≈ôich Matou≈°ek, Ph.D.', 'Mgr. Marcel ≈†tofik, Ph.D.'","332, 2384, 280, 4680, 1503","Jagerov√° Ad√©la, RNDr. Ph.D."
-KCH,LBA,9301,Cv,2024,7.10.2024,16.12.2024,08:00,11:50,LBAKCH,KCH,Laboratorn√≠ cviƒçen√≠ z anorganick√© chemie,"'Mgr. Pavel Kaule', 'RNDr. V√°clav ≈†√≠cha, Ph.D.'","7981, 4310","Gregu≈° Viktor, Ing."
-KFY,M100,7723,Cv,2024,2.10.2024,18.12.2024,13:00,15:50,M100KFY,KFY,Poƒç√≠taƒç. modelov√°n√≠ spojit√Ωch soustav I,"'doc. Ing. Jarom√≠r Havlica, Ph.D.'",1803,"Kramoli≈° David, RNDr. Ph.D."
-KBI,M101,3661,Cv,2024,3.10.2024,2.1.2025,09:00,09:50,M101KBI,KBI,Biologie p≈Ødn√≠ch mikroorganism≈Ø,"'RNDr. Pavel Branny, CSc.'",8154,"Gryndler Milan, prof. doc. RNDr. CSc."
-KCH,M102,8198,Cv,2024,2.10.2024,18.12.2024,15:00,15:50,M102KCH,KCH,Environmental Biotechnology,"'Mgr. Jakub Ederer, Ph.D.', 'doc. Ing. Josef Tr√∂gl, Ph.D.'","5449, 2065","Al Souki Karim, Ph.D."
-KGEO,M103,6919,Cv,2024,7.10.2024,16.12.2024,09:00,09:50,M103KGEO,KGEO,Aktu√°ln√≠ probl√©my ƒåeska,"'RNDr. Silvie Rita Kuƒçerov√°, Ph.D.', 'Mgr. Ji≈ô√≠ Riezner, Ph.D.'","3528, 3164","P√≠≈°a Jan, Mgr. Ph.D."
-KCH,M105,7981,Cv,2024,4.10.2024,3.1.2025,09:00,12:50,M105KCH,KCH,"Synt√©zy, izolace a charakter. materi√°l≈Ø","'doc. Ing. Ji≈ô√≠ Henych, Ph.D.', 'RNDr. Petr Ry≈°√°nek, Ph.D.', 'RNDr. V√°clav ≈†√≠cha, Ph.D.', 'RNDr. Milan ≈†m√≠dl, Ph.D.'","5431, 4587, 4310, 3704","Kaule Pavel, Mgr."
-KCH,M105,9301,Cv,2024,4.10.2024,3.1.2025,09:00,12:50,M105KCH,KCH,"Synt√©zy, izolace a charakter. materi√°l≈Ø","'doc. Ing. Ji≈ô√≠ Henych, Ph.D.', 'RNDr. Petr Ry≈°√°nek, Ph.D.', 'RNDr. V√°clav ≈†√≠cha, Ph.D.', 'RNDr. Milan ≈†m√≠dl, Ph.D.'","5431, 4587, 4310, 3704","Gregu≈° Viktor, Ing."
-KGEO,M105,6384,Cv,2024,2.10.2024,18.12.2024,15:00,15:50,M105KGEO,KGEO,Didaktika geografie I,"'RNDr. Silvie Rita Kuƒçerov√°, Ph.D.', 'Mgr. Zuzana Pavlasov√°'","3528, 2232","Trahorsch Petr, Mgr. Ph.D."
-KGEO,M109,2214,Cv,2024,7.10.2024,16.12.2024,10:00,11:50,M109KGEO,KGEO,Metody a aplikace historick√© geografie,"'doc. Mgr. Pavel Ra≈°ka, Ph.D.'",1434,"Z√°bransk√Ω Vil√©m, Mgr. Ph.D."
-KGEO,M110,9460,Cv,2024,2.10.2024,18.12.2024,11:00,12:50,M110KGEO,KGEO,Kulturn√≠ krajiny ƒåeska,"'Mgr. Ji≈ô√≠ Riezner, Ph.D.'",3164,"Kupkov√° Veronika, Mgr."
-KGEO,M300,9521,Cv,2024,2.10.2024,18.12.2024,10:00,11:50,M300KGEO,KGEO,Urb√°nn√≠ environmentalistika,"'doc. Mgr. Pavel Ra≈°ka, Ph.D.', 'Mgr. Ji≈ô√≠ Riezner, Ph.D.'","1434, 3164","Vaverka Luk√°≈°, Mgr."
-KBI,M303,8198,Cv,2024,2.10.2024,18.12.2024,15:00,15:50,M303KBI,KBI,Environmental Biotechnology,"'prof. Valentyna Pidlisniuk, DrSc.'",5927,"Al Souki Karim, Ph.D."
-KGEO,M313,7684,Cv,2024,2.10.2024,18.12.2024,12:00,12:50,M313KGEO,KGEO,Geografick√° regionalizace,"'RNDr. Tom√°≈° Matƒõjƒçek, Ph.D.'",1472,"Smutn√° Zde≈àka, Mgr. Ph.D."
-KGEO,M313,9521,Cv,2024,2.10.2024,18.12.2024,12:00,12:50,M313KGEO,KGEO,Geografick√° regionalizace,"'RNDr. Tom√°≈° Matƒõjƒçek, Ph.D.'",1472,"Vaverka Luk√°≈°, Mgr."
-KGEO,M314,6384,Cv,2024,3.10.2024,2.1.2025,08:00,08:50,M314KGEO,KGEO,Aktu√°ln√≠ probl√©my Evropy,"'doc. RNDr. Ji≈ô√≠ Andƒõl, CSc.'",312,"Trahorsch Petr, Mgr. Ph.D."
-KGEO,M318,6384,Cv,2024,1.10.2024,17.12.2024,10:00,11:50,M318KGEO,KGEO,P≈ôedn√°≈°ky uƒçitel≈Ø z praxe,"",,"Trahorsch Petr, Mgr. Ph.D."
-KBI,MA201,8761,Cv,2024,19.2.2025,14.5.2025,17:00,18:50,MA201KBI,KBI,Metody studia ekosyst√©m≈Ø,"'Mgr. Diana Holcov√°, Ph.D.', 'Mgr. Michal Holec, Ph.D.'","3212, 555","Horƒçiƒçkov√° Eva, Mgr. Ph.D."
-CNB,NA03,4587,Cv,2024,7.10.2024,16.12.2024,14:00,15:50,NA03CNB,CNB,Praktika z difr. metod v mater. v√Ωzkumu,"'prof. RNDr. Pavla ƒåapkov√°, DrSc.'",3553,"Ry≈°√°nek Petr, RNDr. Ph.D."
-KCH,OCHE,3705,Cv,2024,2.10.2024,18.12.2024,10:00,11:50,OCHEKCH,KCH,Obecn√° chemie,"'doc. RNDr. Jan Jirs√°k, Ph.D.'",2855,"Petrusov√° Zuzana, Ing. Ph.D."
-KFY,OPT,7283,Cv,2024,3.10.2024,2.1.2025,13:00,14:50,OPTKFY,KFY,Kmity a vlny. Optika.,"'RNDr. Eva Hejnov√°, Ph.D.'",301,
-KCH,P391,3705,Cv,2024,2.10.2024,18.12.2024,10:00,11:50,P391KCH,KCH,√övod do chemie,"'doc. RNDr. Jan Jirs√°k, Ph.D.'",2855,"Petrusov√° Zuzana, Ing. Ph.D."
-KCH,P514,2856,Cv,2024,3.10.2024,2.1.2025,10:00,11:50,P514KCH,KCH,PVK - Souborn√Ω semin√°≈ô I,"'doc. RNDr. Jan Jirs√°k, Ph.D.', 'RNDr. Thu Huong Nguyen Thi, Ph.D.', 'RNDr. V√°clav ≈†√≠cha, Ph.D.', 'RNDr. ƒΩubo≈° Vrtoch, Ph.D.'","2855, 429, 4310, 4117","≈†kvorov√° Magda, Ing. Ph.D."
-KBI,PB120,9116,Cv,2024,7.10.2024,16.12.2024,08:00,11:50,PB120KBI,KBI,Biologick√© laboratorn√≠ metody I,"'Mgr. Luk√°≈° Bystriansk√Ω, Ph.D.', 'RNDr. Lenka Nƒõmcov√°, CSc.'","5969, 283","≈†tƒõpka Jan, Mgr. DiS."
-KBI,PB120,9116,Cv,2024,14.10.2024,9.12.2024,08:00,11:50,PB120KBI,KBI,Biologick√© laboratorn√≠ metody I,"'Mgr. Luk√°≈° Bystriansk√Ω, Ph.D.', 'RNDr. Lenka Nƒõmcov√°, CSc.'","5969, 283","≈†tƒõpka Jan, Mgr. DiS."
-KBI,PB333,8512,Cv,2024,2.10.2024,11.12.2024,16:00,19:50,PB333KBI,KBI,Biologie prokaryot a vir≈Ø,"'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.'","5094, 930","≈†ebestov√° Janou≈°kov√° Olga, Mgr. Ph.D."
-KBI,PB333,8512,Cv,2024,9.10.2024,18.12.2024,16:00,19:50,PB333KBI,KBI,Biologie prokaryot a vir≈Ø,"'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.'","5094, 930","≈†ebestov√° Janou≈°kov√° Olga, Mgr. Ph.D."
-KFY,PPM1,7283,Cv,2024,1.10.2024,17.12.2024,12:00,15:50,PPM1KFY,KFY,Praktikum poƒç√≠taƒçov√©ho modelov√°n√≠ I,"'doc. RNDr. Marek Mal√Ω, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.'","304, 5958",
-KI,TZI1,9300,Cv,2024,2.10.2024,18.12.2024,14:00,14:50,TZI1KI,KI,Teoretick√© z√°klady informatiky I,"'PhDr. Ji≈ô√≠ P≈ôibyl, Ph.D.'",267,"Tich√° Michaela, RNDr. Ing. Ph.D."
-KI,TZI1,9300,Cv,2024,2.10.2024,18.12.2024,15:00,15:50,TZI1KI,KI,Teoretick√© z√°klady informatiky I,"'PhDr. Ji≈ô√≠ P≈ôibyl, Ph.D.'",267,"Tich√° Michaela, RNDr. Ing. Ph.D."
-KI,TZI1,9300,Cv,2024,2.10.2024,18.12.2024,16:00,16:50,TZI1KI,KI,Teoretick√© z√°klady informatiky I,"'PhDr. Ji≈ô√≠ P≈ôibyl, Ph.D.'",267,"Tich√° Michaela, RNDr. Ing. Ph.D."
-CNB,UNM,3553,Cv,2024,7.10.2024,16.12.2024,14:00,14:50,UNMCNB,CNB,√övod do nanotechnologi√≠ a nanomateri√°l≈Ø,"'doc. RNDr. Stanislav Dani≈°, Ph.D.', 'prof. Ing. Zde≈àka Kolsk√°, Ph.D.'","9281, 332","ƒåapkov√° Pavla, prof. RNDr. DrSc."
+katedra;zkratka;idno;typAkceZkr;rok;datumOd;datumDo;hodinaSkutOd;hodinaSkutDo;identifier;katedra_right;nazev;cvicici;cviciciUcitIdno;jmena
+KCH;B100;3705;Cv;2024;2.10.2024;18.12.2024;08:00;09:50;B100KCH;KCH;⁄vod do chemie;'doc. RNDr. Jan Jirs·k, Ph.D.';2855;Petrusov· Zuzana, Ing. Ph.D.
+KCH;B100;3705;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;B100KCH;KCH;⁄vod do chemie;'doc. RNDr. Jan Jirs·k, Ph.D.';2855;Petrusov· Zuzana, Ing. Ph.D.
+KCH;B103;1319;Cv;2024;28.11.2024;28.11.2024;15:00;17:50;B103KCH;KCH;BezpeËnost a hygiena pr·ce;'MUDr. Eva Solcerov·';1800;Stup·k Rudolf, MUDr.
+KCH;B103;1319;Cv;2024;14.11.2024;14.11.2024;15:00;17:50;B103KCH;KCH;BezpeËnost a hygiena pr·ce;'MUDr. Eva Solcerov·';1800;Stup·k Rudolf, MUDr.
+KGEO;B104;8819;Cv;2024;3.10.2024;2.1.2025;15:00;16:50;B104KGEO;KGEO;Geografick· kartografie;'doc. PhDr. RNDr. Jan Daniel Bl·ha, Ph.D.', 'Mgr. Petr Meyer, Ph.D.';3452, 5855;Bart˘nÏk Martin, Mgr.
+KGEO;B104;8819;Cv;2024;2.10.2024;18.12.2024;15:00;16:50;B104KGEO;KGEO;Geografick· kartografie;'doc. PhDr. RNDr. Jan Daniel Bl·ha, Ph.D.', 'Mgr. Petr Meyer, Ph.D.';3452, 5855;Bart˘nÏk Martin, Mgr.
+KCH;B200;9645;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;B200KCH;KCH;Organick· chemie;'Mgr. Tereza Duökov·';9302;Babor Martin, Ing. Ph.D.
+KCH;B200;9645;Cv;2024;1.10.2024;17.12.2024;12:00;12:50;B200KCH;KCH;Organick· chemie;'Mgr. Tereza Duökov·';9302;Babor Martin, Ing. Ph.D.
+KCH;B202;7981;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;B202KCH;KCH;LaboratornÌ cviËenÌ z anorganickÈ chemie;'Ing. Ivana KadleËkov·', 'RNDr. V·clav äÌcha, Ph.D.';4226, 4310;Kaule Pavel, Mgr.
+KCH;B202;9301;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;B202KCH;KCH;LaboratornÌ cviËenÌ z anorganickÈ chemie;'Ing. Ivana KadleËkov·', 'RNDr. V·clav äÌcha, Ph.D.';4226, 4310;Greguö Viktor, Ing.
+KGEO;B301;8647;Cv;2024;1.10.2024;17.12.2024;17:00;17:50;B301KGEO;KGEO;Geografie »eska II;'Mgr. Vladan Hruöka, Ph.D.';4222;ämÌd Ond¯ej, Mgr.
+KGEO;B301;9265;Cv;2024;3.10.2024;2.1.2025;13:00;13:50;B301KGEO;KGEO;Geografie »eska II;'Mgr. Vladan Hruöka, Ph.D.';4222;Kr·l Tom·ö, Mgr.
+KGEO;B301;8647;Cv;2024;1.10.2024;17.12.2024;14:00;14:50;B301KGEO;KGEO;Geografie »eska II;'Mgr. Vladan Hruöka, Ph.D.';4222;ämÌd Ond¯ej, Mgr.
+KGEO;B304;9265;Cv;2024;3.10.2024;2.1.2025;12:00;12:50;B304KGEO;KGEO;RozvojovÈ problÈmy region˘ »eska;"";;Kr·l Tom·ö, Mgr.
+KCH;B304;9431;Cv;2024;1.10.2024;17.12.2024;07:00;09:50;B304KCH;KCH;ChemickÈ inûen˝rstvÌ;'doc. Ing. JaromÌr Havlica, Ph.D.';1803;Harrandt V·clav, Mgr.
+KGEO;B304;6919;Cv;2024;3.10.2024;2.1.2025;15:00;15:50;B304KGEO;KGEO;RozvojovÈ problÈmy region˘ »eska;"";;PÌöa Jan, Mgr. Ph.D.
+KGEO;B304;6919;Cv;2024;7.10.2024;16.12.2024;14:00;14:50;B304KGEO;KGEO;RozvojovÈ problÈmy region˘ »eska;"";;PÌöa Jan, Mgr. Ph.D.
+KGEO;B308;315;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;B308KGEO;KGEO;Monitor. vybr. prvk˘ atmosf.a hydrosf. I;"";;Farsk˝ Ivan, RNDr. CSc.
+KGEO;B311;828;Cv;2024;4.10.2024;3.1.2025;14:00;14:50;B311KGEO;KGEO;Region·lnÌ geografie II;'doc. RNDr. Ji¯Ì AndÏl, CSc.';312;MartÌnek Ji¯Ì, RNDr. Ph.D.
+KGEO;B311;828;Cv;2024;4.10.2024;3.1.2025;15:00;15:50;B311KGEO;KGEO;Region·lnÌ geografie II;'doc. RNDr. Ji¯Ì AndÏl, CSc.';312;MartÌnek Ji¯Ì, RNDr. Ph.D.
+KGEO;B311;828;Cv;2024;4.10.2024;3.1.2025;13:00;13:50;B311KGEO;KGEO;Region·lnÌ geografie II;'doc. RNDr. Ji¯Ì AndÏl, CSc.';312;MartÌnek Ji¯Ì, RNDr. Ph.D.
+KGEO;B415;3528;Cv;2024;20.2.2025;15.5.2025;17:00;17:50;B415KGEO;KGEO;ProstorovÈ pl·nov·nÌ a reg. politika;'Mgr. Vladan Hruöka, Ph.D.';4222;KuËerov· Silvie Rita, RNDr. Ph.D.
+KGEO;B415;3528;Cv;2024;20.2.2025;15.5.2025;11:00;11:50;B415KGEO;KGEO;ProstorovÈ pl·nov·nÌ a reg. politika;'Mgr. Vladan Hruöka, Ph.D.';4222;KuËerov· Silvie Rita, RNDr. Ph.D.
+KGEO;B501;9794;Cv;2024;2.10.2024;18.12.2024;15:00;16:50;B501KGEO;KGEO;Geografie modelovÈho regionu;'Mgr. ZdeÚka Smutn·, Ph.D.';7684;Lukeöov· ä·rka, Mgr.
+KGEO;B509;4398;Cv;2024;7.10.2024;16.12.2024;12:00;13:50;B509KGEO;KGEO;P¯ÌrodnÌ pam·tky UNESCO;"";;V·gner Ji¯Ì, RNDr. Ph.D.
+KGEO;B511;9521;Cv;2024;3.10.2024;2.1.2025;16:00;17:50;B511KGEO;KGEO;Metody ve fyzickÈ geografii;'doc. Mgr. Pavel Raöka, Ph.D.';1434;Vaverka Luk·ö, Mgr.
+KGEO;B511;9245;Cv;2024;3.10.2024;2.1.2025;16:00;17:50;B511KGEO;KGEO;Metody ve fyzickÈ geografii;'doc. Mgr. Pavel Raöka, Ph.D.';1434;Duûekov· Radka, Mgr.
+KCH;BK100;3705;Cv;2024;21.12.2024;21.12.2024;14:00;17:50;BK100KCH;KCH;⁄vod do chemie;'doc. RNDr. Jan Jirs·k, Ph.D.';2855;Petrusov· Zuzana, Ing. Ph.D.
+KGEO;BK100;3164;Cv;2024;5.10.2024;5.10.2024;10:00;13:50;BK100KGEO;KGEO;Z·klady geologie;"";;Riezner Ji¯Ì, Mgr. Ph.D.
+KCH;BK100;3705;Cv;2024;9.11.2024;9.11.2024;08:00;11:50;BK100KCH;KCH;⁄vod do chemie;'doc. RNDr. Jan Jirs·k, Ph.D.';2855;Petrusov· Zuzana, Ing. Ph.D.
+KBI;BK120;9116;Cv;2024;19.10.2024;19.10.2024;09:00;16:50;BK120KBI;KBI;BiologickÈ laboratornÌ metody I;'Mgr. Luk·ö Bystriansk˝, Ph.D.', 'RNDr. Lenka NÏmcov·, CSc.';5969, 283;ätÏpka Jan, Mgr. DiS.
+KFY;BK201;613;Cv;2024;14.12.2024;14.12.2024;09:00;12:50;BK201KFY;KFY;Fyzika pro chemiky II;"";;ävec Martin, RNDr. Ph.D.
+KCH;BK304;9431;Cv;2024;30.11.2024;30.11.2024;13:00;16:50;BK304KCH;KCH;ChemickÈ inûen˝rstvÌ;'doc. Ing. JaromÌr Havlica, Ph.D.';1803;Harrandt V·clav, Mgr.
+KCH;BK304;9431;Cv;2024;7.12.2024;7.12.2024;13:00;16:50;BK304KCH;KCH;ChemickÈ inûen˝rstvÌ;'doc. Ing. JaromÌr Havlica, Ph.D.';1803;Harrandt V·clav, Mgr.
+KCH;BK304;9431;Cv;2024;4.1.2025;4.1.2025;16:00;19:50;BK304KCH;KCH;ChemickÈ inûen˝rstvÌ;'doc. Ing. JaromÌr Havlica, Ph.D.';1803;Harrandt V·clav, Mgr.
+KCH;BK306;9302;Cv;2024;3.1.2025;3.1.2025;12:00;15:50;BK306KCH;KCH;HeterocyklickÈ a organokovovÈ slouËeniny;'RNDr. Thu Huong Nguyen Thi, Ph.D.';429;Duökov· Tereza, Mgr.
+KBI;BK333;8512;Cv;2024;4.1.2025;4.1.2025;09:00;16:50;BK333KBI;KBI;Biologie prokaryot a vir˘;'RNDr. Jan Ipser, CSc.';930;äebestov· Janouökov· Olga, Mgr. Ph.D.
+KBI;BP120;9116;Cv;2024;14.10.2024;9.12.2024;08:00;11:50;BP120KBI;KBI;BiologickÈ laboratornÌ metody I;'Mgr. Luk·ö Bystriansk˝, Ph.D.', 'RNDr. Lenka NÏmcov·, CSc.';5969, 283;ätÏpka Jan, Mgr. DiS.
+KBI;BP120;9116;Cv;2024;2.10.2024;11.12.2024;08:00;11:50;BP120KBI;KBI;BiologickÈ laboratornÌ metody I;'Mgr. Luk·ö Bystriansk˝, Ph.D.', 'RNDr. Lenka NÏmcov·, CSc.';5969, 283;ätÏpka Jan, Mgr. DiS.
+KBI;BP333;8512;Cv;2024;9.10.2024;18.12.2024;12:00;15:50;BP333KBI;KBI;Biologie prokaryot a vir˘;'RNDr. Jan Ipser, CSc.';930;äebestov· Janouökov· Olga, Mgr. Ph.D.
+KBI;BP333;8512;Cv;2024;7.10.2024;16.12.2024;16:00;19:50;BP333KBI;KBI;Biologie prokaryot a vir˘;'RNDr. Jan Ipser, CSc.';930;äebestov· Janouökov· Olga, Mgr. Ph.D.
+KBI;BP333;8512;Cv;2024;2.10.2024;11.12.2024;12:00;15:50;BP333KBI;KBI;Biologie prokaryot a vir˘;'RNDr. Jan Ipser, CSc.';930;äebestov· Janouökov· Olga, Mgr. Ph.D.
+KFY;FORT;3222;Cv;2024;1.10.2024;17.12.2024;07:00;09:50;FORTKFY;KFY;Programov·nÌ - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;MouËka Filip, doc. RNDr. Ph.D.
+KBI;IT2;1503;Cv;2024;2.10.2024;18.12.2024;08:00;09:50;IT2KBI;KBI;InformaËnÌ technologie v bio. vÏd·ch II;"";;ätofik Marcel, Mgr. Ph.D.
+KBI;K101;8317;Cv;2024;12.10.2024;12.10.2024;13:00;18:50;K101KBI;KBI;⁄vod do studia biologie;'RNDr. Jan Ipser, CSc.';930;Herma Regina, RNDr. Ph.D.
+KBI;KB120;9116;Cv;2024;19.10.2024;19.10.2024;09:00;16:50;KB120KBI;KBI;BiologickÈ laboratornÌ metody I;'Mgr. Luk·ö Bystriansk˝, Ph.D.', 'RNDr. Lenka NÏmcov·, CSc.';5969, 283;ätÏpka Jan, Mgr. DiS.
+KBI;KB333;8512;Cv;2024;4.1.2025;4.1.2025;09:00;16:50;KB333KBI;KBI;Biologie prokaryot a vir˘;'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.';5094, 930;äebestov· Janouökov· Olga, Mgr. Ph.D.
+KFY;KFORT;3222;Cv;2024;9.11.2024;9.11.2024;14:00;17:50;KFORTKFY;KFY;Programov·nÌ - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;MouËka Filip, doc. RNDr. Ph.D.
+KFY;KFORT;3222;Cv;2024;23.11.2024;23.11.2024;09:00;12:50;KFORTKFY;KFY;Programov·nÌ - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;MouËka Filip, doc. RNDr. Ph.D.
+KFY;KFORT;3222;Cv;2024;30.11.2024;30.11.2024;09:00;12:50;KFORTKFY;KFY;Programov·nÌ - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;MouËka Filip, doc. RNDr. Ph.D.
+KBI;KIT2;1503;Cv;2024;12.10.2024;12.10.2024;13:00;18:50;KIT2KBI;KBI;InformaËnÌ technologie v bio. vÏd·ch II;"";;ätofik Marcel, Mgr. Ph.D.
+KBI;KIT2;1503;Cv;2024;16.11.2024;16.11.2024;14:00;19:50;KIT2KBI;KBI;InformaËnÌ technologie v bio. vÏd·ch II;"";;ätofik Marcel, Mgr. Ph.D.
+KFY;KPPM1;7283;Cv;2024;3.1.2025;3.1.2025;09:00;12:50;KPPM1KFY;KFY;Praktikum poËÌtaËovÈho modelov·nÌ I;'doc. RNDr. Marek Mal˝, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;KPPM1;7283;Cv;2024;29.11.2024;29.11.2024;09:00;12:50;KPPM1KFY;KFY;Praktikum poËÌtaËovÈho modelov·nÌ I;'doc. RNDr. Marek Mal˝, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;KPPM1;7283;Cv;2024;1.11.2024;1.11.2024;09:00;12:50;KPPM1KFY;KFY;Praktikum poËÌtaËovÈho modelov·nÌ I;'doc. RNDr. Marek Mal˝, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;KPPM1;7283;Cv;2024;13.12.2024;13.12.2024;09:00;12:50;KPPM1KFY;KFY;Praktikum poËÌtaËovÈho modelov·nÌ I;'doc. RNDr. Marek Mal˝, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;LB2;8739;Cv;2024;2.10.2024;18.12.2024;10:00;13:50;LB2KFY;KFY;LaboratornÌ praktikum II;'prof. Ing. ZdeÚka Kolsk·, Ph.D.', 'doc. Ing. Martin Kormunda, Ph.D.', 'Mgr. Jan Mal˝, Ph.D.', 'Mgr. Jind¯ich Matouöek, Ph.D.', 'Mgr. Marcel ätofik, Ph.D.';332, 2384, 280, 4680, 1503;Jagerov· AdÈla, RNDr. Ph.D.
+KCH;LBA;9301;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;LBAKCH;KCH;LaboratornÌ cviËenÌ z anorganickÈ chemie;'Mgr. Pavel Kaule', 'RNDr. V·clav äÌcha, Ph.D.';7981, 4310;Greguö Viktor, Ing.
+KFY;M100;7723;Cv;2024;2.10.2024;18.12.2024;13:00;15:50;M100KFY;KFY;PoËÌtaË. modelov·nÌ spojit˝ch soustav I;'doc. Ing. JaromÌr Havlica, Ph.D.';1803;Kramoliö David, RNDr. Ph.D.
+KBI;M101;3661;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;M101KBI;KBI;Biologie p˘dnÌch mikroorganism˘;'RNDr. Pavel Branny, CSc.';8154;Gryndler Milan, prof. doc. RNDr. CSc.
+KCH;M102;8198;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;M102KCH;KCH;Environmental Biotechnology;'Mgr. Jakub Ederer, Ph.D.', 'doc. Ing. Josef Trˆgl, Ph.D.';5449, 2065;Al Souki Karim, Ph.D.
+KGEO;M103;6919;Cv;2024;7.10.2024;16.12.2024;09:00;09:50;M103KGEO;KGEO;Aktu·lnÌ problÈmy »eska;'RNDr. Silvie Rita KuËerov·, Ph.D.', 'Mgr. Ji¯Ì Riezner, Ph.D.';3528, 3164;PÌöa Jan, Mgr. Ph.D.
+KCH;M105;7981;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;M105KCH;KCH;SyntÈzy, izolace a charakter. materi·l˘;'doc. Ing. Ji¯Ì Henych, Ph.D.', 'RNDr. Petr Ryö·nek, Ph.D.', 'RNDr. V·clav äÌcha, Ph.D.', 'RNDr. Milan ämÌdl, Ph.D.';5431, 4587, 4310, 3704;Kaule Pavel, Mgr.
+KGEO;M105;6384;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;M105KGEO;KGEO;Didaktika geografie I;'RNDr. Silvie Rita KuËerov·, Ph.D.', 'Mgr. Zuzana Pavlasov·';3528, 2232;Trahorsch Petr, Mgr. Ph.D.
+KCH;M105;9301;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;M105KCH;KCH;SyntÈzy, izolace a charakter. materi·l˘;'doc. Ing. Ji¯Ì Henych, Ph.D.', 'RNDr. Petr Ryö·nek, Ph.D.', 'RNDr. V·clav äÌcha, Ph.D.', 'RNDr. Milan ämÌdl, Ph.D.';5431, 4587, 4310, 3704;Greguö Viktor, Ing.
+KGEO;M109;2214;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;M109KGEO;KGEO;Metody a aplikace historickÈ geografie;'doc. Mgr. Pavel Raöka, Ph.D.';1434;Z·bransk˝ VilÈm, Mgr. Ph.D.
+KGEO;M110;9460;Cv;2024;2.10.2024;18.12.2024;11:00;12:50;M110KGEO;KGEO;KulturnÌ krajiny »eska;'Mgr. Ji¯Ì Riezner, Ph.D.';3164;Kupkov· Veronika, Mgr.
+KGEO;M300;9521;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;M300KGEO;KGEO;Urb·nnÌ environmentalistika;'doc. Mgr. Pavel Raöka, Ph.D.', 'Mgr. Ji¯Ì Riezner, Ph.D.';1434, 3164;Vaverka Luk·ö, Mgr.
+KBI;M303;8198;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;M303KBI;KBI;Environmental Biotechnology;'prof. Valentyna Pidlisniuk, DrSc.';5927;Al Souki Karim, Ph.D.
+KGEO;M313;9521;Cv;2024;2.10.2024;18.12.2024;12:00;12:50;M313KGEO;KGEO;Geografick· regionalizace;'RNDr. Tom·ö MatÏjËek, Ph.D.';1472;Vaverka Luk·ö, Mgr.
+KGEO;M313;7684;Cv;2024;2.10.2024;18.12.2024;12:00;12:50;M313KGEO;KGEO;Geografick· regionalizace;'RNDr. Tom·ö MatÏjËek, Ph.D.';1472;Smutn· ZdeÚka, Mgr. Ph.D.
+KGEO;M314;6384;Cv;2024;3.10.2024;2.1.2025;08:00;08:50;M314KGEO;KGEO;Aktu·lnÌ problÈmy Evropy;'doc. RNDr. Ji¯Ì AndÏl, CSc.';312;Trahorsch Petr, Mgr. Ph.D.
+KGEO;M318;6384;Cv;2024;1.10.2024;17.12.2024;10:00;11:50;M318KGEO;KGEO;P¯edn·öky uËitel˘ z praxe;"";;Trahorsch Petr, Mgr. Ph.D.
+KBI;MA201;8761;Cv;2024;19.2.2025;14.5.2025;17:00;18:50;MA201KBI;KBI;Metody studia ekosystÈm˘;'Mgr. Diana Holcov·, Ph.D.', 'Mgr. Michal Holec, Ph.D.';3212, 555;HorËiËkov· Eva, Mgr. Ph.D.
+CNB;NA03;4587;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;NA03CNB;CNB;Praktika z difr. metod v mater. v˝zkumu;'prof. RNDr. Pavla »apkov·, DrSc.';3553;Ryö·nek Petr, RNDr. Ph.D.
+KCH;OCHE;3705;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;OCHEKCH;KCH;Obecn· chemie;'doc. RNDr. Jan Jirs·k, Ph.D.';2855;Petrusov· Zuzana, Ing. Ph.D.
+KFY;OPT;7283;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;OPTKFY;KFY;Kmity a vlny. Optika.;'RNDr. Eva Hejnov·, Ph.D.';301;
+KCH;P391;3705;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;P391KCH;KCH;⁄vod do chemie;'doc. RNDr. Jan Jirs·k, Ph.D.';2855;Petrusov· Zuzana, Ing. Ph.D.
+KCH;P514;2856;Cv;2024;3.10.2024;2.1.2025;10:00;11:50;P514KCH;KCH;PVK - Souborn˝ semin·¯ I;'doc. RNDr. Jan Jirs·k, Ph.D.', 'RNDr. Thu Huong Nguyen Thi, Ph.D.', 'RNDr. V·clav äÌcha, Ph.D.', 'RNDr. ºuboö Vrtoch, Ph.D.';2855, 429, 4310, 4117;äkvorov· Magda, Ing. Ph.D.
+KBI;PB120;9116;Cv;2024;14.10.2024;9.12.2024;08:00;11:50;PB120KBI;KBI;BiologickÈ laboratornÌ metody I;'Mgr. Luk·ö Bystriansk˝, Ph.D.', 'RNDr. Lenka NÏmcov·, CSc.';5969, 283;ätÏpka Jan, Mgr. DiS.
+KBI;PB120;9116;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;PB120KBI;KBI;BiologickÈ laboratornÌ metody I;'Mgr. Luk·ö Bystriansk˝, Ph.D.', 'RNDr. Lenka NÏmcov·, CSc.';5969, 283;ätÏpka Jan, Mgr. DiS.
+KBI;PB333;8512;Cv;2024;9.10.2024;18.12.2024;16:00;19:50;PB333KBI;KBI;Biologie prokaryot a vir˘;'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.';5094, 930;äebestov· Janouökov· Olga, Mgr. Ph.D.
+KBI;PB333;8512;Cv;2024;2.10.2024;11.12.2024;16:00;19:50;PB333KBI;KBI;Biologie prokaryot a vir˘;'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.';5094, 930;äebestov· Janouökov· Olga, Mgr. Ph.D.
+KFY;PPM1;7283;Cv;2024;1.10.2024;17.12.2024;12:00;15:50;PPM1KFY;KFY;Praktikum poËÌtaËovÈho modelov·nÌ I;'doc. RNDr. Marek Mal˝, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KI;TZI1;9300;Cv;2024;2.10.2024;18.12.2024;16:00;16:50;TZI1KI;KI;TeoretickÈ z·klady informatiky I;'PhDr. Ji¯Ì P¯ibyl, Ph.D.';267;Tich· Michaela, RNDr. Ing. Ph.D.
+KI;TZI1;9300;Cv;2024;2.10.2024;18.12.2024;14:00;14:50;TZI1KI;KI;TeoretickÈ z·klady informatiky I;'PhDr. Ji¯Ì P¯ibyl, Ph.D.';267;Tich· Michaela, RNDr. Ing. Ph.D.
+KI;TZI1;9300;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;TZI1KI;KI;TeoretickÈ z·klady informatiky I;'PhDr. Ji¯Ì P¯ibyl, Ph.D.';267;Tich· Michaela, RNDr. Ing. Ph.D.
+CNB;UNM;3553;Cv;2024;7.10.2024;16.12.2024;14:00;14:50;UNMCNB;CNB;⁄vod do nanotechnologiÌ a nanomateri·l˘;'doc. RNDr. Stanislav Daniö, Ph.D.', 'prof. Ing. ZdeÚka Kolsk·, Ph.D.';9281, 332;»apkov· Pavla, prof. RNDr. DrSc.

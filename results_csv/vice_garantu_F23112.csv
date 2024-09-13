@@ -1,11 +1,11 @@
-garantiUcitIdno,garanti,katedra,zkratka,pocet garantu
-"315,3164","'RNDr. Ivan Farsk√Ω, CSc.', 'Mgr. Ji≈ô√≠ Riezner, Ph.D.'",KGEO,0023,2
-"3452,3528","'doc. PhDr. RNDr. Jan Daniel Bl√°ha, Ph.D.', 'RNDr. Silvie Rita Kuƒçerov√°, Ph.D.'",KGEO,B600,2
-"1999,8280","'RNDr. Blanka Desortov√°, CSc.', 'Mgr. Pavla Urb√°nkov√°, Ph.D.'",KBI,BK108,2
-"425,267","'PhDr. Magdalena Kr√°tk√°, Ph.D.', 'PhDr. Ji≈ô√≠ P≈ôibyl, Ph.D.'",KMA,KA00,2
-"69,3222","'prof. RNDr. Rudolf Hrach, DrSc.', 'doc. RNDr. Filip Mouƒçka, Ph.D.'",KFY,KPM,2
-"301,425","'RNDr. Eva Hejnov√°, Ph.D.', 'PhDr. Magdalena Kr√°tk√°, Ph.D.'",KFY,KPSPP,2
-"264,615","'RNDr. Martin Ku≈ôil, Ph.D.', 'doc. RNDr. Michal Varady, Ph.D.'",KFY,KSBP,2
-"1434,4747","'doc. Mgr. Pavel Ra≈°ka, Ph.D.', 'doc. Ing. Lenka Slav√≠kov√°, Ph.D.'",KGEO,PD101,2
-"69,3222","'prof. RNDr. Rudolf Hrach, DrSc.', 'doc. RNDr. Filip Mouƒçka, Ph.D.'",KFY,PM,2
-"301,425","'RNDr. Eva Hejnov√°, Ph.D.', 'PhDr. Magdalena Kr√°tk√°, Ph.D.'",KFY,PSPP,2
+garantiUcitIdno;garanti;katedra;zkratka;pocet garantu
+315,3164;'RNDr. Ivan Farsk˝, CSc.', 'Mgr. Ji¯Ì Riezner, Ph.D.';KGEO;0023;2
+3452,3528;'doc. PhDr. RNDr. Jan Daniel Bl·ha, Ph.D.', 'RNDr. Silvie Rita KuËerov·, Ph.D.';KGEO;B600;2
+1999,8280;'RNDr. Blanka Desortov·, CSc.', 'Mgr. Pavla Urb·nkov·, Ph.D.';KBI;BK108;2
+425,267;'PhDr. Magdalena Kr·tk·, Ph.D.', 'PhDr. Ji¯Ì P¯ibyl, Ph.D.';KMA;KA00;2
+69,3222;'prof. RNDr. Rudolf Hrach, DrSc.', 'doc. RNDr. Filip MouËka, Ph.D.';KFY;KPM;2
+301,425;'RNDr. Eva Hejnov·, Ph.D.', 'PhDr. Magdalena Kr·tk·, Ph.D.';KFY;KPSPP;2
+264,615;'RNDr. Martin Ku¯il, Ph.D.', 'doc. RNDr. Michal Varady, Ph.D.';KFY;KSBP;2
+1434,4747;'doc. Mgr. Pavel Raöka, Ph.D.', 'doc. Ing. Lenka SlavÌkov·, Ph.D.';KGEO;PD101;2
+69,3222;'prof. RNDr. Rudolf Hrach, DrSc.', 'doc. RNDr. Filip MouËka, Ph.D.';KFY;PM;2
+301,425;'RNDr. Eva Hejnov·, Ph.D.', 'PhDr. Magdalena Kr·tk·, Ph.D.';KFY;PSPP;2

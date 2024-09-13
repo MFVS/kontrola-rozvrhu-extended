@@ -1,10 +1,15 @@
 GENERAL
-- Core: Skripty spolu neinteragují, nutno je propojit nebo sekvenčně spustit
-- Core: Není skript na vracení hodnot
+- Core: Předělat bombátor z Jupyter na importovatelný raw python, zaintegrovat do loadingu
 
 APP_PS
-- Core: Udělat to tak aby to vracelo věci co dělat
-- Core: Zkompletovat multiselecty
+- Improvements: Přejmenovat
+
+VÝPIS VÝSLEDKŮ
+- Improvements: Přidat tlačítko na stažení všeho
+- Improvements: Komentáře
+
+LOADING
+- Core: Zaintegrovat bombátor
 
 BOMBATOR
 -Improvements: Přidat identifier do předmety s akcí/rozvrhů
@@ -17,7 +22,4 @@ BOMBATOR
 
 
 XLSX-GEN
-- Core: Načítání předmětů učitelů dělá nějaký hovadiny, vyšetři to
-    ~ Absolutně si nevzpomínám co to znamená, takže pro zatím POSTPONED
-- Core: Při žádání o katedrální rozvrh se využívá moje stag username, udělej z toho proměnnou
-- Core: Přidat načítání podle studijního programu
+- Improvements: Udělat čistou verzi

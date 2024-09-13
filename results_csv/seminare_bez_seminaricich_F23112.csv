@@ -1,7 +1,7 @@
-katedra,zkratka,idno,typAkceZkr,rok,datumOd,datumDo,hodinaSkutOd,hodinaSkutDo,identifier,katedra_right,nazev,seminarici,seminariciUcitIdno,jmena
-KCH,BK320,9475,Se,2024,6.12.2024,6.12.2024,10:00,13:50,BK320KCH,KCH,Semin√°≈ô z pr≈Ømyslov√© chemie,"'doc. Ing. Jarom√≠r Lederer, CSc.'",1543,"≈†imek Josef, Ing. Ph.D."
-KBI,KKRSP,8952,Se,2024,16.11.2024,16.11.2024,09:00,12:50,KKRSPKBI,KBI,Komplexn√≠ reflektivn√≠ semin√°≈ô praxe,"'doc. PhDr. Kate≈ôina Janƒça≈ô√≠kov√°, Ph.D.'",8441,"Svobodov√° Silvie, PhDr. Ing. Ph.D."
-KBI,KRSP,8952,Se,2024,2.11.2024,2.11.2024,09:00,12:50,KRSPKBI,KBI,Komplexn√≠ reflektivn√≠ semin√°≈ô praxe,"'doc. PhDr. Kate≈ôina Janƒça≈ô√≠kov√°, Ph.D.'",8441,"Svobodov√° Silvie, PhDr. Ing. Ph.D."
-KBI,KRSP,8952,Se,2024,14.12.2024,14.12.2024,09:00,12:50,KRSPKBI,KBI,Komplexn√≠ reflektivn√≠ semin√°≈ô praxe,"'doc. PhDr. Kate≈ôina Janƒça≈ô√≠kov√°, Ph.D.'",8441,"Svobodov√° Silvie, PhDr. Ing. Ph.D."
-KBI,KRSP,8952,Se,2024,16.11.2024,16.11.2024,09:00,12:50,KRSPKBI,KBI,Komplexn√≠ reflektivn√≠ semin√°≈ô praxe,"'doc. PhDr. Kate≈ôina Janƒça≈ô√≠kov√°, Ph.D.'",8441,"Svobodov√° Silvie, PhDr. Ing. Ph.D."
-KFY,PPP,301,Se,2024,4.10.2024,3.1.2025,09:00,11:50,PPPKFY,KFY,Pr≈Øbƒõ≈æn√° pedagogick√° praxe,"'RNDr. Ji≈ô√≠ Kr√°l√≠k, Ph.D.'",303,"Hejnov√° Eva, RNDr. Ph.D."
+katedra;zkratka;idno;typAkceZkr;rok;datumOd;datumDo;hodinaSkutOd;hodinaSkutDo;identifier;katedra_right;nazev;seminarici;seminariciUcitIdno;jmena
+KCH;BK320;9475;Se;2024;6.12.2024;6.12.2024;10:00;13:50;BK320KCH;KCH;Semin·¯ z pr˘myslovÈ chemie;'doc. Ing. JaromÌr Lederer, CSc.';1543;äimek Josef, Ing. Ph.D.
+KBI;KKRSP;8952;Se;2024;16.11.2024;16.11.2024;09:00;12:50;KKRSPKBI;KBI;KomplexnÌ reflektivnÌ semin·¯ praxe;'doc. PhDr. Kate¯ina JanËa¯Ìkov·, Ph.D.';8441;Svobodov· Silvie, PhDr. Ing. Ph.D.
+KBI;KRSP;8952;Se;2024;2.11.2024;2.11.2024;09:00;12:50;KRSPKBI;KBI;KomplexnÌ reflektivnÌ semin·¯ praxe;'doc. PhDr. Kate¯ina JanËa¯Ìkov·, Ph.D.';8441;Svobodov· Silvie, PhDr. Ing. Ph.D.
+KBI;KRSP;8952;Se;2024;16.11.2024;16.11.2024;09:00;12:50;KRSPKBI;KBI;KomplexnÌ reflektivnÌ semin·¯ praxe;'doc. PhDr. Kate¯ina JanËa¯Ìkov·, Ph.D.';8441;Svobodov· Silvie, PhDr. Ing. Ph.D.
+KBI;KRSP;8952;Se;2024;14.12.2024;14.12.2024;09:00;12:50;KRSPKBI;KBI;KomplexnÌ reflektivnÌ semin·¯ praxe;'doc. PhDr. Kate¯ina JanËa¯Ìkov·, Ph.D.';8441;Svobodov· Silvie, PhDr. Ing. Ph.D.
+KFY;PPP;301;Se;2024;4.10.2024;3.1.2025;09:00;11:50;PPPKFY;KFY;Pr˘bÏûn· pedagogick· praxe;'RNDr. Ji¯Ì Kr·lÌk, Ph.D.';303;Hejnov· Eva, RNDr. Ph.D.

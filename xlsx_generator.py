@@ -302,7 +302,7 @@ def pull_data(search_type:str, search_target:str, ticket_over:str | None = None,
     #     credentials = login(auth_over[0], auth_over[1])
     #     auth = (credentials[0], credentials[1])
 
-    auth = None
+    auth = auth_over
     #ticket = credentials[2]
     ticket = None # For debugging
 
@@ -330,7 +330,7 @@ def pull_data(search_type:str, search_target:str, ticket_over:str | None = None,
 if __name__ == '__main__':
     pull_data(
         #ticket_over="30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a",
-        ticket_over="56ac36a08e6d8d1fd3aa7579b23064c3402f963e3b7d3fd1fb2a03197a555050",
+        ticket_over="0e15b29a9645418d3f5e81442c4139bbb9dfe28fb8e64b2206b9dab3e758ccea",
         search_type="Katedra",
         search_target="KI",
     )
