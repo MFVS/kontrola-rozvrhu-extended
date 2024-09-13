@@ -3,24 +3,25 @@ from typing import Tuple, Dict, List
 from io import StringIO
 
 # --- LOGIN ---
-def login(over_name:str | None = None, over_pass:str | None = None) -> Tuple[str, str] | None: # Over_name a over_pass jsou override parametry pro účely lazení
-    import os
-    from dotenv import load_dotenv
+# Celá tahle věc je obsolete, celej auth proces se dá dělat přes tickety (ale nechám to tady, kdyby to bylo jindy t)
+# def login(over_name:str | None = None, over_pass:str | None = None) -> Tuple[str, str] | None: # Over_name a over_pass jsou override parametry pro účely lazení
+#     import os
+#     from dotenv import load_dotenv
 
-    load_dotenv()
-    user = os.getenv("STAG_USER")
-    password = os.getenv("STAG_PASSWORD")
+#     load_dotenv()
+#     user = os.getenv("STAG_USER")
+#     password = os.getenv("STAG_PASSWORD")
 
-    if user == None or password == None:
-        return login_correction((over_name, over_pass))
-    else:
-        return (user, password)
+#     if user == None or password == None:
+#         return login_correction((over_name, over_pass))
+#     else:
+#         return (user, password)
 
-def login_correction(manual_login:Tuple[str, str]) -> Tuple[str, str] | None:
-    if not isinstance(manual_login[0], str) or not isinstance(manual_login[1], str) or manual_login == None:
-        return (None, None)
-    else:
-        return (manual_login[0], manual_login[1])
+# def login_correction(manual_login:Tuple[str, str]) -> Tuple[str, str] | None:
+#     if not isinstance(manual_login[0], str) or not isinstance(manual_login[1], str) or manual_login == None:
+#         return (None, None)
+#     else:
+#         return (manual_login[0], manual_login[1])
     
 
 # --- CSV FETCHING ---
@@ -296,8 +297,12 @@ def pull_data(search_type:str, search_target:str, ticket_over:str | None = None,
     assert search_type != None, "Missing type of search."
     assert search_target != None, "Missing search keyword."
 
-    credentials = login(auth_over[0], auth_over[1])
-    auth = (credentials[0], credentials[1])
+    # if auth_over != None:
+    #     print("Why am I here")
+    #     credentials = login(auth_over[0], auth_over[1])
+    #     auth = (credentials[0], credentials[1])
+
+    auth = None
     #ticket = credentials[2]
     ticket = None # For debugging
 
@@ -328,6 +333,4 @@ if __name__ == '__main__':
         ticket_over="56ac36a08e6d8d1fd3aa7579b23064c3402f963e3b7d3fd1fb2a03197a555050",
         search_type="Katedra",
         search_target="KI",
-        auth_over=["st101885", None]
-        #auth_over=(None, None)
     )

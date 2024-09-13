@@ -6,112 +6,101 @@ Obecná botanika,P112,279
 Fyzikální praktikum C,K521,302
 Diplomový seminář,K505,306
 Souhrnný seminář a příprava k SZZ,M403,307
-Regional geography of the Czech Republic,E101,313
 Reg. geography of Northwestern Bohemia,E100,313
-Úvod do Event-B,0175,449
+Regional geography of the Czech Republic,E101,313
 Manažerský excel,0131,449
-Semestrální projekt II,SP2,449
 Základy zpracování dat,KZZD,449
-Semestrální projekt II,KSP2,449
-Informační a komunikační technologie,ICT,449
-Základy ICT,ZICT,449
-Numerické metody,NUM,449
-Hybridní Petriho sítě,0168,449
-Numerické metody,KNUM,449
-Souborný seminář,0185,449
-Základy zpracování dat,ZZD,449
-Programování ve VBA,0054,449
-Teorie formálních jazyků,TFL,449
-Praktické využití Petriho sítí,PVPS,449
 Semestrální projekt I,KSP1,449
-Pokročilé techniky ve VBA,0169,449
+Semestrální projekt II,KSP2,449
+Semestrální projekt II,SP2,449
+Souborný seminář,0185,449
+Úvod do Event-B,0175,449
+Hybridní Petriho sítě,0168,449
+Programování ve VBA,0054,449
+Základy ICT,ZICT,449
+Praktické využití Petriho sítí,PVPS,449
+Numerické metody,KNUM,449
 Praktické využití Petriho sítí,KPVPS,449
+Pokročilé techniky ve VBA,0169,449
+Teorie formálních jazyků,TFL,449
+Informační a komunikační technologie,ICT,449
+Numerické metody,NUM,449
+Základy zpracování dat,ZZD,449
 Počítačové modelování I,P107,612
-Programování A,K103,612
 Počítačové modelování I,K107,612
-OLAP a Data mining,KODM,835
-Microsoft SQL Server,0204,835
+Programování A,K103,612
 Základy zpracování dat,KZZD,835
-MIS/Business Intelligence,0152,835
-Informační a komunikační technologie,ICT,835
-Základy ICT,ZICT,835
-Úvod do zpracování a analýzy dat,0167,835
 Praktikum z databázových systémů,PDSY,835
-Aplikovaná kryptoanalýza,KAKA,835
-Algoritmy a datové struktury,XADS,835
-Základy kryptologie,KZKR,835
-Matematický software,KMSW,835
-Teorie kódování,TKO,835
-Informační a komunikační technologie,KICT,835
-Základy zpracování dat,ZZD,835
-Matematický software,MSW,835
-OLAP a Data mining,ODM,835
-Relační databáze,YRDB,835
+MIS/Business Intelligence,0152,835
+OLAP a Data mining,KODM,835
 Základy ICT,KZICT,835
-Aplikovaná kryptoanalýza,AKA,835
+Relační databáze,YRDB,835
+Informační a komunikační technologie,KICT,835
+Úvod do zpracování a analýzy dat,0167,835
+Aplikovaná kryptoanalýza,KAKA,835
+Základy kryptologie,KZKR,835
+Teorie kódování,TKO,835
 Algoritmizace a programování,YAPR,835
-Seminář k diplomové práci B,N326,1064
-Odborný seminář B,BK308,1064
-Odborná angličtina,BK213,1064
-Odborný seminář A,BK214,1064
-Odborný seminář B,B308,1064
-Seminář k diplomové práci B,KN326,1064
-Seminář k diplomové práci A,KN231,1064
-Odborný seminář A,B214,1064
-Odborná angličtina,B213,1064
-Seminář k diplomové práci A,N231,1064
-Organické syntézy,PD09,1064
+Matematický software,MSW,835
+Aplikovaná kryptoanalýza,AKA,835
+Základy ICT,ZICT,835
+Microsoft SQL Server,0204,835
+Informační a komunikační technologie,ICT,835
+Matematický software,KMSW,835
+OLAP a Data mining,ODM,835
+Základy zpracování dat,ZZD,835
+Algoritmy a datové struktury,XADS,835
 Podnikové informační systémy,KEIS,1609
 Podnikové informační systémy,EIS,1609
-Semestrální projekt I,SP1,2220
-Mezioborové souvislosti,MES,2220
-Odborná praxe,PRAX,2220
-Projektový seminář I,KPS1,2220
-Projektové výzvy a strategie v IT,PVS,2220
-Projektový seminář IV,PS4,2220
-Projektový seminář II,PS2,2220
-Odborná prezentace,KOPRE,2220
-Prezentace projektu,PREP,2220
-Semestrální projekt II,SP2,2220
-Projektový seminář,PROJ,2220
-Analýza a vizualizace podnikových dat II,AVD2,2220
-Úvod do kombinovaného studia,KUKS,2220
-Analýza a vizualizace podnikových dat II,KAVD2,2220
-Úvod od jazyka R,UDR,2220
-Základy zpracování dat,KZZD,2220
-Mezioborové souvislosti,KMES,2220
-Semestrální projekt II,KSP2,2220
-Aplikace výpočetní geometrie,AVG,2220
-Odborný seminář IT,OSIT,2220
-Základy ekonomie,KZEK,2220
-Právní a ekonomické minimum pro IT,KPEM,2220
-Projektový seminář,KPROJ,2220
-Projektový seminář I,PS1,2220
-Semestrální projekt III,SP3,2220
-Numerické metody,NUM,2220
-Projektový seminář III,PS3,2220
-Projektový seminář I,PS1,2220
-Numerické metody,KNUM,2220
-Projektové výzvy a strategie v IT,KPVS,2220
-Projektový seminář II,KPS2,2220
-Semestrální projekt III,KSP3,2220
-Souborný seminář,0185,2220
-Projektový seminář II,PS2,2220
-Odborná prezentace,OPRE,2220
 Právní a ekonomické minimum pro IT,PEM,2220
-Základy zpracování dat,ZZD,2220
-Základy ekonomie,ZEK,2220
+Základy zpracování dat,KZZD,2220
+Projektový seminář I,KPS1,2220
+Projektový seminář III,PS3,2220
 Semestrální projekt I,KSP1,2220
-Aplikace výpočetní geometrie,KAVG,2220
+Semestrální projekt II,KSP2,2220
+Semestrální projekt III,SP3,2220
+Základy ekonomie,KZEK,2220
+Analýza a vizualizace podnikových dat II,AVD2,2220
+Odborná praxe,PRAX,2220
+Semestrální projekt III,KSP3,2220
+Projektový seminář I,PS1,2220
+Úvod do kombinovaného studia,KUKS,2220
+Semestrální projekt II,SP2,2220
+Souborný seminář,0185,2220
+Projektový seminář II,KPS2,2220
+Projektový seminář,PROJ,2220
+Projektové výzvy a strategie v IT,PVS,2220
+Projektové výzvy a strategie v IT,KPVS,2220
+Prezentace projektu,PREP,2220
+Analýza a vizualizace podnikových dat II,KAVD2,2220
 Základy ekonomie a managementu,ZEM,2220
-Dependabilita informačních systémů,KDIS,2239
+Právní a ekonomické minimum pro IT,KPEM,2220
+Projektový seminář I,PS1,2220
+Aplikace výpočetní geometrie,KAVG,2220
+Mezioborové souvislosti,MES,2220
+Numerické metody,KNUM,2220
+Projektový seminář II,PS2,2220
+Základy ekonomie,ZEK,2220
+Odborná prezentace,KOPRE,2220
+Semestrální projekt I,SP1,2220
+Úvod od jazyka R,UDR,2220
+Projektový seminář,KPROJ,2220
+Aplikace výpočetní geometrie,AVG,2220
+Projektový seminář II,PS2,2220
+Numerické metody,NUM,2220
+Odborný seminář IT,OSIT,2220
+Projektový seminář IV,PS4,2220
+Základy zpracování dat,ZZD,2220
+Mezioborové souvislosti,KMES,2220
+Odborná prezentace,OPRE,2220
+Dependabilita SW a HW systémů,KDSHS,2239
 Softwarové inženýrství,KSWI,2239
+Značkovací jazyky,MRL,2239
+Dependabilita SW a HW systémů,DSHS,2239
+Softwarové inženýrství,SWI,2239
+Dependabilita informačních systémů,KDIS,2239
 Odborná praxe,NOP,2239
 Odborný seminář IT,OSIT,2239
-Dependabilita SW a HW systémů,KDSHS,2239
-Značkovací jazyky,MRL,2239
-Softwarové inženýrství,SWI,2239
-Dependabilita SW a HW systémů,DSHS,2239
 Identif. a hodn. ekosystémových služeb,0153,2527
 Marketing,MARK,3143
 Podnikové informační systémy,KEIS,3457
@@ -130,18 +119,18 @@ Letní geografická škola,0158,5886
 Praktikum počítačového modelování II,M203,5958
 Praktikum počítačového modelování I,M103,5958
 Reflektivní seminář pedagogické praxe,RSPP,8021
-Reflektivní seminář pedagogické praxe,KSPP,8021
 Reflektivní seminář pedagogické praxe,KRSPP,8021
+Reflektivní seminář pedagogické praxe,KSPP,8021
 Softwarové inženýrství,KSWI,8093
 Softwarové inženýrství,SWI,8093
+Introduction to MATLAB,ITM,8514
 Odborná prezentace,KOPRE,8514
 Odborná prezentace,OPRE,8514
-Introduction to MATLAB,ITM,8514
-Odborná prezentace,KOPRE,9114
-Odborná angličtina,KOAN,9114
-Odborná angličtina,OAN,9114
-Odborná prezentace,OPRE,9114
 Introduction to MATLAB,ITM,9114
+Odborná prezentace,KOPRE,9114
 Optimální rozhodování,KOPR,9114
+Odborná angličtina,OAN,9114
+Odborná angličtina,KOAN,9114
+Odborná prezentace,OPRE,9114
 Softwarové inženýrství,KSWI,9303
 Softwarové inženýrství,SWI,9303

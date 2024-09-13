@@ -61,7 +61,7 @@ def default_year() -> str:
 
 # --- Actual stránka ---
 import streamlit as st
-st.set_page_config(page_title="Hledání chyb",page_icon=":left_speech_bubble:",layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Hledání chyb",page_icon=":left_speech_bubble:",layout="wide", initial_sidebar_state="collapsed")
 
 # Pokračování zápisu do stavu sezení.
 read_query_params()
@@ -109,15 +109,15 @@ if "stagRoleName" in st.session_state.keys():
 
 st.subheader("Vyplňte následující dotazník:") #TODO: Přidat reálnej formulář pomocí st.form.
 
-col1, col2, col3 = st.columns(3)
+col1, col2, col3 = st.columns(spec=3, gap="small")
 
 with col1:
     st.session_state["search_option"] = st.selectbox("Hledat chyby podle:",["Fakulta","Katedra","Studijní program","Učitel"])
 
 with col2:
     if st.session_state["search_option"] == "Fakulta": #TODO: Přidat zprávu, že tohle bude trvat...
-        st.caption("Zpracování může trvat i pár minut... Prosím, mějte při načítání strpení.")
         st.session_state["search_field"] = st.multiselect("Zvolte fakultu:",search_fields["Fakulta"])
+        st.info("Zpracování může trvat i pár minut... Prosím, mějte při načítání strpení.")
 
     elif st.session_state["search_option"] == "Katedra":
         st.session_state["search_field"] = st.multiselect("Zvolte katedru:",search_fields["Katedra"]) #NOTE: Tohle ZAHLTÍ uživatele volbami, also možná lepší jména alá STAG?
@@ -142,6 +142,7 @@ chyby = [
     "Bez přednášejících",
     "Bez cvičích",
     "Bez seminařicích",
+    "Vice garantu",
     "Garant nepřednáší",
     "Garant neučí",
     "Přednášející bez přednášek",

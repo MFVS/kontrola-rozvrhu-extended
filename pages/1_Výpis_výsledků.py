@@ -1,6 +1,44 @@
+chyby_translator = {
+    "Bez garanta":"bez_garanta",
+    "Bez přednášejících":"chybi_prednasejici",
+    "Bez cvičích":"chybi_cvicici",
+    "Bez seminařicích":"chybi_seminarici",
+    "Vice garantu":"vice_garantu",
+    "Garant nepřednáší":"garant_neprednasi",
+    "Garant neučí":"predmety_kde_garant_neuci",
+    "Přednášející bez přednášek":"prednasejici_bez_prednasek",
+    "Cvičící bez cvičení":"cvicici_bez_cviceni",
+    "Seminařící bez seminářů":"seminarici_bez_seminare",
+    "Přednášející mimo sylabus":"prednasky_bez_prednasejicich",
+    "Cvičicí mimo sylabus":"cviceni_bez_cvicich",
+    "Seminářicí mimo sylabus":"seminare_bez_seminaricich",
+}
+
+import polars as pl
 import streamlit as st
-st.write("Stále na tomto pracujem! Přijďte za pár dní/týdnů/let/století. Mezitím:")
-st.write(st.session_state["wishes"])
+chyby = [name for name in st.session_state["wishes"].keys() if st.session_state["wishes"][name] == True]
+
+st.set_page_config(page_title="Výpis výsledků",page_icon="random",layout="wide", initial_sidebar_state="collapsed")
+
+hide_streamlit_style = """
+            <style>
+            #MainMenu {visibility: hidden;}
+            footer {visibility: hidden;}
+            </style>
+            """
+st.markdown(hide_streamlit_style, unsafe_allow_html=True)
+
+st.header("Výpis chyb")
+
+tab_folder = st.tabs(chyby)
+
+for tab_index,tab in enumerate(tab_folder):
+    with open("results_csv/"+chyby_translator[chyby[tab_index]]+"_"+st.session_state["stagRoleName"]+".csv") as file:
+        tab.download_button("Stáhnout csv", file, file_name=chyby[tab_index]+".csv")
+    tab.dataframe(pl.read_csv("results_csv/"+chyby_translator[chyby[tab_index]]+"_"+st.session_state["stagRoleName"]+".csv"))
+
+
+
 
 #TODO: ...všechno.
 # 1) Názvy chyb a tabs podle nich.
