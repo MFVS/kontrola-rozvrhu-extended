@@ -133,7 +133,7 @@ with col2:
 # if Fakulta == "By default":
     
 with col3:
-    year = st.selectbox(label="Zvolte akademický rok:",options=generate_years(),index=default_year()) #NOTE: Vrací stringy s {první rok}/{druhý rok}. Dají se z toho parseovat actually useful data, ale bylo by milé vrátit actually použitelný formát. No biggie tho.
+    st.session_state["year"] = st.selectbox(label="Zvolte akademický rok:",options=generate_years(),index=default_year()) #NOTE: Vrací stringy s {první rok}/{druhý rok}. Dají se z toho parseovat actually useful data, ale bylo by milé vrátit actually použitelný formát. No biggie tho.
 
 st.subheader("Filtrování typů chyb")
 

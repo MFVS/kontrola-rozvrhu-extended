@@ -1,136 +1,133 @@
 nazev;zkratka;seminariciUcitIdno
-Podnikové informaèní systémy;EIS;14
 Podnikové informaèní systémy;KEIS;14
-Fylogeneze a systém bezobratlých;P302;278
-Obecná botanika;P112;279
-Fyzikální praktikum C;K521;302
-Diplomový semináø;K505;306
-Souhrnný semináø a pøíprava k SZZ;M403;307
-Reg. geography of Northwestern Bohemia;E100;313
-Regional geography of the Czech Republic;E101;313
-Základy ICT;ZICT;449
-Numerické metody;NUM;449
-Hybridní Petriho sítì;0168;449
-Informaèní a komunikaèní technologie;ICT;449
-Základy zpracování dat;ZZD;449
-Semestrální projekt II;SP2;449
-Praktické využití Petriho sítí;PVPS;449
-Základy zpracování dat;KZZD;449
-Souborný semináø;0185;449
-Praktické využití Petriho sítí;KPVPS;449
-Teorie formálních jazykù;TFL;449
-Programování ve VBA;0054;449
-Semestrální projekt II;KSP2;449
-Semestrální projekt I;KSP1;449
+Podnikové informaèní systémy;EIS;14
 Úvod do Event-B;0175;449
-Manažerský excel;0131;449
-Numerické metody;KNUM;449
+Hybridní Petriho sítì;0168;449
+Praktické využití Petriho sítí;PVPS;449
+Numerické metody;NUM;449
+Semestrální projekt I;KSP1;449
+Programování ve VBA;0054;449
+Teorie formálních jazykù;TFL;449
 Pokroèilé techniky ve VBA;0169;449
-Poèítaèové modelování I;P107;612
-Programování A;K103;612
-Poèítaèové modelování I;K107;612
-Základy ICT;ZICT;835
-Algoritmizace a programování;YAPR;835
-Matematický software;MSW;835
-Algoritmy a datové struktury;XADS;835
-Aplikovaná kryptoanalýza;KAKA;835
-Relaèní databáze;YRDB;835
-Informaèní a komunikaèní technologie;KICT;835
-Matematický software;KMSW;835
-MIS/Business Intelligence;0152;835
-Informaèní a komunikaèní technologie;ICT;835
-Základy kryptologie;KZKR;835
-Základy zpracování dat;ZZD;835
-OLAP a Data mining;ODM;835
-Úvod do zpracování a analýzy dat;0167;835
-Základy zpracování dat;KZZD;835
+Základy ICT;ZICT;449
+Manažerský excel;0131;449
+Informaèní a komunikaèní technologie;ICT;449
+Semestrální projekt II;SP2;449
+Souborný semináø;0185;449
+Základy zpracování dat;ZZD;449
+Praktické využití Petriho sítí;KPVPS;449
+Numerické metody;KNUM;449
+Základy zpracování dat;KZZD;449
+Semestrální projekt II;KSP2;449
 Microsoft SQL Server;0204;835
-Základy ICT;KZICT;835
+Matematický software;KMSW;835
 Praktikum z databázových systémù;PDSY;835
-Aplikovaná kryptoanalýza;AKA;835
-OLAP a Data mining;KODM;835
 Teorie kódování;TKO;835
-Podnikové informaèní systémy;EIS;1609
+Úvod do zpracování a analýzy dat;0167;835
+OLAP a Data mining;ODM;835
+OLAP a Data mining;KODM;835
+Matematický software;MSW;835
+Základy ICT;KZICT;835
+Základy ICT;ZICT;835
+Informaèní a komunikaèní technologie;ICT;835
+Informaèní a komunikaèní technologie;KICT;835
+Základy zpracování dat;ZZD;835
+Aplikovaná kryptoanalýza;KAKA;835
+Algoritmy a datové struktury;XADS;835
+Relaèní databáze;YRDB;835
+Základy zpracování dat;KZZD;835
+Algoritmizace a programování;YAPR;835
+Aplikovaná kryptoanalýza;AKA;835
+Základy kryptologie;KZKR;835
+MIS/Business Intelligence;0152;835
 Podnikové informaèní systémy;KEIS;1609
-Odborná prezentace;OPRE;2220
-Odborná prezentace;KOPRE;2220
+Podnikové informaèní systémy;EIS;1609
+Odborná praxe;PRAX;2220
 Projektový semináø;PROJ;2220
-Úvod do kombinovaného studia;KUKS;2220
-Numerické metody;NUM;2220
-Projektový semináø IV;PS4;2220
-Úvod od jazyka R;UDR;2220
-Projektový semináø I;PS1;2220
-Základy ekonomie;KZEK;2220
-Analýza a vizualizace podnikových dat II;KAVD2;2220
-Projektový semináø II;PS2;2220
 Prezentace projektu;PREP;2220
-Aplikace výpoèetní geometrie;KAVG;2220
-Základy zpracování dat;ZZD;2220
-Projektový semináø III;PS3;2220
-Semestrální projekt II;SP2;2220
+Právní a ekonomické minimum pro IT;PEM;2220
+Numerické metody;NUM;2220
 Projektový semináø II;KPS2;2220
+Semestrální projekt III;KSP3;2220
+Aplikace výpoèetní geometrie;AVG;2220
+Semestrální projekt I;KSP1;2220
+Semestrální projekt I;SP1;2220
+Projektové výzvy a strategie v IT;KPVS;2220
+Projektový semináø II;PS2;2220
+Právní a ekonomické minimum pro IT;KPEM;2220
+Projektový semináø I;KPS1;2220
+Semestrální projekt II;SP2;2220
+Aplikace výpoèetní geometrie;KAVG;2220
+Základy ekonomie;KZEK;2220
+Souborný semináø;0185;2220
+Odborná prezentace;KOPRE;2220
 Mezioborové souvislosti;KMES;2220
 Mezioborové souvislosti;MES;2220
-Analýza a vizualizace podnikových dat II;AVD2;2220
-Základy zpracování dat;KZZD;2220
-Souborný semináø;0185;2220
-Projektový semináø I;PS1;2220
-Projektový semináø;KPROJ;2220
-Právní a ekonomické minimum pro IT;KPEM;2220
-Odborná praxe;PRAX;2220
-Projektový semináø I;KPS1;2220
-Právní a ekonomické minimum pro IT;PEM;2220
-Odborný semináø IT;OSIT;2220
-Aplikace výpoèetní geometrie;AVG;2220
 Semestrální projekt III;SP3;2220
-Projektové výzvy a strategie v IT;KPVS;2220
-Základy ekonomie;ZEK;2220
-Projektové výzvy a strategie v IT;PVS;2220
-Semestrální projekt III;KSP3;2220
-Semestrální projekt II;KSP2;2220
-Semestrální projekt I;KSP1;2220
-Projektový semináø II;PS2;2220
-Numerické metody;KNUM;2220
+Základy zpracování dat;ZZD;2220
+Odborný semináø IT;OSIT;2220
+Odborná prezentace;OPRE;2220
 Základy ekonomie a managementu;ZEM;2220
-Semestrální projekt I;SP1;2220
+Projektový semináø;KPROJ;2220
+Projektové výzvy a strategie v IT;PVS;2220
+Základy ekonomie;ZEK;2220
+Numerické metody;KNUM;2220
+Projektový semináø I;PS1;2220
+Úvod do kombinovaného studia;KUKS;2220
+Základy zpracování dat;KZZD;2220
+Semestrální projekt II;KSP2;2220
 Softwarové inženýrství;SWI;2239
-Odborná praxe;NOP;2239
-Dependabilita SW a HW systémù;KDSHS;2239
-Znaèkovací jazyky;MRL;2239
 Dependabilita SW a HW systémù;DSHS;2239
-Odborný semináø IT;OSIT;2239
-Dependabilita informaèních systémù;KDIS;2239
+Odborná praxe;NOP;2239
+Znaèkovací jazyky;MRL;2239
+Dependabilita SW a HW systémù;KDSHS;2239
 Softwarové inženýrství;KSWI;2239
-Identif. a hodn. ekosystémových služeb;0153;2527
-Marketing;MARK;3143
-Podnikové informaèní systémy;EIS;3457
+Dependabilita informaèních systémù;KDIS;2239
+Odborný semináø IT;OSIT;2239
 Podnikové informaèní systémy;KEIS;3457
-Podnikové informaèní systémy;EIS;3606
+Podnikové informaèní systémy;EIS;3457
+Matematický software;KMSW;3521
+Poèítaèové zpracování signálu;KPZS;3521
+Projektový semináø;PROJ;3521
+Semestrální projekt III;KSP3;3521
+Semestrální projekt I;KSP1;3521
+Poèítaèové model. biologických systémù;PMBS;3521
+Semestrální projekt I;SP1;3521
+Matematický software;MSW;3521
+Analýza signálu a obrazu v praxi II;ASO2;3521
+Základy ICT;ZICT;3521
+Analýza signálu a obrazu v praxi I;KASO1;3521
+Poèítaèové zpracování biologických dat;0206;3521
+Analýza signálu a obrazu v praxi I;ASO1;3521
+Semestrální projekt II;SP2;3521
+Poèítaèové zpracování signálu;PZS;3521
+Semestrální projekt III;SP3;3521
+Aplikace systému Matlab;0170;3521
+System Simulation in Practice;APSIM;3521
+Poèítaèové model. biologických systémù;KPMBS;3521
+Projektový semináø;KPROJ;3521
+Algoritmizace a programování;YAPR;3521
+Analýza signálu a obrazu v praxi II;KASO2;3521
+Semestrální projekt II;KSP2;3521
 Podnikové informaèní systémy;KEIS;3606
+Podnikové informaèní systémy;EIS;3606
 Sociální sítì;SON;4190
-Matematika I;K106;4221
-Identif. a hodn. ekosystémových služeb;0153;4625
+Open Data;ODT;4303
+Elements of AI;ELAI;4472
 Základy autonomní robotiky;0182;4746
 Praktické aplikace hardwaru;AHW;4746
-Scientific inquiry and reasoning;PD101;4747
-Podnikové informaèní systémy;EIS;4991
 Podnikové informaèní systémy;KEIS;4991
-Letní geografická škola;0158;5886
-Praktikum poèítaèového modelování I;M103;5958
-Praktikum poèítaèového modelování II;M203;5958
-Reflektivní semináø pedagogické praxe;KSPP;8021
-Reflektivní semináø pedagogické praxe;RSPP;8021
-Reflektivní semináø pedagogické praxe;KRSPP;8021
+Podnikové informaèní systémy;EIS;4991
 Softwarové inženýrství;SWI;8093
 Softwarové inženýrství;KSWI;8093
-Odborná prezentace;OPRE;8514
-Odborná prezentace;KOPRE;8514
 Introduction to MATLAB;ITM;8514
+Odborná prezentace;KOPRE;8514
+Odborná prezentace;OPRE;8514
 Optimální rozhodování;KOPR;9114
-Odborná prezentace;OPRE;9114
-Odborná prezentace;KOPRE;9114
 Odborná angliètina;KOAN;9114
-Introduction to MATLAB;ITM;9114
 Odborná angliètina;OAN;9114
+Introduction to MATLAB;ITM;9114
+Odborná prezentace;KOPRE;9114
+Odborná prezentace;OPRE;9114
 Softwarové inženýrství;SWI;9303
 Softwarové inženýrství;KSWI;9303

@@ -109,13 +109,14 @@ def has_teacher_theoretical(dataframe:pl.DataFrame, teacher_type:str) -> pl.Data
     return missing_teach
 
 # --- HANDLER ---
-def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ticket:str):
+def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ticket:str, year:int):
     # Načtení všeho
     names = tablegen.pull_data(
         search_type=search_type,
         search_target=search_target,
         ticket_over=user_ticket,
-        stag_user=stag_username
+        stag_user=stag_username,
+        year=year
     )
 
     # Modifikátor jmen ukládaných souborů
