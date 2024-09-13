@@ -1,0 +1,1 @@
+<class 'dict'>{'jmeno': 'Matìj', 'prijmeni': 'SLOUP', 'email': 'matej@sloupovi.info', 'stagUserInfo': [{'userName': 'F23112', 'role': 'ST', 'roleNazev': 'Student', 'fakulta': 'PRF', 'osCislo': 'F23112', 'email': 'matej@sloupovi.info'}]}

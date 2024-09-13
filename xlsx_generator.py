@@ -18,7 +18,7 @@ def login(over_name:str | None = None, over_pass:str | None = None) -> Tuple[str
 
 def login_correction(manual_login:Tuple[str, str]) -> Tuple[str, str] | None:
     if not isinstance(manual_login[0], str) or not isinstance(manual_login[1], str) or manual_login == None:
-        return None
+        return (None, None)
     else:
         return (manual_login[0], manual_login[1])
     
@@ -324,8 +324,10 @@ def pull_data(search_type:str, search_target:str, ticket_over:str | None = None,
 
 if __name__ == '__main__':
     pull_data(
-        ticket_over="30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a",
-        search_type="Fakulta",
-        search_target="PRF",
-        auth_over=["st101885","x0301093100"]
+        #ticket_over="30088f13cc4a64c91aef019587bf2a31f7ff7055306e11abaef001d927dd099a",
+        ticket_over="56ac36a08e6d8d1fd3aa7579b23064c3402f963e3b7d3fd1fb2a03197a555050",
+        search_type="Katedra",
+        search_target="KI",
+        auth_over=["st101885", None]
+        #auth_over=(None, None)
     )

@@ -9,14 +9,25 @@ def page_escape(to_convert:Dict[str, bool]):
     st.session_state["wishes"] = to_convert
     st.switch_page("pages/1_Výpis_výsledků.py")
 
-# Přečte, zda byly dány nějaké query parametry (extra parametry v adrese) a zapíše je do stavu systému. Neohrabané ale funkční.
-def read_query_params() -> dict | None: #TODO: Parseování stagUser dat
-    if "stagUserTicket" not in st.query_params:
-        return None
-    
-    all_params = st.query_params.to_dict()
+def get_best_role(encoded:str):
+    import base64
+    import json
+    decoded = base64.b64decode(encoded)
+    decoded = decoded.decode("utf-8")
 
-    return all_params
+    roles = json.loads(decoded)["stagUserInfo"]
+    
+    return roles[0]["userName"]
+
+# Přečte, zda byly dány nějaké query parametry (extra parametry v adrese) a zapíše je do stavu systému. Neohrabané ale funkční.
+def read_query_params() -> None: #TODO: Parseování stagUser dat
+    if "stagUserTicket" not in st.query_params:
+        return
+    
+    st.session_state["stagUserTicket"] = st.query_params["stagUserTicket"]
+    st.session_state["stagUserName"] = st.query_params["stagUserName"]
+    st.session_state["stagRoleName"] = get_best_role(st.query_params["stagUserInfo"])
+
 
 # Ok, takže:
 # 1) Tenhle blok kódu si osvěží, jaký všechny pracoviště jsou na UJEPu (na vytvoření jejich seznamu) vždycky, když si někdo otevře tuhle stránku. Velmi neefektivní.
@@ -53,10 +64,7 @@ import streamlit as st
 st.set_page_config(page_title="Hledání chyb",page_icon=":left_speech_bubble:",layout="wide", initial_sidebar_state="expanded")
 
 # Pokračování zápisu do stavu sezení.
-read_qp = read_query_params()
-if read_qp != None:
-    for key in read_qp.keys():
-        st.session_state[key] = read_qp[key]
+read_query_params()
 
 # Schování streamlit loga.
 hide_streamlit_style = """
@@ -96,6 +104,9 @@ with login_container:
     
 st.divider()
 
+if "stagRoleName" in st.session_state.keys():
+    st.write(st.session_state["stagRoleName"])
+
 st.subheader("Vyplňte následující dotazník:") #TODO: Přidat reálnej formulář pomocí st.form.
 
 col1, col2, col3 = st.columns(3)
@@ -105,13 +116,14 @@ with col1:
 
 with col2:
     if st.session_state["search_option"] == "Fakulta": #TODO: Přidat zprávu, že tohle bude trvat...
+        st.caption("Zpracování může trvat i pár minut... Prosím, mějte při načítání strpení.")
         st.session_state["search_field"] = st.multiselect("Zvolte fakultu:",search_fields["Fakulta"])
 
     elif st.session_state["search_option"] == "Katedra":
         st.session_state["search_field"] = st.multiselect("Zvolte katedru:",search_fields["Katedra"]) #NOTE: Tohle ZAHLTÍ uživatele volbami, also možná lepší jména alá STAG?
 
     elif st.session_state["search_option"] == "Studijní program": #TODO: Studijní programy nejsou zatím podporovány.
-        raise NotImplementedError("Tohle by mi zabralo další týden. Fuck you.")
+        raise NotImplementedError("Tohle by mi zabralo další týden. Prozatím zrušená funkcionalita.")
         #target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
     
     elif st.session_state["search_option"] == "Učitel":
