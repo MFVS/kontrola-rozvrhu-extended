@@ -1,18 +1,19 @@
 GENERAL
-- Core: Předělat bombátor z Jupyter na importovatelný raw python, zaintegrovat do loadingu
+- Core: Stress test
+- Core: Přidat funkcionalitu jazyků.
+- Improvements: Přidat studijní programy
 
 APP_PS
 - Improvements: Přejmenovat
+- Core: Přidat číselník učitelů. Dumbass.
 
 VÝPIS VÝSLEDKŮ
 - Improvements: Přidat tlačítko na stažení všeho
 - Improvements: Komentáře
 
 LOADING
-- Core: Zaintegrovat bombátor
 
 BOMBATOR
--Improvements: Přidat identifier do předmety s akcí/rozvrhů
 -Improvements: Běžně použité sloupce do proměnných [MOSTLY DONE]
     - garantiUcitIdno
 -Improvements: Mergenout více bloků se stejnýma principama do funkcí pro zlepšení čitelnosti a škálovatelnosti?
@@ -20,6 +21,8 @@ BOMBATOR
     - {Přednášející/Cvičící/Seminařící} nemá {přednášku/cvičení/seminář} a vice versa
 -Improvements: Posuň načítání číselníku učitelů výše
 
+SBR
+- Improvements: Refaktoruj celej kód. Kristova noho.
 
 XLSX-GEN
 - Improvements: Udělat čistou verzi

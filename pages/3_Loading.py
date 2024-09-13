@@ -2,7 +2,7 @@ import streamlit as st
 #import time
 import stag_bombator_raw as sbr
 
-with st.spinner("Tato stránka je zatím nevytvořena."):
+with st.spinner("Zpracovávám data. Prosím, počkejte..."):
     sbr.send_the_bomb(
         search_type=st.session_state["search_option"],
         search_target=st.session_state["search_field"],
