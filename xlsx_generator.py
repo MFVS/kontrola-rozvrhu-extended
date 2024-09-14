@@ -102,13 +102,6 @@ def null_out(dataframe:"pl.DataFrame", columns:List[str]) -> "pl.DataFrame":
         
     return dataframe
 
-def get_teachers() -> None:
-    """A function to generate all teacher names and ID's. Saved directly to file, neccessary only for bombator purposes.
-    """
-    excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}), separator=";")
-    excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
-
-
 # ----- FUNKCE GENERUJÍCÍ CSV -----
 
 def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, file_id:str = "katedra") -> Dict[str, str]: # Vrací jméno souboru
@@ -291,7 +284,7 @@ def studijni_program():
 
 # ----- HANDLER ----- 
 
-def pull_data(search_type:str, search_target:str, stag_user:str, ticket_over:str | None = None, auth_over:Tuple[str, str] | None = None, year:str | None = None):
+def pull_data(search_type:str, search_target:str, stag_user:str, ticket_over:str | None = None, auth_over:Tuple[str, str] | None = None, year:str | None = None, lang:str = "cs"):
     # TODO: Přidej dynamické pojmenování vygenerovaných tabulek
 
     assert search_type != None, "Missing type of search."
@@ -305,8 +298,6 @@ def pull_data(search_type:str, search_target:str, stag_user:str, ticket_over:str
     auth = auth_over
     #ticket = credentials[2]
     ticket = None # For debugging
-
-    get_teachers()
 
     if ticket == None:
         ticket = ticket_over

@@ -35,11 +35,19 @@ def fix_str_to_int(data:pl.DataFrame, fix_list:list) -> pl.DataFrame:
     """
 
     column_types = data.select(fix_list).dtypes
+    print(fix_list)
+    print(column_types)
 
     # Pokud v žádném sloupci není víc hodnot, polars to převede na int automaticky.
-    for index, column in enumerate(fix_list):
-        if column_types[index] != pl.String:
-            fix_list.remove(column)
+    # for index, column in enumerate(fix_list):
+    #     print("Going through:" + column)
+    #     if column_types[index] != pl.String:
+    #         print("Removing:" + column)
+    #         fix_list.remove(column)
+
+    fix_list = [column for index, column in enumerate(fix_list) if column_types[index] == pl.String]
+
+    print(fix_list)
 
     data = data.with_columns(
         pl.col(fix_list)
@@ -109,14 +117,15 @@ def has_teacher_theoretical(dataframe:pl.DataFrame, teacher_type:str) -> pl.Data
     return missing_teach
 
 # --- HANDLER ---
-def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ticket:str, year:int):
+def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ticket:str, year:int, lang:str):
     # Načtení všeho
     names = tablegen.pull_data(
         search_type=search_type,
         search_target=search_target,
         ticket_over=user_ticket,
         stag_user=stag_username,
-        year=year
+        year=year,
+        lang=lang
     )
 
     # Modifikátor jmen ukládaných souborů
@@ -136,7 +145,9 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
     # Osekané rozvrhové akce
     maly_rozvrh = rozvrh_by_kat.select(["katedra","zkratka", "vsichniUciteleUcitIdno", "typAkceZkr", "rok", "datumOd", "datumDo", "hodinaSkutOd", "hodinaSkutDo"]).with_columns(pl.concat_str(pl.col("zkratka"), pl.col("katedra")).alias("identifier"))
-    maly_rozvrh = maly_rozvrh.with_columns(pl.col("vsichniUciteleUcitIdno")).explode("vsichniUciteleUcitIdno").rename({"vsichniUciteleUcitIdno": "idno"}).filter(pl.col("datumOd").str.len_chars() > 0)
+    if maly_rozvrh.dtypes[maly_rozvrh.get_column_index("vsichniUciteleUcitIdno")] == pl.String:
+        maly_rozvrh = maly_rozvrh.with_columns(pl.col("vsichniUciteleUcitIdno")).explode("vsichniUciteleUcitIdno")
+    maly_rozvrh = maly_rozvrh.rename({"vsichniUciteleUcitIdno": "idno"}).filter(pl.col("datumOd").str.len_chars() > 0)
 
     # Číselník učitelů
     ciselnik_ucitelu = pl.read_csv("source_tables/ciselnik_ucitelu.csv").select("nazev", "key").rename({"nazev":"jmena", "key":"idno"})
@@ -293,7 +304,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     )
     joined_seminarici = filtrovani_seminarici.join(maly_rozvrh, "idno", "left")
     seminarici_bez_seminare = joined_seminarici.filter(pl.col("typAkceZkr").is_null())
-    seminarici_bez_seminare.select("nazev", "zkratka", "seminariciUcitIdno").sort("seminariciUcitIdno").write_csv("results_csv/seminarici_bez_seminare"+name_mod+".csv", separator=";")
+    seminarici_bez_seminare.select("nazev", "zkratka", "seminariciUcitIdno", "jmena").sort("seminariciUcitIdno").write_csv("results_csv/seminarici_bez_seminare"+name_mod+".csv", separator=";")
     uac.convert("results_csv/seminarici_bez_seminare"+name_mod+".csv")
 
     # seminařicí není v sylabu:

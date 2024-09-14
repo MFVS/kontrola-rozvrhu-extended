@@ -1,144 +1,85 @@
 nazev;zkratka;cviciciUcitIdno;jmena
-Teoretické základy informatiky II;TZI2;264;'RNDr. Martin Kuøil Ph.D.
-Teoretická informatika a matematika;YTIM;264;'RNDr. Martin Kuøil Ph.D.
-Teoretické základy informatiky II;KTZI2;264;'RNDr. Martin Kuøil Ph.D.
-Advanced Numerical Methods;EPNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Petriho sítì;0144;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Automata and Formal Language Theory;ETFI;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Stochastické Petriho sítì;0158;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Praktikum z teor. zákl. informatiky;PTZI;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Theory of Automata and Formal Languages;EAFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
+Pokroèilé datové struktury a algoritmy;PDSA;251;'Mgr. Jiøí Fišer Ph.D.
+Advanced Data Structures and Algorithms;EPDSA;251;'Mgr. Jiøí Fišer Ph.D.
+Pokroèilé datové struktury a algoritmy;KPDSA;251;'Mgr. Jiøí Fišer Ph.D.
+Matematika v mikroekonomii;MME;261;'doc. PaedDr. Petr Eisenmann CSc.
 Teorie automatù a formálních jazykù;KAFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Advanced Numerical Methods;EPNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
 Teorie automatù a formálních jazykù;AFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Optimization;EOTT;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Optimalizace v Excelu;0033;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Aplikovaná kryptologie;AKR;835;'Mgr. Kvìtuše Sýkorová'
-Úvod do relaèních databází;URD;835;'Mgr. Kvìtuše Sýkorová'
-Didaktika informatiky II;KDI2;835;'Mgr. Kvìtuše Sýkorová'
-Datová úložištì a zpracování dat;KDUL;835;'Mgr. Kvìtuše Sýkorová'
-Relaèní databázové systémy;KRDBS;835;'Mgr. Kvìtuše Sýkorová'
-Introduction to Relational Databases;EURDB;835;'Mgr. Kvìtuše Sýkorová'
-Základy kryptologie;ZKR;835;'Mgr. Kvìtuše Sýkorová'
-Základy kryptologie;KRY;835;'Mgr. Kvìtuše Sýkorová'
-Samoopravné kódy;SOK;835;'Mgr. Kvìtuše Sýkorová'
-Databázové systémy;KDSY;835;'Mgr. Kvìtuše Sýkorová'
-Datová úložištì a nástroje pro Big Data;BIG;835;'Mgr. Kvìtuše Sýkorová'
-Úvod do kryptografie;UKR;835;'Mgr. Kvìtuše Sýkorová'
-Optimalizace;KOTT;835;'Mgr. Kvìtuše Sýkorová'
-Optimalizace;OTT;835;'Mgr. Kvìtuše Sýkorová'
-Datová úložištì a zpracování dat;DUL;835;'Mgr. Kvìtuše Sýkorová'
-Základy kryptologie;KKRY;835;'Mgr. Kvìtuše Sýkorová'
-Algorithms and Data Structures;EDSA;835;'Mgr. Kvìtuše Sýkorová
-Algoritmy a datové struktury;KDSA;835;'Mgr. Kvìtuše Sýkorová
-Databázové systémy;DSY;835;'Mgr. Kvìtuše Sýkorová'
-Algoritmizace a programování I;APR1;835;'Mgr. Kvìtuše Sýkorová
-Algoritmizace a programování II;APR2;835;'Mgr. Kvìtuše Sýkorová
-Relaèní databázové systémy;RDBS;835;'Mgr. Kvìtuše Sýkorová'
-Úvod do relaèních databází;URDB;835;'Mgr. Kvìtuše Sýkorová'
-Algoritmizace a programování I;KAPR1;835;'Mgr. Kvìtuše Sýkorová
-Datová úložištì a nástroje pro Big Data;KBIG;835;'Mgr. Kvìtuše Sýkorová'
-Numerické metody;XNME;835;'Mgr. Kvìtuše Sýkorová
-Numerické metody;NME;835;'Mgr. Kvìtuše Sýkorová
-Didaktika informatiky II;DI2;835;'Mgr. Kvìtuše Sýkorová'
-Úvod do relaèních databází;KURDB;835;'Mgr. Kvìtuše Sýkorová'
-Relaèní databáze;YRDB;835;'Mgr. Kvìtuše Sýkorová'
-Praktikum z algoritmù a dat. struktur;0174;835;'Mgr. Kvìtuše Sýkorová'
+Soft Computing;SOC;650;'RNDr. Petr Kubera Ph.D.
+Pokroèilé numerické metody;KPNUM;650;'RNDr. Petr Kubera Ph.D.
+Numerical Methods;ENME;650;'RNDr. Petr Kubera Ph.D.
+Numerické metody;KNME;650;'RNDr. Petr Kubera Ph.D.
+Pokroèilé numerické metody;PNUM;650;'RNDr. Petr Kubera Ph.D.
+Soft Computing;KSOC;650;'RNDr. Petr Kubera Ph.D.
+Numerické metody;NME;650;'RNDr. Petr Kubera Ph.D.
+Numerické metody;XNME;650;'RNDr. Petr Kubera Ph.D.
 Algoritmy a datové struktury;DSA;835;'Mgr. Kvìtuše Sýkorová
-Algoritmizace a programování;YAPR;835;'Mgr. Kvìtuše Sýkorová
-Optimalizace;OPT;835;'Mgr. Kvìtuše Sýkorová'
-Pokroèilé datové struktury a algoritmy;KPDSA;835;'Mgr. Kvìtuše Sýkorová
-Základy kryptologie;KZKR;835;'Mgr. Kvìtuše Sýkorová'
+Algorithms and Data Structures;EDSA;835;'Mgr. Kvìtuše Sýkorová
 Pokroèilé datové struktury a algoritmy;PDSA;835;'Mgr. Kvìtuše Sýkorová
-Optimalizace;KOPT;835;'Mgr. Kvìtuše Sýkorová'
-Algoritmizace a programování II;KAPR2;835;'Mgr. Kvìtuše Sýkorová
-Python and R for Data Science;EPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerické metody;KNME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Advanced Numerical Methods;EPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Analýza a vizualizace dat;AVD;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;PYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Computational Geometry;A192;2220;'RNDr. Jiøí Škvor Ph.D.'
-Projektové øízení a firemní IS;KFIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Algorithms and Data Structures;EDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Algoritmy a datové struktury;KDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Výpoèetní geometrie;0192;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerical Methods;ENME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Praktikum z numerických metod;0153;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerické metody;XNME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Pokroèilé numerické metody;PNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Projektové øízení a firemní IS;FIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Teorie automatù a formálních jazykù;KAFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerické metody;NME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Soft Computing;KSOC;2220;'RNDr. Jiøí Škvor Ph.D.'
-Soft Computing;SOC;2220;'RNDr. Jiøí Škvor Ph.D.'
-Pokroèilé numerické metody;KPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Teorie automatù a formálních jazykù;AFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
-Data Analysis and Visualisation;EDAV;2220;'RNDr. Jiøí Škvor Ph.D.'
-Analýza a vizualizace dat;KAVD;2220;'RNDr. Jiøí Škvor Ph.D.'
-Advanced Data Structures and Algorithms;EPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;KPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Algoritmy a datové struktury;KDSA;835;'Mgr. Kvìtuše Sýkorová
+Numerické metody;NME;835;'Mgr. Kvìtuše Sýkorová
+Pokroèilé datové struktury a algoritmy;KPDSA;835;'Mgr. Kvìtuše Sýkorová
+Numerické metody;XNME;835;'Mgr. Kvìtuše Sýkorová
 Algoritmy a datové struktury;DSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Pokroèilé datové struktury a algoritmy;KPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Algorithms and Data Structures;EDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Soft Computing;SOC;2220;'RNDr. Jiøí Škvor Ph.D.'
 Pokroèilé datové struktury a algoritmy;PDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerické metody;KNME;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-Internet Programming;EPIN;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Programování pro Internet;KPIN;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Dependabilita informaèních systémù;KDEP;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Software Engineering;ESWI;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Dependability of Hardware Systems;EDHW;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Database Systems;EDSY;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Dependabilita informaèních systémù;DEP;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Dependability of Information Systems;EDEP;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Programování pro internet;KPRI;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Dependabilita informaèních systémù;KDIS;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Projektové øízení a firemní IS;FIS;2220;'RNDr. Jiøí Škvor Ph.D.
+Algoritmy a datové struktury;KDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Projektové øízení a firemní IS;KFIS;2220;'RNDr. Jiøí Škvor Ph.D.
+Python and R for Data Science;EPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Python and R for Data Science;KPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Pokroèilé numerické metody;KPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerical Methods;ENME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Data Analysis and Visualisation;EDAV;2220;'RNDr. Jiøí Škvor Ph.D.'
+Advanced Data Structures and Algorithms;EPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Python and R for Data Science;PYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerické metody;KNME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Pokroèilé numerické metody;PNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Analýza a vizualizace dat;KAVD;2220;'RNDr. Jiøí Škvor Ph.D.'
+Teorie automatù a formálních jazykù;KAFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
+Matematika v mikroekonomii;MME;2220;'RNDr. Jiøí Škvor Ph.D.
+Soft Computing;KSOC;2220;'RNDr. Jiøí Škvor Ph.D.'
+Advanced Numerical Methods;EPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Teorie automatù a formálních jazykù;AFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
+Computational Geometry;A192;2220;'RNDr. Jiøí Škvor Ph.D.'
+Analýza a vizualizace dat;AVD;2220;'RNDr. Jiøí Škvor Ph.D.'
+Výpoèetní geometrie;0192;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerické metody;NME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Informatika ve fyzice I;IVF1;2220;'RNDr. Jiøí Škvor Ph.D.'
+Pokroèilé datové struktury a algoritmy;KPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Informatika ve fyzice II;IVF2;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerické metody;XNME;2220;'RNDr. Jiøí Škvor Ph.D.'
 Advanced Data Structures and Algorithms;EPDSA;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-Dependabilita informaèních systémù;DIS;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Programování pro Internet;PIN;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Programování pro internet;PRI;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Dependability of Software Systems;EDSW;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Teoretická informatika a matematika;YTIM;3188;'Mgr. Lucie Loukotová
-Poèítaèová kriminalita;0141;3458;'Ing. Toni Koluch Ph.D.'
-Datová a informaèní bezpeènost;KDIB;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-System Simulation;SYS;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Matematika pro informatiky;MAI;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Analýza a vizualizace dat;AVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Datová a informaèní bezpeènost;KDINB;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Mathematical software;EMSW;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Parallel Programming;PAR;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Simulace systémù;KSIM;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Datová a informaèní bezpeènost;DINB;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Datová a informaèní bezpeènost;DIB;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-System Simulation;KSYS;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Simulace systémù;SIM;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Parallel Programming;KPAR;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Parallel Programming;EPPG;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-System Simulation;ESYS;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Parallel Programming;EPAR;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
+Numerické metody;KNME;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
+Podnikový management a IS;MIS;2317;'Ing. Pavel Kuba Ph.D.'
+Èasové øady;CAS;3188;'Mgr. Lucie Loukotová'
+Èasové øady;KCAS;3188;'Mgr. Lucie Loukotová
+Soft Computing;SOC;3416;'prof. Sergii Babichev DSc.
+Python and R for Data Science;KPYR;3416;'prof. Sergii Babichev DSc.
+Numerical Methods;ENME;3416;'prof. Sergii Babichev DSc.
+Python and R for Data Science;PYR;3416;'prof. Sergii Babichev DSc.
+Analýza a vizualizace dat;KAVD;3416;'prof. Sergii Babichev DSc.
+Soft Computing;KSOC;3416;'prof. Sergii Babichev DSc.
+Analýza a vizualizace dat;AVD;3416;'prof. Sergii Babichev DSc.
 Data Analysis and Visualisation;EDAV;3521;'doc. RNDr. Zbyšek Posel Ph.D.
 Analýza a vizualizace dat;KAVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Paralelní programování;PPG;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Paralelní programování;KPPG;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-Modelování podnikových procesù;0160;4190;'Ing. Libor Mìsíèek Ph.D.'
-Poèítaèové sítì a protokoly;PSP;4195;'Ing. Václav Valenta'
-Information Security;0177;4685;'Hoon Ko Ph.D.'
-Mikroprocesory a senzory v praxi I;0164;4746;'Ing. Jiøí Šretr'
-Mikroprocesory a senzory v praxi II;0171;4746;'Ing. Jiøí Šretr'
-Automatické øízení;AUC;5039;'doc. Ing. Mgr. Petr Klán CSc.'
-Teoretická informatika a matematika;YTIM;5205;'RNDr. Veronika Lacková Ph.D.
-Analogová elektronika;KAEL;5232;'doc. RNDr. František Lustig CSc.'
-Analogová elektronika;AEL;5232;'doc. RNDr. František Lustig CSc.'
-Analogová elektronika;KANE;5232;'doc. RNDr. František Lustig CSc.'
-Analogová elektronika;ANE;5232;'doc. RNDr. František Lustig CSc.'
+Analýza a vizualizace dat;AVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Informatika ve fyzice I;IVF1;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Informatika ve fyzice II;IVF2;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Èasové øady;KCAS;4533;'doc. Ing. Jaroslav Sixta Ph.D.
+Python and R for Data Science;EPYR;6259;'RNDr. Jiøí Škvára Ph.D.
+Python and R for Data Science;KPYR;6259;'RNDr. Jiøí Škvára Ph.D.
+Python and R for Data Science;PYR;6259;'RNDr. Jiøí Škvára Ph.D.
+Soft Computing;SOC;6973;'Ing. Mgr. Pavel Beránek
+Soft Computing;KSOC;6973;'Ing. Mgr. Pavel Beránek
+Projektové øízení a firemní IS;FIS;7352;'Ing. Štìpánka Zimová'
+Projektové øízení a firemní IS;KFIS;7352;'Ing. Štìpánka Zimová'
+Podnikový management a IS;KMIS;7352;'Ing. Štìpánka Zimová'
 Python and R for Data Science;EPYR;8514;'Ricardo Rodriguez Jorge Ph.D.
-Algoritmizace a programování I;APR1;8514;'Ricardo Rodriguez Jorge Ph.D.
-Algoritmizace a programování II;APR2;8514;'Ricardo Rodriguez Jorge Ph.D.
-Data Mining Techniq. based on R Software;EDMR;8514;'Ricardo Rodriguez Jorge Ph.D.'
 Data Analysis and Visualisation;EDAV;8514;'Ricardo Rodriguez Jorge Ph.D.
-Machine Learning Based on R Software;EMLR;8514;'Ricardo Rodriguez Jorge Ph.D.'
-Objektovì orientované návrhové vzory;KOONV;8753;'Mgr. Roman Saòa'
-Objektovì orientované návrhové vzory;OONV;8753;'Mgr. Roman Saòa'
-Optimální rozhodování;KOPR;9114;'Dr. Hossein Moosaei Ph.D.'
-Optimization for ML with MATLAB;OMLM;9114;'Dr. Hossein Moosaei Ph.D.'
-Optimal Decision Making;EOPR;9114;'Dr. Hossein Moosaei Ph.D.'
-Optimiz. for Mach. Learning with MATLAB;EOMLM;9114;'Dr. Hossein Moosaei Ph.D.'
-Optimální rozhodování;OPR;9114;'Dr. Hossein Moosaei Ph.D.'
-Optimization;EOTT;9114;'Dr. Hossein Moosaei Ph.D.'
+Matematika v mikroekonomii;MME;9300;'RNDr. Ing. Michaela Tichá Ph.D.'
+Èasové øady;KCAS;9304;'Ing. Ondøej Vozár'
+Èasové øady;CAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+Èasové øady;KCAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.

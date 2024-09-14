@@ -28,6 +28,18 @@ def read_query_params() -> None: #TODO: Parseování stagUser dat
     st.session_state["stagUserName"] = st.query_params["stagUserName"]
     st.session_state["stagRoleName"] = get_best_role(st.query_params["stagUserInfo"])
 
+def get_teachers() -> Dict[int, str]:
+    import polars as pl
+    from xlsx_generator import fetch_csv
+    excel_ucitele = pl.read_csv(fetch_csv("/ciselniky/getCiselnik", params_plus={"domena":"UCITELE"}), separator=";")
+    excel_ucitele.write_csv("source_tables/ciselnik_ucitelu.csv")
+
+    names = excel_ucitele.to_series(excel_ucitele.get_column_index("nazev")).to_list()
+    numbers = excel_ucitele.to_series(excel_ucitele.get_column_index("key")).to_list()
+
+    return {numbers[x]:names[x] for x in range(len(names))}
+
+
 
 # Ok, takže:
 # 1) Tenhle blok kódu si osvěží, jaký všechny pracoviště jsou na UJEPu (na vytvoření jejich seznamu) vždycky, když si někdo otevře tuhle stránku. Velmi neefektivní.
@@ -52,7 +64,7 @@ search_fields = {
 
 # Vygeneruje školní roky až do roku 2010/2011. Dunno proč, prostě to přišlo pod ruku.
 def generate_years() -> List[str]:
-    return [f"{year}/{year + 1}" for year in range(datetime.today().year, 2010, -1)]
+    return [year for year in range(datetime.today().year, 2010, -1)]
 
 # Nastavuje výchozí výběr roku v kolonce výběru roku. Nastaveno na momentální akademický rok, mimo prázdnin, kde už to hází další akademický rok.
 def default_year() -> str:
@@ -104,9 +116,6 @@ with login_container:
     
 st.divider()
 
-if "stagRoleName" in st.session_state.keys():
-    st.write(st.session_state["stagRoleName"])
-
 st.subheader("Vyplňte následující dotazník:") #TODO: Přidat reálnej formulář pomocí st.form.
 
 col1, col2, col3 = st.columns(spec=3, gap="small")
@@ -127,13 +136,14 @@ with col2:
         #target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
     
     elif st.session_state["search_option"] == "Učitel":
-        st.session_state["search_field"] = st.multiselect("Zvolte učitele:",["učitel1","učitel2","učitel3","a tak dále"]) #TODO: Ditto
+        teacher_translator = get_teachers()
+        st.session_state["search_field"] = st.multiselect("Zvolte učitele:",teacher_translator.keys(), format_func=lambda x:teacher_translator[x]) #TODO: Ditto
 
 # Fakulta = st.selectbox("Zvolte fakultu:",["By default","","","","",""])
 # if Fakulta == "By default":
     
 with col3:
-    st.session_state["year"] = st.selectbox(label="Zvolte akademický rok:",options=generate_years(),index=default_year()) #NOTE: Vrací stringy s {první rok}/{druhý rok}. Dají se z toho parseovat actually useful data, ale bylo by milé vrátit actually použitelný formát. No biggie tho.
+    st.session_state["year"] = st.selectbox(label="Zvolte akademický rok:",options=generate_years(),index=default_year(),format_func=lambda x: f"{x}/{x+1}") #NOTE: Vrací stringy s {první rok}/{druhý rok}. Dají se z toho parseovat actually useful data, ale bylo by milé vrátit actually použitelný formát. No biggie tho.
 
 st.subheader("Filtrování typů chyb")
 
@@ -170,7 +180,13 @@ for b in range(num_of_issues - half_issues):
     with cols2[b]: 
         wishes[chyby[b + half_issues]] = st.checkbox(chyby[b + half_issues], value = True) 
 
-st.session_state["lang"] = st.selectbox("Zvolte jazyk:",["čeština","angličtina"])
+lang_translate = {
+    "cs":"Čeština",
+    "en":"Angličtina"
+}
+
+st.session_state["lang"] = st.selectbox("Zvolte jazyk:",lang_translate.keys(), 0, lambda x: lang_translate[x])
+st.write(st.session_state["lang"])
 
 #NOTE: Output format přesunut na stránku Výpis výsledků. Tam je to relevantnější, takže to potom bude méně cluttered.
 #output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
