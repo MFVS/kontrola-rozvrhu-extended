@@ -191,5 +191,8 @@ st.write(st.session_state["lang"])
 #NOTE: Output format přesunut na stránku Výpis výsledků. Tam je to relevantnější, takže to potom bude méně cluttered.
 #output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
 
-if st.button(label="Spustit"):
-    page_escape(wishes)
+if "stagUserTicket" in st.session_state.keys():
+    if st.button(label="Spustit"):
+        page_escape(wishes)
+else:
+    st.warning("Uživatel nepřihlášen.")

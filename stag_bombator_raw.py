@@ -145,7 +145,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
     # Osekané rozvrhové akce
     maly_rozvrh = rozvrh_by_kat.select(["katedra","zkratka", "vsichniUciteleUcitIdno", "typAkceZkr", "rok", "datumOd", "datumDo", "hodinaSkutOd", "hodinaSkutDo"]).with_columns(pl.concat_str(pl.col("zkratka"), pl.col("katedra")).alias("identifier"))
-    if maly_rozvrh.dtypes[maly_rozvrh.get_column_index("vsichniUciteleUcitIdno")] == pl.String:
+    if maly_rozvrh.dtypes[maly_rozvrh.get_column_index("vsichniUciteleUcitIdno")] == pl.List:
         maly_rozvrh = maly_rozvrh.with_columns(pl.col("vsichniUciteleUcitIdno")).explode("vsichniUciteleUcitIdno")
     maly_rozvrh = maly_rozvrh.rename({"vsichniUciteleUcitIdno": "idno"}).filter(pl.col("datumOd").str.len_chars() > 0)
 
@@ -225,7 +225,10 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     uac.convert("results_csv/predmety_kde_garant_neuci"+name_mod+".csv")
 
     # Garant nepřednáší
-    garant_neprednasi = predmety_s_akci.filter(jednotek_prednasek != pl.lit(0)).explode("garantiUcitIdno").with_columns(
+    garant_neprednasi = predmety_s_akci.filter(jednotek_prednasek != pl.lit(0))
+    if garant_neprednasi.dtypes[garant_neprednasi.get_column_index("garantiUcitIdno")] != pl.Int64:
+        garant_neprednasi = garant_neprednasi.explode("garantiUcitIdno")
+    garant_neprednasi = garant_neprednasi.with_columns(
         prednasejici.list.contains(garant).alias("containBool")
     )
 
@@ -254,6 +257,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     ).is_not_null()).with_columns(
         prednasejici.alias("idno")
     )
+
     joined_prednasejici = filtrovani_prednasejici.join(maly_rozvrh, "idno", "left")
     prednasejici_bez_prednasek = joined_prednasejici.filter(pl.col("typAkceZkr").is_null())
     prednasejici_bez_prednasek.select("nazev", "zkratka", "prednasejiciUcitIdno", "jmena").sort("prednasejiciUcitIdno").write_csv("results_csv/prednasejici_bez_prednasek"+name_mod+".csv", separator=";")

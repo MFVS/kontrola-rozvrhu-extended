@@ -1,84 +1,63 @@
 nazev;zkratka;prednasejiciUcitIdno;jmena
-Pokroèilé datové struktury a algoritmy;PDSA;251;'Mgr. Jiøí Fišer Ph.D.
-Pokroèilé datové struktury a algoritmy;KPDSA;251;'Mgr. Jiøí Fišer Ph.D.
-Matematika v mikroekonomii;MME;261;'doc. PaedDr. Petr Eisenmann CSc.
-Pokroèilé numerické metody;KPNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Pokroèilé numerické metody;PNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Teorie automatù a formálních jazykù;KAFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Teorie automatù a formálních jazykù;AFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-Numerické metody;NME;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Numerické metody;XNME;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Soft Computing;SOC;650;'RNDr. Petr Kubera Ph.D.
-Pokroèilé numerické metody;KPNUM;650;'RNDr. Petr Kubera Ph.D.'
-Numerical Methods;ENME;650;'RNDr. Petr Kubera Ph.D.
-Numerické metody;KNME;650;'RNDr. Petr Kubera Ph.D.
-Pokroèilé numerické metody;PNUM;650;'RNDr. Petr Kubera Ph.D.'
-Soft Computing;KSOC;650;'RNDr. Petr Kubera Ph.D.
-Advanced Numerical Methods;EPNUM;650;'RNDr. Petr Kubera Ph.D.'
-Numerické metody;NME;650;'RNDr. Petr Kubera Ph.D.
-Numerické metody;XNME;650;'RNDr. Petr Kubera Ph.D.
-Algoritmy a datové struktury;DSA;835;'Mgr. Kvìtuše Sýkorová
-Algorithms and Data Structures;EDSA;835;'Mgr. Kvìtuše Sýkorová
-Algoritmy a datové struktury;KDSA;835;'Mgr. Kvìtuše Sýkorová
-Kvantitativní management;KVM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Algoritmy a datové struktury;DSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Algorithms and Data Structures;EDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Pokroèilé datové struktury a algoritmy;PDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Projektové øízení a firemní IS;FIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Algoritmy a datové struktury;KDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Projektové øízení a firemní IS;KFIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Základy ekonomie a managementu;ZEM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;EPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;KPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerical Methods;ENME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Data Analysis and Visualisation;EDAV;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;PYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Èasové øady;CAS;2220;'RNDr. Jiøí Škvor Ph.D.
-Numerické metody;KNME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Analýza a vizualizace dat;KAVD;2220;'RNDr. Jiøí Škvor Ph.D.'
-Matematika v mikroekonomii;MME;2220;'RNDr. Jiøí Škvor Ph.D.
+Finanèní matematika;P637;261;'doc. PaedDr. Petr Eisenmann CSc.
+Úvod do matematiky;K111;261;'doc. PaedDr. Petr Eisenmann CSc.
+Matematická analýza II;P229;261;'doc. PaedDr. Petr Eisenmann CSc.
+Úvod do matematiky;P135;261;'doc. PaedDr. Petr Eisenmann CSc.'
+Vybrané partie z matematiky;K216;261;'doc. PaedDr. Petr Eisenmann CSc.'
+Vybrané partie z matematiky;P232;261;'doc. PaedDr. Petr Eisenmann CSc.'
+Odborné prezentace v matematice;K214;261;'doc. PaedDr. Petr Eisenmann CSc.
+Teoretická informatika a matematika;YTIM;261;'doc. PaedDr. Petr Eisenmann CSc.
+Úvod do infinitezimálního poètu;K114;261;'doc. PaedDr. Petr Eisenmann CSc.'
+Matematická analýza II;MA2;261;'doc. PaedDr. Petr Eisenmann CSc.
+Úvod do matematiky;K118;261;'doc. PaedDr. Petr Eisenmann CSc.
+Matematická analýza I;P123;261;'doc. PaedDr. Petr Eisenmann CSc.'
+Úvod do matematiky;P136;261;'doc. PaedDr. Petr Eisenmann CSc.'
+Finanèní matematika;K609;261;'doc. PaedDr. Petr Eisenmann CSc.
+Teoretická informatika a matematika;YTIM;264;'RNDr. Martin Kuøil Ph.D.
+Konstrukèní geometrie;KKGE;267;'PhDr. Jiøí Pøibyl Ph.D.'
+Konstrukèní geometrie;KGE;267;'PhDr. Jiøí Pøibyl Ph.D.'
+Analytická geometrie;AGE;267;'PhDr. Jiøí Pøibyl Ph.D.'
+Lineární algebra a geometrie II;P224;267;'PhDr. Jiøí Pøibyl Ph.D.'
+Teoretická informatika a matematika;YTIM;267;'PhDr. Jiøí Pøibyl Ph.D.'
+Pokroèilé statistické metody pro biology;PSB;425;'PhDr. Magdalena Krátká Ph.D.
+Aplikované výpoèty v ŽP;4AVZP;543;'Mgr. Ing. Petr Novák'
+Aplikované výpoèty v ŽP;3AVZP;543;'Mgr. Ing. Petr Novák'
 Èasové øady;KCAS;2220;'RNDr. Jiøí Škvor Ph.D.
-Computational Geometry;A192;2220;'RNDr. Jiøí Škvor Ph.D.'
-Analýza a vizualizace dat;AVD;2220;'RNDr. Jiøí Škvor Ph.D.'
-Výpoèetní geometrie;0192;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerické metody;NME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Informatika ve fyzice I;IVF1;2220;'RNDr. Jiøí Škvor Ph.D.'
-Pokroèilé datové struktury a algoritmy;KPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Podnikový management a IS;KMIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Informatika ve fyzice II;IVF2;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerické metody;XNME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Podnikový management a IS;MIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Soft Computing;SOC;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Pokroèilé datové struktury a algoritmy;PDSA;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-Numerické metody;KNME;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-Soft Computing;KSOC;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-Pokroèilé datové struktury a algoritmy;KPDSA;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-Algoritmy a datové struktury;DSA;2240;'doc. RNDr. Dr. Karel Oliva
-Algoritmy a datové struktury;KDSA;2240;'doc. RNDr. Dr. Karel Oliva
-Python and R for Data Science;KPYR;3416;'prof. Sergii Babichev DSc.
-Numerical Methods;ENME;3416;'prof. Sergii Babichev DSc.
-Advanced Data Structures and Algorithms;EPDSA;3416;'prof. Sergii Babichev DSc.'
-Python and R for Data Science;PYR;3416;'prof. Sergii Babichev DSc.
-Analýza a vizualizace dat;KAVD;3416;'prof. Sergii Babichev DSc.
-Analýza a vizualizace dat;AVD;3416;'prof. Sergii Babichev DSc.
-Data Analysis and Visualisation;EDAV;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Analýza a vizualizace dat;KAVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Analýza a vizualizace dat;AVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Informatika ve fyzice I;IVF1;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Informatika ve fyzice II;IVF2;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Èasové øady;CAS;4533;'doc. Ing. Jaroslav Sixta Ph.D.
+Èasové øady;CAS;2220;'RNDr. Jiøí Škvor Ph.D.
+Pokroèilé statistické metody;PSM;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Pokroèilé statistické metody;KPSM;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Pokroèilé statistické metody;PSM;3416;'prof. Sergii Babichev DSc.
+Pokroèilé statistické metody;KPSM;3416;'prof. Sergii Babichev DSc.
 Èasové øady;KCAS;4533;'doc. Ing. Jaroslav Sixta Ph.D.
-Python and R for Data Science;EPYR;6259;'RNDr. Jiøí Škvára Ph.D.
-Python and R for Data Science;KPYR;6259;'RNDr. Jiøí Škvára Ph.D.
-Python and R for Data Science;PYR;6259;'RNDr. Jiøí Škvára Ph.D.
-Projektové øízení a firemní IS;FIS;7352;'Ing. Štìpánka Zimová'
-Projektové øízení a firemní IS;KFIS;7352;'Ing. Štìpánka Zimová'
-Podnikový management a IS;KMIS;7352;'Ing. Štìpánka Zimová'
-Podnikový management a IS;MIS;7352;'Ing. Štìpánka Zimová'
-Python and R for Data Science;EPYR;8514;'Ricardo Rodriguez Jorge Ph.D.
-Data Analysis and Visualisation;EDAV;8514;'Ricardo Rodriguez Jorge Ph.D.
-Matematika v mikroekonomii;MME;9300;'RNDr. Ing. Michaela Tichá Ph.D.'
-Èasové øady;CAS;9304;'Ing. Ondøej Vozár'
+Èasové øady;CAS;4533;'doc. Ing. Jaroslav Sixta Ph.D.
+Matematika II;MT2;5205;'RNDr. Veronika Lacková Ph.D.'
+Úvod do matematiky;K111;5205;'RNDr. Veronika Lacková Ph.D.
+Matematická analýza II;P229;5205;'RNDr. Veronika Lacková Ph.D.
+Teoretická informatika a matematika;YTIM;5205;'RNDr. Veronika Lacková Ph.D.
+Matematická analýza II;MA2;5205;'RNDr. Veronika Lacková Ph.D.'
+Úvod do matematiky;K118;5205;'RNDr. Veronika Lacková Ph.D.
+Matematika I;MT1;5205;'RNDr. Veronika Lacková Ph.D.'
+Matematika pro uèitele II;MU2;8035;'doc. PhDr. Ing. Martin Boïa PhD.'
+PVK - Statistika na PC;P507;8035;'doc. PhDr. Ing. Martin Boïa PhD.'
+Pokroèilé statistické metody pro biology;N020;8035;'doc. PhDr. Ing. Martin Boïa PhD.
+Matematika pro uèitele II;KMU2;8035;'doc. PhDr. Ing. Martin Boïa PhD.'
+Pravdìpodobnost a statistika;PST;8035;'doc. PhDr. Ing. Martin Boïa PhD.
+Pravdìpodobnost a statistika II;P521;8035;'doc. PhDr. Ing. Martin Boïa PhD.
+Pravdìpodobnost a statistika;PAS;8035;'doc. PhDr. Ing. Martin Boïa PhD.
+Pravdìpodobnost a statistika II;K512;8035;'doc. PhDr. Ing. Martin Boïa PhD.
+Pravdìpodobnost a statistika II;K512;8750;'Mgr. Bc. Lukáš Tichý'
+Matematika pro uèitele II;MU2;8987;'doc. Yaroslav Bazaykin CSc., DSc.
+Diferenciální geometrie;P321;8987;'doc. Yaroslav Bazaykin CSc., DSc.'
+Diferenciální geometrie;M301;8987;'doc. Yaroslav Bazaykin CSc., DSc.'
+Matematika pro uèitele II;KMU2;8987;'doc. Yaroslav Bazaykin CSc., DSc.
+Diferenciální geometrie;MK301;8987;'doc. Yaroslav Bazaykin CSc., DSc.'
 Èasové øady;KCAS;9304;'Ing. Ondøej Vozár'
-Èasové øady;CAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+Èasové øady;CAS;9304;'Ing. Ondøej Vozár'
+Pokroèilé statistické metody;PSM;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+Pokroèilé statistické metody;KPSM;9488;'Mgr. Alena Èerníková MSc., Ph.D.
 Èasové øady;KCAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+Èasové øady;CAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+Pokroèilé statistické metody pro biology;PSB;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+Pravdìpodobnost a statistika;PST;9488;'Mgr. Alena Èerníková MSc., Ph.D.'
+Statistika v biologii;K115;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+Pravdìpodobnost a statistika;PAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.'

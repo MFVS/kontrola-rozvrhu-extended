@@ -53,7 +53,7 @@ tab_folder = st.tabs(chyby)
 for tab_index,tab in enumerate(tab_folder):
     pre_ansi = ""
     with open("results_csv/"+chyby_translator[chyby[tab_index]]+"_"+st.session_state["stagRoleName"]+".csv", "rb") as file:
-        tab.download_button("Stáhnout csv", file, file_name=chyby[tab_index]+".csv") #TODO: Překonvertovat soubory z utf-8 na ANSI. Jinak to v excelu vyplivne gibberish.
+        tab.download_button("Stáhnout CSV", file, file_name=chyby[tab_index]+".csv") #TODO: Překonvertovat soubory z utf-8 na ANSI. Jinak to v excelu vyplivne gibberish.
     tab.dataframe(pd.read_csv("results_csv/"+chyby_translator[chyby[tab_index]]+"_"+st.session_state["stagRoleName"]+".csv", encoding='ansi', sep=";"))
 
 
