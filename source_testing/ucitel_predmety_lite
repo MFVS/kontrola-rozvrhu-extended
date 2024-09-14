@@ -1,65 +1,85 @@
 zkratka,nazev,katedra,rok,garant,garantPodil,prednasejici,prednasejiciPodil,cvicici,cviciciPodil,seminarici,seminariciPodil,examinator
-BP,Bakalářská práce z informatiky,KI,2024,NE,"",NE,100,NE,100,NE,100,NE
-BPP,Bakalářská práce,KI,2024,NE,"",NE,100,NE,100,NE,100,ANO
-BP2O,Bakalářská práce,KI,2024,NE,"",NE,100,NE,100,NE,100,ANO
-DP2O,Diplomová práce,KI,2024,NE,"",NE,100,NE,100,NE,100,ANO
-KTZI1,Teoretické základy informatiky I,KI,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-KTZI2,Teoretické základy informatiky II,KI,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-TZI,Teoretické základy informatiky,KI,2024,NE,"",ANO,100,NE,100,NE,100,NE
-TZI1,Teoretické základy informatiky I,KI,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-TZI2,Teoretické základy informatiky II,KI,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-XBP,Bakalářská práce z informatiky,KI,2024,NE,"",NE,100,NE,100,NE,100,ANO
-YTIM,Teoretická informatika a matematika,KI,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-0185,Souborný seminář,KI,2024,NE,"",NE,100,NE,100,ANO,100,NE
-AGE,Analytická geometrie,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-BP2O,Bakalářská práce,KMA,2024,NE,"",NE,100,NE,100,NE,100,NE
-DIM,Diskrétní matematika,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-DP2O,Diplomová práce,KMA,2024,NE,"",NE,100,NE,100,NE,100,NE
-DSM,Didaktický seminář,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
-E113,Linear algebra,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-E114,Geometry,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-E117,Introduction to analytic geometry,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-GE1,Geometrie I,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-GE2,Geometrie II,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-KAGE,Analytická geometrie,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-KA00,Diplomová práce z matematiky,KMA,2024,ANO,"",NE,100,NE,100,NE,100,NE
-KDSM,Didaktický seminář,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
-KGE,Konstrukční geometrie,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-KGE1,Geometrie I,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-KGE2,Geometrie II,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-KGR,Kombinatorika a grafy,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-KKGE,Konstrukční geometrie,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-KLTX,Úvod do Latexu,KMA,2024,ANO,100,NE,100,NE,100,ANO,100,NE
-KMU1,Matematika pro učitele I,KMA,2024,NE,"",ANO,30,ANO,30,NE,100,NE
-KZAM,Základy matematiky,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-K103,Základy matematiky,KMA,2024,ANO,100,NE,100,NE,100,NE,100,NE
-K113,Repetitorium matematiky,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-K116,Lineární algebra a geometrie I,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-K212,Lineární algebra a geometrie II,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-K214,Odborné prezentace v matematice,KMA,2024,ANO,100,NE,100,NE,100,NE,100,NE
-K215,Teorie grafů,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-K312,Geometrie,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-K406,Lineární algebra a geometrie II,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-K600,Bakalářská práce z matematiky,KMA,2024,NE,"",NE,100,NE,100,NE,100,NE
-LTX,Úvod do Latexu,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
-MK204,Modelování ve vyučování matematiky,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-MK304,Geometrie na počítači,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-MK401,Využití ICT ve vyučování matematice,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-MU1,Matematika pro učitele I,KMA,2024,NE,"",ANO,30,ANO,30,NE,100,NE
-M204,Modelování ve vyučování matematice,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-M304,Geometrie na počítači,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-M401,Využití IT ve výuce matematiky,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-OPM,Odborné prezentace v matematice,KMA,2024,NE,"",NE,100,NE,100,ANO,100,NE
-P101,Lineární algebra a geometrie I,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-P103,Základy matematiky,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-P113,Repetitorium matematiky,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-P224,Lineární algebra a geometrie II,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-P226,Odborné prezentace v matematice,KMA,2024,ANO,100,NE,100,ANO,100,NE,100,NE
-P227,Teorie grafů,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-P228,Lineární algebra a geometrie II,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-P335,Geometrie,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-P411,Odborné prezentace v matematice,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
-P600,Bakalářská práce z matematiky,KMA,2024,NE,"",NE,100,NE,100,NE,100,NE
-TGR,Kombinatorika a grafy,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-ZAM,Základy matematiky,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
-0156,Úvod do Latexu,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+IVF1,Informatics in Physics I,KFY,2024,NO,"",YES,100,YES,100,NO,100,NO
+IVF2,Informatics in Physics II,KFY,2024,NO,"",YES,100,YES,100,NO,100,NO
+AFJ,Theory of Automata and Formal Languages,KI,2024,NO,"",NO,100,YES,100,NO,100,NO
+AVD,Data Analysis and Visualisation,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+AVG,Applications of Computational Geometry,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+A192,Computational Geometry,KI,2024,YES,100,YES,100,YES,100,NO,100,NO
+BP,Bachelor Thesis,KI,2024,NO,"",NO,100,NO,100,NO,100,NO
+BPP,Bachelor Thesis,KI,2024,NO,"",NO,100,NO,100,NO,100,YES
+BP2O,Bachelor Thesis,KI,2024,NO,"",NO,100,NO,100,NO,100,YES
+DPP,Master´s Thesis,KI,2024,NO,"",NO,100,NO,100,NO,100,YES
+DP2O,Master´s Thesis,KI,2024,NO,"",NO,100,NO,100,NO,100,YES
+DSA,Algorithms and Data Structures,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+EDAV,Data Analysis and Visualisation,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+EDSA,Algorithms and Data Structures,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+ENME,Numerical Methods,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+EPDSA,Advanced Data Structures and Algorithms,KI,2024,NO,"",NO,100,YES,100,NO,100,NO
+EPNUM,Advanced Numerical Methods,KI,2024,NO,"",NO,100,YES,50,NO,100,NO
+EPYR,Python and R for Data Science,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+FIS,Project Management and Enterprise IS,KI,2024,YES,"",YES,100,YES,100,NO,100,NO
+KAFJ,Theory of Automata and Formal Languages,KI,2024,NO,"",NO,100,YES,100,NO,100,NO
+KAVD,Data Analysis and Visualisation,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+KAVG,Applications of Computational Geometry,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+KDSA,Algorithms and Data Structures,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+KFIS,Project Management and Enterprise IS,KI,2024,YES,"",YES,100,YES,100,NO,100,NO
+KMES,Interdisciplinary Relationships,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+KMIS,Management and Information Systems,KI,2024,YES,100,YES,100,NO,100,NO,100,NO
+KNME,Numerical Methods,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+KNUM,Numerical Methods,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+KOPRE,Professional Presentation,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+KPDSA,Advanced Data Structures and Algorithms,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+KPEM,Essentials of Law and Economics for IT,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+KPNUM,Advanced Numerical Methods,KI,2024,NO,"",NO,100,YES,100,NO,100,NO
+KPROJ,Project Seminar,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+KPS1,Project Seminar I,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+KPS2,Project Seminar II,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+KPVS,IT Project Calls and Strategies,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+KPYR,Python and R for Data Science,KI,2024,YES,"",YES,100,YES,100,NO,100,NO
+KSOC,Soft Computing,KI,2024,NO,"",NO,100,YES,100,NO,100,NO
+KSP1,Semester Project I,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+KSP2,Semester Project II,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+KSP3,Semester Project III,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+KUKS,Introduction to combined study,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+KVM,Quantitative Management,KI,2024,YES,100,YES,100,NO,100,NO,100,NO
+KZEK,Fundamentals of Economics,KI,2024,YES,100,NO,100,NO,100,YES,100,NO
+KZZD,Fundamentals of Data Processing,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+MES,Interdisciplinary Relationships,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+MIS,Management and Information Systems,KI,2024,YES,100,YES,100,NO,100,NO,100,NO
+NME,Numerical Methods,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+NUM,Numerical Methods,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+OPRE,Professional Presentation,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+OSIT,IT Workshop,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+PDSA,Advanced Data Structures and Algorithms,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+PEM,Essentials of Law and Economics for IT,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+PNUM,Advanced Numerical Methods,KI,2024,NO,"",NO,100,YES,100,NO,100,NO
+PRAX,Professional Training,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+PREP,Project Presentation,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+PROJ,Project Seminar,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+PS1,Project Seminar I,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+PS2,Project Seminar II,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+PVS,IT Project Calls and Strategies,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+PYR,Python and R for Data Science,KI,2024,YES,"",YES,100,YES,100,NO,100,NO
+SOC,Soft Computing,KI,2024,NO,"",NO,100,YES,100,NO,100,NO
+SP1,Semester Project I,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+SP2,Semester Project II,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+SP3,Semester Project III,KI,2024,NO,"",NO,100,NO,100,YES,100,NO
+XBP,Bachelor Thesis,KI,2024,NO,"",NO,100,NO,100,NO,100,YES
+XNME,Numerical Methods,KI,2024,NO,"",YES,100,YES,100,NO,100,NO
+ZEK,Fundamentals of Economics,KI,2024,YES,100,NO,100,NO,100,YES,100,NO
+ZEM,Fundamentals of Economics and Management,KI,2024,YES,100,YES,100,NO,100,YES,100,NO
+ZZD,Fundamentals of Data Processing,KI,2024,YES,"",NO,100,NO,100,YES,100,NO
+0185,Summary Seminar,KI,2024,YES,100,NO,100,NO,100,YES,100,NO
+0192,Computational Geometry,KI,2024,YES,100,YES,100,YES,100,NO,100,NO
+0200,Trends in IT,KI,2024,YES,"",NO,100,NO,100,NO,100,NO
+AVD2,Corporate Data Analysis and Visual. II,KMA,2024,YES,"",NO,100,NO,100,YES,100,NO
+BP,Bachelor Thesis,KMA,2024,NO,"",NO,100,NO,100,NO,100,NO
+CAS,Time Series,KMA,2024,NO,"",YES,100,NO,100,NO,100,NO
+KAVD2,Corporate Data Analysis and Visual. II,KMA,2024,YES,"",NO,100,NO,100,YES,100,NO
+KCAS,Time Series,KMA,2024,NO,"",YES,100,NO,100,NO,100,NO
+MME,Mathematics in Microeconomics,KMA,2024,NO,"",YES,100,YES,100,NO,100,NO
+PS1,Project Seminar I,KMA,2024,YES,"",NO,100,NO,100,YES,100,NO
+PS2,Project Seminar II,KMA,2024,YES,"",NO,100,NO,100,YES,100,NO
+PS3,Project Seminar III,KMA,2024,YES,"",NO,100,NO,100,YES,100,NO
+PS4,Project Seminar IV,KMA,2024,YES,"",NO,100,NO,100,YES,100,NO
+UDR,Introduction to R Language,KMA,2024,YES,"",NO,100,NO,100,YES,100,NO

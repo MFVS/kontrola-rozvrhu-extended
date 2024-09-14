@@ -3,7 +3,7 @@ from typing import Tuple, Dict, List
 from io import StringIO
 
 # --- LOGIN ---
-# Celá tahle věc je obsolete, celej auth proces se dá dělat přes tickety (ale nechám to tady, kdyby to bylo jindy t)
+# Celá tahle věc je obsolete, celej auth proces se dá dělat přes tickety (ale nechám to tady, kdyby to bylo jindy třeba)
 # def login(over_name:str | None = None, over_pass:str | None = None) -> Tuple[str, str] | None: # Over_name a over_pass jsou override parametry pro účely lazení
 #     import os
 #     from dotenv import load_dotenv

@@ -3,6 +3,16 @@ from typing import List
 import xlsx_generator as tablegen
 import utf_ansi_conv as uac
 
+# Zkratky na přístup k sloupcům
+jednotek_prednasek = pl.col("jednotekPrednasek")
+jednotek_cviceni = pl.col("jednotekCviceni")
+jednotek_seminare = pl.col("jednotekSeminare")
+
+garant = pl.col("garantiUcitIdno")
+cvicici = pl.col("cviciciUcitIdno")
+prednasejici = pl.col("prednasejiciUcitIdno")
+seminarici = pl.col("seminariciUcitIdno")
+
 # --- POMOCNÉ FUNKCE ---
 
 # Abych nebyl nařčen z plagiátorství, zdroj: https://stackoverflow.com/questions/75954280/how-to-change-the-position-of-a-single-column-in-python-polars-library
@@ -155,16 +165,6 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     # Osekané předměty
     male_predmety = predmety_by_kat.with_columns(pl.concat_str(pl.col("zkratka"), pl.col("katedra")).alias("identifier")).select(pl.col(["zkratka", "katedra", "identifier", "rok", "nazev", "garantiUcitIdno", "prednasejici", "prednasejiciUcitIdno","cvicici", "cviciciUcitIdno","seminarici", "seminariciUcitIdno"])).unique(subset="identifier").drop("identifier")
 
-    # Zkratky na přístup k sloupcům
-    jednotek_prednasek = pl.col("jednotekPrednasek")
-    jednotek_cviceni = pl.col("jednotekCviceni")
-    jednotek_seminare = pl.col("jednotekSeminare")
-
-    garant = pl.col("garantiUcitIdno")
-    cvicici = pl.col("cviciciUcitIdno")
-    prednasejici = pl.col("prednasejiciUcitIdno")
-    seminarici = pl.col("seminariciUcitIdno")
-
     # Předměty bez garantů
     zkratky = predmety_s_akci.filter(garant.is_null()).select(["katedra", "zkratka", "identifier", "rok", "nazev", "nazevDlouhy", "garanti", "garantiSPodily"]).filter(
         # Není SZ
@@ -206,120 +206,177 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     uac.convert("results_csv/chybi_seminarici"+name_mod+".csv")
 
     # Předměty kde garant neučí
-    predmety_kgn = predmety_s_akci.filter((jednotek_cviceni != pl.lit(0)) | (jednotek_prednasek != pl.lit(0)) | (jednotek_seminare != pl.lit(0)))
-    if predmety_kgn.dtypes[predmety_kgn.get_column_index("garantiUcitIdno")] == pl.List:
-        predmety_kgn = predmety_kgn.explode("garantiUcitIdno")
-    predmety_kgn = predmety_kgn.with_columns(
-        ((prednasejici.list.contains(garant)) | (cvicici.list.contains(garant)) | (seminarici.list.contains(garant))).alias("containBool")
-    )
+    def garant_doesnt_teach():
+        predmety_kgn = predmety_s_akci.filter((jednotek_cviceni != pl.lit(0)) | (jednotek_prednasek != pl.lit(0)) | (jednotek_seminare != pl.lit(0)))
+        if predmety_kgn.dtypes[predmety_kgn.get_column_index("garantiUcitIdno")] == pl.List:
+            predmety_kgn = predmety_kgn.explode("garantiUcitIdno")
+        predmety_kgn = predmety_kgn.with_columns(
+            ((prednasejici.list.contains(garant)) | (cvicici.list.contains(garant)) | (seminarici.list.contains(garant))).alias("containBool")
+        )
 
-    aggreg_kgn = (
-        predmety_kgn.lazy().group_by("identifier").agg(
-            pl.when(pl.col("containBool") == False).then(garant)
-        ).with_columns(garant.list.drop_nulls()).filter(garant.list.len() > 0)
-    )
+        aggreg_kgn = (
+            predmety_kgn.lazy().group_by("identifier").agg(
+                pl.when(pl.col("containBool") == False).then(garant)
+            ).with_columns(garant.list.drop_nulls()).filter(garant.list.len() > 0)
+        )
 
-    selection = ["identifier","katedra", "zkratka", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "jednotekPrednasek", "jednotekCviceni", "jednotekSeminare"]
-    predmety_kde_garant_neuci = aggreg_kgn.collect().join(predmety_kgn.select(selection), "identifier", "left").drop("identifier")
+        selection = ["identifier","katedra", "zkratka", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "jednotekPrednasek", "jednotekCviceni", "jednotekSeminare"]
+        return aggreg_kgn.collect().join(predmety_kgn.select(selection), "identifier", "left").drop("identifier")
+    
+    predmety_kde_garant_neuci = garant_doesnt_teach()
     prep_csv(predmety_kde_garant_neuci).write_csv("results_csv/predmety_kde_garant_neuci"+name_mod+".csv", separator=";")
     uac.convert("results_csv/predmety_kde_garant_neuci"+name_mod+".csv")
 
     # Garant nepřednáší
-    garant_neprednasi = predmety_s_akci.filter(jednotek_prednasek != pl.lit(0))
-    if garant_neprednasi.dtypes[garant_neprednasi.get_column_index("garantiUcitIdno")] != pl.Int64:
-        garant_neprednasi = garant_neprednasi.explode("garantiUcitIdno")
-    garant_neprednasi = garant_neprednasi.with_columns(
-        prednasejici.list.contains(garant).alias("containBool")
-    )
+    def garant_doesnt_lecture():
+        garant_neprednasi = predmety_s_akci.filter(jednotek_prednasek != pl.lit(0))
+        if garant_neprednasi.dtypes[garant_neprednasi.get_column_index("garantiUcitIdno")] != pl.Int64:
+            garant_neprednasi = garant_neprednasi.explode("garantiUcitIdno")
+        garant_neprednasi = garant_neprednasi.with_columns(
+            prednasejici.list.contains(garant).alias("containBool")
+        )
 
-    #print(garant_neprednasi.select("containBool", "garantiUcitIdno").head())
+        #print(garant_neprednasi.select("containBool", "garantiUcitIdno").head())
 
-    aggregation = (
-        garant_neprednasi.lazy().group_by("identifier").agg(
-            #pl.col("identifier"),
-            pl.when(pl.col("containBool") == False).then(garant)
-        ).with_columns(garant.list.drop_nulls()).filter(garant.list.len() > 0)
-    )
+        aggregation = (
+            garant_neprednasi.lazy().group_by("identifier").agg(
+                #pl.col("identifier"),
+                pl.when(pl.col("containBool") == False).then(garant)
+            ).with_columns(garant.list.drop_nulls()).filter(garant.list.len() > 0)
+        )
 
-    garant_neprednasi_post = aggregation.collect().join(garant_neprednasi.select("katedra", "zkratka","prednasejiciUcitIdno", "identifier", "jednotekPrednasek"), "identifier", "left").drop("identifier")
+        return aggregation.collect().join(garant_neprednasi.select("katedra", "zkratka","prednasejiciUcitIdno", "identifier", "jednotekPrednasek"), "identifier", "left").drop("identifier")
 
     # garant_neprednasi.write_excel("results_xlsx/garant_neprednasi.xlsx")
-    garant_neprednasi_csv = prep_csv(garant_neprednasi_post)
+    garant_neprednasi_csv = prep_csv(garant_doesnt_lecture())
     garant_neprednasi_csv.write_csv("results_csv/garant_neprednasi"+name_mod+".csv", separator=";")
     uac.convert("results_csv/garant_neprednasi"+name_mod+".csv")
 
-    # přednášející nemá přednášku:
-    filtrovani_prednasejici = male_predmety.select("nazev", "zkratka", "prednasejiciUcitIdno").explode("prednasejiciUcitIdno")
-    prednasejici_jmena = male_predmety.select("prednasejici").rename({"prednasejici":"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
-    prednasejici_jmena = prednasejici_jmena.with_columns(pl.col("jmena").str.replace(",", ""))
-    filtrovani_prednasejici = filtrovani_prednasejici.with_columns(prednasejici_jmena).filter(
-        pl.col("prednasejiciUcitIdno"
-    ).is_not_null()).with_columns(
-        prednasejici.alias("idno")
-    )
+    def all_no_scheduled_events():
+        def no_scheduled_events(sought_field:str):
+            st_id = sought_field + "UcitIdno"
+            filtrovani_prednasejici = male_predmety.select("nazev", "zkratka", st_id).explode(st_id)
+            prednasejici_jmena = male_predmety.select(sought_field).rename({sought_field:"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
+            prednasejici_jmena = prednasejici_jmena.with_columns(pl.col("jmena").str.replace(",", ""))
+            filtrovani_prednasejici = filtrovani_prednasejici.with_columns(prednasejici_jmena).filter(
+                pl.col(st_id
+            ).is_not_null()).with_columns(
+                pl.col(st_id).alias("idno")
+            )
 
-    joined_prednasejici = filtrovani_prednasejici.join(maly_rozvrh, "idno", "left")
-    prednasejici_bez_prednasek = joined_prednasejici.filter(pl.col("typAkceZkr").is_null())
-    prednasejici_bez_prednasek.select("nazev", "zkratka", "prednasejiciUcitIdno", "jmena").sort("prednasejiciUcitIdno").write_csv("results_csv/prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
-    uac.convert("results_csv/prednasejici_bez_prednasek"+name_mod+".csv")
+            joined_prednasejici = filtrovani_prednasejici.join(maly_rozvrh, "idno", "left")
+            prednasejici_bez_prednasek = joined_prednasejici.filter(pl.col("typAkceZkr").is_null())
+            return prednasejici_bez_prednasek.select("nazev", "zkratka", st_id, "jmena").sort(st_id)
+        
+        prednasky = no_scheduled_events("prednasejici")
+        prednasky.write_csv("results_csv/prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
+        uac.convert("results_csv/prednasejici_bez_prednasek"+name_mod+".csv")
+
+        cviceni = no_scheduled_events("cvicici")
+        cviceni.write_csv("results_csv/cvicici_bez_cviceni"+name_mod+".csv", separator=";")
+        uac.convert("results_csv/cvicici_bez_cviceni"+name_mod+".csv")
+
+        seminare = no_scheduled_events("seminarici")
+        seminare.write_csv("results_csv/seminarici_bez_seminare"+name_mod+".csv", separator=";")
+        uac.convert("results_csv/seminarici_bez_seminare"+name_mod+".csv")
+
+    all_no_scheduled_events()
+
+    # přednášející nemá přednášku:
+    # filtrovani_prednasejici = male_predmety.select("nazev", "zkratka", "prednasejiciUcitIdno").explode("prednasejiciUcitIdno")
+    # prednasejici_jmena = male_predmety.select("prednasejici").rename({"prednasejici":"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
+    # prednasejici_jmena = prednasejici_jmena.with_columns(pl.col("jmena").str.replace(",", ""))
+    # filtrovani_prednasejici = filtrovani_prednasejici.with_columns(prednasejici_jmena).filter(
+    #     pl.col("prednasejiciUcitIdno"
+    # ).is_not_null()).with_columns(
+    #     prednasejici.alias("idno")
+    # )
+
+    # joined_prednasejici = filtrovani_prednasejici.join(maly_rozvrh, "idno", "left")
+    # prednasejici_bez_prednasek = joined_prednasejici.filter(pl.col("typAkceZkr").is_null())
+    # prednasejici_bez_prednasek.select("nazev", "zkratka", "prednasejiciUcitIdno", "jmena").sort("prednasejiciUcitIdno").write_csv("results_csv/prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
+    # uac.convert("results_csv/prednasejici_bez_prednasek"+name_mod+".csv")
+
+    def all_not_in_sylabus():
+        def not_in_sylabus(sought_field:str, abbriviation:str):
+            st_id = sought_field + "UcitIdno"
+            male_prednasky = maly_rozvrh.filter(pl.col("typAkceZkr") == abbriviation)
+            joined_prednasky = male_prednasky.join(male_predmety.select("zkratka", "katedra", "nazev", sought_field, st_id), "zkratka", "left").unique()
+            prednasky_bez_prednasejicich = joined_prednasky.filter(pl.col("idno").is_in(pl.col(st_id)).not_() & ((pl.col("katedra") == pl.col("katedra_right")) | pl.col("katedra_right").is_null()))
+
+            return prednasky_bez_prednasejicich.join(ciselnik_ucitelu, "idno", "left").with_columns(pl.col(st_id).cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
+        
+        prednasky = not_in_sylabus(sought_field="prednasejici", abbriviation="Př")
+        prednasky.write_csv("results_csv/prednasky_bez_prednasejicich"+name_mod+".csv", separator=";")
+        uac.convert("results_csv/prednasky_bez_prednasejicich"+name_mod+".csv")
+
+        cviceni = not_in_sylabus(sought_field="cvicici", abbriviation="Cv")
+        cviceni.write_csv("results_csv/cviceni_bez_cvicich"+name_mod+".csv", separator=";")
+        uac.convert("results_csv/cviceni_bez_cvicich"+name_mod+".csv")
+
+        seminare = not_in_sylabus(sought_field="seminarici", abbriviation="Se")
+        seminare.write_csv("results_csv/seminare_bez_seminaricich"+name_mod+".csv", separator=";")
+        uac.convert("results_csv/seminare_bez_seminaricich"+name_mod+".csv")
+
+    all_not_in_sylabus()
 
     # Přednášející není v seznamu přednášejících ze sylabu
-    male_prednasky = maly_rozvrh.filter(pl.col("typAkceZkr") == "Př")
-    joined_prednasky = male_prednasky.join(male_predmety.select("zkratka", "katedra", "nazev", "prednasejici", "prednasejiciUcitIdno"), "zkratka", "left").unique()
-    prednasky_bez_prednasejicich = joined_prednasky.filter(pl.col("idno").is_in(prednasejici).not_() & ((pl.col("katedra") == pl.col("katedra_right")) | pl.col("katedra_right").is_null()))
+    # male_prednasky = maly_rozvrh.filter(pl.col("typAkceZkr") == "Př")
+    # joined_prednasky = male_prednasky.join(male_predmety.select("zkratka", "katedra", "nazev", "prednasejici", "prednasejiciUcitIdno"), "zkratka", "left").unique()
+    # prednasky_bez_prednasejicich = joined_prednasky.filter(pl.col("idno").is_in(prednasejici).not_() & ((pl.col("katedra") == pl.col("katedra_right")) | pl.col("katedra_right").is_null()))
 
-    prednasky_bez_prednasejicich = prednasky_bez_prednasejicich.join(ciselnik_ucitelu, "idno", "left").with_columns(prednasejici.cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
+    # prednasky_bez_prednasejicich = prednasky_bez_prednasejicich.join(ciselnik_ucitelu, "idno", "left").with_columns(prednasejici.cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
 
-    prednasky_bez_prednasejicich.write_csv("results_csv/prednasky_bez_prednasejicich"+name_mod+".csv", separator=";")
-    uac.convert("results_csv/prednasky_bez_prednasejicich"+name_mod+".csv")
+    # prednasky_bez_prednasejicich.write_csv("results_csv/prednasky_bez_prednasejicich"+name_mod+".csv", separator=";")
+    # uac.convert("results_csv/prednasky_bez_prednasejicich"+name_mod+".csv")
 
     # cvičící nemá cvičení:
-    filtrovani_cvicici = male_predmety.select("nazev", "zkratka", "cviciciUcitIdno").explode("cviciciUcitIdno")
-    cvicici_jmena = male_predmety.select("cvicici").rename({"cvicici":"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
-    cvicici_jmena = cvicici_jmena.with_columns(pl.col("jmena").str.replace(",", ""))
-    filtrovani_cvicici = filtrovani_cvicici.with_columns(cvicici_jmena).filter(
-        pl.col("cviciciUcitIdno"
-    ).is_not_null()).with_columns(
-        cvicici.alias("idno")
-    )
-    joined_cvicici = filtrovani_cvicici.join(maly_rozvrh, "idno", "left")
-    cvicici_bez_cviceni = joined_cvicici.filter(pl.col("typAkceZkr").is_null())
-    cvicici_bez_cviceni.select("nazev", "zkratka", "cviciciUcitIdno", "jmena").sort("cviciciUcitIdno").write_csv("results_csv/cvicici_bez_cviceni"+name_mod+".csv", separator=";")
-    uac.convert("results_csv/cvicici_bez_cviceni"+name_mod+".csv")
+    # filtrovani_cvicici = male_predmety.select("nazev", "zkratka", "cviciciUcitIdno").explode("cviciciUcitIdno")
+    # cvicici_jmena = male_predmety.select("cvicici").rename({"cvicici":"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
+    # cvicici_jmena = cvicici_jmena.with_columns(pl.col("jmena").str.replace(",", ""))
+    # filtrovani_cvicici = filtrovani_cvicici.with_columns(cvicici_jmena).filter(
+    #     pl.col("cviciciUcitIdno"
+    # ).is_not_null()).with_columns(
+    #     cvicici.alias("idno")
+    # )
+    # joined_cvicici = filtrovani_cvicici.join(maly_rozvrh, "idno", "left")
+    # cvicici_bez_cviceni = joined_cvicici.filter(pl.col("typAkceZkr").is_null())
+    # cvicici_bez_cviceni.select("nazev", "zkratka", "cviciciUcitIdno", "jmena").sort("cviciciUcitIdno").write_csv("results_csv/cvicici_bez_cviceni"+name_mod+".csv", separator=";")
+    # uac.convert("results_csv/cvicici_bez_cviceni"+name_mod+".csv")
 
     # cvičicí není v sylabu
-    male_cviceni = maly_rozvrh.filter(pl.col("typAkceZkr") == "Cv")
-    joined_cviceni = male_cviceni.join(male_predmety.select("zkratka", "katedra", "nazev", "cvicici", "cviciciUcitIdno"), "zkratka", "left").unique()
-    cviceni_bez_cvicich = joined_cviceni.filter(pl.col("idno").is_in(cvicici).not_() & ((pl.col("katedra") == pl.col("katedra_right")) | pl.col("katedra_right").is_null()))
+    # male_cviceni = maly_rozvrh.filter(pl.col("typAkceZkr") == "Cv")
+    # joined_cviceni = male_cviceni.join(male_predmety.select("zkratka", "katedra", "nazev", "cvicici", "cviciciUcitIdno"), "zkratka", "left").unique()
+    # cviceni_bez_cvicich = joined_cviceni.filter(pl.col("idno").is_in(cvicici).not_() & ((pl.col("katedra") == pl.col("katedra_right")) | pl.col("katedra_right").is_null()))
 
-    cviceni_bez_cvicich = cviceni_bez_cvicich.join(ciselnik_ucitelu, "idno", "left").with_columns(cvicici.cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
+    # cviceni_bez_cvicich = cviceni_bez_cvicich.join(ciselnik_ucitelu, "idno", "left").with_columns(cvicici.cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
 
-    cviceni_bez_cvicich.write_csv("results_csv/cviceni_bez_cvicich"+name_mod+".csv", separator=";")
-    uac.convert("results_csv/cviceni_bez_cvicich"+name_mod+".csv")
+    # cviceni_bez_cvicich.write_csv("results_csv/cviceni_bez_cvicich"+name_mod+".csv", separator=";")
+    # uac.convert("results_csv/cviceni_bez_cvicich"+name_mod+".csv")
 
     # seminařicí nemá seminář:
-    filtrovani_seminarici = male_predmety.select("nazev", "zkratka", "seminariciUcitIdno").explode("seminariciUcitIdno")
-    seminarici_jmena = male_predmety.select("seminarici").rename({"seminarici":"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
-    seminarici_jmena = seminarici_jmena.with_columns(pl.col("jmena").str.replace(",", ""))
-    filtrovani_seminarici = filtrovani_seminarici.with_columns(seminarici_jmena).filter(
-        pl.col("seminariciUcitIdno"
-    ).is_not_null()).with_columns(
-        seminarici.alias("idno")
-    )
-    joined_seminarici = filtrovani_seminarici.join(maly_rozvrh, "idno", "left")
-    seminarici_bez_seminare = joined_seminarici.filter(pl.col("typAkceZkr").is_null())
-    seminarici_bez_seminare.select("nazev", "zkratka", "seminariciUcitIdno", "jmena").sort("seminariciUcitIdno").write_csv("results_csv/seminarici_bez_seminare"+name_mod+".csv", separator=";")
-    uac.convert("results_csv/seminarici_bez_seminare"+name_mod+".csv")
+    # filtrovani_seminarici = male_predmety.select("nazev", "zkratka", "seminariciUcitIdno").explode("seminariciUcitIdno")
+    # seminarici_jmena = male_predmety.select("seminarici").rename({"seminarici":"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
+    # seminarici_jmena = seminarici_jmena.with_columns(pl.col("jmena").str.replace(",", ""))
+    # filtrovani_seminarici = filtrovani_seminarici.with_columns(seminarici_jmena).filter(
+    #     pl.col("seminariciUcitIdno"
+    # ).is_not_null()).with_columns(
+    #     seminarici.alias("idno")
+    # )
+    # joined_seminarici = filtrovani_seminarici.join(maly_rozvrh, "idno", "left")
+    # seminarici_bez_seminare = joined_seminarici.filter(pl.col("typAkceZkr").is_null())
+    # seminarici_bez_seminare.select("nazev", "zkratka", "seminariciUcitIdno", "jmena").sort("seminariciUcitIdno").write_csv("results_csv/seminarici_bez_seminare"+name_mod+".csv", separator=";")
+    # uac.convert("results_csv/seminarici_bez_seminare"+name_mod+".csv")
 
     # seminařicí není v sylabu:
-    male_seminare = maly_rozvrh.filter(pl.col("typAkceZkr") == "Se")
-    joined_seminare = male_seminare.join(male_predmety.select("zkratka", "katedra", "nazev", "seminarici", "seminariciUcitIdno"), "zkratka", "left").unique()
-    seminare_bez_seminaricich = joined_seminare.filter(pl.col("idno").is_in(seminarici).not_() & ((pl.col("katedra") == pl.col("katedra_right")) | pl.col("katedra_right").is_null()))
+    # male_seminare = maly_rozvrh.filter(pl.col("typAkceZkr") == "Se")
+    # joined_seminare = male_seminare.join(male_predmety.select("zkratka", "katedra", "nazev", "seminarici", "seminariciUcitIdno"), "zkratka", "left").unique()
+    # seminare_bez_seminaricich = joined_seminare.filter(pl.col("idno").is_in(seminarici).not_() & ((pl.col("katedra") == pl.col("katedra_right")) | pl.col("katedra_right").is_null()))
 
-    seminare_bez_seminaricich = seminare_bez_seminaricich.join(ciselnik_ucitelu, "idno", "left").with_columns(seminarici.cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
+    # seminare_bez_seminaricich = seminare_bez_seminaricich.join(ciselnik_ucitelu, "idno", "left").with_columns(seminarici.cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
 
-    seminare_bez_seminaricich.write_csv("results_csv/seminare_bez_seminaricich"+name_mod+".csv", separator=";")
-    uac.convert("results_csv/seminare_bez_seminaricich"+name_mod+".csv")
+    # seminare_bez_seminaricich.write_csv("results_csv/seminare_bez_seminaricich"+name_mod+".csv", separator=";")
+    # uac.convert("results_csv/seminare_bez_seminaricich"+name_mod+".csv")
 
     #...zabijte mne...
 

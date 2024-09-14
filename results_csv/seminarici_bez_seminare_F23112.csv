@@ -1,8 +1,103 @@
 nazev;zkratka;seminariciUcitIdno;jmena
-Souborný semináø;0185;251;'Mgr. Jiøí Fišer Ph.D.
-Odborné prezentace v matematice;OPM;261;'doc. PaedDr. Petr Eisenmann CSc.
-Souborný semináø;0185;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Souborný semináø;0185;650;'RNDr. Petr Kubera Ph.D.
-Souborný semináø;0185;2220;'RNDr. Jiøí Škvor Ph.D.'
-Souborný semináø;0185;2317;'Ing. Pavel Kuba Ph.D.
-Souborný semináø;0185;2776;'RNDr. Jan Krejèí Ph.D.
+Project Seminar;PROJ;251;'Mgr. Jiøí Fišer Ph.D.
+IT Workshop;OSIT;251;'Mgr. Jiøí Fišer Ph.D.
+Semester Project I;KSP1;251;'Mgr. Jiøí Fišer Ph.D.
+Project Seminar;KPROJ;251;'Mgr. Jiøí Fišer Ph.D.
+Summary Seminar;0185;251;'Mgr. Jiøí Fišer Ph.D.
+Introduction to combined study;KUKS;251;'Mgr. Jiøí Fišer Ph.D.
+Semester Project I;SP1;251;'Mgr. Jiøí Fišer Ph.D.
+Semester Project II;KSP2;251;'Mgr. Jiøí Fišer Ph.D.
+Semester Project II;SP2;251;'Mgr. Jiøí Fišer Ph.D.
+Trends in IT;0200;251;'Mgr. Jiøí Fišer Ph.D.'
+Summary Seminar;0185;267;'PhDr. Jiøí Pøibyl Ph.D.
+Semester Project I;KSP1;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Numerical Methods;NUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Summary Seminar;0185;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Semester Project II;KSP2;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Semester Project II;SP2;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Numerical Methods;KNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Fundamentals of Data Processing;ZZD;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Fundamentals of Data Processing;KZZD;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Semester Project I;KSP1;650;'RNDr. Petr Kubera Ph.D.
+Summary Seminar;0185;650;'RNDr. Petr Kubera Ph.D.
+Semester Project I;SP1;650;'RNDr. Petr Kubera Ph.D.
+Semester Project II;KSP2;650;'RNDr. Petr Kubera Ph.D.
+Semester Project II;SP2;650;'RNDr. Petr Kubera Ph.D.
+Semester Project III;SP3;650;'RNDr. Petr Kubera Ph.D.
+Semester Project III;KSP3;650;'RNDr. Petr Kubera Ph.D.
+Fundamentals of Data Processing;ZZD;835;'Mgr. Kvìtuše Sýkorová
+Fundamentals of Data Processing;KZZD;835;'Mgr. Kvìtuše Sýkorová
+Interdisciplinary Relationships;MES;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Seminar;PROJ;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Seminar II;PS2;2220;'RNDr. Jiøí Škvor Ph.D.'
+Applications of Computational Geometry;KAVG;2220;'RNDr. Jiøí Škvor Ph.D.'
+Introduction to R Language;UDR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Seminar II;PS2;2220;'RNDr. Jiøí Škvor Ph.D.'
+Corporate Data Analysis and Visual. II;KAVD2;2220;'RNDr. Jiøí Škvor Ph.D.
+IT Workshop;OSIT;2220;'RNDr. Jiøí Škvor Ph.D.'
+Semester Project I;KSP1;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Seminar;KPROJ;2220;'RNDr. Jiøí Škvor Ph.D.'
+Professional Presentation;KOPRE;2220;'RNDr. Jiøí Škvor Ph.D.'
+Professional Training;PRAX;2220;'RNDr. Jiøí Škvor Ph.D.'
+IT Project Calls and Strategies;PVS;2220;'RNDr. Jiøí Škvor Ph.D.'
+Corporate Data Analysis and Visual. II;AVD2;2220;'RNDr. Jiøí Škvor Ph.D.
+Project Seminar I;KPS1;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Seminar I;PS1;2220;'RNDr. Jiøí Škvor Ph.D.'
+Essentials of Law and Economics for IT;PEM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Essentials of Law and Economics for IT;KPEM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerical Methods;NUM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Applications of Computational Geometry;AVG;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Seminar II;KPS2;2220;'RNDr. Jiøí Škvor Ph.D.'
+Summary Seminar;0185;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Seminar I;PS1;2220;'RNDr. Jiøí Škvor Ph.D.'
+Introduction to combined study;KUKS;2220;'RNDr. Jiøí Škvor Ph.D.'
+Semester Project I;SP1;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Seminar III;PS3;2220;'RNDr. Jiøí Škvor Ph.D.'
+Semester Project II;KSP2;2220;'RNDr. Jiøí Škvor Ph.D.'
+Semester Project II;SP2;2220;'RNDr. Jiøí Škvor Ph.D.'
+Semester Project III;SP3;2220;'RNDr. Jiøí Škvor Ph.D.'
+Semester Project III;KSP3;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Seminar IV;PS4;2220;'RNDr. Jiøí Škvor Ph.D.'
+Fundamentals of Economics and Management;ZEM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Fundamentals of Economics;ZEK;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerical Methods;KNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Interdisciplinary Relationships;KMES;2220;'RNDr. Jiøí Škvor Ph.D.'
+Fundamentals of Data Processing;ZZD;2220;'RNDr. Jiøí Škvor Ph.D.'
+Fundamentals of Economics;KZEK;2220;'RNDr. Jiøí Škvor Ph.D.'
+Professional Presentation;OPRE;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Presentation;PREP;2220;'RNDr. Jiøí Škvor Ph.D.'
+Fundamentals of Data Processing;KZZD;2220;'RNDr. Jiøí Škvor Ph.D.'
+IT Project Calls and Strategies;KPVS;2220;'RNDr. Jiøí Škvor Ph.D.'
+IT Workshop;OSIT;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
+Summary Seminar;0185;2317;'Ing. Pavel Kuba Ph.D.
+Project Seminar;PROJ;2776;'RNDr. Jan Krejèí Ph.D.
+IT Workshop;OSIT;2776;'RNDr. Jan Krejèí Ph.D.
+Semester Project I;KSP1;2776;'RNDr. Jan Krejèí Ph.D.
+Project Seminar;KPROJ;2776;'RNDr. Jan Krejèí Ph.D.
+Professional Training;PRAX;2776;'RNDr. Jan Krejèí Ph.D.
+Summary Seminar;0185;2776;'RNDr. Jan Krejèí Ph.D.
+Semester Project I;SP1;2776;'RNDr. Jan Krejèí Ph.D.
+Semester Project II;KSP2;2776;'RNDr. Jan Krejèí Ph.D.
+Semester Project II;SP2;2776;'RNDr. Jan Krejèí Ph.D.
+Introduction to R Language;UDR;3188;'Mgr. Lucie Loukotová
+Corporate Data Analysis and Visual. II;KAVD2;3188;'Mgr. Lucie Loukotová
+Corporate Data Analysis and Visual. II;AVD2;3188;'Mgr. Lucie Loukotová
+Time Series;KCAS;3188;'Mgr. Lucie Loukotová'
+Project Seminar;PROJ;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Semester Project I;KSP1;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Project Seminar;KPROJ;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Semester Project I;SP1;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Semester Project II;KSP2;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Semester Project II;SP2;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Semester Project III;SP3;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Semester Project III;KSP3;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Introduction to R Language;UDR;6259;'RNDr. Jiøí Škvára Ph.D.
+Fundamentals of Data Processing;ZZD;6259;'RNDr. Jiøí Škvára Ph.D.
+Fundamentals of Data Processing;KZZD;6259;'RNDr. Jiøí Škvára Ph.D.
+Corporate Data Analysis and Visual. II;KAVD2;7352;'Ing. Štìpánka Zimová'
+Corporate Data Analysis and Visual. II;AVD2;7352;'Ing. Štìpánka Zimová'
+Professional Presentation;KOPRE;8514;'Ricardo Rodriguez Jorge Ph.D.
+Professional Presentation;OPRE;8514;'Ricardo Rodriguez Jorge Ph.D.
+Professional Presentation;KOPRE;9114;'Dr. Hossein Moosaei Ph.D.
+Professional Presentation;OPRE;9114;'Dr. Hossein Moosaei Ph.D.
+Time Series;KCAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.

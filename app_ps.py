@@ -87,6 +87,18 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+# Schování sidebaru
+st.markdown(
+    """
+<style>
+    [data-testid="collapsedControl"] {
+        display: none
+    }
+</style>
+""",
+    unsafe_allow_html=True,
+)
+
 title_container, login_container = st.columns(spec=[0.8, 0.2])
 
 # Nadpis
@@ -137,7 +149,7 @@ with col2:
     
     elif st.session_state["search_option"] == "Učitel":
         teacher_translator = get_teachers()
-        st.session_state["search_field"] = st.multiselect("Zvolte učitele:",teacher_translator.keys(), format_func=lambda x:teacher_translator[x]) #TODO: Ditto
+        st.session_state["search_field"] = st.multiselect("Zvolte učitele:",teacher_translator.keys(), format_func=lambda x:f"{teacher_translator[x]} ({str(x)})") #TODO: Ditto
 
 # Fakulta = st.selectbox("Zvolte fakultu:",["By default","","","","",""])
 # if Fakulta == "By default":
@@ -186,7 +198,6 @@ lang_translate = {
 }
 
 st.session_state["lang"] = st.selectbox("Zvolte jazyk:",lang_translate.keys(), 0, lambda x: lang_translate[x])
-st.write(st.session_state["search_field"])
 
 #NOTE: Output format přesunut na stránku Výpis výsledků. Tam je to relevantnější, takže to potom bude méně cluttered.
 #output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])

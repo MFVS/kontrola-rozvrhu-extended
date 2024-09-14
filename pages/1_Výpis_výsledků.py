@@ -44,9 +44,13 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
-st.header("Výpis chyb")
+col1, col2 = st.columns([0.8,0.2])
 
-#TODO: Tlačítko na stažení všech souborů
+with col1:
+    st.header("Výpis chyb")
+with col2:
+    if st.button("Zpět"):
+        st.switch_page("app_ps.py")
 
 tab_folder = st.tabs(chyby)
 

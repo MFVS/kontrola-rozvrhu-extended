@@ -1,25 +1,84 @@
 nazev;zkratka;prednasejiciUcitIdno;jmena
-Teoretická informatika a matematika;YTIM;261;'doc. PaedDr. Petr Eisenmann CSc.
-Odborné prezentace v matematice;K214;261;'doc. PaedDr. Petr Eisenmann CSc.
-Diskrétní matematika;DIM;264;'RNDr. Martin Kuøil Ph.D.'
-Teoretická informatika a matematika;YTIM;264;'RNDr. Martin Kuøil Ph.D.
-Kombinatorika a grafy;TGR;264;'RNDr. Martin Kuøil Ph.D.'
-Lineární algebra a geometrie I;P101;264;'RNDr. Martin Kuøil Ph.D.'
-Matematika pro uèitele I;KMU1;264;'RNDr. Martin Kuøil Ph.D.
-Teoretické základy informatiky II;TZI2;264;'RNDr. Martin Kuøil Ph.D.
-Matematika pro uèitele I;MU1;264;'RNDr. Martin Kuøil Ph.D.
-Teorie grafù;K215;264;'RNDr. Martin Kuøil Ph.D.
-Teoretické základy informatiky II;KTZI2;264;'RNDr. Martin Kuøil Ph.D.
-Kombinatorika a grafy;KGR;264;'RNDr. Martin Kuøil Ph.D.'
-Lineární algebra a geometrie I;P101;425;'PhDr. Magdalena Krátká Ph.D.
-Lineární algebra a geometrie I;K116;425;'PhDr. Magdalena Krátká Ph.D.'
-Teoretické základy informatiky;TZI;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Odborné prezentace v matematice;K214;3188;'Mgr. Lucie Loukotová'
-Teoretická informatika a matematika;YTIM;5205;'RNDr. Veronika Lacková Ph.D.
-Matematika pro uèitele I;KMU1;5205;'RNDr. Veronika Lacková Ph.D.
-Matematika pro uèitele I;MU1;5205;'RNDr. Veronika Lacková Ph.D.
-Základy matematiky;P103;8677;'Mgr. Jiøí Rozkovec'
-Geometrie;K312;8748;'RNDr. Lenka Juklová Ph.D.
-Geometrie;P335;8748;'RNDr. Lenka Juklová Ph.D.
-Matematika pro uèitele I;KMU1;8987;'doc. Yaroslav Bazaykin CSc., DSc.
-Matematika pro uèitele I;MU1;8987;'doc. Yaroslav Bazaykin CSc., DSc.
+Advanced Data Structures and Algorithms;KPDSA;251;'Mgr. Jiøí Fišer Ph.D.
+Advanced Data Structures and Algorithms;PDSA;251;'Mgr. Jiøí Fišer Ph.D.
+Mathematics in Microeconomics;MME;261;'doc. PaedDr. Petr Eisenmann CSc.
+Numerical Methods;XNME;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Advanced Numerical Methods;PNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Theory of Automata and Formal Languages;KAFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
+Numerical Methods;NME;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Theory of Automata and Formal Languages;AFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
+Advanced Numerical Methods;KPNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Numerical Methods;XNME;650;'RNDr. Petr Kubera Ph.D.
+Numerical Methods;ENME;650;'RNDr. Petr Kubera Ph.D.
+Advanced Numerical Methods;EPNUM;650;'RNDr. Petr Kubera Ph.D.'
+Soft Computing;KSOC;650;'RNDr. Petr Kubera Ph.D.
+Numerical Methods;KNME;650;'RNDr. Petr Kubera Ph.D.
+Advanced Numerical Methods;PNUM;650;'RNDr. Petr Kubera Ph.D.'
+Numerical Methods;NME;650;'RNDr. Petr Kubera Ph.D.
+Advanced Numerical Methods;KPNUM;650;'RNDr. Petr Kubera Ph.D.'
+Soft Computing;SOC;650;'RNDr. Petr Kubera Ph.D.
+Algorithms and Data Structures;KDSA;835;'Mgr. Kvìtuše Sýkorová
+Algorithms and Data Structures;EDSA;835;'Mgr. Kvìtuše Sýkorová
+Algorithms and Data Structures;DSA;835;'Mgr. Kvìtuše Sýkorová
+Python and R for Data Science;EPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Python and R for Data Science;PYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Time Series;CAS;2220;'RNDr. Jiøí Škvor Ph.D.
+Numerical Methods;XNME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Informatics in Physics I;IVF1;2220;'RNDr. Jiøí Škvor Ph.D.'
+Python and R for Data Science;KPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
+Computational Geometry;0192;2220;'RNDr. Jiøí Škvor Ph.D.'
+Management and Information Systems;KMIS;2220;'RNDr. Jiøí Škvor Ph.D.
+Numerical Methods;ENME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Algorithms and Data Structures;KDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Algorithms and Data Structures;EDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Data Analysis and Visualisation;AVD;2220;'RNDr. Jiøí Škvor Ph.D.'
+Informatics in Physics II;IVF2;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerical Methods;KNME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Algorithms and Data Structures;DSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Data Analysis and Visualisation;EDAV;2220;'RNDr. Jiøí Škvor Ph.D.'
+Quantitative Management;KVM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Project Management and Enterprise IS;FIS;2220;'RNDr. Jiøí Škvor Ph.D.
+Fundamentals of Economics and Management;ZEM;2220;'RNDr. Jiøí Škvor Ph.D.'
+Advanced Data Structures and Algorithms;KPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Management and Information Systems;MIS;2220;'RNDr. Jiøí Škvor Ph.D.
+Advanced Data Structures and Algorithms;PDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
+Numerical Methods;NME;2220;'RNDr. Jiøí Škvor Ph.D.'
+Mathematics in Microeconomics;MME;2220;'RNDr. Jiøí Škvor Ph.D.
+Computational Geometry;A192;2220;'RNDr. Jiøí Škvor Ph.D.'
+Time Series;KCAS;2220;'RNDr. Jiøí Škvor Ph.D.
+Project Management and Enterprise IS;KFIS;2220;'RNDr. Jiøí Škvor Ph.D.
+Data Analysis and Visualisation;KAVD;2220;'RNDr. Jiøí Škvor Ph.D.'
+Soft Computing;KSOC;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Numerical Methods;KNME;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
+Advanced Data Structures and Algorithms;KPDSA;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
+Advanced Data Structures and Algorithms;PDSA;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
+Soft Computing;SOC;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+Algorithms and Data Structures;KDSA;2240;'doc. RNDr. Dr. Karel Oliva
+Algorithms and Data Structures;DSA;2240;'doc. RNDr. Dr. Karel Oliva
+Python and R for Data Science;PYR;3416;'prof. Sergii Babichev DSc.
+Python and R for Data Science;KPYR;3416;'prof. Sergii Babichev DSc.
+Numerical Methods;ENME;3416;'prof. Sergii Babichev DSc.
+Data Analysis and Visualisation;AVD;3416;'prof. Sergii Babichev DSc.
+Advanced Data Structures and Algorithms;EPDSA;3416;'prof. Sergii Babichev DSc.'
+Data Analysis and Visualisation;KAVD;3416;'prof. Sergii Babichev DSc.
+Informatics in Physics I;IVF1;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Data Analysis and Visualisation;AVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Informatics in Physics II;IVF2;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Data Analysis and Visualisation;EDAV;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Data Analysis and Visualisation;KAVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+Time Series;CAS;4533;'doc. Ing. Jaroslav Sixta Ph.D.
+Time Series;KCAS;4533;'doc. Ing. Jaroslav Sixta Ph.D.
+Python and R for Data Science;EPYR;6259;'RNDr. Jiøí Škvára Ph.D.
+Python and R for Data Science;PYR;6259;'RNDr. Jiøí Škvára Ph.D.
+Python and R for Data Science;KPYR;6259;'RNDr. Jiøí Škvára Ph.D.
+Management and Information Systems;KMIS;7352;'Ing. Štìpánka Zimová'
+Project Management and Enterprise IS;FIS;7352;'Ing. Štìpánka Zimová'
+Management and Information Systems;MIS;7352;'Ing. Štìpánka Zimová'
+Project Management and Enterprise IS;KFIS;7352;'Ing. Štìpánka Zimová'
+Python and R for Data Science;EPYR;8514;'Ricardo Rodriguez Jorge Ph.D.
+Data Analysis and Visualisation;EDAV;8514;'Ricardo Rodriguez Jorge Ph.D.
+Mathematics in Microeconomics;MME;9300;'RNDr. Ing. Michaela Tichá Ph.D.'
+Time Series;CAS;9304;'Ing. Ondøej Vozár'
+Time Series;KCAS;9304;'Ing. Ondøej Vozár'
+Time Series;CAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+Time Series;KCAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
