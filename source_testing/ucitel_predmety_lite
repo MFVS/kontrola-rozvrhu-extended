@@ -1,64 +1,65 @@
 zkratka,nazev,katedra,rok,garant,garantPodil,prednasejici,prednasejiciPodil,cvicici,cviciciPodil,seminarici,seminariciPodil,examinator
-N020,Pokročilé statistické metody pro biology,KBI,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-B101,Kvantitativní metody,KGEO,2024,NE,"",NE,100,ANO,100,NE,100,NE
-3AVZP,Aplikované výpočty v ŽP,KGI,2024,NE,"",ANO,40,NE,0,NE,100,NE
-4AVZP,Aplikované výpočty v ŽP,KGI,2024,NE,"",ANO,40,NE,100,NE,100,NE
-K406,Úvod do teorie měření,KCH,2024,ANO,"",NE,100,ANO,100,NE,100,NE
-P214,Úvod do teorie měření,KCH,2024,ANO,"",NE,100,ANO,100,NE,100,NE
-YTIM,Teoretická informatika a matematika,KI,2024,NE,"",NE,100,ANO,100,NE,100,NE
-AGE,Analytická geometrie,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-AVD1,Analýza a vizualizace podnikových dat I,KMA,2024,NE,"",NE,100,NE,100,ANO,100,NE
-AVD2,Analýza a vizualizace podnikových dat II,KMA,2024,NE,"",NE,100,NE,100,ANO,100,NE
-AVD3,Analýza a vizualizace podnik. dat III,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
-AVD4,Analýza a vizualizace podnik. dat IV,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
+BP,Bakalářská práce z informatiky,KI,2024,NE,"",NE,100,NE,100,NE,100,NE
+BPP,Bakalářská práce,KI,2024,NE,"",NE,100,NE,100,NE,100,ANO
+BP2O,Bakalářská práce,KI,2024,NE,"",NE,100,NE,100,NE,100,ANO
+DP2O,Diplomová práce,KI,2024,NE,"",NE,100,NE,100,NE,100,ANO
+KTZI1,Teoretické základy informatiky I,KI,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+KTZI2,Teoretické základy informatiky II,KI,2024,NE,"",ANO,100,ANO,100,NE,100,NE
+TZI,Teoretické základy informatiky,KI,2024,NE,"",ANO,100,NE,100,NE,100,NE
+TZI1,Teoretické základy informatiky I,KI,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+TZI2,Teoretické základy informatiky II,KI,2024,NE,"",ANO,100,ANO,100,NE,100,NE
+XBP,Bakalářská práce z informatiky,KI,2024,NE,"",NE,100,NE,100,NE,100,ANO
+YTIM,Teoretická informatika a matematika,KI,2024,NE,"",ANO,100,ANO,100,NE,100,NE
+0185,Souborný seminář,KI,2024,NE,"",NE,100,NE,100,ANO,100,NE
+AGE,Analytická geometrie,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
 BP2O,Bakalářská práce,KMA,2024,NE,"",NE,100,NE,100,NE,100,NE
-CAS,Časové řady,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
+DIM,Diskrétní matematika,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
 DP2O,Diplomová práce,KMA,2024,NE,"",NE,100,NE,100,NE,100,NE
-KAVD1,Analýza a vizualizace podnikových dat I,KMA,2024,NE,"",NE,100,NE,100,ANO,100,NE
-KAVD2,Analýza a vizualizace podnikových dat II,KMA,2024,NE,"",NE,100,NE,100,ANO,100,NE
-KCAS,Časové řady,KMA,2024,NE,"",NE,100,ANO,100,ANO,100,NE
-KGE,Konstrukční geometrie,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-KKGE,Konstrukční geometrie,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-KMU2,Matematika pro učitele II,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-KPRM,Praktikum z matematiky pro chemiky,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
-KPSM,Pokročilé statistické metody,KMA,2024,NE,"",NE,100,ANO,100,ANO,100,NE
-KSTB,Statistika v biologii,KMA,2024,NE,"",NE,0,ANO,100,NE,0,NE
-KUSW,Úvod do matematického softwaru,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
-KUTM,Úvod do teorie měření,KMA,2024,ANO,"",NE,100,ANO,100,NE,100,NE
-K111,Úvod do matematiky,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
+DSM,Didaktický seminář,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
+E113,Linear algebra,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+E114,Geometry,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+E117,Introduction to analytic geometry,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+GE1,Geometrie I,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+GE2,Geometrie II,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+KAGE,Analytická geometrie,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+KA00,Diplomová práce z matematiky,KMA,2024,ANO,"",NE,100,NE,100,NE,100,NE
+KDSM,Didaktický seminář,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
+KGE,Konstrukční geometrie,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+KGE1,Geometrie I,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+KGE2,Geometrie II,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+KGR,Kombinatorika a grafy,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
+KKGE,Konstrukční geometrie,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+KLTX,Úvod do Latexu,KMA,2024,ANO,100,NE,100,NE,100,ANO,100,NE
+KMU1,Matematika pro učitele I,KMA,2024,NE,"",ANO,30,ANO,30,NE,100,NE
+KZAM,Základy matematiky,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+K103,Základy matematiky,KMA,2024,ANO,100,NE,100,NE,100,NE,100,NE
 K113,Repetitorium matematiky,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-K114,Úvod do infinitezimálního počtu,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-K115,Statistika v biologii,KMA,2024,ANO,"",ANO,100,NE,0,NE,0,NE
-K118,Úvod do matematiky,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-K214,Odborné prezentace v matematice,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-K216,Vybrané partie z matematiky,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-K512,Pravděpodobnost a statistika II,KMA,2024,NE,"",ANO,100,ANO,100,NE,0,NE
-K609,Finanční matematika,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-MA2,Matematická analýza II,KMA,2024,NE,"",NE,100,NE,100,ANO,100,NE
-MK301,Diferenciální geometrie,KMA,2024,NE,"",NE,0,ANO,100,NE,0,NE
-MT1,Matematika I,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-MT2,Matematika II,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-MU2,Matematika pro učitele II,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-M301,Diferenciální geometrie,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-PAS,Pravděpodobnost a statistika,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-PRAX,Praxe,KMA,2024,NE,"",NE,100,NE,100,ANO,50,NE
-PRM,Praktikum z matematiky pro chemiky,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
-PSB,Pokročilé statistické metody pro biology,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-PSM,Pokročilé statistické metody,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-PST,Pravděpodobnost a statistika,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
+K116,Lineární algebra a geometrie I,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
+K212,Lineární algebra a geometrie II,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+K214,Odborné prezentace v matematice,KMA,2024,ANO,100,NE,100,NE,100,NE,100,NE
+K215,Teorie grafů,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
+K312,Geometrie,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+K406,Lineární algebra a geometrie II,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+K600,Bakalářská práce z matematiky,KMA,2024,NE,"",NE,100,NE,100,NE,100,NE
+LTX,Úvod do Latexu,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
+MK204,Modelování ve vyučování matematiky,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+MK304,Geometrie na počítači,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+MK401,Využití ICT ve vyučování matematice,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+MU1,Matematika pro učitele I,KMA,2024,NE,"",ANO,30,ANO,30,NE,100,NE
+M204,Modelování ve vyučování matematice,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+M304,Geometrie na počítači,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+M401,Využití IT ve výuce matematiky,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+OPM,Odborné prezentace v matematice,KMA,2024,NE,"",NE,100,NE,100,ANO,100,NE
+P101,Lineární algebra a geometrie I,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
+P103,Základy matematiky,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
 P113,Repetitorium matematiky,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-P123,Matematická analýza I,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-P135,Úvod do matematiky,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-P136,Úvod do matematiky,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-P137,Statistika v biologii,KMA,2024,ANO,"",ANO,100,NE,0,NE,0,NE
-P224,Lineární algebra a geometrie II,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-P229,Matematická analýza II,KMA,2024,NE,"",ANO,100,NE,100,NE,100,NE
-P232,Vybrané partie z matematiky,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-P321,Diferenciální geometrie,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
-P507,PVK - Statistika na PC,KMA,2024,NE,"",NE,0,ANO,100,NE,0,NE
-P521,Pravděpodobnost a statistika II,KMA,2024,NE,"",ANO,100,ANO,100,NE,0,NE
-P637,Finanční matematika,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
-STB,Statistika v biologii,KMA,2024,ANO,"",NE,0,ANO,100,NE,0,NE
-UDR,Úvod od jazyka R,KMA,2024,NE,"",NE,100,NE,100,ANO,100,NE
-USW,Úvod do matematického softwaru,KMA,2024,ANO,"",NE,100,NE,100,ANO,100,NE
-UTM,Úvod do teorie měření,KMA,2024,ANO,"",NE,100,ANO,100,NE,100,NE
+P224,Lineární algebra a geometrie II,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+P226,Odborné prezentace v matematice,KMA,2024,ANO,100,NE,100,ANO,100,NE,100,NE
+P227,Teorie grafů,KMA,2024,NE,"",ANO,100,ANO,100,NE,100,NE
+P228,Lineární algebra a geometrie II,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+P335,Geometrie,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+P411,Odborné prezentace v matematice,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE
+P600,Bakalářská práce z matematiky,KMA,2024,NE,"",NE,100,NE,100,NE,100,NE
+TGR,Kombinatorika a grafy,KMA,2024,NE,"",NE,100,ANO,100,NE,100,NE
+ZAM,Základy matematiky,KMA,2024,ANO,"",ANO,100,ANO,100,NE,100,NE
+0156,Úvod do Latexu,KMA,2024,ANO,100,ANO,100,ANO,100,NE,100,NE

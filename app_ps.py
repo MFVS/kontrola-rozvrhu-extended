@@ -186,13 +186,15 @@ lang_translate = {
 }
 
 st.session_state["lang"] = st.selectbox("Zvolte jazyk:",lang_translate.keys(), 0, lambda x: lang_translate[x])
-st.write(st.session_state["lang"])
+st.write(st.session_state["search_field"])
 
 #NOTE: Output format přesunut na stránku Výpis výsledků. Tam je to relevantnější, takže to potom bude méně cluttered.
 #output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
 
-if "stagUserTicket" in st.session_state.keys():
+if "stagUserTicket" not in st.session_state.keys():
+    st.warning("Uživatel nepřihlášen.")
+elif st.session_state["search_field"] == []:
+    st.warning("Hledaný termín nevybrán.")
+else:
     if st.button(label="Spustit"):
         page_escape(wishes)
-else:
-    st.warning("Uživatel nepřihlášen.")

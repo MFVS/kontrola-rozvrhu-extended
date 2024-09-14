@@ -1,82 +1,55 @@
 nazev;zkratka;cviciciUcitIdno;jmena
-Finanèní matematika;P637;261;'doc. PaedDr. Petr Eisenmann CSc.
-Úvod do matematiky;K111;261;'doc. PaedDr. Petr Eisenmann CSc.
-Matematická analýza II;P229;261;'doc. PaedDr. Petr Eisenmann CSc.
-Úvod do matematiky;P135;261;'doc. PaedDr. Petr Eisenmann CSc.
-Vybrané partie z matematiky;K216;261;'doc. PaedDr. Petr Eisenmann CSc.
-Vybrané partie z matematiky;P232;261;'doc. PaedDr. Petr Eisenmann CSc.
-Odborné prezentace v matematice;K214;261;'doc. PaedDr. Petr Eisenmann CSc.
+Odborné prezentace v matematice;P226;261;'doc. PaedDr. Petr Eisenmann CSc.
 Repetitorium matematiky;P113;261;'doc. PaedDr. Petr Eisenmann CSc.
-Úvod do infinitezimálního poètu;K114;261;'doc. PaedDr. Petr Eisenmann CSc.
-Matematická analýza II;MA2;261;'doc. PaedDr. Petr Eisenmann CSc.
-Úvod do matematiky;K118;261;'doc. PaedDr. Petr Eisenmann CSc.
-Matematická analýza I;P123;261;'doc. PaedDr. Petr Eisenmann CSc.
-Úvod do matematiky;P136;261;'doc. PaedDr. Petr Eisenmann CSc.
-Finanèní matematika;K609;261;'doc. PaedDr. Petr Eisenmann CSc.
-Repetitorium matematiky;K113;264;'RNDr. Martin Kuøil Ph.D.
+Odborné prezentace v matematice;K214;261;'doc. PaedDr. Petr Eisenmann CSc.
+Matematika pro uèitele I;MU1;263;'Mgr. Pavla Hofmanová
+Diskrétní matematika;DIM;264;'RNDr. Martin Kuøil Ph.D.
 Teoretická informatika a matematika;YTIM;264;'RNDr. Martin Kuøil Ph.D.
 Repetitorium matematiky;P113;264;'RNDr. Martin Kuøil Ph.D.
-Konstrukèní geometrie;KKGE;267;'PhDr. Jiøí Pøibyl Ph.D.'
-Konstrukèní geometrie;KGE;267;'PhDr. Jiøí Pøibyl Ph.D.'
-Repetitorium matematiky;K113;267;'PhDr. Jiøí Pøibyl Ph.D.'
-Analytická geometrie;AGE;267;'PhDr. Jiøí Pøibyl Ph.D.'
-Lineární algebra a geometrie II;P224;267;'PhDr. Jiøí Pøibyl Ph.D.'
-Teoretická informatika a matematika;YTIM;267;'PhDr. Jiøí Pøibyl Ph.D.'
-Repetitorium matematiky;P113;267;'PhDr. Jiøí Pøibyl Ph.D.'
-Repetitorium matematiky;K113;425;'PhDr. Magdalena Krátká Ph.D.
+Lineární algebra a geometrie I;P101;264;'RNDr. Martin Kuøil Ph.D.
+Matematika pro uèitele I;KMU1;264;'RNDr. Martin Kuøil Ph.D.
+Teoretické základy informatiky II;TZI2;264;'RNDr. Martin Kuøil Ph.D.
+Matematika pro uèitele I;MU1;264;'RNDr. Martin Kuøil Ph.D.
+Teorie grafù;K215;264;'RNDr. Martin Kuøil Ph.D.
+Teoretické základy informatiky II;KTZI2;264;'RNDr. Martin Kuøil Ph.D.
+Kombinatorika a grafy;KGR;264;'RNDr. Martin Kuøil Ph.D.
+Repetitorium matematiky;K113;264;'RNDr. Martin Kuøil Ph.D.
+Teorie grafù;P227;264;'RNDr. Martin Kuøil Ph.D.
+Geometrie;K312;269;'Mgr. Petr Rys'
+Geometrie;P335;269;'Mgr. Petr Rys'
 Repetitorium matematiky;P113;425;'PhDr. Magdalena Krátká Ph.D.
-Pokroèilé statistické metody pro biology;PSB;425;'PhDr. Magdalena Krátká Ph.D.
-Repetitorium matematiky;K113;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
+Základy matematiky;ZAM;425;'PhDr. Magdalena Krátká Ph.D.
+Lineární algebra a geometrie I;P101;425;'PhDr. Magdalena Krátká Ph.D.
+Lineární algebra a geometrie I;K116;425;'PhDr. Magdalena Krátká Ph.D.
+Repetitorium matematiky;K113;425;'PhDr. Magdalena Krátká Ph.D.
 Repetitorium matematiky;P113;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Aplikované výpoèty v ŽP;4AVZP;543;'Mgr. Ing. Petr Novák'
-Aplikované výpoèty v ŽP;3AVZP;543;'Mgr. Ing. Petr Novák'
+Repetitorium matematiky;K113;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
 Repetitorium matematiky;P113;650;'RNDr. Petr Kubera Ph.D.
-Repetitorium matematiky;K113;1803;'doc. Ing. Jaromír Havlica Ph.D.
+Základy matematiky;K103;1108;'prof. RNDr. Jiøí Cihláø CSc.'
 Repetitorium matematiky;P113;1803;'doc. Ing. Jaromír Havlica Ph.D.
+Repetitorium matematiky;K113;1803;'doc. Ing. Jaromír Havlica Ph.D.
+Geometrie II;GE2;2228;'Mgr. Lenka Cibochová
+Geometrie I;GE1;2228;'Mgr. Lenka Cibochová
 Analytická geometrie;AGE;2228;'Mgr. Lenka Cibochová
-Pokroèilé statistické metody;PSM;3416;'prof. Sergii Babichev DSc.
-Pokroèilé statistické metody;KPSM;3416;'prof. Sergii Babichev DSc.
-Èasové øady;KCAS;4533;'doc. Ing. Jaroslav Sixta Ph.D.
-Repetitorium matematiky;K113;4680;'Mgr. Jindøich Matoušek Ph.D.
+Lineární algebra a geometrie II;P224;3188;'Mgr. Lucie Loukotová
+Konstrukèní geometrie;KGE;3188;'Mgr. Lucie Loukotová
+Teoretická informatika a matematika;YTIM;3188;'Mgr. Lucie Loukotová
+Repetitorium matematiky;P113;3188;'Mgr. Lucie Loukotová
+Odborné prezentace v matematice;K214;3188;'Mgr. Lucie Loukotová'
+Analytická geometrie;AGE;3188;'Mgr. Lucie Loukotová
+Konstrukèní geometrie;KKGE;3188;'Mgr. Lucie Loukotová
+Repetitorium matematiky;K113;3188;'Mgr. Lucie Loukotová
 Repetitorium matematiky;P113;4680;'Mgr. Jindøich Matoušek Ph.D.
-Matematika II;MT2;5205;'RNDr. Veronika Lacková Ph.D.
-Úvod do matematiky;K111;5205;'RNDr. Veronika Lacková Ph.D.
-Matematická analýza II;P229;5205;'RNDr. Veronika Lacková Ph.D.'
-Úvod do matematiky;P135;5205;'RNDr. Veronika Lacková Ph.D.
-Repetitorium matematiky;K113;5205;'RNDr. Veronika Lacková Ph.D.
+Repetitorium matematiky;K113;4680;'Mgr. Jindøich Matoušek Ph.D.
 Teoretická informatika a matematika;YTIM;5205;'RNDr. Veronika Lacková Ph.D.
 Repetitorium matematiky;P113;5205;'RNDr. Veronika Lacková Ph.D.
-Matematická analýza II;MA2;5205;'RNDr. Veronika Lacková Ph.D.'
-Úvod do matematiky;K118;5205;'RNDr. Veronika Lacková Ph.D.
-Matematická analýza I;P123;5205;'RNDr. Veronika Lacková Ph.D.
-Úvod do matematiky;P136;5205;'RNDr. Veronika Lacková Ph.D.
-Matematika I;MT1;5205;'RNDr. Veronika Lacková Ph.D.
-Aplikované výpoèty v ŽP;4AVZP;7283;'Mgr. Pavlína Mimrová
-Aplikované výpoèty v ŽP;3AVZP;7283;'Mgr. Pavlína Mimrová
-Pokroèilé statistické metody pro biology;N020;8035;'doc. PhDr. Ing. Martin Boïa PhD.
-Matematika pro uèitele II;KMU2;8035;'doc. PhDr. Ing. Martin Boïa PhD.
-Pravdìpodobnost a statistika;PST;8035;'doc. PhDr. Ing. Martin Boïa PhD.
-Pravdìpodobnost a statistika II;P521;8035;'doc. PhDr. Ing. Martin Boïa PhD.
-Pravdìpodobnost a statistika;PAS;8035;'doc. PhDr. Ing. Martin Boïa PhD.
-Pravdìpodobnost a statistika II;K512;8035;'doc. PhDr. Ing. Martin Boïa PhD.
-Vybrané partie z matematiky;P232;8677;'Mgr. Jiøí Rozkovec'
-Repetitorium matematiky;K113;8741;'Mgr. Jana Kasperová
+Matematika pro uèitele I;KMU1;5205;'RNDr. Veronika Lacková Ph.D.
+Matematika pro uèitele I;MU1;5205;'RNDr. Veronika Lacková Ph.D.
+Základy matematiky;P103;5205;'RNDr. Veronika Lacková Ph.D.
+Repetitorium matematiky;K113;5205;'RNDr. Veronika Lacková Ph.D.
+Teorie grafù;P227;5205;'RNDr. Veronika Lacková Ph.D.
+Základy matematiky;P103;8677;'Mgr. Jiøí Rozkovec'
 Repetitorium matematiky;P113;8741;'Mgr. Jana Kasperová
-Matematika I;MT1;8741;'Mgr. Jana Kasperová
-Pravdìpodobnost a statistika II;K512;8750;'Mgr. Bc. Lukáš Tichý'
-Matematika pro uèitele II;MU2;8987;'doc. Yaroslav Bazaykin CSc., DSc.
-Diferenciální geometrie;P321;8987;'doc. Yaroslav Bazaykin CSc., DSc.
-Diferenciální geometrie;M301;8987;'doc. Yaroslav Bazaykin CSc., DSc.
-Matematika pro uèitele II;KMU2;8987;'doc. Yaroslav Bazaykin CSc., DSc.
-Diferenciální geometrie;MK301;8987;'doc. Yaroslav Bazaykin CSc., DSc.
-Èasové øady;KCAS;9304;'Ing. Ondøej Vozár'
-Pokroèilé statistické metody;PSM;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Statistika v biologii;STB;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Úvod do teorie mìøení;UTM;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Statistika v biologii;KSTB;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Pokroèilé statistické metody;KPSM;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Èasové øady;KCAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Èasové øady;CAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Pokroèilé statistické metody pro biology;PSB;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Pravdìpodobnost a statistika;PST;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Pravdìpodobnost a statistika;PAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+Repetitorium matematiky;K113;8741;'Mgr. Jana Kasperová
+Matematika pro uèitele I;KMU1;8987;'doc. Yaroslav Bazaykin CSc., DSc.
+Základy matematiky;ZAM;9300;'RNDr. Ing. Michaela Tichá Ph.D.'

@@ -104,7 +104,7 @@ def null_out(dataframe:"pl.DataFrame", columns:List[str]) -> "pl.DataFrame":
 
 # ----- FUNKCE GENERUJÍCÍ CSV -----
 
-def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, file_id:str = "katedra") -> Dict[str, str]: # Vrací jméno souboru
+def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, lang:str = "cs", file_id:str = "katedra") -> Dict[str, str]: # Vrací jméno souboru
     assert stag_user != None, "This requires the user to login."
 
     params_rozvrh = {
@@ -114,12 +114,12 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
         "jenRozvrhoveAkce":"true",
         "vsechnyAkce":"false",
         "jenBudouciAkce":"false",
-        "lang":"cs",
+        "lang":lang,
         "katedra":katedra,
         "rok":year
     }
     params_predmety = {
-        "lang":"cs",
+        "lang":lang,
         "katedra":katedra,
         "jenNabizeneECTSPrijezdy":"false",
         "rok":year
@@ -140,7 +140,7 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
 
     return file_names
 
-def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, file_id:str = "fakulta") -> Dict[str, str]:
+def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, lang:str = "cs", file_id:str = "fakulta") -> Dict[str, str]:
     # Malá poznámka: Neexistuje (minimálně jsem jej nenašel) způsob jak získat rozvrh fakulty, takže procházím rozvrh všech kateder a lepím je na sebe Herkulesem
     assert stag_user != None, "This requires the user to login."
 
@@ -165,12 +165,12 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
         "jenRozvrhoveAkce":"true",
         "vsechnyAkce":"false",
         "jenBudouciAkce":"false",
-        "lang":"cs",
+        "lang":lang,
         "katedra":loner,
         "rok":year
     }
     params_predmety = {
-        "lang":"cs",
+        "lang":lang,
         "fakulta":fakulta,
         "jenNabizeneECTSPrijezdy":"false",
         "rok":year
@@ -217,7 +217,7 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
     return file_names
     
 
-def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, file_id: str = "ucitel") -> Dict[str, str]: # Tady se dějou nějaký weird věci... Znovu se na to koukni a porovnej to s tím jak handleuješ fakultu.
+def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, lang:str = "cs", file_id: str = "ucitel") -> Dict[str, str]: # Tady se dějou nějaký weird věci... Znovu se na to koukni a porovnej to s tím jak handleuješ fakultu.
     assert stag_user != None, "This requires the user to login."
 
     file_names = {
@@ -233,12 +233,12 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
         "jenRozvrhoveAkce":"true",
         "vsechnyAkce":"false",
         "jenBudouciAkce":"false",
-        "lang":"cs",
+        "lang":lang,
         "ucitIdno":id_ucitele,
         "rok":year
     }
     params_predmety = {
-        "lang":"cs",
+        "lang":lang,
         "ucitIdno":id_ucitele,
         "jenCoMajiVyuku":True,
         "rok":year
@@ -257,7 +257,7 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
     loner = katedry_list.pop(0)
 
     params_kat_predmety = {
-        "lang":"cs",
+        "lang":lang,
         "katedra":loner,
         "jenNabizeneECTSPrijezdy":"false",
         "rok":year
@@ -312,7 +312,7 @@ def pull_data(search_type:str, search_target:str, stag_user:str, ticket_over:str
         "Učitel":ucitel
     }
 
-    return search_areas[search_type](search_target, ticket, auth, year, stag_user=stag_user, file_id=stag_user)
+    return search_areas[search_type](search_target, ticket, auth, year, stag_user=stag_user, file_id=stag_user, lang=lang)
 
 # ----------
 
