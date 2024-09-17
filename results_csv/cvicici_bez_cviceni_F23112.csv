@@ -1,85 +1,71 @@
-nazev;zkratka;cviciciUcitIdno;jmena
-Advanced Data Structures and Algorithms;EPDSA;251;'Mgr. Jiøí Fišer Ph.D.
-Advanced Data Structures and Algorithms;KPDSA;251;'Mgr. Jiøí Fišer Ph.D.
-Advanced Data Structures and Algorithms;PDSA;251;'Mgr. Jiøí Fišer Ph.D.
-Mathematics in Microeconomics;MME;261;'doc. PaedDr. Petr Eisenmann CSc.
-Advanced Numerical Methods;EPNUM;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Theory of Automata and Formal Languages;KAFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Theory of Automata and Formal Languages;AFJ;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-Numerical Methods;XNME;650;'RNDr. Petr Kubera Ph.D.
-Numerical Methods;ENME;650;'RNDr. Petr Kubera Ph.D.
-Soft Computing;KSOC;650;'RNDr. Petr Kubera Ph.D.
-Numerical Methods;KNME;650;'RNDr. Petr Kubera Ph.D.
-Advanced Numerical Methods;PNUM;650;'RNDr. Petr Kubera Ph.D.
-Numerical Methods;NME;650;'RNDr. Petr Kubera Ph.D.
-Advanced Numerical Methods;KPNUM;650;'RNDr. Petr Kubera Ph.D.
-Soft Computing;SOC;650;'RNDr. Petr Kubera Ph.D.
-Numerical Methods;XNME;835;'Mgr. Kvìtuše Sýkorová
-Algorithms and Data Structures;KDSA;835;'Mgr. Kvìtuše Sýkorová
-Algorithms and Data Structures;EDSA;835;'Mgr. Kvìtuše Sýkorová
-Algorithms and Data Structures;DSA;835;'Mgr. Kvìtuše Sýkorová
-Advanced Data Structures and Algorithms;KPDSA;835;'Mgr. Kvìtuše Sýkorová
-Advanced Data Structures and Algorithms;PDSA;835;'Mgr. Kvìtuše Sýkorová
-Numerical Methods;NME;835;'Mgr. Kvìtuše Sýkorová
-Python and R for Data Science;EPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;PYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerical Methods;XNME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Informatics in Physics I;IVF1;2220;'RNDr. Jiøí Škvor Ph.D.'
-Python and R for Data Science;KPYR;2220;'RNDr. Jiøí Škvor Ph.D.'
-Computational Geometry;0192;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerical Methods;ENME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Advanced Numerical Methods;EPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Algorithms and Data Structures;KDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Algorithms and Data Structures;EDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Data Analysis and Visualisation;AVD;2220;'RNDr. Jiøí Škvor Ph.D.'
-Informatics in Physics II;IVF2;2220;'RNDr. Jiøí Škvor Ph.D.'
-Soft Computing;KSOC;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerical Methods;KNME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Algorithms and Data Structures;DSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Data Analysis and Visualisation;EDAV;2220;'RNDr. Jiøí Škvor Ph.D.'
-Advanced Data Structures and Algorithms;EPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Project Management and Enterprise IS;FIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Advanced Numerical Methods;PNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Advanced Data Structures and Algorithms;KPDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Theory of Automata and Formal Languages;KAFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
-Advanced Data Structures and Algorithms;PDSA;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerical Methods;NME;2220;'RNDr. Jiøí Škvor Ph.D.'
-Theory of Automata and Formal Languages;AFJ;2220;'RNDr. Jiøí Škvor Ph.D.'
-Mathematics in Microeconomics;MME;2220;'RNDr. Jiøí Škvor Ph.D.
-Computational Geometry;A192;2220;'RNDr. Jiøí Škvor Ph.D.'
-Advanced Numerical Methods;KPNUM;2220;'RNDr. Jiøí Škvor Ph.D.'
-Soft Computing;SOC;2220;'RNDr. Jiøí Škvor Ph.D.'
-Project Management and Enterprise IS;KFIS;2220;'RNDr. Jiøí Škvor Ph.D.
-Data Analysis and Visualisation;KAVD;2220;'RNDr. Jiøí Škvor Ph.D.'
-Numerical Methods;KNME;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-Advanced Data Structures and Algorithms;EPDSA;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-Management and Information Systems;MIS;2317;'Ing. Pavel Kuba Ph.D.'
-Time Series;CAS;3188;'Mgr. Lucie Loukotová'
-Time Series;KCAS;3188;'Mgr. Lucie Loukotová
-Python and R for Data Science;PYR;3416;'prof. Sergii Babichev DSc.
-Python and R for Data Science;KPYR;3416;'prof. Sergii Babichev DSc.
-Numerical Methods;ENME;3416;'prof. Sergii Babichev DSc.
-Data Analysis and Visualisation;AVD;3416;'prof. Sergii Babichev DSc.
-Soft Computing;KSOC;3416;'prof. Sergii Babichev DSc.
-Soft Computing;SOC;3416;'prof. Sergii Babichev DSc.
-Data Analysis and Visualisation;KAVD;3416;'prof. Sergii Babichev DSc.
-Informatics in Physics I;IVF1;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Data Analysis and Visualisation;AVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Informatics in Physics II;IVF2;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Data Analysis and Visualisation;EDAV;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Data Analysis and Visualisation;KAVD;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-Time Series;KCAS;4533;'doc. Ing. Jaroslav Sixta Ph.D.
-Python and R for Data Science;EPYR;6259;'RNDr. Jiøí Škvára Ph.D.
-Python and R for Data Science;PYR;6259;'RNDr. Jiøí Škvára Ph.D.
-Python and R for Data Science;KPYR;6259;'RNDr. Jiøí Škvára Ph.D.
-Soft Computing;KSOC;6973;'Ing. Mgr. Pavel Beránek
-Soft Computing;SOC;6973;'Ing. Mgr. Pavel Beránek
-Management and Information Systems;KMIS;7352;'Ing. Štìpánka Zimová'
-Project Management and Enterprise IS;FIS;7352;'Ing. Štìpánka Zimová'
-Project Management and Enterprise IS;KFIS;7352;'Ing. Štìpánka Zimová'
-Python and R for Data Science;EPYR;8514;'Ricardo Rodriguez Jorge Ph.D.
-Data Analysis and Visualisation;EDAV;8514;'Ricardo Rodriguez Jorge Ph.D.
-Mathematics in Microeconomics;MME;9300;'RNDr. Ing. Michaela Tichá Ph.D.'
-Time Series;KCAS;9304;'Ing. Ondøej Vozár'
-Time Series;CAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-Time Series;KCAS;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+katedra;zkratka;nazev;cviciciUcitIdno;jmena
+KI;YTIM;Teoretická informatika a matematika;267;'PhDr. Jiøí Pøibyl Ph.D.'
+KMA;P226;Odborné prezentace v matematice;267;'PhDr. Jiøí Pøibyl Ph.D.'
+KMA;K113;Repetitorium matematiky;267;'PhDr. Jiøí Pøibyl Ph.D.'
+KMA;P113;Repetitorium matematiky;267;'PhDr. Jiøí Pøibyl Ph.D.'
+KMA;K113;Repetitorium matematiky;425;'PhDr. Magdalena Krátká Ph.D.
+KMA;M101;Historie matematiky;425;'PhDr. Magdalena Krátká Ph.D.'
+KMA;P113;Repetitorium matematiky;425;'PhDr. Magdalena Krátká Ph.D.
+KMA;MK101;Historie matematiky;425;'PhDr. Magdalena Krátká Ph.D.'
+KMA;MK305;Moderní trendy ve vyuèování matematice;425;'PhDr. Magdalena Krátká Ph.D.'
+KMA;MK402;Aplikaèní úlohy ve vyuèování matematice;425;'PhDr. Magdalena Krátká Ph.D.'
+KI;EDSA;Algorithms and Data Structures;835;'Mgr. Kvìtuše Sýkorová
+KI;KDSA;Algoritmy a datové struktury;835;'Mgr. Kvìtuše Sýkorová
+KI;XNME;Numerické metody;835;'Mgr. Kvìtuše Sýkorová
+KI;DSA;Algoritmy a datové struktury;835;'Mgr. Kvìtuše Sýkorová
+KI;KPDSA;Pokroèilé datové struktury a algoritmy;835;'Mgr. Kvìtuše Sýkorová
+KI;NME;Numerické metody;835;'Mgr. Kvìtuše Sýkorová
+KI;PDSA;Pokroèilé datové struktury a algoritmy;835;'Mgr. Kvìtuše Sýkorová
+KMA;K113;Repetitorium matematiky;1803;'doc. Ing. Jaromír Havlica Ph.D.
+KMA;P113;Repetitorium matematiky;1803;'doc. Ing. Jaromír Havlica Ph.D.
+KI;MIS;Podnikový management a IS;2317;'Ing. Pavel Kuba Ph.D.'
+KMA;P637;Finanèní matematika;3188;'Mgr. Lucie Loukotová'
+KMA;P135;Úvod do matematiky;3188;'Mgr. Lucie Loukotová'
+KMA;K609;Finanèní matematika;3188;'Mgr. Lucie Loukotová'
+KI;YTIM;Teoretická informatika a matematika;3188;'Mgr. Lucie Loukotová
+KMA;P123;Matematická analýza I;3188;'Mgr. Lucie Loukotová'
+KMA;KCAS;Èasové øady;3188;'Mgr. Lucie Loukotová'
+KMA;K114;Úvod do infinitezimálního poètu;3188;'Mgr. Lucie Loukotová'
+KMA;CAS;Èasové øady;3188;'Mgr. Lucie Loukotová'
+KMA;K111;Úvod do matematiky;3188;'Mgr. Lucie Loukotová'
+KMA;K113;Repetitorium matematiky;3188;'Mgr. Lucie Loukotová
+KMA;K214;Odborné prezentace v matematice;3188;'Mgr. Lucie Loukotová'
+KMA;K216;Vybrané partie z matematiky;3188;'Mgr. Lucie Loukotová'
+KMA;P113;Repetitorium matematiky;3188;'Mgr. Lucie Loukotová
+KMA;K118;Úvod do matematiky;3188;'Mgr. Lucie Loukotová'
+KMA;P232;Vybrané partie z matematiky;3188;'Mgr. Lucie Loukotová
+KMA;KMT1;Matematika I;3188;'Mgr. Lucie Loukotová'
+KMA;P136;Úvod do matematiky;3188;'Mgr. Lucie Loukotová'
+KFY;IVF2;Informatika ve fyzice II;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+KI;AVD;Analýza a vizualizace dat;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+KI;KAVD;Analýza a vizualizace dat;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+KFY;IVF1;Informatika ve fyzice I;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+KI;EDAV;Data Analysis and Visualisation;3521;'doc. RNDr. Zbyšek Posel Ph.D.
+KMA;K113;Repetitorium matematiky;4680;'Mgr. Jindøich Matoušek Ph.D.
+KMA;P113;Repetitorium matematiky;4680;'Mgr. Jindøich Matoušek Ph.D.
+KMA;P229;Matematická analýza II;5205;'RNDr. Veronika Lacková Ph.D.'
+KMA;P135;Úvod do matematiky;5205;'RNDr. Veronika Lacková Ph.D.
+KMA;P336;Matematická analýza I;5205;'RNDr. Veronika Lacková Ph.D.'
+KMA;P401;Matematická analýza II;5205;'RNDr. Veronika Lacková Ph.D.'
+KMA;K117;Matematická analýza I;5205;'RNDr. Veronika Lacková Ph.D.'
+KI;YTIM;Teoretická informatika a matematika;5205;'RNDr. Veronika Lacková Ph.D.
+KMA;P123;Matematická analýza I;5205;'RNDr. Veronika Lacková Ph.D.
+KMA;K301;Matematická analýza I;5205;'RNDr. Veronika Lacková Ph.D.'
+KMA;CA2;Matematická analýza II;5205;'RNDr. Veronika Lacková Ph.D.'
+KGI;5MATA;Matematická analýza;5205;'RNDr. Veronika Lacková Ph.D.'
+KMA;K111;Úvod do matematiky;5205;'RNDr. Veronika Lacková Ph.D.
+KMA;K113;Repetitorium matematiky;5205;'RNDr. Veronika Lacková Ph.D.
+KMA;P113;Repetitorium matematiky;5205;'RNDr. Veronika Lacková Ph.D.
+KMA;MA1;Matematická analýza I;5205;'RNDr. Veronika Lacková Ph.D.'
+KMA;MA2;Matematická analýza II;5205;'RNDr. Veronika Lacková Ph.D.'
+KMA;K118;Úvod do matematiky;5205;'RNDr. Veronika Lacková Ph.D.
+KMA;KMT1;Matematika I;5205;'RNDr. Veronika Lacková Ph.D.
+KMA;P136;Úvod do matematiky;5205;'RNDr. Veronika Lacková Ph.D.
+KI;KFIS;Projektové øízení a firemní IS;7352;'Ing. Štìpánka Zimová'
+KI;KMIS;Podnikový management a IS;7352;'Ing. Štìpánka Zimová'
+KI;FIS;Projektové øízení a firemní IS;7352;'Ing. Štìpánka Zimová'
+KI;EPYR;Python and R for Data Science;8514;'Ricardo Rodriguez Jorge Ph.D.
+KI;EDAV;Data Analysis and Visualisation;8514;'Ricardo Rodriguez Jorge Ph.D.
+KMA;P232;Vybrané partie z matematiky;8677;'Mgr. Jiøí Rozkovec'
+KMA;K113;Repetitorium matematiky;8741;'Mgr. Jana Kasperová
+KMA;P113;Repetitorium matematiky;8741;'Mgr. Jana Kasperová

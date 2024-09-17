@@ -142,12 +142,12 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     name_mod = "_"+stag_username
 
     # Zpracování CSV souborů na DataFrames
-    rozvrh_by_kat = pl.read_csv(names["rozvrhy"]).drop("semestr").unique().rename({"predmet" : "zkratka"})
+    rozvrh_by_kat = names["rozvrhy"].drop("semestr").unique().rename({"predmet" : "zkratka"})
     rozvrh_by_kat = fix_str_to_int(rozvrh_by_kat, ["ucitIdno.ucitel", "vsichniUciteleUcitIdno"])
     rozvrh_by_kat = rozvrh_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
 
-    predmety_by_kat = pl.read_csv(names["predmety"]).drop("semestr").unique().drop(["pocetStudentu", "aSkut", "bSkut", "cSkut"])
-    predmety_by_kat = fix_str_to_int(predmety_by_kat, ["garantiUcitIdno", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "hodZaSemKombForma"])
+    predmety_by_kat = names["predmety"].drop("semestr").unique().drop(["pocetStudentu", "aSkut", "bSkut", "cSkut"])
+    predmety_by_kat = fix_str_to_int(predmety_by_kat, ["garantiUcitIdno", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "hodZaSemKombForma", "jednotekPrednasek","jednotekCviceni","jednotekSeminare"])
     predmety_by_kat = predmety_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
 
     # Vynechání nevalidních předmětů/rozvrhových akcí (pokud předmět nemá žádné korespondující rozvrhové akce a naopak)
@@ -255,7 +255,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     def all_no_scheduled_events():
         def no_scheduled_events(sought_field:str):
             st_id = sought_field + "UcitIdno"
-            filtrovani_prednasejici = male_predmety.select("nazev", "zkratka", st_id).explode(st_id)
+            filtrovani_prednasejici = male_predmety.select("nazev", "katedra", "zkratka", st_id).explode(st_id)
             prednasejici_jmena = male_predmety.select(sought_field).rename({sought_field:"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
             prednasejici_jmena = prednasejici_jmena.with_columns(pl.col("jmena").str.replace(",", ""))
             filtrovani_prednasejici = filtrovani_prednasejici.with_columns(prednasejici_jmena).filter(
@@ -266,18 +266,18 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
             joined_prednasejici = filtrovani_prednasejici.join(maly_rozvrh, "idno", "left")
             prednasejici_bez_prednasek = joined_prednasejici.filter(pl.col("typAkceZkr").is_null())
-            return prednasejici_bez_prednasek.select("nazev", "zkratka", st_id, "jmena").sort(st_id)
+            return prednasejici_bez_prednasek.select("katedra", "zkratka", "nazev", st_id, "jmena").sort(st_id)
         
         prednasky = no_scheduled_events("prednasejici")
-        prednasky.write_csv("results_csv/prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
+        prep_csv(prednasky).write_csv("results_csv/prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
         uac.convert("results_csv/prednasejici_bez_prednasek"+name_mod+".csv")
 
         cviceni = no_scheduled_events("cvicici")
-        cviceni.write_csv("results_csv/cvicici_bez_cviceni"+name_mod+".csv", separator=";")
+        prep_csv(cviceni).write_csv("results_csv/cvicici_bez_cviceni"+name_mod+".csv", separator=";")
         uac.convert("results_csv/cvicici_bez_cviceni"+name_mod+".csv")
 
         seminare = no_scheduled_events("seminarici")
-        seminare.write_csv("results_csv/seminarici_bez_seminare"+name_mod+".csv", separator=";")
+        prep_csv(seminare).write_csv("results_csv/seminarici_bez_seminare"+name_mod+".csv", separator=";")
         uac.convert("results_csv/seminarici_bez_seminare"+name_mod+".csv")
 
     all_no_scheduled_events()
@@ -307,15 +307,15 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
             return prednasky_bez_prednasejicich.join(ciselnik_ucitelu, "idno", "left").with_columns(pl.col(st_id).cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
         
         prednasky = not_in_sylabus(sought_field="prednasejici", abbriviation="Př")
-        prednasky.write_csv("results_csv/prednasky_bez_prednasejicich"+name_mod+".csv", separator=";")
+        prep_csv(prednasky).write_csv("results_csv/prednasky_bez_prednasejicich"+name_mod+".csv", separator=";")
         uac.convert("results_csv/prednasky_bez_prednasejicich"+name_mod+".csv")
 
         cviceni = not_in_sylabus(sought_field="cvicici", abbriviation="Cv")
-        cviceni.write_csv("results_csv/cviceni_bez_cvicich"+name_mod+".csv", separator=";")
+        prep_csv(cviceni).write_csv("results_csv/cviceni_bez_cvicich"+name_mod+".csv", separator=";")
         uac.convert("results_csv/cviceni_bez_cvicich"+name_mod+".csv")
 
         seminare = not_in_sylabus(sought_field="seminarici", abbriviation="Se")
-        seminare.write_csv("results_csv/seminare_bez_seminaricich"+name_mod+".csv", separator=";")
+        prep_csv(seminare).write_csv("results_csv/seminare_bez_seminaricich"+name_mod+".csv", separator=";")
         uac.convert("results_csv/seminare_bez_seminaricich"+name_mod+".csv")
 
     all_not_in_sylabus()
