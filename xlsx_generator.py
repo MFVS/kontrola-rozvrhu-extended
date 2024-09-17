@@ -333,8 +333,24 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
         "predmety":predmety_complete
     }
 
-def studijni_program():
-    raise NotImplemented("Maybe To-do? No clue how we would go about doing this.")
+def studijni_program(sp_ids:List[str], ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, lang:str = "cs") -> Dict[pl.DataFrame, pl.DataFrame]:
+    #raise NotImplemented("Maybe To-do? No clue how we would go about doing this.")
+    params_sp = {
+        "oborIdno":"",
+        "rok":year,
+        "vyznamPredmetu":"B",
+        "lang":lang
+    }
+
+    katedra_list = set()
+
+    for one_id in sp_ids:
+        katedra_temp = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_sp), separator=";", infer_schema_length=0).to_series(0).to_list()
+        katedra_list = katedra_list | set(katedra_temp)
+
+    katedra_list = list(katedra_list)
+
+    return katedra(katedra=katedra_list, ticket=ticket, auth=auth, year=year, stag_user=stag_user, lang=lang)
 
 # ----- HANDLER ----- 
 

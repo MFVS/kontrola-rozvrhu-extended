@@ -39,6 +39,8 @@ def get_teachers() -> Dict[int, str]:
 
     return {numbers[x]:names[x] for x in range(len(names))}
 
+def get_program_names():
+    raise NotImplementedError("Today. But later.")
 
 
 # Ok, takže:
@@ -57,7 +59,8 @@ def workplace_list_gen(wplace_type:str | None = None):
 
 search_fields = {
     "Fakulta":workplace_list_gen("F"),
-    "Katedra":workplace_list_gen("K")
+    "Katedra":workplace_list_gen("K"),
+    "Studijni_program":get_program_names()
 }
 
 # --- POMOCNÉ FUNKCE 2 ---
