@@ -2,27 +2,8 @@ import polars as pl
 from typing import Tuple, Dict, List
 from io import StringIO
 
-# --- LOGIN ---
-# Celá tahle věc je obsolete, celej auth proces se dá dělat přes tickety (ale nechám to tady, kdyby to bylo jindy třeba)
-# def login(over_name:str | None = None, over_pass:str | None = None) -> Tuple[str, str] | None: # Over_name a over_pass jsou override parametry pro účely lazení
-#     import os
-#     from dotenv import load_dotenv
-
-#     load_dotenv()
-#     user = os.getenv("STAG_USER")
-#     password = os.getenv("STAG_PASSWORD")
-
-#     if user == None or password == None:
-#         return login_correction((over_name, over_pass))
-#     else:
-#         return (user, password)
-
-# def login_correction(manual_login:Tuple[str, str]) -> Tuple[str, str] | None:
-#     if not isinstance(manual_login[0], str) or not isinstance(manual_login[1], str) or manual_login == None:
-#         return (None, None)
-#     else:
-#         return (manual_login[0], manual_login[1])
-    
+# Notes:
+# - Remove all auth things
 
 # --- CSV FETCHING ---
 def fetch_csv(service:str = "",ticket:str = "", params_plus:dict = {}, auth:Tuple[str, str] = None) -> 'StringIO': # manual_login formát: (jméno, heslo)

@@ -1,15 +1,14 @@
 GENERAL
 - Core: Stress test
-- Core: Přidat funkcionalitu jazyků.
 - Improvements: Přidat studijní programy
 
 APP_PS
 - Improvements: Přejmenovat
-- Core: Přidat číselník učitelů. Dumbass.
 
 VÝPIS VÝSLEDKŮ
 - Improvements: Přidat tlačítko na stažení všeho
 - Improvements: Komentáře
+- Improvements: Formát
 
 LOADING
 
@@ -20,6 +19,7 @@ BOMBATOR
     - Má {přednášku/cvičení/seminář} a nemá {přednášejícího/cvičícího/seminařícího} [DONE]
     - {Přednášející/Cvičící/Seminařící} nemá {přednášku/cvičení/seminář} a vice versa
 -Improvements: Posuň načítání číselníku učitelů výše
+- Core: Přidat mnohonásobné načítání
 
 SBR
 - Improvements: Refaktoruj celej kód. Kristova noho.

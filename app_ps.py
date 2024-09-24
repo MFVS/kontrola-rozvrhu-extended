@@ -1,6 +1,8 @@
 # Importy
 from typing import Dict, List
 from datetime import datetime
+from xlsx_generator import fetch_csv
+import polars as pl
 
 # --- POMOCNÉ FUNKCE 1 ---
 
@@ -39,8 +41,35 @@ def get_teachers() -> Dict[int, str]:
 
     return {numbers[x]:names[x] for x in range(len(names))}
 
-def get_program_names():
-    raise NotImplementedError("Today. But later.")
+def get_program_names(fakulta:List[str]=[], forma:List[str]=[], typ:List[int]=[]):
+    params_sp = {"pouzePlatne":True, "lang":"cs"}
+    params_sp["rok"] = 2024
+    sp_table = pl.read_csv(fetch_csv("/programy/getStudijniProgramy", params_plus=params_sp), separator=";").select("nazev", "stprIdno", "typ", "forma", "fakulta", "nazevAn", "kod")
+
+    fak_check = pl.col("fakulta").is_in(fakulta) if len(fakulta) > 0 else True
+    form_check = pl.col("forma").is_in(forma) if len(forma) > 0 else True
+    typ_check = pl.col("typ").is_in(typ) if len(typ) > 0 else True
+
+    sp_table = sp_table.filter(fak_check & form_check & typ_check).with_columns(pl.concat_str(
+        pl.when(pl.col("nazevAn").str.len_chars() > 0).then(pl.col("nazevAn")).otherwise(pl.col("nazev")),
+        pl.concat_str(
+            pl.col("typ").str.slice(0,1),
+            pl.col("forma").str.slice(0,1),
+            pl.col("fakulta"),
+            pl.col("kod"),
+        separator=","), separator=" - ").alias("Hello")).select("stprIdno", "Hello", "nazevAn")
+
+    ids = sp_table.to_series(0).to_list()
+    names = sp_table.to_series(1).to_list()
+    return {ids[x]:names[x] for x in range(len(ids))}
+
+    #raise NotImplementedError("Today. But later.")
+    # information = pl.read_csv(fetch_csv(service="/ciselniky/getCiselnik", params_plus={"domena":"OBOR", "lang":"cs"}))
+    # names:List[str] = information.to_series(information.get_column_index("nazev")).to_list()
+    # codes = information.to_series(information.get_column_index("key")).to_list()
+
+    # for row in names:
+    #     pass
 
 
 # Ok, takže:
@@ -52,15 +81,13 @@ def get_program_names():
 # --- BLOCK OF STUPID ---
 def workplace_list_gen(wplace_type:str | None = None):
     assert wplace_type != None, "Workplace type not specified."
-    from xlsx_generator import fetch_csv
-    import polars as pl
 
     return pl.read_csv(fetch_csv("/ciselniky/getSeznamPracovist", params_plus={"typPracoviste":wplace_type, "zkratka":"%","nadrazenePracoviste":"%"}), separator=";").to_series(2).to_list()
 
 search_fields = {
     "Fakulta":workplace_list_gen("F"),
     "Katedra":workplace_list_gen("K"),
-    "Studijni_program":get_program_names()
+    #"Studijní program":get_program_names()
 }
 
 # --- POMOCNÉ FUNKCE 2 ---
@@ -72,6 +99,24 @@ def generate_years() -> List[str]:
 # Nastavuje výchozí výběr roku v kolonce výběru roku. Nastaveno na momentální akademický rok, mimo prázdnin, kde už to hází další akademický rok.
 def default_year() -> str:
     return 0 if datetime.today().month > 6 else 1
+
+sp_type_list = [
+    "Navazující",
+    "Univerzita 3. věku",
+    "Mezinárodně uznávaný kurz",
+    "Celoživotní",
+    "Ostatní",
+    "Rigorózní",
+    "Bakalářský",
+    "Navazující",
+    "Doktorský"
+]
+
+sp_form_list = [
+    "Distanční",
+    "Kombinovaná",
+    "Prezenční"
+]
 
 
 # --- Actual stránka ---
@@ -139,7 +184,7 @@ with col1:
     st.session_state["search_option"] = st.selectbox("Hledat chyby podle:",["Fakulta","Katedra","Studijní program","Učitel"])
 
 with col2:
-    if st.session_state["search_option"] == "Fakulta": #TODO: Přidat zprávu, že tohle bude trvat...
+    if st.session_state["search_option"] == "Fakulta":
         st.session_state["search_field"] = st.multiselect("Zvolte fakultu:",search_fields["Fakulta"])
         st.info("Zpracování může trvat i pár minut... Prosím, mějte při načítání strpení.")
 
@@ -147,7 +192,13 @@ with col2:
         st.session_state["search_field"] = st.multiselect("Zvolte katedru:",search_fields["Katedra"]) #NOTE: Tohle ZAHLTÍ uživatele volbami, also možná lepší jména alá STAG?
 
     elif st.session_state["search_option"] == "Studijní program": #TODO: Studijní programy nejsou zatím podporovány.
-        raise NotImplementedError("Tohle by mi zabralo další týden. Prozatím zrušená funkcionalita.")
+        sp_fakulta = st.multiselect("Fakulta studijního programu:",search_fields["Fakulta"])
+        sp_type = st.multiselect("Typ studijního programu:", sp_type_list)
+        sp_form = st.multiselect("Forma studijního programu:", sp_form_list)
+        picks = get_program_names(fakulta=sp_fakulta, typ=sp_type, forma=sp_form)
+        st.session_state["search_field"] = st.multiselect(label="Zvolte studijní program:",options=picks.keys(),format_func=lambda x:picks[x])
+
+        st.error("Studijní programy nejsou zatím podporovány.")
         #target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
     
     elif st.session_state["search_option"] == "Učitel":
@@ -209,6 +260,8 @@ if "stagUserTicket" not in st.session_state.keys():
     st.warning("Uživatel nepřihlášen.")
 elif st.session_state["search_field"] == []:
     st.warning("Hledaný termín nevybrán.")
+elif st.session_state["search_option"] == "Studijní program":
+    st.error("Nevalidní vyhledávací parametry.")
 else:
     if st.button(label="Spustit"):
         page_escape(wishes)
