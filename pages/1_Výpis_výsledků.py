@@ -18,7 +18,7 @@ chyby_translator = {
 import pandas as pd
 import streamlit as st
 chyby = [name for name in st.session_state["wishes"].keys() if st.session_state["wishes"][name] == True]
-file_names = [f"results_csv/"+chyby_translator[chyba]+"_"+st.session_state["stagRoleName"]+".csv" for chyba in chyby]
+file_names = [f".\\results_csv\\"+chyby_translator[chyba]+"_"+st.session_state["stagRoleName"]+".csv" for chyba in chyby]
 
 def zip_it_up():
     import zipfile
@@ -57,7 +57,7 @@ tab_folder = st.tabs(chyby)
 for tab_index,tab in enumerate(tab_folder):
     with open(file_names[tab_index], "rb") as file:
         tab.download_button("Stáhnout CSV", file, file_name=chyby[tab_index]+".csv") #TODO: Překonvertovat soubory z utf-8 na ANSI. Jinak to v excelu vyplivne gibberish.
-    tab.dataframe(pd.read_csv(file_names[tab_index], encoding='ansi', sep=";"))
+    tab.dataframe(pd.read_csv(file_names[tab_index], encoding='cp1250', sep=";"))
 
 
 

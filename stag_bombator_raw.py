@@ -147,9 +147,9 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     rozvrh_by_kat = fix_str_to_int(rozvrh_by_kat, ["ucitIdno.ucitel", "vsichniUciteleUcitIdno"])
     rozvrh_by_kat = rozvrh_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
 
-    predmety_by_kat = names["predmety"].drop("semestr").unique().drop(["pocetStudentu", "aSkut", "bSkut", "cSkut"])
+    predmety_by_kat = names["predmety"].unique()
     predmety_by_kat = fix_str_to_int(predmety_by_kat, ["garantiUcitIdno", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "hodZaSemKombForma", "jednotekPrednasek","jednotekCviceni","jednotekSeminare"])
-    predmety_by_kat = predmety_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
+    predmety_by_kat = predmety_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier")).explode(["jednotekPrednasek", "jednotekCviceni", "jednotekSeminare"])
 
     # Vynechání nevalidních předmětů/rozvrhových akcí (pokud předmět nemá žádné korespondující rozvrhové akce a naopak)
     predmety_s_akci = predmety_by_kat.join(other=rozvrh_by_kat, on="identifier", how="inner").select(predmety_by_kat.columns).unique().sort("identifier")
