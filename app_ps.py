@@ -9,7 +9,8 @@ import polars as pl
 # Funkce pro uložení výběru zobrazení chyb a přechod na výpis výsledků
 def page_escape(to_convert:Dict[str, bool]):
     st.session_state["wishes"] = to_convert
-    st.switch_page("pages/3_Loading.py")
+    st.switch_page("pages/4_Docker_testing.py")
+    #st.switch_page("pages/3_Loading.py")
 
 def get_best_role(encoded:str):
     import base64
