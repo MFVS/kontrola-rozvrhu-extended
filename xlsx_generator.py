@@ -270,7 +270,7 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
     }
 
     # Rozvrh
-    rozvrh_ucitel = pl.read_csv(fetch_csv("/rozvrhy/getRozvrhByUcitel", ticket, params_rozvrh, auth), separator=";")
+    rozvrh_ucitel = pl.read_csv(fetch_csv("/rozvrhy/getRozvrhByUcitel", ticket, params_rozvrh, auth), separator=";", infer_schema_length=0)
 
     # Předměty
     predmety_ucitel_list = pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";", infer_schema_length=0)
@@ -279,14 +279,14 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
         params_predmety["ucitIdno"] = subucitel
         params_rozvrh["ucitIdno"] = subucitel
 
-        temp_rozvrhy = pl.read_csv(fetch_csv("/rozvrhy/getRozvrhByUcitel", ticket, params_rozvrh, auth), separator=";")
+        temp_rozvrhy = pl.read_csv(fetch_csv("/rozvrhy/getRozvrhByUcitel", ticket, params_rozvrh, auth), separator=";", infer_schema_length=0)
 
-        fix_list_rozvrhy = type_check(rozvrh_ucitel, temp_rozvrhy) # Potenciálně se dá hodit rovnou do funkce, možná ušetřit trochu prostoru v paměti
+        # fix_list_rozvrhy = type_check(rozvrh_ucitel, temp_rozvrhy) # Potenciálně se dá hodit rovnou do funkce, možná ušetřit trochu prostoru v paměti
 
-        for col_type in fix_list_rozvrhy.keys():
-            if col_type in [pl.Int64, pl.Float64]:
-                temp_rozvrhy = null_out(temp_rozvrhy, fix_list_rozvrhy[col_type]) # Mění "" na None, přechází erroru při konverzi na int
-            temp_rozvrhy = temp_rozvrhy.with_columns(pl.col(fix_list_rozvrhy[col_type]).cast(col_type))
+        # for col_type in fix_list_rozvrhy.keys():
+        #     if col_type in [pl.Int64, pl.Float64]:
+        #         temp_rozvrhy = null_out(temp_rozvrhy, fix_list_rozvrhy[col_type]) # Mění "" na None, přechází erroru při konverzi na int
+        #     temp_rozvrhy = temp_rozvrhy.with_columns(pl.col(fix_list_rozvrhy[col_type]).cast(col_type))
 
         rozvrh_ucitel.vstack(other=temp_rozvrhy, in_place=True)
         predmety_ucitel_list.vstack(other=pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";", infer_schema_length=0), in_place=True)
