@@ -1,43 +1,28 @@
 katedra;zkratka;nazev;seminariciUcitIdno;jmena
-KI;EIS;Podnikové informaèní systémy;14;'Ing. Hana Hájková
-KI;KEIS;Podnikové informaèní systémy;14;'Ing. Hana Hájková
-KBI;P302;Fylogeneze a systém bezobratlých;278;'doc. RNDr. Jaromír Hajer CSc.'
-KBI;P112;Obecná botanika;279;'doc. RNDr. Karel Kubát CSc.'
-KFY;K521;Fyzikální praktikum C;302;'PaedDr. Václav Heller'
-KFY;K505;Diplomový semináø;306;'prof. RNDr. Stanislav Novák CSc.'
-KFY;M403;Souhrnný semináø a pøíprava k SZZ;307;'doc. RNDr. Dušan Novotný CSc.
-KGEO;E100;Reg. geography of Northwestern Bohemia;313;'doc. RNDr. Martin Balej Ph.D.
-KGEO;E101;Regional geography of the Czech Republic;313;'doc. RNDr. Martin Balej Ph.D.
-KFY;K107;Poèítaèové modelování I;612;'Mgr. Dalibor Sedlák'
-KFY;P107;Poèítaèové modelování I;612;'Mgr. Dalibor Sedlák'
-KFY;K103;Programování A;612;'Mgr. Dalibor Sedlák'
-KI;EIS;Podnikové informaèní systémy;1609;'Ing. Pavel Poláèek
-KI;KEIS;Podnikové informaèní systémy;1609;'Ing. Pavel Poláèek
-KI;LTP;Linuxové technologie v praxi;3457;'Ing. Roman Vaibar Ph.D., MBA'
-KI;EIS;Podnikové informaèní systémy;3457;'Ing. Roman Vaibar Ph.D., MBA'
-KI;KEIS;Podnikové informaèní systémy;3457;'Ing. Roman Vaibar Ph.D., MBA'
-KI;KLTP;Linuxové technologie v praxi;3457;'Ing. Roman Vaibar Ph.D., MBA'
-KI;EIS;Podnikové informaèní systémy;3606;'Ing. Jana Hubáèková DiS.
-KI;KEIS;Podnikové informaèní systémy;3606;'Ing. Jana Hubáèková DiS.
-KI;SON;Sociální sítì;4190;'Ing. Libor Mìsíèek Ph.D.'
-KFY;K106;Matematika I;4221;'Mgr. Robert Švarc Ph.D.'
-KGEO;0153;Identif. a hodn. ekosystémových služeb;4625;'doc. Ing. Jan Slavík Ph.D.'
-KI;0182;Základy autonomní robotiky;4746;'Ing. Jiøí Šretr'
-KI;AHW;Praktické aplikace hardwaru;4746;'Ing. Jiøí Šretr'
-KGEO;PD101;Scientific inquiry and reasoning;4747;'doc. Ing. Lenka Slavíková Ph.D.'
-KI;EIS;Podnikové informaèní systémy;4991;'Ing. Miroslav Novotný
-KI;KEIS;Podnikové informaèní systémy;4991;'Ing. Miroslav Novotný
-KGEO;0158;Letní geografická škola;5886;'Ing. Jiøí Louda Ph.D.
-KFY;M203;Praktikum poèítaèového modelování II;5958;'Mgr. Martin Svoboda Ph.D.'
-KFY;M103;Praktikum poèítaèového modelování I;5958;'Mgr. Martin Svoboda Ph.D.'
-KBI;RSPP;Reflektivní semináø pedagogické praxe;8021;'PaedDr. Milan Kubiatko PhD.'
-KBI;KRSPP;Reflektivní semináø pedagogické praxe;8021;'PaedDr. Milan Kubiatko PhD.'
-KBI;KSPP;Reflektivní semináø pedagogické praxe;8021;'PaedDr. Milan Kubiatko PhD.'
-KI;KOOD;Objektovì orientovaný návrh;8093;'Ing. Jan Svoboda'
-KI;SWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
-KI;KSWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
-KI;KOPRE;Odborná prezentace;8514;'Ricardo Rodriguez Jorge Ph.D.
-KI;OPRE;Odborná prezentace;8514;'Ricardo Rodriguez Jorge Ph.D.
-KI;ITM;Introduction to MATLAB;8514;'Ricardo Rodriguez Jorge Ph.D.'
-KI;SWI;Softwarové inženýrství;9303;'Ing. Petr Høebejk
-KI;KSWI;Softwarové inženýrství;9303;'Ing. Petr Høebejk
+KSP;W0054;Ústavní výchova;17;'PhDr. Petr Balek'
+KCJ;PAJ13;1. anglický jazyk III.;22;'Mgr. Elizabeth Brinsden
+KCJ;W0034;Anglická obchodní korespondence;22;'Mgr. Elizabeth Brinsden'
+KCJ;W0045;Nìmecká gramatika pro pokroèilé;34;'Mgr. Vratislava Postlová Ph.D.'
+KCJ;PNJ13;1. nìmecký jazyk III.;34;'Mgr. Vratislava Postlová Ph.D.
+KCJ;6NJ03;1. nìmecký jazyk III.;34;'Mgr. Vratislava Postlová Ph.D.'
+KCJ;W0011;Nìmecká gramatika I.;34;'Mgr. Vratislava Postlová Ph.D.'
+KCJ;X0017;Nìmecká gramatika II.;34;'Mgr. Vratislava Postlová Ph.D.
+KCJ;GNJ03;1. nìmecký jazyk III.;34;'Mgr. Vratislava Postlová Ph.D.'
+KCJ;W0017;Nìmecká gramatika II.;34;'Mgr. Vratislava Postlová Ph.D.'
+KCJ;GAJ03;1. anglický jazyk III.;108;'Mgr. Jaroslav Holas'
+KCJ;6AJ03;1. anglický jazyk III.;108;'Mgr. Jaroslav Holas'
+KRRVS;X0015;Populaèní vývoj ÈR;130;'RNDr. Miloslav Šašek CSc.'
+KRRVS;5ZSGE;Základy soc. ekonom. geografie;130;'RNDr. Miloslav Šašek CSc.'
+KRRVS;FZSGE;Základy soc. ekonom. geografie;130;'RNDr. Miloslav Šašek CSc.'
+KRRVS;W0014;Geografické informaèní systémy;130;'RNDr. Miloslav Šašek CSc.'
+KRRVS;W0015;Populaèní vývoj ÈR;130;'RNDr. Miloslav Šašek CSc.'
+KRRVS;X0037;Hodnocení vlivù na ŽP- základy;475;'Ing. Petr Kaèírek'
+KRRVS;X0009;Demografický semináø;475;'Ing. Petr Kaèírek'
+KFU;X0016;Daòová správa;514;'Ing. Jana Vodièková'
+KCJ;W0012;Italský jazyk I.;515;'Mgr. Petra Tìšitelová'
+KSP;GFILO;Filozofie;534;'PhDr. Mgr. Robert Krejcar Ph.D.'
+KCJ;W0018;Španìlský jazyk I.;536;'Martha Lucia Jetmarová'
+KFU;MFIAN;Finanèní analýza;1383;'Ing. František Hrdina'
+KFU;KZAFI;Základy financí;2821;'Ing. Kateøina Felixová Ph.D.
+KFU;PZAFI;Základy financí;2821;'Ing. Kateøina Felixová Ph.D.'
+KFU;MFIAN;Finanèní analýza;2821;'Ing. Kateøina Felixová Ph.D.

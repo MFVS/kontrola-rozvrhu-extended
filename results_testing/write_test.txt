@@ -1,0 +1,15 @@
+Len of .\results_csv\bez_garanta_F23112.csv: 3338Len of .\results_csv\vice_garantu_F23112.csv: 2511Len of .\results_csv\chybi_prednasejici_F23112.csv: 86Len of .\results_csv\chybi_cvicici_F23112.csv: 72Len of .\results_csv\chybi_seminarici_F23112.csv: 80Len of .\results_csv\predmety_kde_garant_neuci_F23112.csv: 1617Len of .\results_csv\garant_neprednasi_F23112.csv: 482Len of .\results_csv\prednasejici_bez_prednasek_F23112.csv: 5222Len of .\results_csv\cvicici_bez_cviceni_F23112.csv: 15703Len of .\results_csv\seminarici_bez_seminare_F23112.csv: 1765Len of .\results_csv\prednasky_bez_prednasejicich_F23112.csv: 138Len of .\results_csv\cviceni_bez_cvicich_F23112.csv: 521Len of .\results_csv\seminare_bez_seminaricich_F23112.csv: 134Len of .\results_csv\bez_garanta_F23112.csv: 3338 závì
+ závì
+;'Ing
+
+
+
+5UVDR
+;2
+92
+ler C
+A;Bak
+nsden
+
+0.202
+
