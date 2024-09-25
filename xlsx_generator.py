@@ -191,12 +191,12 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
     }
 
     print("here")
-    excel_rozvrhy = relist(pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";"))
+    excel_rozvrhy = relist(pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";", infer_schema_length=0))
     excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByFakultaFullInfo", params_plus=params_predmety, ticket=ticket, auth=auth), separator=";", infer_schema_length=0)
 
     for subfakulta in fakulta[1:]:
         params_predmety["fakulta"] = subfakulta
-        temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByFakultaFullInfo", params_plus=params_predmety, ticket=ticket, auth=auth), separator=";")
+        temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByFakultaFullInfo", params_plus=params_predmety, ticket=ticket, auth=auth), separator=";", infer_schema_length=0)
 
         fix_list_predmety = type_check(excel_predmety, temp_predmety) # Potenciálně se dá hodit rovnou do funkce, možná ušetřit trochu prostoru v paměti
 
@@ -273,7 +273,7 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
     rozvrh_ucitel = pl.read_csv(fetch_csv("/rozvrhy/getRozvrhByUcitel", ticket, params_rozvrh, auth), separator=";")
 
     # Předměty
-    predmety_ucitel_list = pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";")
+    predmety_ucitel_list = pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";", infer_schema_length=0)
 
     for subucitel in id_ucitele[1:]:
         params_predmety["ucitIdno"] = subucitel
@@ -289,7 +289,7 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
             temp_rozvrhy = temp_rozvrhy.with_columns(pl.col(fix_list_rozvrhy[col_type]).cast(col_type))
 
         rozvrh_ucitel.vstack(other=temp_rozvrhy, in_place=True)
-        predmety_ucitel_list.vstack(other=pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";"), in_place=True)
+        predmety_ucitel_list.vstack(other=pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";", infer_schema_length=0), in_place=True)
 
     predmety_ucitel_list.write_csv("source_testing/ucitel_predmety_lite")
     katedry_list = predmety_ucitel_list.to_series(2).unique().to_list()
@@ -307,14 +307,14 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
         "rok":year
     }
     
-    katedra_predmety = pl.read_csv(fetch_csv("/predmety/getPredmetyByKatedraFullInfo", ticket, params_kat_predmety, auth), separator=";")
+    katedra_predmety = pl.read_csv(fetch_csv("/predmety/getPredmetyByKatedraFullInfo", ticket, params_kat_predmety, auth), separator=";", infer_schema_length=0)
 
     predmety_complete = predmety_ucitel_list.filter(pl.col("katedra") == loner).select("zkratka").join(katedra_predmety, "zkratka", "inner")
 
     for katedra in katedry_list:
         params_kat_predmety["katedra"] = katedra
         print(params_kat_predmety["katedra"])
-        katedra_predmety = pl.read_csv(fetch_csv("/predmety/getPredmetyByKatedraFullInfo", ticket, params_kat_predmety, auth), separator=";")
+        katedra_predmety = pl.read_csv(fetch_csv("/predmety/getPredmetyByKatedraFullInfo", ticket, params_kat_predmety, auth), separator=";", infer_schema_length=0)
         print(katedra_predmety.head())
         temp_predmety = predmety_ucitel_list.filter(pl.col("katedra") == katedra).select("zkratka").join(katedra_predmety, "zkratka", "inner")
         predmety_complete = predmety_complete.vstack(temp_predmety)

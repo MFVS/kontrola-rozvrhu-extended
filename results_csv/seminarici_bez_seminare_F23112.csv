@@ -1,1 +1,873 @@
 katedra;zkratka;nazev;seminariciUcitIdno;jmena
+KI;EIS;Podnikové informaèní systémy;14;'Ing. Hana Hájková
+KI;KEIS;Podnikové informaèní systémy;14;'Ing. Hana Hájková
+KSP;W0054;Ústavní výchova;17;'PhDr. Petr Balek'
+KCJ;PAJ13;1. anglický jazyk III.;22;'Mgr. Elizabeth Brinsden
+KCJ;W0034;Anglická obchodní korespondence;22;'Mgr. Elizabeth Brinsden'
+KHI;MPH3;Metody a postupy historické práce III;63;'doc. PhDr. Jana Englová CSc.
+KHI;MPH1;Metody a postupy historické práce I;63;'doc. PhDr. Jana Englová CSc.
+KHI;KMPH3;Metody a postupy historické práce III;63;'doc. PhDr. Jana Englová CSc.
+KHI;MPH2;Metody a postupy historické práce II;63;'doc. PhDr. Jana Englová CSc.
+KECHT;2SPME;Pokroèilé spektrální metody;84;'doc. PhDr. Jaroslav Rejnek CSc.'
+KECHT;2TOZN;Toxikologie, znìèištìní ŽP a zdraví ob.;84;'doc. PhDr. Jaroslav Rejnek CSc.'
+KHV;0266;VK - Sborový zpìv (Chorea academica) A;86;'prof. PhDr. Josef Øíha'
+KHI;PV104;PVK Šlechta, její vznik, vývoj a úloha;92;'doc. PhDr. Tomáš Velímský CSc.'
+KHI;KV104;PVK Šlechta, její vznik, vývoj a úloha;92;'doc. PhDr. Tomáš Velímský CSc.'
+KHI;KUSH;Úvod do studia historie;92;'doc. PhDr. Tomáš Velímský CSc.'
+KHI;USH;Úvod do studia historie;92;'doc. PhDr. Tomáš Velímský CSc.'
+KHI;HSE1;Historický semináø I;92;'doc. PhDr. Tomáš Velímský CSc.'
+KHI;EXKB;Exkurze B (5 dní);92;'doc. PhDr. Tomáš Velímský CSc.'
+KHI;HSE2;Historický semináø II;92;'doc. PhDr. Tomáš Velímský CSc.'
+KHI;KURD;Úvod do regionálních dìjin;92;'doc. PhDr. Tomáš Velímský CSc.'
+KCJ;GAJ03;1. anglický jazyk III.;108;'Mgr. Jaroslav Holas'
+KCJ;6AJ03;1. anglický jazyk III.;108;'Mgr. Jaroslav Holas'
+KRRVS;X0015;Populaèní vývoj ÈR;130;'RNDr. Miloslav Šašek CSc.'
+KRRVS;FZSGE;Základy soc. ekonom. geografie;130;'RNDr. Miloslav Šašek CSc.'
+KRRVS;5ZSGE;Základy soc. ekonom. geografie;130;'RNDr. Miloslav Šašek CSc.'
+KRRVS;W0015;Populaèní vývoj ÈR;130;'RNDr. Miloslav Šašek CSc.'
+KRRVS;W0014;Geografické informaèní systémy;130;'RNDr. Miloslav Šašek CSc.'
+KZP;4GLOZ;Glob. zmìny klimatu a lesních ekosystémù;174;'Ing. Marek Hanuš
+KZP;3EPRA;Environmentální praktikum (praxe);174;'Ing. Marek Hanuš'
+KZP;4GLZK;Globální zmìny klimatu;174;'Ing. Marek Hanuš
+KZP;3GLOZ;Glob. zmìny klimatu a lesních ekosystémù;174;'Ing. Marek Hanuš
+KZP;1GLZK;Globální zmìny klimatu;174;'Ing. Marek Hanuš
+KZP;4BOT;Botanika;176;'RNDr. Iva Machová Ph.D.'
+KZP;3BOT;Botanika;176;'RNDr. Iva Machová Ph.D.'
+KZP;3FLOR;Flóra a vegetace;176;'RNDr. Iva Machová Ph.D.'
+KZP;4FLOR;Flóra a vegetace;176;'RNDr. Iva Machová Ph.D.'
+KZP;1BIOI;Bioindikátory;176;'RNDr. Iva Machová Ph.D.'
+KZP;4TERK;Terénní botanický kurz;176;'RNDr. Iva Machová Ph.D.'
+KZP;3TERK;Terénní botanický kurz;176;'RNDr. Iva Machová Ph.D.'
+KZP;4IVO2;Inovaèní využívání odpadù 2;179;'doc. Ing. Josef Seják CSc.
+KZP;3EKEK;Ekologická ekonomie;179;'doc. Ing. Josef Seják CSc.'
+KZP;4HOPZ;Hodnocení a oceòování pøírodních zdrojù;179;'doc. Ing. Josef Seják CSc.'
+KZP;1HOPZ;Hodnocení a oceòování pøírodních zdrojù;179;'doc. Ing. Josef Seják CSc.'
+KZP;4EKEK;Ekologická ekonomie;179;'doc. Ing. Josef Seják CSc.'
+KZP;4IVO1;Inovaèní využívání odpadù 1;179;'doc. Ing. Josef Seják CSc.
+KZP;4TEZA;Technologie zabezpeèení skládek;184;'doc. Ing. Jakub Štibinger CSc.'
+KZP;1TEZA;Technologie zabezpeèení skládek;184;'doc. Ing. Jakub Štibinger CSc.'
+KZP;4RIAN;Riziková analýza;189;'Ing. Jiøí Mareèek CSc.'
+KZP;1RIAN;Riziková analýza;189;'Ing. Jiøí Mareèek CSc.'
+KZP;3RIAN;Riziková analýza;189;'Ing. Jiøí Mareèek CSc.'
+KAJ;6052;Didaktika literatury;212;'PhDr. Anna Kinovièová Ph.D.'
+KPF;N039;PVK Hosp. politika v primár. pramenech;224;'doc. Ing. Libor Mìsíèek CSc.'
+KPF;N038;PVK Vývoj ekonomického myšlení;224;'doc. Ing. Libor Mìsíèek CSc.'
+KBI;P302;Fylogeneze a systém bezobratlých;278;'doc. RNDr. Jaromír Hajer CSc.'
+KBI;P112;Obecná botanika;279;'doc. RNDr. Karel Kubát CSc.'
+CJP;0187;Ruština B I;298;'PaedDr. Blanka Zapletalová CSc.'
+KFY;K521;Fyzikální praktikum C;302;'PaedDr. Václav Heller'
+KFY;M403;Souhrnný semináø a pøíprava k SZZ;307;'doc. RNDr. Dušan Novotný CSc.
+KGEO;E100;Reg. geography of Northwestern Bohemia;313;'doc. RNDr. Martin Balej Ph.D.
+KGEO;E101;Regional geography of the Czech Republic;313;'doc. RNDr. Martin Balej Ph.D.
+KGER;NHR;PVK Nìmèina hrou;324;'Mgr. Jarmila Jehlièková'
+KGER;KDRAM;PVK Drama ve výuce nìmeckého jazyka;324;'Mgr. Jarmila Jehlièková'
+KGER;KULI;Úvod do literární interpretace;324;'Mgr. Jarmila Jehlièková
+KGER;KUSL;Úvod do studia literatury;324;'Mgr. Jarmila Jehlièková'
+KGER;KSLI;Syntetický semináø literární;324;'Mgr. Jarmila Jehlièková
+KGER;KCNVU;Èesko-nìmecké vztahy ve výtvarném umìní;324;'Mgr. Jarmila Jehlièková'
+KGER;KNHR;PVK Nìmèina hrou;324;'Mgr. Jarmila Jehlièková'
+KGER;N006;Èes. témata a motivy v nìmeckojaz. lit.;324;'Mgr. Jarmila Jehlièková'
+KGER;CNVH;Èesko-nìmecké vztahy v hudbì;324;'Mgr. Jarmila Jehlièková'
+KGER;SLI;Syntetický semináø literární;324;'Mgr. Jarmila Jehlièková
+KGER;0857;Odsun a vyhnání v nìmecky psané liter.;324;'Mgr. Jarmila Jehlièková'
+KGER;0833;PVK Spoleèné dìjiny;324;'Mgr. Jarmila Jehlièková'
+KGER;KNLC2;Nìmeckojazyèná literatura z Èes. zemí II;324;'Mgr. Jarmila Jehlièková
+KGER;DRAM;PVK Drama ve výuce nìmeckého jazyka;324;'Mgr. Jarmila Jehlièková'
+KGER;K0969;PVK Nìmèina hrou;324;'Mgr. Jarmila Jehlièková'
+KGER;0936;PVK Reflektovaná pedagogická praxe;324;'Mgr. Jarmila Jehlièková'
+KGER;KLIT2;Dìjiny literatury NJO II;324;'Mgr. Jarmila Jehlièková'
+KGER;KDLT;PVK Didaktizace literárních textù;324;'Mgr. Jarmila Jehlièková'
+KGER;KCTM;Èeská témata a motivy v nìmeckojaz. lit.;324;'Mgr. Jarmila Jehlièková'
+KGER;NLC2;Nìmeckojazyèná literatura z Èes. zemí II;324;'Mgr. Jarmila Jehlièková
+KGER;CNVU;Èesko-nìmecké vztahy ve výtvarném umìní;324;'Mgr. Jarmila Jehlièková'
+KGER;DLT;PVK Didaktizace literárních textù;324;'Mgr. Jarmila Jehlièková'
+KGER;KCNVH;Èesko-nìmecké vztahy v hudbì;324;'Mgr. Jarmila Jehlièková'
+KGER;KLPDM;Literatura pro dìti a mládež;324;'Mgr. Jarmila Jehlièková'
+KGER;CTM;Èeská témata a motivy v nìmeckojaz. lit.;324;'Mgr. Jarmila Jehlièková'
+KGER;0928;PVK Prùbìžná pedagogická praxe;324;'Mgr. Jarmila Jehlièková'
+KGER;0844;Èeská témata a motivy v nìmeckojaz. lit.;324;'Mgr. Jarmila Jehlièková'
+KGER;USL;Úvod do studia literatury;324;'Mgr. Jarmila Jehlièková'
+KGER;LIT2;Dìjiny literatury NJO II;324;'Mgr. Jarmila Jehlièková'
+KGER;2ULI;Úvod do literární interpretace;324;'Mgr. Jarmila Jehlièková
+KGER;SMOP;PVK Souvislá magisterská odborná praxe;324;'Mgr. Jarmila Jehlièková
+KGER;2SLI;Syntetický semináø literární;324;'Mgr. Jarmila Jehlièková
+KGER;SPP1;Souvislá pedagogická praxe I;324;'Mgr. Jarmila Jehlièková
+KGER;LAF;PVK Literatura a film;324;'Mgr. Jarmila Jehlièková'
+KGER;KSPP1;Souvislá pedagogická praxe I;324;'Mgr. Jarmila Jehlièková
+KGER;2USL;Úvod do studia literatury;324;'Mgr. Jarmila Jehlièková'
+KGER;LPDM;Literatura pro dìti a mládež;324;'Mgr. Jarmila Jehlièková'
+KGER;KSPP2;Souvislá pedagogická praxe II;324;'Mgr. Jarmila Jehlièková
+KGER;ULI;Úvod do literární interpretace;324;'Mgr. Jarmila Jehlièková
+KGER;SPP2;Souvislá pedagogická praxe II;324;'Mgr. Jarmila Jehlièková
+KGER;2SPP2;Souvislá pedagogická praxe II;324;'Mgr. Jarmila Jehlièková
+KGER;2MOR1;Morfologie I;326;'Mgr. Eva Krovová'
+KGER;MOR1;Morfologie I;326;'Mgr. Eva Krovová'
+KGER;0965K;PVK Propedeutika vìdecké práce 2;326;'Mgr. Eva Krovová'
+KGER;KLEX1;Lexikologie I;326;'Mgr. Eva Krovová'
+KGER;MOR2;Morfologie II;326;'Mgr. Eva Krovová'
+KGER;2LEX2;Lexikologie II;326;'Mgr. Eva Krovová'
+KGER;2MOR2;Morfologie II;326;'Mgr. Eva Krovová'
+KGER;0933;PVK Exkurze - knižní veletrh Lipsko;326;'Mgr. Eva Krovová'
+KGER;LEX2;Lexikologie II;326;'Mgr. Eva Krovová'
+KGER;KLEX2;Lexikologie II;326;'Mgr. Eva Krovová'
+KGER;0903;PVK Gramatický semináø;326;'Mgr. Eva Krovová'
+KGER;KMOR1;Morfologie I;326;'Mgr. Eva Krovová'
+KGER;KMOR2;Morfologie II;326;'Mgr. Eva Krovová'
+KGER;LEX1;Lexikologie I;326;'Mgr. Eva Krovová'
+KGER;2LEX1;Lexikologie I;326;'Mgr. Eva Krovová'
+KGER;KSKH;Syntetický semináø kulturnìhistorický;327;'Mgr. Jan Kvapil Ph.D.
+KGER;0990;PVK Nìmecký lit. místopis severních Èech;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;KSLI;Syntetický semináø literární;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;SDP1;Semináø k diplomové práci I;327;'Mgr. Jan Kvapil Ph.D.
+KGER;SDP2;Semináø k diplomové práci II;327;'Mgr. Jan Kvapil Ph.D.
+KGER;0843;Nìmeckojazyè. literatura raného novovìku;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;SLI;Syntetický semináø literární;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;0951;PVK Jazyková a kulturní animace;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;0972;PVK Jazyková a kulturní animace I;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;0952;PVK Vlastivìda a nová média;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;0973;PVK Autonomní uèení;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;0860;Magisterský semináø literární;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;0974;PVK Aktivizující výukové metody;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;0950;PVK Èesko-saské debaty II;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;KSDP2;Semináø k diplomové práci II;327;'Mgr. Jan Kvapil Ph.D.
+KGER;0918;PVK Pøeshranièní kulturní transfery;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;2LIT2;Dìjiny literatury NJO II;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;2SLI;Syntetický semináø literární;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;0949;PVK Èesko-saské debaty;327;'Mgr. Jan Kvapil Ph.D.
+KGER;0849;Vývoj nìmeckého jazyka v èesko-nìmeckém;327;'Mgr. Jan Kvapil Ph.D.'
+KGER;KSDP1;Semináø k diplomové práci I;327;'Mgr. Jan Kvapil Ph.D.
+KGER;IKK1;Interkulturní komunikace I;331;'Mgr. Monika Rùžièková'
+KGER;KIKK1;Interkulturní komunikace I;331;'Mgr. Monika Rùžièková'
+KGER;KNKP;PVK Nìmèina pro komerèní praxi;331;'Mgr. Monika Rùžièková'
+KGER;KIKK2;Interkulturní komunikace II;331;'Mgr. Monika Rùžièková
+KGER;0971;PVK Nìmèina pro komerèní praxi;331;'Mgr. Monika Rùžièková'
+KGER;NKP;PVK Nìmèina pro komerèní praxi;331;'Mgr. Monika Rùžièková'
+KGER;K0915;PVK Internet pro germanisty;331;'Mgr. Monika Rùžièková'
+KGER;K0971;PVK Nìmèina pro komerèní praxi;331;'Mgr. Monika Rùžièková'
+KGER;0708;PVK Internet pro germanisty;331;'Mgr. Monika Rùžièková'
+KGER;KIKG;Interkulturní germanistika;331;'Mgr. Monika Rùžièková'
+KGER;ZDID2;PVK Základy didaktiky 2;331;'Mgr. Monika Rùžièková'
+KGER;IKK2;Interkulturní komunikace II;331;'Mgr. Monika Rùžièková
+KGER;IKG;Interkulturní germanistika;331;'Mgr. Monika Rùžièková'
+KHI;K201;Dìjiny správy I;341;'PhDr. Eduard Mikušek'
+CCV;T0077;Didaktika rytmické gymnastiky;365;'Mgr. Hana Horklová'
+CCV;ISAP;ISAP instruktorský kurz;373;'PaedDr. Oto Louka CSc.'
+CCV;ILUSP;ILUSP instruktorký kurz;373;'PaedDr. Oto Louka CSc.'
+CCV;ISLP;ISLP instruktorský kurz;373;'PaedDr. Oto Louka CSc.'
+CCV;ISPP;ISPP instruktorský kurz;373;'PaedDr. Oto Louka CSc.'
+KPF;B031;Souèasná etika;420;'Mgr. Petr Bláha Ph.D.'
+KPF;B031P;PVK Souèasná etika;420;'Mgr. Petr Bláha Ph.D.'
+KPF;N209;PVK Filoz. reflexe genealogie otroctví;420;'Mgr. Petr Bláha Ph.D.'
+KPF;N028;PVK Utopické myšlení;420;'Mgr. Petr Bláha Ph.D.'
+KPF;B220;PVK Moderní filosofie dìjin;420;'Mgr. Petr Bláha Ph.D.'
+KFHS;KFIL;Dìjiny filozofie;420;'Mgr. Petr Bláha Ph.D.
+KPF;B024;PVK Semináø k souèasné filosofii;420;'Mgr. Petr Bláha Ph.D.'
+KFHS;PFIL;Dìjiny filozofie;420;'Mgr. Petr Bláha Ph.D.
+KPF;B001;Úvod do filosofie;420;'Mgr. Petr Bláha Ph.D.
+KFHS;B175;PVK Èetba k souèasné etice;420;'Mgr. Petr Bláha Ph.D.'
+KPF;B004;Úvod do etiky;420;'Mgr. Petr Bláha Ph.D.'
+KZR;RFR2;Radiologická fyzika;423;'prof. RNDr. Anna Macková Ph.D.'
+UTM;PY094;Úvod do teorie mìøení;424;'doc. RNDr. Ing. Rudolf Novák DrSc.'
+CCV;H0056;Hudebnì výchovný semináø I. -MŠk;434;'PhDr. Martina Zemanová Ph.D.'
+KH1;6023;Základy hudební teorie;434;'PhDr. Martina Zemanová Ph.D.'
+KH1;6029;Doprovody písní na klávesové nástoje;434;'PhDr. Martina Zemanová Ph.D.'
+CCV;RUC03;Doprovody písní na klavír;434;'PhDr. Martina Zemanová Ph.D.'
+CCV;RUC04;Zákl.hud.teorie, dìjiny hud.,hud.formy l;434;'PhDr. Martina Zemanová Ph.D.'
+KECHT;3TEKC;Technické kreslení - cad;459;'Ing. Karel Ederer
+KECHT;4PRTE;Fyzika a pøístrojová technika;459;'Ing. Karel Ederer
+KECHT;1STRO;Základy strojírenství a elektrotechn.;459;'Ing. Karel Ederer'
+KECHT;4STRO;Základy strojírenství a elektrotechn.;459;'Ing. Karel Ederer'
+KECHT;3PRTE;Fyzika a pøístrojová technika;459;'Ing. Karel Ederer
+KECHT;4TEKC;Technické kreslení - cad;459;'Ing. Karel Ederer
+KRRVS;X0037;Hodnocení vlivù na ŽP- základy;475;'Ing. Petr Kaèírek'
+KRRVS;X0009;Demografický semináø;475;'Ing. Petr Kaèírek'
+KFU;X0016;Daòová správa;514;'Ing. Jana Vodièková'
+KCJ;W0012;Italský jazyk I.;515;'Mgr. Petra Tìšitelová'
+KSP;GFILO;Filozofie;534;'PhDr. Mgr. Robert Krejcar Ph.D.'
+KCJ;W0018;Španìlský jazyk I.;536;'Martha Lucia Jetmarová'
+KZP;4ENTO;Entomologie;544;'prof. Ing. Emanuel Kula CSc.'
+KZP;4FLER;Funkce lesa, lesní ekosystémy, les. rek.;544;'prof. Ing. Emanuel Kula CSc.
+KZP;1FLER;Funkce lesa, lesní ekosystémy, les. rek.;544;'prof. Ing. Emanuel Kula CSc.
+KZP;3ENTO;Entomologie;544;'prof. Ing. Emanuel Kula CSc.'
+KZP;3HOZV;Chov hospodáøských zvíøat v marg. oblas.;545;'prof. Ing. Miloslav Šoch CSc.'
+KZP;4HOZV;Chov hospodáøských zvíøat v marg. oblas.;545;'prof. Ing. Miloslav Šoch CSc.'
+KZR;RA2R2;Radiobiologie II., radiaèní ochrana;548;'RNDr. Èestmír Berèík
+KO;RADVK;Radiologie a nukleární medicína;548;'RNDr. Èestmír Berèík'
+KZP;4RABE;Radiaèní bezpeènost;548;'RNDr. Èestmír Berèík'
+KSZD;ROKO3;Základy radiaèní ochrany;548;'RNDr. Èestmír Berèík
+KZP;1RABE;Radiaèní bezpeènost;548;'RNDr. Èestmír Berèík'
+KZP;1SOC;Sociologie;563;'prof. PhDr. Miloslav Bednáø CSc.'
+KZP;4SOC;Sociologie;563;'prof. PhDr. Miloslav Bednáø CSc.'
+KZP;1POUK;Pozemkové úpravy v krajinì;566;'doc. Ing. Jiøí Nìmec CSc.'
+KZP;3AESY;Agroekosystémy;566;'doc. Ing. Jiøí Nìmec CSc.
+KZP;4POUK;Pozemkové úpravy v krajinì;566;'doc. Ing. Jiøí Nìmec CSc.'
+KZP;4GLOZ;Glob. zmìny klimatu a lesních ekosystémù;568;'doc. Ing. Dalibor Janouš CSc.'
+KZP;4GLZK;Globální zmìny klimatu;568;'doc. Ing. Dalibor Janouš CSc.'
+KZP;3GLOZ;Glob. zmìny klimatu a lesních ekosystémù;568;'doc. Ing. Dalibor Janouš CSc.'
+KZP;1GLZK;Globální zmìny klimatu;568;'doc. Ing. Dalibor Janouš CSc.'
+KECHT;4BIOT;Biotechnologie;570;'Ing. Petr Horák CSc.'
+CCV;KSP17;Ped.psych. poradenství a diagnostika;591;'Mgr. Marie Bunešová'
+CCV;KSP08;Problematika smyslových handicapù l;591;'Mgr. Marie Bunešová'
+CCV;KSP04;Psychologie handicapovaného jedince;591;'Mgr. Marie Bunešová'
+KGER;0916;PVK Korektivní fonetika;596;'Mgr. Marek Schmidt'
+KGER;SLEX;Srovnávací lexikologie;596;'Mgr. Marek Schmidt'
+KGER;KSLEX;Srovnávací lexikologie;596;'Mgr. Marek Schmidt'
+KGER;0917;PVK Korektivní fonetika;596;'Mgr. Marek Schmidt'
+KGER;0847;Srovnávací lexikologie;596;'Mgr. Marek Schmidt'
+KPF;B109;Diplomový semináø II;597;'doc. Mgr. Martin Nitsche Ph.D.'
+KFHS;B363;PVK Filozofie umìní I;597;'doc. Mgr. Martin Nitsche Ph.D.'
+KPF;B106;Filosofie umìní I;597;'doc. Mgr. Martin Nitsche Ph.D.
+KFHS;KB311;Úvod do filozofie;597;'doc. Mgr. Martin Nitsche Ph.D.
+KPF;B108;Diplomový semináø I;597;'doc. Mgr. Martin Nitsche Ph.D.'
+KFHS;KFIL;Dìjiny filozofie;597;'doc. Mgr. Martin Nitsche Ph.D.
+KFHS;KB305;Úvod do filozofie;597;'doc. Mgr. Martin Nitsche Ph.D.
+KFHS;PFIL;Dìjiny filozofie;597;'doc. Mgr. Martin Nitsche Ph.D.
+KFHS;KB363;PVK Filozofie umìní I;597;'doc. Mgr. Martin Nitsche Ph.D.'
+KPF;B101;PVK Souèasná anglosaská estetika;597;'doc. Mgr. Martin Nitsche Ph.D.
+KPF;B001;Úvod do filosofie;597;'doc. Mgr. Martin Nitsche Ph.D.
+KPF;B107;Filosofie umìní II;597;'doc. Mgr. Martin Nitsche Ph.D.
+KPF;B232;PVK Teorie moci a vládnutí;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B215;PVK Témata z filosofie dìjin;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B051;Psychologie;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;N034;Kapitoly ze soudobé psychologie;603;'Mgr. Hynek Tippelt Ph.D.'
+KFHS;B151;PVK Filozofie a psychoanalýza;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B019;Èetba z novovìké filosofie II;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B028;PVK Témata ze souèasné filosofie II;603;'Mgr. Hynek Tippelt Ph.D.'
+KFHS;B161;PVK Bùh filozofù;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B027;PVK Témata ze souèasné filosofie I;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B001K;Úvod do filosofie;603;'Mgr. Hynek Tippelt Ph.D.'
+KFHS;B193;PVK Diskuze o pøímé demokracii;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;K001;Úvod do filosofie;603;'Mgr. Hynek Tippelt Ph.D.'
+KFHS;KFIL;Dìjiny filozofie;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B023;PVK Semináø k novovìké filosofii;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B018;Èetba z novovìké filosofie I;603;'Mgr. Hynek Tippelt Ph.D.'
+KFHS;PFIL;Dìjiny filozofie;603;'Mgr. Hynek Tippelt Ph.D.'
+KFHS;B157;PVK Holistická filozofie;603;'Mgr. Hynek Tippelt Ph.D.'
+KFHS;B163;PVK Dìjiny a nevìdomí;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;0473;Moderní filosofie dìjin;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B002;Metodologický prosemináø;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B001;Úvod do filosofie;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B026;PVK Témata z novovìké filosofie;603;'Mgr. Hynek Tippelt Ph.D.'
+KFHS;B164;PVK Pøímá demokracie;603;'Mgr. Hynek Tippelt Ph.D.'
+KPF;B249;PVK Filosofický systém B. Spinozy;603;'Mgr. Hynek Tippelt Ph.D.'
+KFHS;B162;PVK Skepticismus;603;'Mgr. Hynek Tippelt Ph.D.'
+KFY;K103;Programování A;612;'Mgr. Dalibor Sedlák'
+KFY;P107;Poèítaèové modelování I;612;'Mgr. Dalibor Sedlák'
+KFY;K107;Poèítaèové modelování I;612;'Mgr. Dalibor Sedlák'
+KHI;K818;PVK Umìní 20. století v rozšíøeném poli;661;'PhDr. RNDr. Milan Kreuzzieger Ph.D.'
+KECHT;4PRX;Hodnocení praxe;719;'Ing. Václav Synek Ph.D.
+KZP;1PRX;Hodnocení praxe;719;'Ing. Václav Synek Ph.D.
+KZP;4PRX;Hodnocení praxe;719;'Ing. Václav Synek Ph.D.
+KECHT;1PRX;Hodnocení praxe;719;'Ing. Václav Synek Ph.D.
+KECHT;2VSME;Vícerozmìrné statistické metody pro ŽP;719;'Ing. Václav Synek Ph.D.'
+CCV;SRS02;Základy supervize;748;'PaedDr. Ing. Michal Slavík Ph.D.'
+CCV;KSP02;Sociální patologie;748;'PaedDr. Ing. Michal Slavík Ph.D.
+CCV;RSM17;Kariéra a osobnostní rozvoj;748;'PaedDr. Ing. Michal Slavík Ph.D.'
+CCV;RSM04;Externí kontrola a hodnocení školy;748;'PaedDr. Ing. Michal Slavík Ph.D.'
+CCV;SRS03;Osobnostní rozvoj manažera;748;'PaedDr. Ing. Michal Slavík Ph.D.'
+KECHT;3TEKC;Technické kreslení - cad;795;'Ing. Josef Lébr Ph.D.'
+KECHT;4PRTE;Fyzika a pøístrojová technika;795;'Ing. Josef Lébr Ph.D.'
+KECHT;3PRTE;Fyzika a pøístrojová technika;795;'Ing. Josef Lébr Ph.D.'
+KECHT;4TEKC;Technické kreslení - cad;795;'Ing. Josef Lébr Ph.D.'
+KSZD;HBO3;Hygiena pøedmìtù bìžného užívání;860;'Ing. Miriam Riessová'
+KSZD;HBKO3;Hygiena pøedmìtù bìžného užívání;860;'Ing. Miriam Riessová'
+KZR;IST3;Informaèní systémy ve zdravotnictví;862;'Ing. Jan Povolný'
+KF;FZ25;Fyzioterapie II;976;'PhDr. Eva Buchtelová Ph.D.
+KF;LTVF5;Letní TV kurz;976;'PhDr. Eva Buchtelová Ph.D.
+KF;FYZ2K;Fyzioterapie II;976;'PhDr. Eva Buchtelová Ph.D.
+KF;STFK9;Specifika tìl. zátìže dìtí a mládeže;976;'PhDr. Eva Buchtelová Ph.D.'
+KF;OF1K5;Odborná souvislá praxe I;976;'PhDr. Eva Buchtelová Ph.D.'
+KF;SPF25;Odborná souvislá praxe II;976;'PhDr. Eva Buchtelová Ph.D.
+KF;RPFK5;Rehabilitaèní propedeutika;976;'PhDr. Eva Buchtelová Ph.D.
+KF;ZF2K5;Základy fyzioterapie a vyšetø. metody II;976;'PhDr. Eva Buchtelová Ph.D.
+KF;SPF65;Odborná souvislá praxe VI;976;'PhDr. Eva Buchtelová Ph.D.
+KF;OF2K5;Odborná souvislá praxe II;976;'PhDr. Eva Buchtelová Ph.D.'
+KO;STD2;Specifika tìlesné zátìže dìtí a mládeže;976;'PhDr. Eva Buchtelová Ph.D.'
+KF;STFK5;Specifika tìlesné zátìže dìtí a mládeže;976;'PhDr. Eva Buchtelová Ph.D.
+KE;TT2E5;Terapeutické techniky a èinnosti II;977;'Mgr. Hana Brázdová'
+KE;TTEK5;Terapeutické techniky a èinnosti;977;'Mgr. Hana Brázdová
+KE;1CMM;Classical manual medicine;984;'doc. MUDr. Miroslav Tichý CSc.'
+KE;1PBS;Practical bio-statistic;984;'doc. MUDr. Miroslav Tichý CSc.'
+KF;1FMM;Functional manual medicine;984;'doc. MUDr. Miroslav Tichý CSc.'
+KE;1EIM;Equipment inv.methods in biom.of movem.;984;'doc. MUDr. Miroslav Tichý CSc.'
+KO;PZDV5;Praxe založená na dùkazech;1047;'Mgr. Jana Chrásková Ph.D.'
+KF;EZFK5;Etika zdravotnického pracovníka;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;ZFVK5;Základy pedagogiky a edukace v ose;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;PEZD2;Praxe založená na dùkazech;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;POPVK;OSE v pediatrii;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;POPV5;Ošetøovatelská péèe v pediatrii;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;POVK5;OSE v pediatrii;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;EFV5;Etika a filozofie;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;PZVK5;Praxe založená na dùkazech;1047;'Mgr. Jana Chrásková Ph.D.'
+KSZD;PZDP9;Praxe založená na dùkazech;1047;'Mgr. Jana Chrásková Ph.D.'
+KSZD;PZD5;Praxe založená na dùkazech;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;STVK;Standardizace v ošetøovatelství;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;PEDV9;Praxe založená na dùkazech;1047;'Mgr. Jana Chrásková Ph.D.'
+KSZD;PNEP5;Ošetøovatelská péèe v neonatologii;1047;'Mgr. Jana Chrásková Ph.D.'
+KSZD;EFP5;Etika a filosofie;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;DOPV5;Didaktika ošetøovatelské praxe;1047;'Mgr. Jana Chrásková Ph.D.'
+KO;ZPEV5;Základy pedagogiky a edukace v ose;1047;'Mgr. Jana Chrásková Ph.D.'
+KZP;3ZOA2;Základy odborné angliètiny 2;1062;'Mgr. Martina Klatovská
+KZP;4ZOA1;Základy odborné angliètiny 1;1062;'Mgr. Martina Klatovská
+KZP;3ZOA1;Základy odborné angliètiny 1;1062;'Mgr. Martina Klatovská
+KZP;4ZOA2;Základy odborné angliètiny 2;1062;'Mgr. Martina Klatovská
+KZP;3HYG;Hygiena;1235;'MUDr. Josef Koèí'
+KZP;4HYG;Hygiena;1235;'MUDr. Josef Koèí'
+KFU;MFIAN;Finanèní analýza;1383;'Ing. František Hrdina'
+KECHT;1EKZA;Ekologické zátìže, sanaèní práce;1477;'Ing. Jiøí Balej CSc.'
+KECHT;4EKZA;Ekologické zátìže, sanaèní práce;1477;'Ing. Jiøí Balej CSc.'
+KHI;K207;Archivnictví I;1549;'doc. PhDr. Ludmila Sulitková CSc.'
+KHI;KUAR1;Úvod do archivnictví I;1549;'doc. PhDr. Ludmila Sulitková CSc.
+KHI;K203;Spisová služba I;1549;'doc. PhDr. Ludmila Sulitková CSc.'
+KHI;KUAR2;Úvod do archivnictví II;1549;'doc. PhDr. Ludmila Sulitková CSc.
+KAPV;KV508;PVK Vývoj municip. archivù v èes. zem;1549;'doc. PhDr. Ludmila Sulitková CSc.'
+KHI;K210;Archivnictví II;1549;'doc. PhDr. Ludmila Sulitková CSc.'
+KHI;K208;Spisová služba II;1549;'doc. PhDr. Ludmila Sulitková CSc.'
+KI;EIS;Podnikové informaèní systémy;1609;'Ing. Pavel Poláèek
+XPF;XM1;Pokus - Moodle1;1609;'Ing. Pavel Poláèek'
+KI;KEIS;Podnikové informaèní systémy;1609;'Ing. Pavel Poláèek
+KHI;KHSE2;Historický semináø II;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;KMZ41;Diplomová práce;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;PV103;PVK Vznik moderního mìsta;1934;'Mgr. Stanislava Musilová Ph.D.'
+KHI;KTPO;Teoretické problémy oboru;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;V053;PVK History of Long 19th Century;1934;'Mgr. Stanislava Musilová Ph.D.'
+KHI;KV103;PVK Vznik moderního mìsta;1934;'Mgr. Stanislava Musilová Ph.D.'
+KHI;PBH61;Bakaláøská práce;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;KV17;PVK Vznik moderního mìsta;1934;'Mgr. Stanislava Musilová Ph.D.'
+KHI;MPH3;Metody a postupy historické práce III;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;DCN;Dìjiny èeského novovìku;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;KMPH3;Metody a postupy historické práce III;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;TPO;Teoretické problémy oboru;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;KDCN;Dìjiny èeského novovìku;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;PMZ41;Diplomová práce;1934;'Mgr. Stanislava Musilová Ph.D.
+KHI;KBH61;Bakaláøská práce;1934;'Mgr. Stanislava Musilová Ph.D.
+KPOL;B213;PVK Introduction to Social Anthropology;1977;'Jitka Králová'
+CCV;SRS07;Školské právo;1990;'PaedDr. Mgr. Jan Kobliha'
+KPF;B093;PVK Nacionalismus -podm. dem. eman. nár.;1992;'Ing. Ivan Štern'
+KPF;B064;PVK Politická filosofie v praxi II;1992;'Ing. Ivan Štern'
+KPF;B229;PVK Nacionalismus v zem. dob. tisku II;1992;'Ing. Ivan Štern'
+KPF;B072;PVK Média a politika;1992;'Ing. Ivan Štern'
+KPF;B245;PVK Veøejná správa a politika;1992;'Ing. Ivan Štern'
+KPF;B063;PVK Politická filosofie v praxi I;1992;'Ing. Ivan Štern'
+KPF;0623;PVK Nacionalismus v zemsk. dob. tisku I;1992;'Ing. Ivan Štern'
+KE;HYEK5;Hygiena;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KSZD;VZP5;Veøejné zdravotnictví a vých. ke zdraví;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KO;MIVK5;Mikrobiologie a imunologie;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KE;HYGEK;Hygiena;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KF;HYFK5;Hygiena;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KO;VZVK5;Veøejné zdravotnictví a výchova ke zdrav;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KF;HYGFK;Hygiena;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KO;VZV5;Veøejné zdravotnictví a vých. ke zdraví;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KSZD;MIP5;Mikrobiologie a imunologie;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KO;VZVK;Veøejné zdravotnictví a výchova ke zdrav;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KO;MIVK;Mikrobiologie a imunologie;2057;'prof. MUDr. Margareta Šulcová CSc.'
+KZP;0SOSI;Soil Science;2064;'Ing. Jiøí Šefl Ph.D.'
+CCV;SRS15;Evaluace školy;2204;'Mgr. Vladimír Škuta'
+CCV;SRS13;Organizace školy a pedagogického procesu;2204;'Mgr. Vladimír Škuta
+KSZD;POSP5;Ošetøovatelská péèe v psychiatrii;2210;'MUDr. Zora Olejárová'
+KECHT;2DIZ2;Pøíprava disertaèní práce II;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KECHT;2DIZ1;Pøíprava disertaèní práce I;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KECHT;2DIZ3;Pøíprava disertaèní práce III;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KECHT;2DIZ4;Pøíprava disertaèní práce IV;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KECHT;2SEPM;Sep. met. chromatogr. a elektromigraèní;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KECHT;2OBS1;Oborový semináø I;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KECHT;2TOZN;Toxikologie, znìèištìní ŽP a zdraví ob.;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KZP;4PSY;Základy psychologie;2277;'PhDr. Mgr. Romana Doležalová'
+KZP;3PSY;Základy psychologie;2277;'PhDr. Mgr. Romana Doležalová'
+KO;AJTV5;Anglický jazyk - odborná terminologie;2382;'Mgr. Olga Filatova'
+KO;AJVK5;Anglický jazyk - odborná terminologie;2382;'Mgr. Olga Filatova'
+KSZD;AJTPK;Anglický jazyk - odborná terminologie;2382;'Mgr. Olga Filatova'
+KSZD;AJTP5;Anglický jazyk - odborná terminologie;2382;'Mgr. Olga Filatova'
+KV1;6124;Didaktika VV I;2435;'Mgr. Vìra Eisnerová
+KV1;6124;Didaktika VV I;2436;'Mgr. Jana Smržová Melicharová'
+KSZD;VTNP9;Vybrané kap.v teorii v neonatologii;2524;'MUDr. Patrik Hitka
+KE;PRPE;První pomoc;2765;'Mgr. Miroslava Bechyòová
+KFU;MFIAN;Finanèní analýza;2821;'Ing. Kateøina Felixová Ph.D.
+KFU;PZAFI;Základy financí;2821;'Ing. Kateøina Felixová Ph.D.'
+KFU;KZAFI;Základy financí;2821;'Ing. Kateøina Felixová Ph.D.
+KHI;PLG2;Paleografie II;2904;'Mgr. Jan Nìmec
+KE;SPE15;Odborná souvislá praxe I;2935;'Mgr. Lucie Donèevová
+KE;OPE5K;Odborná souvislá praxe V;2935;'Mgr. Lucie Donèevová'
+KE;OPE6K;Odborná souvislá praxe VI;2935;'Mgr. Lucie Donèevová'
+KF;ERFK5;Ergoterapie;2935;'Mgr. Lucie Donèevová'
+KPF;B356;PVK Analýza krajnì pravicových textù;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;B081;Dìjiny politického myšlení IV;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;B230;PVK Sociální patologie;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPOL;B202;PVK Populismus v souèasné politice;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPOL;KB301;PVK Analýza krajnì pravicových textù;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;B067;PVK Vznik a vývoj èeské krajní pravice;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;N033;Sociologie subkultur;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;B223;PVK Analýza krajnì pravicových textù;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;N047;PVK Rasové teorie a ideologie;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;B065;PVK Polit. extremismus a totalitarismus;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPOL;B301;PVK Analýza krajnì pravicových textù;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;B066;PVK Souèasný politický extremismus;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;B073;PVK Rasismus a holocaust;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPF;B068;PVK Vznik a vývoj èeské krajní levice;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KPOL;B403;PVK Politická komunikace;2990;'Mgr. Jan Charvát Ph.D., M.A.'
+KECHT;2TOZN;Toxikologie, znìèištìní ŽP a zdraví ob.;3022;'doc. Ing. Petr Klusoò Dr.
+KHI;KBD42;Dokumentace sepulkrálních památek;3165;'PhDr. Petr Hrubý'
+KHI;PBD42;Dokumentace sepulkrálních památek;3165;'PhDr. Petr Hrubý'
+KHI;DPA2;Dokumentace památek II;3165;'PhDr. Petr Hrubý
+KV1;6129;Didaktika VV III;3168;'Mgr. Bc. Lenka Minaøíková'
+KV1;4078;Užitá tvorba;3168;'Mgr. Bc. Lenka Minaøíková
+KO;ZPEVK;Základy pedagogiky a edukace v ose;3209;'PhDr. Hana Plachá'
+KZP;1KLIM;Klimatologie a zmìny klimatu;3239;'doc. RNDr. Radan Huth DrSc.
+KZP;4KLIM;Klimatologie a zmìny klimatu;3239;'doc. RNDr. Radan Huth DrSc.
+KGER;0487;PVK Gender a spoleènost;3248;'Dr. Jana Valdrová Ph.D.'
+KHI;KBH77;Dìjiny 19. století v èeských zemích;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;KV119;PVK Šlechta v 19. st. - badatelské téma;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;KV02;PVK Šlechta 19. st. - badatelské téma;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;KMZ41;Diplomová práce;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;KTPO;Teoretické problémy oboru;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;PBH61;Bakaláøská práce;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;KBH33;Dìjiny 19. století v èeských zemích;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;KMPH3;Metody a postupy historické práce III;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;KV04;PVK Biedermeier jako idea a um. smìr;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;KDCN;Dìjiny èeského novovìku;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;PMZ41;Diplomová práce;3256;'Mgr. Marcela Zemanová Ph.D.'
+KHI;KBH61;Bakaláøská práce;3256;'Mgr. Marcela Zemanová Ph.D.'
+KPF;N013;Spravedlnost jako zákonné jednání;3266;'PhDr. Ing. Jiøí Chotaš Ph.D.
+KFHS;KB311;Úvod do filozofie;3266;'PhDr. Ing. Jiøí Chotaš Ph.D.
+KFHS;KFIL;Dìjiny filozofie;3266;'PhDr. Ing. Jiøí Chotaš Ph.D.
+KFHS;KB305;Úvod do filozofie;3266;'PhDr. Ing. Jiøí Chotaš Ph.D.
+KFHS;PFIL;Dìjiny filozofie;3266;'PhDr. Ing. Jiøí Chotaš Ph.D.
+KPF;B090;PVK Semináø k DPM IV;3266;'PhDr. Ing. Jiøí Chotaš Ph.D.'
+CCV;R0087;Did. pøedškolního vzdìl. - MŠk;3289;'Mgr. Jarmila Nováková Hoøejší'
+KECHT;2MSPO;Pokroèilé metody studia spec. polutantù;3305;'prof. RNDr. Hana Doèekalová CSc.
+KECHT;2SAND;Kvalita a spolehlivost analytických dat;3306;'prof. Ing. Miloslav Suchánek CSc.'
+KECHT;2MKAL;Management kvality v analyt. laboratoøi;3306;'prof. Ing. Miloslav Suchánek CSc.'
+KECHT;2VSME;Vícerozmìrné statistické metody pro ŽP;3306;'prof. Ing. Miloslav Suchánek CSc.
+KECHT;2SPME;Pokroèilé spektrální metody;3308;'prof. RNDr. Viktor Kanický DrSc.
+KM1;6018;Matematika I;3401;'Mgr. Dagmar Pøíhodová Ph.D.'
+KGER;0719;PVK Jidiš úvod do jazyka a kultury;3415;'Mgr. Marie Krappmann Ph.D.'
+KECHT;2OPA1;Odborná prezentace v angliètinì I;3420;'Ing. Kamil Lang CSc.'
+KECHT;2OBS2;Oborový semináø II;3420;'Ing. Kamil Lang CSc.'
+KECHT;2OBS3;Oborový semináø III;3420;'Ing. Kamil Lang CSc.'
+KECHT;2PROJ;Rešeršní projekt a jeho prezentace;3420;'Ing. Kamil Lang CSc.'
+KECHT;2DIZ2;Pøíprava disertaèní práce II;3420;'Ing. Kamil Lang CSc.'
+KECHT;2DIZ3;Pøíprava disertaèní práce III;3420;'Ing. Kamil Lang CSc.'
+KECHT;2OBS4;Oborový semináø IV;3420;'Ing. Kamil Lang CSc.'
+KECHT;2PUB1;Pøíprava publikace I;3420;'Ing. Kamil Lang CSc.'
+KECHT;2OPA2;Odborná prezentace v angliètinì II;3420;'Ing. Kamil Lang CSc.'
+KECHT;2MMSP;Pokr. metody molekulové spektroskopie;3420;'Ing. Kamil Lang CSc.'
+KECHT;2PUB2;Pøíprava publikace II;3420;'Ing. Kamil Lang CSc.'
+KECHT;2DIZ4;Pøíprava disertaèní práce IV;3420;'Ing. Kamil Lang CSc.'
+KECHT;2OBS1;Oborový semináø I;3420;'Ing. Kamil Lang CSc.'
+KECHT;2MSPO;Pokroèilé metody studia spec. polutantù;3423;'doc. RNDr. Juraj Lesný Ph.D.'
+FJC;MSR1;Španìlský jazyk pro germanisty;3453;'Mgr. Tereza Žáèková'
+FJC;BSR2;Španìlský jazyk II;3453;'Mgr. Tereza Žáèková'
+FJC;BSR9;Španìlština (Cizí jazyk B);3453;'Mgr. Tereza Žáèková'
+FJC;BSR6;Španìlština (Cizí jazyk A);3453;'Mgr. Tereza Žáèková'
+FJC;BSR1;Španìlský jazyk I;3453;'Mgr. Tereza Žáèková'
+KI;EIS;Podnikové informaèní systémy;3457;'Ing. Roman Vaibar Ph.D., MBA'
+KI;KLTP;Linuxové technologie v praxi;3457;'Ing. Roman Vaibar Ph.D., MBA'
+KI;LTP;Linuxové technologie v praxi;3457;'Ing. Roman Vaibar Ph.D., MBA'
+KI;KEIS;Podnikové informaèní systémy;3457;'Ing. Roman Vaibar Ph.D., MBA'
+KO;FYZVK;Fyziologie;3487;'MUDr. Michal Tichý Ph.D., MPH'
+KO;VDV5;Výživa a dietetika;3487;'MUDr. Michal Tichý Ph.D., MPH'
+KF;ISK5;Informaèní systémy;3509;'Mgr. Zdenìk Èeøovský
+KHI;KBD22;Historické konstrukce II;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;KMZ41;Diplomová práce;3551;'Mgr. Táòa Šimková Ph.D.
+KHI;KBD21;Úvod do dìjin architektury II;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;KUDA1;Úvod do studia dìjin architektury I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;KBD13;Historické konstrukce I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;DPA1;Dokumentace památek I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;PBD21;Úvod do dìjin architektury II;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;KPDP2;Prosemináø k dokumentaci památek II;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;PBD22;Historické konstrukce II;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;PBH61;Bakaláøská práce;3551;'Mgr. Táòa Šimková Ph.D.
+KHI;KDPA2;Dokumentace památek II;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;UDA1;Úvod do studia dìjin architektury I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;PDP2;Prosemináø k dokumentaci památek II;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;UST;Úvod do stavební historie (terminologie);3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;KBD11;Úvod do dìjin architektury I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;PBD13;Historické konstrukce I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;KDPA1;Dokumentace památek I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;DPA2;Dokumentace památek II;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;0644;PVK Terénní cvièení ze stavební historie;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;KPDP1;Prosemináø k dokumentaci památek I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;PBD11;Úvod do dìjin architektury I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;PDP1;Prosemináø k dokumentaci památek I;3551;'Mgr. Táòa Šimková Ph.D.'
+KHI;PMZ41;Diplomová práce;3551;'Mgr. Táòa Šimková Ph.D.
+KHI;KBH61;Bakaláøská práce;3551;'Mgr. Táòa Šimková Ph.D.
+KECHT;5BMZP;Biosenzory a monitorování ŽP;3563;'Ing. Gabriela Kuncová CSc.
+KI;EIS;Podnikové informaèní systémy;3606;'Ing. Jana Hubáèková DiS.
+KI;KEIS;Podnikové informaèní systémy;3606;'Ing. Jana Hubáèková DiS.
+CCV;UP1A;Pedagogická propedeutika;3624;'Mgr. Jaroslav Formánek
+KFHS;KB311;Úvod do filozofie;3662;'ThLic. David Peroutka Ph.D.
+KPF;B212;PVK Metaetika;3662;'ThLic. David Peroutka Ph.D.'
+KPF;B206;PVK Metafyzika;3662;'ThLic. David Peroutka Ph.D.'
+KFHS;KFIL;Dìjiny filozofie;3662;'ThLic. David Peroutka Ph.D.
+KFHS;KB305;Úvod do filozofie;3662;'ThLic. David Peroutka Ph.D.
+KFHS;PFIL;Dìjiny filozofie;3662;'ThLic. David Peroutka Ph.D.
+KPF;B001;Úvod do filosofie;3662;'ThLic. David Peroutka Ph.D.
+KPF;B079;Dìjiny politického myšlení II;3662;'ThLic. David Peroutka Ph.D.'
+KO;AJTVK;Anglický jazyk - odborná terminologie;3726;'Mgr. Vendula Macková'
+KF;PPFK;První pomoc;3728;'MUDr. ¼uboš Beòo'
+KO;PFVK;Patologie a patologická fyziologie;3729;'MUDr. Jana Mareèková'
+KV1;6120;Metody vizuálních oborù I;3753;'Mgr. Dagmar Jurková
+KHI;K805;PVK Neof. kult. v obd. tzv. normalizace;3771;'Mgr. Markéta Brožová'
+KHI;K808;PVK Pram. neof. kult. v obd. tzv. norm.;3771;'Mgr. Markéta Brožová'
+KF;TAIF;Tai ji;4206;'PaedDr. Petr Tlapák CSc.'
+KFY;K106;Matematika I;4221;'Mgr. Robert Švarc Ph.D.'
+KO;KOMK;Komunikace;4238;'Ing. Bc. Zuzana Hekelová'
+KECHT;4PRX;Hodnocení praxe;4258;'Ing. Marek Došek
+KZP;1PRX;Hodnocení praxe;4258;'Ing. Marek Došek
+KZP;4PRX;Hodnocení praxe;4258;'Ing. Marek Došek
+KGI;1PRX;Hodnocení praxe;4258;'Ing. Marek Došek'
+KECHT;1PRX;Hodnocení praxe;4258;'Ing. Marek Došek
+KZR;OLZK2;Oše. v infekèním lékaøství;4318;'MUDr. Jana Pazderková'
+KGER;0854;Textová lingvistika a stylistika textu;4388;'doc. PhDr. Jiøina Malá CSc.'
+KGER;PJA5;Vìdecko-výzkumné kolokvium;4388;'doc. PhDr. Jiøina Malá CSc.
+KGER;PJA2;Vybrané kapitoly z jazykovìdy 2;4388;'doc. PhDr. Jiøina Malá CSc.
+KGER;PJA1;Vybrané kapitoly z jazykovìdy 1;4388;'doc. PhDr. Jiøina Malá CSc.
+KGER;KJA5;Vìdecko-výzkumné kolokvium;4388;'doc. PhDr. Jiøina Malá CSc.
+KGER;KJA1;Vybrané kapitoly z jazykovìdy 1;4388;'doc. PhDr. Jiøina Malá CSc.
+KGER;KJA2;Vybrané kapitoly z jazykovìdy 2;4388;'doc. PhDr. Jiøina Malá CSc.
+KGER;0935;PVK Diskurs o Nìmecku a o Nìmcích;4401;'prof. Dr. Wolf Dieter Otto'
+FJC;MRR1;Ruský jazyk pro germanisty;4403;'PhDr. Marie Ivancová
+FJC;BRK5;Ruský jazyk (Cizí jazyk A) - KS;4403;'PhDr. Marie Ivancová
+FJC;BRK6;Ruský jazyk (Cizí jazyk A) - KS;4403;'PhDr. Marie Ivancová
+FJC;BRR5;Ruština (Cizí jazyk A);4403;'PhDr. Marie Ivancová
+FJC;BRK3;Ruský jazyk I;4403;'PhDr. Marie Ivancová'
+FJC;BRK8;Ruský jazyk (Cizí jazyk B) - KS;4403;'PhDr. Marie Ivancová'
+FJC;BRR8;Ruština (Cizí jazyk B);4403;'PhDr. Marie Ivancová'
+FJC;BRR1;Ruský jazyk I;4403;'PhDr. Marie Ivancová'
+FJC;BRR2;Ruský jazyk II;4403;'PhDr. Marie Ivancová'
+FJC;BRK4;Ruský jazyk II;4403;'PhDr. Marie Ivancová'
+KE;PCHE5;Psychiatrie;4407;'MUDr. Pavla Zemanová'
+KF;PSKF9;Psychiatrie;4407;'MUDr. Pavla Zemanová'
+KE;PCHE9;Psychiatrie;4407;'MUDr. Pavla Zemanová'
+KE;ZVEK9;Základy výživy;4407;'MUDr. Pavla Zemanová'
+KF;PSF5;Psychiatrie;4407;'MUDr. Pavla Zemanová'
+KF;PSFK9;Psychiatrie;4407;'MUDr. Pavla Zemanová'
+KF;PSF9;Psychiatrie;4407;'MUDr. Pavla Zemanová'
+KE;PSEK9;Psychiatrie;4407;'MUDr. Pavla Zemanová'
+KO;PFVK5;Patologie a patologická fyziologie;4583;'MUDr. Martin Èegan
+KO;PFV5;Patologie a patologická fyziologie;4583;'MUDr. Martin Èegan
+KHI;PV332;PVK Èeský jazyk pro historiky;4660;'Mgr. Michaela Koumarová'
+KHI;PBK50;Literární historie I;4660;'Mgr. Michaela Koumarová
+KHI;PBK60;Literární historie II;4660;'Mgr. Michaela Koumarová
+KHI;K215;Vývoj èeského jazyka;4660;'Mgr. Michaela Koumarová'
+KAPV;KBA46;Èeský jazyk (pro archiváøe);4660;'Mgr. Michaela Koumarová'
+KHI;KBH46;Èeský jazyk pro historiky;4660;'Mgr. Michaela Koumarová'
+KHI;KCJH;Èeský jazyk pro historiky;4660;'Mgr. Michaela Koumarová'
+KHI;DLI;Dìjiny literatury;4660;'Mgr. Michaela Koumarová'
+KHI;CJH;Èeský jazyk pro historiky;4660;'Mgr. Michaela Koumarová'
+KHI;PBH46;Èeský jazyk pro historiky;4660;'Mgr. Michaela Koumarová'
+KHI;K218;Výpoè. tech. v archiv. a ve spis. službì;4666;'Ing. Ondøej Smíšek'
+KI;AHW;Praktické aplikace hardwaru;4746;'Ing. Jiøí Šretr'
+KI;0182;Základy autonomní robotiky;4746;'Ing. Jiøí Šretr'
+KPF;B214;PVK Filos. a ideologické koøeny rasismu;4953;'Mgr. Jan Musil Ph.D.'
+KPF;B029;Témata z èeské filosofie;4953;'Mgr. Jan Musil Ph.D.'
+KPF;B236;PVK Evropa a národní státy;4953;'Mgr. Jan Musil Ph.D.'
+KPF;N007;Èeské politické myšlení I;4953;'Mgr. Jan Musil Ph.D.'
+KFHS;K416;Semináø k diplomové práci;4953;'Mgr. Jan Musil Ph.D.'
+KPF;B231;PVK Kritika rasismu v èeském myšlení;4953;'Mgr. Jan Musil Ph.D.'
+KPF;B002;Metodologický prosemináø;4953;'Mgr. Jan Musil Ph.D.
+KFHS;B327;PVK Evropa a národní státy;4953;'Mgr. Jan Musil Ph.D.'
+KFHS;K442;Semináø k diplomové práci;4953;'Mgr. Jan Musil Ph.D.'
+KPF;N020;Nacionalismus a národní identity I;4953;'Mgr. Jan Musil Ph.D.'
+KPF;B092;PVK Evropské právo;4981;'doc. JUDr. PhDr. Vojtìch Belling Ph.D.'
+KI;EIS;Podnikové informaèní systémy;4991;'Ing. Miroslav Novotný
+KI;KEIS;Podnikové informaèní systémy;4991;'Ing. Miroslav Novotný
+KSZD;LO9;Lázeòství;5014;'Ing. Josef Kressl'
+KSZD;LOK9;Lázeòství;5014;'Ing. Josef Kressl'
+KZP;4OCHP;Ochrana pøírody;5131;'Ing. Johana Jackovièová Ph.D.'
+KZP;5KRUP;Krajináøské a parkové úpravy;5131;'Ing. Johana Jackovièová Ph.D.'
+KZP;6KRUP;Krajináøské a parkové úpravy;5131;'Ing. Johana Jackovièová Ph.D.'
+KZP;3OCHP;Ochrana pøírody;5131;'Ing. Johana Jackovièová Ph.D.'
+KHI;0661;PVK Dìjiny vojenství ve filmu;5169;'JUDr. Mgr. Stanislav Körner'
+KHI;K812;PVK Dìjiny vojenství ve filmu;5169;'JUDr. Mgr. Stanislav Körner'
+KF;PKFK5;Psychologie a zdravotnická psychologie;5192;'Mgr. Hana Sirotková'
+KSZD;SKU2;Školní a poradenská psychologie;5192;'Mgr. Hana Sirotková'
+KSZD;SKUK2;Školní a poradenská psychologie;5192;'Mgr. Hana Sirotková'
+KF;PSYF5;Psychologie;5192;'Mgr. Hana Sirotková'
+KZR;MRR2;Radiodiagnostika MR;5216;'MUDr. Magdalena Tykvová'
+KZR;ULR2;Ultrazvuk;5216;'MUDr. Magdalena Tykvová'
+KZR;PTR2;Pøístr. technika a vybavení v KZ a. s.;5216;'MUDr. Magdalena Tykvová'
+KE;FZE5;Fyziologie;5217;'MUDr. Kamila Pelcová
+KE;PRPE;První pomoc;5227;'MUDr. Jan Bilík'
+KF;PEFK5;Pediatrie;5243;'MUDr. Antonín Gabera'
+KE;PEEK5;Pediatrie;5243;'MUDr. Antonín Gabera'
+CJP;D015;Francouzština;5258;'Sabine Grégory-Janetová'
+KF;MK15;Metody kinezioterapie I;5301;'Mgr. Kateøina Popelková'
+KO;FZVK5;Fyziologie;5316;'MUDr. Irena Moudrá Wünschová'
+KHI;PBH77;Dìjiny 19. století v èeských zemích;5373;'Mgr. Eva Grisová
+KHI;DCN;Dìjiny èeského novovìku;5373;'Mgr. Eva Grisová
+KHI;KV122;PVK Židovství a antisem. na našem území;5373;'Mgr. Eva Grisová'
+KHI;KV13;PVK Židovství a antisem. na našem území;5373;'Mgr. Eva Grisová'
+KGER;0932;PVK Jak se ucházet o praxi èi zamìstnání;5469;'Melanie Bruckmann'
+KGER;0933;PVK Exkurze - knižní veletrh Lipsko;5469;'Melanie Bruckmann
+KGER;0920;PVK Interkulturní literární vìda;5480;'Dr. phil. Sandra Vlasta'
+KPF;B213;PVK Umìní prezentace;5718;'Mgr. Vít Najman'
+KPF;N021;PVK Nacionalismus a národní identity II;5718;'Mgr. Vít Najman'
+KF;FYZ2K;Fyzioterapie II;5731;'Mgr. Jaroslava Banýrová
+KF;SPF15;Odborná souvislá praxe I;5731;'Mgr. Jaroslava Banýrová
+KF;IF15;Individuální odborná souvislá praxe I;5731;'Mgr. Jaroslava Banýrová'
+KF;NEU1;Neurologie I;5731;'Mgr. Jaroslava Banýrová'
+KF;ZF1K5;Základy fyzioterapie a vyšetø. metody I;5731;'Mgr. Jaroslava Banýrová
+KSZD;REHP5;Rehabilitace v porodní asistenci;5731;'Mgr. Jaroslava Banýrová
+KE;MKK5;Metody kinezioterapie;5731;'Mgr. Jaroslava Banýrová
+KGER;0896;PVK Zásady vìdecké práce;5778;'Agnes Goldhahn Ph.D., M.A.'
+KGER;0926;PVK Vìdecký styl;5778;'Agnes Goldhahn Ph.D., M.A.'
+KGEO;0158;Letní geografická škola;5886;'Ing. Jiøí Louda Ph.D.
+KZP;1AEES;Applied economics and ecosystem services;5886;'Ing. Jiøí Louda Ph.D.
+KZP;1VPGO;Valuation of public goods and ecos. serv;5886;'Ing. Jiøí Louda Ph.D.
+KSZD;PDA9;Prezentaèní dovednosti;5895;'Mgr. Kamila Madarová'
+KO;PDV9;Prezentaèní dovednosti;5895;'Mgr. Kamila Madarová'
+KSZD;PDA5;Prezentaèní dovednosti;5895;'Mgr. Kamila Madarová'
+KO;DOVK5;Didaktika ošetøovatelské praxe;5895;'Mgr. Kamila Madarová'
+KO;PDV5;Prezentaèní dovednosti;5895;'Mgr. Kamila Madarová'
+KSZD;KOMP5;Komunikace;5895;'Mgr. Kamila Madarová
+KO;MAVK5;Management v ošetøovatelství;5895;'Mgr. Kamila Madarová'
+KSZD;MDOK9;Mediální prùprava;5895;'Mgr. Kamila Madarová'
+KF;ORPF5;Organizace a øízení zdravotní péèe;5895;'Mgr. Kamila Madarová'
+KO;DOVK9;Didaktika ošetøovatelské praxe;5895;'Mgr. Kamila Madarová'
+KO;KOMV5;Komunikace;5895;'Mgr. Kamila Madarová'
+KO;PTVK9;Prezentaèní dovednosti;5895;'Mgr. Kamila Madarová'
+KSZD;MDO9;Mediální prùprava;5895;'Mgr. Kamila Madarová'
+KHI;KV09;PVK Ès. divadla šedesátých let;5953;'Mgr. Filip Stojaník'
+KFY;M103;Praktikum poèítaèového modelování I;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;M203;Praktikum poèítaèového modelování II;5958;'Mgr. Martin Svoboda Ph.D.'
+KPOL;B306;PVK Local Government in Europe;5976;'doc. PhDr. Daniel Klimovský PhD.'
+KO;REHVK;Rehabilitaèní ošetøovatelství;6037;'Mgr. Martina Paulíková'
+KO;DPSK2;Oše. péèe v dìtské a dorostové psych.;6037;'Mgr. Martina Paulíková'
+KO;KPPK9;Komunitní péèe;6037;'Mgr. Martina Paulíková'
+KO;REVK5;Rehabilitaèní ošetøovatelství;6037;'Mgr. Martina Paulíková'
+KO;DPVK5;OSE o nemocné s duševními poruchami;6037;'Mgr. Martina Paulíková'
+KZR;SYZ2;Ošetøovatelská péèe v psychiatrii;6037;'Mgr. Martina Paulíková'
+KO;BPDK2;Bakaláøská práce;6037;'Mgr. Martina Paulíková
+KSZD;POSP9;OSE v psychiatrii;6037;'Mgr. Martina Paulíková'
+KZR;OZ2;Ošetøovatelská péèe v oèním lékaøství;6037;'Mgr. Martina Paulíková'
+KO;KPPV9;Komunitní péèe;6037;'Mgr. Martina Paulíková'
+KGER;0949;PVK Èesko-saské debaty;6104;'Anne Kathrin Liebscher'
+KFHS;K449;Uèitel - žák - spolutv. spol. vzdìl.;6217;'Mgr. Rudolf Kardoš Ph.D.'
+KFHS;P438;Uèitel - žák - spolutv. spol. vzdìl.;6217;'Mgr. Rudolf Kardoš Ph.D.'
+KFHS;B311;Informaèní technologie II;6217;'Mgr. Rudolf Kardoš Ph.D.'
+KHI;KV11;PVK Vybrané problémy moderních dìjin;6217;'Mgr. Rudolf Kardoš Ph.D.
+KPF;B057;PVK Úvod do didaktiky spoleèenských vìd;6217;'Mgr. Rudolf Kardoš Ph.D.'
+KPF;N204;PVK Didaktické praktikum - SV;6217;'Mgr. Rudolf Kardoš Ph.D.'
+KPF;SPP1;Souvislá pedagogická praxe I;6217;'Mgr. Rudolf Kardoš Ph.D.'
+KPF;SPP2;Souvislá pedagogická praxe II;6217;'Mgr. Rudolf Kardoš Ph.D.'
+KHI;KV11;PVK Vybrané problémy moderních dìjin;6218;'Mgr. Mirka Salavová'
+UTM;PV094;Úvod do teorie mìøení;6219;'Ing. Michal Lattner Ph.D.'
+KO;REHV5;Rehabilitaèní ošetøovatelství;6224;'Mgr. Gabriela Vízková'
+KF;STFK5;Specifika tìlesné zátìže dìtí a mládeže;6224;'Mgr. Gabriela Vízková'
+KZR;PRR2;Radioter. v kazuistikách z klin. praxe;6226;'MUDr. Denisa Šmejkalová-Musilová'
+KZR;PTR2;Pøístr. technika a vybavení v KZ a. s.;6226;'MUDr. Denisa Šmejkalová-Musilová
+KGER;0927;PVK Ètení s porozumìním;6262;'Mgr. Karl-Heinz Gmehling M.A.'
+KSZD;ZTO9;Zdravotnická technika;6275;'Ing. Jaroslav Zdobinský'
+KHI;KV18;PVK Moderní dìjiny Polska (1918-1990);6439;'Adam Zítek'
+KF;NTFK5;Nové trendy ve fyzioterapii;6452;'Mgr. Vanda Markesová'
+KGER;0964;PVK Jazyková cvièení 3;6810;'Dr. Karin Wozonig'
+KGER;2PIP;Písemný projev;6810;'Dr. Karin Wozonig'
+KGER;0955;PVK Rakouské spolkové zemì;6810;'Dr. Karin Wozonig'
+KGER;0930;PVK Písemný projev k SZZ;6810;'Dr. Karin Wozonig'
+CCV;RUC26;Souvislá praxe;6914;'Mgr. David Bauer'
+CCV;KSP09;Pedagogická praxe I;6914;'Mgr. David Bauer'
+KF;KI2K5;Kineziologie II;7018;'MUDr. Michaela Svobodová'
+KF;KI1K5;Kineziologie I;7018;'MUDr. Michaela Svobodová'
+KO;PAPVK;OSE v onkologii a paliativní péèi;7324;'MUDr. Petra Klimecká'
+KO;PAPV5;OSE v onkologii a paliativní péèi;7324;'MUDr. Petra Klimecká'
+KE;AN2E5;Anatomie II;7613;'MUDr. Robert Bartoš Ph.D.
+KF;FZF5;Fyziologie;7703;'MUDr. Roman Mišièko
+KO;PFVK5;Patologie a patologická fyziologie;7708;'MUDr. Olga Snížková'
+KO;PFV5;Patologie a patologická fyziologie;7708;'MUDr. Olga Snížková'
+KSZD;PATP5;Patologie;7708;'MUDr. Olga Snížková'
+KSZD;PK2P5;Primární a komunitní péèe v PA II.;7709;'Mgr. Monika Pelikánová
+KGER;LIVE;Literární vìda;7735;'prof. Dr. Manfred Weinberg'
+KF;ZF15;Základy fyzioterapie a vyšet. metody I;7820;'Mgr. Iva Folgetová
+KF;RPF5;Rehabilitaèní propedeutika;7820;'Mgr. Iva Folgetová
+KPF;B247;PVK Odpovìdnost a svìdomí;7827;'Mgr. Václav Tollar Ph.D.'
+KGER;KLP2;Literární prosemináø II;7829;'Mgr. Gabriela Dvornycká'
+KGER;KUSG;Úvod do studia germanistiky;7829;'Mgr. Gabriela Dvornycká
+KGER;USG;Úvod do studia germanistiky;7829;'Mgr. Gabriela Dvornycká
+KGER;0987;PVK Cvièení ke gramatice;7829;'Mgr. Gabriela Dvornycká'
+KGER;LP2;Literární prosemináø II;7829;'Mgr. Gabriela Dvornycká'
+CCV;UP1B;Obecná didaktika;7973;'PhDr. Jakub Formánek
+KO;BPDK2;Bakaláøská práce;8015;'prof. MUDr. Vladimír Èerný Ph.D.
+KE;ZE1K5;Základy fyzioterapie a vyšetø. metody I;8017;'PhDr. Anna Chvalkovská PhD.'
+KE;ZF1E5;Základy fyzioterapie a vyšet. metody I;8017;'PhDr. Anna Chvalkovská PhD.
+KO;BPDK2;Bakaláøská práce;8020;'PharmDr. Lucie Hauschke Ph.D.
+KO;BPDK2;Bakaláøská práce;8023;'doc. MUDr. Roman Škulec Ph.D.
+XPF;XM2;Pokus - Moodle2;8025;'Ing. Radek Fajgl'
+KHI;V048;PVK Pátráme po reèi iného;8048;'doc. PaedDr. Viliam Kratochvíl PhD.'
+KO;PDVK;OSE v dermatovenerologii;8050;'MUDr. Petra Vondráèková'
+KO;PDVK5;OSE v dermatovenerologii;8050;'MUDr. Petra Vondráèková'
+KF;ZF15;Základy fyzioterapie a vyšet. metody I;8056;'Mgr. Tereza Sochorová
+KF;FZ15;Fyzioterapie I;8056;'Mgr. Tereza Sochorová
+KF;FZ2K5;Fyzioterapie II;8056;'Mgr. Tereza Sochorová
+KF;FZ35;Fyzioterapie III;8056;'Mgr. Tereza Sochorová
+KF;ZF15;Základy fyzioterapie a vyšet. metody I;8070;'Mgr. Klára Trupová'
+KHI;KV24;PVK Od Velké Moravy po krizi roku 1000;8090;'Mgr. Markéta Jirmanová'
+KI;SWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
+KI;KOOD;Objektovì orientovaný návrh;8093;'Ing. Jan Svoboda'
+KI;KSWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
+KSZD;ZPOK9;Zdravotní pojištìní;8127;'MUDr. Petr Veselský'
+KSZD;ZJO9;Zdravotní pojištìní;8127;'MUDr. Petr Veselský'
+KSZD;DPA5;Dovednosti v porodní asistenci;8129;'Mgr. Adéla Matyšèáková
+KHI;PBD61;Úvod do archeologie støedovìku;8134;'Mgr. Milan Sýkora'
+KHI;KBD61;Úvod do archeologie støedovìku;8134;'Mgr. Milan Sýkora'
+KAPV;KBA62;Ochrana a konzervace archiválií;8143;'MgA. Pavla Bártová'
+KSZD;EPO3;Epidemiologická metodologie;8351;'PhDr. O¾ga Jarabicová PhD.
+KSZD;ZBOK9;Zdraví a bezpeènost zdrav. pracovníka;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;S2O3;Semináø k bakaláøské práci II;8351;'PhDr. O¾ga Jarabicová PhD.
+KSZD;ZBO9;Zdraví a bezpeènost zdrav. pracovníka;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;S1KO3;Semináø k bakaláøské práci I.;8351;'PhDr. O¾ga Jarabicová PhD.
+KSZD;S2KO3;Semináø k bakaláøské práci II.;8351;'PhDr. O¾ga Jarabicová PhD.
+KSZD;S1O3;Semináø k bakaláøské práci I;8351;'PhDr. O¾ga Jarabicová PhD.
+KZR;KZT3;Komunikace ve zdravotnictví;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;H2O3;Hygiena práce II;8351;'PhDr. O¾ga Jarabicová PhD.'
+KO;VZVK9;Veøejné zdravotnictví a ochrana zdraví;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;EPKO3;Epidemiologická metodologie;8351;'PhDr. O¾ga Jarabicová PhD.
+KZR;VZT3;Veøejné zdravotnictví;8351;'PhDr. O¾ga Jarabicová PhD.'
+KO;BPDK2;Bakaláøská práce;8351;'PhDr. O¾ga Jarabicová PhD.
+KSZD;LTKO3;Lab. techniky v živ. a prac. prostøedí;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;HKKO3;Hygiena obecná a komunální;8351;'PhDr. O¾ga Jarabicová PhD.
+KZR;VZZK2;Veøejné zdr. a výchova ke zdraví;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;H2KO3;Hygiena práce II.;8351;'PhDr. O¾ga Jarabicová PhD.'
+KO;VZV9;Veøejné zdravotnictví a ochrana zdraví;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;H1KO3;Hygiena práce I.;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;VZP9;Veøejné zdravotnictví a ochrana zdraví;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;HKO3;Hygiena obecná a komunální;8351;'PhDr. O¾ga Jarabicová PhD.
+KSZD;VPKO3;Metody vìdecké práce a biostatistika;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;ENKO3;Epidemiologie neinfekèních nemocí;8351;'PhDr. O¾ga Jarabicová PhD.'
+KSZD;ENO3;Epidemiologie neinfekèních nemocí;8351;'PhDr. O¾ga Jarabicová PhD.'
+KZR;VZZ2;Veøejné zdravotnictví a vých. ke zdraví;8351;'PhDr. O¾ga Jarabicová PhD.
+KSZD;H1O3;Hygiena práce I;8351;'PhDr. O¾ga Jarabicová PhD.'
+KAPV;PMA31;Edice archivních pramenù I;8402;'PhDr. Bc. Pavel Holub Ph.D.
+KAPV;PV315;PVK Oberhollabrunnský systém úøadování;8402;'PhDr. Bc. Pavel Holub Ph.D.'
+KAPV;KV315;PVK Oberhollabrumnský systém úøadování;8402;'PhDr. Bc. Pavel Holub Ph.D.'
+KAPV;KBA41;IT technologie archivnictví;8402;'PhDr. Bc. Pavel Holub Ph.D.'
+KAPV;KMA31;Edice archivních pramenù I;8402;'PhDr. Bc. Pavel Holub Ph.D.
+KHI;KPVH1;Pomocné vìdy historické I;8402;'PhDr. Bc. Pavel Holub Ph.D.
+KHI;K210;Archivnictví II;8402;'PhDr. Bc. Pavel Holub Ph.D.
+KAPV;PV512;PVK Prameny pro poznání dìjin venkova;8402;'PhDr. Bc. Pavel Holub Ph.D.'
+KAPV;PMA41;Prezentace archivù a archiválií;8402;'PhDr. Bc. Pavel Holub Ph.D.'
+KAPV;KV511;PVK Metodiky pro zprac. archivních fondù;8402;'PhDr. Bc. Pavel Holub Ph.D.'
+KAPV;KV512;PVK Redakèní práce a pøíprava textu;8402;'PhDr. Bc. Pavel Holub Ph.D.'
+KHI;KPVH2;Pomocné vìdy historické II;8402;'PhDr. Bc. Pavel Holub Ph.D.
+KSZD;RKO9;Øízení kvality ve zdravot. zaøízeních;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KSZD;SZOK9;Standardy zdravotní péèe;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KSZD;SZU2;Standardy zdravotní péèe;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KO;KBDK2;Kvalita a bezpeèí zdravotní péèe;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KF;ORPF9;Organizace a øízení zdrav. péèe;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KSZD;MKO9;Manažerská komunikace a obch. vyj.;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KSZD;ZSUK2;Standardy zdravotní péèe;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KO;KBD2;Kvalita a bezpeèí zdravotní péèe;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KSZD;RKOK9;Øízení kvality ve zdravot. zaøízeních;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KSZD;SZO9;Standardy zdravotní péèe;8410;'Ing. Mgr. Bc. Vlasta Kašparová'
+KO;AJV5;Anglický jazyk;8415;'Mgr. Ivana Turková'
+KE;AJE15;Anglický jazyk I;8415;'Mgr. Ivana Turková'
+KO;AJVK;Anglický jazyk;8415;'Mgr. Ivana Turková'
+KF;CSPF9;Centraènì-stabilizaèní posilování;8415;'Mgr. Ivana Turková'
+KE;JOGE5;Joga;8415;'Mgr. Ivana Turková'
+KF;TFK5;Sport a TV zdravotnì postižených;8415;'Mgr. Ivana Turková'
+KE;AJEK5;Anglický jazyk;8415;'Mgr. Ivana Turková'
+KSZD;AJP5;Anglický jazyk;8415;'Mgr. Ivana Turková'
+KF;JOGF5;Jóga;8415;'Mgr. Ivana Turková'
+KF;AJF15;Anglický jazyk I;8415;'Mgr. Ivana Turková'
+KF;AJFK5;Anglický jazyk;8415;'Mgr. Ivana Turková'
+KF;TF5;Sport a TV zdravotnì postižených;8415;'Mgr. Ivana Turková'
+KF;TVF25;Tìlesná výchova a didaktika II;8415;'Mgr. Ivana Turková'
+KF;TVF15;Tìlesná výchova a didaktikaI;8415;'Mgr. Ivana Turková'
+KF;JOGAF;Jóga;8415;'Mgr. Ivana Turková'
+KSZD;BIO3;Biologie obecná;8460;'MUDr. Jan Špièka MBA'
+KSZD;CHKO3;Chemie a biochemie;8460;'MUDr. Jan Špièka MBA'
+KSZD;BIKO3;Biologie obecná;8460;'MUDr. Jan Špièka MBA'
+KSZD;CHO3;Chemie a biochemie;8460;'MUDr. Jan Špièka MBA'
+KZR;BHZ2;Biochemie, hematologie a transfuzní lék.;8461;'Ing. Pavla Bradáèová
+KO;BHD2;Biochemie a hematologie;8461;'Ing. Pavla Bradáèová
+KO;BHDK2;Biochemie a hematologie;8461;'Ing. Pavla Bradáèová
+KZR;BHZK2;Biochemie, hematologie a transfuzní lék.;8461;'Ing. Pavla Bradáèová
+KE;AN2E9;Anatomie II;8477;'MUDr. Alberto Malucelli Ph.D.
+KE;AN1E9;Anatomie I;8477;'MUDr. Alberto Malucelli Ph.D.
+KI;ITM;Introduction to MATLAB;8514;'Ricardo Rodriguez Jorge Ph.D.'
+KI;OPRE;Odborná prezentace;8514;'Ricardo Rodriguez Jorge Ph.D.
+KI;KOPRE;Odborná prezentace;8514;'Ricardo Rodriguez Jorge Ph.D.
+KZR;FTZK2;Farmakologie a toxikologie;8529;'PharmDr. Kateøina Langmaierová
+KZR;FTZ2;Farmakologie a toxikologie;8529;'PharmDr. Kateøina Langmaierová
+KZR;FTZK2;Farmakologie a toxikologie;8532;'Ing. Andrea Novotná Rychtecká'
+KZR;FTZ2;Farmakologie a toxikologie;8532;'Ing. Andrea Novotná Rychtecká'
+KZR;IZZ2;Integrovaný záchranný systém;8534;'Mgr. et Mgr. Jan Trpišovský'
+KZR;IZZK2;Integrovaný záchranný systém;8534;'Mgr. et Mgr. Jan Trpišovský'
+KZR;ZCT3;Základy chemie;8535;'Ing. Bc. Anna Knaislová Ph.D.'
+KZR;BT3;Biologie;8553;'MUDr. Andrea Šmejcová'
+KO;MIDK2;Mikrobio., imunolog., epidemiol. a hyg.;8553;'MUDr. Andrea Šmejcová'
+KO;MID2;Mikrobiol., imun., epid. a hygiena;8553;'MUDr. Andrea Šmejcová'
+KSZD;BIO3;Biologie obecná;8553;'MUDr. Andrea Šmejcová
+KSZD;BIKO3;Biologie obecná;8553;'MUDr. Andrea Šmejcová
+KZR;EPR2;Epidemiologie;8553;'MUDr. Andrea Šmejcová'
+KGER;KPJ1;Praktický jazyk I;8653;'Manuel Kloibhofer M.A.
+KGER;N014;Interkulturní komunikace II;8653;'Manuel Kloibhofer M.A.'
+KGER;KPP1;Písemný projev;8653;'Manuel Kloibhofer M.A.'
+KGER;KPJ2;Praktický jazyk II;8653;'Manuel Kloibhofer M.A.
+KGER;KN14;Interkulturní komunikace II;8653;'Manuel Kloibhofer M.A.'
+KGER;PP1;Písemný projev;8653;'Manuel Kloibhofer M.A.'
+KGER;N007;Interkulturní komunikace I;8653;'Manuel Kloibhofer M.A.'
+KGER;K0975;PVK Rakousko: kult., hist. a spoleènost;8653;'Manuel Kloibhofer M.A.'
+KGER;KPJ4;Praktický jazyk IV;8653;'Manuel Kloibhofer M.A.
+KGER;KN07;Interkulturní komunikace I;8653;'Manuel Kloibhofer M.A.'
+KGER;KPJ3;Praktický jazyk III;8653;'Manuel Kloibhofer M.A.'
+KGER;0975;PVK Rakousko: kult., hist. a spoleènost;8653;'Manuel Kloibhofer M.A.'
+KGER;PJ4;Praktický jazyk IV;8653;'Manuel Kloibhofer M.A.
+KFHS;K529;PVK Sociální dimenze traumatu;8686;'Mgr. Petr Kouba Ph.D.'
+KFHS;P529;PVK Sociální dimenze traumatu;8686;'Mgr. Petr Kouba Ph.D.'
+KFHS;K520;PVK Ontologie sociální soudržnosti;8686;'Mgr. Petr Kouba Ph.D.'
+KFHS;P520;PVK Ontologie sociální soudržnosti;8686;'Mgr. Petr Kouba Ph.D.'
+KSZD;FUOK9;Finance a úèetnictví;8722;'Ing. Michal Struk Ph.D.
+KZR;ULR2;Ultrazvuk;8725;'MUDr. Lucie Lejnarová
+KGER;KIKK1;Interkulturní komunikace I;8733;'Martina Mühlberg Krejèová
+KHI;PBH21;Dìjiny èeského raného novovìku;8823;'Mgr. Bára Zimmermannová'
+KO;PAD2;Patologie a patologická fyziologie;8907;'MUDr. Eliška Bejdáková
+KO;AJDK2;Odborná terminologie v anglickém jazyce;8909;'Mgr. Hana Vohradská'
+KHI;KV330;PVK Lední hokej v ÈSR po II. sv. v.;8958;'Mgr. Patrik Klicman'
+KGER;BAF;PVK Barlach, Fühmann a totalitarismus;9135;'PhDr. Roman Kopøiva Ph.D.'
+KZR;BT3;Biologie;9236;'MUDr. Dagmar Partlová
+KZR;BHZ2;Biochemie, hematologie a transfuzní lék.;9236;'MUDr. Dagmar Partlová'
+KZR;BIR2;Biochemie;9236;'MUDr. Dagmar Partlová'
+KO;BHD2;Biochemie a hematologie;9236;'MUDr. Dagmar Partlová'
+KO;BHDK2;Biochemie a hematologie;9236;'MUDr. Dagmar Partlová'
+KSZD;BIO3;Biologie obecná;9236;'MUDr. Dagmar Partlová
+KSZD;CHKO3;Chemie a biochemie;9236;'MUDr. Dagmar Partlová
+KSZD;BIKO3;Biologie obecná;9236;'MUDr. Dagmar Partlová
+KSZD;CHO3;Chemie a biochemie;9236;'MUDr. Dagmar Partlová
+KZR;BHZK2;Biochemie, hematologie a transfuzní lék.;9236;'MUDr. Dagmar Partlová'
+KZR;BHZ2;Biochemie, hematologie a transfuzní lék.;9237;'Ing. Adéla Jizerová
+KZR;BIR2;Biochemie;9237;'Ing. Adéla Jizerová
+KO;BHD2;Biochemie a hematologie;9237;'Ing. Adéla Jizerová
+KO;BHDK2;Biochemie a hematologie;9237;'Ing. Adéla Jizerová
+KHI;KV127;PVK Èlovìk a pøíroda ve støed. a novov.;9240;'Mgr. et Mgr. Eliška Coubalová'
+KAPV;KV517;PVK Zmìny arch. praxe v posl. 20 letech;9241;'Mgr. Markéta Vladyková Ph.D.'
+KAPV;KV518;PVK Sportovní archivnictví;9242;'Mgr. Lucie Swierczeková Ph.D.'
+KZR;MRR2;Radiodiagnostika MR;9254;'MUDr. Zuzana Doležalová
+KZR;RKR2;Radiodiagn. v kazuistikách z klin. praxe;9254;'MUDr. Zuzana Doležalová'
+KZR;RGR2;Radiodiagnostika;9273;'MUDr. Pavel Chmelík'
+KZR;CT1R2;Radiodiagnostika CT I.;9287;'MUDr. Patrik Matras'
+KZR;CT2R2;Radiodiagnostika CT II.;9287;'MUDr. Patrik Matras'
+KZR;ZDR2;Zobrazování v mamární diagnostice;9288;'MUDr. Petr Váša'
+KZR;AGR2;Angiografie a intervenèní radiologie;9290;'MUDr. Vojtìch Smolka'
+KZR;MRR2;Radiodiagnostika MR;9291;'MUDr. Vladìna Skálová
+KZR;ULR2;Ultrazvuk;9291;'MUDr. Vladìna Skálová
+KZR;PTR2;Pøístr. technika a vybavení v KZ a. s.;9291;'MUDr. Vladìna Skálová
+KI;SWI;Softwarové inženýrství;9303;'Ing. Petr Høebejk
+KI;KSWI;Softwarové inženýrství;9303;'Ing. Petr Høebejk
+KZP;1FMNI;Fluxes of meth. and nitr. ox. in forest;9319;'RNDr. Mgr. Kateøina Macháèová'
+KECHT;1TERR;Terrain excursion;9319;'RNDr. Mgr. Kateøina Macháèová
+KZR;NM3R2;Nukleární medicína III.;9333;'MUDr. Aleš Chodacki
+KZR;NKR2;Nukl. med. v kazuistikách z klin. praxe;9333;'MUDr. Aleš Chodacki
+KPOL;B212;PVK Úvod do probl. bezpeènosti státu;9497;'PhDr. Jakub Hornek Ph.D.'
+KPOL;B308;PVK Spec. èeské kom. pol. malých obcí;9497;'PhDr. Jakub Hornek Ph.D.'
+KHI;PBS30;Prezentace kulturního dìdictví;9649;'Mgr. Vladimír Tregl'
+KHI;PBS61;Praktický specializaèní kurz;9652;'Mgr. Jindøich Zajíc Ph.D.'
+KZR;IKR2;Intervenèní kardiologie;9691;'MUDr. Radim Špaèek'
+KZR;DNR2;Diag. met. v neurologii a neurochirurgii;9701;'MUDr. Ing. David Èerník Ph.D., MBA'
+KZR;TDZ2;Technické dovednosti v urgentní medicínì;9702;'MUDr. Lenka Èechurová'
+KZR;TDZK2;Tech. dovednosti v urgentní medicínì;9702;'MUDr. Lenka Èechurová'
+KECHT;1LAB5;Lab. V - Synth. of emerg. inorg. mater.;9717;'Mgr. Jan Hynek Ph.D.'
+KECHT;1LAB6;Lab. VI - Synth. of emerg. org. mater.;9799;'RNDr. Karel Škoch Ph.D.'
+KECHT;1LAB8;Lab. VIII - App.-orient. test. of mater.;9800;'Dr. Ing. Birgit Jost'
+KECHT;1CPSI;Chem. and phys. of sur- and interfaces;9883;'Dr. rer. nat. Mgr. Jiøí Novák'
+KECHT;1POMA;Porous materials;9885;'RNDr. Jan Demel PhD.'

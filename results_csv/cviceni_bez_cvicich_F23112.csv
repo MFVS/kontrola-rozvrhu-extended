@@ -1,1 +1,771 @@
 katedra;zkratka;idno;typAkceZkr;rok;datumOd;datumDo;hodinaSkutOd;hodinaSkutDo;katedra_right;nazev;cvicici;cviciciUcitIdno;jmena
+KHV;0266;8504;Cv;2024;7.10.2024;16.12.2024;18:00;20:00;KHV;VK - Sborovı zpìv (Chorea academica) A;'prof. PaedDr. Jiøí Holubec, Ph.D.', 'prof. PhDr. Josef Øíha';355, 86;Zmátlo Pavel, Mgr.
+KHV;0268;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;VK - Sborovı zpìv (Sbor KHV) A;'doc. PaedDr. Vladimír Kuelka', 'MgA. Roman Palas', 'Mgr. Kristına Pøívarová';359, 3158, 4158;Eichler Honcù Jana, Mgr. DiS.
+CJP;0331;4380;Cv;2024;4.10.2024;3.1.2025;12:00;13:50;CJP;Odbornı text 3x jinak - AJ;"";;Jelínková Jaroslava, Mgr. Ph.D.
+CJP;0337;5827;Cv;2024;4.10.2024;3.1.2025;08:00;09:50;CJP;VK - Gramatickı semináø NJ;"";;Nesládková Martina, Mgr. M.A.
+CJP;0338;5827;Cv;2024;4.10.2024;3.1.2025;08:00;09:50;CJP;VK - Øízenı dialog v nìmeckém jazyce;"";;Nesládková Martina, Mgr. M.A.
+KZP;0ETMD;8944;Cv;2024;19.2.2025;14.5.2025;11:00;11:50;KZP;Environmental Issues;'Abdulmannan Rouhani';9782;Hejcman Michal, prof. doc. RNDr. Ph.D.
+KGI;3GIF3;2787;Cv;2024;7.10.2024;16.12.2024;17:00;18:50;KGI;Geoinformatika 3;'Mgr. Michal Jakl', 'Mgr. et Mgr. Petr Krpec, Ph.D.';8276, 9902;Pacina Jan, doc. Ing. Ph.D.
+KGI;3GISP;9246;Cv;2024;3.10.2024;2.1.2025;15:00;16:50;KGI;GIS Project;'Mgr. Martin Dolejš, Ph.D.';4303;Mlınek Pavel, Mgr.
+KGI;3MTPD;8501;Cv;2024;1.10.2024;17.12.2024;09:00;11:50;KGI;Metody tvorby prostorovıch dat;'Ing. Dominik Brétt', 'Ing. Vladimír Brùna', 'Ing. Jitka Elznicová, Ph.D.';8275, 169, 171;Müllerová Jana, Mgr. Ph.D.
+KGI;3PCAD;;Cv;2024;20.2.2025;15.5.2025;14:00;17:50;KGI;Projektování v CAD;'Ing. Tomáš Janata, Ph.D.';7410;
+KGI;3POS;1165;Cv;2024;3.10.2024;2.1.2025;14:00;14:50;KGI;Poèítaèové sítì;'RNDr. Jan Krejèí, Ph.D.';2776;Balín Kamil, Mgr.
+KGI;3SBO2;171;Cv;2024;25.3.2025;25.3.2025;12:00;14:50;KGI;Semináø k BP II;"";;Elznicová Jitka, Ing. Ph.D.
+KECHT;3SBO2;171;Cv;2024;25.3.2025;25.3.2025;12:00;14:50;KECHT;Semináø k BP II;"";;Elznicová Jitka, Ing. Ph.D.
+KGI;3SBO2;171;Cv;2024;8.4.2025;8.4.2025;12:00;14:50;KGI;Semináø k BP II;"";;Elznicová Jitka, Ing. Ph.D.
+KZP;3SBO2;171;Cv;2024;8.4.2025;8.4.2025;12:00;14:50;KZP;Semináø k BP II;"";;Elznicová Jitka, Ing. Ph.D.
+KECHT;3SBO2;171;Cv;2024;11.3.2025;11.3.2025;12:00;14:50;KECHT;Semináø k BP II;"";;Elznicová Jitka, Ing. Ph.D.
+KECHT;3SBO2;543;Cv;2024;26.2.2025;26.2.2025;09:00;09:50;KECHT;Semináø k BP II;"";;Novák Petr, Mgr. Ing.
+KGI;3SBO2;171;Cv;2024;11.3.2025;11.3.2025;12:00;14:50;KGI;Semináø k BP II;"";;Elznicová Jitka, Ing. Ph.D.
+KZP;3SBO2;171;Cv;2024;11.3.2025;11.3.2025;12:00;14:50;KZP;Semináø k BP II;"";;Elznicová Jitka, Ing. Ph.D.
+KGI;3SBO2;543;Cv;2024;26.2.2025;26.2.2025;09:00;09:50;KGI;Semináø k BP II;"";;Novák Petr, Mgr. Ing.
+KZP;3SBO2;171;Cv;2024;25.3.2025;25.3.2025;12:00;14:50;KZP;Semináø k BP II;"";;Elznicová Jitka, Ing. Ph.D.
+KZP;3SBO2;543;Cv;2024;26.2.2025;26.2.2025;09:00;09:50;KZP;Semináø k BP II;"";;Novák Petr, Mgr. Ing.
+KECHT;3SBO2;171;Cv;2024;8.4.2025;8.4.2025;12:00;14:50;KECHT;Semináø k BP II;"";;Elznicová Jitka, Ing. Ph.D.
+KGI;3SPD3;8275;Cv;2024;3.10.2024;2.1.2025;09:00;11:50;KGI;Sbìr prostorovıch dat 3;'doc. Ing. Jan Pacina, Ph.D.';2787;Brétt Dominik, Ing.
+KGI;3TWWS;8276;Cv;2024;17.2.2025;12.5.2025;16:00;17:50;KGI;Tvorba WWW stránek;'Mgr. Ing. Petr Novák';543;Jakl Michal, Mgr.
+KGI;3ZGCD;9045;Cv;2024;1.10.2024;12.11.2024;16:00;17:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Bílková Gabriela, Ing.
+KGI;3ZGCD;9045;Cv;2024;7.10.2024;16.12.2024;15:00;16:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Bílková Gabriela, Ing.
+KGI;3ZGCD;9161;Cv;2024;1.10.2024;12.11.2024;16:00;17:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Tùmová Štìpánka, Ing. Bc. Ph.D.
+KGI;3ZGCD;9045;Cv;2024;17.12.2024;17.12.2024;16:00;17:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Bílková Gabriela, Ing.
+KGI;3ZGCD;9161;Cv;2024;17.12.2024;17.12.2024;14:00;15:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Tùmová Štìpánka, Ing. Bc. Ph.D.
+KGI;3ZGCD;9161;Cv;2024;17.12.2024;17.12.2024;16:00;17:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Tùmová Štìpánka, Ing. Bc. Ph.D.
+KGI;3ZGCD;9161;Cv;2024;7.10.2024;16.12.2024;15:00;16:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Tùmová Štìpánka, Ing. Bc. Ph.D.
+KGI;3ZGCD;9161;Cv;2024;1.10.2024;12.11.2024;14:00;15:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Tùmová Štìpánka, Ing. Bc. Ph.D.
+KGI;3ZGCD;9045;Cv;2024;1.10.2024;12.11.2024;14:00;15:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Bílková Gabriela, Ing.
+KGI;3ZGCD;9045;Cv;2024;17.12.2024;17.12.2024;14:00;15:50;KGI;Základy GIS a CAD;'Ing. Dominik Brétt', 'Ing. Jitka Elznicová, Ph.D.', 'Bc. Oto Weber';8275, 171, 9589;Bílková Gabriela, Ing.
+KGI;3ZLAL;;Cv;2024;20.2.2025;15.5.2025;12:00;13:50;KGI;Základy lineární algebry;'Mgr. Pavlína Mimrová';7283;
+KPS;4171;244;Cv;2024;7.10.2024;16.12.2024;15:00;15:50;KPS;Jedinec v sociální skupinì;'PhDr. Jan Drahoòovskı', 'Mgr. David Karel, Ph.D.', 'PhDr. Alena Pilousová';8049, 1086, 4410;Heømanová Vladislava, PhDr. Ph.D.
+KT1;4754;8724;Cv;2024;18.10.2024;18.10.2024;14:00;15:50;KT1;Didaktika atletiky;"";;Nechvátal Jiøí, Mgr.
+KT1;4754;586;Cv;2024;15.11.2024;15.11.2024;17:00;18:30;KT1;Didaktika atletiky;"";;Nosek Martin, Mgr. Ph.D.
+KT1;4754;586;Cv;2024;18.10.2024;18.10.2024;14:00;15:50;KT1;Didaktika atletiky;"";;Nosek Martin, Mgr. Ph.D.
+KT1;4754;8724;Cv;2024;15.11.2024;15.11.2024;17:00;18:30;KT1;Didaktika atletiky;"";;Nechvátal Jiøí, Mgr.
+KGI;4TWWS;8276;Cv;2024;15.3.2025;15.3.2025;08:00;09:50;KGI;Tvorba WWW stránek;'Mgr. Ing. Petr Novák';543;Jakl Michal, Mgr.
+KGI;4TWWS;8276;Cv;2024;5.4.2025;5.4.2025;08:00;09:50;KGI;Tvorba WWW stránek;'Mgr. Ing. Petr Novák';543;Jakl Michal, Mgr.
+KGI;4TWWS;8276;Cv;2024;3.5.2025;3.5.2025;08:00;09:50;KGI;Tvorba WWW stránek;'Mgr. Ing. Petr Novák';543;Jakl Michal, Mgr.
+KGI;4TWWS;8276;Cv;2024;22.2.2025;22.2.2025;08:00;09:50;KGI;Tvorba WWW stránek;'Mgr. Ing. Petr Novák';543;Jakl Michal, Mgr.
+KECHT;5ACHP;550;Cv;2024;3.10.2024;2.1.2025;15:00;15:50;KECHT;Analytická chemie P;'Ing. Sylvie Køíenecká, Ph.D.', 'RNDr. ¼uboš Vrtoch, Ph.D.';921, 4117;Janoš Pavel, prof. Ing. CSc.
+KZP;5AESY;8944;Cv;2024;3.10.2024;2.1.2025;10:00;10:50;KZP;Agroekosystémy;'Mgr. Eva Horèièková, Ph.D.';8761;Hejcman Michal, prof. doc. RNDr. Ph.D.
+KGI;5AGZP;8275;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;KGI;Aplikace GIS v ivotním prostøedí;"";;Brétt Dominik, Ing.
+KGI;5AGZP;2787;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;KGI;Aplikace GIS v ivotním prostøedí;"";;Pacina Jan, doc. Ing. Ph.D.
+KGI;5AGZP;9902;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;KGI;Aplikace GIS v ivotním prostøedí;"";;Krpec Petr, Mgr. et Mgr. Ph.D.
+KZP;5MLSA;5947;Cv;2024;17.2.2025;12.5.2025;15:00;15:50;KZP;Management of Large-Scale Protected Area;'Abdulmannan Rouhani';9782;Wildová Eliška, Ing. Ph.D.
+KZP;5MSEK;555;Cv;2024;19.2.2025;14.5.2025;17:00;18:50;KZP;Metody studia ekosystemù;'Mgr. Diana Holcová, Ph.D.', 'Mgr. Eva Horèièková, Ph.D.';3212, 8761;Holec Michal, Mgr. Ph.D.
+KGI;5MTPD;8501;Cv;2024;1.10.2024;17.12.2024;09:00;11:50;KGI;Metody tvorby prostorovıch dat;'Ing. Dominik Brétt', 'Ing. Vladimír Brùna', 'Ing. Jitka Elznicová, Ph.D.';8275, 169, 171;Müllerová Jana, Mgr. Ph.D.
+KECHT;5OLT;8521;Cv;2024;19.2.2025;14.5.2025;11:00;16:50;KECHT;Oborové laboratoøe - technologie;"";;Orava Jiøí, doc. Ing. Ph.D.
+KECHT;5OLT;4273;Cv;2024;19.2.2025;14.5.2025;11:00;16:50;KECHT;Oborové laboratoøe - technologie;"";;Krystyník Pavel, doc. Ing. Ph.D.
+KZP;5REVV;9602;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;KZP;Revitalizace vodní sloky krajiny;"";;Brychta Jiøí, Ing. Ph.D.
+KECHT;5SKVD;921;Cv;2024;1.10.2024;17.12.2024;16:00;16:50;KECHT;Systém kvality a vyhodnocování dat;'prof. Ing. Pavel Janoš, CSc.', 'Ing. Václav Synek, Ph.D.';550, 719;Køíenecká Sylvie, Ing. Ph.D.
+KECHT;5STO;4273;Cv;2024;18.2.2025;13.5.2025;12:00;12:50;KECHT;Speciální technologie ochrany P;'Ing. Daniel Bùek, Ph.D.', 'prof. Ing. Pavel Janoš, CSc.';6110, 550;Krystyník Pavel, doc. Ing. Ph.D.
+KECHT;5TXDP;4273;Cv;2024;2.10.2024;18.12.2024;13:00;13:50;KECHT;Toxikologickı semináø k DP;'doc. RNDr. Vlastimil Dohnal, Ph.D.';2227;Krystyník Pavel, doc. Ing. Ph.D.
+KPS;6034;244;Cv;2024;7.10.2024;16.12.2024;12:00;13:50;KPS;Diplomovı semináø II;'PhDr. Iva Wedlichová, Ph.D.', 'PhDr. Jiøí Závora, Ph.D.';249, 1875;Heømanová Vladislava, PhDr. Ph.D.
+KGI;6UREN;9521;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KGI;Urbánní environmentalistika;'doc. Mgr. Pavel Raška, Ph.D.';1434;Vaverka Lukáš, Mgr.
+KAJ;7010;645;Cv;2024;7.10.2024;16.12.2024;08:00;09:50;KAJ;Semináø anglického jazyka 1;'MgA. Martin Holland';3532;Laue Anthony, M.A.
+KBO;7010;9655;Cv;2024;7.10.2024;16.12.2024;13:00;13:50;KBO;Úvod do studia èeského jazyka;'PhDr. Jiøí Hasil, Ph.D.', 'Mgr. Karel Kulich, Ph.D.';1159, 8730;Musil Adam, Mgr.
+KAJ;7010;645;Cv;2024;7.10.2024;16.12.2024;13:00;14:50;KAJ;Semináø anglického jazyka 1;'MgA. Martin Holland';3532;Laue Anthony, M.A.
+KBO;7010;9655;Cv;2024;7.10.2024;16.12.2024;12:00;12:50;KBO;Úvod do studia èeského jazyka;'PhDr. Jiøí Hasil, Ph.D.', 'Mgr. Karel Kulich, Ph.D.';1159, 8730;Musil Adam, Mgr.
+KBO;7010;9655;Cv;2024;7.10.2024;16.12.2024;15:00;15:50;KBO;Úvod do studia èeského jazyka;'PhDr. Jiøí Hasil, Ph.D.', 'Mgr. Karel Kulich, Ph.D.';1159, 8730;Musil Adam, Mgr.
+KBO;7013;297;Cv;2024;4.10.2024;3.1.2025;10:00;11:50;KBO;Úvod do studia literatury;'PaedDr. Ivo Harák, Ph.D.', 'doc. Mgr. Jiøí Koten, Ph.D.';291, 1006;Valenta Zdenìk, PhDr. Ph.D.
+KBO;7013;297;Cv;2024;4.10.2024;3.1.2025;08:00;09:50;KBO;Úvod do studia literatury;'PaedDr. Ivo Harák, Ph.D.', 'doc. Mgr. Jiøí Koten, Ph.D.';291, 1006;Valenta Zdenìk, PhDr. Ph.D.
+CJP;7014;9492;Cv;2024;3.10.2024;2.1.2025;16:00;17:50;CJP;Cizí jazyk - španìlskı jazyk;'Mgr. Ernesto Javier Beltrán-Sánchez, Ph.D.';5273;Avdìjeva Anastasie, Mgr.
+KBO;7014;2753;Cv;2024;4.10.2024;3.1.2025;14:00;14:50;KBO;Souèasná èeská literatura;'PhDr. Martin Fibiger, Ph.D.', 'PaedDr. Ivo Harák, Ph.D.';289, 291;Horkı Pavel, PhDr. Ph.D.
+KBO;7014;2753;Cv;2024;4.10.2024;3.1.2025;15:00;15:50;KBO;Souèasná èeská literatura;'PhDr. Martin Fibiger, Ph.D.', 'PaedDr. Ivo Harák, Ph.D.';289, 291;Horkı Pavel, PhDr. Ph.D.
+KBO;7014;2753;Cv;2024;4.10.2024;3.1.2025;13:00;13:50;KBO;Souèasná èeská literatura;'PhDr. Martin Fibiger, Ph.D.', 'PaedDr. Ivo Harák, Ph.D.';289, 291;Horkı Pavel, PhDr. Ph.D.
+KHV;7014;604;Cv;2024;3.10.2024;2.1.2025;11:00;11:50;KHV;Intonace a rytmus I;'doc. PaedDr. Vladimír Kuelka';359;Hána Luboš, PhDr. Ph.D.
+CJP;7015;2894;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;CJP;Cizí jazyk vyšší;"";;Fesjuková Irena, Mgr.
+KAJ;7016;9154;Cv;2024;2.10.2024;18.12.2024;16:00;16:50;KAJ;Praktická fonetika;'Mgr. Kateøina Šteklová, Ph.D.';220;Mach Tomáš, Mgr. Bc.
+KAJ;7016;9154;Cv;2024;2.10.2024;18.12.2024;17:00;17:50;KAJ;Praktická fonetika;'Mgr. Kateøina Šteklová, Ph.D.';220;Mach Tomáš, Mgr. Bc.
+KAJ;7016;9154;Cv;2024;2.10.2024;18.12.2024;19:00;19:50;KAJ;Praktická fonetika;'Mgr. Kateøina Šteklová, Ph.D.';220;Mach Tomáš, Mgr. Bc.
+KAJ;7016;9154;Cv;2024;2.10.2024;18.12.2024;18:00;18:50;KAJ;Praktická fonetika;'Mgr. Kateøina Šteklová, Ph.D.';220;Mach Tomáš, Mgr. Bc.
+KHV;7018;604;Cv;2024;3.10.2024;2.1.2025;11:00;11:50;KHV;Intonace a rytmus I;'doc. PaedDr. Vladimír Kuelka';359;Hána Luboš, PhDr. Ph.D.
+KPS;7030;5980;Cv;2024;7.10.2024;16.12.2024;08:00;09:50;KPS;Úvod do psychologie;'PhDr. Martin Dlabal, Ph.D.', 'PhDr. Jan Drahoòovskı', 'PhDr. Vladislava Heømanová, Ph.D.', 'Mgr. David Karel, Ph.D.', 'PhDr. Jiøí Závora, Ph.D.';3268, 8049, 244, 1086, 1875;Linková Michala
+KPS;7030;9550;Cv;2024;2.10.2024;18.12.2024;08:00;09:50;KPS;Úvod do psychologie;'PhDr. Martin Dlabal, Ph.D.', 'PhDr. Jan Drahoòovskı', 'PhDr. Vladislava Heømanová, Ph.D.', 'Mgr. David Karel, Ph.D.', 'PhDr. Jiøí Závora, Ph.D.';3268, 8049, 244, 1086, 1875;
+KBO;7030;1610;Cv;2024;3.10.2024;2.1.2025;16:00;16:50;KBO;Informaèní a komunikaèní technologie II;'PhDr. Zdenìk Valenta, Ph.D.';297;Círus Lukáš, PhDr. Ph.D.
+KPS;7030;5980;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KPS;Úvod do psychologie;'PhDr. Martin Dlabal, Ph.D.', 'PhDr. Jan Drahoòovskı', 'PhDr. Vladislava Heømanová, Ph.D.', 'Mgr. David Karel, Ph.D.', 'PhDr. Jiøí Závora, Ph.D.';3268, 8049, 244, 1086, 1875;Linková Michala
+KBO;7031;8730;Cv;2024;1.10.2024;17.12.2024;09:00;09:50;KBO;Morfologie;'PhDr. Jiøí Hasil, Ph.D.';1159;Kulich Karel, Mgr. Ph.D.
+KBO;7031;8730;Cv;2024;3.10.2024;2.1.2025;17:00;17:50;KBO;Morfologie;'PhDr. Jiøí Hasil, Ph.D.';1159;Kulich Karel, Mgr. Ph.D.
+KBO;7032;8730;Cv;2024;1.10.2024;17.12.2024;13:00;14:50;KBO;Slovotvorba;'doc. Mgr. Patrik Mitter, Ph.D.';277;Kulich Karel, Mgr. Ph.D.
+KBO;7032;8730;Cv;2024;3.10.2024;2.1.2025;11:00;12:50;KBO;Slovotvorba;'doc. Mgr. Patrik Mitter, Ph.D.';277;Kulich Karel, Mgr. Ph.D.
+KHV;7034;604;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KHV;Øízení sboru II;'doc. PaedDr. Vladimír Kuelka';359;Hána Luboš, PhDr. Ph.D.
+KHV;7050;9586;Cv;2024;2.10.2024;18.12.2024;16:00;17:50;KHV;Didaktika hudební vıchovy II;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Nekolnı Václav, Mgr.
+KHV;70510;6390;Cv;2024;3.10.2024;2.1.2025;10:00;10:50;KHV;Úpravy skladeb II;'prof. PaedDr. Jiøí Holubec, Ph.D.';355;Kacar Jakub, Mgr. DiS., Ph.D.
+KAJ;7052;9536;Cv;2024;3.10.2024;2.1.2025;11:00;11:50;KAJ;Semináø k bakaláøské práci;'Dr. Christoph Haase, Ph.D., M.A.', 'MgA. Martin Holland';3159, 3532;Kamenická Jana, PaedDr. PhD.
+KAJ;7052;9536;Cv;2024;1.10.2024;17.12.2024;15:00;15:50;KAJ;Semináø k bakaláøské práci;'Dr. Christoph Haase, Ph.D., M.A.', 'MgA. Martin Holland';3159, 3532;Kamenická Jana, PaedDr. PhD.
+KBO;7053;3651;Cv;2024;4.10.2024;3.1.2025;09:00;09:50;KBO;Didaktika literatury I;'doc. PhDr. Ondøej Hník, Ph.D.';7434;Jindráèek Václav, PhDr. Ph.D.
+KTV;7053;2410;Cv;2024;1.10.2024;17.12.2024;10:00;10:50;KTV;Rytmická gymnastika;'Mgr. Lenka Èerná, Ph.D.', 'Mgr. Bc. Miroslava Dobrodinská';368, 6135;Petrù Dominika, PhDr. Ph.D.
+KBO;7054;8524;Cv;2024;3.10.2024;2.1.2025;14:00;15:50;KBO;Syntax II;'doc. Mgr. Patrik Mitter, Ph.D.';277;Zušáková Lucie, Mgr.
+KHV;7054;6390;Cv;2024;3.10.2024;2.1.2025;10:00;10:50;KHV;Úpravy skladeb II;'prof. PaedDr. Jiøí Holubec, Ph.D.';355;Kacar Jakub, Mgr. DiS., Ph.D.
+KHV;7055;9243;Cv;2024;3.10.2024;2.1.2025;17:00;17:50;KHV;Rozbor skladeb II;'prof. PaedDr. Miloš Hons, Ph.D.';356;Lukš Jan, MgA.
+KBO;7056;2753;Cv;2024;4.10.2024;3.1.2025;11:00;12:50;KBO;Interpretace literárního díla;'PhDr. Václav Jindráèek, Ph.D.', 'doc. Mgr. Jan Tlustı, Ph.D.';3651, 630;Horkı Pavel, PhDr. Ph.D.
+KHV;7057;359;Cv;2024;7.10.2024;16.12.2024;09:00;10:50;KHV;Korepetice školních souborù;'Mgr. Jana Kuelková, Ph.D.';5276;Kuelka Vladimír, doc. PaedDr.
+KBO;7057;297;Cv;2024;7.10.2024;16.12.2024;18:00;19:50;KBO;Kapitoly z problematiky dìtského ètenáøs;'doc. PhDr. Ondøej Hník, Ph.D.', 'PhDr. Václav Jindráèek, Ph.D.';7434, 3651;Valenta Zdenìk, PhDr. Ph.D.
+KHV;7058;9586;Cv;2024;2.10.2024;18.12.2024;14:00;15:50;KHV;Didaktika hudební vıchovy II;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Nekolnı Václav, Mgr.
+KTV;7058;447;Cv;2024;2.10.2024;18.12.2024;09:15;10:00;KTV;Plavání II;'Mgr. Jiøí Kostínek', 'Mgr. Jitka Vanìèková, Ph.D.';3504, 2746;Hnízdil Jan, Mgr. Ph.D.
+KBO;7059;3651;Cv;2024;4.10.2024;3.1.2025;08:00;08:50;KBO;Didaktika literatury I;'doc. PhDr. Ondøej Hník, Ph.D.';7434;Jindráèek Václav, PhDr. Ph.D.
+KBO;7059;3651;Cv;2024;4.10.2024;3.1.2025;09:00;09:50;KBO;Didaktika literatury I;'doc. PhDr. Ondøej Hník, Ph.D.';7434;Jindráèek Václav, PhDr. Ph.D.
+KAJ;7110;644;Cv;2024;2.10.2024;18.12.2024;14:00;14:50;KAJ;Historie Velké Británie;"";;Brandon Mark, Dr. phil.
+KV1;7110;8480;Cv;2024;3.10.2024;2.1.2025;16:00;17:50;KV1;Vıtvarné èinnosti 1 - kresba a grafika;'Mgr. Bc. Lenka Minaøíková', 'doc. Mgr. Vladimír Šavel';3168, 392;Šulcová Eva, Mgr.
+KH1;7110;8185;Cv;2024;1.10.2024;17.12.2024;14:00;15:50;KH1;Hudebnì vıchovnı semináø 1;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KV1;7110;8480;Cv;2024;3.10.2024;2.1.2025;14:00;15:50;KV1;Vıtvarné èinnosti 1 - kresba a grafika;'Mgr. Bc. Lenka Minaøíková', 'doc. Mgr. Vladimír Šavel';3168, 392;Šulcová Eva, Mgr.
+KSSP;7111;2937;Cv;2024;2.10.2024;18.12.2024;18:00;18:50;KSSP;Úvod do soc. a sociologickıch teorií;'prof. PhDr. Jiøí Škoda, Ph.D., MBA';336;Kuchaø Pavel, doc. PhDr. CSc.
+KH1;7111;9895;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;KH1;Dramatická vıchova 1;'PhDr. Dana Novotná, Ph.D.';437;Illichmannová Monika, Mgr.
+KTV;71112;;Cv;2024;1.10.2024;17.12.2024;09:00;09:45;KTV;Základní plavecké a záchranné dovednosti;'Mgr. Jitka Vanìèková, Ph.D.';2746;
+KHV;71115;358;Cv;2024;2.10.2024;18.12.2024;09:00;09:50;KHV;Lidová píseò;'doc. PhDr. Dagmar Zelenková, Ph.D.';363;Krahulík Václav, MgA. Ph.D.
+KH1;7112;8185;Cv;2024;2.10.2024;18.12.2024;19:00;19:50;KH1;Klavír 1;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KH1;7112;8185;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KH1;Klavír 1;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KBO;7113;628;Cv;2024;2.10.2024;18.12.2024;16:00;17:50;KBO;Technika filologické práce;'PhDr. František Èajka, Ph.D.';627;Marvanová Mira, PhDr. Ph.D.
+KHV;7113;8068;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KHV;Hra na zobcovou flétnu s metodikou;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Novotná Eva, PhDr.
+KAJ;7113;9150;Cv;2024;1.10.2024;17.12.2024;09:00;10:50;KAJ;Úvod do studia literatury;'Mgr. Klára Kolinská, Ph.D.';8520;Èapek Jan, Mgr. Bc. Ph.D.
+KPR;7113;7623;Cv;2024;7.10.2024;16.12.2024;11:00;11:50;KPR;Úvod do èeského jazyka;'Mgr. Bc. Pavel Adámek';7443;Rùièková Jiøina, Mgr. Bc.
+KPAD;7113;6691;Cv;2024;1.10.2024;17.12.2024;11:00;11:50;KPAD;Úvod do managementu vzdìlávání a rozvoje;'PhDr. Ing. Martin Èernı, MSc.';7287;Pergreffi Karolína, PhDr.
+KHV;7114;358;Cv;2024;2.10.2024;18.12.2024;09:00;09:50;KHV;Lidová píseò;'doc. PhDr. Dagmar Zelenková, Ph.D.';363;Krahulík Václav, MgA. Ph.D.
+KSSP;7114;6058;Cv;2024;3.10.2024;2.1.2025;15:00;15:50;KSSP;Soc. právní probl. a školská legislativa;'doc. Ing. Helena Vomáèková, CSc.';39;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KPR;7114;8506;Cv;2024;7.10.2024;16.12.2024;17:00;17:50;KPR;Kultura mluveného projevu;'Mgr. Bc. Pavel Adámek';7443;Zischková Lenka, Mgr.
+KPAD;7114;3538;Cv;2024;7.10.2024;16.12.2024;12:00;13:50;KPAD;Etika v personálním øízení;'PhDr. Ing. Martin Èernı, MSc.';7287;Šlégl Jiøí, PhDr. Ph.D.
+KSSP;7115;5726;Cv;2024;4.10.2024;3.1.2025;09:00;09:50;KSSP;Speciální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';573, 4216;Vostrı Michal, doc. PhDr. Ph.D.
+KBO;7115;2753;Cv;2024;3.10.2024;2.1.2025;14:00;15:50;KBO;Souèasná èeská literatura;'PhDr. Martin Fibiger, Ph.D.', 'PaedDr. Ivo Harák, Ph.D.';289, 291;Horkı Pavel, PhDr. Ph.D.
+KBO;7116;286;Cv;2024;1.10.2024;17.12.2024;09:00;10:50;KBO;Spec. poruchy uèení ve vıuce èeštiny;'Mgr. Vladimír Trpka, Ph.D.';3261;Balkó Ilona, PhDr. Ph.D.
+KHV;7116;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;Pìveckı sbor I;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KSSP;7116;7336;Cv;2024;1.10.2024;17.12.2024;11:00;11:50;KSSP;Parciální poruchy (SPUCH);'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Lanková Barbora, PhDr. Ph.D.
+KAJ;7117;220;Cv;2024;2.10.2024;18.12.2024;12:00;12:50;KAJ;Úvod do studia jazyka;'Dr. Christoph Haase, Ph.D., M.A.';3159;Šteklová Kateøina, Mgr. Ph.D.
+KSSP;7119;8398;Cv;2024;1.10.2024;17.12.2024;11:00;11:50;KSSP;Úvod do studia sociální pedagogiky;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KBO;7130;8730;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KBO;Morfologie I;'PhDr. Jiøí Hasil, Ph.D.';1159;Kulich Karel, Mgr. Ph.D.
+KBO;7130;8730;Cv;2024;3.10.2024;2.1.2025;14:00;15:50;KBO;Morfologie I;'PhDr. Jiøí Hasil, Ph.D.';1159;Kulich Karel, Mgr. Ph.D.
+KAJ;7130;9154;Cv;2024;2.10.2024;18.12.2024;14:00;15:50;KAJ;Morfologie anglického jazyka;'Dr. Christoph Haase, Ph.D., M.A.', 'Mgr. Kateøina Šteklová, Ph.D.';3159, 220;Mach Tomáš, Mgr. Bc.
+KPR;7130;235;Cv;2024;7.10.2024;16.12.2024;18:00;18:50;KPR;Didaktika pøedškolního vzdìlávání;'doc. PaedDr. Ivana Brtnová-Èepièková, Ph.D.';229;Šikulová Renata, doc. PhDr. Ph.D.
+CJP;7130;5218;Cv;2024;7.10.2024;16.12.2024;08:00;09:50;CJP;Cizí jazyk - anglickı jazyk 1;'Mgr. Jaroslava Jelínková, Ph.D.';4380;Kratochvil Daniel, M.A.
+KV1;7131;6948;Cv;2024;16.11.2024;16.11.2024;08:00;11:50;KV1;Grafomotorickı rozvoj u dìtí;'Mgr. Bc. Lenka Minaøíková';3168;Petrù Pavlína, Mgr.
+KPR;7131;7443;Cv;2024;2.10.2024;18.12.2024;18:00;18:50;KPR;Literatura pro dìti;'Mgr. Zdeòka Braumová', 'PaedDr. Blanka Janáèková';7871, 275;Adámek Pavel, Mgr. Bc.
+KPAD;7131;407;Cv;2024;2.10.2024;18.12.2024;11:00;11:50;KPAD;Metodologie vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KHV;71310;359;Cv;2024;1.10.2024;17.12.2024;12:00;12:50;KHV;Hra partitur a korepetice I;'MgA. Václav Krahulík, Ph.D.';358;Kuelka Vladimír, doc. PaedDr.
+KSSP;71310;6058;Cv;2024;7.10.2024;16.12.2024;17:00;17:50;KSSP;Etopedie I;'PhDr. Arnošt Smolík, Ph.D.';1643;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KHV;71312;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;Pìveckı sbor III;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KSSP;71315;573;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;KSSP;Semináø k bakaláøské práci - KSSP;'doc. PhDr. Michal Vostrı, Ph.D.';5726;Svoboda Zdenìk, Mgr. Ph.D.
+KTV;71317;3253;Cv;2024;2.10.2024;18.12.2024;08:00;09:30;KTV;Základy posilování;'Mgr. Josef Heidler', 'Mgr. Tomáš Nosek';8118, 6922;
+KTV;71317;3253;Cv;2024;2.10.2024;18.12.2024;09:30;11:00;KTV;Základy posilování;'Mgr. Josef Heidler', 'Mgr. Tomáš Nosek';8118, 6922;
+KH1;7132;8185;Cv;2024;1.10.2024;17.12.2024;16:00;16:50;KH1;Hudebnì instrumentální èinnosti 1;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Petr Zeman, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 442, 434;Olšanová Iva, Mgr.
+KPR;7132;8729;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KPR;Rozvíjení matematického myšlení;"";;Janeèková Miroslava, PaedDr. PhD.
+KHV;7132;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;Pìveckı sbor III;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KPS;7132;244;Cv;2024;7.10.2024;16.12.2024;14:00;14:50;KPS;Sociální psychologie;'PhDr. Jan Drahoòovskı', 'Mgr. David Karel, Ph.D.';8049, 1086;Heømanová Vladislava, PhDr. Ph.D.
+KPS;7133;244;Cv;2024;7.10.2024;16.12.2024;16:00;17:50;KPS;Sociální psychologie;'PhDr. Jan Drahoòovskı', 'Mgr. David Karel, Ph.D.', 'PhDr. Jiøí Závora, Ph.D.';8049, 1086, 1875;Heømanová Vladislava, PhDr. Ph.D.
+KSSP;7133;5726;Cv;2024;4.10.2024;3.1.2025;09:00;09:50;KSSP;Speciální pedagogika 1;'Mgr. Zdenìk Svoboda, Ph.D.';573;Vostrı Michal, doc. PhDr. Ph.D.
+KPR;7134;7623;Cv;2024;1.10.2024;17.12.2024;15:00;15:50;KPR;Podpora ètenáøství v pøedškolním vìku;'Mgr. Bc. Pavel Adámek', 'PaedDr. Blanka Janáèková';7443, 275;Rùièková Jiøina, Mgr. Bc.
+KBO;7134;2753;Cv;2024;3.10.2024;2.1.2025;18:00;19:50;KBO;Literární regionalistika;'PaedDr. Ivo Harák, Ph.D.';291;Horkı Pavel, PhDr. Ph.D.
+KSSP;7134;8398;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;KSSP;Aktuální problémy oboru;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KSSP;7135;6058;Cv;2024;3.10.2024;2.1.2025;16:00;17:50;KSSP;Prob. soc. pat. jevù a riz. chování;'PhDr. Arnošt Smolík, Ph.D.';1643;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KPR;7135;8507;Cv;2024;2.10.2024;18.12.2024;13:00;14:50;KPR;Technická tvoøivá dílna;'Mgr. Jan Janovec, Ph.D.';159;Kovaøík Petr, Mgr.
+KPAD;7135;407;Cv;2024;2.10.2024;18.12.2024;11:00;11:50;KPAD;Metodologie ped. a soc. vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KSSP;7136;8920;Cv;2024;1.10.2024;17.12.2024;16:00;17:50;KSSP;Základy speciální pedagogiky I;'doc. PhDr. Michal Vostrı, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';5726, 4216;Kovács Jana, Mgr.
+CJP;7136;9492;Cv;2024;4.10.2024;3.1.2025;10:00;11:50;CJP;Cizí jazyk niší 1: španìlskı jazyk;'Mgr. Ernesto Javier Beltrán-Sánchez, Ph.D.';5273;Avdìjeva Anastasie, Mgr.
+CJP;7137;5218;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;CJP;Cizí jazyk I: anglickı jazyk;'Mgr. Jaroslava Jelínková, Ph.D.', 'Mgr. Zuzana Procházková, Ph.D.';4380, 218;Kratochvil Daniel, M.A.
+KSSP;7139;824;Cv;2024;3.10.2024;2.1.2025;10:00;10:50;KSSP;Somatopatologie;'doc. PhDr. Michal Vostrı, Ph.D.';5726;
+KTV;71428;9152;Cv;2024;2.10.2024;18.12.2024;15:00;16:50;KTV;Metodicko organizaèní praxe;'Mgr. Josef Heidler', 'Mgr. Martin Nosek, Ph.D.', 'PaedDr. Ladislav Valter', 'Mgr. Jitka Vanìèková, Ph.D.';8118, 586, 379, 2746;Vojtíková Lenka, Mgr. Ph.D.
+KHV;7150;9586;Cv;2024;2.10.2024;18.12.2024;16:00;17:50;KHV;Didaktika hudební vıchovy II;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Nekolnı Václav, Mgr.
+KSSP;7151;6058;Cv;2024;3.10.2024;2.1.2025;11:00;12:50;KSSP;Základy speciální pedagogiky II;'Mgr. Zdenìk Svoboda, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';573, 4216;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;71511;573;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;KSSP;Semináø k bakaláøské práci (CSIIV);'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Svoboda Zdenìk, Mgr. Ph.D.
+KHV;71511;9586;Cv;2024;2.10.2024;18.12.2024;16:00;17:50;KHV;Didaktika hudební vıchovy II;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Nekolnı Václav, Mgr.
+KHV;71512;9587;Cv;2024;2.10.2024;18.12.2024;08:00;08:50;KHV;Øízení sboru I;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KHV;71514;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;Pìveckı sbor V;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KHV;71515;441;Cv;2024;1.10.2024;17.12.2024;10:00;10:50;KHV;Vel. pos. svìt. a èes. hud. v 1/2 20st.I;'prof. PaedDr. Miloš Hons, Ph.D.';356;Pøibylová Lenka, doc. PhDr. Ph.D.
+KTV;71518;447;Cv;2024;1.10.2024;17.12.2024;10:30;11:20;KTV;Semináø k bakaláøské práci (KTVS);'PhDr. Martin Škopek, Ph.D.';2200;Hnízdil Jan, Mgr. Ph.D.
+KHV;71518;441;Cv;2024;2.10.2024;18.12.2024;12:00;13:50;KHV;Poslechovı semináø;'prof. PaedDr. Miloš Hons, Ph.D.';356;Pøibylová Lenka, doc. PhDr. Ph.D.
+KTV;71519;586;Cv;2024;2.10.2024;18.12.2024;09:00;09:50;KTV;Atletika III;'Mgr. Jiøí Nechvátal';8724;Nosek Martin, Mgr. Ph.D.
+KHV;71519;9586;Cv;2024;2.10.2024;18.12.2024;16:00;17:50;KHV;Metodika hudebních èinností I;'prof. PaedDr. Jiøí Holubec, Ph.D.';355;Nekolnı Václav, Mgr.
+KBO;7152;8524;Cv;2024;2.10.2024;18.12.2024;13:00;14:50;KBO;Syntax II;'doc. Mgr. Patrik Mitter, Ph.D.';277;Zušáková Lucie, Mgr.
+KSSP;7152;8398;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KSSP;Podpora osob ohro. sociálním vylouèením;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KPAD;7153;1119;Cv;2024;3.10.2024;2.1.2025;08:00;08:50;KPAD;Personální marketing;'PhDr. Ing. Martin Èernı, MSc.';7287;Fischer Slavomil, PhDr. MBA, Ph.D.
+KAJ;7153;4380;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;KAJ;Pøíprava vıukovıch materiálù;'Mgr. Bc. Tomáš Mach', 'Mgr. Jana Pavlíková, Ph.D., M.A.';9154, 216;Jelínková Jaroslava, Mgr. Ph.D.
+KTV;7153;929;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KTV;Management TV a sportu;'doc. Ing. Helena Vomáèková, CSc.';39;Uhman Jiøí, Ing. MBA
+KPR;7153;7336;Cv;2024;2.10.2024;18.12.2024;08:00;09:50;KPR;Exkurze - inov. vzdìlávací programy 2;'doc. PaedDr. Ivana Brtnová-Èepièková, Ph.D.', 'PhDr. Roman Kroufek, Ph.D.';229, 1070;Lanková Barbora, PhDr. Ph.D.
+KHV;7154;6390;Cv;2024;3.10.2024;2.1.2025;10:00;10:50;KHV;Úpravy skladeb II;'prof. PaedDr. Jiøí Holubec, Ph.D.';355;Kacar Jakub, Mgr. DiS., Ph.D.
+KAJ;7154;216;Cv;2024;7.10.2024;16.12.2024;16:00;17:50;KAJ;Literární pøeklad;'Mgr. Klára Kolinská, Ph.D.';8520;Pavlíková Jana, Mgr. Ph.D., M.A.
+KSSP;7154;3647;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KSSP;Rodinná politika a práce s rodinou;'PhDr. PaedDr. Ing. Jan Tirpák, Ph.D., MBA';6058;Petrù Alexandra, Mgr.
+KHV;7155;9243;Cv;2024;3.10.2024;2.1.2025;17:00;17:50;KHV;Rozbor skladeb II;'prof. PaedDr. Miloš Hons, Ph.D.';356;Lukš Jan, MgA.
+KBO;7155;297;Cv;2024;7.10.2024;16.12.2024;17:00;17:50;KBO;Dìtská literatura II;'doc. PhDr. Ondøej Hník, Ph.D.', 'PhDr. Václav Jindráèek, Ph.D.';7434, 3651;Valenta Zdenìk, PhDr. Ph.D.
+KAJ;7155;4380;Cv;2024;3.10.2024;2.1.2025;12:00;12:50;KAJ;Portfolio ve vıuce jazykù;'doc. Natalia Orlova, CSc.';507;Jelínková Jaroslava, Mgr. Ph.D.
+KPS;7156;9550;Cv;2024;2.10.2024;18.12.2024;11:00;11:50;KPS;Základy krizové intervence;'PhDr. Otakar Fleischmann, Ph.D.', 'PhDr. Jiøí Závora, Ph.D.';243, 1875;
+KPAD;7157;1119;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KPAD;Tvorba vzdìlávacího prog. dalšího vzd.;'PhDr. Ing. Martin Èernı, MSc.';7287;Fischer Slavomil, PhDr. MBA, Ph.D.
+KBO;7157;297;Cv;2024;7.10.2024;16.12.2024;18:00;19:50;KBO;Kapitoly z probl. dìtského ètenáøství;'doc. PhDr. Ondøej Hník, Ph.D.', 'PhDr. Václav Jindráèek, Ph.D.';7434, 3651;Valenta Zdenìk, PhDr. Ph.D.
+KSSP;7157;1529;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KSSP;Speciálnìped. met. práce (reed., sti.);'doc. PhDr. PaedDr. Ilona Pešatová, Ph.D.';5072;
+KTV;7158;376;Cv;2024;3.10.2024;2.1.2025;17:00;17:50;KTV;Traumatologie a hygiena;'PhDr. Dominika Petrù, Ph.D.';2410;Pyšnı Ladislav, prof. MUDr. CSc., MPH
+KTV;7158;376;Cv;2024;3.10.2024;2.1.2025;15:00;15:50;KTV;Traumatologie a hygiena;'PhDr. Dominika Petrù, Ph.D.';2410;Pyšnı Ladislav, prof. MUDr. CSc., MPH
+KTV;7158;376;Cv;2024;3.10.2024;2.1.2025;16:00;16:50;KTV;Traumatologie a hygiena;'PhDr. Dominika Petrù, Ph.D.';2410;Pyšnı Ladislav, prof. MUDr. CSc., MPH
+KHV;7158;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;Pìveckı sbor V;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KPAD;7159;1119;Cv;2024;3.10.2024;2.1.2025;10:00;10:50;KPAD;Etika v oblasti sociální práce;'PhDr. Ing. Martin Èernı, MSc.';7287;Fischer Slavomil, PhDr. MBA, Ph.D.
+KBO;7256;8500;Cv;2024;23.11.2024;23.11.2024;09:00;16:50;KBO;Interpretace literárního díla;'PhDr. Václav Jindráèek, Ph.D.', 'doc. Mgr. Jan Tlustı, Ph.D.';3651, 630;Vlasáková Gabriela, Mgr.
+KV1;7310;8480;Cv;2024;30.11.2024;30.11.2024;09:00;18:50;KV1;Vıtvarné èinnosti 1 - kresba a grafika;'Mgr. Bc. Lenka Minaøíková', 'doc. Mgr. Vladimír Šavel';3168, 392;Šulcová Eva, Mgr.
+KH1;7310;8185;Cv;2024;2.11.2024;2.11.2024;10:00;15:50;KH1;Hudebnì vıchovnı semináø 1;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KH1;7311;9895;Cv;2024;16.11.2024;16.11.2024;08:00;13:50;KH1;Dramatická vıchova 1;'PhDr. Dana Novotná, Ph.D.';437;Illichmannová Monika, Mgr.
+KSSP;7311;2937;Cv;2024;14.12.2024;14.12.2024;10:00;14:50;KSSP;Úvod do soc. a sociologickıch teorií;'prof. PhDr. Jiøí Škoda, Ph.D., MBA';336;Kuchaø Pavel, doc. PhDr. CSc.
+KTV;73112;;Cv;2024;11.10.2024;11.10.2024;14:30;15:30;KTV;Základní plavecké a záchranné dovednosti;'Mgr. Jitka Vanìèková, Ph.D.';2746;
+KTV;73112;;Cv;2024;1.11.2024;1.11.2024;14:30;15:30;KTV;Základní plavecké a záchranné dovednosti;'Mgr. Jitka Vanìèková, Ph.D.';2746;
+KTV;73112;;Cv;2024;1.11.2024;1.11.2024;17:11;17:59;KTV;Základní plavecké a záchranné dovednosti;'Mgr. Jitka Vanìèková, Ph.D.';2746;
+KH1;7312;8185;Cv;2024;4.1.2025;4.1.2025;16:00;19:50;KH1;Klavír 1;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KPR;7313;7623;Cv;2024;4.1.2025;4.1.2025;11:00;15:50;KPR;Úvod do èeského jazyka;'Mgr. Bc. Pavel Adámek';7443;Rùièková Jiøina, Mgr. Bc.
+KPAD;7313;6691;Cv;2024;9.11.2024;9.11.2024;15:00;19:50;KPAD;Úvod do managementu vzdìlávání a rozvoje;'PhDr. Ing. Martin Èernı, MSc.';7287;Pergreffi Karolína, PhDr.
+KPAD;7314;3538;Cv;2024;9.11.2024;9.11.2024;08:00;14:50;KPAD;Etika v personálním øízení;'PhDr. Ing. Martin Èernı, MSc.';7287;Šlégl Jiøí, PhDr. Ph.D.
+KPAD;7314;3538;Cv;2024;2.11.2024;2.11.2024;08:00;13:50;KPAD;Etika v personálním øízení;'PhDr. Ing. Martin Èernı, MSc.';7287;Šlégl Jiøí, PhDr. Ph.D.
+KPR;7314;8506;Cv;2024;12.10.2024;12.10.2024;08:00;12:50;KPR;Kultura mluveného projevu;'Mgr. Bc. Pavel Adámek';7443;Zischková Lenka, Mgr.
+KSSP;7315;5726;Cv;2024;4.1.2025;4.1.2025;09:00;17:50;KSSP;Speciální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';573, 4216;Vostrı Michal, doc. PhDr. Ph.D.
+KSSP;7316;7336;Cv;2024;14.12.2024;14.12.2024;08:00;16:50;KSSP;Parciální poruchy (SPUCH);'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Lanková Barbora, PhDr. Ph.D.
+KSSP;7319;8398;Cv;2024;30.11.2024;30.11.2024;13:00;17:50;KSSP;Úvod do studia sociální pedagogiky;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KV1;7330;2434;Cv;2024;23.11.2024;23.11.2024;09:00;18:50;KV1;Vıtvarné èinnosti 3 - prostorová tvorba;'MgA. Mgr. Tereza Havlovicová';6279;Rùièková Radka, PhDr. Ph.D.
+KPR;7330;235;Cv;2024;19.10.2024;19.10.2024;08:00;11:50;KPR;Didaktika pøedškolního vzdìlávání;'doc. PaedDr. Ivana Brtnová-Èepièková, Ph.D.';229;Šikulová Renata, doc. PhDr. Ph.D.
+KV1;7331;6948;Cv;2024;16.11.2024;16.11.2024;08:00;11:50;KV1;Grafomotorickı rozvoj u dìtí;'Mgr. Bc. Lenka Minaøíková';3168;Petrù Pavlína, Mgr.
+KPR;7331;7443;Cv;2024;12.10.2024;12.10.2024;15:00;19:50;KPR;Literatura pro dìti;'Mgr. Zdeòka Braumová', 'PaedDr. Blanka Janáèková';7871, 275;Adámek Pavel, Mgr. Bc.
+KPAD;7331;407;Cv;2024;19.10.2024;19.10.2024;08:00;12:50;KPAD;Metodologie vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KSSP;73310;6058;Cv;2024;16.11.2024;16.11.2024;09:00;17:50;KSSP;Etopedie I;'PhDr. Arnošt Smolík, Ph.D.';1643;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;73315;573;Cv;2024;21.12.2024;21.12.2024;09:00;17:50;KSSP;Semináø k bakaláøské práci - KSSP;'doc. PhDr. Michal Vostrı, Ph.D.';5726;Svoboda Zdenìk, Mgr. Ph.D.
+KTV;73317;3253;Cv;2024;25.10.2024;25.10.2024;09:00;10:50;KTV;Základy posilování;'Mgr. Josef Heidler', 'Mgr. Tomáš Nosek';8118, 6922;
+KTV;73317;3253;Cv;2024;4.10.2024;4.10.2024;13:00;15:50;KTV;Základy posilování;'Mgr. Josef Heidler', 'Mgr. Tomáš Nosek';8118, 6922;
+KTV;73317;3253;Cv;2024;29.11.2024;29.11.2024;09:00;10:50;KTV;Základy posilování;'Mgr. Josef Heidler', 'Mgr. Tomáš Nosek';8118, 6922;
+KPS;7332;244;Cv;2024;7.12.2024;7.12.2024;16:00;19:50;KPS;Sociální psychologie;'PhDr. Jan Drahoòovskı', 'Mgr. David Karel, Ph.D.', 'PhDr. Alena Pilousová';8049, 1086, 4410;Heømanová Vladislava, PhDr. Ph.D.
+KPR;7332;8729;Cv;2024;30.11.2024;30.11.2024;11:00;15:50;KPR;Rozvíjení matematického myšlení;"";;Janeèková Miroslava, PaedDr. PhD.
+KH1;7332;8185;Cv;2024;9.11.2024;9.11.2024;16:00;18:50;KH1;Hudebnì instrumentální èinnosti 1;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Petr Zeman, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 442, 434;Olšanová Iva, Mgr.
+KPS;7333;244;Cv;2024;14.12.2024;14.12.2024;14:00;18:50;KPS;Sociální psychologie;'PhDr. Jan Drahoòovskı', 'Mgr. David Karel, Ph.D.', 'PhDr. Alena Pilousová', 'PhDr. Jiøí Závora, Ph.D.';8049, 1086, 4410, 1875;Heømanová Vladislava, PhDr. Ph.D.
+KSSP;7333;5726;Cv;2024;4.1.2025;4.1.2025;09:00;17:50;KSSP;Speciální pedagogika 1;'Mgr. Zdenìk Svoboda, Ph.D.';573;Vostrı Michal, doc. PhDr. Ph.D.
+KSSP;7334;8398;Cv;2024;5.10.2024;5.10.2024;09:00;17:50;KSSP;Aktuální problémy oboru;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KPR;7334;7623;Cv;2024;26.10.2024;26.10.2024;16:00;19:50;KPR;Podpora ètenáøství v pøedškolním vìku;'Mgr. Bc. Pavel Adámek', 'PaedDr. Blanka Janáèková';7443, 275;Rùièková Jiøina, Mgr. Bc.
+KPAD;7335;407;Cv;2024;19.10.2024;19.10.2024;08:00;12:50;KPAD;Metodologie ped. a soc. vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KPR;7335;8507;Cv;2024;19.10.2024;19.10.2024;12:00;19:50;KPR;Technická tvoøivá dílna;'Mgr. Jan Janovec, Ph.D.';159;Kovaøík Petr, Mgr.
+KSSP;7335;6058;Cv;2024;9.11.2024;9.11.2024;09:00;17:50;KSSP;Prob. soc. pat. jevù a riz. chování;'PhDr. Arnošt Smolík, Ph.D.';1643;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;7339;824;Cv;2024;29.11.2024;29.11.2024;13:00;17:50;KSSP;Somatopatologie;'doc. PhDr. Michal Vostrı, Ph.D.';5726;
+KSSP;7351;6058;Cv;2024;23.11.2024;23.11.2024;09:00;17:50;KSSP;Základy speciální pedagogiky II;'Mgr. Zdenìk Svoboda, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';573, 4216;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;73511;573;Cv;2024;21.12.2024;21.12.2024;09:00;17:50;KSSP;Semináø k bakaláøské práci (CSIIV);'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Svoboda Zdenìk, Mgr. Ph.D.
+KTV;73519;586;Cv;2024;11.10.2024;11.10.2024;13:00;14:50;KTV;Atletika III;'Mgr. Jiøí Nechvátal';8724;Nosek Martin, Mgr. Ph.D.
+KTV;73519;586;Cv;2024;8.11.2024;8.11.2024;14:00;15:50;KTV;Atletika III;'Mgr. Jiøí Nechvátal';8724;Nosek Martin, Mgr. Ph.D.
+KSSP;7352;8398;Cv;2024;4.1.2025;4.1.2025;09:00;17:50;KSSP;Podpora osob ohro. sociálním vylouèením;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KBO;7352;9099;Cv;2024;12.10.2024;12.10.2024;14:00;15:50;KBO;Syntax II;'doc. Mgr. Patrik Mitter, Ph.D.';277;Janovec Ladislav, PhDr. Ph.D.
+KBO;7352;8524;Cv;2024;16.11.2024;16.11.2024;09:00;14:50;KBO;Syntax II;'doc. Mgr. Patrik Mitter, Ph.D.';277;Zušáková Lucie, Mgr.
+KTV;7353;929;Cv;2024;1.11.2024;1.11.2024;12:00;13:50;KTV;Management TV a sportu;'doc. Ing. Helena Vomáèková, CSc.';39;Uhman Jiøí, Ing. MBA
+KPAD;7353;1119;Cv;2024;18.10.2024;18.10.2024;09:00;13:50;KPAD;Personální marketing;'PhDr. Ing. Martin Èernı, MSc.';7287;Fischer Slavomil, PhDr. MBA, Ph.D.
+KTV;7353;929;Cv;2024;29.11.2024;29.11.2024;11:00;12:50;KTV;Management TV a sportu;'doc. Ing. Helena Vomáèková, CSc.';39;Uhman Jiøí, Ing. MBA
+KSSP;7354;3647;Cv;2024;4.10.2024;4.10.2024;13:00;17:50;KSSP;Rodinná politika a práce s rodinou;'PhDr. PaedDr. Ing. Jan Tirpák, Ph.D., MBA';6058;Petrù Alexandra, Mgr.
+KPR;7354;9366;Cv;2024;20.12.2024;20.12.2024;16:00;19:50;KPR;Práce s umìleckım textem;'Mgr. Bc. Pavel Adámek', 'PaedDr. Blanka Janáèková';7443, 275;Kapuciánová Karolína, Mgr.
+KSSP;7354;3647;Cv;2024;20.12.2024;20.12.2024;13:00;16:50;KSSP;Rodinná politika a práce s rodinou;'PhDr. PaedDr. Ing. Jan Tirpák, Ph.D., MBA';6058;Petrù Alexandra, Mgr.
+KBO;7355;297;Cv;2024;7.12.2024;7.12.2024;13:00;16:50;KBO;Dìtská literatura II;'doc. PhDr. Ondøej Hník, Ph.D.', 'PhDr. Václav Jindráèek, Ph.D.';7434, 3651;Valenta Zdenìk, PhDr. Ph.D.
+KPS;7355;;Cv;2024;29.11.2024;29.11.2024;13:00;17:50;KPS;Emoèní inteligence;'Mgr. David Karel, Ph.D.', 'PhDr. Iva Wedlichová, Ph.D.';1086, 249;
+KPAD;7357;1119;Cv;2024;18.10.2024;18.10.2024;14:00;18:50;KPAD;Tvorba vzdìlávacího prog. dalšího vzd.;'PhDr. Ing. Martin Èernı, MSc.';7287;Fischer Slavomil, PhDr. MBA, Ph.D.
+KSSP;7357;1283;Cv;2024;23.11.2024;23.11.2024;09:00;17:50;KSSP;Speciálnìped. met. práce (reed., sti.);'doc. PhDr. PaedDr. Ilona Pešatová, Ph.D.';5072;
+KBO;7357;297;Cv;2024;21.12.2024;21.12.2024;09:00;16:50;KBO;Kapitoly z probl. dìtského ètenáøství;'doc. PhDr. Ondøej Hník, Ph.D.', 'PhDr. Václav Jindráèek, Ph.D.';7434, 3651;Valenta Zdenìk, PhDr. Ph.D.
+KTV;7358;376;Cv;2024;22.11.2024;22.11.2024;14:00;15:50;KTV;Traumatologie a hygiena;'PhDr. Dominika Petrù, Ph.D.';2410;Pyšnı Ladislav, prof. MUDr. CSc., MPH
+KTV;7358;376;Cv;2024;1.11.2024;1.11.2024;14:00;15:50;KTV;Traumatologie a hygiena;'PhDr. Dominika Petrù, Ph.D.';2410;Pyšnı Ladislav, prof. MUDr. CSc., MPH
+KPAD;7359;1119;Cv;2024;16.11.2024;16.11.2024;14:00;18:50;KPAD;Etika v oblasti sociální práce;'PhDr. Ing. Martin Èernı, MSc.';7287;Fischer Slavomil, PhDr. MBA, Ph.D.
+KHV;7411;4857;Cv;2024;1.10.2024;17.12.2024;13:30;17:30;KHV;Prùbìná pedagogická praxe MAIOR;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Stranìk Drahoslav, Mgr.
+KHV;7412;441;Cv;2024;2.10.2024;18.12.2024;11:00;11:50;KHV;Dìjiny hudby I;'prof. PaedDr. Miloš Hons, Ph.D.';356;Pøibylová Lenka, doc. PhDr. Ph.D.
+KBO;7412;8524;Cv;2024;2.10.2024;18.12.2024;09:00;09:50;KBO;Textová lingvistika;'doc. Mgr. Patrik Mitter, Ph.D.';277;Zušáková Lucie, Mgr.
+KAJ;7413;707;Cv;2024;1.10.2024;17.12.2024;15:30;18:00;KAJ;Pøípr. sem. k pedag. praxi MAIOR;'doc. Natalia Orlova, CSc.';507;Šittlerová Jana
+KHV;7414;3673;Cv;2024;1.10.2024;17.12.2024;12:00;12:50;KHV;Didaktika HV na víceletém gymnáziu;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Prchal Jan, PaedDr.
+KAJ;7415;707;Cv;2024;1.10.2024;17.12.2024;15:30;18:00;KAJ;Pøípr. sem. k pedagogické praxi MINOR;'doc. Natalia Orlova, CSc.';507;Šittlerová Jana
+KHV;7416;4857;Cv;2024;1.10.2024;17.12.2024;13:30;17:30;KHV;Prùbìná pedagogická praxe MINOR;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Stranìk Drahoslav, Mgr.
+KBO;7416;7434;Cv;2024;7.10.2024;16.12.2024;12:00;12:50;KBO;Pøípr. semináø k ped. praxi MINOR;'PhDr. Václav Jindráèek, Ph.D.';3651;Hník Ondøej, doc. PhDr. Ph.D.
+KPAD;7421;;Cv;2024;18.2.2025;13.5.2025;12:00;13:50;KPAD;Sociální pedagogika a sociální patologie;'Ing. Ivana Kratochvílová, Ph.D.', 'PhDr. Jakub Pivarè, Ph.D.';1796, 9153;
+KPS;7430;9550;Cv;2024;2.10.2024;18.12.2024;12:00;12:50;KPS;Školní a poradenská psychologie;'PhDr. Renata Hajná, Ph.D.', 'PhDr. Eva Chalupová, Ph.D.', 'Mgr. Hana Sirotková';3759, 7577, 5192;
+KSSP;7430;8920;Cv;2024;1.10.2024;17.12.2024;18:00;19:50;KSSP;Speciální ped. a inkluzivní vzdìlávání;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Kovács Jana, Mgr.
+KPS;7430;9550;Cv;2024;2.10.2024;18.12.2024;13:00;13:50;KPS;Školní a poradenská psychologie;'PhDr. Renata Hajná, Ph.D.', 'PhDr. Eva Chalupová, Ph.D.', 'Mgr. Hana Sirotková';3759, 7577, 5192;
+KBO;7430;3651;Cv;2024;4.10.2024;3.1.2025;11:00;11:50;KBO;Komplexní reflektivní semináø praxe;'doc. PhDr. Ondøej Hník, Ph.D.', 'Mgr. Vladimír Trpka, Ph.D.';7434, 3261;Jindráèek Václav, PhDr. Ph.D.
+KAJ;7431;9536;Cv;2024;2.10.2024;18.12.2024;14:00;14:50;KAJ;Akademickı písemnı projev;'MgA. Martin Holland';3532;Kamenická Jana, PaedDr. PhD.
+KAJ;7433;9536;Cv;2024;3.10.2024;2.1.2025;12:00;13:50;KAJ;Praktickı semináø 3;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KTV;7433;376;Cv;2024;1.10.2024;17.12.2024;15:40;17:10;KTV;Základy posilování;'Mgr. Josef Heidler', 'Mgr. Tomáš Nosek';8118, 6922;Pyšnı Ladislav, prof. MUDr. CSc., MPH
+KHV;7433;6390;Cv;2024;3.10.2024;2.1.2025;11:00;12:50;KHV;Didaktika HV pro ZŠ;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Kacar Jakub, Mgr. DiS., Ph.D.
+KAJ;7434;9536;Cv;2024;1.10.2024;17.12.2024;12:00;12:50;KAJ;Metody hodnocení áka a studenta;'Mgr. Jana Pavlíková, Ph.D., M.A.';216;Kamenická Jana, PaedDr. PhD.
+KHV;7435;6390;Cv;2024;2.10.2024;18.12.2024;14:00;14:30;KHV;Hra ve školním souboru I;'prof. PaedDr. Jiøí Holubec, Ph.D.';355;Kacar Jakub, Mgr. DiS., Ph.D.
+KBO;7435;3651;Cv;2024;4.10.2024;3.1.2025;12:00;13:50;KBO;Didaktická inter. literárního textu;'PhDr. Martin Fibiger, Ph.D.', 'doc. PhDr. Ondøej Hník, Ph.D.';289, 7434;Jindráèek Václav, PhDr. Ph.D.
+KAJ;7436;9536;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KAJ;Semináø k diplomové práci;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KSSP;7510;336;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KSSP;Sociální ped. a soc. pedagog. teorie;'Mgr. Zdenìk Svoboda, Ph.D.';573;Škoda Jiøí, prof. PhDr. Ph.D., MBA
+KPAD;7510;407;Cv;2024;2.10.2024;18.12.2024;10:00;10:50;KPAD;Metodologie vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KPS;7510;9549;Cv;2024;3.10.2024;2.1.2025;15:00;16:50;KPS;Pedagogická psychologie;'Mgr. Ondøej Pešout, Ph.D.', 'PhDr. Alena Pilousová';7322, 4410;Baborová Aneta, Mgr.
+KHV;7511;4857;Cv;2024;1.10.2024;17.12.2024;13:30;17:30;KHV;Prùbìná pedagogická praxe;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Stranìk Drahoslav, Mgr.
+KAJ;7511;507;Cv;2024;3.10.2024;2.1.2025;10:00;11:50;KAJ;Didaktika anglického jazyka 1;"";;Orlova Natalia, doc. CSc.
+KHV;75110;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;Sborovı zpìv I;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KHV;75112;4857;Cv;2024;1.10.2024;17.12.2024;13:30;17:30;KHV;Prùbìná pedagogická praxe MINOR;'doc. PaedDr. Vladimír Kuelka';359;Stranìk Drahoslav, Mgr.
+KBO;7512;8524;Cv;2024;3.10.2024;2.1.2025;12:00;13:50;KBO;Textová lingvistika;'doc. Mgr. Patrik Mitter, Ph.D.';277;Zušáková Lucie, Mgr.
+KPAD;7512;407;Cv;2024;2.10.2024;18.12.2024;10:00;10:50;KPAD;Metodologie vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KTV;7513;585;Cv;2024;1.10.2024;17.12.2024;13:00;14:30;KTV;Fitness I;'Mgr. Jan Hnízdil, Ph.D.', 'Mgr. Tomáš Nosek';447, 6922;Pyšná Jana, doc. PhDr. Ph.D.
+KTV;7514;2410;Cv;2024;7.10.2024;16.12.2024;12:00;12:50;KTV;Funkèní, som. a zdravotní diagnost.;"";;Petrù Dominika, PhDr. Ph.D.
+KBO;7514;3651;Cv;2024;2.10.2024;18.12.2024;13:00;14:50;KBO;Didaktická inter. literárního textu;'PhDr. Martin Fibiger, Ph.D.', 'doc. PhDr. Ondøej Hník, Ph.D.';289, 7434;Jindráèek Václav, PhDr. Ph.D.
+KTV;7514;585;Cv;2024;7.10.2024;16.12.2024;12:00;12:50;KTV;Funkèní, som. a zdravotní diagnost.;"";;Pyšná Jana, doc. PhDr. Ph.D.
+KAJ;7514;707;Cv;2024;1.10.2024;17.12.2024;15:30;18:00;KAJ;Pøípravnı semináø k pedagogické praxi;'doc. Natalia Orlova, CSc.';507;Šittlerová Jana
+KHV;7516;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;Sborovı zpìv I;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KSSP;7516;573;Cv;2024;3.10.2024;2.1.2025;11:00;11:50;KSSP;Inkluzivní pedagogika a tvorba IVP;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Svoboda Zdenìk, Mgr. Ph.D.
+KHV;7517;3673;Cv;2024;1.10.2024;17.12.2024;12:00;12:50;KHV;Didaktika HV na víceletém gymnáziu;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Prchal Jan, PaedDr.
+KSSP;7518;1529;Cv;2024;2.10.2024;18.12.2024;17:00;17:50;KSSP;Školská politika a legislativa;'doc. Ing. Helena Vomáèková, CSc.';39;
+KSSP;7519;1610;Cv;2024;1.10.2024;17.12.2024;13:00;13:50;KSSP;ICT ve speciální pedagogice;'RNDr. Jan Krejèí, Ph.D.';2776;Círus Lukáš, PhDr. Ph.D.
+KSSP;7530;4216;Cv;2024;3.10.2024;2.1.2025;11:00;11:50;KSSP;Inkluzivní pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Zilcher Ladislav, doc. PhDr. Ph.D.
+KAJ;7531;9536;Cv;2024;2.10.2024;18.12.2024;14:00;14:50;KAJ;Akademickı písemnı projev;'MgA. Martin Holland';3532;Kamenická Jana, PaedDr. PhD.
+KSSP;7531;6058;Cv;2024;7.10.2024;16.12.2024;18:00;19:50;KSSP;Základy ped.-psych. diagnostiky;'PhDr. Vìra Smolíková';6540;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;75317;5726;Cv;2024;3.10.2024;2.1.2025;18:00;19:50;KSSP;Teor. a aplik. asp. etop. a psy. I;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Vostrı Michal, doc. PhDr. Ph.D.
+KSSP;75319;1643;Cv;2024;7.10.2024;16.12.2024;17:00;17:50;KSSP;Eduk. a diag. jed. s par. poruchami;'doc. PhDr. Michal Vostrı, Ph.D.';5726;Smolík Arnošt, PhDr. Ph.D.
+KSSP;7532;39;Cv;2024;7.10.2024;16.12.2024;11:00;11:50;KSSP;Základy projektového managementu;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Vomáèková Helena, doc. Ing. CSc.
+KBO;7532;9655;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KBO;Stylistická cvièení;'doc. Mgr. Patrik Mitter, Ph.D.', 'Mgr. Vladimír Trpka, Ph.D.';277, 3261;Musil Adam, Mgr.
+KAJ;7532;9536;Cv;2024;3.10.2024;2.1.2025;12:00;13:50;KAJ;Didaktika anglického jazyka 3;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KHV;7533;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;Sborovı zpìv III;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KAJ;7533;9536;Cv;2024;1.10.2024;17.12.2024;13:00;14:50;KAJ;Metody hodnocení áka a studenta;'Mgr. Jana Pavlíková, Ph.D., M.A.';216;Kamenická Jana, PaedDr. PhD.
+KBO;7534;8500;Cv;2024;1.10.2024;17.12.2024;11:00;12:50;KBO;Literatura a film;'doc. PhDr. Ondøej Hník, Ph.D.', 'doc. Mgr. Jan Tlustı, Ph.D.';7434, 630;Vlasáková Gabriela, Mgr.
+KSSP;7534;8021;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;KSSP;Metodologické praktikum;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Kubiatko Milan, PaedDr. PhD.
+KHV;7535;6390;Cv;2024;3.10.2024;2.1.2025;11:00;12:50;KHV;Didaktika HV pro ZŠ;'doc. PhDr. Ivana Ašenbrenerová, Ph.D.';433;Kacar Jakub, Mgr. DiS., Ph.D.
+KBO;7535;8500;Cv;2024;1.10.2024;17.12.2024;15:00;16:50;KBO;Tvùrèí psaní II;'PaedDr. Ivo Harák, Ph.D.', 'doc. PhDr. Ondøej Hník, Ph.D.';291, 7434;Vlasáková Gabriela, Mgr.
+KHV;7536;6390;Cv;2024;2.10.2024;18.12.2024;14:30;16:00;KHV;Dirigování orchestru I;'prof. PaedDr. Jiøí Holubec, Ph.D.';355;Kacar Jakub, Mgr. DiS., Ph.D.
+KSSP;7537;886;Cv;2024;3.10.2024;2.1.2025;08:00;08:50;KSSP;Základy ekonomie a úèetnictví;'doc. Ing. Helena Vomáèková, CSc.';39;Bertl Ivan, PhDr. Ing. Ph.D.
+KSSP;7538;;Cv;2024;1.10.2024;17.12.2024;11:00;11:50;KSSP;Edukace jedincù se zrakovım postiením;'doc. PhDr. PaedDr. Ilona Pešatová, Ph.D.';5072;
+KHV;7538;9587;Cv;2024;2.10.2024;18.12.2024;09:00;09:50;KHV;Sborovı management I;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KHV;7539;9587;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KHV;Sborovı zpìv III;'doc. PaedDr. Vladimír Kuelka';359;Eichler Honcù Jana, Mgr. DiS.
+KSSP;7539;573;Cv;2024;1.10.2024;17.12.2024;15:00;15:50;KSSP;Pod. ákù se soc. a soc. znevıh.;'PhDr. PaedDr. Ing. Jan Tirpák, Ph.D., MBA';6058;Svoboda Zdenìk, Mgr. Ph.D.
+KPAD;7610;407;Cv;2024;19.10.2024;19.10.2024;08:00;12:50;KPAD;Metodologie pedagogického vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KPAD;7621;;Cv;2024;5.4.2025;5.4.2025;13:00;19:50;KPAD;Sociální pedagogika a sociální patologie;'Ing. Ivana Kratochvílová, Ph.D.', 'PhDr. Jakub Pivarè, Ph.D.';1796, 9153;
+KSSP;7630;8920;Cv;2024;15.11.2024;15.11.2024;13:00;19:50;KSSP;Speciální ped. a inkluzivní vzdìlávání;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Kovács Jana, Mgr.
+KAJ;7636;9536;Cv;2024;1.10.2024;1.10.2024;11:00;11:50;KAJ;Semináø k diplomové práci;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KAJ;7636;9536;Cv;2024;15.10.2024;15.10.2024;11:00;11:50;KAJ;Semináø k diplomové práci;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KAJ;7636;9536;Cv;2024;22.10.2024;22.10.2024;11:00;11:50;KAJ;Semináø k diplomové práci;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KAJ;7636;9536;Cv;2024;8.10.2024;8.10.2024;11:00;11:50;KAJ;Semináø k diplomové práci;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KAJ;7710;3159;Cv;2024;29.10.2024;29.10.2024;13:00;14:50;KAJ;Aktuální otázky oboru - lingvistika;'Mgr. Kateøina Šteklová, Ph.D.';220;Haase Christoph, Dr. Ph.D., M.A.
+KSSP;7710;336;Cv;2024;8.11.2024;8.11.2024;09:00;12:50;KSSP;Sociální ped. a soc. pedagog. teorie;'Mgr. Zdenìk Svoboda, Ph.D.';573;Škoda Jiøí, prof. PhDr. Ph.D., MBA
+KAJ;7710;3159;Cv;2024;22.10.2024;22.10.2024;13:00;14:50;KAJ;Aktuální otázky oboru - lingvistika;'Mgr. Kateøina Šteklová, Ph.D.';220;Haase Christoph, Dr. Ph.D., M.A.
+KPAD;7710;407;Cv;2024;19.10.2024;19.10.2024;13:00;16:50;KPAD;Metodologie vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KAJ;7710;3159;Cv;2024;12.11.2024;12.11.2024;13:00;14:50;KAJ;Aktuální otázky oboru - lingvistika;'Mgr. Kateøina Šteklová, Ph.D.';220;Haase Christoph, Dr. Ph.D., M.A.
+KAJ;7710;3159;Cv;2024;19.11.2024;19.11.2024;13:00;14:50;KAJ;Aktuální otázky oboru - lingvistika;'Mgr. Kateøina Šteklová, Ph.D.';220;Haase Christoph, Dr. Ph.D., M.A.
+KAJ;7710;3159;Cv;2024;5.11.2024;5.11.2024;13:00;14:50;KAJ;Aktuální otázky oboru - lingvistika;'Mgr. Kateøina Šteklová, Ph.D.';220;Haase Christoph, Dr. Ph.D., M.A.
+KBO;7712;8524;Cv;2024;23.11.2024;23.11.2024;09:00;14:50;KBO;Textová lingvistika;'doc. Mgr. Patrik Mitter, Ph.D.';277;Zušáková Lucie, Mgr.
+KPAD;7712;407;Cv;2024;19.10.2024;19.10.2024;13:00;16:50;KPAD;Metodologie vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KBO;7712;9099;Cv;2024;16.11.2024;16.11.2024;14:00;15:50;KBO;Textová lingvistika;'doc. Mgr. Patrik Mitter, Ph.D.';277;Janovec Ladislav, PhDr. Ph.D.
+KTV;7713;585;Cv;2024;25.10.2024;25.10.2024;09:00;11:50;KTV;Fitness I;'Mgr. Jan Hnízdil, Ph.D.', 'Mgr. Tomáš Nosek';447, 6922;Pyšná Jana, doc. PhDr. Ph.D.
+KTV;7713;585;Cv;2024;13.12.2024;13.12.2024;09:00;10:50;KTV;Fitness I;'Mgr. Jan Hnízdil, Ph.D.', 'Mgr. Tomáš Nosek';447, 6922;Pyšná Jana, doc. PhDr. Ph.D.
+KTV;7713;585;Cv;2024;18.10.2024;18.10.2024;12:00;13:50;KTV;Fitness I;'Mgr. Jan Hnízdil, Ph.D.', 'Mgr. Tomáš Nosek';447, 6922;Pyšná Jana, doc. PhDr. Ph.D.
+KAJ;7714;9534;Cv;2024;3.12.2024;3.12.2024;15:30;17:00;KAJ;Pøípravnı semináø k pedagogické praxi;'doc. Natalia Orlova, CSc.';507;
+KTV;7714;585;Cv;2024;15.11.2024;15.11.2024;09:00;10:50;KTV;Funkèní, som. a zdravotní diagnost.;"";;Pyšná Jana, doc. PhDr. Ph.D.
+KAJ;7714;9534;Cv;2024;26.11.2024;26.11.2024;15:30;18:00;KAJ;Pøípravnı semináø k pedagogické praxi;'doc. Natalia Orlova, CSc.';507;
+KAJ;7714;9534;Cv;2024;10.12.2024;10.12.2024;15:30;17:00;KAJ;Pøípravnı semináø k pedagogické praxi;'doc. Natalia Orlova, CSc.';507;
+KBO;7714;2753;Cv;2024;4.1.2025;4.1.2025;09:00;16:50;KBO;Didaktická inter. literárního textu;'PhDr. Martin Fibiger, Ph.D.', 'doc. PhDr. Ondøej Hník, Ph.D.';289, 7434;Horkı Pavel, PhDr. Ph.D.
+KTV;7714;585;Cv;2024;13.12.2024;13.12.2024;13:20;15:10;KTV;Funkèní, som. a zdravotní diagnost.;"";;Pyšná Jana, doc. PhDr. Ph.D.
+KPAD;7715;407;Cv;2024;19.10.2024;19.10.2024;08:00;12:50;KPAD;Metodologie pedagogického vızkumu;'doc. Mgr. Jaroslav Øíèan, Ph.D.';3830;Doulík Pavel, prof. PaedDr. Ph.D.
+KSSP;7716;573;Cv;2024;25.10.2024;25.10.2024;12:00;16:50;KSSP;Inkluzivní pedagogika a tvorba IVP;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Svoboda Zdenìk, Mgr. Ph.D.
+KSSP;7718;1283;Cv;2024;7.12.2024;7.12.2024;13:00;17:50;KSSP;Školská politika a legislativa;'doc. Ing. Helena Vomáèková, CSc.';39;
+KSSP;7719;1610;Cv;2024;16.11.2024;16.11.2024;13:00;17:50;KSSP;ICT ve speciální pedagogice;'RNDr. Jan Krejèí, Ph.D.';2776;Círus Lukáš, PhDr. Ph.D.
+KSSP;7730;4216;Cv;2024;20.12.2024;20.12.2024;12:00;15:50;KSSP;Inkluzivní pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Zilcher Ladislav, doc. PhDr. Ph.D.
+KTV;7730;8745;Cv;2024;25.10.2024;25.10.2024;08:30;11:20;KTV;Aplikace her;'Mgr. Jan Kresta, Ph.D.';1050;Polívka Tomáš, Mgr. Ph.D.
+KSSP;7731;6058;Cv;2024;21.12.2024;21.12.2024;09:00;16:50;KSSP;Základy ped.-psych. diagnostiky;'PhDr. Vìra Smolíková';6540;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KBO;7731;3651;Cv;2024;1.11.2024;1.11.2024;14:00;20:50;KBO;Komplexní reflektivní semináø praxe;'doc. PhDr. Ondøej Hník, Ph.D.', 'Mgr. Vladimír Trpka, Ph.D.';7434, 3261;Jindráèek Václav, PhDr. Ph.D.
+KSSP;77312;9522;Cv;2024;7.12.2024;7.12.2024;09:00;17:50;KSSP;Edukace jedincù se sluchovım postiením;'doc. PhDr. Kateøina Hádková, Ph.D.';6371;
+KSSP;77317;5726;Cv;2024;16.11.2024;16.11.2024;09:00;17:50;KSSP;Teor. a aplik. asp. etop. a psy. I;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Vostrı Michal, doc. PhDr. Ph.D.
+KSSP;77319;1643;Cv;2024;2.11.2024;2.11.2024;09:00;17:50;KSSP;Eduk. a diag. jed. s par. poruchami;'doc. PhDr. Michal Vostrı, Ph.D.';5726;Smolík Arnošt, PhDr. Ph.D.
+KAJ;7732;9536;Cv;2024;10.12.2024;10.12.2024;10:00;11:50;KAJ;Didaktika anglického jazyka 3;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KAJ;7732;9536;Cv;2024;29.10.2024;29.10.2024;10:00;11:50;KAJ;Didaktika anglického jazyka 3;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KBO;7732;8524;Cv;2024;26.10.2024;26.10.2024;09:00;16:50;KBO;Stylistická cvièení;'doc. Mgr. Patrik Mitter, Ph.D.', 'Mgr. Vladimír Trpka, Ph.D.';277, 3261;Zušáková Lucie, Mgr.
+KAJ;7732;9536;Cv;2024;17.12.2024;17.12.2024;10:00;11:50;KAJ;Didaktika anglického jazyka 3;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KAJ;7732;9536;Cv;2024;26.11.2024;26.11.2024;10:00;11:50;KAJ;Didaktika anglického jazyka 3;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KSSP;7732;39;Cv;2024;26.10.2024;26.10.2024;08:00;11:50;KSSP;Základy projektového managementu;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Vomáèková Helena, doc. Ing. CSc.
+KAJ;7732;9536;Cv;2024;22.10.2024;22.10.2024;09:00;10:50;KAJ;Didaktika anglického jazyka 3;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KAJ;7732;9536;Cv;2024;3.12.2024;3.12.2024;10:00;11:50;KAJ;Didaktika anglického jazyka 3;'doc. Natalia Orlova, CSc.';507;Kamenická Jana, PaedDr. PhD.
+KSSP;7734;8021;Cv;2024;16.11.2024;16.11.2024;09:00;16:50;KSSP;Metodologické praktikum;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Kubiatko Milan, PaedDr. PhD.
+KBO;7734;297;Cv;2024;14.12.2024;14.12.2024;09:00;16:50;KBO;Literatura a film;'doc. PhDr. Ondøej Hník, Ph.D.', 'doc. Mgr. Jan Tlustı, Ph.D.';7434, 630;Valenta Zdenìk, PhDr. Ph.D.
+KBO;7735;8500;Cv;2024;7.12.2024;7.12.2024;09:00;16:50;KBO;Tvùrèí psaní II;'PaedDr. Ivo Harák, Ph.D.', 'doc. PhDr. Ondøej Hník, Ph.D.';291, 7434;Vlasáková Gabriela, Mgr.
+KSSP;7737;886;Cv;2024;20.12.2024;20.12.2024;16:00;19:50;KSSP;Základy ekonomie a úèetnictví;'doc. Ing. Helena Vomáèková, CSc.';39;Bertl Ivan, PhDr. Ing. Ph.D.
+KSSP;7738;1795;Cv;2024;14.12.2024;14.12.2024;09:00;17:50;KSSP;Edukace jedincù se zrakovım postiením;'doc. PhDr. PaedDr. Ilona Pešatová, Ph.D.';5072;
+KSSP;7739;573;Cv;2024;11.10.2024;11.10.2024;13:00;17:50;KSSP;Pod. ákù se soc. a soc. znevıh.;'PhDr. PaedDr. Ing. Jan Tirpák, Ph.D., MBA';6058;Svoboda Zdenìk, Mgr. Ph.D.
+KPR;7811;3538;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KPR;Zákl. filos. antrop. a filos. vıchovy;"";;Šlégl Jiøí, PhDr. Ph.D.
+KH1;7812;8185;Cv;2024;2.10.2024;18.12.2024;18:00;18:50;KH1;Pìv. a instr. doved. - hra na kla. I;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KPR;7812;9528;Cv;2024;1.10.2024;17.12.2024;16:00;17:50;KPR;Biologie dítìte a zdravotní prevence;'PhDr. Roman Kroufek, Ph.D.';1070;Adámková Romana
+CJP;7813;5827;Cv;2024;4.10.2024;3.1.2025;10:00;11:50;CJP;Cizí jazyk vyšší: nìmeckı jazyk;'Mgr. Dana Dovhunová, Ph.D.';647;Nesládková Martina, Mgr. M.A.
+KPR;7813;7623;Cv;2024;1.10.2024;17.12.2024;13:00;13:50;KPR;Èeskı jazyk I - fonetika, morfologie;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Rùièková Jiøina, Mgr. Bc.
+KH1;7813;442;Cv;2024;7.10.2024;16.12.2024;09:00;09:50;KH1;Základy hudební teorie;'PhDr. Martina Zemanová, Ph.D.';434;Zeman Petr, PhDr. Ph.D.
+KPR;7814;7623;Cv;2024;3.10.2024;2.1.2025;10:00;11:50;KPR;Komplexní jazyková cvièení;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Rùièková Jiøina, Mgr. Bc.
+KPR;7817;9528;Cv;2024;1.10.2024;17.12.2024;18:00;19:50;KPR;Biologie dítìte a zdravotní prevence;'PhDr. Roman Kroufek, Ph.D.';1070;Adámková Romana
+KPAD;7830;336;Cv;2024;2.10.2024;18.12.2024;10:00;10:50;KPAD;Somatopedie;'doc. PhDr. Michal Vostrı, Ph.D.';5726;Škoda Jiøí, prof. PhDr. Ph.D., MBA
+KV1;7830;5934;Cv;2024;4.10.2024;3.1.2025;08:00;09:50;KV1;Metody vizuálních oborù;'MgA. Mgr. Tereza Havlovicová';6279;Coganová Šárka, Mgr.
+KH1;7831;8185;Cv;2024;2.10.2024;18.12.2024;17:00;17:50;KH1;Pìv. a instr. doved. - hra na klá. nás.;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KPR;7831;2624;Cv;2024;1.10.2024;17.12.2024;18:00;19:50;KPR;Didaktika informaèních technologií;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Henzl Jiøí, Mgr.
+KT1;7831;2410;Cv;2024;2.10.2024;18.12.2024;09:00;09:50;KT1;Didaktika rytmické gymnastiky a tance;"";;Petrù Dominika, PhDr. Ph.D.
+KPR;78310;8021;Cv;2024;7.10.2024;16.12.2024;13:00;13:50;KPR;Integrovanı vìdní základ II;'PhDr. Roman Kroufek, Ph.D.';1070;Kubiatko Milan, PaedDr. PhD.
+KPR;78312;7623;Cv;2024;1.10.2024;17.12.2024;10:00;11:50;KPR;Praktikum didaktiky - èeskı jazyk a sloh;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Rùièková Jiøina, Mgr. Bc.
+KPR;7832;7336;Cv;2024;1.10.2024;17.12.2024;09:00;09:50;KPR;Didaktika primární školy;'doc. PhDr. Renata Šikulová, Ph.D.';235;Lanková Barbora, PhDr. Ph.D.
+KV1;7832;5934;Cv;2024;4.10.2024;3.1.2025;10:00;11:50;KV1;Metody vizuálních oborù;'doc. Mgr. Vladimír Šavel';392;Coganová Šárka, Mgr.
+KV1;7832;5934;Cv;2024;4.10.2024;3.1.2025;12:00;13:50;KV1;Metody vizuálních oborù;'doc. Mgr. Vladimír Šavel';392;Coganová Šárka, Mgr.
+KPR;7833;8021;Cv;2024;7.10.2024;16.12.2024;13:00;13:50;KPR;Integrovanı vìdní základ II;'PhDr. Roman Kroufek, Ph.D.';1070;Kubiatko Milan, PaedDr. PhD.
+CJP;7833;9492;Cv;2024;4.10.2024;3.1.2025;10:00;11:50;CJP;Cizí jazyk niší: španìlskı jazyk;'Mgr. Ernesto Javier Beltrán-Sánchez, Ph.D.';5273;Avdìjeva Anastasie, Mgr.
+KPR;7834;3538;Cv;2024;2.10.2024;18.12.2024;14:00;15:50;KPR;Kapitoly ze starších èeskıch dìjin;"";;Šlégl Jiøí, PhDr. Ph.D.
+KH1;7835;8185;Cv;2024;2.10.2024;18.12.2024;16:00;16:50;KH1;Pìvecké a inst. dov. - hra na kl. nás.;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KPR;7835;7623;Cv;2024;1.10.2024;17.12.2024;10:00;11:50;KPR;Praktikum didaktiky - èeskı jazyk a sloh;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Rùièková Jiøina, Mgr. Bc.
+KPR;7838;2624;Cv;2024;1.10.2024;17.12.2024;16:00;17:50;KPR;Didaktika informaèních technologií;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Henzl Jiøí, Mgr.
+KPR;7839;7336;Cv;2024;7.10.2024;16.12.2024;17:00;17:50;KPR;Didaktika primární školy;'doc. PaedDr. Ivana Brtnová-Èepièková, Ph.D.';229;Lanková Barbora, PhDr. Ph.D.
+KH1;7850;3434;Cv;2024;4.10.2024;3.1.2025;15:00;15:50;KH1;Pøedmìt a loutka;'PhDr. Dana Novotná, Ph.D.';437;Ritschelová Šárka, Mgr.
+KV1;7851;2434;Cv;2024;1.10.2024;17.12.2024;17:00;17:50;KV1;Netradièní vıtvarné èinnosti ve VV na ZŠ;'Mgr. Bc. Lenka Minaøíková';3168;Rùièková Radka, PhDr. Ph.D.
+KPR;7851;3201;Cv;2024;3.10.2024;2.1.2025;16:00;17:50;KPR;Didaktika prvopoèáteèního ètení a psaní;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Matìjovská Ilona, Mgr.
+KPR;7857;7443;Cv;2024;2.10.2024;18.12.2024;13:00;13:50;KPR;Úvod do studia literatury;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Adámek Pavel, Mgr. Bc.
+KPR;7859;6948;Cv;2024;7.10.2024;16.12.2024;17:00;18:50;KPR;Didaktika prvopoèáteèního ètení a psaní;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Petrù Pavlína, Mgr.
+KSSP;7870;886;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KSSP;Sociokulturní aspekty edukace;'Mgr. Zdenìk Svoboda, Ph.D.';573;Bertl Ivan, PhDr. Ing. Ph.D.
+KPR;7870;8021;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KPR;Analıza dat;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Kubiatko Milan, PaedDr. PhD.
+KV1;7870;2434;Cv;2024;1.10.2024;17.12.2024;18:00;19:50;KV1;Uitá tvorba;'Mgr. Bc. Lenka Minaøíková';3168;Rùièková Radka, PhDr. Ph.D.
+KT1;7870;585;Cv;2024;3.10.2024;2.1.2025;12:00;12:50;KT1;Didaktika zdravotní tìlesné vıchovy;'doc. PhDr. Štefan Balkó, Ph.D.';2882;Pyšná Jana, doc. PhDr. Ph.D.
+KT1;7871;3203;Cv;2024;1.10.2024;17.12.2024;09:00;09:50;KT1;Zdravotní tìlesná vıchova a jóga;'doc. PhDr. Štefan Balkó, Ph.D.', 'Mgr. Bc. Miroslava Dobrodinská';2882, 6135;Balkó Iva, Mgr. Ph.D.
+KSSP;7871;886;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KSSP;Sociokulturní aspekty edukace;'Mgr. Zdenìk Svoboda, Ph.D.';573;Bertl Ivan, PhDr. Ing. Ph.D.
+KPR;7871;8729;Cv;2024;3.10.2024;2.1.2025;10:00;11:50;KPR;Didaktika matematiky I;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Janeèková Miroslava, PaedDr. PhD.
+KPR;78711;9527;Cv;2024;2.10.2024;18.12.2024;17:00;18:50;KPR;Didaktika integ. pøír. základu III;'doc. PaedDr. Ivana Brtnová-Èepièková, Ph.D.';229;Lukiæ Aco
+KPR;78712;7623;Cv;2024;7.10.2024;16.12.2024;12:00;13:50;KPR;Internacionalizace;'PhDr. Barbora Lanková, Ph.D.';7336;Rùièková Jiøina, Mgr. Bc.
+KH1;7872;8185;Cv;2024;2.10.2024;18.12.2024;14:00;14:50;KH1;Didaktika HV - ryt. a inst. vıcvik;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Petr Zeman, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 442, 434;Olšanová Iva, Mgr.
+KPR;7873;8021;Cv;2024;7.10.2024;16.12.2024;09:00;09:50;KPR;Metodologie pedagogického vızkumu;'PhDr. Roman Kroufek, Ph.D.';1070;Kubiatko Milan, PaedDr. PhD.
+KPR;7877;7443;Cv;2024;2.10.2024;18.12.2024;15:00;16:50;KPR;Didaktika literární vıchovy;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Adámek Pavel, Mgr. Bc.
+KPR;7879;8021;Cv;2024;7.10.2024;16.12.2024;18:00;19:50;KPR;Analıza dat;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Kubiatko Milan, PaedDr. PhD.
+KPR;7879;8021;Cv;2024;7.10.2024;16.12.2024;16:00;17:50;KPR;Analıza dat;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Kubiatko Milan, PaedDr. PhD.
+KSSP;7890;8398;Cv;2024;2.10.2024;18.12.2024;12:00;13:50;KSSP;Sociální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KSSP;7891;7336;Cv;2024;2.10.2024;18.12.2024;11:00;11:50;KSSP;Specifické poruchy uèení a chování;'PhDr. Arnošt Smolík, Ph.D.';1643;Lanková Barbora, PhDr. Ph.D.
+KSSP;7892;8398;Cv;2024;2.10.2024;18.12.2024;12:00;13:50;KSSP;Sociální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KPR;7893;2624;Cv;2024;1.10.2024;17.12.2024;15:00;15:50;KPR;Kultura vyuèování matematice;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Henzl Jiøí, Mgr.
+KSSP;7895;;Cv;2024;1.10.2024;17.12.2024;19:00;19:50;KSSP;Edukace jedincù se zrakovım postiením;'Mgr. Nikol Aková';1795;
+KSSP;7896;1643;Cv;2024;7.10.2024;16.12.2024;17:00;17:50;KSSP;Edukace jedincù s parciálními poruchami;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Smolík Arnošt, PhDr. Ph.D.
+KPAD;7910;336;Cv;2024;2.11.2024;2.11.2024;12:00;15:50;KPAD;Obecná a srovnávací pedagogika;'prof. PaedDr. Pavel Doulík, Ph.D.', 'doc. Mgr. Jaroslav Øíèan, Ph.D.';407, 3830;Škoda Jiøí, prof. PhDr. Ph.D., MBA
+KPR;7911;3538;Cv;2024;19.10.2024;19.10.2024;14:00;17:50;KPR;Zákl. filos. antrop. a filos. vıchovy;"";;Šlégl Jiøí, PhDr. Ph.D.
+KH1;7912;8185;Cv;2024;30.11.2024;30.11.2024;16:00;19:50;KH1;Pìv. a instr. doved. - hra na kla. I;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KPR;7912;9528;Cv;2024;12.10.2024;12.10.2024;16:00;19:50;KPR;Biologie dítìte a zdravotní prevence;'PhDr. Roman Kroufek, Ph.D.', 'Mgr. Dagmar Kubátová, Ph.D.';1070, 231;Adámková Romana
+KH1;7913;442;Cv;2024;30.11.2024;30.11.2024;12:00;15:50;KH1;Základy hudební teorie;'PhDr. Martina Zemanová, Ph.D.';434;Zeman Petr, PhDr. Ph.D.
+KPR;7913;7623;Cv;2024;26.10.2024;26.10.2024;12:00;15:50;KPR;Èeskı jazyk I - fonetika, morfologie;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Rùièková Jiøina, Mgr. Bc.
+KPR;7914;7623;Cv;2024;30.11.2024;30.11.2024;08:00;15:50;KPR;Komplexní jazyková cvièení;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Rùièková Jiøina, Mgr. Bc.
+KPR;7917;9528;Cv;2024;26.10.2024;26.10.2024;12:00;15:50;KPR;Biologie dítìte a zdravotní prevence;'PhDr. Roman Kroufek, Ph.D.';1070;Adámková Romana
+KV1;7930;5934;Cv;2024;7.12.2024;7.12.2024;11:00;16:50;KV1;Metody vizuálních oborù;'MgA. Mgr. Tereza Havlovicová';6279;Coganová Šárka, Mgr.
+KT1;7930;8724;Cv;2024;11.10.2024;11.10.2024;16:30;18:00;KT1;Didaktika atletiky;'Mgr. Martin Nosek, Ph.D.';586;Nechvátal Jiøí, Mgr.
+KT1;7930;8724;Cv;2024;15.11.2024;15.11.2024;15:30;17:00;KT1;Didaktika atletiky;'Mgr. Martin Nosek, Ph.D.';586;Nechvátal Jiøí, Mgr.
+KPAD;7930;336;Cv;2024;12.10.2024;12.10.2024;11:00;12:50;KPAD;Somatopedie;'doc. PhDr. Michal Vostrı, Ph.D.';5726;Škoda Jiøí, prof. PhDr. Ph.D., MBA
+KTV;7930;8724;Cv;2024;11.10.2024;11.10.2024;15:00;16:30;KTV;Didaktika atletiky;'Mgr. Martin Nosek, Ph.D.';586;Nechvátal Jiøí, Mgr.
+KTV;7930;8724;Cv;2024;15.11.2024;15.11.2024;14:00;15:30;KTV;Didaktika atletiky;'Mgr. Martin Nosek, Ph.D.';586;Nechvátal Jiøí, Mgr.
+KPR;7931;2624;Cv;2024;19.10.2024;19.10.2024;08:00;15:50;KPR;Didaktika informaèních technologií;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Henzl Jiøí, Mgr.
+KT1;7931;2410;Cv;2024;12.10.2024;12.10.2024;10:00;11:30;KT1;Didaktika rytmické gymnastiky a tance;"";;Petrù Dominika, PhDr. Ph.D.
+KT1;7931;2410;Cv;2024;12.10.2024;12.10.2024;11:30;13:00;KT1;Didaktika rytmické gymnastiky a tance;"";;Petrù Dominika, PhDr. Ph.D.
+KT1;7931;2410;Cv;2024;2.11.2024;2.11.2024;10:00;11:30;KT1;Didaktika rytmické gymnastiky a tance;"";;Petrù Dominika, PhDr. Ph.D.
+KT1;7931;2410;Cv;2024;2.11.2024;2.11.2024;11:30;13:00;KT1;Didaktika rytmické gymnastiky a tance;"";;Petrù Dominika, PhDr. Ph.D.
+KPR;79310;8021;Cv;2024;19.10.2024;19.10.2024;18:00;19:50;KPR;Integrovanı vìdní základ II;'PhDr. Roman Kroufek, Ph.D.';1070;Kubiatko Milan, PaedDr. PhD.
+KPR;79312;7623;Cv;2024;16.11.2024;16.11.2024;09:00;14:50;KPR;Praktikum didaktiky - èeskı jazyk a sloh;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Rùièková Jiøina, Mgr. Bc.
+KPR;7932;7336;Cv;2024;30.11.2024;30.11.2024;08:00;11:50;KPR;Didaktika primární školy;'doc. PhDr. Renata Šikulová, Ph.D.';235;Lanková Barbora, PhDr. Ph.D.
+KV1;7932;5934;Cv;2024;14.12.2024;14.12.2024;12:00;19:50;KV1;Metody vizuálních oborù;'doc. Mgr. Vladimír Šavel';392;Coganová Šárka, Mgr.
+KPR;7933;8021;Cv;2024;19.10.2024;19.10.2024;18:00;19:50;KPR;Integrovanı vìdní základ II;'PhDr. Roman Kroufek, Ph.D.';1070;Kubiatko Milan, PaedDr. PhD.
+KPR;7934;3538;Cv;2024;23.11.2024;23.11.2024;10:00;15:50;KPR;Kapitoly ze starších èeskıch dìjin;"";;Šlégl Jiøí, PhDr. Ph.D.
+KH1;7935;8185;Cv;2024;5.10.2024;5.10.2024;08:00;11:50;KH1;Pìvecké a inst. dov. - hra na kl. nás.;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 434;Olšanová Iva, Mgr.
+KPR;7935;7623;Cv;2024;16.11.2024;16.11.2024;09:00;14:50;KPR;Praktikum didaktiky - èeskı jazyk a sloh;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Rùièková Jiøina, Mgr. Bc.
+KPR;7938;2624;Cv;2024;30.11.2024;30.11.2024;08:00;15:50;KPR;Didaktika informaèních technologií;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Henzl Jiøí, Mgr.
+KPR;7939;7336;Cv;2024;29.11.2024;29.11.2024;15:00;18:50;KPR;Didaktika primární školy;'doc. PaedDr. Ivana Brtnová-Èepièková, Ph.D.';229;Lanková Barbora, PhDr. Ph.D.
+KH1;7950;3434;Cv;2024;23.11.2024;23.11.2024;16:00;19:50;KH1;Pøedmìt a loutka;'PhDr. Dana Novotná, Ph.D.';437;Ritschelová Šárka, Mgr.
+KPR;7951;3201;Cv;2024;14.12.2024;14.12.2024;08:00;19:50;KPR;Didaktika prvopoèáteèního ètení a psaní;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Matìjovská Ilona, Mgr.
+KV1;7951;2434;Cv;2024;5.10.2024;5.10.2024;09:00;12:50;KV1;Netradièní vıtvarné èinnosti ve VV na ZŠ;'Mgr. Bc. Lenka Minaøíková';3168;Rùièková Radka, PhDr. Ph.D.
+KSSP;7951;9522;Cv;2024;9.11.2024;9.11.2024;09:00;17:50;KSSP;Surdopedie;'doc. PhDr. Kateøina Hádková, Ph.D.';6371;
+KPR;7965;7336;Cv;2024;4.1.2025;4.1.2025;09:00;14:50;KPR;Akt. met. pøi vıuce tem. okr. Èlovìk;"";;Lanková Barbora, PhDr. Ph.D.
+KT1;7970;585;Cv;2024;11.10.2024;11.10.2024;14:00;15:50;KT1;Didaktika zdravotní tìlesné vıchovy;'doc. PhDr. Štefan Balkó, Ph.D.';2882;Pyšná Jana, doc. PhDr. Ph.D.
+KPAD;7970;407;Cv;2024;19.10.2024;19.10.2024;08:00;12:50;KPAD;Metodologie pedagogického vızkumu;'PhDr. Roman Kroufek, Ph.D.';1070;Doulík Pavel, prof. PaedDr. Ph.D.
+KV1;7970;2434;Cv;2024;16.11.2024;16.11.2024;09:00;16:50;KV1;Uitá tvorba;'Mgr. Bc. Lenka Minaøíková';3168;Rùièková Radka, PhDr. Ph.D.
+KPR;7970;8021;Cv;2024;23.11.2024;23.11.2024;08:00;19:50;KPR;Analıza dat;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Kubiatko Milan, PaedDr. PhD.
+KT1;7970;585;Cv;2024;18.10.2024;18.10.2024;14:00;15:50;KT1;Didaktika zdravotní tìlesné vıchovy;'doc. PhDr. Štefan Balkó, Ph.D.';2882;Pyšná Jana, doc. PhDr. Ph.D.
+KSSP;7970;886;Cv;2024;11.10.2024;11.10.2024;16:00;19:50;KSSP;Sociokulturní aspekty edukace;'Mgr. Zdenìk Svoboda, Ph.D.';573;Bertl Ivan, PhDr. Ing. Ph.D.
+KT1;7971;3203;Cv;2024;4.10.2024;4.10.2024;17:00;18:50;KT1;Zdravotní tìlesná vıchova a jóga;'doc. PhDr. Štefan Balkó, Ph.D.', 'Mgr. Bc. Miroslava Dobrodinská';2882, 6135;Balkó Iva, Mgr. Ph.D.
+KT1;7971;3203;Cv;2024;8.11.2024;8.11.2024;16:15;18:05;KT1;Zdravotní tìlesná vıchova a jóga;'doc. PhDr. Štefan Balkó, Ph.D.', 'Mgr. Bc. Miroslava Dobrodinská';2882, 6135;Balkó Iva, Mgr. Ph.D.
+KSSP;7971;886;Cv;2024;11.10.2024;11.10.2024;16:00;19:50;KSSP;Sociokulturní aspekty edukace;'Mgr. Zdenìk Svoboda, Ph.D.';573;Bertl Ivan, PhDr. Ing. Ph.D.
+KPR;79711;9527;Cv;2024;9.11.2024;9.11.2024;14:00;19:50;KPR;Didaktika integ. pøír. základu III;'doc. PaedDr. Ivana Brtnová-Èepièková, Ph.D.';229;Lukiæ Aco
+KPR;79712;7623;Cv;2024;21.12.2024;21.12.2024;12:00;19:50;KPR;Internacionalizace;'PhDr. Barbora Lanková, Ph.D.';7336;Rùièková Jiøina, Mgr. Bc.
+KH1;7972;8185;Cv;2024;2.11.2024;2.11.2024;16:00;19:50;KH1;Didaktika HV - ryt. a inst. vıcvik;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Petr Zeman, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 442, 434;Olšanová Iva, Mgr.
+KPR;7973;8021;Cv;2024;9.11.2024;9.11.2024;12:00;16:50;KPR;Metodologie pedagogického vızkumu;'PhDr. Roman Kroufek, Ph.D.';1070;Kubiatko Milan, PaedDr. PhD.
+KPR;7977;7443;Cv;2024;26.10.2024;26.10.2024;10:00;15:50;KPR;Didaktika literární vıchovy;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Adámek Pavel, Mgr. Bc.
+KPR;7979;8021;Cv;2024;21.12.2024;21.12.2024;08:00;19:50;KPR;Analıza dat;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Kubiatko Milan, PaedDr. PhD.
+KPR;7979;8021;Cv;2024;4.1.2025;4.1.2025;08:00;19:50;KPR;Analıza dat;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Kubiatko Milan, PaedDr. PhD.
+KPR;79813;1070;Cv;2024;19.10.2024;19.10.2024;08:00;15:50;KPR;Semináø k diplomové práci;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Kroufek Roman, PhDr. Ph.D.
+KSSP;7990;8398;Cv;2024;4.1.2025;4.1.2025;18:00;19:50;KSSP;Sociální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KSSP;7991;7336;Cv;2024;13.12.2024;13.12.2024;14:00;19:50;KSSP;Specifické poruchy uèení a chování;'PhDr. Arnošt Smolík, Ph.D.';1643;Lanková Barbora, PhDr. Ph.D.
+KSSP;7992;8398;Cv;2024;4.1.2025;4.1.2025;18:00;19:50;KSSP;Sociální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KSSP;7993;7291;Cv;2024;1.11.2024;1.11.2024;16:00;19:50;KSSP;Alternativní a augmentativní komunikace;'doc. PhDr. Kateøina Hádková, Ph.D.';6371;
+KSSP;7994;9522;Cv;2024;7.12.2024;7.12.2024;09:00;17:50;KSSP;Edukace jedincù se sluchovım postiením;'doc. PhDr. Kateøina Hádková, Ph.D.';6371;
+KPR;7994;6093;Cv;2024;4.1.2025;4.1.2025;10:00;15:50;KPR;Sociálnì právní ochrana dìtí a mládee;'Mgr. Radek Hach';4153;Janovcová Radka, Mgr.
+KSSP;7996;1643;Cv;2024;2.11.2024;2.11.2024;09:00;17:50;KSSP;Edukace jedincù s parciálními poruchami;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Smolík Arnošt, PhDr. Ph.D.
+CCV;A7335;407;Cv;2024;19.10.2024;19.10.2024;08:00;12:50;CCV;Metodologie ped. a soc. vızkumu;"";;Doulík Pavel, prof. PaedDr. Ph.D.
+CCV;A7710;407;Cv;2024;19.10.2024;19.10.2024;13:00;16:50;CCV;Metodologie vızkumu;"";;Doulík Pavel, prof. PaedDr. Ph.D.
+CCV;A7712;407;Cv;2024;19.10.2024;19.10.2024;13:00;16:50;CCV;Metodologie vızkumu;"";;Doulík Pavel, prof. PaedDr. Ph.D.
+KZR;ANZ2;;Cv;2024;2.10.2024;18.12.2024;15:00;16:50;KZR;Anatomie;'MUDr. Tomáš Novotnı, Ph.D.';7290;
+KZR;ANZ2;;Cv;2024;8.1.2025;8.1.2025;15:00;16:50;KZR;Anatomie;'MUDr. Tomáš Novotnı, Ph.D.';7290;
+KCH;B100;3705;Cv;2024;2.10.2024;18.12.2024;08:00;09:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KCH;B100;3705;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KCH;B103;1319;Cv;2024;14.11.2024;14.11.2024;15:00;17:50;KCH;Bezpeènost a hygiena práce;'MUDr. Eva Solcerová';1800;Stupák Rudolf, MUDr.
+KCH;B103;1319;Cv;2024;28.11.2024;28.11.2024;15:00;17:50;KCH;Bezpeènost a hygiena práce;'MUDr. Eva Solcerová';1800;Stupák Rudolf, MUDr.
+KGEO;B104;8819;Cv;2024;3.10.2024;2.1.2025;15:00;16:50;KGEO;Geografická kartografie;'Mgr. Martin Dolejš, Ph.D.', 'Mgr. Petr Meyer, Ph.D.';4303, 5855;Bartùnìk Martin, Mgr.
+KGEO;B104;8819;Cv;2024;2.10.2024;18.12.2024;15:00;16:50;KGEO;Geografická kartografie;'Mgr. Martin Dolejš, Ph.D.', 'Mgr. Petr Meyer, Ph.D.';4303, 5855;Bartùnìk Martin, Mgr.
+KCH;B200;9645;Cv;2024;1.10.2024;17.12.2024;12:00;12:50;KCH;Organická chemie;'Mgr. Tereza Dušková';9302;Babor Martin, Ing. Ph.D.
+KCH;B200;9645;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KCH;Organická chemie;'Mgr. Tereza Dušková';9302;Babor Martin, Ing. Ph.D.
+KCH;B202;9301;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;KCH;Laboratorní cvièení z anorganické chemie;'Ing. Ivana Kadleèková', 'RNDr. Václav Šícha, Ph.D.';4226, 4310;Greguš Viktor, Ing.
+KCH;B202;7981;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;KCH;Laboratorní cvièení z anorganické chemie;'Ing. Ivana Kadleèková', 'RNDr. Václav Šícha, Ph.D.';4226, 4310;Kaule Pavel, Mgr.
+KGEO;B304;9265;Cv;2024;3.10.2024;2.1.2025;12:00;12:50;KGEO;Rozvojové problémy regionù Èeska;'Mgr. Jan Píša, Ph.D.';6919;Král Tomáš, Mgr.
+KCH;B304;9431;Cv;2024;1.10.2024;17.12.2024;07:00;09:50;KCH;Chemické inenırství;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Harrandt Václav, Mgr.
+KGEO;B308;315;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KGEO;Monitor. vybr. prvkù atmosf.a hydrosf. I;"";;Farskı Ivan, RNDr. CSc.
+KGEO;B501;9794;Cv;2024;2.10.2024;18.12.2024;15:00;16:50;KGEO;Geografie modelového regionu;'Mgr. Zdeòka Smutná, Ph.D.';7684;Lukešová Šárka, Mgr.
+KGEO;B600;6919;Cv;2024;2.10.2024;18.12.2024;13:00;14:50;KGEO;Bakaláøská práce z geografie;"";;Píša Jan, Mgr. Ph.D.
+KGEO;B603;6919;Cv;2024;2.10.2024;18.12.2024;13:00;14:50;KGEO;Pøíprava k SZZ a obhajobì BP;'doc. PhDr. RNDr. Jan Daniel Bláha, Ph.D.', 'RNDr. Silvie Rita Kuèerová, Ph.D.';3452, 3528;Píša Jan, Mgr. Ph.D.
+KCH;BK100;3705;Cv;2024;9.11.2024;9.11.2024;08:00;11:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KCH;BK100;3705;Cv;2024;21.12.2024;21.12.2024;14:00;17:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KGEO;BK100;3164;Cv;2024;5.10.2024;5.10.2024;10:00;13:50;KGEO;Základy geologie;"";;Riezner Jiøí, Mgr. Ph.D.
+KBI;BK120;9116;Cv;2024;19.10.2024;19.10.2024;09:00;16:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianskı, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KFY;BK201;613;Cv;2024;14.12.2024;14.12.2024;09:00;12:50;KFY;Fyzika pro chemiky II;"";;Švec Martin, RNDr. Ph.D.
+KCH;BK304;9431;Cv;2024;7.12.2024;7.12.2024;13:00;16:50;KCH;Chemické inenırství;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Harrandt Václav, Mgr.
+KCH;BK304;9431;Cv;2024;4.1.2025;4.1.2025;16:00;19:50;KCH;Chemické inenırství;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Harrandt Václav, Mgr.
+KCH;BK304;9431;Cv;2024;30.11.2024;30.11.2024;13:00;16:50;KCH;Chemické inenırství;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Harrandt Václav, Mgr.
+KCH;BK306;9302;Cv;2024;3.1.2025;3.1.2025;12:00;15:50;KCH;Heterocyklické a organokovové slouèeniny;'RNDr. Thu Huong Nguyen Thi, Ph.D.';429;Dušková Tereza, Mgr.
+KBI;BK333;8512;Cv;2024;4.1.2025;4.1.2025;09:00;16:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Ipser, CSc.';930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KBI;BP120;9116;Cv;2024;14.10.2024;9.12.2024;08:00;11:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianskı, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;BP120;9116;Cv;2024;2.10.2024;11.12.2024;08:00;11:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianskı, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;BP333;8512;Cv;2024;7.10.2024;16.12.2024;16:00;19:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Ipser, CSc.';930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KBI;BP333;8512;Cv;2024;2.10.2024;11.12.2024;12:00;15:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Ipser, CSc.';930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KBI;BP333;8512;Cv;2024;9.10.2024;18.12.2024;12:00;15:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Ipser, CSc.';930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KBO;E001;629;Cv;2024;7.10.2024;16.12.2024;12:00;13:50;KBO;Czech for Erasmus students A;"";;Šindeláøová Jaromíra, doc. PaedDr. CSc.
+KBO;E002;629;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;KBO;Czech for Erasmus students B;"";;Šindeláøová Jaromíra, doc. PaedDr. CSc.
+KE;EI1K9;993;Cv;2024;3.12.2024;3.12.2024;14:00;18:50;KE;Ergoterapie v indikaèních oblastech I;'Mgr. Petra Pecharová', 'doc. PhDr. Michal Vostrı, Ph.D.';992, 5726;Šlechtová Dana, Mgr. Ph.D.
+KE;EI1K9;993;Cv;2024;4.1.2025;4.1.2025;08:00;12:50;KE;Ergoterapie v indikaèních oblastech I;'Mgr. Petra Pecharová', 'doc. PhDr. Michal Vostrı, Ph.D.';992, 5726;Šlechtová Dana, Mgr. Ph.D.
+KFY;FORT;3222;Cv;2024;1.10.2024;17.12.2024;07:00;09:50;KFY;Programování - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;Mouèka Filip, doc. RNDr. Ph.D.
+KF;FZ19;7298;Cv;2024;3.10.2024;24.10.2024;10:00;12:50;KF;Fyzioterapie I;'Mgr. Alena Charvátová, Ph.D.', 'PhDr. Mgr. Kateøina Tichá, Ph.D.';3725, 991;Jeková Andrea, Ing.
+KF;FZ19;7298;Cv;2024;5.12.2024;19.12.2024;10:00;12:50;KF;Fyzioterapie I;'Mgr. Alena Charvátová, Ph.D.', 'PhDr. Mgr. Kateøina Tichá, Ph.D.';3725, 991;Jeková Andrea, Ing.
+KF;FZ19;7298;Cv;2024;2.1.2025;9.1.2025;10:00;12:50;KF;Fyzioterapie I;'Mgr. Alena Charvátová, Ph.D.', 'PhDr. Mgr. Kateøina Tichá, Ph.D.';3725, 991;Jeková Andrea, Ing.
+KF;FZ1K9;991;Cv;2024;6.12.2024;6.12.2024;11:00;12:50;KF;Fyzioterapie I;'Mgr. Alena Charvátová, Ph.D.', 'Ing. Andrea Jeková';3725, 7298;Tichá Kateøina, PhDr. Mgr. Ph.D.
+KF;FZ1K9;991;Cv;2024;4.1.2025;4.1.2025;10:00;12:50;KF;Fyzioterapie I;'Mgr. Alena Charvátová, Ph.D.', 'Ing. Andrea Jeková';3725, 7298;Tichá Kateøina, PhDr. Mgr. Ph.D.
+CCV;G7339;824;Cv;2024;29.11.2024;29.11.2024;13:00;17:50;CCV;Somatopatologie;"";;
+CCV;H7312;8185;Cv;2024;4.1.2025;4.1.2025;16:00;19:50;CCV;Klavír 1;'PhDr. Martina Zemanová, Ph.D.';434;Olšanová Iva, Mgr.
+KI;ICTE;2317;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KI;Základy ICT;'RNDr. Jan Krejèí, Ph.D.';2776;Kuba Pavel, Ing. Ph.D.
+KGER;INFO;322;Cv;2024;4.10.2024;4.10.2024;14:00;14:50;KGER;Informaèní schùzka;"";;Cornejo Renata, prof. Mgr. Ph.D.
+KGER;INFO;58;Cv;2024;4.10.2024;4.10.2024;14:00;14:50;KGER;Informaèní schùzka;"";;Bergerová Hana, doc. Dr.
+KBI;IT2;1503;Cv;2024;2.10.2024;18.12.2024;08:00;09:50;KBI;Informaèní technologie v bio. vìdách II;"";;Štofik Marcel, Mgr. Ph.D.
+KBI;K101;8317;Cv;2024;12.10.2024;12.10.2024;13:00;18:50;KBI;Úvod do studia biologie;'RNDr. Jan Ipser, CSc.';930;Herma Regina, RNDr. Ph.D.
+KBI;KB120;9116;Cv;2024;19.10.2024;19.10.2024;09:00;16:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianskı, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;KB333;8512;Cv;2024;4.1.2025;4.1.2025;09:00;16:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.';5094, 930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KFY;KFORT;3222;Cv;2024;23.11.2024;23.11.2024;09:00;12:50;KFY;Programování - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;Mouèka Filip, doc. RNDr. Ph.D.
+KFY;KFORT;3222;Cv;2024;9.11.2024;9.11.2024;14:00;17:50;KFY;Programování - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;Mouèka Filip, doc. RNDr. Ph.D.
+KFY;KFORT;3222;Cv;2024;30.11.2024;30.11.2024;09:00;12:50;KFY;Programování - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;Mouèka Filip, doc. RNDr. Ph.D.
+KE;KIE29;8756;Cv;2024;2.1.2025;9.1.2025;07:00;08:50;KE;Kineziologie II;'Mgr. Ivana Štolová';8016;Vacek Ondøej, Mgr.
+KE;KIE29;8756;Cv;2024;7.11.2024;19.12.2024;07:00;08:50;KE;Kineziologie II;'Mgr. Ivana Štolová';8016;Vacek Ondøej, Mgr.
+KBI;KIT2;1503;Cv;2024;12.10.2024;12.10.2024;13:00;18:50;KBI;Informaèní technologie v bio. vìdách II;"";;Štofik Marcel, Mgr. Ph.D.
+KBI;KIT2;1503;Cv;2024;16.11.2024;16.11.2024;14:00;19:50;KBI;Informaèní technologie v bio. vìdách II;"";;Štofik Marcel, Mgr. Ph.D.
+KFY;KPPM1;7283;Cv;2024;13.12.2024;13.12.2024;09:00;12:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malı, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;KPPM1;7283;Cv;2024;29.11.2024;29.11.2024;09:00;12:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malı, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;KPPM1;7283;Cv;2024;1.11.2024;1.11.2024;09:00;12:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malı, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;KPPM1;7283;Cv;2024;3.1.2025;3.1.2025;09:00;12:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malı, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+USE;KUX04;4228;Cv;2024;8.11.2024;8.11.2024;09:00;10:50;USE;Praxe II;"";;Síaø Vladislav, Ing. Bc. Ph.D.
+USE;KVX03;4228;Cv;2024;8.11.2024;8.11.2024;09:00;10:50;USE;Praxe;"";;Síaø Vladislav, Ing. Bc. Ph.D.
+KFY;LB2;8739;Cv;2024;2.10.2024;18.12.2024;10:00;13:50;KFY;Laboratorní praktikum II;'prof. Ing. Zdeòka Kolská, Ph.D.', 'doc. Ing. Martin Kormunda, Ph.D.', 'Mgr. Jan Malı, Ph.D.', 'Mgr. Jindøich Matoušek, Ph.D.', 'Mgr. Marcel Štofik, Ph.D.';332, 2384, 280, 4680, 1503;Jagerová Adéla, RNDr. Ph.D.
+KCH;LBA;9301;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;KCH;Laboratorní cvièení z anorganické chemie;'Mgr. Pavel Kaule', 'RNDr. Václav Šícha, Ph.D.';7981, 4310;Greguš Viktor, Ing.
+KFY;M100;7723;Cv;2024;2.10.2024;18.12.2024;13:00;15:50;KFY;Poèítaè. modelování spojitıch soustav I;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Kramoliš David, RNDr. Ph.D.
+KBI;M101;3661;Cv;2024;2.10.2024;18.12.2024;11:00;11:50;KBI;Biologie pùdních mikroorganismù;'RNDr. Pavel Branny, CSc.';8154;Gryndler Milan, prof. doc. RNDr. CSc.
+KCH;M102;8198;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KCH;Environmental Biotechnology;'doc. Ing. Josef Trögl, Ph.D.';2065;Al Souki Karim, Ph.D.
+KCH;M105;7981;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;KCH;Syntézy, izolace a charakter. materiálù;'doc. Ing. Jiøí Henych, Ph.D.', 'RNDr. Petr Ryšánek, Ph.D.', 'RNDr. Václav Šícha, Ph.D.', 'RNDr. Milan Šmídl, Ph.D.';5431, 4587, 4310, 3704;Kaule Pavel, Mgr.
+KCH;M105;9301;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;KCH;Syntézy, izolace a charakter. materiálù;'doc. Ing. Jiøí Henych, Ph.D.', 'RNDr. Petr Ryšánek, Ph.D.', 'RNDr. Václav Šícha, Ph.D.', 'RNDr. Milan Šmídl, Ph.D.';5431, 4587, 4310, 3704;Greguš Viktor, Ing.
+KGEO;M109;2214;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KGEO;Metody a aplikace historické geografie;'doc. Mgr. Pavel Raška, Ph.D.';1434;Zábranskı Vilém, Mgr. Ph.D.
+KBI;M303;8198;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KBI;Environmental Biotechnology;'prof. Valentyna Pidlisniuk, DrSc.';5927;Al Souki Karim, Ph.D.
+KGEO;M401;6919;Cv;2024;2.10.2024;18.12.2024;13:00;14:50;KGEO;Pøíprava k SZZ a obhajobì DP;'RNDr. Silvie Rita Kuèerová, Ph.D.';3528;Píša Jan, Mgr. Ph.D.
+KBI;MA201;8761;Cv;2024;19.2.2025;14.5.2025;17:00;18:50;KBI;Metody studia ekosystémù;'Mgr. Diana Holcová, Ph.D.', 'Mgr. Michal Holec, Ph.D.';3212, 555;Horèièková Eva, Mgr. Ph.D.
+KF;MK19;3725;Cv;2024;8.1.2025;8.1.2025;08:00;10:50;KF;Metody kinezioterapie I;'Mgr. Marek Jelínek, Ph.D.', 'Mgr. Ondøej Kališko';995, 7600;Charvátová Alena, Mgr. Ph.D.
+KF;MK19;3725;Cv;2024;4.12.2024;18.12.2024;08:00;10:50;KF;Metody kinezioterapie I;'Mgr. Marek Jelínek, Ph.D.', 'Mgr. Ondøej Kališko';995, 7600;Charvátová Alena, Mgr. Ph.D.
+KF;MK19;3725;Cv;2024;2.10.2024;23.10.2024;08:00;10:50;KF;Metody kinezioterapie I;'Mgr. Marek Jelínek, Ph.D.', 'Mgr. Ondøej Kališko';995, 7600;Charvátová Alena, Mgr. Ph.D.
+KZR;MRR2;9331;Cv;2024;19.11.2024;17.12.2024;10:00;10:50;KZR;Radiodiagnostika MR;'MUDr. Zuzana Dolealová', 'Ing. Radek Honzátko, Ph.D.', 'MUDr. Vladìna Skálová', 'MUDr. Magdalena Tykvová';9254, 3472, 9291, 5216;
+KZR;MRR2;9331;Cv;2024;7.1.2025;7.1.2025;10:00;10:50;KZR;Radiodiagnostika MR;'MUDr. Zuzana Dolealová', 'Ing. Radek Honzátko, Ph.D.', 'MUDr. Vladìna Skálová', 'MUDr. Magdalena Tykvová';9254, 3472, 9291, 5216;
+KZR;MRR2;9331;Cv;2024;21.11.2024;19.12.2024;14:00;14:50;KZR;Radiodiagnostika MR;'MUDr. Zuzana Dolealová', 'Ing. Radek Honzátko, Ph.D.', 'MUDr. Vladìna Skálová', 'MUDr. Magdalena Tykvová';9254, 3472, 9291, 5216;
+KZR;MRR2;9331;Cv;2024;2.1.2025;9.1.2025;14:00;14:50;KZR;Radiodiagnostika MR;'MUDr. Zuzana Dolealová', 'Ing. Radek Honzátko, Ph.D.', 'MUDr. Vladìna Skálová', 'MUDr. Magdalena Tykvová';9254, 3472, 9291, 5216;
+KZR;MTT3;4246;Cv;2024;1.10.2024;17.12.2024;12:00;13:50;KZR;Mikroprocesorová technika;'Ing. Alexandr Fales';8721;Štìrba Jan, Ing. Ph.D.
+KZR;MTT3;4246;Cv;2024;7.1.2025;7.1.2025;12:00;13:50;KZR;Mikroprocesorová technika;'Ing. Alexandr Fales';8721;Štìrba Jan, Ing. Ph.D.
+KCH;OCHE;3705;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KCH;Obecná chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KO;OND12;;Cv;2024;7.10.2024;11.11.2024;09:00;10:50;KO;Ošetøovatelská péèe v neonatologii I;'Mgr. Linda Holeèková', 'Bc. Nadìda Šilhavá, DiS.';8771, 9886;
+KFY;OPT;7283;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;KFY;Kmity a vlny. Optika.;'RNDr. Eva Hejnová, Ph.D.';301;
+KO;OPV19;1013;Cv;2024;1.10.2024;5.11.2024;12:00;12:50;KO;Ošetøovatelská péèe v pediatrii I;'Mgr. Marie Lulková';8411;Lamková Ivana, Mgr. Ph.D.
+KO;OPV19;1013;Cv;2024;1.10.2024;5.11.2024;11:00;11:50;KO;Ošetøovatelská péèe v pediatrii I;'Mgr. Marie Lulková';8411;Lamková Ivana, Mgr. Ph.D.
+KCH;P391;3705;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KCH;P514;2856;Cv;2024;3.10.2024;2.1.2025;10:00;11:50;KCH;PVK - Soubornı semináø I;'doc. RNDr. Jan Jirsák, Ph.D.', 'RNDr. Thu Huong Nguyen Thi, Ph.D.', 'RNDr. Václav Šícha, Ph.D.', 'RNDr. ¼uboš Vrtoch, Ph.D.';2855, 429, 4310, 4117;Škvorová Magda, Ing. Ph.D.
+KCJ;PAJKP;;Cv;2024;2.10.2024;18.12.2024;14:00;15:50;KCJ;Komunikaèní a prezentaèní dovednosti AJ;'Mgr. Ivana Bennett', 'Mgr. Jaroslav Izavèuk', 'Mgr. Kateøina Oktábcová', 'PhDr. Hana Suchánková, Ph.D.';8918, 474, 9499, 36;
+KBI;PB120;9116;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianskı, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;PB120;9116;Cv;2024;14.10.2024;9.12.2024;08:00;11:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianskı, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;PB333;8512;Cv;2024;9.10.2024;18.12.2024;16:00;19:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.';5094, 930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KBI;PB333;8512;Cv;2024;2.10.2024;11.12.2024;16:00;19:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.';5094, 930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KSZD;PG1P9;7341;Cv;2024;1.10.2024;10.12.2024;10:00;11:50;KSZD;Oše. péèe v gynekologii I;'Mgr. Petra Abrahamová', 'Mgr. Alena Rosezínová, Ph.D.';8409, 4715;Ospalíková Iveta, Mgr.
+KZR;PGZK2;9909;Cv;2024;1.11.2024;1.11.2024;10:00;11:50;KZR;Ošetøovatelská péèe v geriatrii;"";;Kalèíková Aneta, Mgr. et Mgr.
+KZR;PGZK2;9909;Cv;2024;8.11.2024;8.11.2024;08:00;10:50;KZR;Ošetøovatelská péèe v geriatrii;"";;Kalèíková Aneta, Mgr. et Mgr.
+KZR;PGZK2;9909;Cv;2024;29.11.2024;29.11.2024;10:00;11:50;KZR;Ošetøovatelská péèe v geriatrii;"";;Kalèíková Aneta, Mgr. et Mgr.
+KO;PIK29;5795;Cv;2024;6.12.2024;6.12.2024;09:00;11:50;KO;OŠE péèe o nemocné v inter. oborech II;"";;Stupková Daša, Mgr.
+KO;PIK29;5795;Cv;2024;18.10.2024;18.10.2024;09:00;11:50;KO;OŠE péèe o nemocné v inter. oborech II;"";;Stupková Daša, Mgr.
+KSZD;PP2P9;8964;Cv;2024;1.10.2024;5.11.2024;13:30;15:00;KSZD;Ošetøovatelská péèe v por. II;'Mgr. Eva Puhlová, Ph.D.';6222;Bitalová Kamila, Mgr.
+KSZD;PP2P9;8964;Cv;2024;1.10.2024;5.11.2024;12:00;13:30;KSZD;Ošetøovatelská péèe v por. II;'Mgr. Eva Puhlová, Ph.D.';6222;Bitalová Kamila, Mgr.
+KE;PPEK9;5796;Cv;2024;7.12.2024;7.12.2024;14:00;17:50;KE;První pomoc;"";;Libešová Lucie, Mgr.
+KE;PPEK9;5796;Cv;2024;29.11.2024;29.11.2024;11:00;14:50;KE;První pomoc;"";;Libešová Lucie, Mgr.
+KE;PPEK9;5796;Cv;2024;5.10.2024;5.10.2024;15:00;18:50;KE;První pomoc;"";;Libešová Lucie, Mgr.
+KE;PPEK9;5796;Cv;2024;30.11.2024;30.11.2024;16:00;19:50;KE;První pomoc;"";;Libešová Lucie, Mgr.
+KFY;PPM1;7283;Cv;2024;1.10.2024;17.12.2024;12:00;15:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malı, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KZR;PPR2;7692;Cv;2024;3.10.2024;19.12.2024;13:00;13:50;KZR;První pomoc;'Mgr. Aneta Hujová';8728;
+KZR;PPR2;7692;Cv;2024;3.10.2024;19.12.2024;14:00;14:50;KZR;První pomoc;'Mgr. Aneta Hujová';8728;
+KZR;PPZ2;7692;Cv;2024;10.12.2024;10.12.2024;14:00;15:50;KZR;První pomoc;'PhDr. Mgr. Patrik Christian Cmorej, Ph.D.', 'Mgr. Alena Kohlová';7803, 6236;
+KZR;PPZ2;7692;Cv;2024;1.10.2024;1.10.2024;14:00;15:50;KZR;První pomoc;'PhDr. Mgr. Patrik Christian Cmorej, Ph.D.', 'Mgr. Alena Kohlová';7803, 6236;
+KZR;PPZ2;7692;Cv;2024;15.10.2024;15.10.2024;14:00;15:50;KZR;První pomoc;'PhDr. Mgr. Patrik Christian Cmorej, Ph.D.', 'Mgr. Alena Kohlová';7803, 6236;
+KZR;PPZ2;7692;Cv;2024;29.10.2024;29.10.2024;14:00;15:50;KZR;První pomoc;'PhDr. Mgr. Patrik Christian Cmorej, Ph.D.', 'Mgr. Alena Kohlová';7803, 6236;
+KZR;PPZ2;7692;Cv;2024;7.1.2025;7.1.2025;14:00;15:50;KZR;První pomoc;'PhDr. Mgr. Patrik Christian Cmorej, Ph.D.', 'Mgr. Alena Kohlová';7803, 6236;
+KZR;PPZ2;7692;Cv;2024;12.11.2024;12.11.2024;14:00;15:50;KZR;První pomoc;'PhDr. Mgr. Patrik Christian Cmorej, Ph.D.', 'Mgr. Alena Kohlová';7803, 6236;
+KZR;PPZ2;7692;Cv;2024;26.11.2024;26.11.2024;14:00;15:50;KZR;První pomoc;'PhDr. Mgr. Patrik Christian Cmorej, Ph.D.', 'Mgr. Alena Kohlová';7803, 6236;
+KZR;PPZK2;7692;Cv;2024;9.11.2024;9.11.2024;12:00;15:50;KZR;První pomoc;'PhDr. Mgr. Patrik Christian Cmorej, Ph.D.';7803;
+UTM;PU002;8440;Cv;2024;9.10.2024;18.12.2024;08:00;09:50;UTM;Fyzika I;'Ing. Martin Jaskeviè', 'doc. PhDr. Jan Novotnı, Ph.D.';5260, 501;Sviantek Jan, Ing.
+UTM;PU007;9626;Cv;2024;17.10.2024;12.12.2024;12:00;13:50;UTM;Strojírenská technologie;'doc. Ing. Jaromír Cais, Ph.D.';4951;Horkı Roman, Ing.
+UTM;PU011;9626;Cv;2024;3.10.2024;2.1.2025;10:00;11:50;UTM;Slévárenské technologie;'doc. Ing. Jaromír Cais, Ph.D.';4951;Horkı Roman, Ing.
+USE;PU021;3189;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;USE;Statistika;'doc. RNDr. Tomáš Zdráhal, CSc.';1528;Chytrı Vlastimil, doc. PhDr. Ph.D.
+USE;PU022;9606;Cv;2024;2.10.2024;18.12.2024;08:00;09:50;USE;CAD;'Ing. František Klimenda, Ph.D.', 'Ing. Martin Svoboda, Ph.D.';4712, 3550;Balcar Patrik, Ing.
+USE;PU022;9606;Cv;2024;7.10.2024;16.12.2024;08:00;09:50;USE;CAD;'Ing. František Klimenda, Ph.D.', 'Ing. Martin Svoboda, Ph.D.';4712, 3550;Balcar Patrik, Ing.
+USE;PU022;9606;Cv;2024;3.10.2024;2.1.2025;08:00;09:50;USE;CAD;'Ing. František Klimenda, Ph.D.', 'Ing. Martin Svoboda, Ph.D.';4712, 3550;Balcar Patrik, Ing.
+USE;PU107;7595;Cv;2024;1.10.2024;17.12.2024;18:00;19:50;USE;Elektrické stroje;'Ing. Pavel Kobrle';1422;Kobrle Pavel, Ing. Ph.D.
+USE;PU110;8006;Cv;2024;3.10.2024;2.1.2025;16:00;17:50;USE;Energetické stroje I;'Ing. Tomáš Vyslouil, Ph.D.';1216;Kašpárek Miloš, Ing. Ph.D.
+UTM;PU112;9626;Cv;2024;1.10.2024;10.12.2024;10:00;11:50;UTM;Koroze a ochrana materiálu v energetice;'doc. Ing. Sylvia Kuœmierczak, PhD.';723;Horkı Roman, Ing.
+USE;PU113;;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;USE;Rozvod a uití tepelné energie;'Ing. Tomáš Vyslouil, Ph.D.';1216;
+USE;PU140;7722;Cv;2024;7.10.2024;16.12.2024;16:00;17:50;USE;Mechanika II;'Ing. Miloš Kašpárek, Ph.D.';8006;Kozakoviè Martin, Mgr.
+USE;PU142;;Cv;2024;10.10.2024;2.1.2025;14:00;15:50;USE;Konstruování strojù - mechanismy;'Ing. František Klimenda, Ph.D.';4712;
+USE;PU143;1227;Cv;2024;7.10.2024;16.12.2024;10:00;12:50;USE;Projekt;'Ing. František Klimenda, Ph.D.';4712;Skoèilasová Blanka, Ing. Ph.D.
+USE;PU149;;Cv;2024;7.10.2024;16.12.2024;15:00;15:50;USE;Hydraulické stroje;'Ing. Miloš Kašpárek, Ph.D.';8006;
+UTM;PU202;8440;Cv;2024;8.10.2024;17.12.2024;12:00;13:50;UTM;Fyzika I;'Ing. Martin Jaskeviè';5260;Sviantek Jan, Ing.
+USE;PU203;9606;Cv;2024;8.10.2024;17.12.2024;12:00;13:50;USE;Úvod do konstruování;'Ing. František Klimenda, Ph.D.';4712;Balcar Patrik, Ing.
+USE;PU203;3550;Cv;2024;8.10.2024;17.12.2024;12:00;13:50;USE;Úvod do konstruování;'Ing. František Klimenda, Ph.D.';4712;Svoboda Martin, Ing. Ph.D.
+USE;PU203;3550;Cv;2024;9.10.2024;18.12.2024;15:00;16:50;USE;Úvod do konstruování;'Ing. František Klimenda, Ph.D.';4712;Svoboda Martin, Ing. Ph.D.
+UTM;PU207;9626;Cv;2024;10.10.2024;2.1.2025;14:00;15:50;UTM;Strojírenská technologie;'doc. Ing. Jaromír Cais, Ph.D.';4951;Horkı Roman, Ing.
+UTM;PU207;9626;Cv;2024;17.10.2024;12.12.2024;14:00;15:50;UTM;Strojírenská technologie;'doc. Ing. Jaromír Cais, Ph.D.';4951;Horkı Roman, Ing.
+USE;PU221;3189;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;USE;Statistika;'doc. RNDr. Tomáš Zdráhal, CSc.';1528;Chytrı Vlastimil, doc. PhDr. Ph.D.
+USE;PU222;9606;Cv;2024;1.10.2024;17.12.2024;14:00;15:50;USE;CAD;'Ing. František Klimenda, Ph.D.', 'Ing. Martin Svoboda, Ph.D.';4712, 3550;Balcar Patrik, Ing.
+UTM;PU278;9560;Cv;2024;9.10.2024;18.12.2024;13:00;14:50;UTM;Metrologie a mìøení;'doc. Ing. Jaroslava Svobodová, Ph.D.';4952;Mamoñ Filip, Ing.
+UTM;PU402;8440;Cv;2024;8.10.2024;17.12.2024;08:00;09:50;UTM;Fyzika I;'Ing. Martin Jaskeviè', 'doc. PhDr. Jan Novotnı, Ph.D.';5260, 501;Sviantek Jan, Ing.
+USE;PU403;3550;Cv;2024;8.10.2024;17.12.2024;12:00;13:50;USE;Úvod do konstruování;'Ing. František Klimenda, Ph.D.';4712;Svoboda Martin, Ing. Ph.D.
+USE;PU403;9606;Cv;2024;8.10.2024;17.12.2024;12:00;13:50;USE;Úvod do konstruování;'Ing. František Klimenda, Ph.D.';4712;Balcar Patrik, Ing.
+USE;PU403;3550;Cv;2024;9.10.2024;18.12.2024;15:00;16:50;USE;Úvod do konstruování;'Ing. František Klimenda, Ph.D.';4712;Svoboda Martin, Ing. Ph.D.
+UTM;PU407;9626;Cv;2024;10.10.2024;2.1.2025;14:00;15:50;UTM;Strojírenská technologie;'doc. Ing. Jaromír Cais, Ph.D.';4951;Horkı Roman, Ing.
+UTM;PU407;9626;Cv;2024;17.10.2024;12.12.2024;14:00;15:50;UTM;Strojírenská technologie;'doc. Ing. Jaromír Cais, Ph.D.';4951;Horkı Roman, Ing.
+USE;PU421;3189;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;USE;Statistika;'doc. RNDr. Tomáš Zdráhal, CSc.';1528;Chytrı Vlastimil, doc. PhDr. Ph.D.
+UTM;PU478;9560;Cv;2024;9.10.2024;18.12.2024;11:00;12:50;UTM;Metrologie a mìøení;'doc. Ing. Jaroslava Svobodová, Ph.D.';4952;Mamoñ Filip, Ing.
+USE;PU547;7722;Cv;2024;8.10.2024;17.12.2024;14:00;17:50;USE;Úvod do numerické simulace;'Ing. Martin Kantor, Ph.D.';7307;Kozakoviè Martin, Mgr.
+UTM;PU602;8440;Cv;2024;8.10.2024;17.12.2024;08:00;09:50;UTM;Fyzika I;'Ing. Martin Jaskeviè', 'doc. PhDr. Jan Novotnı, Ph.D.';5260, 501;Sviantek Jan, Ing.
+UTM;PV004;9626;Cv;2024;1.10.2024;17.12.2024;15:00;16:50;UTM;Perspektivní materiály;'doc. Ing. Sylvia Kuœmierczak, PhD.';723;Horkı Roman, Ing.
+USE;PV020;;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;USE;Nosné konstrukce strojù;'prof. Ing. Jan Krmela, Ph.D.';1218;
+USE;PV075;7307;Cv;2024;3.10.2024;2.1.2025;14:00;14:50;USE;Numerické simulace inenırskıch úloh;'Mgr. Martin Kozakoviè';7722;Kantor Martin, Ing. Ph.D.
+UTM;PV091;9606;Cv;2024;2.10.2024;18.12.2024;13:00;15:50;UTM;Destruktivní zkoušení materiálù;'doc. Ing. Jaromír Cais, Ph.D.';4951;Balcar Patrik, Ing.
+USE;PV217;7307;Cv;2024;3.10.2024;2.1.2025;17:00;18:50;USE;Numerické simulace - CFD;"";;Kantor Martin, Ing. Ph.D.
+UTM;PV419;9626;Cv;2024;1.10.2024;10.12.2024;12:00;13:50;UTM;Koroze a ochrana materiálù;'doc. Ing. Sylvia Kuœmierczak, PhD.';723;Horkı Roman, Ing.
+USE;PV474;7594;Cv;2024;2.10.2024;18.12.2024;12:00;13:50;USE;Moderní mìøicí metody;'Ing. Miloš Kašpárek, Ph.D.';8006;Nováková Ludmila, doc. Ing. Ph.D.
+USE;PV525;7428;Cv;2024;2.10.2024;18.12.2024;12:00;13:50;USE;Pøenos a rozvod elektrické energie;'Ing. Bc. Vladislav Síaø, Ph.D.';4228;Noháè Karel, doc. Ing. Ph.D.
+KSSP;Q111;2937;Cv;2024;2.10.2024;18.12.2024;18:00;18:50;KSSP;Úvod do soc. a sociologickıch teorií;'prof. PhDr. Jiøí Škoda, Ph.D., MBA';336;Kuchaø Pavel, doc. PhDr. CSc.
+KSSP;Q114;6058;Cv;2024;3.10.2024;2.1.2025;15:00;15:50;KSSP;Soc. právní probl. a školská legislativa;'doc. Ing. Helena Vomáèková, CSc.';39;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;Q115;5726;Cv;2024;4.10.2024;3.1.2025;09:00;09:50;KSSP;Speciální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';573, 4216;Vostrı Michal, doc. PhDr. Ph.D.
+KSSP;Q116;7336;Cv;2024;1.10.2024;17.12.2024;11:00;11:50;KSSP;Parciální poruchy (SPUCH);'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Lanková Barbora, PhDr. Ph.D.
+KSSP;Q1310;6058;Cv;2024;7.10.2024;16.12.2024;17:00;17:50;KSSP;Etopedie I;'PhDr. Arnošt Smolík, Ph.D.';1643;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;Q134;8398;Cv;2024;7.10.2024;16.12.2024;14:00;15:50;KSSP;Aktuální problémy oboru;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KSSP;Q135;6058;Cv;2024;3.10.2024;2.1.2025;16:00;17:50;KSSP;Prob. soc. pat. jevù a riz. chování;'PhDr. Arnošt Smolík, Ph.D.';1643;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;Q136;8920;Cv;2024;1.10.2024;17.12.2024;16:00;17:50;KSSP;Základy speciální pedagogiky I;'doc. PhDr. Michal Vostrı, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';5726, 4216;Kovács Jana, Mgr.
+KSSP;Q139;824;Cv;2024;3.10.2024;2.1.2025;10:00;10:50;KSSP;Somatopatologie;'doc. PhDr. Michal Vostrı, Ph.D.';5726;
+KSSP;Q151;6058;Cv;2024;3.10.2024;2.1.2025;11:00;12:50;KSSP;Základy speciální pedagogiky II;'Mgr. Zdenìk Svoboda, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';573, 4216;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;Q152;8398;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KSSP;Podpora osob ohro. sociálním vylouèením;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KSSP;Q154;3647;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KSSP;Rodinná politika a práce s rodinou;'PhDr. PaedDr. Ing. Jan Tirpák, Ph.D., MBA';6058;Petrù Alexandra, Mgr.
+KSSP;Q311;2937;Cv;2024;14.12.2024;14.12.2024;10:00;14:50;KSSP;Úvod do soc. a sociologickıch teorií;'prof. PhDr. Jiøí Škoda, Ph.D., MBA';336;Kuchaø Pavel, doc. PhDr. CSc.
+KSSP;Q315;5726;Cv;2024;4.1.2025;4.1.2025;09:00;17:50;KSSP;Speciální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';573, 4216;Vostrı Michal, doc. PhDr. Ph.D.
+KSSP;Q316;7336;Cv;2024;14.12.2024;14.12.2024;08:00;16:50;KSSP;Parciální poruchy (SPUCH);'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Lanková Barbora, PhDr. Ph.D.
+KSSP;Q3310;6058;Cv;2024;16.11.2024;16.11.2024;09:00;17:50;KSSP;Etopedie I;'PhDr. Arnošt Smolík, Ph.D.';1643;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;Q334;8398;Cv;2024;5.10.2024;5.10.2024;09:00;17:50;KSSP;Aktuální problémy oboru;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KSSP;Q335;6058;Cv;2024;9.11.2024;9.11.2024;09:00;17:50;KSSP;Prob. soc. pat. jevù a riz. chování;'PhDr. Arnošt Smolík, Ph.D.';1643;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;Q339;824;Cv;2024;29.11.2024;29.11.2024;13:00;17:50;KSSP;Somatopatologie;'doc. PhDr. Michal Vostrı, Ph.D.';5726;
+KSSP;Q351;3647;Cv;2024;23.11.2024;23.11.2024;09:00;17:50;KSSP;Základy speciální pedagogiky II;'Mgr. Zdenìk Svoboda, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';573, 4216;Petrù Alexandra, Mgr.
+KSSP;Q351;6058;Cv;2024;23.11.2024;23.11.2024;09:00;17:50;KSSP;Základy speciální pedagogiky II;'Mgr. Zdenìk Svoboda, Ph.D.', 'doc. PhDr. Ladislav Zilcher, Ph.D.';573, 4216;Tirpák Jan, PhDr. PaedDr. Ing. Ph.D., MBA
+KSSP;Q352;8398;Cv;2024;4.1.2025;4.1.2025;09:00;17:50;KSSP;Podpora osob ohro. sociálním vylouèením;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KSSP;Q354;3647;Cv;2024;4.10.2024;4.10.2024;13:00;17:50;KSSP;Rodinná politika a práce s rodinou;'PhDr. PaedDr. Ing. Jan Tirpák, Ph.D., MBA';6058;Petrù Alexandra, Mgr.
+KPS;Q430;9550;Cv;2024;2.10.2024;18.12.2024;13:00;13:50;KPS;Školní a poradenská psychologie;'PhDr. Renata Hajná, Ph.D.', 'PhDr. Eva Chalupová, Ph.D.', 'Mgr. Hana Sirotková';3759, 7577, 5192;
+KSSP;Q516;573;Cv;2024;3.10.2024;2.1.2025;11:00;11:50;KSSP;Inkluzivní pedagogika a tvorba IVP;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Svoboda Zdenìk, Mgr. Ph.D.
+KSSP;Q518;1529;Cv;2024;2.10.2024;18.12.2024;17:00;17:50;KSSP;Školská politika a legislativa;'doc. Ing. Helena Vomáèková, CSc.';39;
+KSSP;Q519;1610;Cv;2024;1.10.2024;17.12.2024;13:00;13:50;KSSP;ICT ve speciální pedagogice;'RNDr. Jan Krejèí, Ph.D.';2776;Círus Lukáš, PhDr. Ph.D.
+KSSP;Q5319;1643;Cv;2024;7.10.2024;16.12.2024;17:00;17:50;KSSP;Eduk. a diag. jed. s par. poruchami;'doc. PhDr. Michal Vostrı, Ph.D.';5726;Smolík Arnošt, PhDr. Ph.D.
+KSSP;Q538;;Cv;2024;1.10.2024;17.12.2024;11:00;11:50;KSSP;Edukace jedincù se zrakovım postiením;'doc. PhDr. PaedDr. Ilona Pešatová, Ph.D.';5072;
+KSSP;Q710;336;Cv;2024;8.11.2024;8.11.2024;09:00;12:50;KSSP;Sociální ped. a soc. pedagog. teorie;'Mgr. Zdenìk Svoboda, Ph.D.';573;Škoda Jiøí, prof. PhDr. Ph.D., MBA
+KSSP;Q716;573;Cv;2024;25.10.2024;25.10.2024;12:00;16:50;KSSP;Inkluzivní pedagogika a tvorba IVP;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Svoboda Zdenìk, Mgr. Ph.D.
+KSSP;Q718;1283;Cv;2024;7.12.2024;7.12.2024;13:00;17:50;KSSP;Školská politika a legislativa;'doc. Ing. Helena Vomáèková, CSc.';39;
+KSSP;Q719;1610;Cv;2024;16.11.2024;16.11.2024;13:00;17:50;KSSP;ICT ve speciální pedagogice;'RNDr. Jan Krejèí, Ph.D.';2776;Círus Lukáš, PhDr. Ph.D.
+KSSP;Q730;4216;Cv;2024;20.12.2024;20.12.2024;12:00;15:50;KSSP;Inkluzivní pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Zilcher Ladislav, doc. PhDr. Ph.D.
+KSSP;Q7312;9522;Cv;2024;7.12.2024;7.12.2024;09:00;17:50;KSSP;Edukace jedincù se sluchovım postiením;'doc. PhDr. Kateøina Hádková, Ph.D.';6371;
+KSSP;Q7319;1643;Cv;2024;2.11.2024;2.11.2024;09:00;17:50;KSSP;Eduk. a diag. jed. s par. poruchami;'doc. PhDr. Michal Vostrı, Ph.D.';5726;Smolík Arnošt, PhDr. Ph.D.
+KSSP;Q738;1795;Cv;2024;14.12.2024;14.12.2024;09:00;17:50;KSSP;Edukace jedincù se zrakovım postiením;'doc. PhDr. PaedDr. Ilona Pešatová, Ph.D.';5072;
+CJP;Q811;5827;Cv;2024;4.10.2024;3.1.2025;10:00;11:50;CJP;Cizí jazyk vyšší: nìmeckı jazyk;'Mgr. Dana Dovhunová, Ph.D.';647;Nesládková Martina, Mgr. M.A.
+CJP;Q833;9492;Cv;2024;4.10.2024;3.1.2025;08:00;09:50;CJP;Cizí jazyk niší: španìlskı jazyk;'Mgr. Ernesto Javier Beltrán-Sánchez, Ph.D.';5273;Avdìjeva Anastasie, Mgr.
+KSSP;Q851;;Cv;2024;7.10.2024;16.12.2024;14:00;14:50;KSSP;Surdopedie;'doc. PhDr. Kateøina Hádková, Ph.D.';6371;
+KPR;Q859;6948;Cv;2024;7.10.2024;16.12.2024;17:00;18:50;KPR;Didaktika prvopoèáteèního ètení a psaní;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Petrù Pavlína, Mgr.
+KTV;Q870;585;Cv;2024;3.10.2024;2.1.2025;14:00;14:50;KTV;Didaktika zdravotní tìlesné vıchovy;'doc. PhDr. Štefan Balkó, Ph.D.';2882;Pyšná Jana, doc. PhDr. Ph.D.
+KSSP;Q870;886;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KSSP;Sociokulturní aspekty edukace;'Mgr. Zdenìk Svoboda, Ph.D.';573;Bertl Ivan, PhDr. Ing. Ph.D.
+KSSP;Q871;886;Cv;2024;3.10.2024;2.1.2025;09:00;09:50;KSSP;Sociokulturní aspekty edukace;'Mgr. Zdenìk Svoboda, Ph.D.';573;Bertl Ivan, PhDr. Ing. Ph.D.
+KPR;Q8711;9527;Cv;2024;2.10.2024;18.12.2024;17:00;18:50;KPR;Didaktika integ. pøír. základu III;'doc. PaedDr. Ivana Brtnová-Èepièková, Ph.D.';229;Lukiæ Aco
+KH1;Q872;8185;Cv;2024;2.10.2024;18.12.2024;14:00;14:50;KH1;Didaktika HV - ryt. a inst. vıcvik;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Petr Zeman, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 442, 434;Olšanová Iva, Mgr.
+KPR;Q879;8021;Cv;2024;7.10.2024;16.12.2024;16:00;17:50;KPR;Analıza dat;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Kubiatko Milan, PaedDr. PhD.
+KPR;Q8813;1070;Cv;2024;4.10.2024;3.1.2025;08:00;09:50;KPR;Semináø k diplomové práci;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Kroufek Roman, PhDr. Ph.D.
+KSSP;Q890;8398;Cv;2024;2.10.2024;18.12.2024;12:00;13:50;KSSP;Sociální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KPR;Q891;8964;Cv;2024;7.10.2024;16.12.2024;14:00;14:50;KPR;Sexuální vıchova;'PhDr. Roman Kroufek, Ph.D.';1070;Bitalová Kamila, Mgr.
+KSSP;Q891;7336;Cv;2024;2.10.2024;18.12.2024;11:00;11:50;KSSP;Specifické poruchy uèení a chování;'PhDr. Arnošt Smolík, Ph.D.';1643;Lanková Barbora, PhDr. Ph.D.
+KSSP;Q892;8398;Cv;2024;2.10.2024;18.12.2024;12:00;13:50;KSSP;Sociální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KPR;Q893;2624;Cv;2024;1.10.2024;17.12.2024;15:00;15:50;KPR;Kultura vyuèování matematice;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Henzl Jiøí, Mgr.
+KPR;Q894;6093;Cv;2024;4.10.2024;3.1.2025;14:00;15:50;KPR;Sociálnì právní ochrana dìtí a mládee;'Mgr. Radek Hach';4153;Janovcová Radka, Mgr.
+KSSP;Q895;;Cv;2024;1.10.2024;17.12.2024;19:00;19:50;KSSP;Edukace jedincù se zrakovım postiením;'Mgr. Nikol Aková';1795;
+KSSP;Q896;1643;Cv;2024;7.10.2024;16.12.2024;17:00;17:50;KSSP;Edukace jedincù s parciálními poruchami;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Smolík Arnošt, PhDr. Ph.D.
+KPR;Q896;8964;Cv;2024;7.10.2024;16.12.2024;14:00;14:50;KPR;Sexuální vıchova;'PhDr. Roman Kroufek, Ph.D.';1070;Bitalová Kamila, Mgr.
+KPR;Q897;2624;Cv;2024;1.10.2024;17.12.2024;15:00;15:50;KPR;Kultura vyuèování matematice;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Henzl Jiøí, Mgr.
+KPR;Q898;6093;Cv;2024;4.10.2024;3.1.2025;14:00;15:50;KPR;Sociálnì právní ochrana dìtí a mládee;'Mgr. Radek Hach';4153;Janovcová Radka, Mgr.
+KSSP;Q951;9522;Cv;2024;9.11.2024;9.11.2024;09:00;17:50;KSSP;Surdopedie;'doc. PhDr. Kateøina Hádková, Ph.D.';6371;
+KPS;Q953;;Cv;2024;19.10.2024;19.10.2024;09:00;17:50;KPS;Nadanı ák na 1. st. ZŠ;'PhDr. Renata Hajná, Ph.D.';3759;
+KPR;Q959;6948;Cv;2024;14.12.2024;14.12.2024;08:00;19:50;KPR;Didaktika prvopoèáteèního ètení a psaní;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Petrù Pavlína, Mgr.
+KTV;Q970;585;Cv;2024;11.10.2024;11.10.2024;14:00;15:50;KTV;Didaktika zdravotní tìlesné vıchovy;'doc. PhDr. Štefan Balkó, Ph.D.';2882;Pyšná Jana, doc. PhDr. Ph.D.
+KTV;Q970;585;Cv;2024;25.10.2024;25.10.2024;14:00;15:50;KTV;Didaktika zdravotní tìlesné vıchovy;'doc. PhDr. Štefan Balkó, Ph.D.';2882;Pyšná Jana, doc. PhDr. Ph.D.
+KSSP;Q970;886;Cv;2024;11.10.2024;11.10.2024;16:00;19:50;KSSP;Sociokulturní aspekty edukace;'Mgr. Zdenìk Svoboda, Ph.D.';573;Bertl Ivan, PhDr. Ing. Ph.D.
+KPAD;Q970;407;Cv;2024;19.10.2024;19.10.2024;08:00;12:50;KPAD;Metodologie pedagogického vızkumu;'PhDr. Roman Kroufek, Ph.D.';1070;Doulík Pavel, prof. PaedDr. Ph.D.
+KTV;Q970;585;Cv;2024;25.10.2024;25.10.2024;16:00;17:50;KTV;Didaktika zdravotní tìlesné vıchovy;'doc. PhDr. Štefan Balkó, Ph.D.';2882;Pyšná Jana, doc. PhDr. Ph.D.
+KSSP;Q971;886;Cv;2024;11.10.2024;11.10.2024;16:00;19:50;KSSP;Sociokulturní aspekty edukace;'Mgr. Zdenìk Svoboda, Ph.D.';573;Bertl Ivan, PhDr. Ing. Ph.D.
+KPR;Q9711;9527;Cv;2024;9.11.2024;9.11.2024;14:00;19:50;KPR;Didaktika integ. pøír. základu III;'doc. PaedDr. Ivana Brtnová-Èepièková, Ph.D.';229;Lukiæ Aco
+KPR;Q9712;7623;Cv;2024;21.12.2024;21.12.2024;12:00;19:50;KPR;Internacionalizace;'PhDr. Barbora Lanková, Ph.D.';7336;Rùièková Jiøina, Mgr. Bc.
+KH1;Q972;8185;Cv;2024;2.11.2024;2.11.2024;16:00;19:50;KH1;Didaktika HV - ryt. a inst. vıcvik;'PhDr. Dana Novotná, Ph.D.', 'PhDr. Petr Zeman, Ph.D.', 'PhDr. Martina Zemanová, Ph.D.';437, 442, 434;Olšanová Iva, Mgr.
+KPR;Q979;8021;Cv;2024;4.1.2025;4.1.2025;08:00;19:50;KPR;Analıza dat;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Kubiatko Milan, PaedDr. PhD.
+KPR;Q9813;1070;Cv;2024;19.10.2024;19.10.2024;08:00;15:50;KPR;Semináø k diplomové práci;'doc. PaedDr. Jaromíra Šindeláøová, CSc.';629;Kroufek Roman, PhDr. Ph.D.
+KSSP;Q990;8398;Cv;2024;4.1.2025;4.1.2025;18:00;19:50;KSSP;Sociální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KPR;Q991;8964;Cv;2024;6.12.2024;6.12.2024;14:00;18:50;KPR;Sexuální vıchova;'PhDr. Roman Kroufek, Ph.D.';1070;Bitalová Kamila, Mgr.
+KSSP;Q991;7336;Cv;2024;13.12.2024;13.12.2024;14:00;19:50;KSSP;Specifické poruchy uèení a chování;'PhDr. Arnošt Smolík, Ph.D.';1643;Lanková Barbora, PhDr. Ph.D.
+KSSP;Q992;8398;Cv;2024;4.1.2025;4.1.2025;18:00;19:50;KSSP;Sociální pedagogika;'Mgr. Zdenìk Svoboda, Ph.D.';573;Volfová Kristına, Mgr.
+KSSP;Q993;7291;Cv;2024;1.11.2024;1.11.2024;16:00;19:50;KSSP;Alternativní a augmentativní komunikace;'doc. PhDr. Kateøina Hádková, Ph.D.';6371;
+KPR;Q993;2624;Cv;2024;19.10.2024;19.10.2024;16:00;19:50;KPR;Kultura vyuèování matematice;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Henzl Jiøí, Mgr.
+KPR;Q994;6093;Cv;2024;4.1.2025;4.1.2025;10:00;15:50;KPR;Sociálnì právní ochrana dìtí a mládee;'Mgr. Radek Hach';4153;Janovcová Radka, Mgr.
+KSSP;Q994;9522;Cv;2024;7.12.2024;7.12.2024;09:00;17:50;KSSP;Edukace jedincù se sluchovım postiením;'doc. PhDr. Kateøina Hádková, Ph.D.';6371;
+KSSP;Q996;1643;Cv;2024;2.11.2024;2.11.2024;09:00;17:50;KSSP;Edukace jedincù s parciálními poruchami;'doc. PhDr. Ladislav Zilcher, Ph.D.';4216;Smolík Arnošt, PhDr. Ph.D.
+KPR;Q996;8964;Cv;2024;6.12.2024;6.12.2024;14:00;18:50;KPR;Sexuální vıchova;'PhDr. Roman Kroufek, Ph.D.';1070;Bitalová Kamila, Mgr.
+KPR;Q997;2624;Cv;2024;19.10.2024;19.10.2024;16:00;19:50;KPR;Kultura vyuèování matematice;'doc. PhDr. Vlastimil Chytrı, Ph.D.';3189;Henzl Jiøí, Mgr.
+KPR;Q998;6093;Cv;2024;4.1.2025;4.1.2025;10:00;15:50;KPR;Sociálnì právní ochrana dìtí a mládee;'Mgr. Radek Hach';4153;Janovcová Radka, Mgr.
+KZR;RGR2;9272;Cv;2024;7.10.2024;18.11.2024;14:00;14:50;KZR;Radiodiagnostika;'MUDr. Pavel Chmelík';9273;
+CCV;S7313;2404;Cv;2024;7.12.2024;7.12.2024;13:00;17:50;CCV;Základy obecné psychologie;'PhDr. Jiøí Závora, Ph.D.';1875;Hátlová Bìla, doc. PhDr. Ph.D.
+KF;SPF19;;Cv;2024;5.12.2024;19.12.2024;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;
+KF;SPF19;9495;Cv;2024;3.12.2024;17.12.2024;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;Køivan Pavel, Mgr. Bc.
+KF;SPF19;;Cv;2024;4.12.2024;18.12.2024;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;
+KF;SPF19;9495;Cv;2024;2.12.2024;16.12.2024;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;Køivan Pavel, Mgr. Bc.
+KF;SPF19;;Cv;2024;9.1.2025;9.1.2025;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;
+KF;SPF19;;Cv;2024;6.12.2024;20.12.2024;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;
+KF;SPF19;;Cv;2024;10.1.2025;10.1.2025;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;
+KF;SPF19;9495;Cv;2024;6.1.2025;6.1.2025;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;Køivan Pavel, Mgr. Bc.
+KF;SPF19;9495;Cv;2024;7.1.2025;7.1.2025;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;Køivan Pavel, Mgr. Bc.
+KF;SPF19;;Cv;2024;8.1.2025;8.1.2025;08:00;12:50;KF;Odborná souvislá praxe I;'Ing. Andrea Jeková', 'Mgr. Ondøej Kališko';7298, 7600;
+KF;SPF39;;Cv;2024;31.10.2024;28.11.2024;08:00;16:00;KF;Odborná souvislá praxe III;'Mgr. Ondøej Kališko';7600;
+KF;SPF39;;Cv;2024;4.11.2024;25.11.2024;08:00;16:00;KF;Odborná souvislá praxe III;'Mgr. Ondøej Kališko';7600;
+KF;SPF39;;Cv;2024;29.10.2024;26.11.2024;08:00;16:00;KF;Odborná souvislá praxe III;'Mgr. Ondøej Kališko';7600;
+KF;SPF39;;Cv;2024;1.11.2024;29.11.2024;08:00;16:00;KF;Odborná souvislá praxe III;'Mgr. Ondøej Kališko';7600;
+KF;SPF39;;Cv;2024;30.10.2024;27.11.2024;08:00;16:00;KF;Odborná souvislá praxe III;'Mgr. Ondøej Kališko';7600;
+KF;SPF59;8478;Cv;2024;11.10.2024;18.10.2024;08:00;12:50;KF;Odborná souvislá praxe V;'Mgr. Alena Charvátová, Ph.D.';3725;
+KF;SPF59;;Cv;2024;2.10.2024;23.10.2024;08:00;12:50;KF;Odborná souvislá praxe V;'Mgr. Alena Charvátová, Ph.D.';3725;
+KF;SPF59;991;Cv;2024;25.10.2024;25.10.2024;08:00;12:50;KF;Odborná souvislá praxe V;'Mgr. Alena Charvátová, Ph.D.';3725;Tichá Kateøina, PhDr. Mgr. Ph.D.
+KF;SPF59;7298;Cv;2024;7.10.2024;21.10.2024;08:00;12:50;KF;Odborná souvislá praxe V;'Mgr. Alena Charvátová, Ph.D.';3725;Jeková Andrea, Ing.
+KF;SPF59;;Cv;2024;1.10.2024;22.10.2024;08:00;12:50;KF;Odborná souvislá praxe V;'Mgr. Alena Charvátová, Ph.D.';3725;
+KF;SPF59;8727;Cv;2024;3.10.2024;24.10.2024;08:00;12:50;KF;Odborná souvislá praxe V;'Mgr. Alena Charvátová, Ph.D.';3725;Kvochová Veronika, Mgr.
+KF;SPF59;991;Cv;2024;4.10.2024;4.10.2024;08:00;12:50;KF;Odborná souvislá praxe V;'Mgr. Alena Charvátová, Ph.D.';3725;Tichá Kateøina, PhDr. Mgr. Ph.D.
+CCV;T3112;;Cv;2024;1.11.2024;1.11.2024;15:21;16:20;CCV;Základní plavecké a záchranné dovednosti;'Mgr. Jitka Vanìèková, Ph.D.';2746;
+CCV;T3112;;Cv;2024;1.11.2024;1.11.2024;18:00;18:48;CCV;Základní plavecké a záchranné dovednosti;'Mgr. Jitka Vanìèková, Ph.D.';2746;
+CCV;T3112;;Cv;2024;11.10.2024;11.10.2024;16:00;16:59;CCV;Základní plavecké a záchranné dovednosti;'Mgr. Jitka Vanìèková, Ph.D.';2746;
+CCV;T7113;2882;Cv;2024;29.11.2024;29.11.2024;11:00;12:50;CCV;Vıkon ve sportu, trendy ve spor. trén.;'Mgr. Iva Balkó, Ph.D.', 'doc. PhDr. Vladimír Süss, Ph.D.';3203, 7745;Balkó Štefan, doc. PhDr. Ph.D.
+CCV;T7113;2882;Cv;2024;13.12.2024;13.12.2024;11:00;12:50;CCV;Vıkon ve sportu, trendy ve spor. trén.;'Mgr. Iva Balkó, Ph.D.', 'doc. PhDr. Vladimír Süss, Ph.D.';3203, 7745;Balkó Štefan, doc. PhDr. Ph.D.
+CCV;T7714;585;Cv;2024;15.11.2024;15.11.2024;09:00;10:50;CCV;Funkèní, som. a zdravotní diagnost.;"";;Pyšná Jana, doc. PhDr. Ph.D.
+CCV;T7714;585;Cv;2024;13.12.2024;13.12.2024;13:20;15:10;CCV;Funkèní, som. a zdravotní diagnost.;"";;Pyšná Jana, doc. PhDr. Ph.D.
+CNB;UNM;3553;Cv;2024;7.10.2024;16.12.2024;14:00;14:50;CNB;Úvod do nanotechnologií a nanomateriálù;'doc. RNDr. Stanislav Daniš, Ph.D.', 'prof. Ing. Zdeòka Kolská, Ph.D.';9281, 332;Èapková Pavla, prof. RNDr. DrSc.
+KHI;V054;4299;Cv;2024;3.10.2024;2.1.2025;12:00;13:50;KHI;PVK Modern Architecture;"";;Zubík Martin, Mgr. Ph.D.
+KZR;VOR2;9909;Cv;2024;3.10.2024;7.11.2024;11:00;12:50;KZR;Vybrané kapitoly z oše. postupù;'Mgr. Martina Paulíková';6037;Kalèíková Aneta, Mgr. et Mgr.
+KZR;VOR2;9909;Cv;2024;14.11.2024;19.12.2024;11:00;12:50;KZR;Vybrané kapitoly z oše. postupù;'Mgr. Martina Paulíková';6037;Kalèíková Aneta, Mgr. et Mgr.
+KZR;VOR2;9909;Cv;2024;3.10.2024;7.11.2024;09:00;10:50;KZR;Vybrané kapitoly z oše. postupù;'Mgr. Martina Paulíková';6037;Kalèíková Aneta, Mgr. et Mgr.
+KZR;VOR2;9909;Cv;2024;14.11.2024;19.12.2024;09:00;10:50;KZR;Vybrané kapitoly z oše. postupù;'Mgr. Martina Paulíková';6037;Kalèíková Aneta, Mgr. et Mgr.
+KCJ;W0059;;Cv;2024;2.10.2024;18.12.2024;12:00;13:50;KCJ;Intercultural training;'Mgr. Jaroslav Izavèuk', 'PhDr. Hana Suchánková, Ph.D.', 'Deniz Yakut-Ozgür';474, 36, 8336;
+KE;ZE1K9;9495;Cv;2024;5.10.2024;5.10.2024;09:00;14:50;KE;Základy fyzioterapie a vyšetø. metody I;'Mgr. Ivana Štolová';8016;Køivan Pavel, Mgr. Bc.
+KE;ZE1K9;8756;Cv;2024;7.12.2024;7.12.2024;08:00;13:50;KE;Základy fyzioterapie a vyšetø. metody I;'Mgr. Ivana Štolová';8016;Vacek Ondøej, Mgr.
+KE;ZE1K9;9495;Cv;2024;15.11.2024;15.11.2024;08:00;13:50;KE;Základy fyzioterapie a vyšetø. metody I;'Mgr. Ivana Štolová';8016;Køivan Pavel, Mgr. Bc.
+KE;ZE1K9;9495;Cv;2024;6.12.2024;6.12.2024;08:00;13:50;KE;Základy fyzioterapie a vyšetø. metody I;'Mgr. Ivana Štolová';8016;Køivan Pavel, Mgr. Bc.
+KE;ZE1K9;9495;Cv;2024;7.12.2024;7.12.2024;08:00;13:50;KE;Základy fyzioterapie a vyšetø. metody I;'Mgr. Ivana Štolová';8016;Køivan Pavel, Mgr. Bc.
+KE;ZE1K9;8756;Cv;2024;15.11.2024;15.11.2024;08:00;13:50;KE;Základy fyzioterapie a vyšetø. metody I;'Mgr. Ivana Štolová';8016;Vacek Ondøej, Mgr.
+KE;ZE1K9;8756;Cv;2024;6.12.2024;6.12.2024;08:00;13:50;KE;Základy fyzioterapie a vyšetø. metody I;'Mgr. Ivana Štolová';8016;Vacek Ondøej, Mgr.
+KE;ZE1K9;8756;Cv;2024;5.10.2024;5.10.2024;09:00;14:50;KE;Základy fyzioterapie a vyšetø. metody I;'Mgr. Ivana Štolová';8016;Vacek Ondøej, Mgr.
+KE;ZF1E9;9495;Cv;2024;2.10.2024;27.11.2024;10:00;11:50;KE;Základy fyz. a vyš. metody I;'Mgr. Ivana Štolová';8016;Køivan Pavel, Mgr. Bc.
+KE;ZF1E9;8756;Cv;2024;3.10.2024;28.11.2024;13:00;14:50;KE;Základy fyz. a vyš. metody I;'Mgr. Ivana Štolová';8016;Vacek Ondøej, Mgr.
+KE;ZF1E9;8756;Cv;2024;3.10.2024;28.11.2024;17:00;18:50;KE;Základy fyz. a vyš. metody I;'Mgr. Ivana Štolová';8016;Vacek Ondøej, Mgr.
