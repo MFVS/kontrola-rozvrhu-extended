@@ -149,7 +149,10 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
     predmety_by_kat = names["predmety"].unique()
     predmety_by_kat = fix_str_to_int(predmety_by_kat, ["garantiUcitIdno", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "hodZaSemKombForma", "jednotekPrednasek","jednotekCviceni","jednotekSeminare"])
-    predmety_by_kat = predmety_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier")).explode(["jednotekPrednasek", "jednotekCviceni", "jednotekSeminare"])
+    unit_fix_cols = [col for col in predmety_by_kat.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").dtypes if col == pl.List]
+    predmety_by_kat = predmety_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
+    if unit_fix_cols != []:
+        predmety_by_kat = predmety_by_kat.explode(unit_fix_cols)
 
     # Vynechání nevalidních předmětů/rozvrhových akcí (pokud předmět nemá žádné korespondující rozvrhové akce a naopak)
     predmety_s_akci = predmety_by_kat.join(other=rozvrh_by_kat, on="identifier", how="inner").select(predmety_by_kat.columns).unique().sort("identifier")
