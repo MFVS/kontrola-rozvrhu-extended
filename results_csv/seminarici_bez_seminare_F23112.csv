@@ -1,21 +1,43 @@
 katedra;zkratka;nazev;seminariciUcitIdno;jmena
 KI;EIS;Podnikové informaèní systémy;14;'Ing. Hana Hájková
 KI;KEIS;Podnikové informaèní systémy;14;'Ing. Hana Hájková
+KBI;P302;Fylogeneze a systém bezobratlých;278;'doc. RNDr. Jaromír Hajer CSc.'
+KBI;P112;Obecná botanika;279;'doc. RNDr. Karel Kubát CSc.'
+KFY;K521;Fyzikální praktikum C;302;'PaedDr. Václav Heller'
+KFY;K505;Diplomový semináø;306;'prof. RNDr. Stanislav Novák CSc.'
+KFY;M403;Souhrnný semináø a pøíprava k SZZ;307;'doc. RNDr. Dušan Novotný CSc.
+KGEO;E100;Reg. geography of Northwestern Bohemia;313;'doc. RNDr. Martin Balej Ph.D.
+KGEO;E101;Regional geography of the Czech Republic;313;'doc. RNDr. Martin Balej Ph.D.
+KFY;K107;Poèítaèové modelování I;612;'Mgr. Dalibor Sedlák'
+KFY;P107;Poèítaèové modelování I;612;'Mgr. Dalibor Sedlák'
+KFY;K103;Programování A;612;'Mgr. Dalibor Sedlák'
 KI;EIS;Podnikové informaèní systémy;1609;'Ing. Pavel Poláèek
 KI;KEIS;Podnikové informaèní systémy;1609;'Ing. Pavel Poláèek
+KI;LTP;Linuxové technologie v praxi;3457;'Ing. Roman Vaibar Ph.D., MBA'
 KI;EIS;Podnikové informaèní systémy;3457;'Ing. Roman Vaibar Ph.D., MBA'
 KI;KEIS;Podnikové informaèní systémy;3457;'Ing. Roman Vaibar Ph.D., MBA'
+KI;KLTP;Linuxové technologie v praxi;3457;'Ing. Roman Vaibar Ph.D., MBA'
 KI;EIS;Podnikové informaèní systémy;3606;'Ing. Jana Hubáèková DiS.
 KI;KEIS;Podnikové informaèní systémy;3606;'Ing. Jana Hubáèková DiS.
 KI;SON;Sociální sítì;4190;'Ing. Libor Mìsíèek Ph.D.'
-KI;ODT;Open Data;4303;'Mgr. Martin Dolejš Ph.D.
-KI;ELAI;Elements of AI;4472;'Mgr. Michaela Liegertová Ph.D.'
-KI;AHW;Praktické aplikace hardwaru;4746;'Ing. Jiøí Šretr'
+KFY;K106;Matematika I;4221;'Mgr. Robert Švarc Ph.D.'
+KGEO;0153;Identif. a hodn. ekosystémových služeb;4625;'doc. Ing. Jan Slavík Ph.D.'
 KI;0182;Základy autonomní robotiky;4746;'Ing. Jiøí Šretr'
+KI;AHW;Praktické aplikace hardwaru;4746;'Ing. Jiøí Šretr'
+KGEO;PD101;Scientific inquiry and reasoning;4747;'doc. Ing. Lenka Slavíková Ph.D.'
 KI;EIS;Podnikové informaèní systémy;4991;'Ing. Miroslav Novotný
 KI;KEIS;Podnikové informaèní systémy;4991;'Ing. Miroslav Novotný
-KI;KSWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
+KGEO;0158;Letní geografická škola;5886;'Ing. Jiøí Louda Ph.D.
+KFY;M203;Praktikum poèítaèového modelování II;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;M103;Praktikum poèítaèového modelování I;5958;'Mgr. Martin Svoboda Ph.D.'
+KBI;RSPP;Reflektivní semináø pedagogické praxe;8021;'PaedDr. Milan Kubiatko PhD.'
+KBI;KRSPP;Reflektivní semináø pedagogické praxe;8021;'PaedDr. Milan Kubiatko PhD.'
+KBI;KSPP;Reflektivní semináø pedagogické praxe;8021;'PaedDr. Milan Kubiatko PhD.'
+KI;KOOD;Objektovì orientovaný návrh;8093;'Ing. Jan Svoboda'
 KI;SWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
+KI;KSWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
 KI;KOPRE;Odborná prezentace;8514;'Ricardo Rodriguez Jorge Ph.D.
 KI;OPRE;Odborná prezentace;8514;'Ricardo Rodriguez Jorge Ph.D.
 KI;ITM;Introduction to MATLAB;8514;'Ricardo Rodriguez Jorge Ph.D.'
+KI;SWI;Softwarové inženýrství;9303;'Ing. Petr Høebejk
+KI;KSWI;Softwarové inženýrství;9303;'Ing. Petr Høebejk

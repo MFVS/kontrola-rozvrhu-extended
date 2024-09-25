@@ -1,31 +1,268 @@
 katedra;zkratka;nazev;prednasejiciUcitIdno;jmena
-KI;PPG;Paralelní programování;609;'prof. Ing. Martin Lísal DSc.
-KI;KPPG;Paralelní programování;609;'prof. Ing. Martin Lísal DSc.
+KFY;K839;Fyzika pevnıch látek I;69;'prof. RNDr. Rudolf Hrach DrSc.'
+KFY;K503;Základy poèítaèové fyziky;69;'prof. RNDr. Rudolf Hrach DrSc.'
+KFY;P403;Poèítaèové modelování IV;69;'prof. RNDr. Rudolf Hrach DrSc.'
+KFY;K403;Poèítaèové modelování IV;69;'prof. RNDr. Rudolf Hrach DrSc.'
+KFY;P503;Základy poèítaèové fyziky;69;'prof. RNDr. Rudolf Hrach DrSc.'
+KGEO;5DEMO;Demografie;130;'RNDr. Miloslav Šašek CSc.'
+KGEO;FDEMO;Demografie;130;'RNDr. Miloslav Šašek CSc.'
+KCH;N114;Anorganická chemie Nmgr.;198;'doc. Ing. Tomáš Louèka CSc.
+KCH;P224;Anorganická chemie;198;'doc. Ing. Tomáš Louèka CSc.
+KCH;KN11;Anorganická chemie Nmgr.;198;'doc. Ing. Tomáš Louèka CSc.
+KCH;B315;Technologie ochrany ivotního prostøedí;199;'Ing. Miroslav Richter Ph.D.'
+KCH;BK315;Technologie ochrany ivotního prostøedí;199;'Ing. Miroslav Richter Ph.D.'
+KCH;P414;Technologie ochrany ivotního prostøedí;199;'Ing. Miroslav Richter Ph.D.'
+CNB;M100;Vìdecká komunikace v biologii;278;'doc. RNDr. Jaromír Hajer CSc.
+KBI;P302;Fylogeneze a systém bezobratlıch;278;'doc. RNDr. Jaromír Hajer CSc.'
+KBI;M102;Biologie èlenovcù;278;'doc. RNDr. Jaromír Hajer CSc.
+KBI;P325;Biologie èlenovcù;278;'doc. RNDr. Jaromír Hajer CSc.'
+KBI;N052;Fauna ÈR;278;'doc. RNDr. Jaromír Hajer CSc.'
+KBI;N021;Vìdecká komunikace v biologii;278;'doc. RNDr. Jaromír Hajer CSc.
+KBI;BP219;Fylogeneze a systém vyšších rostlin;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;N025;Geobotanika;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;MA204;Flóra ÈR;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;KB219;Fylogeneze a systém vyšších rostlin;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;K410;Biogeografie;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;P103;Obecná botanika;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;N064;Flóra ÈR;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;MA300;Biologické principy ochrany pøírody;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;BP421;Biogeografie;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;PB219;Fylogeneze a systém vyšších rostlin;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;K102;Obecná botanika;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;MA200;Geobotanika;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;BK421;Biogeografie;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;P421;Biogeografie;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;P112;Obecná botanika;279;'doc. RNDr. Karel Kubát CSc.'
+KBI;BK219;Fylogeneze a systém vyšších rostlin;279;'doc. RNDr. Karel Kubát CSc.'
+CNB;KB502;Fyziologie ivoèichù a èlovìka;281;'doc. MUDr. Vladislav Mareš DrSc.
+CNB;PB502;Fyziologie ivoèichù a èlovìka;281;'doc. MUDr. Vladislav Mareš DrSc.
+KBI;N059;Patobiologie ivoèišnıch bunìk a tkání;281;'doc. MUDr. Vladislav Mareš DrSc.'
+KBI;N016;Fyziologie a mol. bio. eukar. buòky I;281;'doc. MUDr. Vladislav Mareš DrSc.'
+KFY;K414;Vybrané partie z fyziky;306;'prof. RNDr. Stanislav Novák CSc.'
+KFY;PSVN;Poèítaèové simulace v nanotechnologiích;306;'prof. RNDr. Stanislav Novák CSc.
+KFY;KUDPM;Úvod do poèítaèového modelování;306;'prof. RNDr. Stanislav Novák CSc.
+KFY;K218;Vakuová fyzika a technika;306;'prof. RNDr. Stanislav Novák CSc.'
+KFY;UDPM;Úvod do poèítaèového modelování;306;'prof. RNDr. Stanislav Novák CSc.
+KFY;P325;Fyzikální vlastnosti tenkıch vrstev;306;'prof. RNDr. Stanislav Novák CSc.'
+KFY;K606;Teorie relativity;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;PM101;Vybr. partie z teorie el. pole;307;'doc. RNDr. Dušan Novotnı CSc.
+KFY;P216;Úvod do kvantové fyziky a spektroskopie;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;P231;Fyzika;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;PD203;Vybrané partie z teorie elektromag. pole;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;TEP;Teorie elektromagnetického pole;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;P606;Teorie relativity;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;K422;PVK - Vyb.partie z teoretické fyziky I;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;STR;Speciální teorie relativity;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;0164;VK-Teorie relativity;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;P607;Kvantová fyzika II;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;KSTR;Speciální teorie relativity;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;P737;Kvantová fyzika;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;KM;Kvantová mechanika;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;P938;Vybrané partie z teoretické fyziky I;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;K522;PVK - Vyb.partie z teoretické fyziky II;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;PM100;Vybrané partie z kvantové fyziky;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;P427;Vybrané partie z fyziky;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;P213;Fyzika I;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;P509;Kvantová fyzika I;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;K512;Kvantová fyzika I;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;NA11;Základy kvantové chemie a spektra mol.;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;P508;Teorie elektromagnetického pole;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;CM101;Sel. parts of the theory of el. fields;307;'doc. RNDr. Dušan Novotnı CSc.
+KFY;KKM;Kvantová mechanika;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;K222;Fyzika I;307;'doc. RNDr. Dušan Novotnı CSc.'
+KFY;K724;Kvantová fyzika;307;'doc. RNDr. Dušan Novotnı CSc.'
+KGEO;B303;Krajinná ekologie;313;'doc. RNDr. Martin Balej Ph.D.
+KGEO;M102;Vybrané kapitoly FG Evropy;313;'doc. RNDr. Martin Balej Ph.D.'
+KGEO;PD103;Regional environmental change;313;'doc. RNDr. Martin Balej Ph.D.
+KGEO;0154;Problémové oblasti Èeska;314;'Mgr. Milan Bursa CSc.'
+KGEO;B102;Planetární geografie;316;'RNDr. Alena Chvátalová Ph.D.'
+KCH;N115;Didaktika chemie I;336;'prof. PhDr. Jiøí Škoda Ph.D., MBA
+KCH;KN10;Didaktika chemie I;336;'prof. PhDr. Jiøí Škoda Ph.D., MBA
+KCH;N304;Didaktika chemie II - SŠ;336;'prof. PhDr. Jiøí Škoda Ph.D., MBA
+KCH;KN22;Didaktika chemie II - SŠ;336;'prof. PhDr. Jiøí Škoda Ph.D., MBA
+KFY;PM306;Simulace prùchodu nabitıch èástic;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;CM306;Simulation of the charged particle;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;AP09;Úvod do fyziky energet. svazkù iontù;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;E511;Atomic and Nuclear Physics;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;KATOM;Atomová a jaderná fyzika;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;AP14;Pokr. studium povrchù pomocí jader. met.;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;P511;Atomová a jaderná fyzika;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;K401;Atomová a jaderná fyzika;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;PMNS;Pøíprava mikro a nanostruktur;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;CM203;Characterization of surface layers using;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;PD200;Iontové analytické metody;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;JAM;Jaderné analytické metody;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;PD101;Fyzika energetickıch svazkù iontù;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;ATOM;Atomová a jaderná fyzika;423;'prof. RNDr. Anna Macková Ph.D.'
+KFY;PM203;Studium povrchù pomocí jadernıch metod;423;'prof. RNDr. Anna Macková Ph.D.'
+KGEO;0124;VK-Regionální geografie Portugalska;451;'Mgr. Tomáš Oršulák
+KCH;KN04;Analytická chemie P NMgr.;550;'prof. Ing. Pavel Janoš CSc.
+KCH;N025;Stopová organická analıza;550;'prof. Ing. Pavel Janoš CSc.
+KCH;N406;Analytická chemie P NMgr.;550;'prof. Ing. Pavel Janoš CSc.
+KCH;N111;Systém kvality a vyhodnocování dat;550;'prof. Ing. Pavel Janoš CSc.
+KCH;N108;Pokroèilé instrumentální metody;550;'prof. Ing. Pavel Janoš CSc.'
+KCH;N308;Hodnocení nebezpeènıch vlastností odpadù;550;'prof. Ing. Pavel Janoš CSc.'
+KFY;0175;VK-Programování ATMEL I;605;'doc. RNDr. František Fiala'
+KFY;K305;Teoretická mechanika I;606;'doc. RNDr. Ing. Kurt Fišer CSc.
+KFY;P522;Vybrané partie z teoretické fyziky II;606;'doc. RNDr. Ing. Kurt Fišer CSc.'
+KFY;P422;Vybrané partie z teoretické fyziky I;606;'doc. RNDr. Ing. Kurt Fišer CSc.'
+KFY;P203;Programování B;612;'Mgr. Dalibor Sedlák'
+KCH;N111;Systém kvality a vyhodnocování dat;719;'Ing. Václav Synek Ph.D.'
+KFY;P366;Poèítaè. modelování - spojité modelování;816;'doc. RNDr. Jiøí Felcman CSc.
 KI;MAI;Matematika pro informatiky;816;'doc. RNDr. Jiøí Felcman CSc.
+KGEO;0133;VK - Úvod do geografie náboenství;920;'doc. RNDr. Ladislav Skokan CSc.'
+KFY;PD308;Kurz marketingu a managementu;1057;'Ing. Lucie Povolná Ph.D.'
+KCH;P313;Odpadové hospodáøství I;1067;'Ing. Miroslav Hlávka Ph.D.'
+KCH;N308;Hodnocení nebezpeènıch vlastností odpadù;1115;'Ing. Václav Dušek
 KMA;K516;Statistika na PC;1456;'Mgr. Ing. Jana Gabèanová'
+KFY;K409;Matematika IV;1537;'prof. RNDr. Jan Malı DrSc.'
+KFY;K304;Matematika III;1537;'prof. RNDr. Jan Malı DrSc.'
+KBI;P303;Biologie a ekologie èlovìka I;1546;'Mgr. Karina Vašinová Ph.D.'
+KBI;E129;Parasitology;1546;'Mgr. Karina Vašinová Ph.D.'
+KBI;K110;Obecná zoologie;1546;'Mgr. Karina Vašinová Ph.D.'
+KBI;P323;Obecná parazitologie;1546;'Mgr. Karina Vašinová Ph.D.'
+KGEO;PD106;Approaches to regional histories;1553;'doc. Mgr. Martin Veselı Ph.D.'
 KMA;LOG;Logistika;1569;'Ing. Daniela Vyslouilová Ph.D.'
+KFY;PD202;Komplexní analıza materiálù;1590;'RNDr. Jan Lorinèík CSc.'
+KFY;AP05;Metody analız materiálù;1590;'RNDr. Jan Lorinèík CSc.'
+KFY;AP03;"Met. analız mat. 
+vyu. el. mikroskopie";1590;'RNDr. Jan Lorinèík CSc.'
+KGEO;B605;Specializaèní pøednášky z praxe;1633;'doc. RNDr. Ivan Bièík CSc.'
+KCH;N307;Migrace, transf. a persistence polutantù;1775;'prof. Ing. Josef Šedlbauer Ph.D.'
+CNB;ME200;Metody molekulární biologie;1986;'Mgr. Jana Èejnová
+KBI;N023;Metody molekulární biologie;1986;'Mgr. Jana Èejnová
+KGEO;0120;VK-Promìny kulturní krajiny;2028;'PhDr. Aleš Navrátil Ph.D.'
+KFY;P705;Elektromigraèní metody;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.'
+KCH;P534;Toxikologie rostl. a ivoèišnıch toxinù;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KCH;KN40;Analytická chemie Nmgr.;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KGEO;N001;Didaktika geografie I;2232;'Mgr. Zuzana Pavlasová'
+KI;KDSA;Algoritmy a datové struktury;2240;'doc. RNDr. Dr. Karel Oliva
 KI;DSA;Algoritmy a datové struktury;2240;'doc. RNDr. Dr. Karel Oliva
 KI;TFL;Teorie formálních jazykù;2240;'doc. RNDr. Dr. Karel Oliva'
-KI;KDSA;Algoritmy a datové struktury;2240;'doc. RNDr. Dr. Karel Oliva
+KFY;PD305;Struktura a vlastnosti polymerù;2428;'prof. Ing. Václav Švorèík DrSc.'
+KCH;PD06;Struktura a vlastnosti polymerù;2428;'prof. Ing. Václav Švorèík DrSc.'
+KBI;E120;Microscopy Techniques in Biology;2441;'Mgr. Alena Semerádtová Ph.D.
+KBI;E121;Labor. Techniq. in Mol. and Cell Biology;2441;'Mgr. Alena Semerádtová Ph.D.
+KBI;P303;Biologie a ekologie èlovìka I;2757;'Mgr. Kateøina Radana Drbalová
+KGEO;0116;VK-Èeská republika a EU;2758;'doc. Dr. phil. Lukáš Novotnı M.A.'
+KGEO;PD107;Geospatial data: sources and analysis;2787;'doc. Ing. Jan Pacina Ph.D.'
 KMA;ZFIN;Základy financí;2821;'Ing. Kateøina Felixová Ph.D.'
 KMA;FINA;Finanèní analıza;2821;'Ing. Kateøina Felixová Ph.D.'
-KI;SYS;System Simulation;2855;'doc. RNDr. Jan Jirsák Ph.D.
-KI;KSYS;System Simulation;2855;'doc. RNDr. Jan Jirsák Ph.D.
+KFY;PD103;Anglickı jazyk;3096;'Mgr. Dita Šimáèková'
+KCH;P414;Technologie ochrany ivotního prostøedí;3175;'Ing. Stanislav Hejda Ph.D.
+KCH;P534;Toxikologie rostl. a ivoèišnıch toxinù;3176;'PharmDr. Markéta Švarcová Ph.D.'
+KCH;N109;Ekotoxikologie;3176;'PharmDr. Markéta Švarcová Ph.D.
+KFY;PD53;Fotofyzika a fotochemie nanomateriálù;3420;'Ing. Kamil Lang CSc.'
+CNB;NA18;Úvod do fotofyziky a fotochemie nanomat.;3420;'Ing. Kamil Lang CSc.'
 KI;PSP;Poèítaèové sítì a protokoly;3458;'Ing. Toni Koluch Ph.D.'
+KBI;0088;Funkce a struktura bunìènıch membrán;4175;'RNDr. Hana Sychrová DrSc.'
+KBI;0089;Základy receptorové neurofyziologie;4176;'RNDr. Viktorie Vlachová DrSc.'
+KBI;0090;Základy bioinenırství;4177;'MUDr. Lucie Baèáková CSc.'
 KI;KBIG;Datová úloištì a nástroje pro Big Data;4195;'Ing. Václav Valenta'
 KI;BIG;Datová úloištì a nástroje pro Big Data;4195;'Ing. Václav Valenta'
+KBI;N016;Fyziologie a mol. bio. eukar. buòky I;4208;'prof. RNDr. Zdenìk Fišar CSc.
+KGEO;M200;Socioekonomická a politická geografie EU;4213;'PhDr. Mgr. Jan Šmíd Ph.D.'
+KBI;P303;Biologie a ekologie èlovìka I;4219;'Mgr. Stanislav Lhota Ph.D.
+KGEO;0150;Neziskovı sektor a regionální rozvoj;4227;'Mgr. Petr Bláha Ph.D.'
+KBI;N024;Fyziol. a mol. biolog. eukar. buòky II;4264;'RNDr. Jan Martinec CSc.'
+KBI;ME201;Fyziologie a mol. biologie rostl. buòky;4264;'RNDr. Jan Martinec CSc.'
+KBI;E115;Plant Biotechnology;4390;'RNDr. Tomáš Vanìk CSc.'
+KBI;N050;Domestikace a domestikanti;4394;'prof. RNDr. Stanislav Komárek Ph.D.'
+KGEO;M209;Geografickı potenciál cestovního ruchu;4397;'RNDr. Dana Fialová Ph.D.
+KGEO;M407;Geografickı potenciál cestovního ruchu;4397;'RNDr. Dana Fialová Ph.D.
+KGEO;M209;Geografickı potenciál cestovního ruchu;4398;'RNDr. Jiøí Vágner Ph.D.'
+KGEO;M407;Geografickı potenciál cestovního ruchu;4398;'RNDr. Jiøí Vágner Ph.D.'
+KMA;CAS;Èasové øady;4533;'doc. Ing. Jaroslav Sixta Ph.D.
+KMA;KCAS;Èasové øady;4533;'doc. Ing. Jaroslav Sixta Ph.D.
 KI;0177;Information Security;4685;'Hoon Ko Ph.D.'
 KMA;LOG;Logistika;4691;'Ing. Vladimír Balach
+KGEO;PD101;Scientific inquiry and reasoning;4747;'doc. Ing. Lenka Slavíková Ph.D.'
+KCH;M112;Materiály a jejich mezní stavy;4951;'doc. Ing. Jaromír Cais Ph.D.
 KI;AUC;Automatické øízení;5039;'doc. Ing. Mgr. Petr Klán CSc.'
+KCH;N224;Klinická biochemie a patobiochemie;5062;'Ing. Jaroslav Procházka'
+KCH;N023;Biochemie cizorodıch látek;5062;'Ing. Jaroslav Procházka'
+KCH;N024;Klinická analıza;5062;'Ing. Jaroslav Procházka'
+KCH;N223;Forenzní vìdy;5062;'Ing. Jaroslav Procházka'
+KCH;N211;Bioaktivní pøírodní látky;5063;'prof. doc. RNDr. Irena Valterová CSc.'
+KCH;P312;Ochrana pøírody;5131;'Ing. Johana Jackovièová Ph.D.'
+KCH;M104;"Metody charakterizace látek a materiálù
+";5135;'Ing. Jitka Tolaszová Ph.D.
+KFY;P750;Fyzika plazmatu a plazmové technologie;5199;'doc. Mgr. Pavel Kudrna'
+KFY;P230;Fyzika povrchù;5201;'doc. RNDr. Jiøí Pavluch CSc.'
+KFY;AP04;"Met. analız mat. 
+vyu. prin. el. spektr";5201;'doc. RNDr. Jiøí Pavluch CSc.'
+KFY;P861;Fyzika pevnıch látek I;5201;'doc. RNDr. Jiøí Pavluch CSc.'
+KFY;P839;Fyzika pevnıch látek I;5201;'doc. RNDr. Jiøí Pavluch CSc.'
+KFY;0231;Principy a obvod. øešení el. spektometrù;5201;'doc. RNDr. Jiøí Pavluch CSc.'
 KMA;VSP;Veøejná správa;5309;'Ing. Eva Krumpová
+KBI;N060;Srovnávací anatom. a morfol. obratlovcù;5472;'RNDr. Michal Nìmec Ph.D.'
+KFY;KFORT;Programování - Fortran;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;P234;Poè. mod. - zpracování obrazu a signálu;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;PSVN;Poèítaèové simulace v nanotechnologiích;5958;'Mgr. Martin Svoboda Ph.D.
+KFY;KUDPM;Úvod do poèítaèového modelování;5958;'Mgr. Martin Svoboda Ph.D.
+KFY;EFORT;Programming - Fortran;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;P364;Poèítaèová grafika a zpracování obrazu;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;K220;Poè. mod. - zpracování obrazu a signálu;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;FORT;Programování - Fortran;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;K513;Poè. mod. - èásticové modelování;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;P523;Poèítaèové model. - èásticové modelování;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;PMC;Poèítaèové metody Monte Carlo;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;PZOS;Poèítaèové zpracování obrazu a signálu;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;KPMC;Poèítaèové metody Monte Carlo;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;KPZOS;Poèítaèové zpracování obrazu a signálu;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;P240;Poè. mod. - zpracování obrazu a signálu;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;K215;Poè. mod. - zpracování obrazu a signálu;5958;'Mgr. Martin Svoboda Ph.D.'
+KFY;UDPM;Úvod do poèítaèového modelování;5958;'Mgr. Martin Svoboda Ph.D.
 KMA;VFIN;Veøejné finance;6120;'Ing. Lucie Kopáèková Ph.D.
+KCH;P629;Toxikologie a legislavita ÈR a EU 2;6383;'Ing. Ivan Hrabal'
+KCH;P529;Toxikologie a legislavita ÈR a EU 1;6383;'Ing. Ivan Hrabal'
+KGEO;B303;Krajinná ekologie;6387;'Mgr. Michal Forejt Ph.D.'
+KBI;BK205;Biologie kvasinek;6543;'doc. RNDr. Dana Gášková CSc.'
+KBI;BP205;Biologie kvasinek;6543;'doc. RNDr. Dana Gášková CSc.'
+KBI;E126;Biophysics;6543;'doc. RNDr. Dana Gášková CSc.
+KBI;PD04;Nanoèástice v buòkách a tkáních;6543;'doc. RNDr. Dana Gášková CSc.'
+KCH;M112;Materiály a jejich mezní stavy;6633;'Mgr. Klára Caisová Ph.D.'
+KMA;VFIN;Veøejné finance;6773;'doc. Ing. Alena Maaytová Ph.D.'
+KFY;AMAT;Nekovové anorganické materiály;6886;'Ing. Pavlína Hájková Ph.D.'
+CNB;AMAT;Nekovové anorganické materiály;6886;'Ing. Pavlína Hájková Ph.D.'
+KGEO;M201;Politická geografie;6920;'RNDr. Gustav Novotnı Ph.D.'
 KI;ASK;Analıza síové komunikace;7152;'Ing. Vojtìch Šindler'
+KCH;M211;Úvod do modelování prùmyslovıch procesù;7307;'Ing. Martin Kantor Ph.D.'
+KCH;B314;Strukturní analıza organickıch slouèenin;7776;'Ing. Vadim Prokopec Ph.D.'
+KCH;BK314;Strukturní analıza organickıch slouèenin;7776;'Ing. Vadim Prokopec Ph.D.'
+KFY;PD55;Pøípr. a vyuití nanovlákennıch struktur;7805;'Ing. Marcela Munzarová Ph.D.'
+KBI;P422;Ekologie;8018;'Mgr. Michaela Czerneková Ph.D.'
+KBI;M102;Biologie èlenovcù;8018;'Mgr. Michaela Czerneková Ph.D.
+KBI;BK300;Kryptobióza;8018;'Mgr. Michaela Czerneková Ph.D.'
+KBI;P325;Biologie èlenovcù;8018;'Mgr. Michaela Czerneková Ph.D.
+KBI;E107;Ecology;8018;'Mgr. Michaela Czerneková Ph.D.'
+KBI;BP300;Kryptobióza;8018;'Mgr. Michaela Czerneková Ph.D.'
+KBI;E123;Animal and Plant Models in Biology;8018;'Mgr. Michaela Czerneková Ph.D.
+KBI;N030;Vybrané kapitoly z etologie bezobratlıch;8018;'Mgr. Michaela Czerneková Ph.D.'
+KBI;K411;Ekologie;8018;'Mgr. Michaela Czerneková Ph.D.'
+KBI;N018;Biologie èlenovcù;8018;'Mgr. Michaela Czerneková Ph.D.'
+KBI;P208;Didaktika biologie II;8021;'PaedDr. Milan Kubiatko PhD.'
+KBI;P108;Didaktika biologie I;8021;'PaedDr. Milan Kubiatko PhD.'
+KCH;PD10;Nanoporézní materiály;8073;'RNDr. Jakub Demel PhD.'
+KCH;PD12;Kompozity nanoèástic kovù a jejich oxidù;8074;'Ing. Darina Smrová Ph.D.'
+KCH;PD08;Nanokompozitní materiály na bázi uhlíku;8075;'Ing. Petra Ecorchard Ph.D.'
+KI;KOOD;Objektovì orientovanı návrh;8093;'Ing. Jan Svoboda'
+KI;OOD;Objektovì orientovanı návrh;8093;'Ing. Jan Svoboda'
+KBI;E120;Microscopy Techniques in Biology;8316;'Mgr. David Poustka
+KBI;ME302;Regulace a poruchy signálních drah .b.;8422;'Ing. Tomáš Vomastek Ph.D.'
 KI;EDAV;Data Analysis and Visualisation;8514;'Ricardo Rodriguez Jorge Ph.D.
 KI;EPYR;Python and R for Data Science;8514;'Ricardo Rodriguez Jorge Ph.D.
-KI;EMLR;Machine Learning Based on R Software;8514;'Ricardo Rodriguez Jorge Ph.D.'
 KI;EDMR;Data Mining Techniq. based on R Software;8514;'Ricardo Rodriguez Jorge Ph.D.'
+KI;EMLR;Machine Learning Based on R Software;8514;'Ricardo Rodriguez Jorge Ph.D.'
+KFY;PD307;Materials and Technolog. for Sust. Soc.;8515;'Ing. Tadeáš Riley Wangle Ph.D.'
 KMA;P103;Základy matematiky;8677;'Mgr. Jiøí Rozkovec'
 KMA;K413;Pravdìpodobnost a statistika I;8677;'Mgr. Jiøí Rozkovec'
-KMA;P335;Geometrie;8748;'RNDr. Lenka Juklová Ph.D.
 KMA;K312;Geometrie;8748;'RNDr. Lenka Juklová Ph.D.
+KMA;P335;Geometrie;8748;'RNDr. Lenka Juklová Ph.D.
 KMA;K512;Pravdìpodobnost a statistika II;8750;'Mgr. Bc. Lukáš Tichı'
+KCH;BK106;Anatomie a fyziologie èlovìka;8815;'Mgr. Petr Jošt Ph.D.'
+KCH;B106;Anatomie a fyziologie èlovìka;8815;'Mgr. Petr Jošt Ph.D.'
+KMA;CAS;Èasové øady;9304;'Ing. Ondøej Vozár'
+KMA;KCAS;Èasové øady;9304;'Ing. Ondøej Vozár'
+KBI;BP334;Paleontologie a paleoekologie;9790;'RNDr. Lucie Kunstmüllerová'
+KBI;BK334;Paleontologie a paleoekologie;9790;'RNDr. Lucie Kunstmüllerová'

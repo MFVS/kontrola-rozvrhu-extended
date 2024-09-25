@@ -292,6 +292,9 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
     katedry_list = predmety_ucitel_list.to_series(2).unique().to_list()
     print(katedry_list)
 
+    if len(katedry_list) < 1:
+        katedry_list.append("Hehe_am_errorous")
+
     loner = katedry_list.pop(0)
 
     params_kat_predmety = {

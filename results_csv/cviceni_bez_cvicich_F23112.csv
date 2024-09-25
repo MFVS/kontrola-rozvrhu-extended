@@ -1,30 +1,68 @@
 katedra;zkratka;idno;typAkceZkr;rok;datumOd;datumDo;hodinaSkutOd;hodinaSkutDo;katedra_right;nazev;cvicici;cviciciUcitIdno;jmena
-KI;BTE;2776;Cv;2023;5.10.2023;4.1.2024;15:00;16:50;KI;Bezpeènostní technologie;"";;Krejèí Jan, RNDr. Ph.D.
-KI;EDAV;6973;Cv;2023;6.3.2024;15.5.2024;16:00;16:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Beránek Pavel, Ing. Mgr.
-KI;EDAV;3416;Cv;2023;6.3.2024;15.5.2024;16:00;16:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Babichev Sergii, prof. DSc.
-KI;EDAV;6259;Cv;2023;6.3.2024;15.5.2024;16:00;16:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Škvára Jiøí, RNDr. Ph.D.
-KI;EDMR;3416;Cv;2023;14.3.2024;9.5.2024;14:00;14:50;KI;Data Mining Techniq. based on R Software;'Ricardo Rodriguez Jorge, Ph.D.';8514;Babichev Sergii, prof. DSc.
-KI;EGUI;6973;Cv;2023;22.2.2024;16.5.2024;10:00;11:50;KI;GUI Programming;'RNDr. Petr Kubera, Ph.D.';650;Beránek Pavel, Ing. Mgr.
-KI;EMLR;3416;Cv;2023;12.3.2024;7.5.2024;11:00;11:50;KI;Machine Learning Based on R Software;'Ricardo Rodriguez Jorge, Ph.D.';8514;Babichev Sergii, prof. DSc.
-KMA;K103;267;Cv;2023;19.11.2023;19.11.2023;09:00;12:50;KMA;Základy matematiky;'prof. RNDr. Jiøí Cihláø, CSc.';1108;Pøibyl Jiøí, PhDr. Ph.D.
-KMA;K103;267;Cv;2023;8.10.2023;8.10.2023;09:00;12:50;KMA;Základy matematiky;'prof. RNDr. Jiøí Cihláø, CSc.';1108;Pøibyl Jiøí, PhDr. Ph.D.
-KMA;K103;267;Cv;2023;17.12.2023;17.12.2023;09:00;12:50;KMA;Základy matematiky;'prof. RNDr. Jiøí Cihláø, CSc.';1108;Pøibyl Jiøí, PhDr. Ph.D.
-KMA;KCAS;2220;Cv;2023;24.3.2024;24.3.2024;09:00;10:50;KMA;Èasové øady;'Mgr. Alena Èerníková, MSc., Ph.D.', 'Mgr. Lucie Loukotová';9488, 3188;Škvor Jiøí, RNDr. Ph.D.
-KI;KDI2;2776;Cv;2023;4.5.2024;4.5.2024;14:00;17:50;KI;Didaktika informatiky II;'Mgr. Kamil Balín', 'Mgr. Kvìtuše Sýkorová';1165, 835;Krejèí Jan, RNDr. Ph.D.
-KI;KDI2;2776;Cv;2023;13.4.2024;13.4.2024;11:00;12:50;KI;Didaktika informatiky II;'Mgr. Kamil Balín', 'Mgr. Kvìtuše Sýkorová';1165, 835;Krejèí Jan, RNDr. Ph.D.
-KMA;KGE2;;Cv;2023;5.1.2024;5.1.2024;14:00;17:50;KMA;Geometrie II;'PhDr. Jiøí Pøibyl, Ph.D.';267;
-KMA;KGE2;;Cv;2023;8.12.2023;8.12.2023;14:00;17:50;KMA;Geometrie II;'PhDr. Jiøí Pøibyl, Ph.D.';267;
-KI;KOOD;6973;Cv;2023;2.12.2023;2.12.2023;12:00;15:50;KI;Objektovì orientovaný návrh;"";;Beránek Pavel, Ing. Mgr.
-KI;KOONV;6973;Cv;2023;25.11.2023;25.11.2023;14:00;17:50;KI;Objektovì orientované návrhové vzory;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Roman Saòa';251, 8753;Beránek Pavel, Ing. Mgr.
-KI;KOONV;6973;Cv;2023;5.11.2023;5.11.2023;16:00;17:50;KI;Objektovì orientované návrhové vzory;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Roman Saòa';251, 8753;Beránek Pavel, Ing. Mgr.
-KI;KOPS;1165;Cv;2023;5.5.2024;5.5.2024;14:00;17:50;KI;Operaèní systémy;'RNDr. Petr Kubera, Ph.D.';650;Balín Kamil, Mgr.
-KI;KPDSA;3416;Cv;2023;17.12.2023;17.12.2023;14:00;17:50;KI;Pokroèilé datové struktury a algoritmy;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Kvìtuše Sýkorová', 'RNDr. Jiøí Škvor, Ph.D.';251, 835, 2220;Babichev Sergii, prof. DSc.
-KI;KPRI;9642;Cv;2023;7.4.2024;7.4.2024;14:00;17:50;KI;Programování pro internet;'doc. RNDr. Mgr. Viktor Maškov, DrSc.';2239;Burle Jan, Ing. Ph.D.
-KI;NME;449;Cv;2023;4.10.2023;3.1.2024;14:00;15:50;KI;Numerické metody;'RNDr. Petr Kubera, Ph.D.', 'Mgr. Kvìtuše Sýkorová', 'RNDr. Jiøí Škvor, Ph.D.';650, 835, 2220;Barilla Jiøí, doc. Ing. Mgr. CSc.
-KMA;ODR;;Cv;2023;5.10.2023;4.1.2024;17:00;18:50;KMA;Obyèejné diferenciální rovnice;'RNDr. Veronika Lacková, Ph.D.', 'doc. RNDr. Bohumír Opic, DrSc.';5205, 8438;
-KI;OOD;6973;Cv;2023;4.10.2023;3.1.2024;17:00;17:50;KI;Objektovì orientovaný návrh;"";;Beránek Pavel, Ing. Mgr.
-KI;OON;6973;Cv;2023;4.10.2023;3.1.2024;17:00;17:50;KI;Objektovì orientovaný návrh;'RNDr. Petr Kubera, Ph.D.';650;Beránek Pavel, Ing. Mgr.
-KI;OONV;6973;Cv;2023;6.10.2023;5.1.2024;18:00;19:50;KI;Objektovì orientované návrhové vzory;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Roman Saòa';251, 8753;Beránek Pavel, Ing. Mgr.
-KI;PDSA;3416;Cv;2023;6.10.2023;5.1.2024;14:00;15:50;KI;Pokroèilé datové struktury a algoritmy;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Kvìtuše Sýkorová', 'RNDr. Jiøí Škvor, Ph.D.';251, 835, 2220;Babichev Sergii, prof. DSc.
-KI;PRI;9642;Cv;2023;20.2.2024;14.5.2024;17:00;18:50;KI;Programování pro internet;'doc. RNDr. Mgr. Viktor Maškov, DrSc.';2239;Burle Jan, Ing. Ph.D.
-KI;VPOV;9114;Cv;2023;21.2.2024;24.4.2024;16:00;16:50;KI;Vybrané partie z operaèního výzkumu;'RNDr. Petr Kubera, Ph.D.';650;Moosaei Hossein, Dr. Ph.D.
+KCH;B100;3705;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KCH;B100;3705;Cv;2024;2.10.2024;18.12.2024;08:00;09:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KCH;B103;1319;Cv;2024;28.11.2024;28.11.2024;15:00;17:50;KCH;Bezpeènost a hygiena práce;'MUDr. Eva Solcerová';1800;Stupák Rudolf, MUDr.
+KCH;B103;1319;Cv;2024;14.11.2024;14.11.2024;15:00;17:50;KCH;Bezpeènost a hygiena práce;'MUDr. Eva Solcerová';1800;Stupák Rudolf, MUDr.
+KGEO;B104;8819;Cv;2024;3.10.2024;2.1.2025;15:00;16:50;KGEO;Geografická kartografie;'Mgr. Martin Dolejš, Ph.D.', 'Mgr. Petr Meyer, Ph.D.';4303, 5855;Bartùnìk Martin, Mgr.
+KGEO;B104;8819;Cv;2024;2.10.2024;18.12.2024;15:00;16:50;KGEO;Geografická kartografie;'Mgr. Martin Dolejš, Ph.D.', 'Mgr. Petr Meyer, Ph.D.';4303, 5855;Bartùnìk Martin, Mgr.
+KCH;B200;9645;Cv;2024;1.10.2024;17.12.2024;12:00;12:50;KCH;Organická chemie;'Mgr. Tereza Dušková';9302;Babor Martin, Ing. Ph.D.
+KCH;B200;9645;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KCH;Organická chemie;'Mgr. Tereza Dušková';9302;Babor Martin, Ing. Ph.D.
+KCH;B202;9301;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;KCH;Laboratorní cvièení z anorganické chemie;'Ing. Ivana Kadleèková', 'RNDr. Václav Šícha, Ph.D.';4226, 4310;Greguš Viktor, Ing.
+KCH;B202;7981;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;KCH;Laboratorní cvièení z anorganické chemie;'Ing. Ivana Kadleèková', 'RNDr. Václav Šícha, Ph.D.';4226, 4310;Kaule Pavel, Mgr.
+KGEO;B304;9265;Cv;2024;3.10.2024;2.1.2025;12:00;12:50;KGEO;Rozvojové problémy regionù Èeska;'Mgr. Jan Píša, Ph.D.';6919;Král Tomáš, Mgr.
+KCH;B304;9431;Cv;2024;1.10.2024;17.12.2024;07:00;09:50;KCH;Chemické inženýrství;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Harrandt Václav, Mgr.
+KGEO;B308;315;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KGEO;Monitor. vybr. prvkù atmosf.a hydrosf. I;"";;Farský Ivan, RNDr. CSc.
+KGEO;B501;9794;Cv;2024;2.10.2024;18.12.2024;15:00;16:50;KGEO;Geografie modelového regionu;'Mgr. Zdeòka Smutná, Ph.D.';7684;Lukešová Šárka, Mgr.
+KGEO;B600;6919;Cv;2024;2.10.2024;18.12.2024;13:00;14:50;KGEO;Bakaláøská práce z geografie;"";;Píša Jan, Mgr. Ph.D.
+KGEO;B603;6919;Cv;2024;2.10.2024;18.12.2024;13:00;14:50;KGEO;Pøíprava k SZZ a obhajobì BP;'doc. PhDr. RNDr. Jan Daniel Bláha, Ph.D.', 'RNDr. Silvie Rita Kuèerová, Ph.D.';3452, 3528;Píša Jan, Mgr. Ph.D.
+KCH;BK100;3705;Cv;2024;21.12.2024;21.12.2024;14:00;17:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KCH;BK100;3705;Cv;2024;9.11.2024;9.11.2024;08:00;11:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KGEO;BK100;3164;Cv;2024;5.10.2024;5.10.2024;10:00;13:50;KGEO;Základy geologie;"";;Riezner Jiøí, Mgr. Ph.D.
+KBI;BK120;9116;Cv;2024;19.10.2024;19.10.2024;09:00;16:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianský, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KFY;BK201;613;Cv;2024;14.12.2024;14.12.2024;09:00;12:50;KFY;Fyzika pro chemiky II;"";;Švec Martin, RNDr. Ph.D.
+KCH;BK304;9431;Cv;2024;4.1.2025;4.1.2025;16:00;19:50;KCH;Chemické inženýrství;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Harrandt Václav, Mgr.
+KCH;BK304;9431;Cv;2024;30.11.2024;30.11.2024;13:00;16:50;KCH;Chemické inženýrství;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Harrandt Václav, Mgr.
+KCH;BK304;9431;Cv;2024;7.12.2024;7.12.2024;13:00;16:50;KCH;Chemické inženýrství;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Harrandt Václav, Mgr.
+KCH;BK306;9302;Cv;2024;3.1.2025;3.1.2025;12:00;15:50;KCH;Heterocyklické a organokovové slouèeniny;'RNDr. Thu Huong Nguyen Thi, Ph.D.';429;Dušková Tereza, Mgr.
+KBI;BK333;8512;Cv;2024;4.1.2025;4.1.2025;09:00;16:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Ipser, CSc.';930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KBI;BP120;9116;Cv;2024;2.10.2024;11.12.2024;08:00;11:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianský, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;BP120;9116;Cv;2024;14.10.2024;9.12.2024;08:00;11:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianský, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;BP333;8512;Cv;2024;2.10.2024;11.12.2024;12:00;15:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Ipser, CSc.';930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KBI;BP333;8512;Cv;2024;7.10.2024;16.12.2024;16:00;19:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Ipser, CSc.';930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KBI;BP333;8512;Cv;2024;9.10.2024;18.12.2024;12:00;15:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Ipser, CSc.';930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KFY;FORT;3222;Cv;2024;1.10.2024;17.12.2024;07:00;09:50;KFY;Programování - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;Mouèka Filip, doc. RNDr. Ph.D.
+KI;ICTE;2317;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KI;Základy ICT;'RNDr. Jan Krejèí, Ph.D.';2776;Kuba Pavel, Ing. Ph.D.
+KBI;IT2;1503;Cv;2024;2.10.2024;18.12.2024;08:00;09:50;KBI;Informaèní technologie v bio. vìdách II;"";;Štofik Marcel, Mgr. Ph.D.
+KBI;K101;8317;Cv;2024;12.10.2024;12.10.2024;13:00;18:50;KBI;Úvod do studia biologie;'RNDr. Jan Ipser, CSc.';930;Herma Regina, RNDr. Ph.D.
+KBI;KB120;9116;Cv;2024;19.10.2024;19.10.2024;09:00;16:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianský, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;KB333;8512;Cv;2024;4.1.2025;4.1.2025;09:00;16:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.';5094, 930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KFY;KFORT;3222;Cv;2024;23.11.2024;23.11.2024;09:00;12:50;KFY;Programování - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;Mouèka Filip, doc. RNDr. Ph.D.
+KFY;KFORT;3222;Cv;2024;30.11.2024;30.11.2024;09:00;12:50;KFY;Programování - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;Mouèka Filip, doc. RNDr. Ph.D.
+KFY;KFORT;3222;Cv;2024;9.11.2024;9.11.2024;14:00;17:50;KFY;Programování - Fortran;'Mgr. Martin Svoboda, Ph.D.';5958;Mouèka Filip, doc. RNDr. Ph.D.
+KBI;KIT2;1503;Cv;2024;12.10.2024;12.10.2024;13:00;18:50;KBI;Informaèní technologie v bio. vìdách II;"";;Štofik Marcel, Mgr. Ph.D.
+KBI;KIT2;1503;Cv;2024;16.11.2024;16.11.2024;14:00;19:50;KBI;Informaèní technologie v bio. vìdách II;"";;Štofik Marcel, Mgr. Ph.D.
+KFY;KPPM1;7283;Cv;2024;3.1.2025;3.1.2025;09:00;12:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malý, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;KPPM1;7283;Cv;2024;29.11.2024;29.11.2024;09:00;12:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malý, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;KPPM1;7283;Cv;2024;13.12.2024;13.12.2024;09:00;12:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malý, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;KPPM1;7283;Cv;2024;1.11.2024;1.11.2024;09:00;12:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malý, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+KFY;LB2;8739;Cv;2024;2.10.2024;18.12.2024;10:00;13:50;KFY;Laboratorní praktikum II;'prof. Ing. Zdeòka Kolská, Ph.D.', 'doc. Ing. Martin Kormunda, Ph.D.', 'Mgr. Jan Malý, Ph.D.', 'Mgr. Jindøich Matoušek, Ph.D.', 'Mgr. Marcel Štofik, Ph.D.';332, 2384, 280, 4680, 1503;Jagerová Adéla, RNDr. Ph.D.
+KCH;LBA;9301;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;KCH;Laboratorní cvièení z anorganické chemie;'Mgr. Pavel Kaule', 'RNDr. Václav Šícha, Ph.D.';7981, 4310;Greguš Viktor, Ing.
+KFY;M100;7723;Cv;2024;2.10.2024;18.12.2024;13:00;15:50;KFY;Poèítaè. modelování spojitých soustav I;'doc. Ing. Jaromír Havlica, Ph.D.';1803;Kramoliš David, RNDr. Ph.D.
+KBI;M101;3661;Cv;2024;2.10.2024;18.12.2024;11:00;11:50;KBI;Biologie pùdních mikroorganismù;'RNDr. Pavel Branny, CSc.';8154;Gryndler Milan, prof. doc. RNDr. CSc.
+KCH;M102;8198;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KCH;Environmental Biotechnology;'doc. Ing. Josef Trögl, Ph.D.';2065;Al Souki Karim, Ph.D.
+KCH;M105;9301;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;KCH;Syntézy, izolace a charakter. materiálù;'doc. Ing. Jiøí Henych, Ph.D.', 'RNDr. Petr Ryšánek, Ph.D.', 'RNDr. Václav Šícha, Ph.D.', 'RNDr. Milan Šmídl, Ph.D.';5431, 4587, 4310, 3704;Greguš Viktor, Ing.
+KCH;M105;7981;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;KCH;Syntézy, izolace a charakter. materiálù;'doc. Ing. Jiøí Henych, Ph.D.', 'RNDr. Petr Ryšánek, Ph.D.', 'RNDr. Václav Šícha, Ph.D.', 'RNDr. Milan Šmídl, Ph.D.';5431, 4587, 4310, 3704;Kaule Pavel, Mgr.
+KGEO;M109;2214;Cv;2024;7.10.2024;16.12.2024;10:00;11:50;KGEO;Metody a aplikace historické geografie;'doc. Mgr. Pavel Raška, Ph.D.';1434;Zábranský Vilém, Mgr. Ph.D.
+KBI;M303;8198;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KBI;Environmental Biotechnology;'prof. Valentyna Pidlisniuk, DrSc.';5927;Al Souki Karim, Ph.D.
+KGEO;M401;6919;Cv;2024;2.10.2024;18.12.2024;13:00;14:50;KGEO;Pøíprava k SZZ a obhajobì DP;'RNDr. Silvie Rita Kuèerová, Ph.D.';3528;Píša Jan, Mgr. Ph.D.
+KBI;MA201;8761;Cv;2024;19.2.2025;14.5.2025;17:00;18:50;KBI;Metody studia ekosystémù;'Mgr. Diana Holcová, Ph.D.', 'Mgr. Michal Holec, Ph.D.';3212, 555;Horèièková Eva, Mgr. Ph.D.
+KCH;OCHE;3705;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KCH;Obecná chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KFY;OPT;7283;Cv;2024;3.10.2024;2.1.2025;13:00;14:50;KFY;Kmity a vlny. Optika.;'RNDr. Eva Hejnová, Ph.D.';301;
+KCH;P391;3705;Cv;2024;2.10.2024;18.12.2024;10:00;11:50;KCH;Úvod do chemie;'doc. RNDr. Jan Jirsák, Ph.D.';2855;Petrusová Zuzana, Ing. Ph.D.
+KCH;P514;2856;Cv;2024;3.10.2024;2.1.2025;10:00;11:50;KCH;PVK - Souborný semináø I;'doc. RNDr. Jan Jirsák, Ph.D.', 'RNDr. Thu Huong Nguyen Thi, Ph.D.', 'RNDr. Václav Šícha, Ph.D.', 'RNDr. ¼uboš Vrtoch, Ph.D.';2855, 429, 4310, 4117;Škvorová Magda, Ing. Ph.D.
+KBI;PB120;9116;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianský, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;PB120;9116;Cv;2024;14.10.2024;9.12.2024;08:00;11:50;KBI;Biologické laboratorní metody I;'Mgr. Lukáš Bystrianský, Ph.D.', 'RNDr. Lenka Nìmcová, CSc.';5969, 283;Štìpka Jan, Mgr. DiS.
+KBI;PB333;8512;Cv;2024;2.10.2024;11.12.2024;16:00;19:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.';5094, 930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KBI;PB333;8512;Cv;2024;9.10.2024;18.12.2024;16:00;19:50;KBI;Biologie prokaryot a virù;'RNDr. Jan Bobek, Ph.D.', 'RNDr. Jan Ipser, CSc.';5094, 930;Šebestová Janoušková Olga, Mgr. Ph.D.
+KFY;PPM1;7283;Cv;2024;1.10.2024;17.12.2024;12:00;15:50;KFY;Praktikum poèítaèového modelování I;'doc. RNDr. Marek Malý, Ph.D.', 'Mgr. Martin Svoboda, Ph.D.';304, 5958;
+CNB;UNM;3553;Cv;2024;7.10.2024;16.12.2024;14:00;14:50;CNB;Úvod do nanotechnologií a nanomateriálù;'doc. RNDr. Stanislav Daniš, Ph.D.', 'prof. Ing. Zdeòka Kolská, Ph.D.';9281, 332;Èapková Pavla, prof. RNDr. DrSc.
