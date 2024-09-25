@@ -1,139 +1,31 @@
 katedra;zkratka;nazev;prednasejiciUcitIdno;jmena
-KI;YTIM;Teoretická informatika a matematika;261;'doc. PaedDr. Petr Eisenmann CSc.
-KI;KTZI2;Teoretické základy informatiky II;264;'RNDr. Martin Kuøil Ph.D.
-KI;TZI2;Teoretické základy informatiky II;264;'RNDr. Martin Kuøil Ph.D.
-KI;YTIM;Teoretická informatika a matematika;264;'RNDr. Martin Kuøil Ph.D.
-KI;PNUM;Pokroèilé numerické metody;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;KTZI;Teoretické základy informatiky;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;KAFJ;Teorie automatù a formálních jazykù;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;EAFJ;Theory of Automata and Formal Languages;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;AFJ;Teorie automatù a formálních jazykù;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;ETFI;Automata and Formal Language Theory;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;TFL;Teorie formálních jazykù;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;KPNUM;Pokroèilé numerické metody;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;XNME;Numerické metody;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;NME;Numerické metody;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;OTT;Optimalizace;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;KOTT;Optimalizace;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;TZI;Teoretické základy informatiky;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;KOPT;Optimalizace;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
 KI;PPG;Paralelní programování;609;'prof. Ing. Martin Lísal DSc.
 KI;KPPG;Paralelní programování;609;'prof. Ing. Martin Lísal DSc.
 KI;MAI;Matematika pro informatiky;816;'doc. RNDr. Jiøí Felcman CSc.
-KI;AKR;Aplikovaná kryptologie;835;'Mgr. Kvìtuše Sıkorová'
-KI;KRY;Základy kryptologie;835;'Mgr. Kvìtuše Sıkorová'
-KI;EDSA;Algorithms and Data Structures;835;'Mgr. Kvìtuše Sıkorová
-KI;KZKR;Základy kryptologie;835;'Mgr. Kvìtuše Sıkorová'
-KI;KDSA;Algoritmy a datové struktury;835;'Mgr. Kvìtuše Sıkorová
-KI;DSA;Algoritmy a datové struktury;835;'Mgr. Kvìtuše Sıkorová
-KI;ZKB;Základy kyberbezpeènosti;835;'Mgr. Kvìtuše Sıkorová'
-KI;KKRY;Základy kryptologie;835;'Mgr. Kvìtuše Sıkorová'
-KI;ZKR;Základy kryptologie;835;'Mgr. Kvìtuše Sıkorová'
-KI;KZKB;Základy kyberbezpeènosti;835;'Mgr. Kvìtuše Sıkorová'
-KI;XADS;Algoritmy a datové struktury;835;'Mgr. Kvìtuše Sıkorová'
-KI;ADS;Algoritmy a datové struktury;835;'Mgr. Kvìtuše Sıkorová'
-KI;SOK;Samoopravné kódy;835;'Mgr. Kvìtuše Sıkorová'
-KI;KFIS;Projektové øízení a firemní IS;2220;'RNDr. Jiøí Škvor Ph.D.
-KI;KMIS;Podnikovı management a IS;2220;'RNDr. Jiøí Škvor Ph.D.
-KI;KPYR;Python and R for Data Science;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KNME;Numerické metody;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;EDAV;Data Analysis and Visualisation;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;A192;Computational Geometry;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;EDSA;Algorithms and Data Structures;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KDSA;Algoritmy a datové struktury;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;PYR;Python and R for Data Science;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;PDSA;Pokroèilé datové struktury a algoritmy;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;DSA;Algoritmy a datové struktury;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;0192;Vıpoèetní geometrie;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KPDSA;Pokroèilé datové struktury a algoritmy;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;MIS;Podnikovı management a IS;2220;'RNDr. Jiøí Škvor Ph.D.
-KI;KAVD;Analıza a vizualizace dat;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;AVD;Analıza a vizualizace dat;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;ENME;Numerical Methods;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;XNME;Numerické metody;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;NME;Numerické metody;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KVM;Kvantitativní management;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;FIS;Projektové øízení a firemní IS;2220;'RNDr. Jiøí Škvor Ph.D.
-KI;EPYR;Python and R for Data Science;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;ZEM;Základy ekonomie a managementu;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KDSW;Dependabilita softwarovıch systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KBET;Bezpeènostní technologie;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;AKR;Aplikovaná kryptologie;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KI;KDIS;Dependabilita informaèních systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KDEP;Dependabilita informaèních systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;DIS;Dependabilita informaèních systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KPRI;Programování pro internet;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KNME;Numerické metody;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KI;SOC;Soft Computing;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;PIN;Programování pro Internet;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;ESOC;Soft Computing;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;BET;Bezpeènostní technologie;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KZPP;Základy poèítaèovıch sítí a protokolù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KSOC;Soft Computing;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;DEP;Dependabilita informaèních systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;PDSA;Pokroèilé datové struktury a algoritmy;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KI;ZKB;Základy kyberbezpeènosti;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KI;PRI;Programování pro internet;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;DSY;Databázové systémy;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;APC;Architektura poèítaèù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;EDHW;Dependability of Hardware Systems;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KZKB;Základy kyberbezpeènosti;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KI;EDEP;Dependability of Information Systems;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KPDSA;Pokroèilé datové struktury a algoritmy;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KI;KDHW;Dependabilita hardwarovıch systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;EPIN;Internet Programming;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;BIT;Bezpeènost IS/IT;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;PGH;Programování hardwaru;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;DHW;Dependabilita hardwarovıch systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;EDSW;Dependability of Software Systems;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;ZPP;Základy poèítaèovıch sítí a protokolù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KDSY;Databázové systémy;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;EDSY;Database Systems;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;DSW;Dependabilita softwarovıch systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KPGH;Programování hardwaru;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;UKR;Úvod do kryptografie;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KAPC;Architektura poèítaèù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KPIN;Programování pro Internet;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;PSI1;Poèítaèové sítì I;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;PSI2;Poèítaèové sítì II;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KDSA;Algoritmy a datové struktury;2240;'doc. RNDr. Dr. Karel Oliva
+KMA;K516;Statistika na PC;1456;'Mgr. Ing. Jana Gabèanová'
+KMA;LOG;Logistika;1569;'Ing. Daniela Vyslouilová Ph.D.'
 KI;DSA;Algoritmy a datové struktury;2240;'doc. RNDr. Dr. Karel Oliva
 KI;TFL;Teorie formálních jazykù;2240;'doc. RNDr. Dr. Karel Oliva'
-KI;KSYS;System Simulation;2855;'doc. RNDr. Jan Jirsák Ph.D.
+KI;KDSA;Algoritmy a datové struktury;2240;'doc. RNDr. Dr. Karel Oliva
+KMA;ZFIN;Základy financí;2821;'Ing. Kateøina Felixová Ph.D.'
+KMA;FINA;Finanèní analıza;2821;'Ing. Kateøina Felixová Ph.D.'
 KI;SYS;System Simulation;2855;'doc. RNDr. Jan Jirsák Ph.D.
+KI;KSYS;System Simulation;2855;'doc. RNDr. Jan Jirsák Ph.D.
 KI;PSP;Poèítaèové sítì a protokoly;3458;'Ing. Toni Koluch Ph.D.'
-KI;EDAV;Data Analysis and Visualisation;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;MAI;Matematika pro informatiky;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;DINB;Datová a informaèní bezpeènost;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;EPPG;Parallel Programming;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KDIB;Datová a informaèní bezpeènost;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;PPG;Paralelní programování;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KPPG;Paralelní programování;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;PAR;Parallel Programming;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KSIM;Simulace systémù;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;DIB;Datová a informaèní bezpeènost;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KAVD;Analıza a vizualizace dat;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;SIM;Simulace systémù;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;AVD;Analıza a vizualizace dat;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;KSYS;System Simulation;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KPAR;Parallel Programming;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KDINB;Datová a informaèní bezpeènost;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;SYS;System Simulation;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;BIG;Datová úloištì a nástroje pro Big Data;4195;'Ing. Václav Valenta'
 KI;KBIG;Datová úloištì a nástroje pro Big Data;4195;'Ing. Václav Valenta'
+KI;BIG;Datová úloištì a nástroje pro Big Data;4195;'Ing. Václav Valenta'
 KI;0177;Information Security;4685;'Hoon Ko Ph.D.'
+KMA;LOG;Logistika;4691;'Ing. Vladimír Balach
 KI;AUC;Automatické øízení;5039;'doc. Ing. Mgr. Petr Klán CSc.'
-KI;YTIM;Teoretická informatika a matematika;5205;'RNDr. Veronika Lacková Ph.D.
-KI;AEL;Analogová elektronika;5232;'doc. RNDr. František Lustig CSc.'
-KI;KAEL;Analogová elektronika;5232;'doc. RNDr. František Lustig CSc.'
-KI;KANE;Analogová elektronika;5232;'doc. RNDr. František Lustig CSc.'
-KI;ANE;Analogová elektronika;5232;'doc. RNDr. František Lustig CSc.'
+KMA;VSP;Veøejná správa;5309;'Ing. Eva Krumpová
+KMA;VFIN;Veøejné finance;6120;'Ing. Lucie Kopáèková Ph.D.
 KI;ASK;Analıza síové komunikace;7152;'Ing. Vojtìch Šindler'
-KI;EMLR;Machine Learning Based on R Software;8514;'Ricardo Rodriguez Jorge Ph.D.'
 KI;EDAV;Data Analysis and Visualisation;8514;'Ricardo Rodriguez Jorge Ph.D.
-KI;EDMR;Data Mining Techniq. based on R Software;8514;'Ricardo Rodriguez Jorge Ph.D.'
 KI;EPYR;Python and R for Data Science;8514;'Ricardo Rodriguez Jorge Ph.D.
-KI;OPR;Optimální rozhodování;9114;'Dr. Hossein Moosaei Ph.D.'
-KI;KOPR;Optimální rozhodování;9114;'Dr. Hossein Moosaei Ph.D.'
-KI;EOMLM;Optimiz. for Mach. Learning with MATLAB;9114;'Dr. Hossein Moosaei Ph.D.'
-KI;OMLM;Optimization for ML with MATLAB;9114;'Dr. Hossein Moosaei Ph.D.'
+KI;EMLR;Machine Learning Based on R Software;8514;'Ricardo Rodriguez Jorge Ph.D.'
+KI;EDMR;Data Mining Techniq. based on R Software;8514;'Ricardo Rodriguez Jorge Ph.D.'
+KMA;P103;Základy matematiky;8677;'Mgr. Jiøí Rozkovec'
+KMA;K413;Pravdìpodobnost a statistika I;8677;'Mgr. Jiøí Rozkovec'
+KMA;P335;Geometrie;8748;'RNDr. Lenka Juklová Ph.D.
+KMA;K312;Geometrie;8748;'RNDr. Lenka Juklová Ph.D.
+KMA;K512;Pravdìpodobnost a statistika II;8750;'Mgr. Bc. Lukáš Tichı'

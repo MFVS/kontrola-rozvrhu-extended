@@ -235,6 +235,10 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
         print("Dataframes appended. Continuing to next item.")
 
     print("here")
+
+    prep_csv(excel_rozvrhy).write_csv("source_testing/rozvrhy_PRF.csv")
+    prep_csv(excel_predmety).write_csv("source_testing/predmety_PRF.csv")
+
     return {
         "rozvrhy":excel_rozvrhy,
         "predmety":excel_predmety

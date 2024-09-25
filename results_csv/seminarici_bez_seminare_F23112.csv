@@ -1,114 +1,10 @@
 katedra;zkratka;nazev;seminariciUcitIdno;jmena
 KI;EIS;Podnikové informaèní systémy;14;'Ing. Hana Hájková
 KI;KEIS;Podnikové informaèní systémy;14;'Ing. Hana Hájková
-KI;KSP1;Semestrální projekt I;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;0175;Úvod do Event-B;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;KZZD;Základy zpracování dat;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;0185;Souborný semináø;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;ZZD;Základy zpracování dat;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;KNUM;Numerické metody;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;SP2;Semestrální projekt II;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;PVPS;Praktické využití Petriho sítí;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;0131;Manažerský excel;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;0168;Hybridní Petriho sítì;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;TFL;Teorie formálních jazykù;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;ZICT;Základy ICT;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;KPVPS;Praktické využití Petriho sítí;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;KSP2;Semestrální projekt II;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;ICT;Informaèní a komunikaèní technologie;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;0054;Programování ve VBA;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;NUM;Numerické metody;449;'doc. Ing. Mgr. Jiøí Barilla CSc.
-KI;0169;Pokroèilé techniky ve VBA;449;'doc. Ing. Mgr. Jiøí Barilla CSc.'
-KI;KZICT;Základy ICT;835;'Mgr. Kvìtuše Sýkorová'
-KI;KZZD;Základy zpracování dat;835;'Mgr. Kvìtuše Sýkorová
-KI;YAPR;Algoritmizace a programování;835;'Mgr. Kvìtuše Sýkorová'
-KI;KICT;Informaèní a komunikaèní technologie;835;'Mgr. Kvìtuše Sýkorová'
-KI;ZZD;Základy zpracování dat;835;'Mgr. Kvìtuše Sýkorová
-KI;0152;MIS/Business Intelligence;835;'Mgr. Kvìtuše Sýkorová'
-KI;KZKR;Základy kryptologie;835;'Mgr. Kvìtuše Sýkorová'
-KI;KAKA;Aplikovaná kryptoanalýza;835;'Mgr. Kvìtuše Sýkorová'
-KI;TKO;Teorie kódování;835;'Mgr. Kvìtuše Sýkorová'
-KI;KMSW;Matematický software;835;'Mgr. Kvìtuše Sýkorová'
-KI;XADS;Algoritmy a datové struktury;835;'Mgr. Kvìtuše Sýkorová'
-KI;ZICT;Základy ICT;835;'Mgr. Kvìtuše Sýkorová'
-KI;0204;Microsoft SQL Server;835;'Mgr. Kvìtuše Sýkorová'
-KI;YRDB;Relaèní databáze;835;'Mgr. Kvìtuše Sýkorová'
-KI;MSW;Matematický software;835;'Mgr. Kvìtuše Sýkorová'
-KI;ICT;Informaèní a komunikaèní technologie;835;'Mgr. Kvìtuše Sýkorová'
-KI;KODM;OLAP a Data mining;835;'Mgr. Kvìtuše Sýkorová'
-KI;0167;Úvod do zpracování a analýzy dat;835;'Mgr. Kvìtuše Sýkorová'
-KI;ODM;OLAP a Data mining;835;'Mgr. Kvìtuše Sýkorová'
-KI;AKA;Aplikovaná kryptoanalýza;835;'Mgr. Kvìtuše Sýkorová'
-KI;PDSY;Praktikum z databázových systémù;835;'Mgr. Kvìtuše Sýkorová'
 KI;EIS;Podnikové informaèní systémy;1609;'Ing. Pavel Poláèek
 KI;KEIS;Podnikové informaèní systémy;1609;'Ing. Pavel Poláèek
-KI;KSP3;Semestrální projekt III;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KPVS;Projektové výzvy a strategie v IT;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KPS2;Projektový semináø II;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KPS1;Projektový semináø I;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KSP1;Semestrální projekt I;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KPROJ;Projektový semináø;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KPEM;Právní a ekonomické minimum pro IT;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KZZD;Základy zpracování dat;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;0185;Souborný semináø;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;PVS;Projektové výzvy a strategie v IT;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;ZZD;Základy zpracování dat;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KNUM;Numerické metody;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;SP2;Semestrální projekt II;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;OPRE;Odborná prezentace;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;PS1;Projektový semináø I;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KZEK;Základy ekonomie;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;ZEK;Základy ekonomie;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;PRAX;Odborná praxe;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KOPRE;Odborná prezentace;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KMES;Mezioborové souvislosti;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;PREP;Prezentace projektu;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KUKS;Úvod do kombinovaného studia;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;PEM;Právní a ekonomické minimum pro IT;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;AVG;Aplikace výpoèetní geometrie;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;PS2;Projektový semináø II;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;SP1;Semestrální projekt I;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;MES;Mezioborové souvislosti;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KSP2;Semestrální projekt II;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;NUM;Numerické metody;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;OSIT;Odborný semináø IT;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;SP3;Semestrální projekt III;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KAVG;Aplikace výpoèetní geometrie;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;ZEM;Základy ekonomie a managementu;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;PROJ;Projektový semináø;2220;'RNDr. Jiøí Škvor Ph.D.'
-KI;KDIS;Dependabilita informaèních systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;KDSHS;Dependabilita SW a HW systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;SWI;Softwarové inženýrství;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KI;KSWI;Softwarové inženýrství;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KI;NOP;Odborná praxe;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;MRL;Znaèkovací jazyky;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;OSIT;Odborný semináø IT;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KI;DSHS;Dependabilita SW a HW systémù;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
 KI;EIS;Podnikové informaèní systémy;3457;'Ing. Roman Vaibar Ph.D., MBA'
 KI;KEIS;Podnikové informaèní systémy;3457;'Ing. Roman Vaibar Ph.D., MBA'
-KI;KSP3;Semestrální projekt III;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;KSP1;Semestrální projekt I;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;KASO2;Analýza signálu a obrazu v praxi II;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KPROJ;Projektový semináø;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;PZS;Poèítaèové zpracování signálu;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;ASO1;Analýza signálu a obrazu v praxi I;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;YAPR;Algoritmizace a programování;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;KPZS;Poèítaèové zpracování signálu;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;SP2;Semestrální projekt II;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;0206;Poèítaèové zpracování biologických dat;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;APSIM;System Simulation in Practice;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KPMBS;Poèítaèové model. biologických systémù;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KMSW;Matematický software;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;ZICT;Základy ICT;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;PMBS;Poèítaèové model. biologických systémù;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;MSW;Matematický software;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;SP1;Semestrální projekt I;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;KSP2;Semestrální projekt II;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;0170;Aplikace systému Matlab;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;SP3;Semestrální projekt III;3521;'doc. RNDr. Zbyšek Posel Ph.D.
-KI;ASO2;Analýza signálu a obrazu v praxi II;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;KASO1;Analýza signálu a obrazu v praxi I;3521;'doc. RNDr. Zbyšek Posel Ph.D.'
-KI;PROJ;Projektový semináø;3521;'doc. RNDr. Zbyšek Posel Ph.D.
 KI;EIS;Podnikové informaèní systémy;3606;'Ing. Jana Hubáèková DiS.
 KI;KEIS;Podnikové informaèní systémy;3606;'Ing. Jana Hubáèková DiS.
 KI;SON;Sociální sítì;4190;'Ing. Libor Mìsíèek Ph.D.'
@@ -118,16 +14,8 @@ KI;AHW;Praktické aplikace hardwaru;4746;'Ing. Jiøí Šretr'
 KI;0182;Základy autonomní robotiky;4746;'Ing. Jiøí Šretr'
 KI;EIS;Podnikové informaèní systémy;4991;'Ing. Miroslav Novotný
 KI;KEIS;Podnikové informaèní systémy;4991;'Ing. Miroslav Novotný
-KI;SWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
 KI;KSWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
-KI;OPRE;Odborná prezentace;8514;'Ricardo Rodriguez Jorge Ph.D.
+KI;SWI;Softwarové inženýrství;8093;'Ing. Jan Svoboda'
 KI;KOPRE;Odborná prezentace;8514;'Ricardo Rodriguez Jorge Ph.D.
+KI;OPRE;Odborná prezentace;8514;'Ricardo Rodriguez Jorge Ph.D.
 KI;ITM;Introduction to MATLAB;8514;'Ricardo Rodriguez Jorge Ph.D.'
-KI;OAN;Odborná angliètina;9114;'Dr. Hossein Moosaei Ph.D.'
-KI;OPRE;Odborná prezentace;9114;'Dr. Hossein Moosaei Ph.D.
-KI;KOPR;Optimální rozhodování;9114;'Dr. Hossein Moosaei Ph.D.'
-KI;KOPRE;Odborná prezentace;9114;'Dr. Hossein Moosaei Ph.D.
-KI;KOAN;Odborná angliètina;9114;'Dr. Hossein Moosaei Ph.D.'
-KI;ITM;Introduction to MATLAB;9114;'Dr. Hossein Moosaei Ph.D.
-KI;SWI;Softwarové inženýrství;9303;'Ing. Petr Høebejk
-KI;KSWI;Softwarové inženýrství;9303;'Ing. Petr Høebejk
