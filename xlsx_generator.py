@@ -167,6 +167,9 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
         katedry_list = katedry_list | set(katedry_csv.to_series(2).to_list())
 
     katedry_list = list(katedry_list)
+    if len(katedry_list) < 1:
+        katedry_list.append("Hehe_am_errorous")
+
     loner = katedry_list.pop(0)
 
     params_rozvrh = {
