@@ -112,18 +112,18 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
 
     # Excel rozvrhy funguje jen s validním přihlášením
     
-    excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";")
+    excel_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";", infer_schema_length=0)
     # excel_rozvrhy.write_csv(file_names["rozvrhy"])
 
     # # Excel předměty funguje i bez přihlášení
-    excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";")
+    excel_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety), separator=";", infer_schema_length=0)
     # excel_predmety.write_csv(file_names["predmety"])
 
     for subkatedra in katedra[1:]:
         params_rozvrh["katedra"] = subkatedra
         params_predmety["katedra"] = subkatedra
 
-        temp_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";")
+        temp_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";", infer_schema_length=0)
         temp_rozvrhy.write_csv(f"source_testing/temp_rozvrh_{subkatedra}.csv")
         fix_list_rozvrhy = type_check(excel_rozvrhy, temp_rozvrhy) # Potenciálně se dá hodit rovnou do funkce, možná ušetřit trochu prostoru v paměti
 
@@ -133,7 +133,7 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
             temp_rozvrhy = temp_rozvrhy.with_columns(pl.col(fix_list_rozvrhy[col_type]).cast(col_type))
 
         excel_rozvrhy = excel_rozvrhy.vstack(other=temp_rozvrhy)
-        temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety),separator=";")
+        temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety),separator=";", infer_schema_length=0)
         temp_predmety.write_csv(f"source_testing/temp_predmety_{subkatedra}.csv")
         excel_predmety = excel_predmety.vstack(other=temp_predmety)
 
