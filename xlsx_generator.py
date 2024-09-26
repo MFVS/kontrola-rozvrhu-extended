@@ -93,7 +93,7 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
     assert stag_user != None, "This requires the user to login."
 
     params_rozvrh = {
-        "stagUser": stag_user, # Fix this
+        "stagUser": stag_user,
         "semestr":"%",
         "vsechnyCasyKonani":"false",
         "jenRozvrhoveAkce":"true",
@@ -146,7 +146,7 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
     }
 
 def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, lang:str = "cs") -> Dict[str, str]: 
-    from stag_bombator_raw import prep_csv
+    #from stag_bombator_raw import prep_csv
     # Malá poznámka: Neexistuje (minimálně jsem jej nenašel) způsob jak získat rozvrh fakulty, takže procházím rozvrh všech kateder a lepím je na sebe Herkulesem
     assert stag_user != None, "This requires the user to login."
 
@@ -205,7 +205,7 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
                 temp_predmety = null_out(temp_predmety, fix_list_predmety[col_type]) # Mění "" na None, přechází erroru při konverzi na int
             temp_predmety = temp_predmety.with_columns(pl.col(fix_list_predmety[col_type]).cast(col_type))
         
-        prep_csv(temp_predmety).write_csv(f"source_testing/temp_predmety_{subfakulta}.csv")
+        #prep_csv(temp_predmety).write_csv(f"source_testing/temp_predmety_{subfakulta}.csv")
         excel_predmety = excel_predmety.vstack(other=temp_predmety)
 
         excel_predmety.vstack(other=temp_predmety, in_place=True)
@@ -239,8 +239,8 @@ def fakulta(fakulta:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
 
     print("here")
 
-    prep_csv(excel_rozvrhy).write_csv("source_testing/rozvrhy_PRF.csv")
-    prep_csv(excel_predmety).write_csv("source_testing/predmety_PRF.csv")
+    #prep_csv(excel_rozvrhy).write_csv("source_testing/rozvrhy_PRF.csv")
+    #prep_csv(excel_predmety).write_csv("source_testing/predmety_PRF.csv")
 
     return {
         "rozvrhy":excel_rozvrhy,
@@ -291,7 +291,7 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
         rozvrh_ucitel.vstack(other=temp_rozvrhy, in_place=True)
         predmety_ucitel_list.vstack(other=pl.read_csv(fetch_csv("/predmety/getPredmetyByUcitel", ticket, params_predmety, auth), separator=";", infer_schema_length=0), in_place=True)
 
-    predmety_ucitel_list.write_csv("source_testing/ucitel_predmety_lite")
+    #predmety_ucitel_list.write_csv("source_testing/ucitel_predmety_lite")
     katedry_list = predmety_ucitel_list.to_series(2).unique().to_list()
     print(katedry_list)
 
@@ -326,22 +326,80 @@ def ucitel(id_ucitele:int, ticket:str, auth:Tuple[str, str] = None, year:str | N
 
 def studijni_program(sp_ids:List[str], ticket:str, auth:Tuple[str, str] = None, year:str | None = None, stag_user:str | None = None, lang:str = "cs") -> Dict[pl.DataFrame, pl.DataFrame]:
     #raise NotImplemented("Maybe To-do? No clue how we would go about doing this.")
+    assert stag_user != None, "This requires user to login."
+    from stag_bombator_raw import prep_csv
+
     params_sp = {
-        "oborIdno":"",
+        "lang":lang,
         "rok":year,
-        "vyznamPredmetu":"B",
-        "lang":lang
+        "stprIdno":sp_ids.pop(0)
     }
 
-    katedra_list = set()
+    obor_id = pl.read_csv(fetch_csv(service="/programy/getOboryStudijnihoProgramu", ticket=ticket, params_plus=params_sp), separator=";", infer_schema_length=0).to_series(0).to_list()
+    if len(obor_id) < 1:
+        obor_id.append("Hello_am_errorous")
 
-    for one_id in sp_ids:
-        katedra_temp = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_sp), separator=";", infer_schema_length=0).to_series(0).to_list()
-        katedra_list = katedra_list | set(katedra_temp)
+    params_obor = {
+        "vyznamPredmetu":"B",
+        "oborIdno":obor_id.pop(0),
+        "lang":lang,
+        "rok":year
+    }
 
-    katedra_list = list(katedra_list)
+    predmety_panobor = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_obor), separator=";", infer_schema_length=0)
 
-    return katedra(katedra=katedra_list, ticket=ticket, auth=auth, year=year, stag_user=stag_user, lang=lang)
+    for obor in obor_id:
+        params_obor["oborIdno"] = obor
+        predmety_panobor = predmety_panobor.join(other=pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_obor), separator=";", infer_schema_length=0).select("zkratka"), on="zkratka", how="inner")
+    # ---
+    
+    for sub_sp in sp_ids:
+        params_sp["stprIdno"] = sub_sp
+        obor_id = pl.read_csv(fetch_csv(service="/programy/getOboryStudijnihoProgramu", ticket=ticket, params_plus=params_sp), separator=";", infer_schema_length=0).to_series(0).to_list()
+
+        temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_obor), separator=";", infer_schema_length=0)
+        if len(obor_id) < 1:
+            obor_id.append("Hello_am_errorous")
+
+        for obor in obor_id:
+            params_obor["oborIdno"] = obor
+            temp_predmety = temp_predmety.join(other=pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_obor), separator=";", infer_schema_length=0).select("zkratka"), on="zkratka", how="inner")
+
+        predmety_panobor.vstack(other=temp_predmety, in_place=True)
+
+    katedra_list = predmety_panobor.to_series(0).unique().to_list()
+    if len(katedra_list) < 1:
+        katedra_list.append("Hello_am_errorous")
+
+    params_katedra = {
+        "stagUser": stag_user,
+        "semestr":"%",
+        "vsechnyCasyKonani":"false",
+        "jenRozvrhoveAkce":"true",
+        "vsechnyAkce":"false",
+        "jenBudouciAkce":"false",
+        "lang":lang,
+        "katedra":katedra_list.pop(0),
+        "rok":year
+    }
+
+    predmety_short = predmety_panobor.select("zkratka").rename({"zkratka":"predmet"})
+
+    rozvrh_panobor = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", ticket=ticket, params_plus=params_katedra), separator=";", infer_schema_length=0).join(other=predmety_short, on="predmet", how="inner")
+
+    for katedra in katedra_list:
+        params_katedra["katedra"] = katedra
+        rozvrh_panobor.vstack(other=pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", ticket=ticket, params_plus=params_katedra), separator=";", infer_schema_length=0).join(other=predmety_short, on="predmet", how="inner"), in_place=True)
+
+    prep_csv(rozvrh_panobor).write_csv("source_testing/rozvrh_SP.csv")
+    prep_csv(predmety_panobor).write_csv("source_testing/predmety_SP.csv")
+
+    return {
+        "rozvrhy":rozvrh_panobor,
+        "predmety":predmety_panobor
+    }
+
+
 
 # ----- HANDLER ----- 
 

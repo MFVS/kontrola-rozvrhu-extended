@@ -1,29 +1,18 @@
 katedra;zkratka;nazev;cviciciUcitIdno;jmena
-KFY;LB1;Laboratorní praktikum I;280;'Mgr. Jan Malý Ph.D.
-KCH;BK200;Organická chemie;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
-KCH;P514;PVK - Souborný semináø I;429;'RNDr. Thu Huong Nguyen Thi Ph.D.
-KCH;E101;Intr. to Inorganic and Organic Chemistry;429;'RNDr. Thu Huong Nguyen Thi Ph.D.
-KECHT;5DPS2;Diplomový semináø II;2065;'doc. Ing. Josef Trögl Ph.D.
-KCH;N109;Ekotoxikologie;2065;'doc. Ing. Josef Trögl Ph.D.
-KCH;N022;Laboratorní cvièení z ekotoxikologie;2065;'doc. Ing. Josef Trögl Ph.D.
-KCH;N409;Diplomový semináø II;2065;'doc. Ing. Josef Trögl Ph.D.
-KECHT;5LCEX;Laboratorní cvièení z ekotoxikologie;2065;'doc. Ing. Josef Trögl Ph.D.
-KECHT;5ETOX;Ekotoxikologie;2065;'doc. Ing. Josef Trögl Ph.D.
+KECHT;5MTPL;Migrace, transf. a persistence polutantù;332;'prof. Ing. Zdeòka Kolská Ph.D.
+KECHT;5ODS4;Odborný semináø IV;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
+KECHT;5BICH;Biochemie;429;'RNDr. Thu Huong Nguyen Thi Ph.D.
+KECHT;5ODS2;Odborný semináø II;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
+KECHT;5OBS1;Odborný semináø I;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
+KECHT;5ODS3;Odborný semináø III;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
+KPRF;N101;Anglická konverzace;474;'Mgr. Jaroslav Izavèuk'
+KECHT;5SKVD;Systém kvality a vyhodnocování dat;719;'Ing. Václav Synek Ph.D.'
 KECHT;5DPS2;Diplomový semináø II;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
-KCH;KN40;Analytická chemie Nmgr.;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
-KFY;LB1;Laboratorní praktikum I;2384;'doc. Ing. Martin Kormunda Ph.D.
-KCH;P514;PVK - Souborný semináø I;2855;'doc. RNDr. Jan Jirsák Ph.D.
-KCH;N109;Ekotoxikologie;3176;'PharmDr. Markéta Švarcová Ph.D.
+KECHT;5HSPE;Hmotnostní spektrometrie;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KECHT;5TXDP;Toxikologický semináø k DP;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.'
+KECHT;5FYCH;Fyzikální chemie;2856;'Ing. Magda Škvorová Ph.D.'
 KECHT;5ETOX;Ekotoxikologie;3176;'PharmDr. Markéta Švarcová Ph.D.
-KCH;B203;Analytická chemie;3704;'RNDr. Milan Šmídl Ph.D.'
-KCH;P327;Analytická chemie;3704;'RNDr. Milan Šmídl Ph.D.'
-KCH;BK203;Analytická chemie;3704;'RNDr. Milan Šmídl Ph.D.'
-KCH;KN40;Analytická chemie Nmgr.;3704;'RNDr. Milan Šmídl Ph.D.
-KCH;BK313;Vzorkování a analýza škodlivin;4226;'Ing. Ivana Kadleèková
-KCH;B313;Vzorkování a analýza škodlivin;4226;'Ing. Ivana Kadleèková
-KCH;K502;Fyzikálnì chemická cvièení;4258;'Ing. Marek Došek
-KCH;N409;Diplomový semináø II;4273;'doc. Ing. Pavel Krystyník Ph.D.
-KFY;LB1;Laboratorní praktikum I;4680;'Mgr. Jindøich Matoušek Ph.D.
-KCH;M109;Odborná angliètina Nmgr.;8946;'Mgr. Anna Paøíková'
-KCH;N113;Odborná angliètina II;8946;'Mgr. Anna Paøíková'
-KCH;B200;Organická chemie;9302;'Mgr. Tereza Dušková'
+KECHT;5BMZP;Biosenzory a monitorování ŽP;3563;'Ing. Gabriela Kuncová CSc.
+KECHT;5HSPE;Hmotnostní spektrometrie;4310;'RNDr. Václav Šícha Ph.D.'
+KECHT;5OPAV;Odbìr, pøíprava a analýza vzorkù;7416;'Ing. Hana Burdová
+KCH;N113;Odborná angliètina II;9645;'Ing. Martin Babor Ph.D.

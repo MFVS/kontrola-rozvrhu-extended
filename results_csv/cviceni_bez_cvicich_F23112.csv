@@ -1,12 +1,4 @@
 katedra;zkratka;idno;typAkceZkr;rok;datumOd;datumDo;hodinaSkutOd;hodinaSkutDo;katedra_right;nazev;cvicici;cviciciUcitIdno;jmena
-KCH;B200;9645;Cv;2024;2.10.2024;18.12.2024;15:00;15:50;KCH;Organická chemie;'Mgr. Tereza Dušková';9302;Babor Martin, Ing. Ph.D.
-KCH;B200;9645;Cv;2024;1.10.2024;17.12.2024;12:00;12:50;KCH;Organická chemie;'Mgr. Tereza Dušková';9302;Babor Martin, Ing. Ph.D.
-KCH;B202;9301;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;;;;;Greguš Viktor, Ing.
-KCH;B202;4310;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;;;;;Šícha Václav, RNDr. Ph.D.
-KCH;B202;7981;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;;;;;Kaule Pavel, Mgr.
-KCH;LBA;9301;Cv;2024;7.10.2024;16.12.2024;08:00;11:50;KCH;Laboratorní cvièení z anorganické chemie;'Mgr. Pavel Kaule', 'RNDr. Václav Šícha, Ph.D.';7981, 4310;Greguš Viktor, Ing.
-KCH;M105;4587;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;;;;;Ryšánek Petr, RNDr. Ph.D.
-KCH;M105;5431;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;;;;;Henych Jiøí, doc. Ing. Ph.D.
-KCH;M105;4310;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;;;;;Šícha Václav, RNDr. Ph.D.
-KCH;M105;7981;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;;;;;Kaule Pavel, Mgr.
-KCH;M105;9301;Cv;2024;4.10.2024;3.1.2025;09:00;12:50;;;;;Greguš Viktor, Ing.
+KECHT;5ACHP;550;Cv;2024;3.10.2024;2.1.2025;15:00;15:50;KECHT;Analytická chemie ŽP;'Ing. Sylvie Køíženecká, Ph.D.', 'RNDr. ¼uboš Vrtoch, Ph.D.';921, 4117;Janoš Pavel, prof. Ing. CSc.
+KECHT;5SKVD;921;Cv;2024;1.10.2024;17.12.2024;16:00;16:50;KECHT;Systém kvality a vyhodnocování dat;'prof. Ing. Pavel Janoš, CSc.', 'Ing. Václav Synek, Ph.D.';550, 719;Køíženecká Sylvie, Ing. Ph.D.
+KECHT;5TXDP;4273;Cv;2024;2.10.2024;18.12.2024;13:00;13:50;KECHT;Toxikologický semináø k DP;'doc. RNDr. Vlastimil Dohnal, Ph.D.';2227;Krystyník Pavel, doc. Ing. Ph.D.
