@@ -161,3 +161,320 @@ ný se
 8200;
 4;3.1
 
+ce;""
+
+
+
+
+02;;;
+
+
+KMA;
+mován
+. Pav
+
+.10.2
+;2023
+omové
+
+
+
+
+5ODPX
+
+Hodno
+ce, t
+
+4273;
+23;19
+
+omové
+
+
+
+
+5ODS4
+
+Organ
+ný se
+
+8200;
+4;3.1
+
+
+
+
+
+
+
+
+gdale
+ Krát
+ena K
+
+
+;2024
+
+
+
+
+
+
+
+gdale
+ Krát
+ena K
+
+
+;2024
+
+
+
+
+
+
+
+gdale
+ Krát
+gdale
+
+
+;2024
+omové
+
+
+
+
+5OBS1
+
+Bioch
+ný se
+
+8200;
+4;3.1
+
+omové
+
+
+
+
+5OBS1
+
+Bioch
+ný se
+
+8200;
+4;3.1
+
+omové
+
+
+
+
+5OCHT
+
+Organ
+ný se
+
+8200;
+4;3.1
+
+;Baka
+8280;
+HOD/T
+;;12;
+KI;KA
+SPP;;
+308;K
+iky;6
+prof.
+ Hana
+6;Pø;
+;21.2
+;20.2
+;Baka
+èaøík
+;HOD/
+;;12;
+D
+KFH
+P;;;8
+C;BNK
+stupy
+ Jana
+ Hana
+6;Pø;
+;21.2
+;20.2
+Zahra
+Ph.D.
+1;HOD
+BAPP;
+M
+KFH
+K3;;;
+S;KB3
+stupy
+r. To
+ komu
+27;Pø
+.10.2
+e;202
+ II;D
+f. RN
+OD/TY
+;;12;
+
+101;;
+;8
+19
+ IV;6
+'prof
+ Hana
+6;Pø;
+2.10.
+e;202
+ II;D
+tová,
+6;HOD
+;;12;
+M
+KFH
+01;;;
+33;KA
+stupy
+Dr. R
+ Hana
+6;Pø;
+2.10.
+e;202
+ad;""
+
+
+
+
+S;;27
+
+infor
+rmati
+ Hana
+Pø;20
+.10.2
+2024;
+
+gdale
+
+
+
+SS;;4
+
+žilov
+tiky;
+áø I;
+
+
+
+ad;""
+gdale
+
+
+
+;;;27
+
+rof. 
+9;'In
+ Hana
+Pø;20
+.10.2
+2024;
+ad;""
+gdale
+
+
+
+SS;;4
+
+rof. 
+9;'In
+ Hana
+Pø;20
+.10.2
+2024;
+
+
+
+
+
+
+
+dalen
+ Krát
+gdale
+
+
+;2024
+omové
+
+
+
+
+5ODPX
+
+Organ
+ný se
+
+8200;
+4;3.1
+
+omové
+
+
+
+
+5OBS1
+
+Organ
+ný se
+
+8200;
+4;3.1
+
+omové
+
+
+
+
+5ODPX
+
+Bioch
+ný se
+
+8200;
+4;3.1
+
+
+
+
+
+
+
+
+gdale
+ Krát
+gdale
+
+
+;2024
+ká ch
+
+
+
+
+5OCHT
+
+orie 
+atema
+gdale
+8200;
+4;3.1
+;2024

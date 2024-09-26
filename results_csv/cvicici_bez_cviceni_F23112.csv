@@ -1,18 +1,27 @@
 katedra;zkratka;nazev;cviciciUcitIdno;jmena
 KECHT;5MTPL;Migrace, transf. a persistence polutantù;332;'prof. Ing. Zdeòka Kolská Ph.D.
+KMA;ZAM;Základy matematiky;425;'PhDr. Magdalena Krátká Ph.D.
+KMA;LAG;Lineární algebra;425;'PhDr. Magdalena Krátká Ph.D.
+KECHT;5ODS3;Odborný semináø III;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
+KECHT;5OBS1;Odborný semináø I;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
+KECHT;5ODS2;Odborný semináø II;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
 KECHT;5ODS4;Odborný semináø IV;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
 KECHT;5BICH;Biochemie;429;'RNDr. Thu Huong Nguyen Thi Ph.D.
-KECHT;5ODS2;Odborný semináø II;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
-KECHT;5OBS1;Odborný semináø I;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
-KECHT;5ODS3;Odborný semináø III;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
 KPRF;N101;Anglická konverzace;474;'Mgr. Jaroslav Izavèuk'
 KECHT;5SKVD;Systém kvality a vyhodnocování dat;719;'Ing. Václav Synek Ph.D.'
-KECHT;5DPS2;Diplomový semináø II;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
-KECHT;5HSPE;Hmotnostní spektrometrie;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
 KECHT;5TXDP;Toxikologický semináø k DP;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.'
+KECHT;5HSPE;Hmotnostní spektrometrie;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
+KECHT;5DPS2;Diplomový semináø II;2227;'doc. RNDr. Vlastimil Dohnal Ph.D.
 KECHT;5FYCH;Fyzikální chemie;2856;'Ing. Magda Škvorová Ph.D.'
 KECHT;5ETOX;Ekotoxikologie;3176;'PharmDr. Markéta Švarcová Ph.D.
 KECHT;5BMZP;Biosenzory a monitorování ŽP;3563;'Ing. Gabriela Kuncová CSc.
 KECHT;5HSPE;Hmotnostní spektrometrie;4310;'RNDr. Václav Šícha Ph.D.'
+KI;APR2;Algoritmizace a programování II;6259;'RNDr. Jiøí Škvára Ph.D.'
+KI;APR1;Algoritmizace a programování I;6259;'RNDr. Jiøí Škvára Ph.D.'
 KECHT;5OPAV;Odbìr, pøíprava a analýza vzorkù;7416;'Ing. Hana Burdová
+KRRVS;5DEMG;Demografie;7644;'Ing. Jan Holub'
+KMA;LAG;Lineární algebra;8741;'Mgr. Jana Kasperová
+KMA;PST;Pravdìpodobnost a statistika;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+KMA;PSM;Pokroèilé statistické metody;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+KMA;CAS;Èasové øady;9488;'Mgr. Alena Èerníková MSc., Ph.D.
 KCH;N113;Odborná angliètina II;9645;'Ing. Martin Babor Ph.D.

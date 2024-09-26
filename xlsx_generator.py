@@ -328,6 +328,8 @@ def studijni_program(sp_ids:List[str], ticket:str, auth:Tuple[str, str] = None, 
     #raise NotImplemented("Maybe To-do? No clue how we would go about doing this.")
     assert stag_user != None, "This requires user to login."
     from stag_bombator_raw import prep_csv
+    with open("source_testing/test.txt", "w") as fuck:
+        fuck.write(", ".join([str(x) for x in sp_ids]))
 
     params_sp = {
         "lang":lang,
@@ -352,20 +354,23 @@ def studijni_program(sp_ids:List[str], ticket:str, auth:Tuple[str, str] = None, 
         params_obor["oborIdno"] = obor
         predmety_panobor = predmety_panobor.join(other=pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_obor), separator=";", infer_schema_length=0).select("zkratka"), on="zkratka", how="inner")
     # ---
-    
+    #predmety_panobor.drop("prehledLatky", "literatura").write_csv(f"source_testing/predmety_{params_sp['stprIdno']}.csv")
     for sub_sp in sp_ids:
         params_sp["stprIdno"] = sub_sp
         obor_id = pl.read_csv(fetch_csv(service="/programy/getOboryStudijnihoProgramu", ticket=ticket, params_plus=params_sp), separator=";", infer_schema_length=0).to_series(0).to_list()
 
-        temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_obor), separator=";", infer_schema_length=0)
         if len(obor_id) < 1:
             obor_id.append("Hello_am_errorous")
+
+        params_obor["oborIdno"] = obor_id.pop(0)
+        temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_obor), separator=";", infer_schema_length=0)
 
         for obor in obor_id:
             params_obor["oborIdno"] = obor
             temp_predmety = temp_predmety.join(other=pl.read_csv(fetch_csv(service="/predmety/getPredmetyByOborFullInfo", ticket=ticket, params_plus=params_obor), separator=";", infer_schema_length=0).select("zkratka"), on="zkratka", how="inner")
 
         predmety_panobor.vstack(other=temp_predmety, in_place=True)
+        #predmety_panobor.drop("prehledLatky", "literatura").write_csv(f"source_testing/predmety_{params_sp['stprIdno']}.csv")
 
     katedra_list = predmety_panobor.to_series(0).unique().to_list()
     if len(katedra_list) < 1:
@@ -386,13 +391,15 @@ def studijni_program(sp_ids:List[str], ticket:str, auth:Tuple[str, str] = None, 
     predmety_short = predmety_panobor.select("zkratka").rename({"zkratka":"predmet"})
 
     rozvrh_panobor = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", ticket=ticket, params_plus=params_katedra), separator=";", infer_schema_length=0).join(other=predmety_short, on="predmet", how="inner")
+    #rozvrh_panobor.write_csv(f"source_testing/rozvrh_{params_katedra["katedra"]}.csv")
 
     for katedra in katedra_list:
         params_katedra["katedra"] = katedra
         rozvrh_panobor.vstack(other=pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", ticket=ticket, params_plus=params_katedra), separator=";", infer_schema_length=0).join(other=predmety_short, on="predmet", how="inner"), in_place=True)
+        #rozvrh_panobor.write_csv(f"source_testing/rozvrh_{params_katedra["katedra"]}.csv")
 
-    prep_csv(rozvrh_panobor).write_csv("source_testing/rozvrh_SP.csv")
-    prep_csv(predmety_panobor).write_csv("source_testing/predmety_SP.csv")
+    #prep_csv(rozvrh_panobor.drop("prehledLatky", "literatura")).write_csv("source_testing/rozvrh_SP.csv")
+    #prep_csv(predmety_panobor.drop("prehledLatky", "literatura")).write_csv("source_testing/predmety_SP.csv")
 
     return {
         "rozvrhy":rozvrh_panobor,

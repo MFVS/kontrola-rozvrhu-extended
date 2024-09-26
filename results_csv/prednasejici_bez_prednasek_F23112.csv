@@ -1,11 +1,26 @@
 katedra;zkratka;nazev;prednasejiciUcitIdno;jmena
 KECHT;5MTPL;Migrace, transf. a persistence polutantù;332;'prof. Ing. Zdeòka Kolská Ph.D.
-KECHT;5BICH;Biochemie;429;'RNDr. Thu Huong Nguyen Thi Ph.D.
+KMA;HIM;Historie matematiky;425;'PhDr. Magdalena Krátká Ph.D.'
+KMA;LAG;Lineární algebra;425;'PhDr. Magdalena Krátká Ph.D.
 KECHT;5OCHT;Organ. chemie významn. skupin tox. látek;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
+KECHT;5BICH;Biochemie;429;'RNDr. Thu Huong Nguyen Thi Ph.D.
 KECHT;5SKVD;Systém kvality a vyhodnocování dat;719;'Ing. Václav Synek Ph.D.'
+KMA;LOG;Logistika;1569;'Ing. Daniela Vysloužilová Ph.D.'
+KMA;PSM;Pokroèilé statistické metody;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
+KI;ZKB;Základy kyberbezpeènosti;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
 KECHT;5FYCH;Fyzikální chemie;2856;'Ing. Magda Škvorová Ph.D.'
 KECHT;5ETOX;Ekotoxikologie;3176;'PharmDr. Markéta Švarcová Ph.D.
 KFY;P217;Difrakce záøení a struktura materiálù;3553;'prof. RNDr. Pavla Èapková DrSc.
 KECHT;5BMZP;Biosenzory a monitorování ŽP;3563;'Ing. Gabriela Kuncová CSc.
+KMA;CAS;Èasové øady;4533;'doc. Ing. Jaroslav Sixta Ph.D.
+KMA;LOG;Logistika;4691;'Ing. Vladimír Balach
 KECHT;5MIBI;Mikrobiologie;5094;'RNDr. Jan Bobek Ph.D.'
+KMA;VSP;Veøejná správa;5309;'Ing. Eva Krumpová
+KMA;VFIN;Veøejné finance;6120;'Ing. Lucie Kopáèková Ph.D.
+KMA;VFIN;Veøejné finance;6773;'doc. Ing. Alena Maaytová Ph.D.'
+KRRVS;5DEMG;Demografie;7644;'Ing. Jan Holub'
 KZP;5PRZP;Právo a životní prostøedí;9239;'Ing. Iveta Soperová'
+KMA;CAS;Èasové øady;9304;'Ing. Ondøej Vozár'
+KMA;PST;Pravdìpodobnost a statistika;9488;'Mgr. Alena Èerníková MSc., Ph.D.'
+KMA;PSM;Pokroèilé statistické metody;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+KMA;CAS;Èasové øady;9488;'Mgr. Alena Èerníková MSc., Ph.D.

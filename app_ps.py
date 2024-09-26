@@ -198,8 +198,6 @@ with col2:
         sp_form = st.multiselect("Forma studijního programu:", sp_form_list)
         picks = get_program_names(fakulta=sp_fakulta, typ=sp_type, forma=sp_form)
         st.session_state["search_field"] = st.multiselect(label="Zvolte studijní program:",options=picks.keys(),format_func=lambda x:picks[x])
-
-        st.warning("Studijní programy nejsou zatím otestovány.")
         #target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
     
     elif st.session_state["search_option"] == "Učitel":
