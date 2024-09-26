@@ -1,0 +1,9 @@
+Místo streamlit run použij tyhle 2 příkazy:
+
+docker build -t rozvrhy-app .
+docker run -p 8501:8501 rozvrhy-app
+
+ten první bude chvíli jet (možná i přes minutu)
+potom v prohlížeči jdi na adresu localhost:8501
+
+pokaždý když uděláš změny, musíš znova buildit - vypnout VS code a znova oba příkazy
