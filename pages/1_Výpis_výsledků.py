@@ -43,7 +43,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 #TODO: Pozměnit hodnoty tak aby to nedělalo blbosti.
-#Blbosti: Pokud se zmenší okno, tlačítko rozdělí text na několik řádků. Pokud je okno moc velké, je mezi tlačítky díra.
+#Blbosti: Pokud se zmenší okno, tlačítko rozdělí text na několik řádků. Pokud je okno moc velké, je mezi tlačítky díra a zpět není úplně u kraje
 col1, col2, col3 = st.columns([0.80,0.15,0.05])
 
 with col1:
@@ -60,5 +60,8 @@ tab_folder = st.tabs(chyby)
 
 for tab_index,tab in enumerate(tab_folder):
     with open(file_names[tab_index], "rb") as file:
-        tab.download_button("Stáhnout CSV", file, file_name=chyby[tab_index]+".csv") #TODO: Zobrazit soubor dle file-typu. Asi to bude vyžadovat funkci read_xlsx or sumin. Oh yea, obecně načítání s podporou více output formátů je fucked.
-    tab.dataframe(pd.read_csv(file_names[tab_index], encoding='cp1250', sep=";"))
+        tab.download_button(f"Stáhnout {st.session_state["output_format"]}", file, file_name=chyby[tab_index]+"."+st.session_state["output_format"]) #TODO: Zobrazit soubor dle file-typu. Asi to bude vyžadovat funkci read_xlsx or sumin. Oh yea, obecně načítání s podporou více output formátů je fucked.
+    if st.session_state["output_format"] == "CSV":
+        tab.dataframe(pd.read_csv(file_names[tab_index], encoding='cp1250', sep=";"))
+    else:
+        tab.dataframe(pd.read_excel(file_names[tab_index])) #TODO: Ok this surely won't work
