@@ -1,3 +1,5 @@
+# This shit sucks. Remake it.
+
 import polars as pl
 from typing import List
 import xlsx_generator as tablegen
@@ -48,6 +50,7 @@ def fix_str_to_int(data:pl.DataFrame, fix_list:list) -> pl.DataFrame:
     print(fix_list)
     print(column_types)
 
+    # TODO: Smazat pokud vše funguje dobře. Zkontrolovat že tohle dole se fakt nehodí. Jsem moc línej.
     # Pokud v žádném sloupci není víc hodnot, polars to převede na int automaticky.
     # for index, column in enumerate(fix_list):
     #     print("Going through:" + column)
@@ -100,6 +103,45 @@ def prep_csv(dataframe:pl.DataFrame) -> pl.DataFrame:
         dataframe = dataframe.with_columns(pl.col(column).cast(pl.List(pl.Utf8)).list.join(","))
     return dataframe
 
+def save_df_to_file(dataframe:pl.DataFrame, path:str, file_format:str) -> None:
+    """Function to simplify saving.
+
+    Args:
+        dataframe (pl.DataFrame): Dataframe to save.
+        path (str): Path to file in which to save. If the path does not contain the file format at the end, it is pasted there.
+        file_format (str): Format in which to save. CSV or XLSX. Exclude the comma. (The function can handle it tho)
+
+    Raises:
+        ValueError: If file_format is not either CSV or XLSX, an error is raised, as these are the only two viable save formats.
+    """
+    #raise NotImplementedError("Hopefully better.")
+    file_format = file_format.lower().strip(".")
+
+    if file_format == "xlsx":
+        prep_csv(dataframe=dataframe).write_excel(path if ".xlsx" == path[-5:] else f"{path}.xlsx")
+        return
+    elif file_format == "csv":
+        path = path if ".csv" == path[-4:] else f"{path}.csv"
+        prep_csv(dataframe=dataframe).write_csv(path)
+        uac.convert(path)
+        return
+    else:
+        raise ValueError("Undefined file saving format.")
+    
+def format_rozvrhy(rozvrh_source:pl.DataFrame) -> pl.DataFrame:
+    """Function to format scheduled events."""
+    #TODO: Zkontrolovat správnost generace rozvrhů. Viz xlsx_gen
+    return fix_str_to_int(rozvrh_source.drop("semestr").rename({"predmet" : "zkratka"}), ["ucitIdno.ucitel", "vsichniUciteleUcitIdno"]).with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
+
+def format_predmety(predmety_source:pl.DataFrame) -> pl.DataFrame:
+    temp_predmety:pl.DataFrame = fix_str_to_int(predmety_source)
+    unit_fix_cols = [col for index,col in enumerate(temp_predmety.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").columns) if temp_predmety.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").dtypes[index] == pl.List]
+    temp_predmety = temp_predmety.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
+    for expl_col in unit_fix_cols:
+        temp_predmety = temp_predmety.explode(expl_col)
+    return temp_predmety
+
+
 # --- VYHLEDÁVÁNÍ CHYB ---
 
 def has_teacher_theoretical(dataframe:pl.DataFrame, teacher_type:str) -> pl.DataFrame:
@@ -127,7 +169,7 @@ def has_teacher_theoretical(dataframe:pl.DataFrame, teacher_type:str) -> pl.Data
     return missing_teach
 
 # --- HANDLER ---
-def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ticket:str, year:int, lang:str):
+def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ticket:str, year:int, lang:str, file_format:str="csv") -> None:
     # Načtení všeho
     names = tablegen.pull_data(
         search_type=search_type,
@@ -141,18 +183,22 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     # Modifikátor jmen ukládaných souborů
     name_mod = "_"+stag_username
 
+    # TODO: Zkontrolovat, zda nahrazení tohohle bloku modifikovatelnejma funkcema nebude dělat problémy a následně smazat.
     # Zpracování CSV souborů na DataFrames
-    print(names["rozvrhy"].head())
-    rozvrh_by_kat = names["rozvrhy"].drop("semestr").rename({"predmet" : "zkratka"}) # Zde smazán unique, rip
-    rozvrh_by_kat = fix_str_to_int(rozvrh_by_kat, ["ucitIdno.ucitel", "vsichniUciteleUcitIdno"])
-    rozvrh_by_kat = rozvrh_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
+    # print(names["rozvrhy"].head())
+    # rozvrh_by_kat = names["rozvrhy"].drop("semestr").rename({"predmet" : "zkratka"}) # Zde smazán unique, rip
+    # rozvrh_by_kat = fix_str_to_int(rozvrh_by_kat, ["ucitIdno.ucitel", "vsichniUciteleUcitIdno"])
+    # rozvrh_by_kat = rozvrh_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
 
-    predmety_by_kat = names["predmety"].unique()
-    predmety_by_kat = fix_str_to_int(predmety_by_kat, ["garantiUcitIdno", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "hodZaSemKombForma", "jednotekPrednasek","jednotekCviceni","jednotekSeminare"])
-    unit_fix_cols = [col for index,col in enumerate(predmety_by_kat.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").columns) if predmety_by_kat.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").dtypes[index] == pl.List]
-    predmety_by_kat = predmety_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
-    for expl_col in unit_fix_cols:
-        predmety_by_kat = predmety_by_kat.explode(expl_col)
+    # predmety_by_kat = names["predmety"]
+    # predmety_by_kat = fix_str_to_int(predmety_by_kat, ["garantiUcitIdno", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "hodZaSemKombForma", "jednotekPrednasek","jednotekCviceni","jednotekSeminare"])
+    # unit_fix_cols = [col for index,col in enumerate(predmety_by_kat.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").columns) if predmety_by_kat.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").dtypes[index] == pl.List]
+    # predmety_by_kat = predmety_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
+    # for expl_col in unit_fix_cols:
+    #     predmety_by_kat = predmety_by_kat.explode(expl_col)
+
+    rozvrh_by_kat = format_rozvrhy(names["rozvrhy"])
+    predmety_by_kat = format_predmety(names["predmety"])
 
     # Vynechání nevalidních předmětů/rozvrhových akcí (pokud předmět nemá žádné korespondující rozvrhové akce a naopak)
     predmety_s_akci = predmety_by_kat.join(other=rozvrh_by_kat, on="identifier", how="inner").select(predmety_by_kat.columns).unique().sort("identifier")
@@ -175,8 +221,10 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
         # pl.col("zkratka").str.starts_with("SZ").is_not()
         True
     )
-    prep_csv(zkratky).write_csv(".\\results_csv\\bez_garanta"+name_mod+".csv", separator=";")
-    uac.convert(".\\results_csv\\bez_garanta"+name_mod+".csv")
+    # prep_csv(zkratky).write_csv(".\\results_csv\\bez_garanta"+name_mod+".csv", separator=";")
+    # uac.convert(".\\results_csv\\bez_garanta"+name_mod+".csv")
+    save_df_to_file(zkratky, ".\\results_csv\\bez_garanta"+name_mod, file_format)
+
 
     # Předměty s více garanty
     # If block pokrývá situace kde není žádný předmět s více garanty
@@ -190,6 +238,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
         uac.convert(".\\results_csv\\vice_garantu"+name_mod+".csv")
         vice_garantu.head(10)
     
+    # TODO: Shrnout do souhrnné funkce all_teacher_theoretical (dle funkcí all_no_scheduled_events, all_not_in_syllabus), aplikovat funkci save_df_to_file 
     # Přednášky bez přednášejících
     chybi_prednasejici = has_teacher_theoretical(predmety_s_akci, "prednasejici")
 
@@ -227,8 +276,9 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
         return aggreg_kgn.collect().join(predmety_kgn.select(selection), "identifier", "left").drop("identifier")
     
     predmety_kde_garant_neuci = garant_doesnt_teach()
-    prep_csv(predmety_kde_garant_neuci).write_csv(".\\results_csv\\predmety_kde_garant_neuci"+name_mod+".csv", separator=";")
-    uac.convert(".\\results_csv\\predmety_kde_garant_neuci"+name_mod+".csv")
+    # prep_csv(predmety_kde_garant_neuci).write_csv(".\\results_csv\\predmety_kde_garant_neuci"+name_mod+".csv", separator=";")
+    # uac.convert(".\\results_csv\\predmety_kde_garant_neuci"+name_mod+".csv")
+    save_df_to_file(predmety_kde_garant_neuci, ".\\results_csv\\predmety_kde_garant_neuci"+name_mod, file_format)
 
     # Garant nepřednáší
     def garant_doesnt_lecture():
@@ -249,9 +299,11 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
         return aggregation.collect().join(garant_neprednasi.select("katedra", "zkratka","prednasejiciUcitIdno", "identifier", "jednotekPrednasek"), "identifier", "left").drop("identifier")
 
     garant_neprednasi_csv = prep_csv(garant_doesnt_lecture())
-    garant_neprednasi_csv.write_csv(".\\results_csv\\garant_neprednasi"+name_mod+".csv", separator=";")
-    uac.convert(".\\results_csv\\garant_neprednasi"+name_mod+".csv")
+    # garant_neprednasi_csv.write_csv(".\\results_csv\\garant_neprednasi"+name_mod+".csv", separator=";")
+    # uac.convert(".\\results_csv\\garant_neprednasi"+name_mod+".csv")
+    save_df_to_file(garant_neprednasi_csv, ".\\results_csv\\garant_neprednasi"+name_mod, file_format)
 
+    #TODO: Nefunguje. Prioritní cíl.
     def all_no_scheduled_events():
         def no_scheduled_events(sought_field:str):
             st_id = sought_field + "UcitIdno"

@@ -3,26 +3,23 @@ GENERAL
 - Improvements: Přidat studijní programy
 
 APP_PS
-- Improvements: Přejmenovat
+- Kopírovat schování sidebaru/smazat ho
+- Otestovat zapamatování roku
+- Opravit pravopisné chyby
+- Zlepšit formátování exkluze chyb
 
 VÝPIS VÝSLEDKŮ
-- Improvements: Přidat tlačítko na stažení všeho
-- Improvements: Komentáře
-- Improvements: Formát
+- Zkontrolovat gramatiku
+- Nezobrazovat prázné DFs
+- Zlepšit alignment tlačítek
+- Aktualizovat výpis DFs, aby to reflektovalo přidání více output formátů
 
 LOADING
 
 BOMBATOR
--Improvements: Běžně použité sloupce do proměnných [MOSTLY DONE]
-    - garantiUcitIdno
--Improvements: Mergenout více bloků se stejnýma principama do funkcí pro zlepšení čitelnosti a škálovatelnosti?
-    - Má {přednášku/cvičení/seminář} a nemá {přednášejícího/cvičícího/seminařícího} [DONE]
-    - {Přednášející/Cvičící/Seminařící} nemá {přednášku/cvičení/seminář} a vice versa
--Improvements: Posuň načítání číselníku učitelů výše
-- Core: Přidat mnohonásobné načítání
-
-SBR
-- Improvements: Refaktoruj celej kód. Kristova noho.
+- SPRAVIT FUNKCI all_no_scheduled_events
+- Otestovat zpřehledněné načítání
+- Shrnout blok "chybí_█████" do jedné funkce
 
 XLSX-GEN
-- Improvements: Udělat čistou verzi
+- ZKONTROLOVAT GENERACI ROZVRHŮ

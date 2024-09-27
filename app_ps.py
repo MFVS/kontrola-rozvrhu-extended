@@ -23,7 +23,7 @@ def get_best_role(encoded:str):
     return roles[0]["userName"]
 
 # Přečte, zda byly dány nějaké query parametry (extra parametry v adrese) a zapíše je do stavu systému. Neohrabané ale funkční.
-def read_query_params() -> None: #TODO: Parseování stagUser dat
+def read_query_params() -> None:
     if "stagUserTicket" not in st.query_params:
         return
     
@@ -97,10 +97,6 @@ search_fields = {
 def generate_years() -> List[str]:
     return [year for year in range(datetime.today().year, 2010, -1)]
 
-# Nastavuje výchozí výběr roku v kolonce výběru roku. Nastaveno na momentální akademický rok, mimo prázdnin, kde už to hází další akademický rok.
-def default_year() -> str:
-    return 0 if datetime.today().month > 6 else 1
-
 sp_type_list = [
     "Navazující",
     "Univerzita 3. věku",
@@ -124,6 +120,15 @@ sp_form_list = [
 import streamlit as st
 st.set_page_config(page_title="Hledání chyb",page_icon=":left_speech_bubble:",layout="wide", initial_sidebar_state="collapsed")
 
+# Nastavuje výchozí výběr roku v kolonce výběru roku. Nastaveno na momentální akademický rok, mimo prázdnin, kde už to hází další akademický rok.
+def default_year() -> str:
+    yearmod = 0 if datetime.today().month > 6 else 1
+    if "year" not in st.session_state:
+        return yearmod
+# --- EXPERIMENTÁLNÍ ---
+    else:
+        return datetime.today().year - st.session_state["year"] - yearmod
+
 # Pokračování zápisu do stavu sezení.
 read_query_params()
 
@@ -137,6 +142,7 @@ hide_streamlit_style = """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 # Schování sidebaru
+# TODO: Přidat do ostatních stránek nebo smazat.
 st.markdown(
     """
 <style>
@@ -177,7 +183,7 @@ with login_container:
     
 st.divider()
 
-st.subheader("Vyplňte následující dotazník:") #TODO: Přidat reálnej formulář pomocí st.form.
+st.subheader("Vyplňte následující dotazník:") #TODO: Přidat reálnej formulář pomocí st.form. Volitelné, asi to reálně jenom věci zkomplikuje. Whatever.
 
 col1, col2, col3 = st.columns(spec=3, gap="small")
 
@@ -192,26 +198,23 @@ with col2:
     elif st.session_state["search_option"] == "Katedra":
         st.session_state["search_field"] = st.multiselect("Zvolte katedru:",search_fields["Katedra"]) #NOTE: Tohle ZAHLTÍ uživatele volbami, also možná lepší jména alá STAG?
 
-    elif st.session_state["search_option"] == "Studijní program": #TODO: Studijní programy nejsou zatím podporovány.
+    elif st.session_state["search_option"] == "Studijní program":
         sp_fakulta = st.multiselect("Fakulta studijního programu:",search_fields["Fakulta"])
         sp_type = st.multiselect("Typ studijního programu:", sp_type_list)
         sp_form = st.multiselect("Forma studijního programu:", sp_form_list)
         picks = get_program_names(fakulta=sp_fakulta, typ=sp_type, forma=sp_form)
         st.session_state["search_field"] = st.multiselect(label="Zvolte studijní program:",options=picks.keys(),format_func=lambda x:picks[x])
-        #target = st.multiselect("Zvolte studijní program:",["MFVS","Aplikovaná informatika","Ekonomika a management","Chemie a toxikologie","Geografie","a tak dále"]) #TODO: Tohle by odněkud mohlo jít získat, takže bychom to nemuseli psát ručně, a mohlo by se to updateovat
     
     elif st.session_state["search_option"] == "Učitel":
         teacher_translator = get_teachers()
-        st.session_state["search_field"] = st.multiselect("Zvolte učitele:",teacher_translator.keys(), format_func=lambda x:f"{teacher_translator[x]} ({str(x)})") #TODO: Ditto
-
-# Fakulta = st.selectbox("Zvolte fakultu:",["By default","","","","",""])
-# if Fakulta == "By default":
+        st.session_state["search_field"] = st.multiselect("Zvolte učitele:",teacher_translator.keys(), format_func=lambda x:f"{teacher_translator[x]} ({str(x)})")
     
-with col3:
+with col3: #TODO: Experimentální zapamatování roku v default year. Zkontrolovat funkčnost.
     st.session_state["year"] = st.selectbox(label="Zvolte akademický rok:",options=generate_years(),index=default_year(),format_func=lambda x: f"{x}/{x+1}") #NOTE: Vrací stringy s {první rok}/{druhý rok}. Dají se z toho parseovat actually useful data, ale bylo by milé vrátit actually použitelný formát. No biggie tho.
 
 st.subheader("Filtrování typů chyb")
 
+# TODO: Opravit pravopisné/syntaktické/whatever chyby
 chyby = [
     "Bez garanta",
     "Bez přednášejících",
@@ -235,12 +238,14 @@ wishes = {chyba:True for chyba in chyby}
 num_of_issues = len(chyby)
 half_issues = num_of_issues // 2
 
+# TODO: Zlepšit formátování (pozměnit počet sloupců tak aby se rovnal)
+# - Generovat half_issues + num_of_issues % 2 sloupců, přistoupit k chybě x a chybě x + half_issues
 cols1 = st.columns(half_issues)
 for a in range(half_issues): 
     with cols1[a]: 
         wishes[chyby[a]] = st.checkbox(chyby[a], value = True)
 
-cols2 = st.columns(num_of_issues - half_issues) 
+cols2 = st.columns(half_issues) 
 for b in range(num_of_issues - half_issues): 
     with cols2[b]: 
         wishes[chyby[b + half_issues]] = st.checkbox(chyby[b + half_issues], value = True) 
@@ -252,8 +257,7 @@ lang_translate = {
 
 st.session_state["lang"] = st.selectbox("Zvolte jazyk:",lang_translate.keys(), 0, lambda x: lang_translate[x])
 
-#NOTE: Output format přesunut na stránku Výpis výsledků. Tam je to relevantnější, takže to potom bude méně cluttered.
-#output_format = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLS","XLSX"])
+st.session_state["output_format"] = st.selectbox("Zvolte požadovaný formát výstupního souboru:",["CSV","XLSX"])
 
 if "stagUserTicket" not in st.session_state.keys():
     st.warning("Uživatel nepřihlášen.")

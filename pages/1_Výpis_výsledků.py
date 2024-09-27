@@ -1,3 +1,5 @@
+#TODO: Zkontrolovat zda chyby jsou gramaticky správně.
+#TODO: Nezobrazovat prázdné DFs.
 chyby_translator = {
     "Bez garanta":"bez_garanta",
     "Bez přednášejících":"chybi_prednasejici",
@@ -40,6 +42,8 @@ hide_streamlit_style = """
             """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
+#TODO: Pozměnit hodnoty tak aby to nedělalo blbosti.
+#Blbosti: Pokud se zmenší okno, tlačítko rozdělí text na několik řádků. Pokud je okno moc velké, je mezi tlačítky díra.
 col1, col2, col3 = st.columns([0.80,0.15,0.05])
 
 with col1:
@@ -56,13 +60,5 @@ tab_folder = st.tabs(chyby)
 
 for tab_index,tab in enumerate(tab_folder):
     with open(file_names[tab_index], "rb") as file:
-        tab.download_button("Stáhnout CSV", file, file_name=chyby[tab_index]+".csv") #TODO: Překonvertovat soubory z utf-8 na ANSI. Jinak to v excelu vyplivne gibberish.
+        tab.download_button("Stáhnout CSV", file, file_name=chyby[tab_index]+".csv") #TODO: Zobrazit soubor dle file-typu. Asi to bude vyžadovat funkci read_xlsx or sumin. Oh yea, obecně načítání s podporou více output formátů je fucked.
     tab.dataframe(pd.read_csv(file_names[tab_index], encoding='cp1250', sep=";"))
-
-
-
-
-#TODO: ...všechno.
-# 1) Názvy chyb a tabs podle nich.
-# 2) Výpis tabulek s chybama. QoL feature.
-# 3) Download tlačítko pro každou tab + download všech chyb jako CSV.

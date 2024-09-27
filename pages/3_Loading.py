@@ -13,7 +13,8 @@ with st.spinner("Zpracovávám data. Prosím, počkejte..."):
         stag_username=st.session_state["stagRoleName"],
         user_ticket=st.session_state["stagUserTicket"],
         year=st.session_state["year"],
-        lang=st.session_state["lang"]
+        lang=st.session_state["lang"],
+        file_format=st.session_state["output_format"]
     )
 st.success("Redirecting.")
 st.switch_page("pages/1_Výpis_výsledků.py")

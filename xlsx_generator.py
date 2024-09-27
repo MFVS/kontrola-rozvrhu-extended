@@ -1,3 +1,6 @@
+#TODO: ZKONTROLOVAT PARAMETRY GENERACE ROZVRHŮ.
+# - Je možný, že to bere pouze specifickej druh rozvrhových akcí. Udělat to tak, aby to bralo vše.
+
 import polars as pl
 from typing import Tuple, Dict, List
 from io import StringIO
@@ -411,8 +414,6 @@ def studijni_program(sp_ids:List[str], ticket:str, auth:Tuple[str, str] = None, 
 # ----- HANDLER ----- 
 
 def pull_data(search_type:str, search_target:str, stag_user:str, ticket_over:str | None = None, auth_over:Tuple[str, str] | None = None, year:str | None = None, lang:str = "cs"):
-    # TODO: Přidej dynamické pojmenování vygenerovaných tabulek
-
     assert search_type != None, "Missing type of search."
     assert search_target != None, "Missing search keyword."
 
