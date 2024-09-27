@@ -114,7 +114,6 @@ def save_df_to_file(dataframe:pl.DataFrame, path:str, file_format:str) -> None:
     Raises:
         ValueError: If file_format is not either CSV or XLSX, an error is raised, as these are the only two viable save formats.
     """
-    #raise NotImplementedError("Hopefully better.")
     file_format = file_format.lower().strip(".")
 
     if file_format == "xlsx":
@@ -129,11 +128,12 @@ def save_df_to_file(dataframe:pl.DataFrame, path:str, file_format:str) -> None:
         raise ValueError("Undefined file saving format.")
     
 def format_rozvrhy(rozvrh_source:pl.DataFrame) -> pl.DataFrame:
-    """Function to format scheduled events."""
+    """Function to format schedules."""
     #TODO: Zkontrolovat správnost generace rozvrhů. Viz xlsx_gen
     return fix_str_to_int(rozvrh_source.drop("semestr").rename({"predmet" : "zkratka"}), ["ucitIdno.ucitel", "vsichniUciteleUcitIdno"]).with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
 
 def format_predmety(predmety_source:pl.DataFrame) -> pl.DataFrame:
+    """Function to format subjects. Duh."""
     temp_predmety:pl.DataFrame = fix_str_to_int(predmety_source)
     unit_fix_cols = [col for index,col in enumerate(temp_predmety.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").columns) if temp_predmety.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").dtypes[index] == pl.List]
     temp_predmety = temp_predmety.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
@@ -231,6 +231,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     # If block pokrývá situace kde není žádný předmět s více garanty
     # TODO: 1) Nahrazení výběru seznamem, to by mělo fungovat though 2) This fuckin stinks
     def vice_garantu_func():
+        """Function to find all rows where there are multiple garants."""
         final_selection = ["katedra", "zkratka","garantiUcitIdno", "garanti", "pocet garantu"]
         if predmety_s_akci.dtypes[predmety_s_akci.get_column_index("garantiUcitIdno")] == pl.List:
             vice_garantu = predmety_s_akci.with_columns(
@@ -246,6 +247,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     
     # TODO: Otestovat 
     def all_has_teacher_theoretical():
+        """Handles using all the fields on the has_teacher_theoretical function."""
         fields = ["prednasejici", "cvicici", "seminarici"]
         for field in fields:
             cur_res = has_teacher_theoretical(predmety_s_akci, field)
@@ -320,6 +322,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     def all_no_scheduled_events():
         # Alternativní přístup přes agregaci?
         def no_scheduled_events(sought_field:str):
+            """Finds all instances where a teacher in syllabus is not responsible for any events in the schedule of a period."""
             st_id = sought_field + "UcitIdno"
             filtrovani_prednasejici = male_predmety.select("nazev", "katedra", "zkratka", st_id).explode(st_id)
             prednasejici_jmena = male_predmety.select(sought_field).rename({sought_field:"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
@@ -355,6 +358,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
     def all_not_in_sylabus():
         def not_in_sylabus(sought_field:str, abbriviation:str):
+            """Searches through scheduled events to finds all teacher who are not in syllabus."""
             st_id = sought_field + "UcitIdno"
             male_prednasky = maly_rozvrh.filter(pl.col("typAkceZkr") == abbriviation)
             joined_prednasky = male_prednasky.join(male_predmety.select("zkratka", "katedra", "nazev", sought_field, st_id), "zkratka", "left").unique()
