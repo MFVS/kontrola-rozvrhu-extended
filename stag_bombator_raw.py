@@ -122,7 +122,7 @@ def save_df_to_file(dataframe:pl.DataFrame, path:str, file_format:str) -> None:
         return
     elif file_format == "csv":
         path = path if ".csv" == path[-4:] else f"{path}.csv"
-        prep_csv(dataframe=dataframe).write_csv(path)
+        prep_csv(dataframe=dataframe).write_csv(path, separator=";")
         uac.convert(path)
         return
     else:
@@ -207,7 +207,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     maly_rozvrh = rozvrh_by_kat.select(["katedra","zkratka", "vsichniUciteleUcitIdno", "typAkceZkr", "rok", "datumOd", "datumDo", "hodinaSkutOd", "hodinaSkutDo"]).with_columns(pl.concat_str(pl.col("zkratka"), pl.col("katedra")).alias("identifier"))
     if maly_rozvrh.dtypes[maly_rozvrh.get_column_index("vsichniUciteleUcitIdno")] == pl.List:
         maly_rozvrh = maly_rozvrh.with_columns(pl.col("vsichniUciteleUcitIdno")).explode("vsichniUciteleUcitIdno")
-    maly_rozvrh = maly_rozvrh.rename({"vsichniUciteleUcitIdno": "idno"}).filter(pl.col("datumOd").str.len_chars() > 0)
+    maly_rozvrh = maly_rozvrh.rename({"vsichniUciteleUcitIdno": "idno"})#.filter(pl.col("datumOd").str.len_chars() > 0) #TODO: Tohle možná dělalo problémy; filtrovalo to prázdný rozvrhový akce
 
     # Číselník učitelů
     ciselnik_ucitelu = pl.read_csv("source_tables/ciselnik_ucitelu.csv").select("nazev", "key").rename({"nazev":"jmena", "key":"idno"})
@@ -228,6 +228,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
     # Předměty s více garanty
     # If block pokrývá situace kde není žádný předmět s více garanty
+    # TODO: This fuckin sucks
     if predmety_s_akci.dtypes[predmety_s_akci.get_column_index("garantiUcitIdno")] == pl.List:
         vice_garantu = predmety_s_akci.with_columns(
             garant.list.len().alias("pocet garantu")
@@ -238,24 +239,31 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
         uac.convert(".\\results_csv\\vice_garantu"+name_mod+".csv")
         vice_garantu.head(10)
     
-    # TODO: Shrnout do souhrnné funkce all_teacher_theoretical (dle funkcí all_no_scheduled_events, all_not_in_syllabus), aplikovat funkci save_df_to_file 
-    # Přednášky bez přednášejících
-    chybi_prednasejici = has_teacher_theoretical(predmety_s_akci, "prednasejici")
+    # TODO: Otestovat 
+    def all_has_teacher_theoretical():
+        fields = ["prednasejici", "cvicici", "seminarici"]
+        for field in fields:
+            cur_res = has_teacher_theoretical(predmety_s_akci, field)
+            save_df_to_file(cur_res, f".\\results_csv\\chybi_{field}{name_mod}", file_format)
 
-    prep_csv(chybi_prednasejici).write_csv(".\\results_csv\\chybi_prednasejici"+name_mod+".csv", separator=";")
-    uac.convert(".\\results_csv\\chybi_prednasejici"+name_mod+".csv")
+    all_has_teacher_theoretical()
 
-    # Cvičení bez cvičicích
-    chybi_cvicici = has_teacher_theoretical(predmety_s_akci, "cvicici")
+    # chybi_prednasejici = has_teacher_theoretical(predmety_s_akci, "prednasejici")
 
-    prep_csv(chybi_cvicici).write_csv(".\\results_csv\\chybi_cvicici"+name_mod+".csv", separator=";")
-    uac.convert(".\\results_csv\\chybi_cvicici"+name_mod+".csv")
+    # prep_csv(chybi_prednasejici).write_csv(".\\results_csv\\chybi_prednasejici"+name_mod+".csv", separator=";")
+    # uac.convert(".\\results_csv\\chybi_prednasejici"+name_mod+".csv")
 
-    # Semináře bez seminařicích
-    chybi_seminarici = has_teacher_theoretical(predmety_s_akci, "seminarici")
+    # # Cvičení bez cvičicích
+    # chybi_cvicici = has_teacher_theoretical(predmety_s_akci, "cvicici")
 
-    prep_csv(chybi_seminarici).write_csv(".\\results_csv\\chybi_seminarici"+name_mod+".csv", separator=";")
-    uac.convert(".\\results_csv\\chybi_seminarici"+name_mod+".csv")
+    # prep_csv(chybi_cvicici).write_csv(".\\results_csv\\chybi_cvicici"+name_mod+".csv", separator=";")
+    # uac.convert(".\\results_csv\\chybi_cvicici"+name_mod+".csv")
+
+    # # Semináře bez seminařicích
+    # chybi_seminarici = has_teacher_theoretical(predmety_s_akci, "seminarici")
+
+    # prep_csv(chybi_seminarici).write_csv(".\\results_csv\\chybi_seminarici"+name_mod+".csv", separator=";")
+    # uac.convert(".\\results_csv\\chybi_seminarici"+name_mod+".csv")
 
     # Předměty kde garant neučí
     def garant_doesnt_teach():
@@ -320,6 +328,11 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
             prednasejici_bez_prednasek = joined_prednasejici.filter(pl.col("typAkceZkr").is_null())
             return prednasejici_bez_prednasek.select("katedra", "zkratka", "nazev", st_id, "jmena").sort(st_id)
         
+        fields = [("prednasejici", "prednasejici_bez_prednasek"), ("cvicici", "cvicici_bez_cviceni"), ("seminarici", "seminarici_bez_seminare")]
+        for field in fields:
+            cur_res = no_scheduled_events(predmety_s_akci, field)
+            save_df_to_file(cur_res, f".\\results_csv\\{field}{name_mod}", file_format)
+        
         prednasky = no_scheduled_events("prednasejici")
         prep_csv(prednasky).write_csv(".\\results_csv\\prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
         uac.convert(".\\results_csv\\prednasejici_bez_prednasek"+name_mod+".csv")
@@ -343,17 +356,22 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
             return prednasky_bez_prednasejicich.join(ciselnik_ucitelu, "idno", "left").with_columns(pl.col(st_id).cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
         
-        prednasky = not_in_sylabus(sought_field="prednasejici", abbriviation="Př")
-        prep_csv(prednasky).write_csv(".\\results_csv\\prednasky_bez_prednasejicich"+name_mod+".csv", separator=";")
-        uac.convert(".\\results_csv\\prednasky_bez_prednasejicich"+name_mod+".csv")
+        fields = [("prednasejici", "Př", "prednasky_bez_prednasejici"), ("cvicici", "Cv", "cviceni_bez_cvicich"), ("seminarici", "Se", "seminare_bez_seminaricich")]
+        for field in fields:
+            cur_res = not_in_sylabus(sought_field=field[0], abbriviation=field[1])
+            save_df_to_file(cur_res, f".\\results_csv\\{field[2]}{name_mod}", file_format)
+        
+        # prednasky = not_in_sylabus(sought_field="prednasejici", abbriviation="Př")
+        # prep_csv(prednasky).write_csv(".\\results_csv\\prednasky_bez_prednasejicich"+name_mod+".csv", separator=";")
+        # uac.convert(".\\results_csv\\prednasky_bez_prednasejicich"+name_mod+".csv")
 
-        cviceni = not_in_sylabus(sought_field="cvicici", abbriviation="Cv")
-        prep_csv(cviceni).write_csv(".\\results_csv\\cviceni_bez_cvicich"+name_mod+".csv", separator=";")
-        uac.convert(".\\results_csv\\cviceni_bez_cvicich"+name_mod+".csv")
+        # cviceni = not_in_sylabus(sought_field="cvicici", abbriviation="Cv")
+        # prep_csv(cviceni).write_csv(".\\results_csv\\cviceni_bez_cvicich"+name_mod+".csv", separator=";")
+        # uac.convert(".\\results_csv\\cviceni_bez_cvicich"+name_mod+".csv")
 
-        seminare = not_in_sylabus(sought_field="seminarici", abbriviation="Se")
-        prep_csv(seminare).write_csv(".\\results_csv\\seminare_bez_seminaricich"+name_mod+".csv", separator=";")
-        uac.convert(".\\results_csv\\seminare_bez_seminaricich"+name_mod+".csv")
+        # seminare = not_in_sylabus(sought_field="seminarici", abbriviation="Se")
+        # prep_csv(seminare).write_csv(".\\results_csv\\seminare_bez_seminaricich"+name_mod+".csv", separator=";")
+        # uac.convert(".\\results_csv\\seminare_bez_seminaricich"+name_mod+".csv")
 
     all_not_in_sylabus()
 

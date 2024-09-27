@@ -1,6 +1,4 @@
 GENERAL
-- Core: Stress test
-- Improvements: Přidat studijní programy
 
 APP_PS
 - Kopírovat schování sidebaru/smazat ho
