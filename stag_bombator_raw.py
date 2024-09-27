@@ -204,7 +204,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     predmety_s_akci = predmety_by_kat.join(other=rozvrh_by_kat, on="identifier", how="inner").select(predmety_by_kat.columns).unique().sort("identifier")
 
     # Osekané rozvrhové akce
-    maly_rozvrh = rozvrh_by_kat.select(["katedra","zkratka", "vsichniUciteleUcitIdno", "typAkceZkr", "rok", "datumOd", "datumDo", "hodinaSkutOd", "hodinaSkutDo"]).with_columns(pl.concat_str(pl.col("zkratka"), pl.col("katedra")).alias("identifier"))
+    maly_rozvrh = rozvrh_by_kat.select(["katedra","zkratka","identifier", "vsichniUciteleUcitIdno", "typAkceZkr", "rok", "datumOd", "datumDo", "hodinaSkutOd", "hodinaSkutDo"])#.with_columns(pl.concat_str(pl.col("zkratka"), pl.col("katedra")).alias("identifier"))
     if maly_rozvrh.dtypes[maly_rozvrh.get_column_index("vsichniUciteleUcitIdno")] == pl.List:
         maly_rozvrh = maly_rozvrh.with_columns(pl.col("vsichniUciteleUcitIdno")).explode("vsichniUciteleUcitIdno")
     maly_rozvrh = maly_rozvrh.rename({"vsichniUciteleUcitIdno": "idno"})#.filter(pl.col("datumOd").str.len_chars() > 0) #TODO: Tohle možná dělalo problémy; filtrovalo to prázdný rozvrhový akce
@@ -322,20 +322,37 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     def all_no_scheduled_events():
         # Alternativní přístup přes agregaci?
         def no_scheduled_events(sought_field:str):
-            """Finds all instances where a teacher in syllabus is not responsible for any events in the schedule of a period."""
-            st_id = sought_field + "UcitIdno"
-            filtrovani_prednasejici = male_predmety.select("nazev", "katedra", "zkratka", st_id).explode(st_id)
-            prednasejici_jmena = male_predmety.select(sought_field).rename({sought_field:"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
-            prednasejici_jmena = prednasejici_jmena.with_columns(pl.col("jmena").str.replace(",", ""))
-            filtrovani_prednasejici = filtrovani_prednasejici.with_columns(prednasejici_jmena).filter(
-                pl.col(st_id
-            ).is_not_null()).with_columns(
-                pl.col(st_id).alias("idno")
-            )
+            variant = f"{sought_field}UcitIdno"
+            period_trans = {
+                "prednasejici":"Pr",
+                "cvicici":"Cv",
+                "seminarici":"Se"
+            }
 
-            joined_prednasejici = filtrovani_prednasejici.join(maly_rozvrh, "idno", "left")
-            prednasejici_bez_prednasek = joined_prednasejici.filter(pl.col("typAkceZkr").is_null())
-            return prednasejici_bez_prednasek.select("katedra", "zkratka", "nazev", st_id, "jmena").sort(st_id)
+            small_sf_events = maly_rozvrh.filter(pl.col("typAkceZkr") == period_trans[sought_field]).lazy().group_by(pl.col("identifier")).agg(pl.col("idno")).collect().select("identifier", "idno")
+            discordant = male_predmety.join(small_sf_events, "identifier", "left").filter(pl.col("idno") != pl.col(variant))
+
+            #TODO: Vysosat z discordant chybějící učitele
+            # - Projít list {sought_field}UcitIdno a za pomocí .eval a .is_in() nechat pouze ty, co nejsou v idno (idk jak funguje eval takže to udělám doma)
+            # - Explodovat a vyfiltrovat None-hodnoty, return (možná tam ještě nalep jména)
+
+
+        # ---
+        # def no_scheduled_events(sought_field:str):
+        #     """Finds all instances where a teacher in syllabus is not responsible for any events in the schedule of a period."""
+        #     st_id = sought_field + "UcitIdno"
+        #     filtrovani_prednasejici = male_predmety.select("nazev", "katedra", "zkratka", st_id).explode(st_id)
+        #     prednasejici_jmena = male_predmety.select(sought_field).rename({sought_field:"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
+        #     prednasejici_jmena = prednasejici_jmena.with_columns(pl.col("jmena").str.replace(",", "")) # Why?
+        #     filtrovani_prednasejici = filtrovani_prednasejici.with_columns(prednasejici_jmena).filter(
+        #         pl.col(st_id).is_not_null()
+        #     ).with_columns(
+        #         pl.col(st_id).alias("idno")
+        #     )
+
+        #     joined_prednasejici = filtrovani_prednasejici.join(maly_rozvrh, "idno", "left")
+        #     prednasejici_bez_prednasek = joined_prednasejici.filter(pl.col("typAkceZkr").is_null())
+        #     return prednasejici_bez_prednasek.select("katedra", "zkratka", "nazev", st_id, "jmena").sort(st_id)
         
         fields = [("prednasejici", "prednasejici_bez_prednasek"), ("cvicici", "cvicici_bez_cviceni"), ("seminarici", "seminarici_bez_seminare")]
         for field in fields:
