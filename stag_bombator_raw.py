@@ -216,6 +216,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     male_predmety = predmety_by_kat.with_columns(pl.concat_str(pl.col("zkratka"), pl.col("katedra")).alias("identifier")).select(pl.col(["zkratka", "katedra", "identifier", "rok", "nazev", "garantiUcitIdno", "prednasejici", "prednasejiciUcitIdno","cvicici", "cviciciUcitIdno","seminarici", "seminariciUcitIdno"])).unique(subset="identifier").drop("identifier")
 
     # Předměty bez garantů
+    # TODO: Zkontrolovat zda toto reálně funguje, závisí to na funkcionalitě fix_str_to_int funkce
     zkratky = predmety_s_akci.filter(garant.is_null()).select(["katedra", "zkratka", "identifier", "rok", "nazev", "nazevDlouhy", "garanti", "garantiSPodily"]).filter(
         # Není SZ
         # pl.col("zkratka").str.starts_with("SZ").is_not()
@@ -228,16 +229,20 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
     # Předměty s více garanty
     # If block pokrývá situace kde není žádný předmět s více garanty
-    # TODO: This fuckin sucks
-    if predmety_s_akci.dtypes[predmety_s_akci.get_column_index("garantiUcitIdno")] == pl.List:
-        vice_garantu = predmety_s_akci.with_columns(
-            garant.list.len().alias("pocet garantu")
-            ).select(
-                ["garantiUcitIdno", "garanti","katedra", "zkratka", "identifier", "pocet garantu"]
-            ).filter(pl.col("pocet garantu") > 1)
-        prep_csv(vice_garantu).write_csv(".\\results_csv\\vice_garantu"+name_mod+".csv", separator=";")
-        uac.convert(".\\results_csv\\vice_garantu"+name_mod+".csv")
-        vice_garantu.head(10)
+    # TODO: 1) Nahrazení výběru seznamem, to by mělo fungovat though 2) This fuckin stinks
+    def vice_garantu_func():
+        final_selection = ["katedra", "zkratka","garantiUcitIdno", "garanti", "pocet garantu"]
+        if predmety_s_akci.dtypes[predmety_s_akci.get_column_index("garantiUcitIdno")] == pl.List:
+            vice_garantu = predmety_s_akci.with_columns(
+                garant.list.len().alias("pocet garantu")
+                ).select(
+                    final_selection
+                ).filter(pl.col("pocet garantu") > 1)
+            return vice_garantu
+        else:
+            return pl.DataFrame({one:"" for one in final_selection})
+        
+    save_df_to_file(vice_garantu_func(), f".\\results_csv\\vice_garantu{name_mod}", file_format)
     
     # TODO: Otestovat 
     def all_has_teacher_theoretical():
@@ -313,6 +318,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
     #TODO: Nefunguje. Prioritní cíl.
     def all_no_scheduled_events():
+        # Alternativní přístup přes agregaci?
         def no_scheduled_events(sought_field:str):
             st_id = sought_field + "UcitIdno"
             filtrovani_prednasejici = male_predmety.select("nazev", "katedra", "zkratka", st_id).explode(st_id)
@@ -333,17 +339,17 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
             cur_res = no_scheduled_events(predmety_s_akci, field)
             save_df_to_file(cur_res, f".\\results_csv\\{field}{name_mod}", file_format)
         
-        prednasky = no_scheduled_events("prednasejici")
-        prep_csv(prednasky).write_csv(".\\results_csv\\prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
-        uac.convert(".\\results_csv\\prednasejici_bez_prednasek"+name_mod+".csv")
+        # prednasky = no_scheduled_events("prednasejici")
+        # prep_csv(prednasky).write_csv(".\\results_csv\\prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
+        # uac.convert(".\\results_csv\\prednasejici_bez_prednasek"+name_mod+".csv")
 
-        cviceni = no_scheduled_events("cvicici")
-        prep_csv(cviceni).write_csv(".\\results_csv\\cvicici_bez_cviceni"+name_mod+".csv", separator=";")
-        uac.convert(".\\results_csv\\cvicici_bez_cviceni"+name_mod+".csv")
+        # cviceni = no_scheduled_events("cvicici")
+        # prep_csv(cviceni).write_csv(".\\results_csv\\cvicici_bez_cviceni"+name_mod+".csv", separator=";")
+        # uac.convert(".\\results_csv\\cvicici_bez_cviceni"+name_mod+".csv")
 
-        seminare = no_scheduled_events("seminarici")
-        prep_csv(seminare).write_csv(".\\results_csv\\seminarici_bez_seminare"+name_mod+".csv", separator=";")
-        uac.convert(".\\results_csv\\seminarici_bez_seminare"+name_mod+".csv")
+        # seminare = no_scheduled_events("seminarici")
+        # prep_csv(seminare).write_csv(".\\results_csv\\seminarici_bez_seminare"+name_mod+".csv", separator=";")
+        # uac.convert(".\\results_csv\\seminarici_bez_seminare"+name_mod+".csv")
 
     all_no_scheduled_events()
 
