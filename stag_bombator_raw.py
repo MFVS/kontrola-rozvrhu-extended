@@ -318,7 +318,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     # uac.convert(".\\results_csv\\garant_neprednasi"+name_mod+".csv")
     save_df_to_file(garant_neprednasi_csv, ".\\results_csv\\garant_neprednasi"+name_mod, file_format)
 
-    #TODO: Nefunguje. Prioritní cíl.
+    #TODO: Nová varianta funkce, nutno pořádně otestovat. Mělo by teď snad fungovat líp
     def all_no_scheduled_events():
         # Alternativní přístup přes agregaci?
         def no_scheduled_events(sought_field:str):
@@ -329,12 +329,13 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
                 "seminarici":"Se"
             }
 
+            # Nový způsob:
+            # - Vyfiltruj dané akce (např. cvičení), seskup podle identifieru ({katedra}/{zkratka}) a agreguj podle idčka
+            # - Spoj tabulky pomocí left joinu (elementy z pravé tabulky jsou nalepeny na levou, ponechány i řádky na které nebylo nic dáno) přes identifier, nech pouze řádky které nejsou identické se sylabem
+            # - Exploduj idčka ze sylabu a nech všechna která nejsou v agregovaných id z rozvrhu 
             small_sf_events = maly_rozvrh.filter(pl.col("typAkceZkr") == period_trans[sought_field]).lazy().group_by(pl.col("identifier")).agg(pl.col("idno")).collect().select("identifier", "idno")
-            discordant = male_predmety.join(small_sf_events, "identifier", "left").filter(pl.col("idno") != pl.col(variant))
-
-            #TODO: Vysosat z discordant chybějící učitele
-            # - Projít list {sought_field}UcitIdno a za pomocí .eval a .is_in() nechat pouze ty, co nejsou v idno (idk jak funguje eval takže to udělám doma)
-            # - Explodovat a vyfiltrovat None-hodnoty, return (možná tam ještě nalep jména)
+            discordant = male_predmety.join(small_sf_events, "identifier", "left").filter(pl.col("idno") != pl.col(variant)).with_columns(pl.col(variant).alias("uciteleBezHodin"))
+            return discordant.explode("uciteleBezHodin").filter(pl.col("uciteleBezHodin").is_in(pl.col("idno")).not_())
 
 
         # ---
