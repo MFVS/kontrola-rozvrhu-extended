@@ -1,17 +1,17 @@
 katedra;zkratka;idno;typAkceZkr;rok;datumOd;datumDo;hodinaSkutOd;hodinaSkutDo;katedra_right;nazev;prednasejici;prednasejiciUcitIdno;jmena
 KI;BTE;2776;Pø;2023;5.10.2023;4.1.2024;14:00;14:50;KI;Bezpeènostní technologie;"";;Krejèí Jan, RNDr. Ph.D.
 KI;EAPR2;;Pø;2023;"";"";00:00;00:00;KI;Algorithms and Programming II;'Mgr. Jiøí Fišer, Ph.D.';251;
-KI;EDAV;6259;Pø;2023;6.3.2024;15.5.2024;15:00;15:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Škvára Jiøí, RNDr. Ph.D.
 KI;EDAV;3416;Pø;2023;6.3.2024;15.5.2024;15:00;15:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Babichev Sergii, prof. DSc.
 KI;EDAV;6973;Pø;2023;6.3.2024;15.5.2024;15:00;15:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Beránek Pavel, Ing. Mgr.
+KI;EDAV;6259;Pø;2023;6.3.2024;15.5.2024;15:00;15:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Škvára Jiøí, RNDr. Ph.D.
 KI;EDMR;3416;Pø;2023;7.3.2024;16.5.2024;14:00;14:50;KI;Data Mining Techniq. based on R Software;'Ricardo Rodriguez Jorge, Ph.D.';8514;Babichev Sergii, prof. DSc.
 KI;EGUI;6973;Pø;2023;22.2.2024;16.5.2024;08:00;09:50;KI;GUI Programming;'RNDr. Petr Kubera, Ph.D.';650;Beránek Pavel, Ing. Mgr.
 KI;EMLR;3416;Pø;2023;5.3.2024;14.5.2024;11:00;11:50;KI;Machine Learning Based on R Software;'Ricardo Rodriguez Jorge, Ph.D.';8514;Babichev Sergii, prof. DSc.
 KI;KOOD;6973;Pø;2023;25.11.2023;25.11.2023;11:00;12:50;KI;Objektovì orientovaný návrh;"";;Beránek Pavel, Ing. Mgr.
 KI;KOTT;9114;Pø;2023;11.5.2024;11.5.2024;14:00;14:50;KI;Optimalizace;'doc. Ing. Mgr. Jiøí Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.';449, 650;Moosaei Hossein, Dr. Ph.D.
 KI;KSOC;3416;Pø;2023;27.4.2024;27.4.2024;16:00;17:50;KI;Soft Computing;'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';650, 2239;Babichev Sergii, prof. DSc.
-KI;KVICT;2776;Pø;2023;6.4.2024;6.4.2024;09:00;10:50;KI;Využití ICT ve výuce;"";;Krejèí Jan, RNDr. Ph.D.
 KI;KVICT;2776;Pø;2023;6.4.2024;6.4.2024;11:00;12:50;KI;Využití ICT ve výuce;"";;Krejèí Jan, RNDr. Ph.D.
+KI;KVICT;2776;Pø;2023;6.4.2024;6.4.2024;09:00;10:50;KI;Využití ICT ve výuce;"";;Krejèí Jan, RNDr. Ph.D.
 KI;OOD;6973;Pø;2023;4.10.2023;3.1.2024;16:00;16:50;KI;Objektovì orientovaný návrh;"";;Beránek Pavel, Ing. Mgr.
 KI;OON;6973;Pø;2023;4.10.2023;3.1.2024;16:00;16:50;KI;Objektovì orientovaný návrh;'RNDr. Petr Kubera, Ph.D.';650;Beránek Pavel, Ing. Mgr.
 KI;OTT;9114;Pø;2023;22.2.2024;16.5.2024;12:00;13:50;KI;Optimalizace;'doc. Ing. Mgr. Jiøí Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.';449, 650;Moosaei Hossein, Dr. Ph.D.

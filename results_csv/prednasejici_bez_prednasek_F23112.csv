@@ -1,26 +1,29 @@
-katedra;zkratka;nazev;prednasejiciUcitIdno;jmena
-KECHT;5MTPL;Migrace, transf. a persistence polutantù;332;'prof. Ing. Zdeòka Kolská Ph.D.
-KMA;HIM;Historie matematiky;425;'PhDr. Magdalena Krátká Ph.D.'
-KMA;LAG;Lineární algebra;425;'PhDr. Magdalena Krátká Ph.D.
-KECHT;5OCHT;Organ. chemie významn. skupin tox. látek;429;'RNDr. Thu Huong Nguyen Thi Ph.D.'
-KECHT;5BICH;Biochemie;429;'RNDr. Thu Huong Nguyen Thi Ph.D.
-KECHT;5SKVD;Systém kvality a vyhodnocování dat;719;'Ing. Václav Synek Ph.D.'
-KMA;LOG;Logistika;1569;'Ing. Daniela Vysloužilová Ph.D.'
-KMA;PSM;Pokroèilé statistické metody;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.'
-KI;ZKB;Základy kyberbezpeènosti;2239;'doc. RNDr. Mgr. Viktor Maškov DrSc.
-KECHT;5FYCH;Fyzikální chemie;2856;'Ing. Magda Škvorová Ph.D.'
-KECHT;5ETOX;Ekotoxikologie;3176;'PharmDr. Markéta Švarcová Ph.D.
-KFY;P217;Difrakce záøení a struktura materiálù;3553;'prof. RNDr. Pavla Èapková DrSc.
-KECHT;5BMZP;Biosenzory a monitorování ŽP;3563;'Ing. Gabriela Kuncová CSc.
-KMA;CAS;Èasové øady;4533;'doc. Ing. Jaroslav Sixta Ph.D.
-KMA;LOG;Logistika;4691;'Ing. Vladimír Balach
-KECHT;5MIBI;Mikrobiologie;5094;'RNDr. Jan Bobek Ph.D.'
-KMA;VSP;Veøejná správa;5309;'Ing. Eva Krumpová
-KMA;VFIN;Veøejné finance;6120;'Ing. Lucie Kopáèková Ph.D.
-KMA;VFIN;Veøejné finance;6773;'doc. Ing. Alena Maaytová Ph.D.'
-KRRVS;5DEMG;Demografie;7644;'Ing. Jan Holub'
-KZP;5PRZP;Právo a životní prostøedí;9239;'Ing. Iveta Soperová'
-KMA;CAS;Èasové øady;9304;'Ing. Ondøej Vozár'
-KMA;PST;Pravdìpodobnost a statistika;9488;'Mgr. Alena Èerníková MSc., Ph.D.'
-KMA;PSM;Pokroèilé statistické metody;9488;'Mgr. Alena Èerníková MSc., Ph.D.
-KMA;CAS;Èasové øady;9488;'Mgr. Alena Èerníková MSc., Ph.D.
+katedra;zkratka;prednasejici;prednasejiciUcitIdno;idno;uciteleBezHodin;jmena
+KI;KSYS;'Mgr. Jiøí Fišer, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.';251,2855,3521;251,3521;2855;Jirsák Jan, doc. RNDr. Ph.D.
+KI;EDAV;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521,8514,2220;2220,3416,6259,6973;3521;Posel Zbyšek, doc. RNDr. Ph.D.
+KI;EDAV;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521,8514,2220;2220,3416,6259,6973;8514;
+KI;EAPR2;'Mgr. Jiøí Fišer, Ph.D.';251;"";251;Fišer Jiøí, Mgr. Ph.D.
+KI;ASK;'RNDr. Jan Krejèí, Ph.D.', 'Ing. Vojtìch Šindler';2776,7152;2776;7152;
+KI;OON;'RNDr. Petr Kubera, Ph.D.';650;6973;650;Kubera Petr, RNDr. Ph.D.
+KI;KDINB;'RNDr. Jan Krejèí, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.';2776,3521;2776;3521;Posel Zbyšek, doc. RNDr. Ph.D.
+KI;SYS;'Mgr. Jiøí Fišer, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.';251,2855,3521;251,3521;2855;Jirsák Jan, doc. RNDr. Ph.D.
+KI;EDMR;'Ricardo Rodriguez Jorge, Ph.D.';8514;3416;8514;
+KI;KBIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;650;Kubera Petr, RNDr. Ph.D.
+KI;KBIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;4195;
+KI;OPT;'prof. Sergii Babichev, DSc.', 'RNDr. Petr Kubera, Ph.D.';3416,650;650;3416;Babichev Sergii, prof. DSc.
+KI;SOC;'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';650,2239;2239,3416;650;Kubera Petr, RNDr. Ph.D.
+KI;PGH;'Ing. Petr Haberzettl', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';1780,2239;3416;1780;Haberzettl Petr, Ing.
+KI;PGH;'Ing. Petr Haberzettl', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';1780,2239;3416;2239;Maškov Viktor, doc. RNDr. Mgr. DrSc.
+KI;DIB;'RNDr. Jan Krejèí, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.';2776,3521;2776;3521;Posel Zbyšek, doc. RNDr. Ph.D.
+KI;EMLR;'Ricardo Rodriguez Jorge, Ph.D.';8514;3416;8514;
+KI;KPYR;'prof. Sergii Babichev, DSc.', 'RNDr. Jiøí Škvára, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3416,6259,2220;2220,3416;6259;Škvára Jiøí, RNDr. Ph.D.
+KI;TZI2;'RNDr. Martin Kuøil, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';264,267;264;267;Pøibyl Jiøí, PhDr. Ph.D.
+KI;NME;'doc. Ing. Mgr. Jiøí Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';449,650,2220;449;650;Kubera Petr, RNDr. Ph.D.
+KI;NME;'doc. Ing. Mgr. Jiøí Barilla, CSc.', 'RNDr. Petr Kubera, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';449,650,2220;449;2220;Škvor Jiøí, RNDr. Ph.D.
+KI;KTZI2;'RNDr. Martin Kuøil, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';264,267;264;267;Pøibyl Jiøí, PhDr. Ph.D.
+KI;BET;'RNDr. Jan Krejèí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';2776,2239;2776;2239;Maškov Viktor, doc. RNDr. Mgr. DrSc.
+KI;BIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;650;Kubera Petr, RNDr. Ph.D.
+KI;BIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;4195;
+KI;KPPG;'Mgr. Jiøí Fišer, Ph.D.', 'prof. Ing. Martin Lísal, DSc.', 'doc. RNDr. Zbyšek Posel, Ph.D.';251,609,3521;251,3521;609;Lísal Martin, prof. Ing. DSc.
+KI;KSOC;'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';650,2239;2239,3416;650;Kubera Petr, RNDr. Ph.D.
+KI;KDIB;'RNDr. Jan Krejèí, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.';2776,3521;2776;3521;Posel Zbyšek, doc. RNDr. Ph.D.

@@ -245,7 +245,7 @@ for a in range(half_issues):
     with cols1[a]: 
         wishes[chyby[a]] = st.checkbox(chyby[a], value = True)
 
-cols2 = st.columns(half_issues) 
+cols2 = st.columns(num_of_issues - half_issues) 
 for b in range(num_of_issues - half_issues): 
     with cols2[b]: 
         wishes[chyby[b + half_issues]] = st.checkbox(chyby[b + half_issues], value = True) 

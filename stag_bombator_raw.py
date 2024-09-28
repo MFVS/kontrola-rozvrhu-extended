@@ -134,7 +134,7 @@ def format_rozvrhy(rozvrh_source:pl.DataFrame) -> pl.DataFrame:
 
 def format_predmety(predmety_source:pl.DataFrame) -> pl.DataFrame:
     """Function to format subjects. Duh."""
-    temp_predmety:pl.DataFrame = fix_str_to_int(predmety_source)
+    temp_predmety:pl.DataFrame = fix_str_to_int(predmety_source, ["garantiUcitIdno", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "hodZaSemKombForma", "jednotekPrednasek","jednotekCviceni","jednotekSeminare"])
     unit_fix_cols = [col for index,col in enumerate(temp_predmety.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").columns) if temp_predmety.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").dtypes[index] == pl.List]
     temp_predmety = temp_predmety.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
     for expl_col in unit_fix_cols:
@@ -213,7 +213,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     ciselnik_ucitelu = pl.read_csv("source_tables/ciselnik_ucitelu.csv").select("nazev", "key").rename({"nazev":"jmena", "key":"idno"})
 
     # Osekané předměty
-    male_predmety = predmety_by_kat.with_columns(pl.concat_str(pl.col("zkratka"), pl.col("katedra")).alias("identifier")).select(pl.col(["zkratka", "katedra", "identifier", "rok", "nazev", "garantiUcitIdno", "prednasejici", "prednasejiciUcitIdno","cvicici", "cviciciUcitIdno","seminarici", "seminariciUcitIdno"])).unique(subset="identifier").drop("identifier")
+    male_predmety = predmety_by_kat.with_columns(pl.concat_str(pl.col("katedra"), pl.col("zkratka"), separator="/").alias("identifier")).select(pl.col(["zkratka", "katedra", "identifier", "rok", "nazev", "garantiUcitIdno", "prednasejici", "prednasejiciUcitIdno","cvicici", "cviciciUcitIdno","seminarici", "seminariciUcitIdno"])).unique(subset="identifier")
 
     # Předměty bez garantů
     # TODO: Zkontrolovat zda toto reálně funguje, závisí to na funkcionalitě fix_str_to_int funkce
@@ -324,7 +324,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
         def no_scheduled_events(sought_field:str):
             variant = f"{sought_field}UcitIdno"
             period_trans = {
-                "prednasejici":"Pr",
+                "prednasejici":"Př",
                 "cvicici":"Cv",
                 "seminarici":"Se"
             }
@@ -333,10 +333,16 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
             # - Vyfiltruj dané akce (např. cvičení), seskup podle identifieru ({katedra}/{zkratka}) a agreguj podle idčka
             # - Spoj tabulky pomocí left joinu (elementy z pravé tabulky jsou nalepeny na levou, ponechány i řádky na které nebylo nic dáno) přes identifier, nech pouze řádky které nejsou identické se sylabem
             # - Exploduj idčka ze sylabu a nech všechna která nejsou v agregovaných id z rozvrhu 
-            small_sf_events = maly_rozvrh.filter(pl.col("typAkceZkr") == period_trans[sought_field]).lazy().group_by(pl.col("identifier")).agg(pl.col("idno")).collect().select("identifier", "idno")
-            discordant = male_predmety.join(small_sf_events, "identifier", "left").filter(pl.col("idno") != pl.col(variant)).with_columns(pl.col(variant).alias("uciteleBezHodin"))
-            return discordant.explode("uciteleBezHodin").filter(pl.col("uciteleBezHodin").is_in(pl.col("idno")).not_())
-
+            small_sf_events = maly_rozvrh.filter(pl.col("typAkceZkr") == period_trans[sought_field]).lazy().group_by(pl.col("identifier")).agg(pl.col("idno")).collect().select("identifier", pl.col("idno").list.unique())
+            #print(small_sf_events.head())
+            #print(male_predmety.columns)
+            discordant = male_predmety.join(small_sf_events, "identifier", "left")
+            print(discordant.head())
+            discordant = discordant.filter(pl.col("idno") != pl.col(variant)).with_columns(pl.col(variant).alias("uciteleBezHodin"))
+            print(discordant.head())
+            discordant = discordant.explode("uciteleBezHodin").filter(pl.col("uciteleBezHodin").is_in(pl.col("idno")).not_()).join(ciselnik_ucitelu.rename({"idno":"uciteleBezHodin"}), "uciteleBezHodin", how="left")
+            print(discordant.head())
+            return discordant.select("katedra", "zkratka", sought_field, variant, "idno", "uciteleBezHodin", "jmena")
 
         # ---
         # def no_scheduled_events(sought_field:str):
@@ -357,8 +363,8 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
         
         fields = [("prednasejici", "prednasejici_bez_prednasek"), ("cvicici", "cvicici_bez_cviceni"), ("seminarici", "seminarici_bez_seminare")]
         for field in fields:
-            cur_res = no_scheduled_events(predmety_s_akci, field)
-            save_df_to_file(cur_res, f".\\results_csv\\{field}{name_mod}", file_format)
+            cur_res = no_scheduled_events(field[0])
+            save_df_to_file(cur_res, f".\\results_csv\\{field[1]}{name_mod}", file_format)
         
         # prednasky = no_scheduled_events("prednasejici")
         # prep_csv(prednasky).write_csv(".\\results_csv\\prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
@@ -384,7 +390,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
             return prednasky_bez_prednasejicich.join(ciselnik_ucitelu, "idno", "left").with_columns(pl.col(st_id).cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
         
-        fields = [("prednasejici", "Př", "prednasky_bez_prednasejici"), ("cvicici", "Cv", "cviceni_bez_cvicich"), ("seminarici", "Se", "seminare_bez_seminaricich")]
+        fields = [("prednasejici", "Př", "prednasky_bez_prednasejicich"), ("cvicici", "Cv", "cviceni_bez_cvicich"), ("seminarici", "Se", "seminare_bez_seminaricich")]
         for field in fields:
             cur_res = not_in_sylabus(sought_field=field[0], abbriviation=field[1])
             save_df_to_file(cur_res, f".\\results_csv\\{field[2]}{name_mod}", file_format)
