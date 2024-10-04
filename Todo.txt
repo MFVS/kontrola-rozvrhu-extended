@@ -1,15 +1,15 @@
 GENERAL
 
 APP_PS
-- Kopírovat schování sidebaru/smazat ho
+- Kopírovat schování sidebaru/smazat ho         MAJDA
 - Otestovat zapamatování roku
-- Opravit pravopisné chyby
-- Zlepšit formátování exkluze chyb
+- Opravit pravopisné chyby                      MAJDA
+- Zlepšit formátování exkluze chyb              MAJDA ?
 
 VÝPIS VÝSLEDKŮ
-- Zkontrolovat gramatiku
+- Zkontrolovat gramatiku                        MAJDA
 - Nezobrazovat prázné DFs
-- Zlepšit alignment tlačítek
+- Zlepšit alignment tlačítek                    MAJDA?
 - Aktualizovat výpis DFs, aby to reflektovalo přidání více output formátů
 
 LOADING
@@ -17,7 +17,7 @@ LOADING
 BOMBATOR
 - SPRAVIT FUNKCI all_no_scheduled_events
 - Otestovat zpřehledněné načítání
-- Shrnout blok "chybí_█████" do jedné funkce
+- generace tabulky se všema chybama 
 
 XLSX-GEN
 - ZKONTROLOVAT GENERACI ROZVRHŮ
