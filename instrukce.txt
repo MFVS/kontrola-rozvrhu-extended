@@ -7,3 +7,5 @@ ten první bude chvíli jet (možná i přes minutu)
 potom v prohlížeči jdi na adresu localhost:8501
 
 pokaždý když uděláš změny, musíš znova buildit - vypnout VS code a znova oba příkazy
+
+čau lidi tady majda 
