@@ -2,9 +2,8 @@ GENERAL
 
 APP_PS
 - Kopírovat schování sidebaru/smazat ho         MAJDA
-- Otestovat zapamatování roku
 - Opravit pravopisné chyby                      MAJDA
-- Zlepšit formátování exkluze chyb              MAJDA ?
+- Zlepšit formátování exkluze chyb              PAVEL
 
 VÝPIS VÝSLEDKŮ
 - Zkontrolovat gramatiku                        MAJDA
@@ -20,4 +19,4 @@ BOMBATOR
 - generace tabulky se všema chybama 
 
 XLSX-GEN
-- ZKONTROLOVAT GENERACI ROZVRHŮ
+- ZKONTROLOVAT GENERACI ROZVRHŮ                 PAVEL

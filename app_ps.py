@@ -183,7 +183,7 @@ with login_container:
     
 st.divider()
 
-st.subheader("Vyplňte následující dotazník:") #TODO: Přidat reálnej formulář pomocí st.form. Volitelné, asi to reálně jenom věci zkomplikuje. Whatever.
+st.subheader("Vyplňte následující dotazník:")
 
 col1, col2, col3 = st.columns(spec=3, gap="small")
 
@@ -209,7 +209,7 @@ with col2:
         teacher_translator = get_teachers()
         st.session_state["search_field"] = st.multiselect("Zvolte učitele:",teacher_translator.keys(), format_func=lambda x:f"{teacher_translator[x]} ({str(x)})")
     
-with col3: #TODO: Experimentální zapamatování roku v default year. Zkontrolovat funkčnost.
+with col3:
     st.session_state["year"] = st.selectbox(label="Zvolte akademický rok:",options=generate_years(),index=default_year(),format_func=lambda x: f"{x}/{x+1}") #NOTE: Vrací stringy s {první rok}/{druhý rok}. Dají se z toho parseovat actually useful data, ale bylo by milé vrátit actually použitelný formát. No biggie tho.
 
 st.subheader("Filtrování typů chyb")
