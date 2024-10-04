@@ -193,7 +193,7 @@ with col1:
 with col2:
     if st.session_state["search_option"] == "Fakulta":
         st.session_state["search_field"] = st.multiselect("Zvolte fakultu:",search_fields["Fakulta"])
-        st.info("Zpracování může trvat i pár minut... Prosím, mějte při načítání strpení.")
+        st.info("Zpracování může trvat i pár minut... Prosím, mějte strpení.")
 
     elif st.session_state["search_option"] == "Katedra":
         st.session_state["search_field"] = st.multiselect("Zvolte katedru:",search_fields["Katedra"]) #NOTE: Tohle ZAHLTÍ uživatele volbami, also možná lepší jména alá STAG?
@@ -220,7 +220,7 @@ chyby = [
     "Bez přednášejících",
     "Bez cvičích",
     "Bez seminařicích",
-    "Vice garantu",
+    "Více garantů",
     "Garant nepřednáší",
     "Garant neučí",
     "Přednášející bez přednášek",
