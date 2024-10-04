@@ -127,7 +127,7 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
         params_predmety["katedra"] = subkatedra
 
         temp_rozvrhy = pl.read_csv(fetch_csv(service="/rozvrhy/getRozvrhByKatedra", params_plus=params_rozvrh, ticket=ticket, auth=auth), separator=";", infer_schema_length=0)
-        temp_rozvrhy.write_csv(f"source_testing/temp_rozvrh_{subkatedra}.csv")
+        #temp_rozvrhy.write_csv(f"source_testing/temp_rozvrh_{subkatedra}.csv")
         fix_list_rozvrhy = type_check(excel_rozvrhy, temp_rozvrhy) # Potenciálně se dá hodit rovnou do funkce, možná ušetřit trochu prostoru v paměti
 
         for col_type in fix_list_rozvrhy.keys():
@@ -137,12 +137,12 @@ def katedra(katedra:str, ticket:str, auth:Tuple[str, str] = None, year:str | Non
 
         excel_rozvrhy = excel_rozvrhy.vstack(other=temp_rozvrhy)
         temp_predmety = pl.read_csv(fetch_csv(service="/predmety/getPredmetyByKatedraFullInfo", params_plus=params_predmety),separator=";", infer_schema_length=0)
-        temp_predmety.write_csv(f"source_testing/temp_predmety_{subkatedra}.csv")
+        #temp_predmety.write_csv(f"source_testing/temp_predmety_{subkatedra}.csv")
         excel_predmety = excel_predmety.vstack(other=temp_predmety)
 
 
-    #excel_rozvrhy.write_csv("source_testing/rozvrhy_katedra.csv")
-    #excel_predmety.write_csv("source_testing/predmety_katedra.csv")
+    excel_rozvrhy.write_csv("source_testing/rozvrhy_katedra.csv")
+    excel_predmety.write_csv("source_testing/predmety_katedra.csv")
     return {
         "rozvrhy":excel_rozvrhy,
         "predmety":excel_predmety
