@@ -227,7 +227,7 @@ chyby = [
     "Cvičící bez cvičení",
     "Seminařící bez seminářů",
     "Přednášející mimo sylabus",
-    "Cvičicí mimo sylabus",
+    "Cvičící mimo sylabus",
     "Seminářicí mimo sylabus"
 ]
 
