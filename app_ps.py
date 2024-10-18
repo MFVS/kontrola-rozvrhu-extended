@@ -218,38 +218,34 @@ st.subheader("Filtrování typů chyb")
 chyby = [
     "Bez garanta",
     "Bez přednášejících",
-    "Bez cvičích",
-    "Bez seminařicích",
-    "Vice garantu",
+    "Bez cvičících",
+    "Bez lektorů seminářů",
+    "Více garantů",
     "Garant nepřednáší",
     "Garant neučí",
     "Přednášející bez přednášek",
     "Cvičící bez cvičení",
-    "Seminařící bez seminářů",
+    "Lektor seminářů bez seminářů",
     "Přednášející mimo sylabus",
-    "Cvičicí mimo sylabus",
-    "Seminářicí mimo sylabus"
+    "Cvičící mimo sylabus",
+    "Lektor seminářů mimo sylabus"
 ]
 
 # Dict pro zápis zda to reálně uživatel chce zobrazit nebo ne
-wishes = {chyba:True for chyba in chyby}
+wishes = {chyba: True for chyba in chyby}
 
-# Formátování sloupců (jejich počet dle chyb)
+# Formátování sloupců
 num_of_issues = len(chyby)
-half_issues = num_of_issues // 2
+num_of_columns = 3
+issues_per_column = (num_of_issues + num_of_columns - 1) // num_of_columns
+cols = st.columns(num_of_columns)
 
-# TODO: Zlepšit formátování (pozměnit počet sloupců tak aby se rovnal)
-# - Generovat half_issues + num_of_issues % 2 sloupců, přistoupit k chybě x a chybě x + half_issues
-cols1 = st.columns(half_issues)
-for a in range(half_issues): 
-    with cols1[a]: 
-        wishes[chyby[a]] = st.checkbox(chyby[a], value = True)
-
-cols2 = st.columns(num_of_issues - half_issues) 
-for b in range(num_of_issues - half_issues): 
-    with cols2[b]: 
-        wishes[chyby[b + half_issues]] = st.checkbox(chyby[b + half_issues], value = True) 
-
+# Přiřazení checkboxů do sloupců
+for i in range(num_of_issues):
+    column_index = i // issues_per_column
+    with cols[column_index]:
+        wishes[chyby[i]] = st.checkbox(chyby[i], value=True)
+        
 lang_translate = {
     "cs":"Čeština",
     "en":"Angličtina"
