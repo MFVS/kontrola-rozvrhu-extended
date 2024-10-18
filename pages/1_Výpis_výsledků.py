@@ -44,21 +44,20 @@ st.markdown(hide_streamlit_style, unsafe_allow_html=True)
 
 #TODO: Pozměnit hodnoty tak aby to nedělalo blbosti.
 #Blbosti: Pokud se zmenší okno, tlačítko rozdělí text na několik řádků. Pokud je okno moc velké, je mezi tlačítky díra a zpět není úplně u kraje
-col1, col2, col3 = st.columns([0.80,0.15,0.05])
+st.header("Výpis chyb")
+col1, col2 = st.columns([10, 90])
 
 with col1:
-    st.header("Výpis chyb")
+    if st.button("Zpět"):
+        st.switch_page("app_ps.py")
 with col2:
     zip_it_up()
     with open(f"zips/Chyby v rozvrhu {st.session_state["stagRoleName"]}.zip", "rb") as myzip:
         st.download_button("Stáhnout všechno", myzip, "Chyby v rozvrhu.zip")
-with col3:
-    if st.button("Zpět"):
-        st.switch_page("app_ps.py")
 
 tab_folder = st.tabs(chyby)
 
-for tab_index,tab in enumerate(tab_folder):
+for tab_index, tab in enumerate(tab_folder):
     with open(file_names[tab_index], "rb") as file:
         tab.download_button(f"Stáhnout {st.session_state["output_format"]}", file, file_name=chyby[tab_index]+"."+st.session_state["output_format"]) #TODO: Zobrazit soubor dle file-typu. Asi to bude vyžadovat funkci read_xlsx or sumin. Oh yea, obecně načítání s podporou více output formátů je fucked.
     if st.session_state["output_format"] == "CSV":
