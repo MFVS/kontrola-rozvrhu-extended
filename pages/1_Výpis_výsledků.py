@@ -3,17 +3,17 @@
 chyby_translator = {
     "Bez garanta":"bez_garanta",
     "Bez přednášejících":"chybi_prednasejici",
-    "Bez cvičích":"chybi_cvicici",
-    "Bez seminařicích":"chybi_seminarici",
-    "Vice garantu":"vice_garantu",
+    "Bez cvičících":"chybi_cvicici",
+    "Bez lektorů seminářů":"chybi_seminarici",
+    "Více garantů":"vice_garantu",
     "Garant nepřednáší":"garant_neprednasi",
     "Garant neučí":"predmety_kde_garant_neuci",
     "Přednášející bez přednášek":"prednasejici_bez_prednasek",
     "Cvičící bez cvičení":"cvicici_bez_cviceni",
-    "Seminařící bez seminářů":"seminarici_bez_seminare",
+    "Lektor seminářů bez seminářů":"seminarici_bez_seminare",
     "Přednášející mimo sylabus":"prednasky_bez_prednasejicich",
-    "Cvičicí mimo sylabus":"cviceni_bez_cvicich",
-    "Seminářicí mimo sylabus":"seminare_bez_seminaricich",
+    "Cvičící mimo sylabus":"cviceni_bez_cvicich",
+    "Lektor seminářů mimo sylabus":"seminare_bez_seminaricich",
 }
 
 
