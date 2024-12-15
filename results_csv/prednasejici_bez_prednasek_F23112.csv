@@ -1,62 +1,62 @@
 katedra;zkratka;prednasejici;prednasejiciUcitIdno;idno;uciteleBezHodin;jmena
-KMA;KDM3;'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.';261,425;425;261;Eisenmann Petr, doc. PaedDr. CSc.
-KMA;CAL3;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
-KMA;PST;'doc. PhDr. Ing. Martin Boïa, PhD.', 'Mgr. Alena Èerníková, MSc., Ph.D.';8035,9488;8035;9488;Èerníková Alena, Mgr. MSc., Ph.D.
-KI;KOOD;'Ing. Mgr. Pavel Beránek', 'Ing. Jan Svoboda';6973,8093;6973;8093;
-KMA;KTMN;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.';425,264;425;264;Kuøil Martin, RNDr. Ph.D.
-KMA;HIM;'PhDr. Magdalena Krátká, Ph.D.';425;261;425;Krátká Magdalena, PhDr. Ph.D.
-KI;KBIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;650;Kubera Petr, RNDr. Ph.D.
-KI;KBIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;4195;
-KMA;PSM;'prof. Sergii Babichev, DSc.', 'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';3416,9488,2239;3416,9488;2239;Maškov Viktor, doc. RNDr. Mgr. DrSc.
-KMA;KDM2;'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.';261,425;425;261;Eisenmann Petr, doc. PaedDr. CSc.
+KMA;CA2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
 KMA;DM1;'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.';261,425;425;261;Eisenmann Petr, doc. PaedDr. CSc.
-KMA;MU1;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';8987,264,5205,267;264,8987;5205;Lacková Veronika, RNDr. Ph.D.
-KMA;MU1;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';8987,264,5205,267;264,8987;267;Pøibyl Jiøí, PhDr. Ph.D.
-KMA;KCA2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
-KMA;KMA3;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
-KI;KSYS;'Mgr. Jiøí Fišer, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.';251,2855,3521;251,3521;2855;Jirsák Jan, doc. RNDr. Ph.D.
-KMA;CAL2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
-KMA;KPST;'doc. PhDr. Ing. Martin Boïa, PhD.', 'Mgr. Alena Èerníková, MSc., Ph.D.';8035,9488;9488;8035;Boïa Martin, doc. PhDr. Ing. PhD.
-KI;ICTE;'RNDr. Jan Krejèí, Ph.D.';2776;2317;2776;Krejèí Jan, RNDr. Ph.D.
-KI;KPDSA;'prof. Sergii Babichev, DSc.', 'Mgr. Jiøí Fišer, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiøí Škvor, Ph.D.';3416,251,2239,2220;251,2220,2239;3416;Babichev Sergii, prof. DSc.
-KMA;KHIM;'PhDr. Magdalena Krátká, Ph.D.';425;261;425;Krátká Magdalena, PhDr. Ph.D.
-KMA;CAS;'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.', 'Ing. Ondøej Vozár';9488,4533,2220,9304;9488;4533;
-KMA;CAS;'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.', 'Ing. Ondøej Vozár';9488,4533,2220,9304;9488;2220;Škvor Jiøí, RNDr. Ph.D.
-KMA;CAS;'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.', 'Ing. Ondøej Vozár';9488,4533,2220,9304;9488;9304;
-KMA;MA2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
-KMA;VSP;'Ing. Eva Krumpová', 'Ing. Petra Olšová, Ph.D.';5309,2142;2142;5309;
-KMA;MME;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Jiøí Škvor, Ph.D.', 'RNDr. Ing. Michaela Tichá, Ph.D.';261,2220,9300;2220;261;Eisenmann Petr, doc. PaedDr. CSc.
-KMA;MME;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Jiøí Škvor, Ph.D.', 'RNDr. Ing. Michaela Tichá, Ph.D.';261,2220,9300;2220;9300;Tichá Michaela, RNDr. Ing. Ph.D.
 KMA;LAL;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.';425,264,5205;264;425;Krátká Magdalena, PhDr. Ph.D.
 KMA;LAL;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.';425,264,5205;264;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;LAG;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.';425,264,5205;264;425;Krátká Magdalena, PhDr. Ph.D.
+KMA;LAG;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.';425,264,5205;264;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;CAL2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;KCA2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;MA2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;VFIN;'Ing. Lucie Kopáèková, Ph.D.', 'doc. Ing. Alena Maaytová, Ph.D.';6120,6773;6773;6120;Kopáèková Lucie, Ing. Ph.D.
+KMA;HIM;'PhDr. Magdalena Krátká, Ph.D.';425;261;425;Krátká Magdalena, PhDr. Ph.D.
+KMA;KHIM;'PhDr. Magdalena Krátká, Ph.D.';425;261;425;Krátká Magdalena, PhDr. Ph.D.
+KMA;PSM;'prof. Sergii Babichev, DSc.', 'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';3416,9488,2239;3416,9488;2239;Maškov Viktor, doc. RNDr. Mgr. DrSc.
 KMA;PSB;'Mgr. Alena Èerníková, MSc., Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'Mgr. Lucie Loukotová';9488,425,3188;9488;425;Krátká Magdalena, PhDr. Ph.D.
 KMA;PSB;'Mgr. Alena Èerníková, MSc., Ph.D.', 'PhDr. Magdalena Krátká, Ph.D.', 'Mgr. Lucie Loukotová';9488,425,3188;9488;3188;Loukotová Lucie, Mgr.
-KMA;MA3;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
+KI;TZI2;'RNDr. Martin Kuøil, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';264,267;264;267;Pøibyl Jiøí, PhDr. Ph.D.
+KMA;KPAS;'doc. PhDr. Ing. Martin Boïa, PhD.', 'Mgr. Alena Èerníková, MSc., Ph.D.';8035,9488;9488;8035;Boïa Martin, doc. PhDr. Ing. PhD.
+KI;KSYS;'Mgr. Jiøí Fišer, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.';251,2855,3521;251,3521;2855;Jirsák Jan, doc. RNDr. Ph.D.
+KMA;ODR;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;5205;8987;Bazaykin Yaroslav, doc. CSc., DSc.
+KMA;MME;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Jiøí Škvor, Ph.D.', 'RNDr. Ing. Michaela Tichá, Ph.D.';261,2220,9300;2220;261;Eisenmann Petr, doc. PaedDr. CSc.
+KMA;MME;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Jiøí Škvor, Ph.D.', 'RNDr. Ing. Michaela Tichá, Ph.D.';261,2220,9300;2220;9300;Tichá Michaela, RNDr. Ing. Ph.D.
+KMA;KMU1;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';8987,264,5205,267;264,8987;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;KMU1;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';8987,264,5205,267;264,8987;267;Pøibyl Jiøí, PhDr. Ph.D.
+KMA;KLAG;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.';425,264;264;425;Krátká Magdalena, PhDr. Ph.D.
+KI;BIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;650;Kubera Petr, RNDr. Ph.D.
+KI;BIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;4195;
+KMA;KCAL2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;PST;'doc. PhDr. Ing. Martin Boïa, PhD.', 'Mgr. Alena Èerníková, MSc., Ph.D.';8035,9488;8035;9488;Èerníková Alena, Mgr. MSc., Ph.D.
 KI;SYS;'Mgr. Jiøí Fišer, Ph.D.', 'doc. RNDr. Jan Jirsák, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.';251,2855,3521;251,3521;2855;Jirsák Jan, doc. RNDr. Ph.D.
-KMA;PAS;'doc. PhDr. Ing. Martin Boïa, PhD.', 'Mgr. Alena Èerníková, MSc., Ph.D.';8035,9488;8035;9488;Èerníková Alena, Mgr. MSc., Ph.D.
-KMA;KMADI;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;KDM3;'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.';261,425;425;261;Eisenmann Petr, doc. PaedDr. CSc.
+KMA;DM3;'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.';261,425;425;261;Eisenmann Petr, doc. PaedDr. CSc.
+KMA;KPST;'doc. PhDr. Ing. Martin Boïa, PhD.', 'Mgr. Alena Èerníková, MSc., Ph.D.';8035,9488;9488;8035;Boïa Martin, doc. PhDr. Ing. PhD.
+KI;KPDSA;'prof. Sergii Babichev, DSc.', 'Mgr. Jiøí Fišer, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiøí Škvor, Ph.D.';3416,251,2239,2220;251,2220,2239;3416;Babichev Sergii, prof. DSc.
+KMA;VSP;'Ing. Eva Krumpová', 'Ing. Petra Olšová, Ph.D.';5309,2142;2142;5309;
+KI;KPYR;'prof. Sergii Babichev, DSc.', 'RNDr. Jiøí Škvára, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3416,6259,2220;2220,3416;6259;Škvára Jiøí, RNDr. Ph.D.
+KMA;KPSM;'prof. Sergii Babichev, DSc.', 'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';3416,9488,2239;9488;3416;Babichev Sergii, prof. DSc.
+KMA;KPSM;'prof. Sergii Babichev, DSc.', 'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';3416,9488,2239;9488;2239;Maškov Viktor, doc. RNDr. Mgr. DrSc.
 KMA;KCAS;'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.', 'Ing. Ondøej Vozár';9488,4533,2220,9304;9488;4533;
 KMA;KCAS;'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.', 'Ing. Ondøej Vozár';9488,4533,2220,9304;9488;2220;Škvor Jiøí, RNDr. Ph.D.
 KMA;KCAS;'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.', 'Ing. Ondøej Vozár';9488,4533,2220,9304;9488;9304;
-KMA;VFIN;'Ing. Lucie Kopáèková, Ph.D.', 'doc. Ing. Alena Maaytová, Ph.D.';6120,6773;6773;6120;Kopáèková Lucie, Ing. Ph.D.
-KMA;KPSM;'prof. Sergii Babichev, DSc.', 'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';3416,9488,2239;9488;3416;Babichev Sergii, prof. DSc.
-KMA;KPSM;'prof. Sergii Babichev, DSc.', 'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.';3416,9488,2239;9488;2239;Maškov Viktor, doc. RNDr. Mgr. DrSc.
-KI;OOD;'Ing. Mgr. Pavel Beránek', 'Ing. Jan Svoboda';6973,8093;6973;8093;
-KMA;KMU1;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';8987,264,5205,267;264,8987;5205;Lacková Veronika, RNDr. Ph.D.
-KMA;KMU1;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';8987,264,5205,267;264,8987;267;Pøibyl Jiøí, PhDr. Ph.D.
-KMA;MADI;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
-KMA;CA2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
-KMA;ODR;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;5205;8987;Bazaykin Yaroslav, doc. CSc., DSc.
-KMA;DM3;'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.';261,425;425;261;Eisenmann Petr, doc. PaedDr. CSc.
-KMA;TMN;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.';425,264;425;264;Kuøil Martin, RNDr. Ph.D.
-KMA;KLAL;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.';425,264;264;425;Krátká Magdalena, PhDr. Ph.D.
-KMA;KPAS;'doc. PhDr. Ing. Martin Boïa, PhD.', 'Mgr. Alena Èerníková, MSc., Ph.D.';8035,9488;9488;8035;Boïa Martin, doc. PhDr. Ing. PhD.
-KI;KPYR;'prof. Sergii Babichev, DSc.', 'RNDr. Jiøí Škvára, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3416,6259,2220;2220,3416;6259;Škvára Jiøí, RNDr. Ph.D.
-KI;BIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;650;Kubera Petr, RNDr. Ph.D.
-KI;BIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;4195;
-KMA;LAG;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.';425,264,5205;264;425;Krátká Magdalena, PhDr. Ph.D.
-KMA;LAG;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.';425,264,5205;264;5205;Lacková Veronika, RNDr. Ph.D.
-KI;TZI2;'RNDr. Martin Kuøil, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';264,267;264;267;Pøibyl Jiøí, PhDr. Ph.D.
-KMA;KLAG;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.';425,264;264;425;Krátká Magdalena, PhDr. Ph.D.
 KMA;KCAL3;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
-KMA;KCAL2;'doc. PaedDr. Petr Eisenmann, CSc.', 'RNDr. Veronika Lacková, Ph.D.';261,5205;261;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;TMN;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.';425,264;425;264;Kuøil Martin, RNDr. Ph.D.
+KMA;KTMN;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.';425,264;425;264;Kuøil Martin, RNDr. Ph.D.
+KI;ICTE;'RNDr. Jan Krejèí, Ph.D.';2776;2317;2776;Krejèí Jan, RNDr. Ph.D.
+KI;KOOD;'Ing. Mgr. Pavel Beránek', 'Ing. Jan Svoboda';6973,8093;6973;8093;
+KI;KBIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;650;Kubera Petr, RNDr. Ph.D.
+KI;KBIG;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'Ing. Václav Valenta';251,650,4195;251;4195;
+KMA;KDM2;'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Magdalena Krátká, Ph.D.';261,425;425;261;Eisenmann Petr, doc. PaedDr. CSc.
+KMA;CAS;'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.', 'Ing. Ondøej Vozár';9488,4533,2220,9304;9488;4533;
+KMA;CAS;'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.', 'Ing. Ondøej Vozár';9488,4533,2220,9304;9488;2220;Škvor Jiøí, RNDr. Ph.D.
+KMA;CAS;'Mgr. Alena Èerníková, MSc., Ph.D.', 'doc. Ing. Jaroslav Sixta, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.', 'Ing. Ondøej Vozár';9488,4533,2220,9304;9488;9304;
+KMA;PAS;'doc. PhDr. Ing. Martin Boïa, PhD.', 'Mgr. Alena Èerníková, MSc., Ph.D.';8035,9488;8035;9488;Èerníková Alena, Mgr. MSc., Ph.D.
+KMA;KMADI;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;MU1;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';8987,264,5205,267;264,8987;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;MU1;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Martin Kuøil, Ph.D.', 'RNDr. Veronika Lacková, Ph.D.', 'PhDr. Jiøí Pøibyl, Ph.D.';8987,264,5205,267;264,8987;267;Pøibyl Jiøí, PhDr. Ph.D.
+KMA;MA3;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
+KI;OOD;'Ing. Mgr. Pavel Beránek', 'Ing. Jan Svoboda';6973,8093;6973;8093;
+KMA;KMA3;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;KLAL;'PhDr. Magdalena Krátká, Ph.D.', 'RNDr. Martin Kuøil, Ph.D.';425,264;264;425;Krátká Magdalena, PhDr. Ph.D.
+KMA;MADI;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.
+KMA;CAL3;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987,5205;8987;5205;Lacková Veronika, RNDr. Ph.D.

@@ -5,23 +5,23 @@ KMA;KCAS;2220;Se;2024;"";"";00:00;00:00;KMA;Èasové øady;'Mgr. Alena Èerníková, M
 KMA;KHIM;261;Se;2024;9.5.2025;9.5.2025;09:00;12:50;KMA;Historie matematiky;'PhDr. Magdalena Krátká, Ph.D.';425;Eisenmann Petr, doc. PaedDr. CSc.
 KI;KKRSP;9907;Se;2024;"";"";00:00;00:00;KI;Komplexní reflektivní semináø praxe;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.
 KMA;KLTX;5205;Se;2024;7.3.2025;7.3.2025;09:00;12:50;KMA;Úvod do Latexu;'PhDr. Jiøí Pøibyl, Ph.D.';267;Lacková Veronika, RNDr. Ph.D.
-KMA;KLTX;5205;Se;2024;2.5.2025;2.5.2025;09:00;12:50;KMA;Úvod do Latexu;'PhDr. Jiøí Pøibyl, Ph.D.';267;Lacková Veronika, RNDr. Ph.D.
 KMA;KLTX;5205;Se;2024;4.4.2025;4.4.2025;09:00;12:50;KMA;Úvod do Latexu;'PhDr. Jiøí Pøibyl, Ph.D.';267;Lacková Veronika, RNDr. Ph.D.
-KMA;KMSB;8987;Se;2024;4.4.2025;4.4.2025;14:00;15:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
+KMA;KLTX;5205;Se;2024;2.5.2025;2.5.2025;09:00;12:50;KMA;Úvod do Latexu;'PhDr. Jiøí Pøibyl, Ph.D.';267;Lacková Veronika, RNDr. Ph.D.
 KMA;KMSB;8987;Se;2024;21.2.2025;21.2.2025;14:00;15:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
+KMA;KMSB;8987;Se;2024;4.4.2025;4.4.2025;14:00;15:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
 KMA;KMSB;8987;Se;2024;2.5.2025;2.5.2025;14:00;17:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
 KMA;KOPM;267;Se;2024;25.4.2025;25.4.2025;09:00;12:50;KMA;Odborné prezentace v matematice;'doc. PaedDr. Petr Eisenmann, CSc.';261;Pøibyl Jiøí, PhDr. Ph.D.
 KI;KPDSA;251;Se;2024;7.12.2024;7.12.2024;11:00;12:50;KI;Pokroèilé datové struktury a algoritmy;"";;Fišer Jiøí, Mgr. Ph.D.
-KI;KPNUM;2220;Se;2024;14.12.2024;14.12.2024;14:00;14:50;KI;Pokroèilé numerické metody;"";;Škvor Jiøí, RNDr. Ph.D.
 KI;KPNUM;650;Se;2024;"";"";00:00;00:00;KI;Pokroèilé numerické metody;"";;Kubera Petr, RNDr. Ph.D.
+KI;KPNUM;2220;Se;2024;14.12.2024;14.12.2024;14:00;14:50;KI;Pokroèilé numerické metody;"";;Škvor Jiøí, RNDr. Ph.D.
 KI;KPPP;9907;Se;2024;4.10.2024;3.1.2025;12:00;14:50;KI;Prùbìžná pedagogická praxe;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.
 KI;KPSPN;9907;Se;2024;4.10.2024;3.1.2025;11:00;11:50;KI;Pøípravný semináø k pedagogické praxi;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.
 KI;KPYR;6259;Se;2024;4.1.2025;4.1.2025;11:00;12:50;KI;Python and R for Data Science;"";;Škvára Jiøí, RNDr. Ph.D.
 KI;KSP3;6259;Se;2024;"";"";00:00;00:00;KI;Semestrální projekt III;'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';650, 3521, 2220;Škvára Jiøí, RNDr. Ph.D.
 KI;KZPS;2776;Se;2024;21.12.2024;21.12.2024;11:00;12:50;KI;Základy poèítaèových sítí a protokolù;"";;Krejèí Jan, RNDr. Ph.D.
 KMA;LTX;5205;Se;2024;20.2.2025;15.5.2025;16:00;17:50;KMA;Úvod do Latexu;'PhDr. Jiøí Pøibyl, Ph.D.';267;Lacková Veronika, RNDr. Ph.D.
-KMA;MSB;8987;Se;2024;18.2.2025;13.5.2025;14:00;15:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
 KMA;MSB;8987;Se;2024;"";"";00:00;00:00;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
+KMA;MSB;8987;Se;2024;18.2.2025;13.5.2025;14:00;15:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
 KMA;OPM;3188;Se;2024;18.2.2025;13.5.2025;07:00;07:50;KMA;Odborné prezentace v matematice;'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Jiøí Pøibyl, Ph.D.';261, 267;Loukotová Lucie, Mgr.
 KI;OSIT;6973;Se;2024;28.2.2025;9.5.2025;16:00;17:50;KI;Odborný semináø IT;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Jan Krejèí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiøí Škvor, Ph.D.';251, 2776, 2239, 2220;Beránek Pavel, Ing. Mgr.
 KI;PPP;9907;Se;2024;4.10.2024;3.1.2025;12:00;14:50;KI;Prùbìžná pedagogická praxe;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.

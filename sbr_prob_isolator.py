@@ -52,7 +52,11 @@ def has_teacher_theoretical(dataframe:pl.DataFrame, teacher_type:str) -> pl.Data
 
 # Předměty kde garant neučí
 def garant_doesnt_teach(predmety_s_akci:pl.DataFrame):
-  predmety_kgn = predmety_s_akci.filter((jednotek_cviceni != pl.lit(0)) | (jednotek_prednasek != pl.lit(0)) | (jednotek_seminare != pl.lit(0)))
+  should_cviceni = (jednotek_cviceni != pl.lit(0)) & (pl.col("jednotkaCviceni") == "HOD/TYD")
+  should_prednasek = (jednotek_prednasek != pl.lit(0)) & (pl.col("jednotkaPrednasky") == "HOD/TYD")
+  should_seminare = (jednotek_seminare != pl.lit(0)) & (pl.col("jednotkaSeminare") == "HOD/TYD")
+
+  predmety_kgn = predmety_s_akci.filter(should_cviceni | should_prednasek | should_seminare)
   if predmety_kgn.dtypes[predmety_kgn.get_column_index("garantiUcitIdno")] == pl.List:
       predmety_kgn = predmety_kgn.explode("garantiUcitIdno")
   predmety_kgn = predmety_kgn.with_columns(
@@ -65,7 +69,7 @@ def garant_doesnt_teach(predmety_s_akci:pl.DataFrame):
       ).with_columns(garant.list.drop_nulls()).filter(garant.list.len() > 0)
   )
 
-  selection = ["identifier","katedra", "zkratka", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "jednotekPrednasek", "jednotekCviceni", "jednotekSeminare"]
+  selection = ["identifier","katedra", "zkratka", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "jednotekPrednasek", "jednotkaPrednasky", "jednotekCviceni", "jednotkaCviceni", "jednotekSeminare", "jednotkaSeminare"]
   return aggreg_kgn.collect().join(predmety_kgn.select(selection), "identifier", "left").drop("identifier")
 
 # Garant nepřednáší

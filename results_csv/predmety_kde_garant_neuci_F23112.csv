@@ -1,8 +1,3 @@
-garantiUcitIdno;katedra;zkratka;prednasejiciUcitIdno;cviciciUcitIdno;seminariciUcitIdno;jednotekPrednasek;jednotekCviceni;jednotekSeminare
-8441;KMA;PPSS;;425;;0;3;0
-1610;KI;KPSPN;;;2776;0;0;4
-8441;KMA;PPP;;;425;0;0;3
-1610;KI;KPPP;;;2776;0;0;13
-8441;KI;PPSS;;2776;;0;3;0
-8441;KMA;PPZS;;425;;0;3;0
-8441;KI;PPP;;;2776;0;0;3
+garantiUcitIdno;katedra;zkratka;prednasejiciUcitIdno;cviciciUcitIdno;seminariciUcitIdno;jednotekPrednasek;jednotkaPrednasky;jednotekCviceni;jednotkaCviceni;jednotekSeminare;jednotkaSeminare
+8441;KMA;PPP;;;425;0;HOD/TYD;0;HOD/TYD;3;HOD/TYD
+8441;KI;PPP;;;2776;0;HOD/TYD;0;HOD/TYD;3;HOD/TYD
