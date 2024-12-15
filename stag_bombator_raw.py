@@ -50,14 +50,6 @@ def fix_str_to_int(data:pl.DataFrame, fix_list:list) -> pl.DataFrame:
     print(fix_list)
     print(column_types)
 
-    # TODO: Smazat pokud vše funguje dobře. Zkontrolovat že tohle dole se fakt nehodí. Jsem moc línej.
-    # Pokud v žádném sloupci není víc hodnot, polars to převede na int automaticky.
-    # for index, column in enumerate(fix_list):
-    #     print("Going through:" + column)
-    #     if column_types[index] != pl.String:
-    #         print("Removing:" + column)
-    #         fix_list.remove(column)
-
     fix_list = [column for index, column in enumerate(fix_list) if column_types[index] == pl.String]
 
     print(fix_list)
@@ -183,21 +175,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     # Modifikátor jmen ukládaných souborů
     name_mod = "_"+stag_username
 
-    # TODO: Zkontrolovat, zda nahrazení tohohle bloku modifikovatelnejma funkcema nebude dělat problémy a následně smazat.
-    # Zpracování CSV souborů na DataFrames
-    # print(names["rozvrhy"].head())
-    # rozvrh_by_kat = names["rozvrhy"].drop("semestr").rename({"predmet" : "zkratka"}) # Zde smazán unique, rip
-    # rozvrh_by_kat = fix_str_to_int(rozvrh_by_kat, ["ucitIdno.ucitel", "vsichniUciteleUcitIdno"])
-    # rozvrh_by_kat = rozvrh_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
-
-    # predmety_by_kat = names["predmety"]
-    # predmety_by_kat = fix_str_to_int(predmety_by_kat, ["garantiUcitIdno", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "hodZaSemKombForma", "jednotekPrednasek","jednotekCviceni","jednotekSeminare"])
-    # unit_fix_cols = [col for index,col in enumerate(predmety_by_kat.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").columns) if predmety_by_kat.select("jednotekPrednasek", "jednotekCviceni", "jednotekSeminare").dtypes[index] == pl.List]
-    # predmety_by_kat = predmety_by_kat.with_columns(pl.concat_str([pl.col("katedra"), pl.col("zkratka")], separator="/").alias("identifier"))
-    # for expl_col in unit_fix_cols:
-    #     predmety_by_kat = predmety_by_kat.explode(expl_col)
-
-    rozvrh_by_kat = format_rozvrhy(names["rozvrhy"])
+    rozvrh_by_kat = format_rozvrhy(names["rozvrhy"]).filter(pl.col("ucitIdno") != "")
     predmety_by_kat = format_predmety(names["predmety"])
 
     # Vynechání nevalidních předmětů/rozvrhových akcí (pokud předmět nemá žádné korespondující rozvrhové akce a naopak)

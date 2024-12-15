@@ -1,44 +1,18 @@
 katedra;zkratka;idno;typAkceZkr;rok;datumOd;datumDo;hodinaSkutOd;hodinaSkutDo;katedra_right;nazev;cvicici;cviciciUcitIdno;jmena
-KI;BOP;2220;Cv;2023;"";"";00:00;00:00;KI;Odborná praxe;"";;Škvor Jiøí, RNDr. Ph.D.
-KI;BP2O;;Cv;2023;"";"";00:00;00:00;KI;Bakaláøská práce;"";;
-KI;BPP;;Cv;2023;"";"";00:00;00:00;KI;Bakaláøská práce;"";;
-KI;BTE;2776;Cv;2023;5.10.2023;4.1.2024;15:00;16:50;KI;Bezpeènostní technologie;"";;Krejèí Jan, RNDr. Ph.D.
-KI;DPP;;Cv;2023;"";"";00:00;00:00;KI;Diplomová práce;"";;
-KI;EAPR2;;Cv;2023;"";"";00:00;00:00;KI;Algorithms and Programming II;'Mgr. Jiøí Fišer, Ph.D.';251;
-KI;EDAV;6259;Cv;2023;6.3.2024;15.5.2024;16:00;16:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Škvára Jiøí, RNDr. Ph.D.
-KI;EDAV;6973;Cv;2023;6.3.2024;15.5.2024;16:00;16:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Beránek Pavel, Ing. Mgr.
-KI;EDAV;3416;Cv;2023;6.3.2024;15.5.2024;16:00;16:50;KI;Data Analysis and Visualisation;'doc. RNDr. Zbyšek Posel, Ph.D.', 'Ricardo Rodriguez Jorge, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3521, 8514, 2220;Babichev Sergii, prof. DSc.
-KI;EDMR;3416;Cv;2023;14.3.2024;9.5.2024;14:00;14:50;KI;Data Mining Techniq. based on R Software;'Ricardo Rodriguez Jorge, Ph.D.';8514;Babichev Sergii, prof. DSc.
-KI;EGUI;6973;Cv;2023;22.2.2024;16.5.2024;10:00;11:50;KI;GUI Programming;'RNDr. Petr Kubera, Ph.D.';650;Beránek Pavel, Ing. Mgr.
-KI;ELAI;4472;Cv;2023;"";"";00:00;00:00;KI;Elements of AI;"";;Liegertová Michaela, Mgr. Ph.D.
-KI;EMLR;3416;Cv;2023;12.3.2024;7.5.2024;11:00;11:50;KI;Machine Learning Based on R Software;'Ricardo Rodriguez Jorge, Ph.D.';8514;Babichev Sergii, prof. DSc.
-KI;KDI2;2776;Cv;2023;13.4.2024;13.4.2024;11:00;12:50;KI;Didaktika informatiky II;'Mgr. Kamil Balín', 'Mgr. Kvìtuše Sýkorová';1165, 835;Krejèí Jan, RNDr. Ph.D.
-KI;KDI2;2776;Cv;2023;4.5.2024;4.5.2024;14:00;17:50;KI;Didaktika informatiky II;'Mgr. Kamil Balín', 'Mgr. Kvìtuše Sýkorová';1165, 835;Krejèí Jan, RNDr. Ph.D.
-KI;KOOD;6973;Cv;2023;2.12.2023;2.12.2023;12:00;15:50;KI;Objektovì orientovaný návrh;"";;Beránek Pavel, Ing. Mgr.
-KI;KOONV;6973;Cv;2023;5.11.2023;5.11.2023;16:00;17:50;KI;Objektovì orientované návrhové vzory;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Roman Saòa';251, 8753;Beránek Pavel, Ing. Mgr.
-KI;KOONV;6973;Cv;2023;25.11.2023;25.11.2023;14:00;17:50;KI;Objektovì orientované návrhové vzory;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Roman Saòa';251, 8753;Beránek Pavel, Ing. Mgr.
-KI;KOPS;1165;Cv;2023;5.5.2024;5.5.2024;14:00;17:50;KI;Operaèní systémy;'RNDr. Petr Kubera, Ph.D.';650;Balín Kamil, Mgr.
-KI;KPDSA;3416;Cv;2023;17.12.2023;17.12.2023;14:00;17:50;KI;Pokroèilé datové struktury a algoritmy;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Kvìtuše Sýkorová', 'RNDr. Jiøí Škvor, Ph.D.';251, 835, 2220;Babichev Sergii, prof. DSc.
-KI;KPRI;9642;Cv;2023;7.4.2024;7.4.2024;14:00;17:50;KI;Programování pro internet;'doc. RNDr. Mgr. Viktor Maškov, DrSc.';2239;Burle Jan, Ing. Ph.D.
-KI;KPYR;;Cv;2023;"";"";00:00;00:00;KI;Python and R for Data Science;'prof. Sergii Babichev, DSc.', 'RNDr. Jiøí Škvára, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';3416, 6259, 2220;
-KI;NME;449;Cv;2023;4.10.2023;3.1.2024;14:00;15:50;KI;Numerické metody;'RNDr. Petr Kubera, Ph.D.', 'Mgr. Kvìtuše Sýkorová', 'RNDr. Jiøí Škvor, Ph.D.';650, 835, 2220;Barilla Jiøí, doc. Ing. Mgr. CSc.
-KI;OOD;6973;Cv;2023;4.10.2023;3.1.2024;17:00;17:50;KI;Objektovì orientovaný návrh;"";;Beránek Pavel, Ing. Mgr.
-KI;OON;6973;Cv;2023;4.10.2023;3.1.2024;17:00;17:50;KI;Objektovì orientovaný návrh;'RNDr. Petr Kubera, Ph.D.';650;Beránek Pavel, Ing. Mgr.
-KI;OONV;6973;Cv;2023;6.10.2023;5.1.2024;18:00;19:50;KI;Objektovì orientované návrhové vzory;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Roman Saòa';251, 8753;Beránek Pavel, Ing. Mgr.
-KI;PDSA;3416;Cv;2023;6.10.2023;5.1.2024;14:00;15:50;KI;Pokroèilé datové struktury a algoritmy;'Mgr. Jiøí Fišer, Ph.D.', 'Mgr. Kvìtuše Sýkorová', 'RNDr. Jiøí Škvor, Ph.D.';251, 835, 2220;Babichev Sergii, prof. DSc.
-KI;PPS;;Cv;2023;"";"";00:00;00:00;KI;Praktika poèítaèových sítí;'RNDr. Jan Krejèí, Ph.D.';2776;
-KI;PRI;9642;Cv;2023;20.2.2024;14.5.2024;17:00;18:50;KI;Programování pro internet;'doc. RNDr. Mgr. Viktor Maškov, DrSc.';2239;Burle Jan, Ing. Ph.D.
-KI;SZZ60;;Cv;2023;"";"";00:00;00:00;KI;SZZ - Informatika;"";;
-KI;SZZA;;Cv;2023;"";"";00:00;00:00;KI;Teoretická informatika a matematika;"";;
-KI;SZZAD;;Cv;2023;"";"";00:00;00:00;KI;Aplikované datové inženýrství;"";;
-KI;SZZB;;Cv;2023;"";"";00:00;00:00;KI;Aplikovaná informatika;"";;
-KI;SZZC1;;Cv;2023;"";"";00:00;00:00;KI;Programování a softwarové systémy;"";;
-KI;SZZC2;;Cv;2023;"";"";00:00;00:00;KI;Hardware a poèítaèové sítì;"";;
-KI;SZZIV;;Cv;2023;"";"";00:00;00:00;KI;Informatika pro vzdìlávání;"";;
-KI;SZZPP;;Cv;2023;"";"";00:00;00:00;KI;Aplikovaná informatika: povinný základ;"";;
-KI;SZZTD;;Cv;2023;"";"";00:00;00:00;KI;Teoretické základy datového inženýrství;"";;
-KI;SZZTP;;Cv;2023;"";"";00:00;00:00;KI;Teoretické základy informatiky;"";;
-KI;SZZVP;;Cv;2023;"";"";00:00;00:00;KI;Aplikovaná informatika: volitelné bloky;"";;
-KI;VPOV;9114;Cv;2023;21.2.2024;24.4.2024;16:00;16:50;KI;Vybrané partie z operaèního výzkumu;'RNDr. Petr Kubera, Ph.D.';650;Moosaei Hossein, Dr. Ph.D.
-KI;XBP;;Cv;2023;"";"";00:00;00:00;KI;Bakaláøská práce z informatiky;"";;
-KI;ZPS;;Cv;2023;"";"";00:00;00:00;KI;Základy poèítaèových sítí a protokolù;'Mgr. Kamil Balín', 'RNDr. Jan Krejèí, Ph.D.';1165, 2776;
+KMA;AAP;5205;Cv;2024;20.2.2025;15.5.2025;14:00;15:50;KMA;Algebra s aplikacemi;'RNDr. Martin Kuøil, Ph.D.';264;Lacková Veronika, RNDr. Ph.D.
+KMA;CAL3;263;Cv;2024;"";"";00:00;00:00;KMA;Matematická analýza III;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987, 5205;Hofmanová Pavla, Mgr.
+KI;ELAI;4472;Cv;2024;"";"";00:00;00:00;KI;Elements of AI;"";;Liegertová Michaela, Mgr. Ph.D.
+KI;ICTE;2317;Cv;2024;2.10.2024;18.12.2024;13:00;13:50;KI;Základy ICT;'RNDr. Jan Krejèí, Ph.D.';2776;Kuba Pavel, Ing. Ph.D.
+KMA;KAAP;264;Cv;2024;11.4.2025;11.4.2025;14:00;17:50;KMA;Algebra s aplikacemi;'RNDr. Veronika Lacková, Ph.D.';5205;Kuøil Martin, RNDr. Ph.D.
+KMA;KAAP;264;Cv;2024;21.3.2025;21.3.2025;14:00;17:50;KMA;Algebra s aplikacemi;'RNDr. Veronika Lacková, Ph.D.';5205;Kuøil Martin, RNDr. Ph.D.
+KMA;KCAL3;263;Cv;2024;"";"";00:00;00:00;KMA;Matematická analýza III;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987, 5205;Hofmanová Pavla, Mgr.
+KMA;KMA3;263;Cv;2024;16.5.2025;16.5.2025;14:00;17:50;KMA;Matematická analýza III;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987, 5205;Hofmanová Pavla, Mgr.
+KMA;KMA3;263;Cv;2024;25.4.2025;25.4.2025;14:00;17:50;KMA;Matematická analýza III;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987, 5205;Hofmanová Pavla, Mgr.
+KMA;KUTM;9488;Cv;2024;"";"";00:00;00:00;KMA;Úvod do teorie mìøení;'Mgr. Lucie Loukotová';3188;Èerníková Alena, Mgr. MSc., Ph.D.
+KMA;MA3;263;Cv;2024;17.2.2025;12.5.2025;18:00;19:50;KMA;Matematická analýza III;'doc. Yaroslav Bazaykin, CSc., DSc.', 'RNDr. Veronika Lacková, Ph.D.';8987, 5205;Hofmanová Pavla, Mgr.
+KMA;MT2;263;Cv;2024;18.2.2025;13.5.2025;16:00;17:50;KMA;Matematika II;'RNDr. Veronika Lacková, Ph.D.', 'Mgr. Lucie Loukotová';5205, 3188;Hofmanová Pavla, Mgr.
+KMA;MT2;8741;Cv;2024;20.2.2025;15.5.2025;14:00;15:50;KMA;Matematika II;'RNDr. Veronika Lacková, Ph.D.', 'Mgr. Lucie Loukotová';5205, 3188;Kasperová Jana, Mgr.
+KMA;MT2;8741;Cv;2024;20.2.2025;15.5.2025;08:00;09:50;KMA;Matematika II;'RNDr. Veronika Lacková, Ph.D.', 'Mgr. Lucie Loukotová';5205, 3188;Kasperová Jana, Mgr.
+KMA;MU2;8035;Cv;2024;19.2.2025;14.5.2025;15:00;17:50;KMA;Matematika pro uèitele II;'doc. Yaroslav Bazaykin, CSc., DSc.', 'Mgr. Lucie Loukotová';8987, 3188;Boïa Martin, doc. PhDr. Ing. PhD.
+KI;PPSS;9907;Cv;2024;"";"";00:00;00:00;KI;Souvislá pedagogická praxe na SŠ;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.
+KMA;TGR;264;Cv;2024;"";"";00:00;00:00;KMA;Kombinatorika a grafy;'PhDr. Jiøí Pøibyl, Ph.D.';267;Kuøil Martin, RNDr. Ph.D.
