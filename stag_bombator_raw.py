@@ -4,6 +4,7 @@ import polars as pl
 from typing import List
 import xlsx_generator as tablegen
 import utf_ansi_conv as uac
+import sbr_prob_isolator as spi
 
 # Zkratky na přístup k sloupcům
 jednotek_prednasek = pl.col("jednotekPrednasek")
@@ -136,29 +137,6 @@ def format_predmety(predmety_source:pl.DataFrame) -> pl.DataFrame:
 
 # --- VYHLEDÁVÁNÍ CHYB ---
 
-def has_teacher_theoretical(dataframe:pl.DataFrame, teacher_type:str) -> pl.DataFrame:
-    """Find subjects with no teachers for a specific period type.
-
-    Args:
-        dataframe (pl.DataFrame): Dataframe with annotations of subjects.
-        teacher_type (str): Teacher for that type of period (eg. prednasejici).
-
-    Returns:
-        pl.DataFrame: Dataframe containing offending subjects. Columns: katedra, zkratka, name of all teachers of that type (should be empty), teachers' ids (ditto), how many periods of that type, unit of the former.
-    """
-    to_period = {
-        "prednasejici":"jednotekPrednasek",
-        "cvicici":"jednotekCviceni",
-        "seminarici":"jednotekSeminare",
-    }
-    period_type = to_period[teacher_type]
-
-    has_period_type = pl.col(period_type) != 0
-    has_no_teacher = pl.col(teacher_type + "UcitIdno").is_null()
-
-    missing_teach = dataframe.filter(has_period_type & has_no_teacher).select("katedra", "zkratka", "identifier", teacher_type, teacher_type + "UcitIdno", period_type, period_type.replace("ek", "ka", 1).replace("ek","ky",1))
-
-    return missing_teach
 
 # --- HANDLER ---
 def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ticket:str, year:int, lang:str, file_format:str="csv") -> None:
@@ -195,195 +173,41 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
 
     # Předměty bez garantů
     # TODO: Zkontrolovat zda toto reálně funguje, závisí to na funkcionalitě fix_str_to_int funkce
-    zkratky = predmety_s_akci.filter(garant.is_null()).select(["katedra", "zkratka", "identifier", "rok", "nazev", "nazevDlouhy", "garanti", "garantiSPodily"]).filter(
-        # Není SZ
-        # pl.col("zkratka").str.starts_with("SZ").is_not()
-        True
-    )
-    # prep_csv(zkratky).write_csv(".\\results_csv\\bez_garanta"+name_mod+".csv", separator=";")
-    # uac.convert(".\\results_csv\\bez_garanta"+name_mod+".csv")
+    zkratky = predmety_s_akci.filter(garant.is_null()).select(["katedra", "zkratka", "identifier", "rok", "nazev", "nazevDlouhy", "garanti", "garantiSPodily"])
     save_df_to_file(zkratky, ".\\results_csv\\bez_garanta"+name_mod, file_format)
 
-
-    # Předměty s více garanty
-    # If block pokrývá situace kde není žádný předmět s více garanty
-    # TODO: 1) Nahrazení výběru seznamem, to by mělo fungovat though 2) This fuckin stinks
-    def vice_garantu_func():
-        """Function to find all rows where there are multiple garants."""
-        final_selection = ["katedra", "zkratka","garantiUcitIdno", "garanti", "pocet garantu"]
-        if predmety_s_akci.dtypes[predmety_s_akci.get_column_index("garantiUcitIdno")] == pl.List:
-            vice_garantu = predmety_s_akci.with_columns(
-                garant.list.len().alias("pocet garantu")
-                ).select(
-                    final_selection
-                ).filter(pl.col("pocet garantu") > 1)
-            return vice_garantu
-        else:
-            return pl.DataFrame({one:"" for one in final_selection})
-        
-    save_df_to_file(vice_garantu_func(), f".\\results_csv\\vice_garantu{name_mod}", file_format)
+    save_df_to_file(spi.vice_garantu_func(predmety_s_akci), f".\\results_csv\\vice_garantu{name_mod}", file_format)
     
     # TODO: Otestovat 
     def all_has_teacher_theoretical():
         """Handles using all the fields on the has_teacher_theoretical function."""
         fields = ["prednasejici", "cvicici", "seminarici"]
         for field in fields:
-            cur_res = has_teacher_theoretical(predmety_s_akci, field)
+            cur_res = spi.has_teacher_theoretical(predmety_s_akci, field)
             save_df_to_file(cur_res, f".\\results_csv\\chybi_{field}{name_mod}", file_format)
 
     all_has_teacher_theoretical()
 
-    # chybi_prednasejici = has_teacher_theoretical(predmety_s_akci, "prednasejici")
-
-    # prep_csv(chybi_prednasejici).write_csv(".\\results_csv\\chybi_prednasejici"+name_mod+".csv", separator=";")
-    # uac.convert(".\\results_csv\\chybi_prednasejici"+name_mod+".csv")
-
-    # # Cvičení bez cvičicích
-    # chybi_cvicici = has_teacher_theoretical(predmety_s_akci, "cvicici")
-
-    # prep_csv(chybi_cvicici).write_csv(".\\results_csv\\chybi_cvicici"+name_mod+".csv", separator=";")
-    # uac.convert(".\\results_csv\\chybi_cvicici"+name_mod+".csv")
-
-    # # Semináře bez seminařicích
-    # chybi_seminarici = has_teacher_theoretical(predmety_s_akci, "seminarici")
-
-    # prep_csv(chybi_seminarici).write_csv(".\\results_csv\\chybi_seminarici"+name_mod+".csv", separator=";")
-    # uac.convert(".\\results_csv\\chybi_seminarici"+name_mod+".csv")
-
-    # Předměty kde garant neučí
-    def garant_doesnt_teach():
-        predmety_kgn = predmety_s_akci.filter((jednotek_cviceni != pl.lit(0)) | (jednotek_prednasek != pl.lit(0)) | (jednotek_seminare != pl.lit(0)))
-        if predmety_kgn.dtypes[predmety_kgn.get_column_index("garantiUcitIdno")] == pl.List:
-            predmety_kgn = predmety_kgn.explode("garantiUcitIdno")
-        predmety_kgn = predmety_kgn.with_columns(
-            ((prednasejici.list.contains(garant)) | (cvicici.list.contains(garant)) | (seminarici.list.contains(garant))).alias("containBool")
-        )
-
-        aggreg_kgn = (
-            predmety_kgn.lazy().group_by("identifier").agg(
-                pl.when(pl.col("containBool") == False).then(garant)
-            ).with_columns(garant.list.drop_nulls()).filter(garant.list.len() > 0)
-        )
-
-        selection = ["identifier","katedra", "zkratka", "prednasejiciUcitIdno", "cviciciUcitIdno", "seminariciUcitIdno", "jednotekPrednasek", "jednotekCviceni", "jednotekSeminare"]
-        return aggreg_kgn.collect().join(predmety_kgn.select(selection), "identifier", "left").drop("identifier")
-    
-    predmety_kde_garant_neuci = garant_doesnt_teach()
-    # prep_csv(predmety_kde_garant_neuci).write_csv(".\\results_csv\\predmety_kde_garant_neuci"+name_mod+".csv", separator=";")
-    # uac.convert(".\\results_csv\\predmety_kde_garant_neuci"+name_mod+".csv")
+    predmety_kde_garant_neuci = spi.garant_doesnt_teach(predmety_s_akci)
     save_df_to_file(predmety_kde_garant_neuci, ".\\results_csv\\predmety_kde_garant_neuci"+name_mod, file_format)
 
-    # Garant nepřednáší
-    def garant_doesnt_lecture():
-        garant_neprednasi = predmety_s_akci.filter(jednotek_prednasek != pl.lit(0))
-        if garant_neprednasi.dtypes[garant_neprednasi.get_column_index("garantiUcitIdno")] != pl.Int64:
-            garant_neprednasi = garant_neprednasi.explode("garantiUcitIdno")
-        garant_neprednasi = garant_neprednasi.with_columns(
-            prednasejici.list.contains(garant).alias("containBool")
-        )
-
-        aggregation = (
-            garant_neprednasi.lazy().group_by("identifier").agg(
-                #pl.col("identifier"),
-                pl.when(pl.col("containBool") == False).then(garant)
-            ).with_columns(garant.list.drop_nulls()).filter(garant.list.len() > 0)
-        )
-
-        return aggregation.collect().join(garant_neprednasi.select("katedra", "zkratka","prednasejiciUcitIdno", "identifier", "jednotekPrednasek"), "identifier", "left").drop("identifier")
-
-    garant_neprednasi_csv = prep_csv(garant_doesnt_lecture())
-    # garant_neprednasi_csv.write_csv(".\\results_csv\\garant_neprednasi"+name_mod+".csv", separator=";")
-    # uac.convert(".\\results_csv\\garant_neprednasi"+name_mod+".csv")
+    garant_neprednasi_csv = prep_csv(spi.garant_doesnt_lecture(predmety_s_akci))
     save_df_to_file(garant_neprednasi_csv, ".\\results_csv\\garant_neprednasi"+name_mod, file_format)
 
     #TODO: Nová varianta funkce, nutno pořádně otestovat. Mělo by teď snad fungovat líp
     def all_no_scheduled_events():
-        # Alternativní přístup přes agregaci?
-        def no_scheduled_events(sought_field:str):
-            variant = f"{sought_field}UcitIdno"
-            period_trans = {
-                "prednasejici":"Př",
-                "cvicici":"Cv",
-                "seminarici":"Se"
-            }
-
-            # Nový způsob:
-            # - Vyfiltruj dané akce (např. cvičení), seskup podle identifieru ({katedra}/{zkratka}) a agreguj podle idčka
-            # - Spoj tabulky pomocí left joinu (elementy z pravé tabulky jsou nalepeny na levou, ponechány i řádky na které nebylo nic dáno) přes identifier, nech pouze řádky které nejsou identické se sylabem
-            # - Exploduj idčka ze sylabu a nech všechna která nejsou v agregovaných id z rozvrhu 
-            small_sf_events = maly_rozvrh.filter(pl.col("typAkceZkr") == period_trans[sought_field]).lazy().group_by(pl.col("identifier")).agg(pl.col("idno")).collect().select("identifier", pl.col("idno").list.unique())
-            #print(small_sf_events.head())
-            #print(male_predmety.columns)
-            discordant = male_predmety.join(small_sf_events, "identifier", "left")
-            print(discordant.head())
-            discordant = discordant.filter(pl.col("idno") != pl.col(variant)).with_columns(pl.col(variant).alias("uciteleBezHodin"))
-            print(discordant.head())
-            discordant = discordant.explode("uciteleBezHodin").filter(pl.col("uciteleBezHodin").is_in(pl.col("idno")).not_()).join(ciselnik_ucitelu.rename({"idno":"uciteleBezHodin"}), "uciteleBezHodin", how="left")
-            print(discordant.head())
-            return discordant.select("katedra", "zkratka", sought_field, variant, "idno", "uciteleBezHodin", "jmena")
-
-        # ---
-        # def no_scheduled_events(sought_field:str):
-        #     """Finds all instances where a teacher in syllabus is not responsible for any events in the schedule of a period."""
-        #     st_id = sought_field + "UcitIdno"
-        #     filtrovani_prednasejici = male_predmety.select("nazev", "katedra", "zkratka", st_id).explode(st_id)
-        #     prednasejici_jmena = male_predmety.select(sought_field).rename({sought_field:"jmena"}).with_columns(pl.col("jmena").str.strip_chars().str.split("', ")).explode("jmena")
-        #     prednasejici_jmena = prednasejici_jmena.with_columns(pl.col("jmena").str.replace(",", "")) # Why?
-        #     filtrovani_prednasejici = filtrovani_prednasejici.with_columns(prednasejici_jmena).filter(
-        #         pl.col(st_id).is_not_null()
-        #     ).with_columns(
-        #         pl.col(st_id).alias("idno")
-        #     )
-
-        #     joined_prednasejici = filtrovani_prednasejici.join(maly_rozvrh, "idno", "left")
-        #     prednasejici_bez_prednasek = joined_prednasejici.filter(pl.col("typAkceZkr").is_null())
-        #     return prednasejici_bez_prednasek.select("katedra", "zkratka", "nazev", st_id, "jmena").sort(st_id)
-        
         fields = [("prednasejici", "prednasejici_bez_prednasek"), ("cvicici", "cvicici_bez_cviceni"), ("seminarici", "seminarici_bez_seminare")]
         for field in fields:
-            cur_res = no_scheduled_events(field[0])
-            save_df_to_file(cur_res, f".\\results_csv\\{field[1]}{name_mod}", file_format)
-        
-        # prednasky = no_scheduled_events("prednasejici")
-        # prep_csv(prednasky).write_csv(".\\results_csv\\prednasejici_bez_prednasek"+name_mod+".csv", separator=";")
-        # uac.convert(".\\results_csv\\prednasejici_bez_prednasek"+name_mod+".csv")
-
-        # cviceni = no_scheduled_events("cvicici")
-        # prep_csv(cviceni).write_csv(".\\results_csv\\cvicici_bez_cviceni"+name_mod+".csv", separator=";")
-        # uac.convert(".\\results_csv\\cvicici_bez_cviceni"+name_mod+".csv")
-
-        # seminare = no_scheduled_events("seminarici")
-        # prep_csv(seminare).write_csv(".\\results_csv\\seminarici_bez_seminare"+name_mod+".csv", separator=";")
-        # uac.convert(".\\results_csv\\seminarici_bez_seminare"+name_mod+".csv")
+            cur_res = spi.no_scheduled_events(maly_rozvrh, male_predmety, ciselnik_ucitelu, field[0])
+            save_df_to_file(cur_res, f".\\results_csv\\{field[1]}{name_mod}", file_format) 
 
     all_no_scheduled_events()
 
     def all_not_in_sylabus():
-        def not_in_sylabus(sought_field:str, abbriviation:str):
-            """Searches through scheduled events to finds all teacher who are not in syllabus."""
-            st_id = sought_field + "UcitIdno"
-            male_prednasky = maly_rozvrh.filter(pl.col("typAkceZkr") == abbriviation)
-            joined_prednasky = male_prednasky.join(male_predmety.select("zkratka", "katedra", "nazev", sought_field, st_id), "zkratka", "left").unique()
-            prednasky_bez_prednasejicich = joined_prednasky.filter(pl.col("idno").is_in(pl.col(st_id)).not_() & ((pl.col("katedra") == pl.col("katedra_right")) | pl.col("katedra_right").is_null()))
-
-            return prednasky_bez_prednasejicich.join(ciselnik_ucitelu, "idno", "left").with_columns(pl.col(st_id).cast(pl.List(pl.Utf8)).list.join(", ")).sort("zkratka")
-        
         fields = [("prednasejici", "Př", "prednasky_bez_prednasejicich"), ("cvicici", "Cv", "cviceni_bez_cvicich"), ("seminarici", "Se", "seminare_bez_seminaricich")]
         for field in fields:
-            cur_res = not_in_sylabus(sought_field=field[0], abbriviation=field[1])
+            cur_res = spi.not_in_sylabus(maly_rozvrh, male_predmety, ciselnik_ucitelu, sought_field=field[0], abbriviation=field[1])
             save_df_to_file(cur_res, f".\\results_csv\\{field[2]}{name_mod}", file_format)
-        
-        # prednasky = not_in_sylabus(sought_field="prednasejici", abbriviation="Př")
-        # prep_csv(prednasky).write_csv(".\\results_csv\\prednasky_bez_prednasejicich"+name_mod+".csv", separator=";")
-        # uac.convert(".\\results_csv\\prednasky_bez_prednasejicich"+name_mod+".csv")
-
-        # cviceni = not_in_sylabus(sought_field="cvicici", abbriviation="Cv")
-        # prep_csv(cviceni).write_csv(".\\results_csv\\cviceni_bez_cvicich"+name_mod+".csv", separator=";")
-        # uac.convert(".\\results_csv\\cviceni_bez_cvicich"+name_mod+".csv")
-
-        # seminare = not_in_sylabus(sought_field="seminarici", abbriviation="Se")
-        # prep_csv(seminare).write_csv(".\\results_csv\\seminare_bez_seminaricich"+name_mod+".csv", separator=";")
-        # uac.convert(".\\results_csv\\seminare_bez_seminaricich"+name_mod+".csv")
 
     all_not_in_sylabus()
 
