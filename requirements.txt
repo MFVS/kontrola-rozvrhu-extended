@@ -1,5 +1,5 @@
 streamlit==1.32.0
-polars
+polars-lts-cpu
 requests
 python-dotenv
 pandas
