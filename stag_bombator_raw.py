@@ -153,7 +153,7 @@ def send_the_bomb(search_type:str, search_target:str, stag_username:str, user_ti
     # Modifikátor jmen ukládaných souborů
     name_mod = "_"+stag_username
 
-    rozvrh_by_kat = format_rozvrhy(names["rozvrhy"]).filter(pl.col("ucitIdno") != "")
+    rozvrh_by_kat = format_rozvrhy(names["rozvrhy"])
     predmety_by_kat = format_predmety(names["predmety"])
 
     # Vynechání nevalidních předmětů/rozvrhových akcí (pokud předmět nemá žádné korespondující rozvrhové akce a naopak)

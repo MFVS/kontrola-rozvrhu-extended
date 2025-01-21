@@ -1,29 +1,80 @@
 katedra;zkratka;idno;typAkceZkr;rok;datumOd;datumDo;hodinaSkutOd;hodinaSkutDo;katedra_right;nazev;seminarici;seminariciUcitIdno;jmena
-KMA;HIM;261;Se;2024;17.2.2025;12.5.2025;09:00;09:50;KMA;Historie matematiky;'PhDr. Magdalena Krátká, Ph.D.';425;Eisenmann Petr, doc. PaedDr. CSc.
-KI;KAFJ;449;Se;2024;"";"";00:00;00:00;KI;Teorie automatù a formálních jazykù;"";;Barilla Jiøí, doc. Ing. Mgr. CSc.
-KMA;KCAS;2220;Se;2024;"";"";00:00;00:00;KMA;Èasové øady;'Mgr. Alena Èerníková, MSc., Ph.D.', 'Mgr. Lucie Loukotová';9488, 3188;Škvor Jiøí, RNDr. Ph.D.
-KMA;KHIM;261;Se;2024;9.5.2025;9.5.2025;09:00;12:50;KMA;Historie matematiky;'PhDr. Magdalena Krátká, Ph.D.';425;Eisenmann Petr, doc. PaedDr. CSc.
-KI;KKRSP;9907;Se;2024;"";"";00:00;00:00;KI;Komplexní reflektivní semináø praxe;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.
-KMA;KLTX;5205;Se;2024;7.3.2025;7.3.2025;09:00;12:50;KMA;Úvod do Latexu;'PhDr. Jiøí Pøibyl, Ph.D.';267;Lacková Veronika, RNDr. Ph.D.
-KMA;KLTX;5205;Se;2024;4.4.2025;4.4.2025;09:00;12:50;KMA;Úvod do Latexu;'PhDr. Jiøí Pøibyl, Ph.D.';267;Lacková Veronika, RNDr. Ph.D.
-KMA;KLTX;5205;Se;2024;2.5.2025;2.5.2025;09:00;12:50;KMA;Úvod do Latexu;'PhDr. Jiøí Pøibyl, Ph.D.';267;Lacková Veronika, RNDr. Ph.D.
-KMA;KMSB;8987;Se;2024;21.2.2025;21.2.2025;14:00;15:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
-KMA;KMSB;8987;Se;2024;4.4.2025;4.4.2025;14:00;15:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
-KMA;KMSB;8987;Se;2024;2.5.2025;2.5.2025;14:00;17:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
-KMA;KOPM;267;Se;2024;25.4.2025;25.4.2025;09:00;12:50;KMA;Odborné prezentace v matematice;'doc. PaedDr. Petr Eisenmann, CSc.';261;Pøibyl Jiøí, PhDr. Ph.D.
-KI;KPDSA;251;Se;2024;7.12.2024;7.12.2024;11:00;12:50;KI;Pokroèilé datové struktury a algoritmy;"";;Fišer Jiøí, Mgr. Ph.D.
-KI;KPNUM;650;Se;2024;"";"";00:00;00:00;KI;Pokroèilé numerické metody;"";;Kubera Petr, RNDr. Ph.D.
-KI;KPNUM;2220;Se;2024;14.12.2024;14.12.2024;14:00;14:50;KI;Pokroèilé numerické metody;"";;Škvor Jiøí, RNDr. Ph.D.
-KI;KPPP;9907;Se;2024;4.10.2024;3.1.2025;12:00;14:50;KI;Prùbìžná pedagogická praxe;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.
-KI;KPSPN;9907;Se;2024;4.10.2024;3.1.2025;11:00;11:50;KI;Pøípravný semináø k pedagogické praxi;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.
-KI;KPYR;6259;Se;2024;4.1.2025;4.1.2025;11:00;12:50;KI;Python and R for Data Science;"";;Škvára Jiøí, RNDr. Ph.D.
-KI;KSP3;6259;Se;2024;"";"";00:00;00:00;KI;Semestrální projekt III;'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';650, 3521, 2220;Škvára Jiøí, RNDr. Ph.D.
-KI;KZPS;2776;Se;2024;21.12.2024;21.12.2024;11:00;12:50;KI;Základy poèítaèových sítí a protokolù;"";;Krejèí Jan, RNDr. Ph.D.
-KMA;LTX;5205;Se;2024;20.2.2025;15.5.2025;16:00;17:50;KMA;Úvod do Latexu;'PhDr. Jiøí Pøibyl, Ph.D.';267;Lacková Veronika, RNDr. Ph.D.
-KMA;MSB;8987;Se;2024;"";"";00:00;00:00;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
-KMA;MSB;8987;Se;2024;18.2.2025;13.5.2025;14:00;15:50;KMA;Matematický semináø;'RNDr. Veronika Lacková, Ph.D.';5205;Bazaykin Yaroslav, doc. CSc., DSc.
-KMA;OPM;3188;Se;2024;18.2.2025;13.5.2025;07:00;07:50;KMA;Odborné prezentace v matematice;'doc. PaedDr. Petr Eisenmann, CSc.', 'PhDr. Jiøí Pøibyl, Ph.D.';261, 267;Loukotová Lucie, Mgr.
-KI;OSIT;6973;Se;2024;28.2.2025;9.5.2025;16:00;17:50;KI;Odborný semináø IT;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Jan Krejèí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiøí Škvor, Ph.D.';251, 2776, 2239, 2220;Beránek Pavel, Ing. Mgr.
-KI;PPP;9907;Se;2024;4.10.2024;3.1.2025;12:00;14:50;KI;Prùbìžná pedagogická praxe;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.
-KMA;PSPP;263;Se;2024;17.2.2025;12.5.2025;15:00;15:50;KMA;Pøípravný semináø k pedagogické praxi;'PhDr. Magdalena Krátká, Ph.D.';425;Hofmanová Pavla, Mgr.
-KI;PSPPN;9907;Se;2024;4.10.2024;3.1.2025;11:00;11:50;KI;Pøípravný semináø k pedagogické praxi;'RNDr. Jan Krejèí, Ph.D.';2776;Janèík Tomáš, Mgr.
+KI;DIPL1;2220;Se;2023;5.10.2023;4.1.2024;17:00;17:50;KI;Diplomový semináø I;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;DPS1;2220;Se;2023;25.10.2023;20.12.2023;16:00;16:50;KI;Diplomový semináø I;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;DPS2;2220;Se;2023;21.2.2024;24.4.2024;19:00;19:50;KI;Diplomový semináø II;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;IKT;835;Se;2023;3.10.2023;2.1.2024;10:00;11:50;KI;Informaèní a komunikaèní technologie;'Ing. Pavel Kuba, Ph.D.';2317;Sýkorová Kvìtuše, Mgr.
+KI;IKT;449;Se;2023;5.10.2023;4.1.2024;08:00;09:50;KI;Informaèní a komunikaèní technologie;'Ing. Pavel Kuba, Ph.D.';2317;Barilla Jiøí, doc. Ing. Mgr. CSc.
+KI;IKT;835;Se;2023;3.10.2023;2.1.2024;12:00;13:50;KI;Informaèní a komunikaèní technologie;'Ing. Pavel Kuba, Ph.D.';2317;Sýkorová Kvìtuše, Mgr.
+KI;IKT;835;Se;2023;2.10.2023;18.12.2023;14:00;15:50;KI;Informaèní a komunikaèní technologie;'Ing. Pavel Kuba, Ph.D.';2317;Sýkorová Kvìtuše, Mgr.
+KI;IKT;835;Se;2023;3.10.2023;2.1.2024;14:00;15:50;KI;Informaèní a komunikaèní technologie;'Ing. Pavel Kuba, Ph.D.';2317;Sýkorová Kvìtuše, Mgr.
+KI;KAFJ;449;Se;2023;"";"";00:00;00:00;KI;Teorie automatù a formálních jazykù;"";;Barilla Jiøí, doc. Ing. Mgr. CSc.
+KI;KANE;5232;Se;2023;2.12.2023;2.12.2023;11:00;12:50;KI;Analogová elektronika;"";;Lustig František, doc. RNDr. CSc.
+KI;KAPR1;6259;Se;2023;"";"";00:00;00:00;KI;Algoritmizace a programování I;"";;Škvára Jiøí, RNDr. Ph.D.
+KI;KAPR2;6259;Se;2023;17.5.2024;17.5.2024;18:00;19:50;KI;Algoritmizace a programování II;"";;Škvára Jiøí, RNDr. Ph.D.
+KI;KCSY;1780;Se;2023;"";"";00:00;00:00;KI;Èíslicové systémy;"";;Haberzettl Petr, Ing.
+KI;KDI2;2776;Se;2023;10.5.2024;10.5.2024;13:00;13:50;KI;Didaktika informatiky II;"";;Krejèí Jan, RNDr. Ph.D.
+KI;KDI2;2776;Se;2023;10.5.2024;10.5.2024;16:00;16:50;KI;Didaktika informatiky II;"";;Krejèí Jan, RNDr. Ph.D.
+KI;KDIB;2776;Se;2023;11.5.2024;11.5.2024;09:00;10:50;KI;Datová a informaèní bezpeènost;"";;Krejèí Jan, RNDr. Ph.D.
+KI;KDINB;2776;Se;2023;11.5.2024;11.5.2024;09:00;10:50;KI;Datová a informaèní bezpeènost;"";;Krejèí Jan, RNDr. Ph.D.
+KI;KDIP1;2220;Se;2023;14.10.2023;14.10.2023;13:00;13:50;KI;Diplomový semináø I;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KDIP1;2220;Se;2023;"";"";00:00;00:00;KI;Diplomový semináø I;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KDIP2;2220;Se;2023;6.4.2024;6.4.2024;11:00;11:50;KI;Diplomový semináø II;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KDIP2;2220;Se;2023;6.4.2024;6.4.2024;12:00;12:50;KI;Diplomový semináø II;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KDPS1;2220;Se;2023;"";"";00:00;00:00;KI;Diplomový semináø I;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KDPS1;2220;Se;2023;14.10.2023;14.10.2023;14:00;14:50;KI;Diplomový semináø I;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KIKT;835;Se;2023;11.11.2023;11.11.2023;16:00;17:50;KI;Informaèní a komunikaèní technologie;'Ing. Pavel Kuba, Ph.D.';2317;Sýkorová Kvìtuše, Mgr.
+KI;KIKT;835;Se;2023;2.12.2023;2.12.2023;10:00;13:50;KI;Informaèní a komunikaèní technologie;'Ing. Pavel Kuba, Ph.D.';2317;Sýkorová Kvìtuše, Mgr.
+KI;KITP;2776;Se;2023;18.5.2024;18.5.2024;16:00;17:50;KI;Internetové technologie a protokoly;"";;Krejèí Jan, RNDr. Ph.D.
+KI;KODT;6973;Se;2023;"";"";00:00;00:00;KI;Open Data;"";;Beránek Pavel, Ing. Mgr.
+KI;KODT;251;Se;2023;"";"";00:00;00:00;KI;Open Data;"";;Fišer Jiøí, Mgr. Ph.D.
+KI;KODT;2220;Se;2023;"";"";00:00;00:00;KI;Open Data;"";;Škvor Jiøí, RNDr. Ph.D.
+KI;KOOD;6973;Se;2023;2.12.2023;2.12.2023;16:00;17:50;KI;Objektovì orientovaný návrh;"";;Beránek Pavel, Ing. Mgr.
+KI;KOONV;6973;Se;2023;"";"";00:00;00:00;KI;Objektovì orientované návrhové vzory;"";;Beránek Pavel, Ing. Mgr.
+KI;KOPS;1165;Se;2023;"";"";00:00;00:00;KI;Operaèní systémy;"";;Balín Kamil, Mgr.
+KI;KOTT;650;Se;2023;13.4.2024;13.4.2024;12:00;12:50;KI;Optimalizace;"";;Kubera Petr, RNDr. Ph.D.
+KI;KOTT;9114;Se;2023;11.5.2024;11.5.2024;15:00;15:50;KI;Optimalizace;"";;Moosaei Hossein, Dr. Ph.D.
+KI;KPAR;3521;Se;2023;"";"";00:00;00:00;KI;Parallel Programming;"";;Posel Zbyšek, doc. RNDr. Ph.D.
+KI;KPCA;2317;Se;2023;3.12.2023;3.12.2023;14:00;15:50;KI;Architektura poèítaèù;"";;Kuba Pavel, Ing. Ph.D.
+KI;KPDSA;251;Se;2023;6.1.2024;6.1.2024;17:00;18:50;KI;Pokroèilé datové struktury a algoritmy;"";;Fišer Jiøí, Mgr. Ph.D.
+KI;KPEK;7352;Se;2023;26.11.2023;26.11.2023;11:00;12:50;KI;Podniková ekonomika;"";;Zimová Štìpánka, Ing.
+KI;KPNUM;2220;Se;2023;6.1.2024;6.1.2024;14:00;14:50;KI;Pokroèilé numerické metody;"";;Škvor Jiøí, RNDr. Ph.D.
+KI;KPNUM;650;Se;2023;"";"";00:00;00:00;KI;Pokroèilé numerické metody;"";;Kubera Petr, RNDr. Ph.D.
+KI;KPRI;9642;Se;2023;"";"";00:00;00:00;KI;Programování pro internet;"";;Burle Jan, Ing. Ph.D.
+KI;KPS2;5958;Se;2023;"";"";00:00;00:00;KI;Projektový semináø II;'RNDr. Jiøí Škvor, Ph.D.';2220;Svoboda Martin, Mgr. Ph.D.
+KI;KPSE;2776;Se;2023;17.12.2023;17.12.2023;16:00;17:50;KI;Poèítaèové sítì;"";;Krejèí Jan, RNDr. Ph.D.
+KI;KRDBS;835;Se;2023;"";"";00:00;00:00;KI;Relaèní databázové systémy;"";;Sýkorová Kvìtuše, Mgr.
+KMA;KSBP;261;Se;2023;10.11.2023;10.11.2023;09:00;12:50;KMA;Semináø k bakaláøské práci;'RNDr. Martin Kuøil, Ph.D.';264;Eisenmann Petr, doc. PaedDr. CSc.
+KI;KSBP1;2220;Se;2023;"";"";00:00;00:00;KI;Semináø k bakaláøské práci I;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KSBP1;2220;Se;2023;14.10.2023;14.10.2023;13:00;13:50;KI;Semináø k bakaláøské práci I;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KSBP2;2220;Se;2023;6.4.2024;6.4.2024;11:00;11:50;KI;Semináø k bakaláøské práci II;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KSBP2;2220;Se;2023;6.4.2024;6.4.2024;12:00;12:50;KI;Semináø k bakaláøské práci II;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KSBP2;2220;Se;2023;"";"";00:00;00:00;KI;Semináø k bakaláøské práci II;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;KSOC;6973;Se;2023;"";"";00:00;00:00;KI;Soft Computing;"";;Beránek Pavel, Ing. Mgr.
+KI;KSP2;6259;Se;2023;13.3.2024;15.5.2024;13:00;14:50;KI;Semestrální projekt II;'doc. Ing. Mgr. Jiøí Barilla, CSc.', 'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Jan Krejèí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';449, 251, 2776, 650, 3521, 2220;Škvára Jiøí, RNDr. Ph.D.
+KI;KSP2;6259;Se;2023;13.3.2024;15.5.2024;17:00;18:50;KI;Semestrální projekt II;'doc. Ing. Mgr. Jiøí Barilla, CSc.', 'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Jan Krejèí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';449, 251, 2776, 650, 3521, 2220;Škvára Jiøí, RNDr. Ph.D.
+KI;KTZI2;267;Se;2023;12.5.2024;12.5.2024;11:00;12:50;KI;Teoretické základy informatiky II;"";;Pøibyl Jiøí, PhDr. Ph.D.
+KI;KURDB;251;Se;2023;"";"";00:00;00:00;KI;Úvod do relaèních databází;"";;Fišer Jiøí, Mgr. Ph.D.
+KI;KURDB;835;Se;2023;"";"";00:00;00:00;KI;Úvod do relaèních databází;"";;Sýkorová Kvìtuše, Mgr.
+KI;KZEL;1780;Se;2023;"";"";00:00;00:00;KI;Základy elektroniky;"";;Haberzettl Petr, Ing.
+KI;KZKB;835;Se;2023;"";"";00:00;00:00;KI;Základy kyberbezpeènosti;"";;Sýkorová Kvìtuše, Mgr.
+KI;KZPS;2776;Se;2023;25.11.2023;25.11.2023;12:00;12:50;KI;Základy poèítaèových sítí a protokolù;"";;Krejèí Jan, RNDr. Ph.D.
+KI;KZPS;2776;Se;2023;25.11.2023;25.11.2023;13:00;13:50;KI;Základy poèítaèových sítí a protokolù;"";;Krejèí Jan, RNDr. Ph.D.
+KI;NOP;2220;Se;2023;"";"";00:00;00:00;KI;Odborná praxe;'doc. RNDr. Mgr. Viktor Maškov, DrSc.';2239;Škvor Jiøí, RNDr. Ph.D.
+KI;ODT;6973;Se;2023;"";"";00:00;00:00;KI;Open Data;'Mgr. Martin Dolejš, Ph.D.', 'Mgr. Jiøí Fišer, Ph.D.';4303, 251;Beránek Pavel, Ing. Mgr.
+KI;ODT;2220;Se;2023;"";"";00:00;00:00;KI;Open Data;'Mgr. Martin Dolejš, Ph.D.', 'Mgr. Jiøí Fišer, Ph.D.';4303, 251;Škvor Jiøí, RNDr. Ph.D.
+KI;OSIT;6973;Se;2023;1.3.2024;10.5.2024;16:00;17:50;KI;Odborný semináø IT;'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Jan Krejèí, Ph.D.', 'doc. RNDr. Mgr. Viktor Maškov, DrSc.', 'RNDr. Jiøí Škvor, Ph.D.';251, 2776, 2239, 2220;Beránek Pavel, Ing. Mgr.
+KI;PAP;9292;Se;2023;5.3.2024;14.5.2024;15:00;16:50;KI;Prùmyslová automatizace v praxi;"";;
+KI;PAR;3521;Se;2023;"";"";00:00;00:00;KI;Parallel Programming;"";;Posel Zbyšek, doc. RNDr. Ph.D.
+KI;PREP;6973;Se;2023;9.5.2024;9.5.2024;15:00;16:50;KI;Prezentace projektu;'RNDr. Jiøí Škvor, Ph.D.';2220;Beránek Pavel, Ing. Mgr.
+KI;PS1;6973;Se;2023;5.10.2023;4.1.2024;18:00;18:50;KI;Projektový semináø I;'RNDr. Jiøí Škvor, Ph.D.';2220;Beránek Pavel, Ing. Mgr.
+KI;PS2;6259;Se;2023;1.3.2024;26.4.2024;12:00;12:50;KI;Projektový semináø II;'RNDr. Jiøí Škvor, Ph.D.';2220;Škvára Jiøí, RNDr. Ph.D.
+KI;PS2;251;Se;2023;1.3.2024;26.4.2024;12:00;12:50;KI;Projektový semináø II;'RNDr. Jiøí Škvor, Ph.D.';2220;Fišer Jiøí, Mgr. Ph.D.
+KI;PS2;6973;Se;2023;"";"";00:00;00:00;KI;Projektový semináø II;'RNDr. Jiøí Škvor, Ph.D.';2220;Beránek Pavel, Ing. Mgr.
+KI;PS2;6259;Se;2023;23.2.2024;17.5.2024;12:00;13:50;KI;Projektový semináø II;'RNDr. Jiøí Škvor, Ph.D.';2220;Škvára Jiøí, RNDr. Ph.D.
+KI;PS2;251;Se;2023;23.2.2024;17.5.2024;12:00;13:50;KI;Projektový semináø II;'RNDr. Jiøí Škvor, Ph.D.';2220;Fišer Jiøí, Mgr. Ph.D.
+KI;PS2;251;Se;2023;"";"";00:00;00:00;KI;Projektový semináø II;'RNDr. Jiøí Škvor, Ph.D.';2220;Fišer Jiøí, Mgr. Ph.D.
+KI;PS2;2776;Se;2023;"";"";00:00;00:00;KI;Projektový semináø II;'RNDr. Jiøí Škvor, Ph.D.';2220;Krejèí Jan, RNDr. Ph.D.
+KI;PS2;5958;Se;2023;"";"";00:00;00:00;KI;Projektový semináø II;'RNDr. Jiøí Škvor, Ph.D.';2220;Svoboda Martin, Mgr. Ph.D.
+KI;SBP1;2220;Se;2023;5.10.2023;4.1.2024;17:00;17:50;KI;Semináø k bakaláøské práci I;'Mgr. Jiøí Fišer, Ph.D.';251;Škvor Jiøí, RNDr. Ph.D.
+KI;SP2;6259;Se;2023;22.2.2024;16.5.2024;09:00;11:50;KI;Semestrální projekt II;'doc. Ing. Mgr. Jiøí Barilla, CSc.', 'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Jan Krejèí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';449, 251, 2776, 650, 3521, 2220;Škvára Jiøí, RNDr. Ph.D.
+KI;SP2;6259;Se;2023;23.2.2024;17.5.2024;16:00;18:50;KI;Semestrální projekt II;'doc. Ing. Mgr. Jiøí Barilla, CSc.', 'Mgr. Jiøí Fišer, Ph.D.', 'RNDr. Jan Krejèí, Ph.D.', 'RNDr. Petr Kubera, Ph.D.', 'doc. RNDr. Zbyšek Posel, Ph.D.', 'RNDr. Jiøí Škvor, Ph.D.';449, 251, 2776, 650, 3521, 2220;Škvára Jiøí, RNDr. Ph.D.

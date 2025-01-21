@@ -127,7 +127,7 @@ def default_year() -> str:
         return yearmod
 # --- EXPERIMENTÁLNÍ ---
     else:
-        return datetime.today().year - st.session_state["year"] - yearmod
+        return datetime.today().year - st.session_state["year"] + (1 - yearmod)
 
 # Pokračování zápisu do stavu sezení.
 read_query_params()
