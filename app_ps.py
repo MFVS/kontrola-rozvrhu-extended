@@ -173,7 +173,7 @@ with login_container:
     st.caption(login_message)
     #Tlačítko
     st.write(f'''
-            <a target="_self" href="https://ws.ujep.cz/ws/login?originalURL=http://localhost:8501">
+            <a target="_self" href="https://ws.ujep.cz/ws/login?originalURL=https://kontrola-stag-alfa.streamlit.app/">
                 <button>
                     {login_button_mess}
                 </button>
