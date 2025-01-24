@@ -19,14 +19,15 @@ chyby_translator = {
 
 import pandas as pd
 import streamlit as st
+suffix = "." + st.session_state["output_format"].lower()
 chyby = [name for name in st.session_state["wishes"].keys() if st.session_state["wishes"][name] == True]
-file_names = [f".\\results_csv\\"+chyby_translator[chyba]+"_"+st.session_state["stagRoleName"]+".csv" for chyba in chyby]
+file_names = [f".\\results_csv\\"+chyby_translator[chyba]+"_"+st.session_state["stagRoleName"]+suffix for chyba in chyby]
 
 def zip_it_up():
     import zipfile
     storage = zipfile.ZipFile(f"zips/Chyby v rozvrhu {st.session_state["stagRoleName"]}.zip", mode="w") 
     for index, file in enumerate(file_names):
-        storage.write(file, chyby[index]+".csv", compress_type=zipfile.ZIP_STORED)
+        storage.write(file, chyby[index]+suffix, compress_type=zipfile.ZIP_STORED)
 
     storage.close()
 
