@@ -3,3 +3,4 @@ polars-lts-cpu
 requests
 python-dotenv
 pandas
+xlsxwriter
